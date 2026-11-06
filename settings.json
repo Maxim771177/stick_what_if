@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && git fetch -q origin main 2>/dev/null && (git merge -q --no-edit origin/main 2>/dev/null || git merge --abort 2>/dev/null); true"
+          }
+        ]
+      }
+    ]
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "ponytail@ponytail": true
+  }
+}

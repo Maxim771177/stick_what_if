@@ -1,0 +1,35 @@
+# Всё, что сессии Claude пушат в свои ветки claude/*, сразу вливается в main,
+# чтобы другие сессии (и папка на Mac) видели новые правила, скилы и ролики.
+name: Сразу в main
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-to-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Влить ветку в main
+        run: |
+          git config core.quotepath false
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "${GITHUB_REF_NAME}"
+          if ! git merge --no-edit "origin/${GITHUB_REF_NAME}"; then
+            echo "::error::Конфликт при слиянии ${GITHUB_REF_NAME} в main — нужно разобрать вручную"
+            git merge --abort
+            exit 1
+          fi
+          git push origin main
