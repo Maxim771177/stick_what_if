@@ -1,0 +1,86 @@
+{
+ "title": "Object Toons Demo",
+ "duration": 17.0,
+ "shots": [
+  {
+   "id": "t001",
+   "start": 0,
+   "end": 5.0,
+   "line": "What if the Sun suddenly disappeared?",
+   "scene": "space: talking Sun, smiling Earth, Moon orbiting; title",
+   "set": "space",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "t002",
+   "start": 5.0,
+   "end": 9.0,
+   "line": "Earth would notice in just eight minutes.",
+   "scene": "close-up Earth looks at the Sun, worried, then shocked; Moon bounces in",
+   "set": "space",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "t003",
+   "start": 9.0,
+   "end": 13.0,
+   "line": "The Sun holds almost all the mass of the solar system.",
+   "scene": "Jupiter and Saturn bob, big counter 99.8%",
+   "set": "space",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "counter",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "t004",
+   "start": 13.0,
+   "end": 17.0,
+   "line": "Let's find out why.",
+   "scene": "lab: kid presenter points at a talking water drop",
+   "set": "lab",
+   "in": {
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 17.0,
+   "mood": "playful",
+   "intensity": 0.5
+  }
+ ]
+}

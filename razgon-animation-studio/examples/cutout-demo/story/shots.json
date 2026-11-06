@@ -1,0 +1,96 @@
+{
+ "title": "Cartoon Cutout Demo",
+ "duration": 16.0,
+ "shots": [
+  {
+   "id": "c001",
+   "start": 0,
+   "end": 4.5,
+   "line": "Meet Ray. Ray just got his first real paycheck.",
+   "scene": "living room: Ray walks in and stops, waves, talks",
+   "set": "home",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "c002",
+   "start": 4.5,
+   "end": 8.0,
+   "line": "And he already knows exactly how to spend it.",
+   "scene": "close-up Ray talking, happy then shocked",
+   "set": "home",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "c003",
+   "start": 8.0,
+   "end": 12.0,
+   "line": "His boss has other news.",
+   "scene": "office: boss idle then angry (sprite swap with a bounce), Ray sad",
+   "set": "office",
+   "in": {
+    "type": "liquid"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "c004",
+   "start": 12.0,
+   "end": 16.0,
+   "line": "So here is the plan that actually works.",
+   "scene": "Ray points at a glowing savings jar, +$1,000 pill",
+   "set": "home",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 16.0,
+   "mood": "playful",
+   "intensity": 0.45
+  }
+ ]
+}

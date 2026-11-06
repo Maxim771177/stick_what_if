@@ -1,0 +1,114 @@
+{
+ "title": "Map Story Demo",
+ "duration": 22.0,
+ "shots": [
+  {
+   "id": "m001",
+   "start": 0,
+   "end": 4.5,
+   "line": "Day one. Forty-four countries are still standing.",
+   "scene": "world map flies into Europe, DAY 1 header, countries-left counter",
+   "set": "world",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "m002",
+   "start": 4.5,
+   "end": 9.0,
+   "line": "France and Germany are the first to react.",
+   "scene": "Europe: France and Germany countryballs bounce in on their flags, info box",
+   "set": "europe",
+   "in": {
+    "type": "push"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "m003",
+   "start": 9.0,
+   "end": 14.0,
+   "line": "Over the centuries, one empire keeps growing.",
+   "scene": "merged region grows country by country, year counter ticks, face on the empire",
+   "set": "empire",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 2.4,
+     "name": "impact",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "m004",
+   "start": 14.0,
+   "end": 18.5,
+   "line": "Ships leave Lisbon and cross the Atlantic.",
+   "scene": "globe rotates west, route draws from Lisbon to Salvador",
+   "set": "globe",
+   "in": {
+    "type": "whip"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "m005",
+   "start": 18.5,
+   "end": 22.0,
+   "line": "Only one will survive.",
+   "scene": "close-up Poland ball in a helmet, shocked then determined, ONLY 1 SURVIVES pill",
+   "set": "studio",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "stinger",
+     "gain": -8
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 22.0,
+   "mood": "tension",
+   "intensity": 0.5
+  }
+ ]
+}

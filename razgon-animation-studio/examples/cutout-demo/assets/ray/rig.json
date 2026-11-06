@@ -1,0 +1,195 @@
+{
+ "name": "Ray",
+ "mode": "parts",
+ "height": 600,
+ "shadow": 44,
+ "parts": {
+  "torso": {
+   "file": "torso.svg",
+   "from": [
+    65,
+    12
+   ],
+   "to": [
+    65,
+    196
+   ]
+  },
+  "head": {
+   "file": "head.svg",
+   "from": [
+    80,
+    196
+   ],
+   "to": [
+    86,
+    24
+   ],
+   "scale": 1.35
+  },
+  "armUpperF": {
+   "file": "arm_upper.svg",
+   "from": [
+    24,
+    22
+   ],
+   "to": [
+    24,
+    96
+   ]
+  },
+  "armLowerF": {
+   "file": "arm_lower.svg",
+   "from": [
+    20,
+    16
+   ],
+   "to": [
+    20,
+    94
+   ]
+  },
+  "handF": {
+   "file": "hand.svg",
+   "from": [
+    26,
+    8
+   ],
+   "to": [
+    26,
+    44
+   ]
+  },
+  "armUpperB": {
+   "file": "arm_upper.svg",
+   "from": [
+    24,
+    22
+   ],
+   "to": [
+    24,
+    96
+   ],
+   "dark": 0.18
+  },
+  "armLowerB": {
+   "file": "arm_lower.svg",
+   "from": [
+    20,
+    16
+   ],
+   "to": [
+    20,
+    94
+   ],
+   "dark": 0.18
+  },
+  "handB": {
+   "file": "hand.svg",
+   "from": [
+    26,
+    8
+   ],
+   "to": [
+    26,
+    44
+   ],
+   "dark": 0.18
+  },
+  "legUpperF": {
+   "file": "leg_upper.svg",
+   "from": [
+    28,
+    18
+   ],
+   "to": [
+    28,
+    132
+   ]
+  },
+  "legLowerF": {
+   "file": "leg_lower.svg",
+   "from": [
+    25,
+    14
+   ],
+   "to": [
+    25,
+    134
+   ]
+  },
+  "footF": {
+   "file": "foot.svg",
+   "from": [
+    24,
+    12
+   ],
+   "to": [
+    24,
+    60
+   ]
+  },
+  "legUpperB": {
+   "file": "leg_upper.svg",
+   "from": [
+    28,
+    18
+   ],
+   "to": [
+    28,
+    132
+   ],
+   "dark": 0.18
+  },
+  "legLowerB": {
+   "file": "leg_lower.svg",
+   "from": [
+    25,
+    14
+   ],
+   "to": [
+    25,
+    134
+   ],
+   "dark": 0.18
+  },
+  "footB": {
+   "file": "foot.svg",
+   "from": [
+    24,
+    12
+   ],
+   "to": [
+    24,
+    60
+   ],
+   "dark": 0.18
+  }
+ },
+ "face": {
+  "eyesAt": [
+   104,
+   98
+  ],
+  "mouthAt": [
+   116,
+   146
+  ],
+  "eyes": {
+   "open": "eyes_open.svg",
+   "wide": "eyes_wide.svg",
+   "closed": "eyes_closed.svg",
+   "happy": "eyes_happy.svg",
+   "angry": "eyes_angry.svg",
+   "sad": "eyes_sad.svg"
+  },
+  "mouth": {
+   "closed": "mouth_closed.svg",
+   "smile": "mouth_smile.svg",
+   "open": "mouth_open.svg",
+   "mid": "mouth_mid.svg",
+   "frown": "mouth_frown.svg",
+   "o": "mouth_o.svg"
+  }
+ }
+}

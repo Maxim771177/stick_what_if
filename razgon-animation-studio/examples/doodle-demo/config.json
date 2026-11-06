@@ -1,0 +1,18 @@
+{
+ "title": "How Did We Learn to Count",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "stylePack": "doodle",
+ "style": "clean",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 24.0,
+ "captions": false,
+ "bars": null,
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {"enabled": true, "gainDb": -18},
+ "sfx": {"enabled": true, "gainDb": -6},
+ "loudness": -14
+}

@@ -1,0 +1,152 @@
+{
+  "id": "doodle",
+  "name": "Doodle Explainer",
+  "version": 1,
+  "description": "Big-headed doodle people with thick outlines and stick limbs on flat, nearly empty backgrounds; marker-pen titles, hand-drawn icons, arrows and thought bubbles. Clean, paper or sketchy line.",
+  "characters": {"family": "doodle", "head": 1.25, "limb": 1},
+  "fonts": {
+    "title": {
+      "family": "Permanent Marker",
+      "faces": [{"weight": "100 900", "src": "@fontsource/permanent-marker/files/permanent-marker-latin-400-normal.woff2"}]
+    },
+    "ui": {"family": "Patrick Hand", "faces": [{"weight": "100 900", "src": "@fontsource/patrick-hand/files/patrick-hand-latin-400-normal.woff2"}]},
+    "serif": {"family": "Caveat", "faces": [{"weight": "100 900", "src": "@fontsource/caveat/files/caveat-latin-700-normal.woff2"}]}
+  },
+  "defaults": {"bars": "none"},
+  "defaultVariant": "clean",
+  "defaultMood": "plain",
+  "ui": {
+    "card": "rgba(255,255,255,.96)",
+    "cardLine": "#161616",
+    "text": "#161616",
+    "sub": "#5a5650",
+    "accent": "#e4572e",
+    "gold": "#f6b93b",
+    "cream": "#fffaf0",
+    "blueprint": "#3d7ea6",
+    "bpBg": "#fbf8f1",
+    "good": "#4caf50"
+  },
+  "moods": {
+    "plain": {
+      "bg": "#fbf8f1",
+      "sky": ["#fbf8f1", "#fbf8f1"],
+      "ground": "#e9dfcb",
+      "grass": "#8db05c",
+      "wall": "#efe6d6",
+      "floor": "#d8c3a0",
+      "prop": "#c98b4a",
+      "dark": "#3b3632"
+    },
+    "savanna": {
+      "bg": "#cfe8f2",
+      "sky": ["#bfe3f0", "#e4f3f7"],
+      "ground": "#e3c98f",
+      "grass": "#8db05c",
+      "wall": "#d9c49a",
+      "floor": "#e3c98f",
+      "prop": "#a9733f",
+      "dark": "#6b5a44"
+    },
+    "cave": {
+      "bg": "#f6dca6",
+      "sky": ["#f6dca6", "#f6dca6"],
+      "ground": "#54463b",
+      "grass": "#6f7d4a",
+      "wall": "#6e5c4d",
+      "floor": "#54463b",
+      "prop": "#a9733f",
+      "dark": "#3a3029"
+    },
+    "night": {
+      "bg": "#2e3a5c",
+      "sky": ["#26314f", "#3b4a70"],
+      "ground": "#4a4a3a",
+      "grass": "#3f5a3a",
+      "wall": "#3a4466",
+      "floor": "#2f3550",
+      "prop": "#8a6a4a",
+      "dark": "#1b2036"
+    },
+    "interior": {
+      "bg": "#f3e8d6",
+      "sky": ["#bfe3f0", "#e4f3f7"],
+      "ground": "#c9a77c",
+      "grass": "#8db05c",
+      "wall": "#f3e8d6",
+      "floor": "#c9a77c",
+      "prop": "#8a5a34",
+      "dark": "#5b4636"
+    },
+    "board": {
+      "bg": "#fbf8f1",
+      "sky": ["#fbf8f1", "#fbf8f1"],
+      "ground": "#e9dfcb",
+      "grass": "#8db05c",
+      "wall": "#fbf8f1",
+      "floor": "#e9dfcb",
+      "prop": "#3d7ea6",
+      "dark": "#161616"
+    }
+  },
+  "variants": {
+    "clean": {
+      "name": "Clean Marker",
+      "desc": "Crisp thick black outlines, white faces, off-white backgrounds, bright flat accents. Barely any wobble.",
+      "ink": "#161616",
+      "inkFar": "#161616",
+      "feature": "#161616",
+      "skin": "#ffffff",
+      "rimWidth": 3,
+      "contactShadow": 0.1,
+      "line": {"width": 6, "wobble": 0.5, "boil": 0},
+      "ui": {},
+      "grade": {"contrast": 1.0, "sat": 1.0, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0, "bloom": 0.2, "paper": 0},
+      "moods": {}
+    },
+    "paper": {
+      "name": "Paper Sketchbook",
+      "desc": "Warm paper texture, softer brown-black ink with a hand-drawn wobble, muted sage / ochre / beige palette.",
+      "ink": "#2b2621",
+      "inkFar": "#2b2621",
+      "feature": "#2b2621",
+      "skin": "#fbf3e4",
+      "rimWidth": 3,
+      "contactShadow": 0.08,
+      "line": {"width": 5.5, "wobble": 1.6, "boil": 0},
+      "ui": {"accent": "#c8553d", "gold": "#d9a441", "text": "#2b2621", "cardLine": "#2b2621"},
+      "grade": {
+        "contrast": 0.97,
+        "sat": 0.86,
+        "lift": [0.03, 0.025, 0.015],
+        "gamma": [1, 1, 1],
+        "gain": [1, 0.99, 0.96],
+        "vignette": 0.12,
+        "grain": 0.02,
+        "bloom": 0.2,
+        "paper": 0.55
+      },
+      "moods": {
+        "plain": {"bg": "#efe5d0", "ground": "#e2d4b6"},
+        "savanna": {"bg": "#dfe4d2", "sky": ["#d5dfcf", "#e9ebdc"], "ground": "#d6bf8e", "grass": "#9aab74"},
+        "cave": {"bg": "#efd9ad", "wall": "#7a6857", "floor": "#5f5145"},
+        "interior": {"bg": "#efe2c9", "wall": "#efe2c9", "floor": "#c7a983"},
+        "board": {"bg": "#efe5d0"}
+      }
+    },
+    "sketch": {
+      "name": "Living Sketch",
+      "desc": "Graphite-grey pencil line that gently re-draws itself (line boil) on white paper; lively, handmade feel.",
+      "ink": "#33302d",
+      "inkFar": "#33302d",
+      "feature": "#33302d",
+      "skin": "#ffffff",
+      "rimWidth": 3,
+      "contactShadow": 0.07,
+      "line": {"width": 5, "wobble": 2.0, "boil": 6},
+      "ui": {"text": "#33302d", "cardLine": "#33302d"},
+      "grade": {"contrast": 1.0, "sat": 0.95, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0.015, "bloom": 0.2, "paper": 0.3},
+      "moods": {"plain": {"bg": "#ffffff"}, "board": {"bg": "#ffffff"}}
+    }
+  }
+}

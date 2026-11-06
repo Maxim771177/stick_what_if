@@ -1,0 +1,118 @@
+{
+  "id": "map-story",
+  "name": "Map Story",
+  "version": 1,
+  "description": "Animated map stories: flat world maps that fly and zoom, countries and empires that grow, routes that draw on, countryballs with flags and faces, ticking year / population counters and a game-like HUD.",
+  "characters": {"family": "faceobj", "eyes": "ball", "mouth": true},
+  "fonts": {
+    "title": {
+      "family": "Baloo 2",
+      "faces": [
+        {"weight": "700", "src": "@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2"},
+        {"weight": "800", "src": "@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2"}
+      ]
+    },
+    "ui": {
+      "family": "Nunito",
+      "faces": [
+        {"weight": "800", "src": "@fontsource/nunito/files/nunito-latin-800-normal.woff2"},
+        {"weight": "900", "src": "@fontsource/nunito/files/nunito-latin-900-normal.woff2"}
+      ]
+    },
+    "serif": {"family": "Caveat", "faces": [{"weight": "100 900", "src": "@fontsource/caveat/files/caveat-latin-700-normal.woff2"}]},
+    "hud": {"family": "Press Start 2P", "faces": [{"weight": "100 900", "src": "@fontsource/press-start-2p/files/press-start-2p-latin-400-normal.woff2"}]}
+  },
+  "defaults": {"bars": "none"},
+  "defaultVariant": "classic",
+  "defaultMood": "map",
+  "ui": {
+    "card": "rgba(11,15,24,.78)",
+    "cardLine": "rgba(255,255,255,.25)",
+    "text": "#ffffff",
+    "sub": "#c9d3e0",
+    "accent": "#e4572e",
+    "gold": "#ffd23f",
+    "cream": "#fff7e6",
+    "blueprint": "#7fb8e6",
+    "bpBg": "#0f1d33",
+    "good": "#5fd39a"
+  },
+  "moods": {
+    "map": {"bg": "#9fd3e6", "ground": "#f2e6c9", "accent": "#e4572e", "dark": "#1f2a36"},
+    "studio": {"bg": "#e9f2f7", "ground": "#cfdde6", "accent": "#e4572e", "dark": "#1f2a36"},
+    "night": {"bg": "#101a2e", "ground": "#1e2b44", "accent": "#ff5d5d", "dark": "#070b14"}
+  },
+  "variants": {
+    "classic": {
+      "name": "Classic Atlas",
+      "desc": "Light blue sea, warm cream land, white borders, bright flags; clean and friendly.",
+      "ink": "#1b1f27",
+      "inkFar": "#1b1f27",
+      "feature": "#1b1f27",
+      "rimWidth": 3,
+      "contactShadow": 0.16,
+      "line": {"width": 5, "wobble": 0, "boil": 0},
+      "ui": {},
+      "map": {"sea": "#9fd3e6", "land": "#f2e6c9", "border": "#ffffff", "coast": "#2b3a4a", "borderWidth": 1.6, "coastWidth": 2.4, "label": "#1f2a36"},
+      "grade": {"contrast": 1.0, "sat": 1.0, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0, "bloom": 0.2, "paper": 0},
+      "moods": {}
+    },
+    "dark": {
+      "name": "War Room",
+      "desc": "Dark navy sea, slate land, glowing borders and red alerts — for wars, outbreaks, survival scenarios.",
+      "ink": "#05070c",
+      "inkFar": "#05070c",
+      "feature": "#05070c",
+      "rimWidth": 3,
+      "contactShadow": 0.3,
+      "line": {"width": 5, "wobble": 0, "boil": 0},
+      "ui": {"accent": "#ff4d4d", "gold": "#ffd23f"},
+      "map": {"sea": "#0e1830", "land": "#2a3550", "border": "#4f6a96", "coast": "#7fa6e0", "borderWidth": 1.4, "coastWidth": 2, "label": "#e8f0ff"},
+      "grade": {
+        "contrast": 1.05,
+        "sat": 1.05,
+        "lift": [0, 0.01, 0.03],
+        "gamma": [1, 1, 1],
+        "gain": [1, 1, 1.03],
+        "vignette": 0.35,
+        "grain": 0.02,
+        "bloom": 0.3,
+        "paper": 0
+      },
+      "moods": {"map": {"bg": "#0e1830", "ground": "#2a3550"}, "studio": {"bg": "#131c33", "ground": "#1e2944"}}
+    },
+    "parchment": {
+      "name": "Old Parchment",
+      "desc": "Sepia sea and paper land with a paper texture — for history and evolution-of-empire videos.",
+      "ink": "#3a2a1a",
+      "inkFar": "#3a2a1a",
+      "feature": "#3a2a1a",
+      "rimWidth": 3,
+      "contactShadow": 0.14,
+      "line": {"width": 5, "wobble": 0.8, "boil": 0},
+      "ui": {"accent": "#b5442c", "gold": "#e2b13c"},
+      "map": {
+        "sea": "#c9b48a",
+        "land": "#efe1bf",
+        "border": "#b09466",
+        "coast": "#5a4228",
+        "borderWidth": 1.4,
+        "coastWidth": 2.2,
+        "label": "#3a2a1a",
+        "labelFont": "Caveat"
+      },
+      "grade": {
+        "contrast": 0.98,
+        "sat": 0.85,
+        "lift": [0.03, 0.02, 0],
+        "gamma": [1, 1, 1],
+        "gain": [1, 0.98, 0.92],
+        "vignette": 0.3,
+        "grain": 0.02,
+        "bloom": 0.2,
+        "paper": 0.45
+      },
+      "moods": {"map": {"bg": "#c9b48a", "ground": "#efe1bf"}, "studio": {"bg": "#e8d9b5", "ground": "#d8c49a"}}
+    }
+  }
+}

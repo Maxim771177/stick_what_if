@@ -1,0 +1,1194 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 1.74,
+  "text": "The teacher is still reading the instructions.",
+  "end": 1.59
+ },
+ {
+  "i": 1,
+  "start": 1.59,
+  "speechStart": 1.74,
+  "speechEnd": 7.36,
+  "text": "Sixty minutes, no calculators, do not turn the page until I say start.",
+  "end": 8.09
+ },
+ {
+  "i": 2,
+  "start": 8.09,
+  "speechStart": 8.24,
+  "speechEnd": 9.24,
+  "text": "You turn the page.",
+  "end": 9.69
+ },
+ {
+  "i": 3,
+  "start": 9.69,
+  "speechStart": 9.84,
+  "speechEnd": 15.16,
+  "text": "By the time she looks up, the test is finished, all fifty questions, and your pencil is back behind your ear.",
+  "end": 16.19
+ },
+ {
+  "i": 4,
+  "start": 16.19,
+  "speechStart": 16.34,
+  "speechEnd": 20.06,
+  "text": "\"Leon, I haven't said start.\" \"Yeah. I'm just waiting for the others.\"",
+  "end": 20.95
+ },
+ {
+  "i": 5,
+  "start": 20.95,
+  "speechStart": 21.1,
+  "speechEnd": 22.56,
+  "text": "Somebody in the back drops an eraser.",
+  "end": 22.41
+ },
+ {
+  "i": 6,
+  "start": 22.41,
+  "speechStart": 22.56,
+  "speechEnd": 25.54,
+  "text": "And that was the easy part.",
+  "end": 26.77
+ },
+ {
+  "i": 7,
+  "start": 26.77,
+  "speechStart": 26.92,
+  "speechEnd": 32.04,
+  "text": "So, what if you had an IQ of nine thousand nine hundred and ninety-nine?",
+  "end": 31.89
+ },
+ {
+  "i": 8,
+  "start": 31.89,
+  "speechStart": 32.04,
+  "speechEnd": 33.38,
+  "text": "Quick reality check first.",
+  "end": 33.73
+ },
+ {
+  "i": 9,
+  "start": 33.73,
+  "speechStart": 33.88,
+  "speechEnd": 38.92,
+  "text": "Real tests stop at around one hundred and sixty, because nobody above that has ever been measured well.",
+  "end": 39.29
+ },
+ {
+  "i": 10,
+  "start": 39.29,
+  "speechStart": 39.44,
+  "speechEnd": 46.62,
+  "text": "So your number doesn't just beat the scale, it breaks it. That's the fun part. Here's how it works. Rule one.",
+  "end": 46.47
+ },
+ {
+  "i": 11,
+  "start": 46.47,
+  "speechStart": 46.62,
+  "speechEnd": 49.32,
+  "text": "IQ isn't a pile of points, it's a rank.",
+  "end": 49.79
+ },
+ {
+  "i": 12,
+  "start": 49.79,
+  "speechStart": 49.94,
+  "speechEnd": 53.96,
+  "text": "The average person gets one hundred, and every fifteen points is one step up.",
+  "end": 54.41
+ },
+ {
+  "i": 13,
+  "start": 54.41,
+  "speechStart": 54.56,
+  "speechEnd": 58.42,
+  "text": "Even a genius at one hundred and sixty is only four steps above average.",
+  "end": 58.89
+ },
+ {
+  "i": 14,
+  "start": 58.89,
+  "speechStart": 59.04,
+  "speechEnd": 61.28,
+  "text": "You're about six hundred and sixty steps up.",
+  "end": 61.33
+ },
+ {
+  "i": 15,
+  "start": 61.33,
+  "speechStart": 61.48,
+  "speechEnd": 66.06,
+  "text": "You're not winning the race, you're in a different sport. Rule two.",
+  "end": 65.91
+ },
+ {
+  "i": 16,
+  "start": 65.91,
+  "speechStart": 66.06,
+  "speechEnd": 67.5,
+  "text": "Your head is the same size.",
+  "end": 68.05
+ },
+ {
+  "i": 17,
+  "start": 68.05,
+  "speechStart": 68.2,
+  "speechEnd": 72.24,
+  "text": "Same brain, same fuel, a fifth of your body's energy, from the same sandwiches.",
+  "end": 72.71
+ },
+ {
+  "i": 18,
+  "start": 72.71,
+  "speechStart": 72.86,
+  "speechEnd": 76.1,
+  "text": "You didn't get a bigger battery, you got a much better program.",
+  "end": 77.05
+ },
+ {
+  "i": 19,
+  "start": 77.05,
+  "speechStart": 77.2,
+  "speechEnd": 78.8,
+  "text": "Rule three.",
+  "end": 78.65
+ },
+ {
+  "i": 20,
+  "start": 78.65,
+  "speechStart": 78.8,
+  "speechEnd": 81.22,
+  "text": "You think instantly, but your body doesn't.",
+  "end": 81.53
+ },
+ {
+  "i": 21,
+  "start": 81.53,
+  "speechStart": 81.68,
+  "speechEnd": 83.74,
+  "text": "Same hands, same legs, same nerves,",
+  "end": 83.85
+ },
+ {
+  "i": 22,
+  "start": 83.85,
+  "speechStart": 84.0,
+  "speechEnd": 90.48,
+  "text": "and a nerve signal tops out around four hundred kilometres an hour, about two hundred and fifty miles an hour. Fast for a body.",
+  "end": 90.87
+ },
+ {
+  "i": 23,
+  "start": 90.87,
+  "speechStart": 91.02,
+  "speechEnd": 93.64,
+  "text": "Slow for you. And one limit.",
+  "end": 94.09
+ },
+ {
+  "i": 24,
+  "start": 94.09,
+  "speechStart": 94.24,
+  "speechEnd": 95.9,
+  "text": "You can't know what you've never seen.",
+  "end": 96.33
+ },
+ {
+  "i": 25,
+  "start": 96.33,
+  "speechStart": 96.48,
+  "speechEnd": 100.96,
+  "text": "You can work out almost anything from almost nothing, but you're a mind, not a search engine.",
+  "end": 101.43
+ },
+ {
+  "i": 26,
+  "start": 101.43,
+  "speechStart": 101.58,
+  "speechEnd": 107.72,
+  "text": "Ask you about a country you've never heard of, and you'll guess its capital from the climate and the shape of the map. You'll probably be right.",
+  "end": 107.89
+ },
+ {
+  "i": 27,
+  "start": 107.89,
+  "speechStart": 108.04,
+  "speechEnd": 110.8,
+  "text": "But it's still a guess. Plus.",
+  "end": 111.31
+ },
+ {
+  "i": 28,
+  "start": 111.31,
+  "speechStart": 111.46,
+  "speechEnd": 115.18,
+  "text": "Homework takes nine seconds, and six of those are you looking for a pencil.",
+  "end": 115.81
+ },
+ {
+  "i": 29,
+  "start": 115.81,
+  "speechStart": 115.96,
+  "speechEnd": 117.82,
+  "text": "Plus, you finish the teacher's sentences.",
+  "end": 118.11
+ },
+ {
+  "i": 30,
+  "start": 118.11,
+  "speechStart": 118.26,
+  "speechEnd": 121.74,
+  "text": "Not the short ones, the long ones, the ones with three commas.",
+  "end": 121.83
+ },
+ {
+  "i": 31,
+  "start": 121.83,
+  "speechStart": 121.98,
+  "speechEnd": 123.68,
+  "text": "Plus, Saturday at the grocery store.",
+  "end": 124.13
+ },
+ {
+  "i": 32,
+  "start": 124.13,
+  "speechStart": 124.28,
+  "speechEnd": 127.26,
+  "text": "You look at the crowd once, and you see the shortest path through it,",
+  "end": 127.21
+ },
+ {
+  "i": 33,
+  "start": 127.21,
+  "speechStart": 127.36,
+  "speechEnd": 133.72,
+  "text": "the checkout line that will actually move, and the guy who's about to turn his cart without looking. You're out in three minutes.",
+  "end": 134.25
+ },
+ {
+  "i": 34,
+  "start": 134.25,
+  "speechStart": 134.4,
+  "speechEnd": 138.08,
+  "text": "Mom is still looking for a parking spot. Plus, languages.",
+  "end": 138.73
+ },
+ {
+  "i": 35,
+  "start": 138.73,
+  "speechStart": 138.88,
+  "speechEnd": 142.72,
+  "text": "You learn Spanish on the bus, and by the third stop you're correcting the driver's grammar.",
+  "end": 143.33
+ },
+ {
+  "i": 36,
+  "start": 143.33,
+  "speechStart": 143.48,
+  "speechEnd": 145.12,
+  "text": "Plus, checkers with Grandpa.",
+  "end": 145.57
+ },
+ {
+  "i": 37,
+  "start": 145.57,
+  "speechStart": 145.72,
+  "speechEnd": 148.98,
+  "text": "Every Sunday for years, and he's never lost.",
+  "end": 149.55
+ },
+ {
+  "i": 38,
+  "start": 149.55,
+  "speechStart": 149.7,
+  "speechEnd": 151.64,
+  "text": "Until you win in six moves.",
+  "end": 152.01
+ },
+ {
+  "i": 39,
+  "start": 152.01,
+  "speechStart": 152.16,
+  "speechEnd": 156.64,
+  "text": "Then you let him win the next game, because you're not a monster. He knows.",
+  "end": 157.21
+ },
+ {
+  "i": 40,
+  "start": 157.21,
+  "speechStart": 157.36,
+  "speechEnd": 161.84,
+  "text": "He pats your head and says, \"You're getting better.\" Best Sunday ever.",
+  "end": 162.81
+ },
+ {
+  "i": 41,
+  "start": 162.81,
+  "speechStart": 162.96,
+  "speechEnd": 166.96,
+  "text": "So far, nine thousand nine hundred and ninety-nine looks amazing.",
+  "end": 168.07
+ },
+ {
+  "i": 42,
+  "start": 168.07,
+  "speechStart": 168.22,
+  "speechEnd": 174.08,
+  "text": "But then you start noticing the problems. Problem one. You're hungry. All the time.",
+  "end": 174.53
+ },
+ {
+  "i": 43,
+  "start": 174.53,
+  "speechStart": 174.68,
+  "speechEnd": 178.64,
+  "text": "Your brain is two percent of your weight and already burns a fifth of your energy,",
+  "end": 179.07
+ },
+ {
+  "i": 44,
+  "start": 179.07,
+  "speechStart": 179.22,
+  "speechEnd": 182.06,
+  "text": "and yours is working harder than any brain ever has.",
+  "end": 182.09
+ },
+ {
+  "i": 45,
+  "start": 182.09,
+  "speechStart": 182.24,
+  "speechEnd": 187.48,
+  "text": "A normal brain barely spends more when it thinks hard, usually under five percent. Yours would.",
+  "end": 188.11
+ },
+ {
+  "i": 46,
+  "start": 188.11,
+  "speechStart": 188.26,
+  "speechEnd": 190.52,
+  "text": "So at ten fifteen, you're thinking about lunch.",
+  "end": 190.71
+ },
+ {
+  "i": 47,
+  "start": 190.71,
+  "speechStart": 190.86,
+  "speechEnd": 194.52,
+  "text": "At ten forty, you're thinking about a sandwich in extremely high resolution.",
+  "end": 194.97
+ },
+ {
+  "i": 48,
+  "start": 194.97,
+  "speechStart": 195.12,
+  "speechEnd": 198.44,
+  "text": "You can calculate its exact calories, and it doesn't help.",
+  "end": 198.83
+ },
+ {
+  "i": 49,
+  "start": 198.83,
+  "speechStart": 198.98,
+  "speechEnd": 204.4,
+  "text": "You even design a better lunch tray, with a built-in cup holder and a snack drawer. Nobody asked.",
+  "end": 205.17
+ },
+ {
+  "i": 50,
+  "start": 205.17,
+  "speechStart": 205.32,
+  "speechEnd": 212.04,
+  "text": "In the cafeteria, you eat your lunch, then your friend's lunch, then you stare at the lunch lady's apple. \"Leon, are you okay?\"",
+  "end": 212.53
+ },
+ {
+  "i": 51,
+  "start": 212.53,
+  "speechStart": 212.68,
+  "speechEnd": 213.38,
+  "text": "\"I'm thinking.\"",
+  "end": 214.05
+ },
+ {
+  "i": 52,
+  "start": 214.05,
+  "speechStart": 214.2,
+  "speechEnd": 217.92,
+  "text": "\"You look like you're going to eat my tray.\" The fix is boring.",
+  "end": 218.31
+ },
+ {
+  "i": 53,
+  "start": 218.31,
+  "speechStart": 218.46,
+  "speechEnd": 219.68,
+  "text": "You carry food everywhere.",
+  "end": 219.93
+ },
+ {
+  "i": 54,
+  "start": 219.93,
+  "speechStart": 220.08,
+  "speechEnd": 223.76,
+  "text": "Peanuts in your pocket, a banana under your cap, a granola bar behind your ear.",
+  "end": 224.05
+ },
+ {
+  "i": 55,
+  "start": 224.05,
+  "speechStart": 224.2,
+  "speechEnd": 230.42,
+  "text": "You're a walking snack bar, and you're not ashamed. Problem two. Your body is late.",
+  "end": 231.17
+ },
+ {
+  "i": 56,
+  "start": 231.17,
+  "speechStart": 231.32,
+  "speechEnd": 232.6,
+  "text": "A cup rolls off the table.",
+  "end": 232.95
+ },
+ {
+  "i": 57,
+  "start": 232.95,
+  "speechStart": 233.1,
+  "speechEnd": 234.62,
+  "text": "In your head, it already happened.",
+  "end": 234.85
+ },
+ {
+  "i": 58,
+  "start": 234.85,
+  "speechStart": 235.0,
+  "speechEnd": 240.42,
+  "text": "You know the speed, the angle, the exact spot where it lands, and you've planned seventeen ways to catch it.",
+  "end": 240.47
+ },
+ {
+  "i": 59,
+  "start": 240.47,
+  "speechStart": 240.62,
+  "speechEnd": 242.82,
+  "text": "Your hand arrives when the cup is already in pieces.",
+  "end": 242.67
+ },
+ {
+  "i": 60,
+  "start": 242.67,
+  "speechStart": 242.82,
+  "speechEnd": 248.24,
+  "text": "Four hundred kilometres an hour sounds fast, until your thoughts are faster.",
+  "end": 248.71
+ },
+ {
+  "i": 61,
+  "start": 248.71,
+  "speechStart": 248.86,
+  "speechEnd": 253.18,
+  "text": "So you're the smartest kid alive, and you're the clumsiest one in gym class.",
+  "end": 253.83
+ },
+ {
+  "i": 62,
+  "start": 253.83,
+  "speechStart": 253.98,
+  "speechEnd": 260.08,
+  "text": "You know exactly where the ball will land, and you're still standing there when it hits your shoe. \"Leon, move!\"",
+  "end": 260.53
+ },
+ {
+  "i": 63,
+  "start": 260.53,
+  "speechStart": 260.68,
+  "speechEnd": 262.92,
+  "text": "\"I'm calculating!\" \"It's a ball!\"",
+  "end": 263.57
+ },
+ {
+  "i": 64,
+  "start": 263.57,
+  "speechStart": 263.72,
+  "speechEnd": 265.44,
+  "text": "The fix is planning ahead.",
+  "end": 265.79
+ },
+ {
+  "i": 65,
+  "start": 265.79,
+  "speechStart": 265.94,
+  "speechEnd": 268.44,
+  "text": "You can't react faster, so you decide earlier.",
+  "end": 268.85
+ },
+ {
+  "i": 66,
+  "start": 268.85,
+  "speechStart": 269.0,
+  "speechEnd": 273.04,
+  "text": "You start moving before the cup falls. Sometimes it looks like magic.",
+  "end": 273.43
+ },
+ {
+  "i": 67,
+  "start": 273.43,
+  "speechStart": 273.58,
+  "speechEnd": 276.92,
+  "text": "Sometimes you're just holding a hand under a cup nobody dropped.",
+  "end": 277.95
+ },
+ {
+  "i": 68,
+  "start": 277.95,
+  "speechStart": 278.1,
+  "speechEnd": 281.66,
+  "text": "Last week you invented a better way to tie your shoes. In theory.",
+  "end": 282.09
+ },
+ {
+  "i": 69,
+  "start": 282.09,
+  "speechStart": 282.24,
+  "speechEnd": 287.12,
+  "text": "In practice, you're still wearing them on the wrong feet. Problem three. Sleep.",
+  "end": 287.53
+ },
+ {
+  "i": 70,
+  "start": 287.53,
+  "speechStart": 287.68,
+  "speechEnd": 291.94,
+  "text": "And this one is bigger than the others, so stay with me. You find a problem.",
+  "end": 292.11
+ },
+ {
+  "i": 71,
+  "start": 292.11,
+  "speechStart": 292.26,
+  "speechEnd": 294.12,
+  "text": "Not a school one, a real one,",
+  "end": 294.25
+ },
+ {
+  "i": 72,
+  "start": 294.25,
+  "speechStart": 294.4,
+  "speechEnd": 299.46,
+  "text": "a famous math problem nobody has solved in a hundred years, and you can feel the answer is close.",
+  "end": 300.09
+ },
+ {
+  "i": 73,
+  "start": 300.09,
+  "speechStart": 300.24,
+  "speechEnd": 301.76,
+  "text": "So you skip bedtime.",
+  "end": 301.89
+ },
+ {
+  "i": 74,
+  "start": 301.89,
+  "speechStart": 302.04,
+  "speechEnd": 308.92,
+  "text": "Why waste eight hours when your brain works this fast? Midnight. Two in the morning. Four. You're so close.",
+  "end": 309.25
+ },
+ {
+  "i": 75,
+  "start": 309.25,
+  "speechStart": 309.4,
+  "speechEnd": 311.64,
+  "text": "At three, you write a proof that looks beautiful.",
+  "end": 312.13
+ },
+ {
+  "i": 76,
+  "start": 312.13,
+  "speechStart": 312.28,
+  "speechEnd": 318.2,
+  "text": "At five, you notice the first line says two plus two is five. Here's what you don't know.",
+  "end": 318.55
+ },
+ {
+  "i": 77,
+  "start": 318.55,
+  "speechStart": 318.7,
+  "speechEnd": 321.3,
+  "text": "Sleep isn't a pause. Your brain is cleaning.",
+  "end": 321.75
+ },
+ {
+  "i": 78,
+  "start": 321.75,
+  "speechStart": 321.9,
+  "speechEnd": 324.88,
+  "text": "In a study from twenty thirteen in the journal Science, on mice,",
+  "end": 325.19
+ },
+ {
+  "i": 79,
+  "start": 325.19,
+  "speechStart": 325.34,
+  "speechEnd": 329.84,
+  "text": "researchers measured that the space between brain cells opens up by about sixty percent during sleep,",
+  "end": 330.17
+ },
+ {
+  "i": 80,
+  "start": 330.17,
+  "speechStart": 330.32,
+  "speechEnd": 334.92,
+  "text": "and that lets the brain wash out waste, including a protein linked to Alzheimer's.",
+  "end": 335.27
+ },
+ {
+  "i": 81,
+  "start": 335.27,
+  "speechStart": 335.42,
+  "speechEnd": 337.52,
+  "text": "Sleep is also when new memories get locked in.",
+  "end": 337.77
+ },
+ {
+  "i": 82,
+  "start": 337.77,
+  "speechStart": 337.92,
+  "speechEnd": 340.86,
+  "text": "In people, when you skip it, the memory centre, the hippocampus,",
+  "end": 341.11
+ },
+ {
+  "i": 83,
+  "start": 341.11,
+  "speechStart": 341.26,
+  "speechEnd": 345.26,
+  "text": "works worse at saving new things, even when you try hard to stay alert.",
+  "end": 345.81
+ },
+ {
+  "i": 84,
+  "start": 345.81,
+  "speechStart": 345.96,
+  "speechEnd": 351.62,
+  "text": "So at six in the morning, your genius brain has the answer on a napkin, and you can't read your own handwriting.",
+  "end": 352.43
+ },
+ {
+  "i": 85,
+  "start": 352.43,
+  "speechStart": 352.58,
+  "speechEnd": 359.38,
+  "text": "At seven, roll call. \"Leon?\" You open your mouth. Nothing. Not \"here\". Not your name. Nothing.",
+  "end": 359.83
+ },
+ {
+  "i": 86,
+  "start": 359.83,
+  "speechStart": 359.98,
+  "speechEnd": 360.46,
+  "text": "\"Leon?\"",
+  "end": 361.03
+ },
+ {
+  "i": 87,
+  "start": 361.03,
+  "speechStart": 361.18,
+  "speechEnd": 365.5,
+  "text": "The kid next to you whispers, \"That's you.\" \"Is it?\" That's the problem.",
+  "end": 365.89
+ },
+ {
+  "i": 88,
+  "start": 365.89,
+  "speechStart": 366.04,
+  "speechEnd": 371.42,
+  "text": "The fastest brain in the world, on zero sleep, is just a very fast, very confused brain.",
+  "end": 371.97
+ },
+ {
+  "i": 89,
+  "start": 371.97,
+  "speechStart": 372.12,
+  "speechEnd": 375.84,
+  "text": "The napkin, by the way, says \"check the thing.\" Nothing else.",
+  "end": 376.61
+ },
+ {
+  "i": 90,
+  "start": 376.61,
+  "speechStart": 376.76,
+  "speechEnd": 381.44,
+  "text": "The fix is the hardest one, because it isn't a trick. You sleep.",
+  "end": 381.79
+ },
+ {
+  "i": 91,
+  "start": 381.79,
+  "speechStart": 381.94,
+  "speechEnd": 385.12,
+  "text": "A full night, same time every night, like medicine.",
+  "end": 385.75
+ },
+ {
+  "i": 92,
+  "start": 385.75,
+  "speechStart": 385.9,
+  "speechEnd": 393.16,
+  "text": "Mom puts you to bed, and you can't argue, because you know she's right. You've seen the study. Problem four.",
+  "end": 393.01
+ },
+ {
+  "i": 93,
+  "start": 393.01,
+  "speechStart": 393.16,
+  "speechEnd": 396.54,
+  "text": "The quiet one. You tell your best friend a joke.",
+  "end": 396.59
+ },
+ {
+  "i": 94,
+  "start": 396.59,
+  "speechStart": 396.74,
+  "speechEnd": 402.62,
+  "text": "A good one, with four layers. He laughs at the first layer. You explain the other three. He stops laughing.",
+  "end": 403.05
+ },
+ {
+  "i": 95,
+  "start": 403.05,
+  "speechStart": 403.2,
+  "speechEnd": 404.86,
+  "text": "You explain why that's also funny.",
+  "end": 405.33
+ },
+ {
+  "i": 96,
+  "start": 405.33,
+  "speechStart": 405.48,
+  "speechEnd": 406.8,
+  "text": "He says he has to go home.",
+  "end": 407.37
+ },
+ {
+  "i": 97,
+  "start": 407.37,
+  "speechStart": 407.52,
+  "speechEnd": 413.52,
+  "text": "At lunch you sit alone with a book about black holes, and a kid asks what it's about. \"Everything,\" you say.",
+  "end": 413.99
+ },
+ {
+  "i": 98,
+  "start": 413.99,
+  "speechStart": 414.14,
+  "speechEnd": 418.66,
+  "text": "He nods politely and sits somewhere else. This part is real.",
+  "end": 419.19
+ },
+ {
+  "i": 99,
+  "start": 419.19,
+  "speechStart": 419.34,
+  "speechEnd": 420.64,
+  "text": "In nineteen forty-two,",
+  "end": 420.49
+ },
+ {
+  "i": 100,
+  "start": 420.49,
+  "speechStart": 420.64,
+  "speechEnd": 426.16,
+  "text": "the psychologist Leta Hollingworth wrote about twelve children with IQs above one hundred and eighty.",
+  "end": 426.01
+ },
+ {
+  "i": 101,
+  "start": 426.01,
+  "speechStart": 426.16,
+  "speechEnd": 431.14,
+  "text": "Her case studies found that kids that far ahead were hardly ever picked as leaders by their classmates,",
+  "end": 431.33
+ },
+ {
+  "i": 102,
+  "start": 431.33,
+  "speechStart": 431.48,
+  "speechEnd": 434.72,
+  "text": "and many struggled to make friends. Nobody was mean.",
+  "end": 434.93
+ },
+ {
+  "i": 103,
+  "start": 434.93,
+  "speechStart": 435.08,
+  "speechEnd": 437.0,
+  "text": "They were just on different pages of the same book.",
+  "end": 437.41
+ },
+ {
+  "i": 104,
+  "start": 437.41,
+  "speechStart": 437.56,
+  "speechEnd": 441.54,
+  "text": "And you're hundreds of pages ahead. There's no clean fix.",
+  "end": 442.05
+ },
+ {
+  "i": 105,
+  "start": 442.05,
+  "speechStart": 442.2,
+  "speechEnd": 443.68,
+  "text": "You learn to say smaller things.",
+  "end": 444.05
+ },
+ {
+  "i": 106,
+  "start": 444.05,
+  "speechStart": 444.2,
+  "speechEnd": 446.04,
+  "text": "You ask questions instead of answering them.",
+  "end": 446.35
+ },
+ {
+  "i": 107,
+  "start": 446.35,
+  "speechStart": 446.5,
+  "speechEnd": 450.76,
+  "text": "You let your friend win at video games, and sometimes it works. Not always.",
+  "end": 451.63
+ },
+ {
+  "i": 108,
+  "start": 451.63,
+  "speechStart": 451.78,
+  "speechEnd": 456.7,
+  "text": "And then one winter afternoon, all of it gets tested. December.",
+  "end": 457.01
+ },
+ {
+  "i": 109,
+  "start": 457.01,
+  "speechStart": 457.16,
+  "speechEnd": 458.8,
+  "text": "First ice on the pond behind your house.",
+  "end": 459.29
+ },
+ {
+  "i": 110,
+  "start": 459.29,
+  "speechStart": 459.44,
+  "speechEnd": 463.42,
+  "text": "Your little sister Nia is six, and she's wearing mittens with penguins on them.",
+  "end": 463.57
+ },
+ {
+  "i": 111,
+  "start": 463.57,
+  "speechStart": 463.72,
+  "speechEnd": 467.82,
+  "text": "One of them is lying out on the ice, twenty metres from the shore. About twenty-two yards.",
+  "end": 468.53
+ },
+ {
+  "i": 112,
+  "start": 468.53,
+  "speechStart": 468.68,
+  "speechEnd": 469.96,
+  "text": "She steps out to get it.",
+  "end": 470.65
+ },
+ {
+  "i": 113,
+  "start": 470.65,
+  "speechStart": 470.8,
+  "speechEnd": 472.36,
+  "text": "The ice makes a sound.",
+  "end": 472.79
+ },
+ {
+  "i": 114,
+  "start": 472.79,
+  "speechStart": 472.94,
+  "speechEnd": 477.18,
+  "text": "A long, low crack, like a door opening in a very big house.",
+  "end": 477.87
+ },
+ {
+  "i": 115,
+  "start": 477.87,
+  "speechStart": 478.02,
+  "speechEnd": 480.18,
+  "text": "And you know exactly what that means.",
+  "end": 480.95
+ },
+ {
+  "i": 116,
+  "start": 480.95,
+  "speechStart": 481.1,
+  "speechEnd": 487.02,
+  "text": "The rule of thumb is to stay off until there's at least four inches of clear ice, about ten centimetres.",
+  "end": 486.87
+ },
+ {
+  "i": 117,
+  "start": 486.87,
+  "speechStart": 487.02,
+  "speechEnd": 488.14,
+  "text": "This isn't that.",
+  "end": 488.67
+ },
+ {
+  "i": 118,
+  "start": 488.67,
+  "speechStart": 488.82,
+  "speechEnd": 490.38,
+  "text": "You can see it in the colour.",
+  "end": 490.23
+ },
+ {
+  "i": 119,
+  "start": 490.23,
+  "speechStart": 490.38,
+  "speechEnd": 495.9,
+  "text": "Your brain runs the numbers in one second, her weight, the ice, the distance, the time before the next crack.",
+  "end": 496.43
+ },
+ {
+  "i": 120,
+  "start": 496.43,
+  "speechStart": 496.58,
+  "speechEnd": 498.36,
+  "text": "And then rule three hits you.",
+  "end": 498.65
+ },
+ {
+  "i": 121,
+  "start": 498.65,
+  "speechStart": 498.8,
+  "speechEnd": 500.82,
+  "text": "Your legs won't get there in time.",
+  "end": 501.47
+ },
+ {
+  "i": 122,
+  "start": 501.47,
+  "speechStart": 501.62,
+  "speechEnd": 504.86,
+  "text": "And the limit hits you too. You've never seen a rescue.",
+  "end": 505.21
+ },
+ {
+  "i": 123,
+  "start": 505.21,
+  "speechStart": 505.36,
+  "speechEnd": 507.8,
+  "text": "You can guess one, but a guess is not good enough.",
+  "end": 508.27
+ },
+ {
+  "i": 124,
+  "start": 508.27,
+  "speechStart": 508.42,
+  "speechEnd": 510.48,
+  "text": "You could throw a coat, a stick, a snowball.",
+  "end": 510.95
+ },
+ {
+  "i": 125,
+  "start": 510.95,
+  "speechStart": 511.1,
+  "speechEnd": 517.14,
+  "text": "Your brain lists forty-one options in a blink, and every single one needs your arms to be faster than they are.",
+  "end": 517.57
+ },
+ {
+  "i": 126,
+  "start": 517.57,
+  "speechStart": 517.72,
+  "speechEnd": 518.94,
+  "text": "So you don't run.",
+  "end": 519.17
+ },
+ {
+  "i": 127,
+  "start": 519.17,
+  "speechStart": 519.32,
+  "speechEnd": 521.94,
+  "text": "You keep your voice calm. \"Nia.",
+  "end": 522.15
+ },
+ {
+  "i": 128,
+  "start": 522.15,
+  "speechStart": 522.3,
+  "speechEnd": 527.66,
+  "text": "Stay exactly where you are. Look at me. Don't move.\" She freezes.",
+  "end": 528.49
+ },
+ {
+  "i": 129,
+  "start": 528.49,
+  "speechStart": 528.64,
+  "speechEnd": 533.78,
+  "text": "Then you shout the smartest thing you've ever shouted. \"Help! Somebody! The pond!\"",
+  "end": 534.31
+ },
+ {
+  "i": 130,
+  "start": 534.31,
+  "speechStart": 534.46,
+  "speechEnd": 536.6,
+  "text": "A porch light turns on. Then another.",
+  "end": 536.97
+ },
+ {
+  "i": 131,
+  "start": 536.97,
+  "speechStart": 537.12,
+  "speechEnd": 538.96,
+  "text": "Then somebody's running with a coil of rope.",
+  "end": 539.39
+ },
+ {
+  "i": 132,
+  "start": 539.39,
+  "speechStart": 539.54,
+  "speechEnd": 545.76,
+  "text": "Three neighbours, all of them slower than your brain, all of them faster than your legs, and one of them has done this before.",
+  "end": 546.33
+ },
+ {
+  "i": 133,
+  "start": 546.33,
+  "speechStart": 546.48,
+  "speechEnd": 551.18,
+  "text": "You stand there with a clear head, because you ate, because you slept.",
+  "end": 551.45
+ },
+ {
+  "i": 134,
+  "start": 551.45,
+  "speechStart": 551.6,
+  "speechEnd": 554.86,
+  "text": "For the first time in your life, all that brainpower has one job.",
+  "end": 555.31
+ },
+ {
+  "i": 135,
+  "start": 555.31,
+  "speechStart": 555.46,
+  "speechEnd": 558.76,
+  "text": "Know when to call people. It takes four minutes.",
+  "end": 559.11
+ },
+ {
+  "i": 136,
+  "start": 559.11,
+  "speechStart": 559.26,
+  "speechEnd": 562.42,
+  "text": "A rope, a firm voice, and a neighbour who knows what he's doing.",
+  "end": 563.13
+ },
+ {
+  "i": 137,
+  "start": 563.13,
+  "speechStart": 563.28,
+  "speechEnd": 566.12,
+  "text": "Nia is back on the shore in a blanket, shaking, but fine.",
+  "end": 566.61
+ },
+ {
+  "i": 138,
+  "start": 566.61,
+  "speechStart": 566.76,
+  "speechEnd": 569.86,
+  "text": "\"I told you I'd get the mitten,\" she says. You look at the pond.",
+  "end": 570.31
+ },
+ {
+  "i": 139,
+  "start": 570.31,
+  "speechStart": 570.46,
+  "speechEnd": 571.88,
+  "text": "The mitten is still out there.",
+  "end": 572.37
+ },
+ {
+  "i": 140,
+  "start": 572.37,
+  "speechStart": 572.52,
+  "speechEnd": 573.8,
+  "text": "It stays there until spring.",
+  "end": 574.47
+ },
+ {
+  "i": 141,
+  "start": 574.47,
+  "speechStart": 574.62,
+  "speechEnd": 577.5,
+  "text": "Your brain solved a thousand problems this week.",
+  "end": 577.95
+ },
+ {
+  "i": 142,
+  "start": 577.95,
+  "speechStart": 578.1,
+  "speechEnd": 582.2,
+  "text": "Your sister solved the only one she cared about, and lost the mitten.",
+  "end": 583.63
+ },
+ {
+  "i": 143,
+  "start": 583.63,
+  "speechStart": 583.78,
+  "speechEnd": 585.36,
+  "text": "That night you go to bed on time.",
+  "end": 585.77
+ },
+ {
+  "i": 144,
+  "start": 585.77,
+  "speechStart": 585.92,
+  "speechEnd": 587.36,
+  "text": "You're asleep in nine seconds.",
+  "end": 588.09
+ },
+ {
+  "i": 145,
+  "start": 588.09,
+  "speechStart": 588.24,
+  "speechEnd": 593.9,
+  "text": "The next morning, there's a note on your desk, in handwriting you don't recognise. \"I saw your test.\"",
+  "end": 594.65
+ },
+ {
+  "i": 146,
+  "start": 594.65,
+  "speechStart": 594.8,
+  "speechEnd": 598.7,
+  "text": "So who saw it, and what do they want? That's next time.",
+  "end": 599.11
+ },
+ {
+  "i": 147,
+  "start": 599.11,
+  "speechStart": 599.26,
+  "speechEnd": 601.2,
+  "text": "What would you do with a mind like that?",
+  "end": 601.05
+ },
+ {
+  "i": 148,
+  "start": 601.05,
+  "speechStart": 601.2,
+  "speechEnd": 604.9,
+  "text": "Tell us in the comments, and subscribe, so you don't miss part two.",
+  "end": 606.4
+ }
+]
