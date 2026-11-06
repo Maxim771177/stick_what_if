@@ -1,0 +1,24 @@
+{
+ "title": "Cartoon Cutout Demo",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "stylePack": "cartoon-cutout",
+ "style": "sitcom",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 16.0,
+ "captions": false,
+ "bars": null,
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -18
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

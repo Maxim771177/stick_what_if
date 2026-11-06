@@ -1,0 +1,152 @@
+{
+  "id": "cartoon-cutout",
+  "name": "Cartoon Cutout",
+  "version": 1,
+  "description": "Detailed sitcom-style cartoon characters built from image parts (generated or drawn once, then animated like puppets) in outlined 2.5D rooms; lip-flap mouths, expression swaps, glowing highlights, bottom captions.",
+  "characters": {"family": "cutout"},
+  "fonts": {
+    "title": {
+      "family": "Montserrat",
+      "faces": [
+        {"weight": "800", "src": "@fontsource/montserrat/files/montserrat-latin-800-normal.woff2"},
+        {"weight": "900", "src": "@fontsource/montserrat/files/montserrat-latin-900-normal.woff2"}
+      ]
+    },
+    "ui": {
+      "family": "Montserrat",
+      "faces": [
+        {"weight": "700", "src": "@fontsource/montserrat/files/montserrat-latin-700-normal.woff2"},
+        {"weight": "800", "src": "@fontsource/montserrat/files/montserrat-latin-800-normal.woff2"},
+        {"weight": "900", "src": "@fontsource/montserrat/files/montserrat-latin-900-normal.woff2"}
+      ]
+    },
+    "serif": {"family": "Caveat", "faces": [{"weight": "100 900", "src": "@fontsource/caveat/files/caveat-latin-700-normal.woff2"}]}
+  },
+  "defaults": {"bars": "none"},
+  "defaultVariant": "sitcom",
+  "defaultMood": "home",
+  "ui": {
+    "card": "rgba(20,22,35,.82)",
+    "cardLine": "rgba(255,255,255,.2)",
+    "text": "#ffffff",
+    "sub": "#c9cbe0",
+    "accent": "#ff4d4d",
+    "gold": "#f2c94c",
+    "cream": "#fff8ec",
+    "blueprint": "#4c8fd6",
+    "bpBg": "#1e2433",
+    "good": "#3ccf6e"
+  },
+  "moods": {
+    "city": {
+      "sky": ["#8ec9f0", "#d9effa"],
+      "bg": "#cfe8f7",
+      "ground": "#9bc46a",
+      "wall": "#d9d3e8",
+      "floor": "#a98a6e",
+      "trim": "#b9b2cc",
+      "accent": "#e5484d",
+      "dark": "#2b2b35",
+      "buildings": ["#6f7fa6", "#8394bb", "#5d6c92", "#7a8bb0"]
+    },
+    "office": {
+      "sky": ["#8ec9f0", "#d9effa"],
+      "bg": "#e4e1ee",
+      "ground": "#9bc46a",
+      "wall": "#dcd7ea",
+      "floor": "#8f7a9e",
+      "trim": "#c4bdd8",
+      "accent": "#e5484d",
+      "dark": "#2b2b35",
+      "buildings": ["#7d8db0", "#95a3c2", "#6b7aa0", "#8a99bb"]
+    },
+    "home": {
+      "sky": ["#8ec9f0", "#d9effa"],
+      "bg": "#f3e6d3",
+      "ground": "#9bc46a",
+      "wall": "#f3d9a8",
+      "floor": "#9c6b44",
+      "trim": "#d9b880",
+      "accent": "#e5484d",
+      "dark": "#2b2b35",
+      "buildings": ["#c9a37a", "#b98b62", "#d9b48a", "#a87a52"]
+    },
+    "park": {
+      "sky": ["#86c5ef", "#dff2fb"],
+      "bg": "#cfe8f7",
+      "ground": "#8cc063",
+      "wall": "#d9d3e8",
+      "floor": "#8cc063",
+      "trim": "#7aae54",
+      "accent": "#e5484d",
+      "dark": "#2b2b35",
+      "buildings": ["#6f7fa6", "#8394bb", "#5d6c92", "#7a8bb0"]
+    },
+    "studio": {
+      "sky": ["#eceaf4", "#eceaf4"],
+      "bg": "#eceaf4",
+      "ground": "#d6d2e4",
+      "wall": "#eceaf4",
+      "floor": "#d6d2e4",
+      "trim": "#c9c4da",
+      "accent": "#e5484d",
+      "dark": "#2b2b35",
+      "buildings": ["#7d8db0", "#95a3c2", "#6b7aa0", "#8a99bb"]
+    },
+    "night": {
+      "sky": ["#1b2140", "#3a3f6e"],
+      "bg": "#20264a",
+      "ground": "#2f3a4a",
+      "wall": "#2e3456",
+      "floor": "#3a3550",
+      "trim": "#262b48",
+      "accent": "#ff5d5d",
+      "dark": "#0e1124",
+      "buildings": ["#2c3358", "#363e68", "#252b4c", "#3a4372"]
+    }
+  },
+  "variants": {
+    "sitcom": {
+      "name": "Sitcom",
+      "desc": "Saturated TV-cartoon colours, thick dark outlines on sets and props, flat cel shading.",
+      "ink": "#1b1b1b",
+      "inkFar": "#1b1b1b",
+      "feature": "#1b1b1b",
+      "skin": "#f2c09a",
+      "outline": 5,
+      "shade": 0.13,
+      "rimWidth": 3,
+      "contactShadow": 0.18,
+      "line": {"width": 5, "wobble": 0, "boil": 0},
+      "ui": {},
+      "grade": {"contrast": 1.0, "sat": 1.06, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0, "bloom": 0.2, "paper": 0},
+      "moods": {}
+    },
+    "muted": {
+      "name": "Muted Indie",
+      "desc": "Desaturated warm palette, slightly softer outlines, light grain — a calmer storytelling cartoon.",
+      "ink": "#2a2622",
+      "inkFar": "#2a2622",
+      "feature": "#2a2622",
+      "skin": "#e9bf9e",
+      "outline": 4,
+      "shade": 0.12,
+      "rimWidth": 3,
+      "contactShadow": 0.15,
+      "line": {"width": 4, "wobble": 0, "boil": 0},
+      "ui": {"accent": "#d9604c", "gold": "#e2b13c"},
+      "grade": {
+        "contrast": 0.98,
+        "sat": 0.82,
+        "lift": [0.02, 0.015, 0],
+        "gamma": [1, 1, 1],
+        "gain": [1, 0.99, 0.95],
+        "vignette": 0.15,
+        "grain": 0.03,
+        "bloom": 0.2,
+        "paper": 0
+      },
+      "moods": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+"title": "How Did We Learn to Count",
+"duration": 24.0,
+"shots": [
+ {"id": "d001", "start": 0, "end": 4.0, "line": "How did humans learn to count?", "scene": "title: narrator thinking, thought bubble with a question mark, marker title", "set": "board", "in": {"type": "cut"}, "sfx": [{"at": 0.5, "name": "pop", "gain": -10}, {"at": 1.2, "name": "pop", "gain": -12}]},
+ {"id": "d002", "start": 4.0, "end": 8.0, "line": "Forty thousand years ago, nobody had numbers.", "scene": "savanna wide: caveman walks in with a spear, date label pops", "set": "savanna", "in": {"type": "push", "dir": 1}, "sfx": [{"at": 0.6, "name": "pop", "gain": -10}], "amb": {"name": "wind", "gain": -28}},
+ {"id": "d003", "start": 8.0, "end": 10.5, "line": "So how do you keep track of anything?", "scene": "close-up caveman confused, question mark pops", "set": "savanna", "in": {"type": "cut"}, "sfx": [{"at": 0.9, "name": "blip", "gain": -10}]},
+ {"id": "d004", "start": 10.5, "end": 15.0, "line": "You scratch a line for every one.", "scene": "cave: caveman scratches tally marks on the wall by the fire", "set": "cave", "in": {"type": "cut"}, "sfx": [{"at": 1.0, "name": "tick", "gain": -12}], "amb": {"name": "roomtone", "gain": -26}},
+ {"id": "d005", "start": 15.0, "end": 19.5, "line": "And that simple idea is still with us today.", "scene": "two-shot: modern narrator meets the caveman, arrow and light bulb", "set": "board", "in": {"type": "whip", "dir": 1}, "sfx": [{"at": 0.0, "name": "whoosh", "gain": -8}, {"at": 1.6, "name": "ding", "gain": -10}]},
+ {"id": "d006", "start": 19.5, "end": 24.0, "line": "Lines became groups, groups became numbers.", "scene": "board diagram: tally, arrow, 5, arrow, 1 2 3 4 5, check", "set": "board", "in": {"type": "cut"}, "sfx": [{"at": 0.4, "name": "pop", "gain": -12}, {"at": 3.2, "name": "ding", "gain": -10}]}
+],
+"music": [{"start": 0, "end": 24.0, "mood": "playful", "intensity": 0.4}]
+}

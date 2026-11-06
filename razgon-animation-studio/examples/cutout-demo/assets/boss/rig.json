@@ -1,0 +1,22 @@
+{
+ "name": "Boss",
+ "mode": "sprites",
+ "height": 500,
+ "shadow": 60,
+ "sprites": {
+  "idle": {
+   "file": "idle.svg",
+   "anchor": [
+    0.5,
+    0.985
+   ]
+  },
+  "angry": {
+   "file": "angry.svg",
+   "anchor": [
+    0.5,
+    0.985
+   ]
+  }
+ }
+}

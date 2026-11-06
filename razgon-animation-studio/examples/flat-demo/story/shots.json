@@ -1,0 +1,119 @@
+{
+ "title": "Flat Explainer Demo",
+ "duration": 19.0,
+ "shots": [
+  {
+   "id": "f001",
+   "start": 0,
+   "end": 4.5,
+   "line": "Every morning, millions of people drive to work.",
+   "scene": "city street: skyline, road, car passes, two people walk, location card",
+   "set": "city",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "carpass",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "f002",
+   "start": 4.5,
+   "end": 8.5,
+   "line": "Dave checks his savings before he even has coffee.",
+   "scene": "office: Dave at desk, monitor with a line chart that glows",
+   "set": "office",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "f003",
+   "start": 8.5,
+   "end": 13.0,
+   "line": "Here is where the money actually goes.",
+   "scene": "presenter at a board, bar chart grows",
+   "set": "office",
+   "in": {
+    "type": "liquid"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "f004",
+   "start": 13.0,
+   "end": 16.0,
+   "line": "Eighty thousand dollars. Gone.",
+   "scene": "close-up of Mia, shocked, minus-80k pill",
+   "set": "studio",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "f005",
+   "start": 16.0,
+   "end": 19.0,
+   "line": "House, car, savings.",
+   "scene": "three icons with up and down arrows",
+   "set": "studio",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 19.0,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ]
+}

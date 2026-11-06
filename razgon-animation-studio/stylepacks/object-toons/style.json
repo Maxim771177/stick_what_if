@@ -1,0 +1,84 @@
+{
+  "id": "object-toons",
+  "name": "Object Toons",
+  "version": 1,
+  "description": "Kids-science cartoon: personified planets and objects with googly eyes and thick outlines, flat sticker look, starry space backdrops, bouncy squash-and-stretch.",
+  "characters": {"family": "faceobj", "eyes": "googly", "mouth": true, "head": 1.4},
+  "fonts": {
+    "title": {
+      "family": "Baloo 2",
+      "faces": [
+        {"weight": "700", "src": "@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2"},
+        {"weight": "800", "src": "@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2"}
+      ]
+    },
+    "ui": {
+      "family": "Nunito",
+      "faces": [
+        {"weight": "800", "src": "@fontsource/nunito/files/nunito-latin-800-normal.woff2"},
+        {"weight": "900", "src": "@fontsource/nunito/files/nunito-latin-900-normal.woff2"}
+      ]
+    },
+    "serif": {"family": "Caveat", "faces": [{"weight": "100 900", "src": "@fontsource/caveat/files/caveat-latin-700-normal.woff2"}]}
+  },
+  "defaults": {"bars": "none"},
+  "defaultVariant": "bright",
+  "defaultMood": "space",
+  "ui": {
+    "card": "rgba(11,15,24,.78)",
+    "cardLine": "rgba(255,255,255,.25)",
+    "text": "#ffffff",
+    "sub": "#c9d3e0",
+    "accent": "#ff5a5f",
+    "gold": "#ffd23f",
+    "cream": "#fff7e6",
+    "blueprint": "#7fb8e6",
+    "bpBg": "#0f1d33",
+    "good": "#5fd39a"
+  },
+  "moods": {
+    "space": {"top": "#130f2e", "bottom": "#2a1c4f", "bg": "#1b1540", "ground": "#3a2d6b", "accent": "#ffd23f", "dark": "#0b0820"},
+    "sky": {"top": "#7ec8f2", "bottom": "#c9ecfb", "bg": "#a8dcf5", "ground": "#8ccf6a", "accent": "#ff5a5f", "dark": "#1b2a3a"},
+    "lab": {"top": "#eef3f8", "bottom": "#dfe8f1", "bg": "#e7eef5", "ground": "#c3d1df", "accent": "#ff5a5f", "dark": "#1b2a3a"}
+  },
+  "variants": {
+    "bright": {
+      "name": "Bright Sticker",
+      "desc": "Vivid saturated colours, thick black outlines, deep purple space — the classic kids-science look.",
+      "ink": "#141414",
+      "inkFar": "#141414",
+      "feature": "#141414",
+      "skin": "#ffd9b8",
+      "rimWidth": 3,
+      "contactShadow": 0.18,
+      "line": {"width": 6.5, "wobble": 0, "boil": 0},
+      "ui": {},
+      "grade": {"contrast": 1.0, "sat": 1.0, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0, "bloom": 0.2, "paper": 0},
+      "moods": {}
+    },
+    "pastel": {
+      "name": "Soft Pastel",
+      "desc": "Lighter pastel palette, softer navy outlines, gentle grain — calmer, bedtime-story feel.",
+      "ink": "#2b2f4a",
+      "inkFar": "#2b2f4a",
+      "feature": "#2b2f4a",
+      "skin": "#ffe3cc",
+      "rimWidth": 3,
+      "contactShadow": 0.12,
+      "line": {"width": 5.5, "wobble": 0.5, "boil": 0},
+      "ui": {"accent": "#f08a9b", "gold": "#ffd98a"},
+      "grade": {
+        "contrast": 0.94,
+        "sat": 0.85,
+        "lift": [0.05, 0.04, 0.06],
+        "gamma": [1.05, 1.04, 1.02],
+        "gain": [1, 1, 1],
+        "vignette": 0.1,
+        "grain": 0.02,
+        "bloom": 0.2,
+        "paper": 0
+      },
+      "moods": {"space": {"top": "#2b2a55", "bottom": "#4a3f7a"}, "sky": {"top": "#a9d8f0", "bottom": "#e2f4fb"}}
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "blank",
+  "name": "Blank (template)",
+  "version": 1,
+  "description": "Neutral starting point for a new style pack: plain grade, no letterbox, no grain. Copy it with tools/packs.py --new <id>, then rewrite every value from the references.",
+  "characters": {"family": "stick"},
+  "fonts": {
+    "title": {
+      "family": "Fredoka",
+      "faces": [
+        {"weight": "600", "src": "@fontsource/fredoka/files/fredoka-latin-600-normal.woff2"},
+        {"weight": "700", "src": "@fontsource/fredoka/files/fredoka-latin-700-normal.woff2"}
+      ]
+    },
+    "ui": {
+      "family": "Nunito",
+      "faces": [
+        {"weight": "800", "src": "@fontsource/nunito/files/nunito-latin-800-normal.woff2"},
+        {"weight": "900", "src": "@fontsource/nunito/files/nunito-latin-900-normal.woff2"}
+      ]
+    },
+    "serif": {
+      "family": "Playfair Display",
+      "faces": [{"weight": "900", "style": "italic", "src": "@fontsource/playfair-display/files/playfair-display-latin-900-italic.woff2"}]
+    }
+  },
+  "defaults": {"bars": "none"},
+  "defaultVariant": "main",
+  "defaultMood": "day",
+  "ui": {
+    "card": "rgba(18,28,48,.94)",
+    "cardLine": "rgba(150,180,230,.25)",
+    "text": "#9fb6d8",
+    "sub": "#6f84a6",
+    "accent": "#ff6f61",
+    "gold": "#ffd47e",
+    "cream": "#fff1dc",
+    "blueprint": "#8fb8e8",
+    "bpBg": "#0b1324",
+    "good": "#5fd39a"
+  },
+  "moods": {
+    "day": {
+      "sky": ["#8fb0d8", "#cfdcea", "#efe3d2"],
+      "ambient": "#6f7d96",
+      "key": "#fff3dc",
+      "rim": "#fff1d6",
+      "wall": "#8d8496",
+      "floor": "#5f5866",
+      "dark": "#2f2a36",
+      "practical": "#ffe2a8",
+      "grass": "#4f8a55",
+      "road": "#5d5a66",
+      "fog": "#dfe4f0"
+    },
+    "golden": {
+      "sky": ["#6b5a8e", "#e89a6a", "#f9d49c"],
+      "ambient": "#4a3a50",
+      "key": "#ffcf8f",
+      "rim": "#ffc68a",
+      "wall": "#5a3a34",
+      "floor": "#45302a",
+      "dark": "#2a1814",
+      "practical": "#ffe7b0",
+      "grass": "#4d6b3c",
+      "road": "#4a3c40",
+      "fog": "#f0c49a"
+    },
+    "dusk": {
+      "sky": ["#3d3360", "#8a5a86", "#e8956b", "#f7cf98"],
+      "ambient": "#3b2b3d",
+      "key": "#ffc68a",
+      "rim": "#ffc68a",
+      "wall": "#4a3646",
+      "floor": "#3d2c38",
+      "dark": "#231a27",
+      "practical": "#ffd59a",
+      "grass": "#3d5a48",
+      "road": "#3a3040",
+      "fog": "#c08a8a"
+    },
+    "night": {
+      "sky": ["#0b1028", "#1d2550", "#3a3570"],
+      "ambient": "#1e2444",
+      "key": "#c9d4ff",
+      "rim": "#a9b8ff",
+      "wall": "#262a46",
+      "floor": "#1b1e33",
+      "dark": "#0f1122",
+      "practical": "#ffb860",
+      "grass": "#22433a",
+      "road": "#24263a",
+      "fog": "#3a4270"
+    },
+    "storm": {
+      "sky": ["#141a33", "#2a3358", "#3d4670"],
+      "ambient": "#232a48",
+      "key": "#dfe6ff",
+      "rim": "#cfd9ff",
+      "wall": "#2b3150",
+      "floor": "#1c2238",
+      "dark": "#0d1020",
+      "practical": "#bcd0ff",
+      "grass": "#25483e",
+      "road": "#232838",
+      "fog": "#4a5580"
+    },
+    "interiorWarm": {
+      "sky": ["#c98a74", "#f2b585", "#f7cf98"],
+      "ambient": "#4a3646",
+      "key": "#ffd59a",
+      "rim": "#ffcf8f",
+      "wall": "#4f3a40",
+      "floor": "#3a2a2e",
+      "dark": "#21171c",
+      "practical": "#ffd28a",
+      "grass": "#3d5a48",
+      "road": "#3a3040",
+      "fog": "#a87a70"
+    },
+    "interiorCool": {
+      "sky": ["#2a3560", "#5a6aa0"],
+      "ambient": "#2a2c48",
+      "key": "#cbd6ff",
+      "rim": "#b8c6ff",
+      "wall": "#2e3150",
+      "floor": "#22243a",
+      "dark": "#121426",
+      "practical": "#9fe0ff",
+      "grass": "#22433a",
+      "road": "#24263a",
+      "fog": "#4a5080"
+    },
+    "void": {
+      "sky": ["#0a0e1a", "#121a2e"],
+      "ambient": "#151c30",
+      "key": "#ffffff",
+      "rim": "#8fb8e8",
+      "wall": "#121a2e",
+      "floor": "#0d1322",
+      "dark": "#070a12",
+      "practical": "#ffd47e",
+      "grass": "#1d3a33",
+      "road": "#151a28",
+      "fog": "#1d2740"
+    }
+  },
+  "variants": {
+    "main": {
+      "name": "Main",
+      "desc": "Neutral: no grade, no vignette, no grain.",
+      "ink": "#16141c",
+      "inkFar": "#3a3644",
+      "feature": "#fffaf0",
+      "rimWidth": 3,
+      "ui": {},
+      "grade": {"contrast": 1.0, "sat": 1.0, "lift": [0, 0, 0], "gamma": [1, 1, 1], "gain": [1, 1, 1], "vignette": 0, "grain": 0, "bloom": 0.3},
+      "moods": {}
+    }
+  }
+}
