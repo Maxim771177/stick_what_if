@@ -102,7 +102,7 @@
 - Второй постоянный персонаж: решаем позже, после героя.
 
 ## Постоянные правила канала, подтверждённые человеком
-Пока нет. Первые подтверждённые правила: язык озвучки и надписей английский; формат «What if»; стикмены; герой новый. (из задания владельца 06.11.2026)
+Профиль утверждён владельцем 06.11.2026. Подтверждено: язык озвучки и надписей английский; формат «What if»; стикмены; герой новый (мальчик Zip, кепка и молния); первый ролик про IQ 9999.
 
 ## Файлы транскриптов, по которым собран профиль
 01 Ifinite — What If You Could See How Long Everyone Has Left; 02 Ifinite — What IF You Grew 10x BIGGER Every Single Hour; 03 IFOLOGY — What IF You Were 10x Faster; 04 IFOLOGY — What IF You Could Stop Time; 05 IFOLOGY — What IF You Could Teleport; 06 IFOLOGY — What IF You Were 100x Stronger; 07 IFopposite — What If You Had Infinite IQ at School; 08 IFopposite — What IF You Had Infinite IQ; 09 One Small If — What If You Doubled in Size Every Hour; 10 One Small If — What If Everyone Turned Into a Baby Except You.
