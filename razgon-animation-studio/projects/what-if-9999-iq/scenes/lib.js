@@ -162,6 +162,26 @@ function camOf(spec, t, dur, info) {
   return camAdd(b2, drift(t, 5, 5));
 }
 
+
+// ---------- IQ-метки над головами (хук первых секунд): у всех обычные, у Leon золотая ----------
+const IQV = { LEON: '9,999', TEACHER: '120', KIDBG: ['100', '95', '105', '98'], KID: '100', FRIEND: '110' };
+function iqTag(g, t, x, y, id, i, start) {
+  const k = ease.outBack(prog(t, start, start + 0.4)); if (k <= 0) return;
+  const leon = id === 'LEON', v = Array.isArray(IQV[id]) ? IQV[id][i % IQV[id].length] : IQV[id]; if (!v) return;
+  const pulse = leon ? 1 + 0.05 * Math.sin(t * 6) : 1, sz = leon ? 78 : 40, str = 'IQ ' + v;
+  g.save(); g.translate(x, y); g.scale(k * pulse, k * pulse);
+  const w = measure(g, str, sz) + (leon ? 70 : 44), h = sz * 1.5;
+  if (leon) { for (let j = 0; j < 12; j++) { const a = j / 12 * 6.283 + t * 0.6; inkLine(g, [[Math.cos(a) * (w * 0.62), Math.sin(a) * (h * 0.9)], [Math.cos(a) * (w * 0.78), Math.sin(a) * (h * 1.15)]], { w: 6, stroke: ui().gold }); } }
+  inkRect(g, -w / 2, -h / 2, w, h, { fill: leon ? ui().gold : '#ffffff', r: h / 2 });
+  text(g, str, 0, sz * 0.18, { size: sz, font: FONTS.title, weight: 400, color: S().ink });
+  g.restore();
+}
+function iqTitle(g, t, info) {
+  const gt = info.globalT; if (gt > 3.4) { const k = ease.outBack(prog(gt, 3.4, 3.8)); g.save(); g.translate(150, 70); g.scale(k, k); inkRect(g, -110, -42, 230, 84, { fill: ui().gold, r: 40 }); text(g, 'IQ 9,999', 5, 14, { size: 48, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); return; }
+  const a = ease.out(prog(gt, 0.1, 0.5)) * (1 - ease.in(prog(gt, 2.9, 3.4))); g.save(); g.globalAlpha *= a;
+  D.marker(g, 'WHAT IF YOU HAD', E.W / 2, 90, { size: 62, outline: 12 }); D.marker(g, 'AN IQ OF 9,999?', E.W / 2, 190, { size: 110, outline: 14, color: ui().accent }); g.restore();
+}
+
 // ---------- регистрация кадра ----------
 export function def(id, spec) {
   registerShot(id, { draw(g, t, info) {
@@ -172,10 +192,13 @@ export function def(id, spec) {
     layer(g, cam, 1, (g) => {
       ctx.cam = cam;
       if (spec.pre) spec.pre(g, t, info, ctx);
-      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360 }); });
+      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s }); });
+      if (spec.iq) { const cnt = {}; heads.forEach((h, i) => { cnt[h.id] = (cnt[h.id] || 0); iqTag(g, t, h.x, h.y - (h.id === 'LEON' ? 60 : 30) - 90 * h.s * 0.6, h.id, cnt[h.id]++, h.id === 'LEON' ? 0.15 : 0.45 + i * 0.1); }); }
+      if (spec.close && spec.iq) iqTag(g, t, E.W * 0.5, E.H * 0.13, 'LEON', 0, 0.4);
       if (spec.close) closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]);
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
+    if (spec.iq) iqTitle(g, t, info);
     overlay(g, t, info, spec, heads.length ? heads : [{ x: E.W / 2, y: E.H * 0.55 }]);
   } });
 }
