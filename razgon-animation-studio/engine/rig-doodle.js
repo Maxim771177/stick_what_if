@@ -54,15 +54,25 @@ function beard(g, of, c, r) {
   const inner = arcPts(c[0], c[1] - r * 0.18, r * 0.96, Math.PI * 0.86, Math.PI * 0.14, 10);
   inkShape(g, [...outer, ...inner], { fill: col, seed: 48 });
 }
-function hat(g, of, c, r) {
+function hat(g, of, c, r, front = false) {
   const col = of.hatColor || '#d9483b';
   switch (of.hat) {
+    case 'capBack': {   // кепка задом наперёд (Leon): купол, козырёк назад-вниз, ремешок спереди, чуб торчит
+      const hc = of.hairColor || HAIR, d = front ? 0 : 1;
+      if (!front) inkShape(g, [[c[0] + r * 0.28, c[1] - r * 0.92], [c[0] + r * 0.62, c[1] - r * 1.22], [c[0] + r * 0.74, c[1] - r * 1.05], [c[0] + r * 1.08, c[1] - r * 1.12], [c[0] + r * 0.86, c[1] - r * 0.78], [c[0] + r * 1.0, c[1] - r * 0.6], [c[0] + r * 0.5, c[1] - r * 0.7]], { fill: hc, seed: 56 });   // чуб
+      inkShape(g, [...arcPts(c[0], c[1] - r * 0.06, r * 1.08, Math.PI * 0.98, Math.PI * 2.02, 14), [c[0] + r * 0.9, c[1] - r * 0.3], [c[0] - r * 0.9, c[1] - r * 0.22]], { fill: col, seed: 57 });
+      seg2(g, [[c[0] - r * 0.4, c[1] - r * 1.04], [c[0] - r * 0.42, c[1] - r * 0.3]]); seg2(g, [[c[0] + r * 0.25, c[1] - r * 1.06], [c[0] + r * 0.3, c[1] - r * 0.3]]);
+      inkShape(g, [[c[0] - r * 0.95, c[1] - r * 0.28], [c[0] - r * 1.75, c[1] - r * 0.05 + d * r * 0.12], [c[0] - r * 1.5, c[1] + r * 0.32], [c[0] - r * 0.98, c[1] + r * 0.05]], { fill: shade(col, -0.12), seed: 58 });   // козырёк назад
+      if (!front) { inkShape(g, [[c[0] + r * 0.25, c[1] - r * 0.4], [c[0] + r * 0.8, c[1] - r * 0.44], [c[0] + r * 0.8, c[1] - r * 0.28], [c[0] + r * 0.25, c[1] - r * 0.24]], { fill: shade(col, 0.08), seed: 59 }); for (let i = 0; i < 3; i++) circle(g, c[0] + r * (0.35 + i * 0.16), c[1] - r * 0.34, 2.2, S().ink); }
+      break;
+    }
     case 'cap': inkShape(g, [...arcPts(c[0], c[1] - r * 0.1, r * 1.04, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.6, c[1] - r * 0.12], [c[0] + r * 1.55, c[1] + r * 0.02], [c[0] - r * 1.04, c[1] - r * 0.02]], { fill: col, seed: 51 }); break;
     case 'hardhat': inkShape(g, [...arcPts(c[0], c[1] - r * 0.15, r * 1.02, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.3, c[1] - r * 0.12], [c[0] + r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] - r * 0.12]], { fill: of.hatColor || '#f2c21a', seed: 52 }); break;
     case 'beanie': inkShape(g, [...arcPts(c[0], c[1] - r * 0.05, r * 1.08, Math.PI, Math.PI * 2, 12)], { fill: col, seed: 53 }); inkCircle(g, c[0], c[1] - r * 1.18, r * 0.24, { fill: shade(col, 0.3), seed: 54 }); break;
     case 'headband': inkShape(g, [[c[0] - r * 1.02, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.28], [c[0] - r * 1.02, c[1] - r * 0.28]], { fill: col, seed: 55 }); break;
   }
 }
+const seg2 = (g, pts) => inkLine(g, pts, { w: LINE().width * 0.45, smooth: false });
 function glasses(g, of, c, r, front) {
   if (of.face !== 'glasses') return;
   const w = LINE().width * 0.55, fx = front ? c[0] : c[0] + r * 0.34, ey = c[1] - r * 0.16;
@@ -93,6 +103,7 @@ function drawTorso(g, of, p) {
   if (top === 'fur') { for (let i = 0; i < 4; i++) { const q = add(at(p.sh, p.hip, 0.3 + i * 0.18), mul(n, (i % 2 ? 6 : -7))); circle(g, q[0], q[1], 3.2, shade(col, -0.35)); } }
   if (top === 'labcoat') inkLine(g, [add(p.sh, mul(n, 2)), add(bot, mul(n, 3))], { w });
   if (top === 'suit') inkShape(g, [add(p.sh, mul(u, 2)), add(add(p.sh, mul(u, 6)), mul(n, 4)), add(at(p.sh, p.hip, 0.7), mul(n, 1)), add(add(p.sh, mul(u, 6)), mul(n, -2))], { fill: of.color2 || '#d9483b', w });
+  if (of.emblem === 'bolt') { const c0 = at(p.sh, p.hip, 0.5), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); circle(g, 0, 0, 0, 'transparent'); g.beginPath(); [[-15, 3], [-2, 3], [-12, 14], [14, -3], [2, -3], [10, -15]].forEach(([a, b], i) => { const P = q(a * -0.6 - 4, b * 0.5); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = of.color2 || '#fff'; g.fill(); }
   if (top === 'hoodie') inkLine(g, [add(at(p.sh, p.hip, 0.72), mul(n, -10)), add(at(p.sh, p.hip, 0.72), mul(n, 10))], { w });
 }
 const sleeveOf = (of) => (['shirt', 'hoodie', 'labcoat', 'suit', 'robe'].includes(of.top) ? 'long' : ['tshirt', 'dress'].includes(of.top) ? 'short' : null);
@@ -105,13 +116,15 @@ function arm(g, of, sh, e, h, far) {
   const sl = sleeveOf(of);
   if (sl === 'long') inkTube(g, [sh, e, at(e, h, 0.72)], 11, far ? shade(sleeveCol(of), -0.12) : sleeveCol(of), { smooth: false });
   if (sl === 'short') inkTube(g, [sh, at(sh, e, 0.6)], 12, far ? shade(sleeveCol(of), -0.12) : sleeveCol(of), { smooth: false });
-  circle(g, h[0], h[1], w * 0.9, S().ink);
+  if (of.whiteHands) inkCircle(g, h[0], h[1], w * 1.5, { fill: of.skin || SKIN(), w: LINE().width * 0.7, seed: 90 }); else circle(g, h[0], h[1], w * 0.9, S().ink);
 }
 function leg(g, of, hip, k, f, far) {
   const w = LINE().width * 1.15 * CH().limb;
-  if (of.legs) inkTube(g, [hip, k, at(k, f, 0.85)], 12, far ? shade(of.legs, -0.12) : of.legs, { smooth: false });
+  if (of.shorts) { limb(g, hip, k, f, w); inkTube(g, [at(hip, k, -0.05), at(hip, k, 0.62)], 21, far ? shade(of.shorts, -0.12) : of.shorts, { smooth: false }); }
+  else if (of.legs) inkTube(g, [hip, k, at(k, f, 0.85)], 12, far ? shade(of.legs, -0.12) : of.legs, { smooth: false });
   else limb(g, hip, k, f, w);
-  inkEllipse(g, f[0] + 6, f[1] - 4, 10, 5.5, { fill: of.shoes || S().ink, seed: far ? 81 : 82, w: LINE().width * 0.6 });
+  if (of.sneakers) { const sc = far ? shade(of.shoes, -0.12) : of.shoes; inkEllipse(g, f[0] + 8, f[1] - 9, 15, 10, { fill: sc, seed: far ? 81 : 82, w: LINE().width * 0.6 }); inkShape(g, [[f[0] - 8, f[1] - 3], [f[0] + 26, f[1] - 3], [f[0] + 26, f[1] + 3], [f[0] - 8, f[1] + 3]], { fill: '#ffffff', seed: far ? 83 : 84, w: LINE().width * 0.5 }); }
+  else inkEllipse(g, f[0] + 6, f[1] - 4, 10, 5.5, { fill: of.shoes || S().ink, seed: far ? 81 : 82, w: LINE().width * 0.6 });
 }
 
 // ---------- props ----------
@@ -151,7 +164,7 @@ export function drawDoodle(g, o) {
   hairTop(g, of, H.c, H.r);
   face(g, H.c[0], H.c[1], H.r, { expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, override: o.face, color: S().ink });
   glasses(g, of, H.c, H.r, false);
-  hat(g, of, H.c, H.r);
+  hat(g, of, H.c, H.r, false);
   // near arm on top
   arm(g, of, p.sh, p.eF, p.hF, false);
   if (o.prop) prop(g, o.prop, p, E.t);
@@ -178,6 +191,6 @@ export function doodleCloseUp(g, cx, cy, r, o = {}) {
   hairTop(g, of, [0, 0], R, true);
   face(g, 0, 0, R, { expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, front: true, override: o.face, color: S().ink });
   glasses(g, of, [0, 0], R, true);
-  hat(g, of, [0, 0], R);
+  hat(g, of, [0, 0], R, true);
   g.restore();
 }

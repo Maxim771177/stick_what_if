@@ -14,7 +14,7 @@ export const CAST = [LEON, TEACHER, MOM, NIA, GRANDPA, FRIEND, KID, LUNCHLADY, N
 
 // Наряды под семейство doodle (пак doodle): те же сигнатуры, другие поля. outfit('LEON') отдаёт нужный наряд по активному паку.
 const D = {
-  LEON: { top: 'tshirt', color: '#d8232a', legs: '#8a8a8a', shoes: '#f28a1e', hair: 'messy', hairColor: '#6b3a1e', hat: 'cap', hatColor: '#17c3b2' },
+  LEON: { top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
   TEACHER: { top: 'suit', color: '#6b4e9b', hair: 'bun', face: 'glasses' },
   KIDBG: { top: 'tshirt', color: '#c9c3b4', hair: 'short', kid: true },
   AVG: { top: 'none', hair: 'none' },
