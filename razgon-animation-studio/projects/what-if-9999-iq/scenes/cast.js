@@ -1,3 +1,4 @@
+import { E } from '/engine/core.js';
 // cast.js: один наряд на персонажа. Узнаваемая деталь = сигнатура, одинаковая во всех кадрах.
 export const LEON = { top: 'tshirt', color: '#d8232a', color2: '#ffffff', legs: '#8a8a8a', head: 'capBack', headColor: '#17c3b2' };  // герой «ты»: бирюзовая кепка задом наперёд, красная футболка (молния дорисовывается в кадрах)
 export const TEACHER = { top: 'suit', color: '#6b4e9b', head: 'bun', face: 'glasses' };     // учительница, фиолетовый жакет
@@ -10,3 +11,15 @@ export const LUNCHLADY = { top: 'dress', color: '#f2f2f2', head: 'bun' };       
 export const NEIGHBOR = { top: 'jersey', color: '#d6872b', head: 'none' };                   // сосед со спасательной верёвкой
 export const PSYCH = { top: 'labcoat', face: 'glasses', head: 'none' };                      // психолог 1942
 export const CAST = [LEON, TEACHER, MOM, NIA, GRANDPA, FRIEND, KID, LUNCHLADY, NEIGHBOR, PSYCH];
+
+// Наряды под семейство doodle (пак doodle): те же сигнатуры, другие поля. outfit('LEON') отдаёт нужный наряд по активному паку.
+const D = {
+  LEON: { top: 'tshirt', color: '#d8232a', legs: '#8a8a8a', shoes: '#f28a1e', hair: 'messy', hairColor: '#6b3a1e', hat: 'cap', hatColor: '#17c3b2' },
+  TEACHER: { top: 'suit', color: '#6b4e9b', hair: 'bun', face: 'glasses' },
+  KIDBG: { top: 'tshirt', color: '#c9c3b4', hair: 'short', kid: true },
+  AVG: { top: 'none', hair: 'none' },
+  GENIUS: { top: 'labcoat', hair: 'none', face: 'glasses' },
+};
+const K = { LEON, TEACHER, KIDBG: { top: 'none', kid: true }, AVG: { top: 'none', head: 'none' }, GENIUS: { top: 'labcoat', face: 'glasses', head: 'none' } };
+export const outfit = (id) => (E.packId === 'doodle' ? D[id] : K[id]);
+export const isDoodle = () => E.packId === 'doodle';
