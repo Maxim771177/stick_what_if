@@ -1,0 +1,18 @@
+{
+ "title": "Parabrisas test 30s (silent)",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "stylePack": "razgon-stickman",
+ "style": "dusk",
+ "voiceover": null,
+ "script": null,
+ "duration": 30,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0.4,
+ "fadeOut": 0.6,
+ "music": {"enabled": false, "gainDb": -20},
+ "sfx": {"enabled": false, "gainDb": -6},
+ "loudness": -14
+}

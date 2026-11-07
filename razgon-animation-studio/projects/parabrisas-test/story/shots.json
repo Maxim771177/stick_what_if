@@ -1,0 +1,76 @@
+{
+ "title": "Parabrisas test",
+ "duration": 30,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 6,
+   "line": "Limpias y limpias el parabrisas y nunca queda bien.",
+   "scene": "Limpias y limpias el parabrisas y nunca queda bien.",
+   "set": "car",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s002",
+   "start": 6,
+   "end": 12,
+   "line": "Siempre queda esa pelicula grasosa.",
+   "scene": "Siempre queda esa pelicula grasosa.",
+   "set": "car",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 12,
+   "end": 19,
+   "line": "De noche, las luces lo vuelven una pantalla blanca.",
+   "scene": "De noche, las luces lo vuelven una pantalla blanca.",
+   "set": "car",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 19,
+   "end": 25,
+   "line": "La grasa sale de los plasticos del tablero.",
+   "scene": "La grasa sale de los plasticos del tablero.",
+   "set": "car",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 25,
+   "end": 30,
+   "line": "El secreto para dejarlo impecable.",
+   "scene": "El secreto para dejarlo impecable.",
+   "set": "car",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  }
+ ]
+}
