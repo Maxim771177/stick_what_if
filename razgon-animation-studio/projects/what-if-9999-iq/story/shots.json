@@ -9,7 +9,7 @@
    "line": "The teacher is still reading the instructions.",
    "scene": "Establishing wide of a morning classroom: TEACHER at the board reading a sheet, four black background kids at desks, LEON in the front row, window light from the left, slow push",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -23,7 +23,7 @@
    "line": "Sixty minutes, no calculators, do not turn the page until I say start.",
    "scene": "Medium on TEACHER reading, chalk board plates behind her with kText '60 MINUTES' then 'NO CALCULATORS' as spoken; a kid yawns in the blur foreground",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -37,7 +37,7 @@
    "line": "You turn the page.",
    "scene": "Insert: LEON's hand turning the page, dust motes in the window beam",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -51,7 +51,7 @@
    "line": "By the time she looks up, the test is finished, all fifty questions, and your pencil is back behind your ear.",
    "scene": "Medium two-shot: LEON with the finished test (check marks, card '50 / 50' pops in), pencil behind his ear, TEACHER lifting her eyes in the back; ear-pencil gesture",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -65,7 +65,7 @@
    "line": "\"Leon, I haven't said start.\" \"Yeah. I'm just waiting for the others.\"",
    "scene": "Over-the-shoulder two-shot: TEACHER (talk) 'Leon, I haven't said start.' then LEON (talk, smirk) 'Yeah. I'm just waiting for the others.'; quoted lines appear as bubbles",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -79,7 +79,7 @@
    "line": "Somebody in the back drops an eraser.",
    "scene": "Wide: back of the room, a black kid's eraser drops and bounces on the floor, everyone freezes, camera drifts toward LEON",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -93,7 +93,7 @@
    "line": "And that was the easy part.",
    "scene": "Giant face close-up of LEON, smirk, looks at camera, slow push; class gape behind in blur",
    "set": "classroom",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "dip",
     "dur": 0.4
@@ -108,7 +108,7 @@
    "line": "So, what if you had an IQ of nine thousand nine hundred and ninety-nine?",
    "scene": "Title card over a glowing wide: LEON centre, golden glow, caps title 'WHAT IF YOU HAD AN IQ OF 9,999?' with kText slam on the number",
    "set": "void",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "flash",
     "dur": 0.4
@@ -348,7 +348,7 @@
    "line": "You can't know what you've never seen.",
    "scene": "LEON before a closed door with light leaking under it, slow push, unsure",
    "set": "interiorCool",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -404,7 +404,7 @@
    "line": "Homework takes nine seconds, and six of those are you looking for a pencil.",
    "scene": "Medium: LEON at a desk with a finished notebook, patting his pockets for a pencil, a timer '9 SEC' counting down beside him",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -418,7 +418,7 @@
    "line": "Plus, you finish the teacher's sentences.",
    "scene": "Two-shot: TEACHER with a long sentence in a bubble, LEON's bubble finishing it, label PLUS",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -432,7 +432,7 @@
    "line": "Not the short ones, the long ones, the ones with three commas.",
    "scene": "Insert: the teacher's bubble with three commas highlighted, LEON rolls his eyes",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -446,7 +446,7 @@
    "line": "Plus, Saturday at the grocery store.",
    "scene": "Top-down wide of a grocery store: crowd dots, label PLUS, camera pushes toward the entrance",
    "set": "store",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -460,7 +460,7 @@
    "line": "You look at the crowd once, and you see the shortest path through it,",
    "scene": "Top-down: LEON draws a glowing shortest path through the crowd dots",
    "set": "store",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -474,7 +474,7 @@
    "line": "the checkout line that will actually move, and the guy who's about to turn his cart without looking. You're out in three minutes.",
    "scene": "Top-down: the path reaches a moving checkout line, a man with a cart turns without looking (coral arrow), LEON slides past",
    "set": "store",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -488,7 +488,7 @@
    "line": "Mom is still looking for a parking spot. Plus, languages.",
    "scene": "Golden hour: LEON waits by the exit with a bag, MOM's car circling the lot in the background; card '3 MIN'; then cut to plate PLUS",
    "set": "parking",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -502,7 +502,7 @@
    "line": "You learn Spanish on the bus, and by the third stop you're correcting the driver's grammar.",
    "scene": "Inside a bus: LEON with a phrasebook, driver in the mirror, route line with three stops lighting up, label 'STOP 3'",
    "set": "bus",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -516,7 +516,7 @@
    "line": "Plus, checkers with Grandpa.",
    "scene": "Interior warm: GRANDPA and LEON at a checkers table by the window, calendar of Sundays on the wall, label PLUS",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -530,7 +530,7 @@
    "line": "Every Sunday for years, and he's never lost.",
    "scene": "Close on the checkers board, GRANDPA smiling confidently, slow push",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -544,7 +544,7 @@
    "line": "Until you win in six moves.",
    "scene": "Insert: LEON's move, board cleared, GRANDPA shocked; card '6 MOVES'",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -558,7 +558,7 @@
    "line": "Then you let him win the next game, because you're not a monster. He knows.",
    "scene": "Two-shot: LEON deliberately leaves a checker hanging and winks; GRANDPA wins and laughs; cut to GRANDPA's wink back",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -572,7 +572,7 @@
    "line": "He pats your head and says, \"You're getting better.\" Best Sunday ever.",
    "scene": "Warm medium: GRANDPA pats LEON's cap, bubble 'You're getting better.', LEON squints happily; golden light",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -586,7 +586,7 @@
    "line": "So far, nine thousand nine hundred and ninety-nine looks amazing.",
    "scene": "LEON in a golden glow with stars, big gold '9,999' behind, label '9,999 = AMAZING'",
    "set": "void",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "fade",
     "dur": 0.5
@@ -601,7 +601,7 @@
    "line": "But then you start noticing the problems. Problem one. You're hungry. All the time.",
    "scene": "Glow drains to cold dark, question marks grow behind LEON; plate PROBLEM 1, label 'HUNGRY', stomach rumble",
    "set": "void",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "dip",
     "dur": 0.4
@@ -658,7 +658,7 @@
    "line": "So at ten fifteen, you're thinking about lunch.",
    "scene": "Wall clock '10:15', LEON slumped at his desk eyeing a lunch bag; label 10:15",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -672,7 +672,7 @@
    "line": "At ten forty, you're thinking about a sandwich in extremely high resolution.",
    "scene": "Wall clock '10:40', thought bubble with a huge sandwich; label 10:40, then the sandwich turns pixel-grid sharp",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -686,7 +686,7 @@
    "line": "You can calculate its exact calories, and it doesn't help.",
    "scene": "LEON calculating, thought bubble with sandwich plus a calorie grid; he sighs and slumps",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -700,7 +700,7 @@
    "line": "You even design a better lunch tray, with a built-in cup holder and a snack drawer. Nobody asked.",
    "scene": "Blueprint of a lunch tray with a cup holder and snack drawer in LEON's hands, classmates turn away",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -714,7 +714,7 @@
    "line": "In the cafeteria, you eat your lunch, then your friend's lunch, then you stare at the lunch lady's apple. \"Leon, are you okay?\"",
    "scene": "Cafeteria wide: LEON eating, empty trays stacked, FRIEND horrified, LUNCHLADY with an apple, LEON staring at the apple; bubble 'Leon, are you okay?'",
    "set": "cafeteria",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -728,7 +728,7 @@
    "line": "\"I'm thinking.\"",
    "scene": "Close-up LEON (talk): 'I'm thinking.' eyes on the apple",
    "set": "cafeteria",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -742,7 +742,7 @@
    "line": "\"You look like you're going to eat my tray.\" The fix is boring.",
    "scene": "FRIEND with a tray (talk): 'You look like you're going to eat my tray.' LEON leaning in",
    "set": "cafeteria",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -798,7 +798,7 @@
    "line": "A cup rolls off the table.",
    "scene": "Plate PROBLEM 2: LEON and his shadow lagging behind; cut to table, a cup rolling off the edge, slow motion",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -812,7 +812,7 @@
    "line": "In your head, it already happened.",
    "scene": "Macro: the falling cup with a dotted trajectory drawn ahead of it",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -826,7 +826,7 @@
    "line": "You know the speed, the angle, the exact spot where it lands, and you've planned seventeen ways to catch it.",
    "scene": "LEON's head with 17 arrow paths radiating; label '17 WAYS'",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -840,7 +840,7 @@
    "line": "Your hand arrives when the cup is already in pieces.",
    "scene": "Insert: LEON's hand arriving at pieces of the cup on the floor",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -868,7 +868,7 @@
    "line": "So you're the smartest kid alive, and you're the clumsiest one in gym class.",
    "scene": "Gym wide: ball in the air, LEON standing still with a calculation diagram over his head, kids waiting",
    "set": "gym",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -882,7 +882,7 @@
    "line": "You know exactly where the ball will land, and you're still standing there when it hits your shoe. \"Leon, move!\"",
    "scene": "Ball hits LEON's shoe with a thud; shot ends on a freeze with dust",
    "set": "gym",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -896,7 +896,7 @@
    "line": "\"I'm calculating!\" \"It's a ball!\"",
    "scene": "Medium: kids shouting 'Leon, move!', LEON, finger raised, 'I'm calculating!', a kid 'It's a ball!'",
    "set": "gym",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -924,7 +924,7 @@
    "line": "You can't react faster, so you decide earlier.",
    "scene": "LEON reaches with an extended hand before the cup moves",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -938,7 +938,7 @@
    "line": "You start moving before the cup falls. Sometimes it looks like magic.",
    "scene": "Close: LEON's hand under a cup that stands still; people behind in confusion",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -952,7 +952,7 @@
    "line": "Sometimes you're just holding a hand under a cup nobody dropped.",
    "scene": "Pause gag: the hand under the unmoved cup, LEON smiles, everyone stares",
    "set": "interiorWarm",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -966,7 +966,7 @@
    "line": "Last week you invented a better way to tie your shoes. In theory.",
    "scene": "LEON with a diagram of a new shoe-tying method pinned on the wall; label 'IN THEORY'",
    "set": "bedroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -980,7 +980,7 @@
    "line": "In practice, you're still wearing them on the wrong feet. Problem three. Sleep.",
    "scene": "Close: LEON's sneakers on the wrong feet, one toe pointing inward; cut to plate PROBLEM 3",
    "set": "bedroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -994,7 +994,7 @@
    "line": "And this one is bigger than the others, so stay with me. You find a problem.",
    "scene": "Plate PROBLEM 3: huge moon and pillow, label 'SLEEP'; LEON at a window",
    "set": "night",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "fade",
     "dur": 0.5
@@ -1009,7 +1009,7 @@
    "line": "Not a school one, a real one,",
    "scene": "LEON at a desk under a lamp, notebook with famous problem scribbles, determined face",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1023,7 +1023,7 @@
    "line": "a famous math problem nobody has solved in a hundred years, and you can feel the answer is close.",
    "scene": "Blackboard filled with a huge unreadable formula, glow, label '100 YEARS', slow push",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1037,7 +1037,7 @@
    "line": "So you skip bedtime.",
    "scene": "LEON waves away the bed (empty, made) in the background, determined",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1051,7 +1051,7 @@
    "line": "Why waste eight hours when your brain works this fast? Midnight. Two in the morning. Four. You're so close.",
    "scene": "Clock sequence 12:00 AM, 2:00 AM, 4:00 AM, LEON getting messier, paper stacks growing",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "match"
    },
@@ -1065,7 +1065,7 @@
    "line": "At three, you write a proof that looks beautiful.",
    "scene": "Close: a page with a beautiful proof, LEON beaming",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1079,7 +1079,7 @@
    "line": "At five, you notice the first line says two plus two is five. Here's what you don't know.",
    "scene": "Insert: the first line of the proof says '2 + 2 = 5', a red circle drawn around it; LEON's face drops",
    "set": "studyNight",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1191,7 +1191,7 @@
    "line": "So at six in the morning, your genius brain has the answer on a napkin, and you can't read your own handwriting.",
    "scene": "Morning at the desk, LEON holding a napkin with scribbles, pale light; label 6:00 AM, he squints",
    "set": "interiorCool",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1205,7 +1205,7 @@
    "line": "At seven, roll call. \"Leon?\" You open your mouth. Nothing. Not \"here\". Not your name. Nothing.",
    "scene": "Roll call: TEACHER with a register, LEON with his mouth open, nothing; label 7:00 AM; quote 'Leon?'",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1219,7 +1219,7 @@
    "line": "\"Leon?\"",
    "scene": "Close: TEACHER (talk): 'Leon?' LEON blank",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1233,7 +1233,7 @@
    "line": "The kid next to you whispers, \"That's you.\" \"Is it?\" That's the problem.",
    "scene": "Two-shot: KID whispering 'That's you.' LEON 'Is it?' confused",
    "set": "classroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1261,7 +1261,7 @@
    "line": "The napkin, by the way, says \"check the thing.\" Nothing else.",
    "scene": "Close-up of the napkin: 'check the thing.' with kText type",
    "set": "interiorCool",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1275,7 +1275,7 @@
    "line": "The fix is the hardest one, because it isn't a trick. You sleep.",
    "scene": "Plate THE FIX: SLEEP.; LEON in bed, moonlight",
    "set": "bedroom",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "dip",
     "dur": 0.4
@@ -1290,7 +1290,7 @@
    "line": "A full night, same time every night, like medicine.",
    "scene": "Bedside clock and a pill-timer on the table, LEON smiling",
    "set": "bedroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1304,7 +1304,7 @@
    "line": "Mom puts you to bed, and you can't argue, because you know she's right. You've seen the study. Problem four.",
    "scene": "MOM tucks LEON in, warm lamp, he nods; label 'YOU'VE SEEN THE STUDY'",
    "set": "bedroom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1318,7 +1318,7 @@
    "line": "The quiet one. You tell your best friend a joke.",
    "scene": "Plate PROBLEM 4: LEON alone on a school bench at dusk, label 'THE QUIET ONE'; FRIEND sits beside him",
    "set": "street",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "fade",
     "dur": 0.5
@@ -1333,7 +1333,7 @@
    "line": "A good one, with four layers. He laughs at the first layer. You explain the other three. He stops laughing.",
    "scene": "Two-shot on the bench: LEON tells a joke, 4 bubble layers appear (LAYER 1 to 4), FRIEND laughs at the first",
    "set": "street",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1347,7 +1347,7 @@
    "line": "You explain why that's also funny.",
    "scene": "LEON explaining a layer on a mini whiteboard, FRIEND's smile fading",
    "set": "street",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1361,7 +1361,7 @@
    "line": "He says he has to go home.",
    "scene": "FRIEND walks away off frame, LEON waves; slow pull-out",
    "set": "street",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1375,7 +1375,7 @@
    "line": "At lunch you sit alone with a book about black holes, and a kid asks what it's about. \"Everything,\" you say.",
    "scene": "Cafeteria: LEON alone with a black-hole book, a KID asks; 'Everything,' LEON says, deadpan",
    "set": "cafeteria",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1389,7 +1389,7 @@
    "line": "He nods politely and sits somewhere else. This part is real.",
    "scene": "The kid nods politely and moves to another table; LEON alone in a wide; then cut to 1942 office",
    "set": "cafeteria",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "fade",
     "dur": 0.5
@@ -1404,7 +1404,7 @@
    "line": "In nineteen forty-two,",
    "scene": "Sepia-cool office 1942: PSYCH writing '1942' on a board; label 1942",
    "set": "office",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1418,7 +1418,7 @@
    "line": "the psychologist Leta Hollingworth wrote about twelve children with IQs above one hundred and eighty.",
    "scene": "Twelve child silhouettes at desks, board label '12 CHILDREN · IQ 180+', one child apart from the others",
    "set": "office",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1432,7 +1432,7 @@
    "line": "Her case studies found that kids that far ahead were hardly ever picked as leaders by their classmates,",
    "scene": "Pan over the children, none of them picked as leader (a crown icon over nobody)",
    "set": "office",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1446,7 +1446,7 @@
    "line": "and many struggled to make friends. Nobody was mean.",
    "scene": "One child alone at the playground fence; label 'STRUGGLED TO MAKE FRIENDS'",
    "set": "office",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1488,7 +1488,7 @@
    "line": "You learn to say smaller things.",
    "scene": "LEON speaks in small word blocks, FRIEND listens",
    "set": "street",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1502,7 +1502,7 @@
    "line": "You ask questions instead of answering them.",
    "scene": "LEON asks questions, question marks drift above them",
    "set": "street",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1516,7 +1516,7 @@
    "line": "You let your friend win at video games, and sometimes it works. Not always.",
    "scene": "LEON lets FRIEND win at video games, a small sad smile at the end",
    "set": "livingRoom",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1530,7 +1530,7 @@
    "line": "And then one winter afternoon, all of it gets tested. December.",
    "scene": "Window view: winter afternoon over a pond; cold light, slow pull-out from the window",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "dip",
     "dur": 0.5
@@ -1545,7 +1545,7 @@
    "line": "First ice on the pond behind your house.",
    "scene": "Establishing wide: the pond behind the house, first ice, LEON on the bank, label DECEMBER",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1559,7 +1559,7 @@
    "line": "Your little sister Nia is six, and she's wearing mittens with penguins on them.",
    "scene": "NIA in a yellow jacket on the shore holding the other penguin mitten up to the camera",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1573,7 +1573,7 @@
    "line": "One of them is lying out on the ice, twenty metres from the shore. About twenty-two yards.",
    "scene": "Wide: one penguin mitten lies on the ice, distance line '20 M', '≈22 YARDS'",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1587,7 +1587,7 @@
    "line": "She steps out to get it.",
    "scene": "NIA steps onto the ice, camera pushes behind LEON's shoulder",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1601,7 +1601,7 @@
    "line": "The ice makes a sound.",
    "scene": "Macro: ice surface, a fine crack starts, camera shake",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1615,7 +1615,7 @@
    "line": "A long, low crack, like a door opening in a very big house.",
    "scene": "Wide: a long crack spreads through the ice toward NIA, who freezes",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1629,7 +1629,7 @@
    "line": "And you know exactly what that means.",
    "scene": "Giant face close-up of LEON, fear, pupils widening",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1657,7 +1657,7 @@
    "line": "This isn't that.",
    "scene": "Cloudy ice under NIA's feet, cut between thin ice and her feet; label 'THIS ISN'T THAT'",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1671,7 +1671,7 @@
    "line": "You can see it in the colour.",
    "scene": "Close: the colour of the ice, grey-white and milky",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1699,7 +1699,7 @@
    "line": "And then rule three hits you.",
    "scene": "LEON turns to his legs, lightning flash of understanding",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1713,7 +1713,7 @@
    "line": "Your legs won't get there in time.",
    "scene": "His sneakers rooted in slow motion, distance line to NIA",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1727,7 +1727,7 @@
    "line": "And the limit hits you too. You've never seen a rescue.",
    "scene": "Question mark over LEON's head, a blank diagram labelled 'RESCUE?'",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1741,7 +1741,7 @@
    "line": "You can guess one, but a guess is not good enough.",
    "scene": "LEON thinks, a guess diagram marked with a cross",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1755,7 +1755,7 @@
    "line": "You could throw a coat, a stick, a snowball.",
    "scene": "Coat, stick and snowball icons, each crossed out",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1783,7 +1783,7 @@
    "line": "So you don't run.",
    "scene": "LEON freezes his legs and takes a breath, cold light",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1797,7 +1797,7 @@
    "line": "You keep your voice calm. \"Nia.",
    "scene": "Close: LEON calm, palm raised toward NIA, speaks: 'Nia.'",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1811,7 +1811,7 @@
    "line": "Stay exactly where you are. Look at me. Don't move.\" She freezes.",
    "scene": "Two-shot: NIA looking back; LEON 'Stay exactly where you are. Look at me. Don't move.'; NIA freezes",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1825,7 +1825,7 @@
    "line": "Then you shout the smartest thing you've ever shouted. \"Help! Somebody! The pond!\"",
    "scene": "LEON shouts toward the houses: 'Help! Somebody! The pond!', camera pulls back",
    "set": "pond",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1839,7 +1839,7 @@
    "line": "A porch light turns on. Then another.",
    "scene": "Houses at dusk: a porch light turns on, then another",
    "set": "nbhd",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1853,7 +1853,7 @@
    "line": "Then somebody's running with a coil of rope.",
    "scene": "A silhouette runs along the fence with a coil of rope, orange jersey",
    "set": "nbhd",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1867,7 +1867,7 @@
    "line": "Three neighbours, all of them slower than your brain, all of them faster than your legs, and one of them has done this before.",
    "scene": "Three NEIGHBORs race toward the pond; one carries the rope; wide pull-out",
    "set": "nbhd",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1881,7 +1881,7 @@
    "line": "You stand there with a clear head, because you ate, because you slept.",
    "scene": "LEON standing calm, icons for 'ATE' and 'SLEPT' with checks beside him",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1895,7 +1895,7 @@
    "line": "For the first time in your life, all that brainpower has one job.",
    "scene": "LEON's head with all thought lines focusing into one beam toward NIA",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1909,7 +1909,7 @@
    "line": "Know when to call people. It takes four minutes.",
    "scene": "Caption 'KNOW WHEN TO CALL PEOPLE.' kText slam, then card '4 MIN'",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1923,7 +1923,7 @@
    "line": "A rope, a firm voice, and a neighbour who knows what he's doing.",
    "scene": "NEIGHBOR throws the rope, NIA grabs it, he pulls steadily",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1937,7 +1937,7 @@
    "line": "Nia is back on the shore in a blanket, shaking, but fine.",
    "scene": "NIA wrapped in a blanket on the shore, shaking, LEON sitting by her",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1951,7 +1951,7 @@
    "line": "\"I told you I'd get the mitten,\" she says. You look at the pond.",
    "scene": "Close: NIA (talk): 'I told you I'd get the mitten.' LEON smiling with relief",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1965,7 +1965,7 @@
    "line": "The mitten is still out there.",
    "scene": "Wide: the lone penguin mitten still on the ice, far away",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1979,7 +1979,7 @@
    "line": "It stays there until spring.",
    "scene": "Time passes: the same wide, snow melts to spring, the mitten finally on grass",
    "set": "pond",
-   "bars": null,
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -1993,7 +1993,7 @@
    "line": "Your brain solved a thousand problems this week.",
    "scene": "LEON and NIA sit on the porch, thought-bubbles with equations floating away",
    "set": "pond",
-   "bars": "wide",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -2007,7 +2007,7 @@
    "line": "Your sister solved the only one she cared about, and lost the mitten.",
    "scene": "NIA holds up an empty hand, LEON laughs, golden dusk light",
    "set": "pond",
-   "bars": "wide",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -2021,7 +2021,7 @@
    "line": "That night you go to bed on time.",
    "scene": "LEON in bed on time, clock at 9:00 PM, soft lamp",
    "set": "bedroom",
-   "bars": "wide",
+   "bars": "none",
    "in": {
     "type": "fade",
     "dur": 0.5
@@ -2036,7 +2036,7 @@
    "line": "You're asleep in nine seconds.",
    "scene": "Close: LEON asleep with 'Z' icons, nine small seconds on a timer",
    "set": "bedroom",
-   "bars": "wide",
+   "bars": "none",
    "in": {
     "type": "cut"
    },
@@ -2050,7 +2050,7 @@
    "line": "The next morning, there's a note on your desk, in handwriting you don't recognise. \"I saw your test.\"",
    "scene": "Morning, a note on LEON's desk in unfamiliar handwriting; he leans in",
    "set": "interiorCool",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "dip",
     "dur": 0.4
@@ -2065,7 +2065,7 @@
    "line": "So who saw it, and what do they want? That's next time.",
    "scene": "Close-up note: 'I saw your test.' in unfamiliar handwriting; a shadow figure by the window",
    "set": "interiorCool",
-   "bars": "scope",
+   "bars": "none",
    "in": {
     "type": "cut"
    },

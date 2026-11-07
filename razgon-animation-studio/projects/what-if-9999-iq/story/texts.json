@@ -1,0 +1,522 @@
+[
+{
+"t": 3.3,
+"s": "60 MINUTES",
+"k": "cap"
+},
+{
+"t": 5.0,
+"s": "NO CALCULATORS",
+"k": "cap"
+},
+{
+"t": 11.7,
+"s": "50 / 50",
+"k": "cap"
+},
+{
+"t": 16.4,
+"s": "LEON, I HAVEN'T SAID START.",
+"k": "cap"
+},
+{
+"t": 18.6,
+"s": "YEAH. I'M JUST WAITING FOR THE OTHERS.",
+"k": "cap"
+},
+{
+"t": 26.9,
+"s": "WHAT IF YOU HAD AN IQ OF 9,999?",
+"k": "cap"
+},
+{
+"t": 32.1,
+"s": "REAL TESTS STOP AT ≈160",
+"k": "cap"
+},
+{
+"t": 36.4,
+"s": "NEVER MEASURED WELL ABOVE",
+"k": "cap"
+},
+{
+"t": 39.4,
+"s": "9,999",
+"k": "cap"
+},
+{
+"t": 44.4,
+"s": "HERE'S HOW IT WORKS",
+"k": "cap"
+},
+{
+"t": 45.7,
+"s": "RULE 1",
+"k": "plate"
+},
+{
+"t": 47.1,
+"s": "IQ = RANK, NOT POINTS",
+"k": "cap"
+},
+{
+"t": 50.1,
+"s": "100 = AVERAGE",
+"k": "cap"
+},
+{
+"t": 52.5,
+"s": "+15 = 1 STEP",
+"k": "cap"
+},
+{
+"t": 54.5,
+"s": "160 = 4 STEPS UP",
+"k": "cap"
+},
+{
+"t": 59.0,
+"s": "≈660 STEPS UP",
+"k": "cap"
+},
+{
+"t": 65.1,
+"s": "RULE 2",
+"k": "plate"
+},
+{
+"t": 66.7,
+"s": "SAME SIZE HEAD",
+"k": "cap"
+},
+{
+"t": 69.8,
+"s": "1/5 OF BODY'S ENERGY",
+"k": "cap"
+},
+{
+"t": 77.7,
+"s": "RULE 3",
+"k": "plate"
+},
+{
+"t": 79.6,
+"s": "MIND: INSTANT · BODY: SLOW",
+"k": "cap"
+},
+{
+"t": 84.1,
+"s": "≈400 KM/H",
+"k": "cap"
+},
+{
+"t": 87.5,
+"s": "≈250 MPH",
+"k": "cap"
+},
+{
+"t": 92.7,
+"s": "ONE LIMIT",
+"k": "cap"
+},
+{
+"t": 106.8,
+"s": "GUESS ≠ KNOW",
+"k": "cap"
+},
+{
+"t": 110.4,
+"s": "PLUS",
+"k": "cap"
+},
+{
+"t": 112.1,
+"s": "9 SEC",
+"k": "cap"
+},
+{
+"t": 115.8,
+"s": "PLUS",
+"k": "cap"
+},
+{
+"t": 122.9,
+"s": "PLUS",
+"k": "cap"
+},
+{
+"t": 132.1,
+"s": "3 MIN",
+"k": "cap"
+},
+{
+"t": 136.9,
+"s": "PLUS",
+"k": "cap"
+},
+{
+"t": 140.3,
+"s": "STOP 3",
+"k": "cap"
+},
+{
+"t": 143.6,
+"s": "PLUS",
+"k": "cap"
+},
+{
+"t": 149.2,
+"s": "6 MOVES",
+"k": "cap"
+},
+{
+"t": 158.8,
+"s": "YOU'RE GETTING BETTER.",
+"k": "say"
+},
+{
+"t": 163.0,
+"s": "9,999 = AMAZING",
+"k": "cap"
+},
+{
+"t": 168.2,
+"s": "BUT…",
+"k": "cap"
+},
+{
+"t": 171.0,
+"s": "PROBLEM 1",
+"k": "plate"
+},
+{
+"t": 172.9,
+"s": "HUNGRY",
+"k": "cap"
+},
+{
+"t": 174.8,
+"s": "2% OF WEIGHT",
+"k": "cap"
+},
+{
+"t": 176.7,
+"s": "1/5 OF ENERGY",
+"k": "cap"
+},
+{
+"t": 185.0,
+"s": "UNDER 5%",
+"k": "cap"
+},
+{
+"t": 188.8,
+"s": "10:15",
+"k": "cap"
+},
+{
+"t": 191.7,
+"s": "10:40",
+"k": "cap"
+},
+{
+"t": 208.3,
+"s": "LEON, ARE YOU OKAY?",
+"k": "say"
+},
+{
+"t": 212.7,
+"s": "I'M THINKING.",
+"k": "say"
+},
+{
+"t": 214.6,
+"s": "YOU LOOK LIKE YOU'RE GOING TO EAT MY TRAY.",
+"k": "say"
+},
+{
+"t": 216.8,
+"s": "THE FIX",
+"k": "cap"
+},
+{
+"t": 224.2,
+"s": "WALKING SNACK BAR",
+"k": "cap"
+},
+{
+"t": 227.8,
+"s": "PROBLEM 2",
+"k": "plate"
+},
+{
+"t": 229.2,
+"s": "BODY = LATE",
+"k": "cap"
+},
+{
+"t": 238.3,
+"s": "17 WAYS",
+"k": "cap"
+},
+{
+"t": 243.9,
+"s": "400 KM/H",
+"k": "cap"
+},
+{
+"t": 259.3,
+"s": "LEON, MOVE!",
+"k": "say"
+},
+{
+"t": 260.8,
+"s": "I'M CALCULATING!",
+"k": "say"
+},
+{
+"t": 262.2,
+"s": "IT'S A BALL!",
+"k": "say"
+},
+{
+"t": 263.7,
+"s": "THE FIX: PLAN AHEAD",
+"k": "cap"
+},
+{
+"t": 281.2,
+"s": "IN THEORY",
+"k": "cap"
+},
+{
+"t": 286.0,
+"s": "PROBLEM 3",
+"k": "plate"
+},
+{
+"t": 287.1,
+"s": "SLEEP",
+"k": "cap"
+},
+{
+"t": 294.4,
+"s": "100 YEARS",
+"k": "cap"
+},
+{
+"t": 302.0,
+"s": "8 HOURS?",
+"k": "cap"
+},
+{
+"t": 305.9,
+"s": "12:00 AM",
+"k": "cap"
+},
+{
+"t": 306.6,
+"s": "2:00 AM",
+"k": "cap"
+},
+{
+"t": 307.3,
+"s": "4:00 AM",
+"k": "cap"
+},
+{
+"t": 312.9,
+"s": "2 + 2 = 5",
+"k": "cap"
+},
+{
+"t": 320.0,
+"s": "SLEEP = CLEANING",
+"k": "cap"
+},
+{
+"t": 322.1,
+"s": "SCIENCE, 2013 (MICE)",
+"k": "cap"
+},
+{
+"t": 325.3,
+"s": "+60% SPACE",
+"k": "cap"
+},
+{
+"t": 330.0,
+"s": "WASTE WASHED OUT",
+"k": "cap"
+},
+{
+"t": 337.9,
+"s": "HIPPOCAMPUS",
+"k": "cap"
+},
+{
+"t": 346.0,
+"s": "6:00 AM",
+"k": "cap"
+},
+{
+"t": 352.7,
+"s": "7:00 AM",
+"k": "cap"
+},
+{
+"t": 354.6,
+"s": "LEON?",
+"k": "say"
+},
+{
+"t": 362.8,
+"s": "THAT'S YOU.",
+"k": "say"
+},
+{
+"t": 363.8,
+"s": "IS IT?",
+"k": "say"
+},
+{
+"t": 372.2,
+"s": "CHECK THE THING",
+"k": "cap"
+},
+{
+"t": 376.8,
+"s": "THE FIX",
+"k": "cap"
+},
+{
+"t": 380.9,
+"s": "SLEEP.",
+"k": "cap"
+},
+{
+"t": 392.1,
+"s": "PROBLEM 4",
+"k": "plate"
+},
+{
+"t": 393.3,
+"s": "THE QUIET ONE",
+"k": "cap"
+},
+{
+"t": 398.8,
+"s": "LAYER 1",
+"k": "cap"
+},
+{
+"t": 399.8,
+"s": "LAYER 2",
+"k": "cap"
+},
+{
+"t": 400.7,
+"s": "LAYER 3",
+"k": "cap"
+},
+{
+"t": 401.2,
+"s": "LAYER 4",
+"k": "cap"
+},
+{
+"t": 412.5,
+"s": "EVERYTHING.",
+"k": "say"
+},
+{
+"t": 417.6,
+"s": "THIS PART IS REAL",
+"k": "cap"
+},
+{
+"t": 419.4,
+"s": "1942",
+"k": "cap"
+},
+{
+"t": 421.7,
+"s": "12 CHILDREN · IQ 180+",
+"k": "cap"
+},
+{
+"t": 456.7,
+"s": "DECEMBER",
+"k": "cap"
+},
+{
+"t": 463.7,
+"s": "20 M",
+"k": "cap"
+},
+{
+"t": 465.8,
+"s": "≈22 YARDS",
+"k": "cap"
+},
+{
+"t": 481.2,
+"s": "4 IN ≈ 10 CM",
+"k": "cap"
+},
+{
+"t": 485.5,
+"s": "THIS ISN'T THAT",
+"k": "cap"
+},
+{
+"t": 511.2,
+"s": "41 OPTIONS",
+"k": "cap"
+},
+{
+"t": 521.8,
+"s": "NIA, STAY EXACTLY WHERE YOU ARE.",
+"k": "say"
+},
+{
+"t": 524.2,
+"s": "LOOK AT ME. DON'T MOVE.",
+"k": "say"
+},
+{
+"t": 532.0,
+"s": "HELP! SOMEBODY! THE POND!",
+"k": "say"
+},
+{
+"t": 555.4,
+"s": "KNOW WHEN TO CALL PEOPLE.",
+"k": "cap"
+},
+{
+"t": 557.6,
+"s": "4 MIN",
+"k": "cap"
+},
+{
+"t": 566.7,
+"s": "I TOLD YOU I'D GET THE MITTEN.",
+"k": "say"
+},
+{
+"t": 592.8,
+"s": "I SAW YOUR TEST.",
+"k": "say"
+},
+{
+"t": 597.9,
+"s": "PART 2 COMING",
+"k": "cap"
+},
+{
+"t": 601.8,
+"s": "COMMENT · SUBSCRIBE",
+"k": "cap"
+}
+]
