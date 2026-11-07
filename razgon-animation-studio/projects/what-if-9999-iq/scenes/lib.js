@@ -36,48 +36,78 @@ export const OUT = {
 const SM = { LEON: 0.86, NIA: 0.9, FRIEND: 1.15, KID: 1.15, KIDBG: 1.1 };
 const PUP = 1.5;     // масштаб куклы Leon относительно кодовой фигуры (подгонка по росту)
 
+
+// ---------- рот Leon из эталона: закрашиваем нарисованный рот и рисуем свой, открывающийся под речь ----------
+const MOUTH = { idle: { c: [370, 432], cv: [288, 400, 164, 68] }, happy: { c: [345, 415], cv: [266, 366, 160, 112] }, worried: { c: [350, 418], cv: [268, 381, 164, 80] }, determined: { c: [358, 420], cv: [280, 381, 156, 80] }, surprised: { c: [347, 410], cv: [298, 358, 100, 104] } };
+const talkAmt = (t) => 0.2 + 0.8 * Math.abs(Math.sin(t * 13) * Math.sin(t * 4.7 + 1));
+function mouthOverlay(g, key, t) {
+  const m = MOUTH[key]; if (!m) return; const a = talkAmt(t);
+  g.save(); g.fillStyle = '#ffffff'; g.fillRect(...m.cv);
+  const [cx, cy] = m.c, rx = 40 + a * 8, ry = 7 + a * 30;
+  g.lineWidth = 13; g.strokeStyle = '#111'; g.fillStyle = '#7a1f1f'; g.beginPath(); g.ellipse(cx, cy + ry * 0.2, rx, ry, 0, 0, Math.PI * 2); g.fill(); g.stroke();
+  g.save(); g.beginPath(); g.ellipse(cx, cy + ry * 0.2, rx - 6, ry - 6, 0, 0, Math.PI * 2); g.clip(); g.fillStyle = '#ff9aa8'; g.beginPath(); g.ellipse(cx, cy + ry * 0.2 + ry * 0.75, rx * 0.7, ry * 0.7, 0, 0, Math.PI * 2); g.fill(); g.restore();
+  g.restore();
+}
+const wordsOf = (s) => s.split(/\s+/).length;
+export function talkWins(spec, info) {
+  const T0 = info.shot.start, T1 = info.shot.end, out = {}; let k = 0;
+  for (const r of TEXTS) { if (r.k !== 'say' || r.t < T0 - 0.02 || r.t >= T1 - 0.05) continue; const idx = (spec.say ?? [0])[k % (spec.say ?? [0]).length] ?? 0; k++; const a = r.t - T0, b = Math.min(info.dur, a + Math.max(1.0, wordsOf(r.s) * 0.34 + 0.3)); (out[idx] ||= []).push([a, b]); }
+  return out;
+}
+const inWin = (w, t) => (w || []).some(([a, b]) => t >= a && t <= b);
+const TALKSEQ = ['talk', 'explain', 'talk', 'point'];
+
 const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt, x]) => (t >= tt ? x : a), v[0][1]) : v);
 const blinkAt = (t, k) => ((t + k) % (2.8 + (k % 1.3))) > 2.7 + (k % 1.3) * 0;
 const SIT = (p) => p === 'sit' || p === 'sitBack';
 
 // ---------- один персонаж ----------
-export function who(g, c, t, info, GY) {
+export function who(g, c, t, info, GY, wins) {
   const id = c.w || 'KIDBG', f = c.f ?? 1, x = (c.x ?? 0.5) * E.W, y = GY + (c.dy ?? 0);
-  if (c.walk) { /* [x0, x1, t0, t1] */ }
   let cx = x; let walking = false;
   if (c.walk) { const [x0, x1, t0, t1] = c.walk; const u = clamp((t - t0) / (t1 - t0)); cx = lerp(x0, x1, u) * E.W; walking = u > 0 && u < 1; }
   const pn = tl(c.pose || 'stand', t), expr = tl(c.expr || 'neutral', t);
   const s = (c.s ?? 1.55) * (SM[id] ?? 1);
-  const talking = c.talk && t >= c.talk[0] && t <= c.talk[1];
+  const talking = (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t);
+  const ent = c.noin ? 1 : ease.outBack(prog(t, c.in ?? 0, (c.in ?? 0) + 0.5)), pop = 0.86 + 0.14 * ent;
   const o = { x: cx, y: y, s, facing: f, outfit: OUT[id], expr, blink: blinkAt(t, (c.x || 0) * 9 + id.length), talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: c.look, prop: c.prop, alpha: c.a == null ? undefined : tl(c.a, t), rot: c.rot };
   if (c.fall) o.rot = c.fall * ease.in(clamp((t - 0) / 0.5));
-  const usePup = id === 'LEON' && !c.code && !c.rot && !c.prop && ['neutral', 'smile', 'smirk', 'happy', 'joy'].includes(expr) && (walking || ['stand', 'relaxed', 'talk'].includes(pn));
+  const usePup = id === 'LEON' && !c.code && !c.rot && !c.prop && ['neutral', 'smile', 'smirk', 'happy', 'joy'].includes(expr) && (walking || ['stand', 'relaxed', 'talk', 'explain', 'point'].includes(pn));
   if (usePup) {
-    const im = walking ? IM.walk : IM.idle, k = s * PUP;
-    const bob = walking ? Math.abs(Math.sin(t * 8)) * 8 : Math.sin(t * 2.2) * 2;
+    const im = walking ? IM.walk : IM.idle, k = s * PUP, h = 240 * k * 0.92, sc = h / im.height;
+    const bob = walking ? Math.abs(Math.sin(t * 8)) * 8 : talking ? Math.abs(Math.sin(t * 9)) * 7 : Math.sin(t * 2.2) * 2;
+    const sway = (talking ? Math.sin(t * 5) * 0.035 : Math.sin(t * 1.7) * 0.012) + (walking ? Math.sin(t * 8) * 0.03 : 0);
     D.contact?.(g, cx, y + 2, 40 * s);
-    img(g, im, cx, y - bob, { h: 240 * k * 0.92, anchor: [0.5, 0.995], flip: f < 0 });
+    g.save(); g.translate(cx, y - bob); g.rotate(sway * f); g.scale(f * pop * (1 + (talking ? 0.012 * Math.sin(t * 9) : 0)), pop); g.scale(sc, sc); g.translate(-im.width / 2, -im.height * 0.995);
+    g.drawImage(im, 0, 0); if (talking && !walking) mouthOverlay(g, 'idle', t);
+    g.restore();
     o.pup = true; o.hy = y - 240 * k * 0.8;
     return o;
   }
-  const pose = walking ? walkPose(t * 2 * Math.PI * 1.3) : (c.poseObj || breathe(posesAt(t, (Array.isArray(c.pose) ? c.pose : [[0, c.pose || 'stand']])), t, 1, id.length + 2));
+  let pose;
+  if (walking) pose = walkPose(t * 2 * Math.PI * 1.3);
+  else if (c.poseObj) pose = c.poseObj;
+  else if (talking && ['stand', 'relaxed', 'talk', 'explain'].includes(pn) && !SIT(pn)) pose = breathe(posesAt(t, Array.from({ length: 30 }, (_, i) => [i * 0.7, TALKSEQ[(i + id.length) % 4]])), t, 1, id.length + 2);
+  else pose = breathe(posesAt(t, (Array.isArray(c.pose) ? c.pose : [[0, c.pose || 'stand']])), t, 1, id.length + 2);
   o.pose = pose;
+  g.save(); g.translate(cx, y); g.scale(pop, pop); g.translate(-cx, -y);
   if (!c.nostool && (SIT(Array.isArray(c.pose) ? tl(c.pose, t) : c.pose) || SIT(pn))) {      // табурет под сидящим
     const hx = cx + pose.hip[0] * s * f, hy = y + (pose.hip[1] + 6) * s;
     inkRect(g, hx - 46 * s, hy, 92 * s, 14 * s, { fill: C.woodD, r: 4 });
     inkLine(g, [[hx - 36 * s, hy + 14 * s], [hx - 36 * s, y]], { w: 6 }); inkLine(g, [[hx + 36 * s, hy + 14 * s], [hx + 36 * s, y]], { w: 6 });
   }
   drawCharacter(g, o);
+  g.restore();
   o.hy = characterHead(o)[1];
   return o;
 }
 
 // крупный план: Leon из эталона (лицо по эмоции), остальные кодом
 const FACE = { happy: 'happy', joy: 'happy', smile: 'happy', surprised: 'surprised', shocked: 'surprised', awe: 'surprised', worried: 'worried', scared: 'worried', nervous: 'worried', sad: 'worried', confused: 'worried', cry: 'worried', neutral: 'determined', smirk: 'determined', determined: 'determined', angry: 'determined', thinking: 'determined', sleepy: 'determined' };
-export function closeUp(g, c, t) {
+export function closeUp(g, c, t, wins) {
   const id = c.w || 'LEON', x = (c.x ?? 0.5) * E.W, y = (c.y ?? 0.62) * E.H, r = c.r ?? 330;
-  if (id === 'LEON' && !c.code) { const im = IM[FACE[tl(c.expr || 'smirk', t)] || 'determined']; img(g, im, x, y, { h: r * 2.9, anchor: [0.5, 0.5] }); return; }
-  characterCloseUp(g, x, y, r, { outfit: OUT[id], expr: tl(c.expr || 'neutral', t), blink: blinkAt(t, 1), talk: c.talk && t >= c.talk[0] && t <= c.talk[1] ? 0.5 + 0.5 * Math.sin(t * 22) : 0 });
+  if (id === 'LEON' && !c.code) { const key = FACE[tl(c.expr || 'smirk', t)] || 'determined', im = IM[key], sc = (r * 2.9) / im.height, tk = (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t); g.save(); g.translate(x, y + (tk ? Math.sin(t * 9) * 4 : 0)); g.rotate(tk ? Math.sin(t * 5) * 0.03 : 0); g.scale(sc, sc); g.translate(-im.width / 2, -im.height / 2); g.drawImage(im, 0, 0); if (tk) mouthOverlay(g, key, t); g.restore(); return; }
+  characterCloseUp(g, x, y, r, { outfit: OUT[id], expr: tl(c.expr || 'neutral', t), blink: blinkAt(t, 1), talk: (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t) ? 0.5 + 0.5 * Math.sin(t * 22) : 0 });
 }
 
 // ---------- места ----------
@@ -116,31 +146,34 @@ function overlay(g, t, info, spec, heads) {
   for (const r of rows) {
     const lt = r.t - T0; if (t < lt) { if (r.k === 'cap') capIdx++; if (r.k === 'say') sayIdx++; continue; }
     if (r.k === 'plate') { const k = ease.outBack(prog(t, lt, lt + 0.35)); g.save(); g.translate(E.W / 2, E.H * 0.22); g.rotate(-0.03); g.scale(k, k); const w = measure(g, r.s, 150) + 160; inkRect(g, -w / 2, -110, w, 190, { fill: ui().gold, r: 30 }); text(g, r.s, 0, 10, { size: 150, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); }
-    else if (r.k === 'cap') { const y = E.H * (spec.tyList ? spec.tyList[capIdx] ?? ty0 : ty0 + capIdx * 0.1); const x = spec.tx ?? 0.5; const sz = Math.min(84, (E.W * 0.9) / Math.max(1, measure(g, r.s, 84) / 84)); D.marker(g, r.s, E.W * x, y, { size: sz, t, start: lt, outline: 14, color: r.s === r.s.toUpperCase() && /\d/.test(r.s) && capIdx % 2 ? ui().accent : S().ink }); capIdx++; }
+    else if (r.k === 'cap') { const at = spec.capAt && spec.capAt[r.s]; const y = E.H * (at ? at[1] : spec.tyList ? spec.tyList[capIdx] ?? ty0 : ty0 + capIdx * 0.1); const x = at ? at[0] : (spec.tx ?? 0.5); const bigsz = at && at[2] ? at[2] : 84; const sz = Math.min(bigsz, (E.W * 0.9) / Math.max(1, measure(g, r.s, 84) / 84) * (bigsz / 84)); D.marker(g, r.s, E.W * x, y, { size: sz, t, start: lt, outline: 14, color: r.s === r.s.toUpperCase() && /\d/.test(r.s) && capIdx % 2 ? ui().accent : S().ink }); capIdx++; }
     else { const idx = (spec.say ?? [0])[sayIdx % (spec.say ?? [0]).length] ?? 0; const h = heads[idx]; sayIdx++; if (!h) continue; const lines = wrap(r.s, 26), w = Math.min(980, Math.max(...lines.map((l) => measure(g, l, 44))) + 90), hgt = 70 + lines.length * 56, bx = clamp(h.x, w / 2 + 40, E.W - w / 2 - 40), by = clamp(h.y - 130 - hgt / 2, hgt / 2 + 30, E.H - 300); D.bubble(g, bx, by, w, hgt, { tail: [h.x, h.y - 70], t, start: lt }, (g2) => lines.forEach((l, i) => text(g2, l, 0, (i - (lines.length - 1) / 2) * 56 + 4, { size: 44, font: FONTS.ui, weight: 900, color: S().ink }))); }
   }
 }
 function wrap(s, n) { const words = s.split(' '), out = []; let cur = ''; for (const w of words) { if ((cur + ' ' + w).trim().length > n) { out.push(cur); cur = w; } else cur = (cur + ' ' + w).trim(); } if (cur) out.push(cur); return out; }
 
 // ---------- камера ----------
-function camOf(spec, t, dur) {
+function camOf(spec, t, dur, info) {
   const m = spec.cam || 'push', u = ease.inOut(clamp(t / dur));
-  const base = { push: { z: lerp(1, 1.07, u), x: lerp(0, -20, u) }, pull: { z: lerp(1.08, 1, u), x: lerp(-20, 10, u) }, left: { z: 1.04, x: lerp(50, -50, u) }, right: { z: 1.04, x: lerp(-50, 50, u) }, still: { z: 1, x: 0 }, up: { z: 1.02, y: lerp(120, -60, u) }, down: { z: 1.02, y: lerp(-80, 100, u) } }[m] || { z: 1, x: 0 };
-  return camAdd(base, drift(t, 3, 5));
+  const base = { push: { z: lerp(1, 1.11, u), x: lerp(0, -30, u) }, pull: { z: lerp(1.13, 1, u), x: lerp(-30, 10, u) }, left: { z: 1.06, x: lerp(80, -80, u) }, right: { z: 1.06, x: lerp(-80, 80, u) }, still: { z: 1, x: 0 }, up: { z: 1.02, y: lerp(120, -60, u) }, down: { z: 1.02, y: lerp(-80, 100, u) } }[m] || { z: 1, x: 0 };
+  let punch = 0, sh = 0;
+  if (info) for (const r of TEXTS) { if (r.t < info.shot.start - 0.02 || r.t >= info.shot.end - 0.05) continue; const d = t - (r.t - info.shot.start); if (d >= 0 && d < 1.2) { punch += (r.k === 'plate' ? 0.05 : 0.028) * Math.exp(-d * 6); sh += Math.sin(d * 70) * Math.exp(-d * 9) * (r.k === 'plate' ? 10 : 4); } }
+  const b2 = { ...base, z: (base.z || 1) + punch, x: (base.x || 0) + sh };
+  return camAdd(b2, drift(t, 5, 5));
 }
 
 // ---------- регистрация кадра ----------
 export function def(id, spec) {
   registerShot(id, { draw(g, t, info) {
-    const cam = camOf(spec, t, info.dur);
+    const cam = camOf(spec, t, info.dur, info), wins = talkWins(spec, info);
     let ctx = { GY: E.H * 0.84, dur: info.dur };
     layer(g, cam, 0.9, (g) => { ctx = { ...ctx, ...set(spec.set || 'void', g, spec.so) }; });
     const heads = [];
     layer(g, cam, 1, (g) => {
       ctx.cam = cam;
       if (spec.pre) spec.pre(g, t, info, ctx);
-      for (const c of spec.chars || []) { const o = who(g, c, t, info, ctx.GY); heads.push({ x: o.x, y: o.hy ?? o.y - 360 }); }
-      if (spec.close) closeUp(g, spec.close, t);
+      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360 }); });
+      if (spec.close) closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]);
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
     overlay(g, t, info, spec, heads.length ? heads : [{ x: E.W / 2, y: E.H * 0.55 }]);
