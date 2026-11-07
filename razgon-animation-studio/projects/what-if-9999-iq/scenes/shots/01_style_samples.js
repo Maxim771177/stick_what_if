@@ -8,6 +8,10 @@ import * as UI from '/engine/ui2d.js';
 import * as D from '/engine/doodle.js';
 import { classroom, desk, box, classGround } from '../sets/classroom.js';
 import { outfit, isDoodle } from '../cast.js';
+import { loadPuppet } from '/engine/rig-cutout.js';
+import { project } from '/engine/assets.js';
+const LEON_P = await loadPuppet(project('assets/chars/leon/rig.json'));   // Leon = кукла из вашего эталона
+const leon = (g, o) => drawCharacter(g, { puppet: LEON_P, shadow: true, ...o });
 
 const rim = (M, dir = [-1, -0.3]) => (isDoodle() ? undefined : { color: M.rim, dir });
 const blink = (t, k = 3.1) => (t % k) > k - 0.1;
@@ -26,9 +30,8 @@ registerShot('s001', { draw(g, t, info) {
   layer(g, cam, 1, (g) => {
     [1240, 1450, 1640].forEach((x, i) => seated(g, t, x, GY + 30 + (i % 2) * 14, i, 1.2, -1));
     drawCharacter(g, { x: 960, y: GY - 6, s: 1.35, facing: 1, outfit: outfit('TEACHER'), pose: breathe(posesAt(t, [[0, 'holdFront']]), t, 1, 2), expr: 'neutral', blink: blink(t, 3.4), rim: rim(M) });
-    seated(g, t, 470, GY + 80, 7, 1.55, 1);
-    drawCharacter(g, { x: 470, y: GY + 80, s: 1.55, facing: 1, outfit: outfit('LEON'), pose: breathe(POSES.sit, t, 1, 9), expr: 'smirk', blink: blink(t), rim: rim(M) });
-    desk(g, 530, GY + 80, 1.5);
+    leon(g, { x: 470, y: GY + 80, s: 1.9, facing: 1, expr: 'idle' });
+    desk(g, 560, GY + 80, 1.5);
   });
   if (!isDoodle()) FX.dust(g, t);
 }});
@@ -38,7 +41,7 @@ registerShot('s004', { draw(g, t, info) {
   const { GY, M } = classroom(g, t, cam);
   layer(g, cam, 1, (g) => {
     drawCharacter(g, { x: 1450, y: GY - 4, s: 1.05, facing: -1, outfit: outfit('TEACHER'), pose: breathe(POSES.stand, t, 1, 2), expr: t > 3 ? 'surprised' : 'neutral', blink: blink(t, 3.4), rim: rim(M) });
-    drawCharacter(g, { x: 700, y: GY + 70, s: 1.75, facing: 1, outfit: outfit('LEON'), pose: breathe(posesAt(t, [[0, 'relaxed'], [1.8, 'explain']]), t, 1, 5), expr: 'smirk', blink: blink(t), rim: rim(M) });
+    leon(g, { x: 700, y: GY + 70, s: 2.1, facing: 1, expr: 'idle' });
   });
   label(g, t, '50 / 50', E.W * 0.5, E.H * 0.2, { start: 1.2, size: 110, mode: 'slam', color: isDoodle() ? S().ui.accent : S().ui.gold });
   if (!isDoodle()) FX.dust(g, t);
@@ -48,7 +51,7 @@ registerShot('s007', { draw(g, t, info) {
   const cam = { z: 1 + 0.05 * ease.inOut(t / info.dur), x: 0 };
   let M;
   blurLayer(g, 7, (g) => { ({ M } = classroom(g, t, cam)); [380, 1560].forEach((x, i) => drawCharacter(g, { x, y: classGround() + 40, s: 1.3, facing: i ? -1 : 1, outfit: outfit('KIDBG'), pose: POSES.stand, expr: 'surprised' })); }, cam, 0.7);
-  layer(g, cam, 1, (g) => { characterCloseUp(g, E.W * 0.5, E.H * 0.6, V(330, 330), { outfit: outfit('LEON'), expr: 'smirk', blink: blink(t, 2.8), look: [0, 0], rimColor: M && !isDoodle() ? M.rim : undefined }); });
+  layer(g, cam, 1, (g) => { characterCloseUp(g, E.W * 0.5, E.H * 0.6, 330, { puppet: LEON_P }); });
 }});
 
 registerShot('s013', { draw(g, t, info) {

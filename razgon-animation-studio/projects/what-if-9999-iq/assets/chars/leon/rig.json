@@ -1,0 +1,56 @@
+{
+ "name": "Leon",
+ "height": 1399,
+ "mode": "sprites",
+ "sprites": {
+  "walk": {
+   "file": "walk.png",
+   "anchor": [
+    0.5,
+    0.998
+   ]
+  },
+  "surprised": {
+   "file": "surprised.png",
+   "anchor": [
+    0.5,
+    0.994
+   ]
+  },
+  "determined": {
+   "file": "determined.png",
+   "anchor": [
+    0.5,
+    0.994
+   ]
+  },
+  "happy": {
+   "file": "happy.png",
+   "anchor": [
+    0.503,
+    0.994
+   ]
+  },
+  "closeup": {
+   "file": "closeup.png",
+   "anchor": [
+    0.503,
+    0.994
+   ]
+  },
+  "worried": {
+   "file": "worried.png",
+   "anchor": [
+    0.5,
+    0.994
+   ]
+  },
+  "idle": {
+   "file": "idle.png",
+   "anchor": [
+    0.5,
+    0.998
+   ]
+  }
+ }
+}
