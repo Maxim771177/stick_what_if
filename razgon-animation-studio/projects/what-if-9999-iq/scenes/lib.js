@@ -177,7 +177,7 @@ function iqTag(g, t, x, y, id, i, start) {
   g.restore();
 }
 function iqTitle(g, t, info) {
-  const gt = info.globalT; if (gt > 3.4) { const k = ease.outBack(prog(gt, 3.4, 3.8)); g.save(); g.translate(150, 70); g.scale(k, k); inkRect(g, -110, -42, 230, 84, { fill: ui().gold, r: 40 }); text(g, 'IQ 9,999', 5, 14, { size: 48, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); return; }
+  const gt = info.globalT; if (gt > 3.4) return;
   const a = ease.out(prog(gt, 0.1, 0.5)) * (1 - ease.in(prog(gt, 2.9, 3.4))); g.save(); g.globalAlpha *= a;
   D.marker(g, 'WHAT IF YOU HAD', E.W / 2, 90, { size: 62, outline: 12 }); D.marker(g, 'AN IQ OF 9,999?', E.W / 2, 190, { size: 110, outline: 14, color: ui().accent }); g.restore();
 }
