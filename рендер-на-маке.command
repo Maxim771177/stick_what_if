@@ -21,7 +21,9 @@ cp "$DIR/$ROLIK/озвучка.mp3" "projects/$SLUG/input/voiceover.mp3"
 
 echo "== 3/5 Пакеты (один раз) =="
 npm install --no-audit --no-fund
-npx playwright install chromium
+# Браузер для рендера: берём уже установленный Chrome/Chromium/Edge, чтобы не качать отдельный (он на некоторых Mac зависает)
+for B in "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" "/Applications/Chromium.app/Contents/MacOS/Chromium" "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"; do [ -x "$B" ] && export CHROME_PATH="$B" && break; done
+if [ -z "$CHROME_PATH" ]; then echo "Установленный Chrome не найден, скачиваю браузер для рендера (может занять время)"; npx playwright install chromium; else echo "Использую браузер: $CHROME_PATH"; fi
 python3 -m pip install --quiet --break-system-packages numpy scipy pillow 2>/dev/null || python3 -m pip install --quiet numpy scipy pillow
 
 echo "== 4/5 Рендер видео (это долго, окно не закрывай) =="
