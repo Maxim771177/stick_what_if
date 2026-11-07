@@ -1,5 +1,5 @@
 // gfx.js: картинки-схемы и предметы в стиле doodle (все линии через ink, цвета из S().ui и плоские цвета предметов).
-import { E, S, ui, C, D, ease, prog, clamp, lerp, text, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, inkBlob, drawCharacter, alpha } from './lib.js';
+import { E, S, ui, C, D, ease, prog, clamp, lerp, text, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, inkBlob, drawCharacter, alpha, shade } from './lib.js';
 
 export const pop = (t, s, d = 0.35) => ease.outBack(prog(t, s, s + d));
 export const fade = (t, s, d = 0.3) => ease.out(prog(t, s, s + d));
@@ -52,8 +52,25 @@ export function granola(g, x, y, s = 1) { inkRect(g, x - 50 * s, y - 20 * s, 100
 export function moon(g, x, y, r) { inkCircle(g, x, y, r, { fill: '#fff6c8' }); inkCircle(g, x - r * 0.3, y - r * 0.2, r * 0.18, { fill: '#e8dca0', w: 3 }); inkCircle(g, x + r * 0.35, y + r * 0.3, r * 0.12, { fill: '#e8dca0', w: 3 }); }
 export function page(g, x, y, w, h, lines = [], o = {}) { g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); inkRect(g, -w / 2, -h / 2, w, h, { fill: C.paper, r: 4 }); lines.forEach((l, i) => text(g, l, 0, -h / 2 + 70 + i * (o.lh || 80), { size: o.size || 54, font: FONTS.serif, weight: 400, color: o.color || INK() })); g.restore(); }
 export function mouse(g, x, y, s = 1) { inkEllipse(g, x, y, 70 * s, 40 * s, { fill: '#d9d4cc' }); inkCircle(g, x + 62 * s, y - 6 * s, 24 * s, { fill: '#d9d4cc' }); inkCircle(g, x + 54 * s, y - 28 * s, 12 * s, { fill: '#f2b8c6', w: 3 }); inkLine(g, [[x - 70 * s, y + 6 * s], [x - 120 * s, y + 30 * s]], { w: 4 }); }
-export function book(g, x, y, w, h, o = {}) { inkRect(g, x - w / 2, y - h / 2, w, h, { fill: o.fill || '#fffdf6', r: 8 }); inkLine(g, [[x, y - h / 2], [x, y + h / 2]], { w: 6 }); for (let i = 0; i < 5; i++) { inkLine(g, [[x - w / 2 + 40, y - h / 2 + 60 + i * 50], [x - 40, y - h / 2 + 60 + i * 50]], { w: 3 }); inkLine(g, [[x + 40, y - h / 2 + 60 + i * 50], [x + w / 2 - 40, y - h / 2 + 60 + i * 50]], { w: 3 }); } }
-export function car(g, x, y, s = 1, fill = '#e4572e') { inkShape(g, [[x - 160 * s, y], [x - 160 * s, y - 60 * s], [x - 90 * s, y - 70 * s], [x - 50 * s, y - 120 * s], [x + 70 * s, y - 120 * s], [x + 110 * s, y - 70 * s], [x + 170 * s, y - 60 * s], [x + 170 * s, y]], { fill }); [-90, 100].forEach((a) => { inkCircle(g, x + a * s, y, 32 * s, { fill: '#3b3b44' }); inkCircle(g, x + a * s, y, 12 * s, { fill: '#c9c3b4', w: 3 }); }); }
+export function book(g, x, y, w, h, o = {}) { inkRect(g, x - w / 2 - 22, y - h / 2 + 18, w + 44, h + 10, { fill: '#3d7ea6', r: 14 }); inkRect(g, x - w / 2, y - h / 2,w, h, { fill: o.fill || '#fffdf6', r: 8 }); inkLine(g, [[x, y - h / 2], [x, y + h / 2]], { w: 6 }); for (let i = 0; i < 5; i++) { inkLine(g, [[x - w / 2 + 40, y - h / 2 + 60 + i * 50], [x - 40, y - h / 2 + 60 + i * 50]], { w: 3 }); inkLine(g, [[x + 40, y - h / 2 + 60 + i * 50], [x + w / 2 - 40, y - h / 2 + 60 + i * 50]], { w: 3 }); } }
+export function car(g, x, y, s = 1, fill = '#e4572e', f = 1, o = {}) {
+  // y = линия центров колёс (колесо радиусом 34*s, земля на y + 34*s). Передок справа при f=1, зеркалится при f=-1.
+  g.save(); g.translate(x, y); g.scale(f * s, s);
+  const dark = shade(fill, -0.25), W = 3.5;
+  inkRect(g, -172, -84, 346, 70, { fill, r: 28 });                                     // кузов
+  inkShape(g, [[-108, -82], [-66, -146], [84, -146], [128, -82]], { fill });           // салон
+  inkShape(g, [[-92, -86], [-60, -136], [-8, -136], [-8, -86]], { fill: '#cfe6f5', w: W });   // заднее стекло
+  inkShape(g, [[6, -86], [6, -136], [76, -136], [110, -86]], { fill: '#cfe6f5', w: W });      // переднее стекло
+  inkLine(g, [[-2, -146], [-2, -22]], { w: 4 });                                        // стойка / стык дверей
+  inkLine(g, [[10, -64], [34, -64]], { w: 5 });                                         // ручка
+  inkRect(g, -176, -58, 14, 22, { fill: '#e03b3b', r: 5, w: W });                       // задний фонарь
+  inkEllipse(g, 166, -60, 12, 15, { fill: '#fff3b0', w: W });                           // фара
+  inkRect(g, 150, -34, 30, 14, { fill: '#b8b3a8', r: 5, w: W });                        // бампер
+  inkLine(g, [[-172, -50], [168, -50]], { w: 3, stroke: dark });                         // молдинг
+  if (o.driver) { inkCircle(g, 40, -116, 17, { fill: '#fff', w: W }); inkShape(g, [[22, -118], [30, -136], [56, -134], [60, -116], [48, -124]], { fill: o.driver, w: W }); }
+  [-100, 106].forEach((a) => { inkCircle(g, a, 0, 46, { fill: dark, w: W }); inkCircle(g, a, 0, 34, { fill: '#3b3b44' }); inkCircle(g, a, 0, 13, { fill: '#d4cfc3', w: 3 }); });   // колёса в арках
+  g.restore();
+}
 export function mitten(g, x, y, s = 1, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); inkShape(g, [[-34, 40], [-38, -20], [-20, -56], [20, -56], [38, -20], [34, 40]], { fill: '#e4572e', smooth: true }); inkEllipse(g, -36, -4, 14, 22, { fill: '#e4572e', rot: -0.5 }); inkRect(g, -36, 22, 72, 22, { fill: '#fff', r: 5 }); inkCircle(g, 0, -14, 14, { fill: '#2b2b33', w: 3 }); inkCircle(g, 0, -4, 8, { fill: '#fff', w: 2 }); g.restore(); }
 export function crack(g, x, y, len, prog01, seed = 1) { const n = Math.floor(10 * prog01), pts = [[x, y]]; for (let i = 1; i <= n; i++) pts.push([x + (i / 10) * len, y + Math.sin(i * 1.9 + seed) * 26 * ((i % 3) + 1) / 2]); if (pts.length > 1) inkLine(g, pts, { w: 5, stroke: '#3d7ea6', smooth: false }); }
 export function rope(g, a, b, sag = 40) { inkLine(g, [a, [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + sag], b], { w: 9, stroke: '#a98050' }); }
@@ -69,6 +86,28 @@ export function stick(g, x, y, s = 1, fill) { inkCircle(g, x, y - 70 * s, 22 * s
 export function desk(g, x, GY, s = 1) { const top = GY - 118 * s; inkRect(g, x - 70 * s, top, 140 * s, 14 * s, { fill: C.wood, r: 4 }); inkLine(g, [[x - 58 * s, top + 14 * s], [x - 58 * s, GY]], { w: 6 }); inkLine(g, [[x + 58 * s, top + 14 * s], [x + 58 * s, GY]], { w: 6 }); }
 export function table(g, x, GY, w = 520, h = 130) { inkRect(g, x - w / 2, GY - h, w, 22, { fill: C.wood, r: 6 }); inkLine(g, [[x - w / 2 + 40, GY - h + 22], [x - w / 2 + 40, GY]], { w: 10 }); inkLine(g, [[x + w / 2 - 40, GY - h + 22], [x + w / 2 - 40, GY]], { w: 10 }); return GY - h; }
 export function checker(g, x, y, w, n = 8) { const c = w / n; for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) { g.fillStyle = (i + j) % 2 ? '#3b3632' : '#f3e8d6'; g.fillRect(x - w / 2 + i * c, y - w / 2 + j * c, c, c); } inkRect(g, x - w / 2, y - w / 2, w, w, { fill: 'transparent', r: 0 }); }
+export function piece(g, x, y, h, kind, fill) {
+  const w = 3; inkEllipse(g, x, y, h * 0.27, h * 0.07, { fill, w });
+  if (kind === 'r') { inkRect(g, x - h * 0.2, y - h * 0.72, h * 0.4, h * 0.7, { fill, r: 2, w }); inkRect(g, x - h * 0.26, y - h * 0.86, h * 0.52, h * 0.16, { fill, r: 2, w }); return; }
+  inkShape(g, [[x - h * 0.22, y], [x - h * 0.1, y - h * 0.58], [x + h * 0.1, y - h * 0.58], [x + h * 0.22, y]], { fill, w });
+  if (kind === 'k' || kind === 'q') { inkCircle(g, x, y - h * 0.7, h * 0.14, { fill, w }); if (kind === 'k') { inkLine(g, [[x, y - h * 0.98], [x, y - h * 1.2]], { w: 3 }); inkLine(g, [[x - h * 0.09, y - h * 1.1], [x + h * 0.09, y - h * 1.1]], { w: 3 }); } else { inkLine(g, [[x - h * 0.16, y - h * 0.86], [x + h * 0.16, y - h * 0.86]], { w: 3 }); } return; }
+  if (kind === 'b') { inkEllipse(g, x, y - h * 0.72, h * 0.12, h * 0.2, { fill, w }); return; }
+  inkCircle(g, x, y - h * 0.7, h * 0.14, { fill, w });
+}
+// шахматная доска ЛЕЖИТ на столе (вид сбоку-сверху в перспективе), фигуры СТОЯТ на клетках. topY = линия столешницы, w = ширина доски спереди.
+export function chessOn(g, x, topY, w = 300, o = {}) {
+  const d = w * 0.3, wb = w * 0.7, P = (u, v) => [x + (u - 0.5) * (w + (wb - w) * v), topY - v * d];
+  inkRect(g, x - w / 2 - 8, topY - 2, w + 16, 14, { fill: C.woodD, r: 3 });
+  for (let j = 0; j < 8; j++) for (let i = 0; i < 8; i++) { const a = P(i / 8, j / 8), b = P((i + 1) / 8, j / 8), c2 = P((i + 1) / 8, (j + 1) / 8), e = P(i / 8, (j + 1) / 8); g.beginPath(); g.moveTo(...a); g.lineTo(...b); g.lineTo(...c2); g.lineTo(...e); g.closePath(); g.fillStyle = (i + j) % 2 ? '#a0693f' : '#f3e8d6'; g.fill(); }
+  inkLine(g, [P(0, 0), P(1, 0), P(1, 1), P(0, 1), P(0, 0)], { w: 5 });
+  const back = ['r', 'b', 'q', 'k', 'q', 'b', 'r', 'r'], few = new Set(o.few || []);
+  for (let j = 7; j >= 0; j--) for (let i = 0; i < 8; i++) {
+    let kind = null, fill = '#fff';
+    if (j === 0) { kind = back[i]; } else if (j === 1) kind = 'p'; else if (j === 6) { kind = 'p'; fill = '#2b2b30'; } else if (j === 7) { kind = back[i]; fill = '#2b2b30'; }
+    if (!kind) continue; if (o.few && !few.has(i + ',' + j)) continue;
+    const [px, py] = P((i + 0.5) / 8, (j + 0.5) / 8), h = w * 0.17 * (1 - 0.25 * (j / 7)); piece(g, px, py, h, kind, fill);
+  }
+}
 export function magnifier(g, x, y, s = 1) { inkCircle(g, x, y, 50 * s, { fill: 'rgba(207,230,245,.6)' }); inkLine(g, [[x + 36 * s, y + 36 * s], [x + 90 * s, y + 90 * s]], { w: 14, stroke: C.woodD }); }
 export function paw(g, x, y, s = 1) { inkEllipse(g, x, y + 14 * s, 34 * s, 28 * s, { fill: '#8a6a45' }); [[-34, -20], [-12, -40], [14, -40], [36, -20]].forEach(([a, b]) => inkEllipse(g, x + a * s, y + b * s, 11 * s, 15 * s, { fill: '#8a6a45', w: 3 })); }
 export function sneaker(g, x, y, s = 1, rot = 0, flip = 1) { g.save(); g.translate(x, y); g.rotate(rot); g.scale(flip * s, s); inkShape(g, [[-90, 0], [-90, -70], [-30, -90], [10, -60], [100, -40], [110, 0]], { fill: '#f28a1e', smooth: false }); inkRect(g, -96, -6, 214, 24, { fill: '#fff', r: 10 }); inkLine(g, [[-20, -70], [10, -40]], { w: 5, stroke: '#fff' }); inkLine(g, [[0, -80], [30, -50]], { w: 5, stroke: '#fff' }); g.restore(); }

@@ -10,7 +10,7 @@
 import { E, S, lerp, shade, circle } from './core.js';
 import { POSES } from './skeleton.js';
 import { face } from './rig2d.js';
-import { LINE, inkShape, inkCircle, inkEllipse, inkLine, inkTube, contact } from './ink.js';
+import { LINE, inkShape, inkCircle, inkEllipse, inkLine, inkTube, inkRect, contact } from './ink.js';
 
 const CH = () => ({ head: 1, limb: 1, ...(E.pack?.characters || {}) });
 const SKIN = () => S().skin || '#ffffff';
@@ -57,18 +57,21 @@ function beard(g, of, c, r) {
 function hat(g, of, c, r, front = false) {
   const col = of.hatColor || '#d9483b';
   switch (of.hat) {
-    case 'capBack': {   // кепка задом наперёд (Leon): купол, козырёк назад-вниз, ремешок спереди, чуб торчит
-      const hc = of.hairColor || HAIR, d = front ? 0 : 1;
-      if (!front) inkShape(g, [[c[0] + r * 0.28, c[1] - r * 0.92], [c[0] + r * 0.62, c[1] - r * 1.22], [c[0] + r * 0.74, c[1] - r * 1.05], [c[0] + r * 1.08, c[1] - r * 1.12], [c[0] + r * 0.86, c[1] - r * 0.78], [c[0] + r * 1.0, c[1] - r * 0.6], [c[0] + r * 0.5, c[1] - r * 0.7]], { fill: hc, seed: 56 });   // чуб
-      inkShape(g, [...arcPts(c[0], c[1] - r * 0.06, r * 1.08, Math.PI * 0.98, Math.PI * 2.02, 14), [c[0] + r * 0.9, c[1] - r * 0.3], [c[0] - r * 0.9, c[1] - r * 0.22]], { fill: col, seed: 57 });
-      seg2(g, [[c[0] - r * 0.4, c[1] - r * 1.04], [c[0] - r * 0.42, c[1] - r * 0.3]]); seg2(g, [[c[0] + r * 0.25, c[1] - r * 1.06], [c[0] + r * 0.3, c[1] - r * 0.3]]);
-      inkShape(g, [[c[0] - r * 0.95, c[1] - r * 0.28], [c[0] - r * 1.75, c[1] - r * 0.05 + d * r * 0.12], [c[0] - r * 1.5, c[1] + r * 0.32], [c[0] - r * 0.98, c[1] + r * 0.05]], { fill: shade(col, -0.12), seed: 58 });   // козырёк назад
-      if (!front) { inkShape(g, [[c[0] + r * 0.25, c[1] - r * 0.4], [c[0] + r * 0.8, c[1] - r * 0.44], [c[0] + r * 0.8, c[1] - r * 0.28], [c[0] + r * 0.25, c[1] - r * 0.24]], { fill: shade(col, 0.08), seed: 59 }); for (let i = 0; i < 3; i++) circle(g, c[0] + r * (0.35 + i * 0.16), c[1] - r * 0.34, 2.2, S().ink); }
+    case 'capBack': {   // кепка задом наперёд (Leon): купол высоко над бровями, козырёк назад, ремешок со щелью, в щель торчит чуб (виден и в профиль, и анфас)
+      const hc = of.hairColor || HAIR, d = front ? 0 : 1, c0 = c, cc = [c0[0], c0[1] - r * 0.3], tx = front ? r * 0.3 : r * 0.62;
+      // чуб торчит из щели ремешка: рисуется под кепкой, поэтому видна только верхняя часть над ремешком
+      inkShape(g, [[cc[0] + tx - r * 0.2, cc[1] - r * 0.5], [cc[0] + tx - r * 0.12, cc[1] - r * 1.1], [cc[0] + tx + r * 0.04, cc[1] - r * 0.9], [cc[0] + tx + r * 0.2, cc[1] - r * 1.18], [cc[0] + tx + r * 0.3, cc[1] - r * 0.85], [cc[0] + tx + r * 0.42, cc[1] - r * 0.98], [cc[0] + tx + r * 0.34, cc[1] - r * 0.5]], { fill: hc, seed: 56 });
+      inkShape(g, [...arcPts(cc[0], cc[1] - r * 0.06, r * 1.08, Math.PI * 0.98, Math.PI * 2.02, 14), [cc[0] + r * 0.9, cc[1] - r * 0.3], [cc[0] - r * 0.9, cc[1] - r * 0.22]], { fill: col, seed: 57 });
+      seg2(g, [[cc[0] - r * 0.4, cc[1] - r * 1.04], [cc[0] - r * 0.42, cc[1] - r * 0.3]]);
+      inkShape(g, [[cc[0] - r * 0.95, cc[1] - r * 0.28], [cc[0] - r * 1.75, cc[1] - r * 0.05 + d * r * 0.12], [cc[0] - r * 1.5, cc[1] + r * 0.32], [cc[0] - r * 0.98, cc[1] + r * 0.05]], { fill: shade(col, -0.12), seed: 58 });   // козырёк назад
+      // ремешок со щелью (в щели чуб): чуб рисуем ещё раз поверх щели, чтобы отверстие не было пустым
+      inkShape(g, [[cc[0] + tx - r * 0.5, cc[1] - r * 0.44], [cc[0] + tx + r * 0.5, cc[1] - r * 0.46], [cc[0] + tx + r * 0.5, cc[1] - r * 0.26], [cc[0] + tx - r * 0.5, cc[1] - r * 0.24]], { fill: shade(col, 0.08), seed: 59 });
+      inkShape(g, [[cc[0] + tx - r * 0.14, cc[1] - r * 0.43], [cc[0] + tx + r * 0.16, cc[1] - r * 0.44], [cc[0] + tx + r * 0.16, cc[1] - r * 0.27], [cc[0] + tx - r * 0.14, cc[1] - r * 0.26]], { fill: hc, seed: 61 });
       break;
     }
     case 'cap': inkShape(g, [...arcPts(c[0], c[1] - r * 0.1, r * 1.04, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.6, c[1] - r * 0.12], [c[0] + r * 1.55, c[1] + r * 0.02], [c[0] - r * 1.04, c[1] - r * 0.02]], { fill: col, seed: 51 }); break;
     case 'hardhat': inkShape(g, [...arcPts(c[0], c[1] - r * 0.15, r * 1.02, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.3, c[1] - r * 0.12], [c[0] + r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] - r * 0.12]], { fill: of.hatColor || '#f2c21a', seed: 52 }); break;
-    case 'beanie': inkShape(g, [...arcPts(c[0], c[1] - r * 0.05, r * 1.08, Math.PI, Math.PI * 2, 12)], { fill: col, seed: 53 }); inkCircle(g, c[0], c[1] - r * 1.18, r * 0.24, { fill: shade(col, 0.3), seed: 54 }); break;
+    case 'beanie': inkShape(g, [...arcPts(c[0], c[1] - r * 0.36, r * 1.08, Math.PI, Math.PI * 2, 12)], { fill: col, seed: 53 }); inkRect(g, c[0] - r * 1.1, c[1] - r * 0.46, r * 2.2, r * 0.16, { fill: shade(col, -0.1), r: 3, seed: 54 }); inkCircle(g, c[0], c[1] - r * 1.5, r * 0.24, { fill: shade(col, 0.3), seed: 54 }); break;
     case 'headband': inkShape(g, [[c[0] - r * 1.02, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.28], [c[0] - r * 1.02, c[1] - r * 0.28]], { fill: col, seed: 55 }); break;
   }
 }
