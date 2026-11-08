@@ -145,11 +145,6 @@ const SETS = {
 const BG_IMG = true, BG_SETS = ['classroom', 'interiorCool', 'parking', 'bus', 'livingRoom', 'interiorWarm', 'gym', 'bedroom', 'studyNight', 'street', 'office', 'pond', 'nbhd'];
 const BGIM = await loadImages(Object.fromEntries(BG_SETS.map((n) => [n, project(`assets/bg/${n}.png`)])));
 if (BG_IMG) for (const n of BG_SETS) { const orig = SETS[n]; SETS[n] = (g, o) => { const r = orig(g, o), im = BGIM[n]; g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return r; }; }
-// Столешница из фона studyNight поверх героя: Leon оказывается между стулом (сзади) и столом (спереди).
-function deskFront(g) {
-  const im = BGIM.studyNight, kx = (E.W * 1.1) / im.width, ky = (E.H * 1.06) / (im.height - 160), sx = 70, sy = 398, sw = 275, sh = 42;
-  g.drawImage(im, sx, sy, sw, sh, -E.W * 0.05 + sx * kx, -E.H * 0.03 + (sy - 80) * ky, sw * kx, sh * ky);
-}
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
 // ---------- кровать: Leon ЛЕЖИТ на подушке, укрыт одеялом, кепка на тумбочке ----------
@@ -227,7 +222,6 @@ export function def(id, spec) {
       if (spec.close && spec.iq) iqTag(g, t, E.W * 0.5, E.H * 0.13, 'LEON', 0, 0.4);
       if (spec.close) closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]);
       if (spec.fx) spec.fx(g, t, info, ctx);
-      if (BG_IMG && spec.set === 'studyNight' && (spec.chars || []).some((c) => c.w === 'LEON')) deskFront(g);   // стол спереди: Leon сидит между стулом (сзади) и столом (спереди)
     });
     if (spec.iq) iqTitle(g, t, info);
     overlay(g, t, info, spec, heads.length ? heads : spec.close ? (() => { const c = spec.close, r = c.r ?? 330, cx = (c.x ?? 0.5) * E.W, cy = (c.y ?? 0.62) * E.H; return [{ x: cx - r * 0.55, y: cy - r * 1.62 + 110 }]; })() : [{ x: E.W / 2, y: E.H * 0.55 }]);
