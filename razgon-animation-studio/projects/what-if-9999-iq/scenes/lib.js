@@ -11,7 +11,7 @@ import { loadImages, img, loadJSON, project } from '/engine/assets.js';
 export { E, V, S, mood, ease, prog, lerp, clamp, FONTS, text, measure, shade, alpha, D, inkShape, inkCircle, inkRect, inkLine, inkTube, inkEllipse, inkBlob, POSES, walkPose, posesAt, breathe, drawCharacter };
 
 const TEXTS = await loadJSON(project('story/texts.json'));
-const IM = await loadImages({ idle: project('assets/chars/leon/idle.png'), walk: project('assets/chars/leon/walk.png'), happy: project('assets/chars/leon/happy.png'), surprised: project('assets/chars/leon/surprised.png'), worried: project('assets/chars/leon/worried.png'), determined: project('assets/chars/leon/determined.png') });
+const IM = await loadImages({ idle: project('assets/chars/leon/idle.png'), walk: project('assets/chars/leon/walk.png'), happy: project('assets/chars/leon/happy.png'), surprised: project('assets/chars/leon/surprised.png'), worried: project('assets/chars/leon/worried.png'), determined: project('assets/chars/leon/determined.png'), cafBg: project('assets/bg/cafeteria.png') });
 
 // ---------- палитра предметов (плоские цвета doodle) ----------
 export const C = { wood: '#c98b4a', woodD: '#9a6a3a', board: '#3f6b57', paper: '#fffdf6', glass: '#cfe6f5', red: '#d8232a', gold: '#f6b93b', blue: '#3d7ea6', grey: '#b8b3a8', night: '#2e3a5c', green: '#7da55a', cream: '#f3e8d6' };
@@ -61,6 +61,7 @@ const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt
 const blinkAt = (t, k) => ((t + k) % (2.8 + (k % 1.3))) > 2.7 + (k % 1.3) * 0;
 // ОДИН Leon: везде кодовая кукла (capBack из движка). Спрайты из assets/chars/leon больше не рисуем.
 const ONE_LEON = true;
+const CAF_IMG = true;
 const SIT = (p) => p === 'sit' || p === 'sitBack';
 
 // ---------- один персонаж ----------
@@ -122,7 +123,8 @@ export { clock, win, rect };
 
 const SETS = {
   classroom(g, o) { const GY = E.H * 0.84; D.plain(g, '#f3e8d6'); g.fillStyle = '#c9a77c'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); win(g, 120, 150, 430, 400); rect(g, 746, 176, 788, 328, C.wood); rect(g, 760, 190, 760, 300, C.board); clock(g, 1680, 170, 56, 10, 15); return { GY }; },
-  cafeteria(g) { const GY = E.H * 0.84; D.plain(g, '#f1e3c4'); g.fillStyle = '#d9c7a1'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); for (let i = 0; i < 3; i++) win(g, 160 + i * 520, 70, 340, 150, C.glass, 2); rect(g, 1180, GY - 250, 700, 250, '#b9c6cf'); rect(g, 1160, GY - 270, 740, 30, C.woodD); for (let i = 0; i < 4; i++) rect(g, 1230 + i * 160, GY - 330, 100, 60, '#e8e2d2'); return { GY }; },
+  // фон столовой от OpenAI (assets/bg/cafeteria.png, обрезан до 16:9); герои и мелочи ставятся кодом поверх. CAF_IMG=false вернёт кодовый фон.
+  cafeteria(g) { if (CAF_IMG) { const GY = E.H * 0.72, im = IM.cafBg; D.plain(g, '#efe0bd'); g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return { GY }; } const GY = E.H * 0.84; D.plain(g, '#f1e3c4'); g.fillStyle = '#d9c7a1'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); for (let i = 0; i < 3; i++) win(g, 160 + i * 520, 70, 340, 150, C.glass, 2); rect(g, 1180, GY - 250, 700, 250, '#b9c6cf'); rect(g, 1160, GY - 270, 740, 30, C.woodD); for (let i = 0; i < 4; i++) rect(g, 1230 + i * 160, GY - 330, 100, 60, '#e8e2d2'); return { GY }; },
   livingRoom(g) { const GY = E.H * 0.84; D.plain(g, '#efe0c8'); g.fillStyle = '#b98f62'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); win(g, 150, 160, 380, 380); rect(g, 1480, 140, 260, 320, '#fffdf6'); for (let r = 0; r < 4; r++) for (let c = 0; c < 4; c++) inkRect(g, 1498 + c * 56, 180 + r * 66, 48, 54, { fill: '#fff', r: 2, w: 3 }); text(g, 'SUNDAYS', 1610, 168, { size: 28, font: FONTS.ui, weight: 900, color: S().ink }); rect(g, 1500, GY - 190, 250, 190, '#a35a3d'); rect(g, 1480, GY - 240, 290, 70, '#b96f4c'); return { GY }; },
   interiorWarm(g) { const GY = E.H * 0.84; D.plain(g, '#efd9b8'); g.fillStyle = '#c9a77c'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); win(g, 1330, 150, 400, 330, '#f6dcae'); rect(g, 130, GY - 300, 250, 300, C.woodD); for (let i = 0; i < 3; i++) rect(g, 150, GY - 280 + i * 90, 210, 70, C.wood); return { GY }; },
   interiorCool(g) { const GY = E.H * 0.84; D.plain(g, '#dce6ec'); g.fillStyle = '#a9b8c0'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); win(g, 1250, 140, 440, 360, '#e9f1f6'); rect(g, 1180, GY - 150, 600, 28, C.wood); inkLine(g, [[1220, GY - 122], [1220, GY]], { w: 10 }); inkLine(g, [[1740, GY - 122], [1740, GY]], { w: 10 }); return { GY }; },
@@ -139,6 +141,10 @@ const SETS = {
   void(g) { const GY = E.H * 0.84; D.plain(g, '#fbf8f1'); g.strokeStyle = 'rgba(61,126,166,.10)'; g.lineWidth = 2; for (let x = 0; x <= E.W; x += 60) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, E.H); g.stroke(); } for (let y = 0; y <= E.H; y += 60) { g.beginPath(); g.moveTo(0, y); g.lineTo(E.W, y); g.stroke(); } return { GY }; },
   store(g) { D.plain(g, '#f1ead9'); g.strokeStyle = 'rgba(0,0,0,.07)'; g.lineWidth = 2; for (let x = 0; x <= E.W; x += 120) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, E.H); g.stroke(); } for (let y = 0; y <= E.H; y += 120) { g.beginPath(); g.moveTo(0, y); g.lineTo(E.W, y); g.stroke(); } for (let r = 0; r < 3; r++) for (let c = 0; c < 4; c++) rect(g, 160 + c * 440, 150 + r * 290, 300, 90, ['#e4572e', '#3d7ea6', '#7da55a', '#f6b93b'][(r + c) % 4], { r: 6 }); rect(g, 1500, 900, 380, 70, C.woodD); return { GY: E.H * 0.84 }; },
 };
+// Фоны от OpenAI (assets/bg/<set>.png, обрезаны до 16:9) поверх кодовых мест: герои и мелочи ставятся кодом сверху. BG_IMG=false вернёт кодовые фоны.
+const BG_IMG = true, BG_SETS = ['classroom', 'interiorCool', 'parking', 'bus', 'livingRoom', 'interiorWarm', 'gym', 'bedroom', 'studyNight', 'street', 'office', 'pond', 'nbhd'];
+const BGIM = await loadImages(Object.fromEntries(BG_SETS.map((n) => [n, project(`assets/bg/${n}.png`)])));
+if (BG_IMG) for (const n of BG_SETS) { const orig = SETS[n]; SETS[n] = (g, o) => { const r = orig(g, o), im = BGIM[n]; g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return r; }; }
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
 // ---------- кровать: Leon ЛЕЖИТ на подушке, укрыт одеялом, кепка на тумбочке ----------
