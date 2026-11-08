@@ -97,6 +97,7 @@ export function piece(g, x, y, h, kind, fill) {
 // шахматная доска ЛЕЖИТ на столе (вид сбоку-сверху в перспективе), фигуры СТОЯТ на клетках. topY = линия столешницы, w = ширина доски спереди.
 export function chessOn(g, x, topY, w = 300, o = {}) {
   const d = w * 0.3, wb = w * 0.7, P = (u, v) => [x + (u - 0.5) * (w + (wb - w) * v), topY - v * d];
+  { const Tt = (u, v) => [x + (u - 0.5) * (w + 70 + (wb - w) * v), topY + 6 - v * (d + 26)]; inkShape(g, [Tt(0, 0), Tt(1, 0), Tt(1, 1), Tt(0, 1)], { fill: C.wood }); }   // столешница под доской: доска лежит на столе, а не парит
   inkRect(g, x - w / 2 - 8, topY - 2, w + 16, 14, { fill: C.woodD, r: 3 });
   for (let j = 0; j < 8; j++) for (let i = 0; i < 8; i++) { const a = P(i / 8, j / 8), b = P((i + 1) / 8, j / 8), c2 = P((i + 1) / 8, (j + 1) / 8), e = P(i / 8, (j + 1) / 8); g.beginPath(); g.moveTo(...a); g.lineTo(...b); g.lineTo(...c2); g.lineTo(...e); g.closePath(); g.fillStyle = (i + j) % 2 ? '#a0693f' : '#f3e8d6'; g.fill(); }
   inkLine(g, [P(0, 0), P(1, 0), P(1, 1), P(0, 1), P(0, 0)], { w: 5 });
