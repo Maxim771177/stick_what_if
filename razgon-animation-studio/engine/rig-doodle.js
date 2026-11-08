@@ -57,16 +57,29 @@ function beard(g, of, c, r) {
 function hat(g, of, c, r, front = false) {
   const col = of.hatColor || '#d9483b';
   switch (of.hat) {
-    case 'capBack': {   // кепка задом наперёд (Leon): купол высоко над бровями, козырёк назад, ремешок со щелью, в щель торчит чуб (виден и в профиль, и анфас)
-      const hc = of.hairColor || HAIR, d = front ? 0 : 1, c0 = c, cc = [c0[0], c0[1] - r * 0.3], tx = front ? r * 0.3 : r * 0.62;
-      // чуб торчит из щели ремешка: рисуется под кепкой, поэтому видна только верхняя часть над ремешком
-      inkShape(g, [[cc[0] + tx - r * 0.2, cc[1] - r * 0.5], [cc[0] + tx - r * 0.12, cc[1] - r * 1.1], [cc[0] + tx + r * 0.04, cc[1] - r * 0.9], [cc[0] + tx + r * 0.2, cc[1] - r * 1.18], [cc[0] + tx + r * 0.3, cc[1] - r * 0.85], [cc[0] + tx + r * 0.42, cc[1] - r * 0.98], [cc[0] + tx + r * 0.34, cc[1] - r * 0.5]], { fill: hc, seed: 56 });
-      inkShape(g, [...arcPts(cc[0], cc[1] - r * 0.06, r * 1.08, Math.PI * 0.98, Math.PI * 2.02, 14), [cc[0] + r * 0.9, cc[1] - r * 0.3], [cc[0] - r * 0.9, cc[1] - r * 0.22]], { fill: col, seed: 57 });
-      seg2(g, [[cc[0] - r * 0.4, cc[1] - r * 1.04], [cc[0] - r * 0.42, cc[1] - r * 0.3]]);
-      inkShape(g, [[cc[0] - r * 0.95, cc[1] - r * 0.28], [cc[0] - r * 1.75, cc[1] - r * 0.05 + d * r * 0.12], [cc[0] - r * 1.5, cc[1] + r * 0.32], [cc[0] - r * 0.98, cc[1] + r * 0.05]], { fill: shade(col, -0.12), seed: 58 });   // козырёк назад
-      // ремешок со щелью (в щели чуб): чуб рисуем ещё раз поверх щели, чтобы отверстие не было пустым
-      inkShape(g, [[cc[0] + tx - r * 0.5, cc[1] - r * 0.44], [cc[0] + tx + r * 0.5, cc[1] - r * 0.46], [cc[0] + tx + r * 0.5, cc[1] - r * 0.26], [cc[0] + tx - r * 0.5, cc[1] - r * 0.24]], { fill: shade(col, 0.08), seed: 59 });
-      inkShape(g, [[cc[0] + tx - r * 0.14, cc[1] - r * 0.43], [cc[0] + tx + r * 0.16, cc[1] - r * 0.44], [cc[0] + tx + r * 0.16, cc[1] - r * 0.27], [cc[0] + tx - r * 0.14, cc[1] - r * 0.26]], { fill: hc, seed: 61 });
+    case 'capBack': {   // кепка задом наперёд (Leon) по эталону: купол с долями, ровный ремешок с дырочками у ободка, небольшой чуб-волна, козырёк того же цвета — прямой, с закруглённым концом
+      const hc = of.hairColor || '#6b3a1e', X = c[0], Y = c[1], tx = X + (front ? r * 0.28 : r * 0.46), thin = Math.max(1.2, LINE().width * 0.55);
+      const top = Y - r * 1.62, rimY = Y - r * 0.7;
+      // волосы у щёк под кепкой
+      inkShape(g, [[X - r * 0.97, rimY + r * 0.1], [X - r * 0.86, Y - r * 0.12], [X - r * 0.7, rimY + r * 0.16]], { fill: hc, seed: 63, w: thin, smooth: true });
+      inkShape(g, [[X + r * 0.97, rimY + r * 0.1], [X + r * 0.9, Y - r * 0.16], [X + r * 0.76, rimY + r * 0.16]], { fill: hc, seed: 64, w: thin, smooth: true });
+      // купол и козырёк — один силуэт одного цвета: козырёк прямой, конец закруглён
+      const tip = []; for (let k = 0; k <= 10; k++) { const th = Math.PI * (0.5 + k / 10); tip.push([X - r * 1.5 + Math.cos(th) * r * 0.22, rimY + r * 0.47 + Math.sin(th) * r * 0.22]); }
+      inkShape(g, [...arcPts(X, Y - r * 0.62, r * 1.0, Math.PI, Math.PI * 2, 20), [X + r * 0.97, rimY + r * 0.18], [X + r * 0.55, rimY + r * 0.04], [X, rimY], [X - r * 0.5, rimY + r * 0.05], [X - r * 0.78, rimY + r * 0.3], ...tip, [X - r * 1.2, rimY + r * 0.19]], { fill: col, seed: 57 });
+      // дольки купола
+      for (const vx of [-0.62, -0.26, 0.12]) {
+        const pts = []; for (let k = 0; k <= 8; k++) { const u = k / 8; pts.push([X + r * (vx * u + 0.1 * Math.sin(u * Math.PI) * (vx < 0 ? -1 : 1)), top + r * 0.03 + (rimY - top - r * 0.03) * u]); }
+        inkLine(g, pts, { w: thin * 0.9 });
+      }
+      // ремешок: полоса, огибающая край кепки (идёт по дуге ободка), с тремя дырочками
+      const rimAt = (x) => rimY + r * 0.2 * Math.pow(x / r, 2), sw = r * 0.55, th = r * 0.26, N = 8, sx = tx - X;
+      const topE = [], botE = []; for (let k = 0; k <= N; k++) { const x = sx - sw + (2 * sw) * (k / N); topE.push([X + x, rimAt(x) - th - r * 0.03]); botE.push([X + x, rimAt(x) - r * 0.03]); }
+      const sy = rimY - r * 0.17, sh = th / 2;
+      // чуб поменьше: небольшая волна вбок из-за ремешка
+      const T = [[-0.2, 0.1], [-0.2, -0.1], [-0.08, -0.26], [0.1, -0.36], [0.3, -0.38], [0.46, -0.32], [0.32, -0.24], [0.22, -0.2], [0.4, -0.18], [0.56, -0.06], [0.36, -0.05], [0.26, 0.0], [0.26, 0.1]].map(([a, b]) => [tx + r * a, rimAt(sx + r * a) - th - r * 0.03 + r * b]);
+      inkShape(g, T, { fill: hc, seed: 56, w: thin, smooth: true });
+      inkShape(g, [...topE, ...botE.reverse()], { fill: col, seed: 59, w: thin });
+      for (let i = -1; i <= 1; i++) { const x = sx + i * r * 0.26; inkCircle(g, X + x, rimAt(x) - th / 2 - r * 0.03, r * 0.04, { fill: shade(col, -0.45), w: 0, seed: 62 + i }); }
       break;
     }
     case 'cap': inkShape(g, [...arcPts(c[0], c[1] - r * 0.1, r * 1.04, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.6, c[1] - r * 0.12], [c[0] + r * 1.55, c[1] + r * 0.02], [c[0] - r * 1.04, c[1] - r * 0.02]], { fill: col, seed: 51 }); break;
@@ -165,7 +178,7 @@ export function drawDoodle(g, o) {
   inkCircle(g, H.c[0], H.c[1], H.r, { fill: skin, w: LINE().width * 1.1, seed: 33 });
   beard(g, of, H.c, H.r);
   hairTop(g, of, H.c, H.r);
-  face(g, H.c[0], H.c[1], H.r, { expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, override: o.face, color: S().ink });
+  face(g, H.c[0], H.c[1], H.r, { arcBrows: of.arcBrows, browDrop: of.browDrop, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, override: o.face, color: S().ink });
   glasses(g, of, H.c, H.r, false);
   hat(g, of, H.c, H.r, false);
   // near arm on top
@@ -183,7 +196,7 @@ export function doodleHead(o) {
 
 // frame-filling close-up: shoulders at the bottom, big head, front-facing face
 export function doodleCloseUp(g, cx, cy, r, o = {}) {
-  const of = o.outfit || {}, skin = of.skin || SKIN(), R = 44, k = r / R;   // drawn at the normal head size, scaled up: lines thicken like a real close-up
+  const of = o.outfit || {}, skin = of.skin || SKIN(), R = r / 3.2, k = 3.2;   // drawn at the normal head size, scaled up: lines thicken like a real close-up
   g.save(); g.translate(cx, cy); if (o.tilt) g.rotate(o.tilt); g.scale(k, k);
   const col = of.top && of.top !== 'none' ? of.color || { labcoat: '#f4f3ee', fur: '#a9733f', suit: '#2f3340' }[of.top] || '#4a90d9' : null;
   if (col) inkShape(g, [[-R * 1.35, R * 2.6], [-R * 1.25, R * 1.45], [-R * 0.6, R * 1.02], [R * 0.6, R * 1.02], [R * 1.25, R * 1.45], [R * 1.35, R * 2.6]], { fill: col, smooth: true, seed: 71 });
@@ -192,7 +205,7 @@ export function doodleCloseUp(g, cx, cy, r, o = {}) {
   inkCircle(g, 0, 0, R, { fill: skin, w: LINE().width * 1.1, seed: 34 });
   beard(g, of, [0, 0], R);
   hairTop(g, of, [0, 0], R, true);
-  face(g, 0, 0, R, { expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, front: true, override: o.face, color: S().ink });
+  face(g, 0, 0, R, { arcBrows: of.arcBrows, browDrop: of.browDrop, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, front: true, override: o.face, color: S().ink });
   glasses(g, of, [0, 0], R, true);
   hat(g, of, [0, 0], R, true);
   g.restore();

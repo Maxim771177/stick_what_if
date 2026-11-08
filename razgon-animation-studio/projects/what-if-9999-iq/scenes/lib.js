@@ -19,7 +19,7 @@ export const ui = () => S().ui;
 
 // ---------- наряды (doodle) ----------
 export const OUT = {
-  LEON: { top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
+  LEON: { arcBrows: true, top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
   TEACHER: { top: 'suit', color: '#6b4e9b', hair: 'bun', face: 'glasses' },
   MOM: { top: 'dress', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e' },
   NIA: { top: 'tshirt', color: '#f2c21a', hat: 'beanie', hatColor: '#f29ac0', kid: true },
@@ -59,6 +59,8 @@ const TALKSEQ = ['talk', 'explain', 'talk', 'point'];
 
 const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt, x]) => (t >= tt ? x : a), v[0][1]) : v);
 const blinkAt = (t, k) => ((t + k) % (2.8 + (k % 1.3))) > 2.7 + (k % 1.3) * 0;
+// ОДИН Leon: везде кодовая кукла (capBack из движка). Спрайты из assets/chars/leon больше не рисуем.
+const ONE_LEON = true;
 const SIT = (p) => p === 'sit' || p === 'sitBack';
 
 // ---------- один персонаж ----------
@@ -72,7 +74,7 @@ export function who(g, c, t, info, GY, wins) {
   const ent = c.noin ? 1 : ease.outBack(prog(t, c.in ?? 0, (c.in ?? 0) + 0.5)), pop = 0.86 + 0.14 * ent;
   const o = { x: cx, y: y, s, facing: f, outfit: OUT[id], expr, blink: blinkAt(t, (c.x || 0) * 9 + id.length), talk: talking ? 0.5 + 0.5 * Math.sin(t * 22) : 0, look: c.look, prop: c.prop, alpha: c.a == null ? undefined : tl(c.a, t), rot: c.rot };
   if (c.fall) o.rot = c.fall * ease.in(clamp((t - 0) / 0.5));
-  const usePup = id === 'LEON' && !c.code && !c.rot && !c.prop && ['neutral', 'smile', 'smirk', 'happy', 'joy'].includes(expr) && (walking || ['stand', 'relaxed', 'talk', 'explain', 'point'].includes(pn));
+  const usePup = !ONE_LEON && id === 'LEON' && !c.code && !c.rot && !c.prop && ['neutral', 'smile', 'smirk', 'happy', 'joy'].includes(expr) && (walking || ['stand', 'relaxed', 'talk', 'explain', 'point'].includes(pn));
   if (usePup) {
     const im = walking ? IM.walk : IM.idle, k = s * PUP, h = 240 * k * 0.92, sc = h / im.height;
     const bob = walking ? Math.abs(Math.sin(t * 8)) * 8 : talking ? Math.abs(Math.sin(t * 9)) * 7 : Math.sin(t * 2.2) * 2;
@@ -106,7 +108,7 @@ export function who(g, c, t, info, GY, wins) {
 const FACE = { happy: 'happy', joy: 'happy', smile: 'happy', surprised: 'surprised', shocked: 'surprised', awe: 'surprised', worried: 'worried', scared: 'worried', nervous: 'worried', sad: 'worried', confused: 'worried', cry: 'worried', neutral: 'determined', smirk: 'determined', determined: 'determined', angry: 'determined', thinking: 'determined', sleepy: 'determined' };
 export function closeUp(g, c, t, wins) {
   const id = c.w || 'LEON', x = (c.x ?? 0.5) * E.W, y = (c.y ?? 0.62) * E.H, r = c.r ?? 330;
-  if (id === 'LEON' && !c.code) { const key = FACE[tl(c.expr || 'smirk', t)] || 'determined', im = IM[key], sc = (r * 2.9) / im.height, tk = (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t); g.save(); g.translate(x, y + (tk ? Math.sin(t * 9) * 4 : 0)); g.rotate(tk ? Math.sin(t * 5) * 0.03 : 0); g.scale(sc, sc); g.translate(-im.width / 2, -im.height / 2); g.drawImage(im, 0, 0); if (tk) mouthOverlay(g, key, t); g.restore(); return; }
+  if (!ONE_LEON && id === 'LEON' && !c.code) { const key = FACE[tl(c.expr || 'smirk', t)] || 'determined', im = IM[key], sc = (r * 2.9) / im.height, tk = (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t); g.save(); g.translate(x, y + (tk ? Math.sin(t * 9) * 4 : 0)); g.rotate(tk ? Math.sin(t * 5) * 0.03 : 0); g.scale(sc, sc); g.translate(-im.width / 2, -im.height / 2); g.drawImage(im, 0, 0); if (tk) mouthOverlay(g, key, t); g.restore(); return; }
   characterCloseUp(g, x, y, r, { outfit: OUT[id], expr: tl(c.expr || 'neutral', t), blink: blinkAt(t, 1), talk: (c.talk && t >= c.talk[0] && t <= c.talk[1]) || inWin(wins, t) ? 0.5 + 0.5 * Math.sin(t * 22) : 0 });
 }
 
@@ -148,7 +150,7 @@ export function bedScene(g, t, c, o = {}) {
   inkShape(g, [[cx - 32, cy - 4], [cx - 70, cy + 2], [cx - 60, cy + 12], [cx - 30, cy + 4]], { fill: '#10998c', w: 4 });
   inkRect(g, x0 + 20, top - 62, 260, 70, { fill: '#fff', r: 32 });                                  // подушка
   g.save(); g.translate(hx + 10, hy + Math.sin(t * 1.5) * 2); g.rotate(-Math.PI / 2 * 0.9); g.beginPath(); g.arc(0, 0, r * 1.2, 0, Math.PI * 2); g.clip();          // голова на подушке, лицом вверх
-  characterCloseUp(g, 0, 0, r, { outfit: { ...OUT.LEON, hat: null, hair: 'short', hairColor: '#6b3a1e' }, expr: o.expr || 'sleepy', blink: o.expr === 'sleepy' ? 1 : blinkAt(t, 3), talk: 0 });
+  characterCloseUp(g, 0, 0, r, { outfit: OUT.LEON, expr: o.expr || 'sleepy', blink: o.expr === 'sleepy' ? 1 : blinkAt(t, 3), talk: 0 });
   g.restore();
   const k = 1 + 0.012 * Math.sin(t * 1.6);                                                              // дыхание одеяла
   inkShape(g, [[hx + 70, top - 4], [hx + 82, top - 62 * k], [hx + 260, top - 76 * k], [hx + 470, top - 70 * k], [hx + 640, top - 52 * k], [x0 + 800, top - 6]], { fill: '#6fa8dc', smooth: true });   // одеяло
@@ -216,6 +218,6 @@ export function def(id, spec) {
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
     if (spec.iq) iqTitle(g, t, info);
-    overlay(g, t, info, spec, heads.length ? heads : [{ x: E.W / 2, y: E.H * 0.55 }]);
+    overlay(g, t, info, spec, heads.length ? heads : spec.close ? (() => { const c = spec.close, r = c.r ?? 330, cx = (c.x ?? 0.5) * E.W, cy = (c.y ?? 0.62) * E.H; return [{ x: cx - r * 0.55, y: cy - r * 1.62 + 110 }]; })() : [{ x: E.W / 2, y: E.H * 0.55 }]);
   } });
 }
