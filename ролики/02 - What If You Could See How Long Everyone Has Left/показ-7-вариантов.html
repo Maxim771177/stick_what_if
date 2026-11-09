@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><style>
+body{margin:0;background:#0b0d1a;font-family:Arial Black,Arial,sans-serif;color:#fff;width:1900px}
+.g{display:grid;grid-template-columns:900px 900px;gap:30px 40px;padding:30px 50px}
+.c svg{width:900px;height:506px;border-radius:14px;display:block}
+.t{font:bold 26px Arial;margin:8px 4px 0;color:#cfd3ff}
+</style><body><div class="g" id="g"></div><script>
+const LONG={f:.85,txt:'52 YEARS',col:'#35d0ff'}, SHORT={f:.05,txt:'5 SEC',col:'#ff3d7f'};
+const FONT="font-family='Arial Black,Arial' font-weight='900'";
+const T=(x,y,s,t,c='#fff',a='middle')=>`<text x='${x}' y='${y}' font-size='${s}' fill='${c}' text-anchor='${a}' ${FONT} stroke='#000' stroke-width='${s/9}' paint-order='stroke'>${t}</text>`;
+function fig(x,mood){return `<g stroke='#fff' stroke-width='5' stroke-linecap='round' fill='none'>
+<circle cx='${x}' cy='215' r='24' fill='#111' stroke='#fff'/>
+<path d='M${x} 239 V300 M${x} 255 L${x-28} 285 M${x} 255 L${x+28} 285 M${x} 300 L${x-22} 345 M${x} 300 L${x+22} 345'/>
+<circle cx='${x-8}' cy='212' r='2.5' fill='#fff'/><circle cx='${x+8}' cy='212' r='2.5' fill='#fff'/>
+<path d='${mood?`M${x-7} 226 Q${x} 220 ${x+7} 226`:`M${x-7} 223 Q${x} 230 ${x+7} 223`}' stroke-width='3'/></g>`}
+const col=(d)=>d.col;
+const I={
+hp:(x,d)=>`<rect x='${x-80}' y='108' width='160' height='20' rx='4' fill='#1a1a2a' stroke='#fff' stroke-width='3'/><rect x='${x-77}' y='111' width='${154*d.f}' height='14' rx='2' fill='${d.col}'/>${T(x,158,26,d.txt,d.col)}`,
+fight:(x,d)=>{let s='';for(let i=1;i<10;i++)s+=`<line x1='${x-110+i*22}' y1='96' x2='${x-110+i*22}' y2='122' stroke='#0b0d1a' stroke-width='3'/>`;return `<path d='M${x-118} 92 H${x+112} L${x+118} 126 H${x-112} Z' fill='#1a1a2a' stroke='#fff' stroke-width='3'/><path d='M${x-114} 96 H${x-114+(224*d.f)} L${x-110+(224*d.f)} 122 H${x-110} Z' fill='${d.col}'/>${s}${T(x,160,24,d.txt,'#fff')}`},
+batt:(x,d)=>`<rect x='${x-62}' y='86' width='116' height='54' rx='9' fill='#12121f' stroke='#fff' stroke-width='4'/><rect x='${x+54}' y='102' width='9' height='22' rx='3' fill='#fff'/><rect x='${x-56}' y='92' width='${104*d.f}' height='42' rx='5' fill='${d.col}'/>${T(x-4,125,20,Math.round(d.f*100)+'%','#fff')}${T(x,172,24,d.txt+' LEFT',d.col)}`,
+hud:(x,d)=>`<g stroke='${d.col}' stroke-width='5' fill='none' stroke-linecap='round'><path d='M${x-48} 86 v-18 h18 M${x+48} 86 v-18 h-18 M${x-48} 134 v18 h18 M${x+48} 134 v18 h-18'/><path d='M${x} 80 L${x+30} 110 L${x} 140 L${x-30} 110 Z' fill='${d.col}33'/></g>${T(x,118,d.f>.5?15:26,d.f>.5?'LIFE':'!', '#fff')}${T(x,182,24,d.txt,d.col)}`,
+ring:(x,d)=>{const r=44,c=2*Math.PI*r;return `<circle cx='${x}' cy='112' r='${r}' fill='#12121f' stroke='#2a2a44' stroke-width='11'/><circle cx='${x}' cy='112' r='${r}' fill='none' stroke='${d.col}' stroke-width='11' stroke-linecap='round' stroke-dasharray='${c*d.f} ${c}' transform='rotate(-90 ${x} 112)'/>${T(x,106,26,d.txt.split(' ')[0],'#fff')}${T(x,130,15,d.txt.split(' ')[1],d.col)}`},
+hearts:(x,d)=>{const n=5;let s='';const full=d.f*n;for(let i=0;i<n;i++){const fill=Math.max(0,Math.min(1,full-i));const cx=x-70+i*35;s+=`<g transform='translate(${cx} 112)'><path id='h' d='M0 12 C-22 -4 -16 -22 0 -10 C16 -22 22 -4 0 12Z' fill='#12121f' stroke='#fff' stroke-width='3'/><clipPath id='k${x}${i}'><rect x='-22' y='-24' width='${44*fill}' height='40'/></clipPath><path d='M0 12 C-22 -4 -16 -22 0 -10 C16 -22 22 -4 0 12Z' fill='${d.col}' clip-path='url(#k${x}${i})'/></g>`}return s+T(x,168,24,d.txt,d.col)},
+load:(x,d)=>`<rect x='${x-92}' y='96' width='184' height='26' rx='13' fill='#12121f' stroke='#fff' stroke-width='3'/><rect x='${x-88}' y='100' width='${176*(1-d.f)}' height='18' rx='9' fill='${d.col}'/>${T(x,152,22,'LIFE '+Math.round((1-d.f)*100)+'% USED','#fff')}${T(x,180,24,d.txt+' LEFT',d.col)}`
+};
+const items=[['1. Полоска здоровья (как в шутерах)','hp'],['2. Шкала как в файтингах','fight'],['3. Батарейка над головой','batt'],['4. Метка-HUD как подсветка цели','hud'],['5. Кольцо-кулдаун (как способности в играх)','ring'],['6. Сердечки (Zelda/Mario): 5 сердец = 100 лет','hearts'],['7. Полоса загрузки','load']];
+let h='';
+items.forEach(([name,k])=>{h+=`<div class='c'><svg viewBox='0 0 640 360'><defs><linearGradient id='b' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1b1f4a'/><stop offset='.6' stop-color='#241a3d'/><stop offset='1' stop-color='#0a0a14'/></linearGradient></defs><rect width='640' height='360' fill='url(#b)'/><rect y='345' width='640' height='15' fill='#0a0a14'/>${fig(190,0)}${fig(450,1)}${I[k](190,LONG)}${I[k](450,SHORT)}</svg><div class='t'>${name}</div></div>`});
+h+=`<div class='c'><div class='t' style='font-size:30px;line-height:1.5;padding:30px'>Слева человек, у которого остаётся 52 года. Справа тот, у кого 5 секунд. Размер и положение такие, как будут в кадре 16:9. Цвета свои: голубой (много) и розовый (мало), а не зелёный и красный как у Ifinite.</div></div>`;
+document.getElementById('g').innerHTML=h;
+</script></body>
