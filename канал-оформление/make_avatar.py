@@ -3,12 +3,16 @@ import numpy as np, math, sys
 from PIL import Image, ImageDraw, ImageFilter
 from scipy import ndimage as ndi
 REF='персонажи/варианты-героя/эталон-мальчик-кепка-молния.png'
-def cutout(box):
+def cutout(box, drop_border=False):
     im=Image.open(REF).convert('RGB').crop(box); a=np.array(im).astype(int)
     white=(a.min(axis=2)>232)
     lab,n=ndi.label(white); edge=set(lab[0,:])|set(lab[-1,:])|set(lab[:,0])|set(lab[:,-1]); edge.discard(0)
     bgm=np.isin(lab,list(edge))
-    alpha=(~bgm).astype(float); alpha=ndi.binary_closing(alpha>0.5,iterations=2).astype(float)
+    alpha=(~bgm).astype(float)
+    if drop_border:
+        fl,fn=ndi.label(alpha>0.5); bad=set(fl[0,:])|set(fl[-1,:])|set(fl[:,0])|set(fl[:,-1]); bad.discard(0)
+        alpha[np.isin(fl,list(bad))]=0
+    alpha=ndi.binary_closing(np.pad(alpha>0.5,4),iterations=2)[4:-4,4:-4].astype(float)
     al=Image.fromarray((alpha*255).astype('uint8')).filter(ImageFilter.GaussianBlur(1.2))
     out=im.convert('RGBA'); out.putalpha(al); return out
 def wink(im):
@@ -52,14 +56,21 @@ def make(out,box,do_wink,S=800):
     d=ImageDraw.Draw(bg,'RGBA'); star(d,S*0.86,S*0.15,38,(255,255,255,235)); star(d,S*0.12,S*0.17,24,(255,255,255,210)); star(d,S*0.93,S*0.42,18,(255,255,255,190))
     bg.convert('RGB').save(out)
 
-def banner_hero(bg_path,out):
+def banner_full(bg_path,out):
+    """Баннер: фон-коллаж + Leon в разных эмоциях (вырезки из эталона) + главный Leon подмигивает."""
+    b=Image.open(bg_path).convert('RGBA')
+    boxes={'happy':(1370,120,2070,720),'surprised':(1975,120,2688,720),'worried':(1370,760,2070,1380),'determined':(1975,760,2688,1380)}
+    def put(name,cx,cy,h,rot=0):
+        f=sticker(cutout(boxes[name],True),10); f=f.crop(f.getbbox()); k=h/f.height; f=f.resize((int(f.width*k),h),Image.LANCZOS)
+        if rot: f=f.rotate(rot,expand=True,resample=Image.BICUBIC)
+        sh=Image.new('RGBA',b.size,(0,0,0,0)); sh.paste((0,0,0,90),(int(cx-f.width/2)+10,int(cy-f.height/2)+14),f.split()[3]); sh=sh.filter(ImageFilter.GaussianBlur(8)); b.alpha_composite(sh)
+        b.alpha_composite(f,(int(cx-f.width/2),int(cy-f.height/2)))
+    put('surprised',215,470,170,-6); put('worried',2285,462,170,5); put('determined',2120,1040,190,-5); put('happy',930,1160,200,6)
     fig=sticker(wink(cutout((60,40,700,740))),14)
-    H=412; k=H/fig.height; fig=fig.resize((int(fig.width*k),int(fig.height*k)),Image.LANCZOS)
-    b=Image.open(bg_path).convert('RGBA'); x=1862-fig.width//2; y=931-H+2
-    # мягкое свечение за героем
-    gl=Image.new('RGBA',b.size,(0,0,0,0)); ImageDraw.Draw(gl).ellipse((x-60,y-40,x+fig.width+60,y+H+40),fill=(255,214,64,70)); gl=gl.filter(ImageFilter.GaussianBlur(60)); b.alpha_composite(gl)
+    H=412; k=H/fig.height; fig=fig.resize((int(fig.width*k),int(fig.height*k)),Image.LANCZOS); x=1862-fig.width//2; y=931-H+2
+    gl=Image.new('RGBA',b.size,(0,0,0,0)); ImageDraw.Draw(gl).ellipse((x-60,y-40,x+fig.width+60,y+H+40),fill=(255,214,64,90)); gl=gl.filter(ImageFilter.GaussianBlur(60)); b.alpha_composite(gl)
     b.alpha_composite(fig,(x,y)); b.convert('RGB').save(out)
 
 if __name__=='__main__':
     make('канал-оформление/logo.png',(60,40,700,740),True)
-    if len(sys.argv)>2: banner_hero(sys.argv[1],sys.argv[2])
+    if len(sys.argv)>2: banner_full(sys.argv[1],sys.argv[2])

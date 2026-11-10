@@ -28,17 +28,54 @@ function doodle(kind, x, y, s, rot, col) {
 }
 const COLS = ['rgba(255,255,255,.22)', 'rgba(255,211,77,.35)', 'rgba(110,210,255,.30)', 'rgba(255,120,150,.28)'];
 if (mode === 'banner') {
-  bg();
-  const items = [['q', 150, 190, 1.5, -.3], ['star', 330, 1130, 1.3, .2], ['bulb', 120, 700, 1.6, -.15], ['planet', 420, 330, 1.2, .1], ['atom', 300, 900, 1.2, 0], ['q', 2400, 200, 1.4, .35], ['rocket', 2330, 1180, 1.5, .5], ['star', 2150, 170, 1.1, .1], ['planet', 2380, 700, 1.3, -.2], ['bulb', 2150, 1230, 1.3, .3], ['atom', 1250, 160, 1.1, 0], ['q', 1500, 1290, 1.2, -.2], ['star', 800, 1260, 1, .3], ['planet', 1900, 300, .9, .5], ['star', 620, 220, .8, 0], ['rocket', 700, 1080, 1.1, -.5], ['q', 2020, 1060, .9, .2]];
-  items.forEach(([k, x, y, s, r], i) => doodle(k, x, y, s, r, COLS[i % 4]));
-  // safe zone 1546x423 centred: x 507..2053, y 508..931
-  const T = (str, x, y, size, color, o = {}) => text(g, str, x, y, { size, color, align: 'left', font: F, weight: 700, ...o });
-  T('WHAT IF?', 560, 690, 195, '#ffffff', { stroke: 34, strokeColor: '#0b0a26', spacing: 4 });
-  T('WHAT IF?', 560, 690, 195, '#ffd34d', { spacing: 4 });
-  T('Wild ideas. Real science. Stickman style.', 566, 835, 50, '#ffffff', { weight: 600, stroke: 14, strokeColor: '#0b0a26' });
-  T('Wild ideas. Real science. Stickman style.', 566, 835, 50, '#d9e4ff', { weight: 600 });
-  // glow under hero
-  g.save(); g.fillStyle = 'rgba(0,0,0,.28)'; g.beginPath(); g.ellipse(1840, 932, 0.1, 0.1, 0, 0, 7); g.fill(); g.restore();
+  const INK = '#0b0a26';
+  // ---- фон ----
+  let gr = g.createLinearGradient(0, 0, W, H); gr.addColorStop(0, '#0e2a7a'); gr.addColorStop(0.5, '#4a1a9c'); gr.addColorStop(1, '#a3226e'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+  const glow = (x, y, r, c) => { const rg = g.createRadialGradient(x, y, 0, x, y, r); rg.addColorStop(0, c); rg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = rg; g.fillRect(0, 0, W, H); };
+  glow(1850, 720, 800, 'rgba(255,205,70,.40)'); glow(260, 760, 650, 'rgba(60,200,255,.35)'); glow(2300, 700, 650, 'rgba(255,70,130,.40)'); glow(1280, 1400, 900, 'rgba(255,140,40,.25)');
+  // лучи
+  g.save(); g.translate(1850, 720); for (let i = 0; i < 28; i++) { g.rotate(Math.PI * 2 / 28); g.fillStyle = 'rgba(255,255,255,.045)'; g.beginPath(); g.moveTo(0, 0); g.lineTo(2400, -90); g.lineTo(2400, 90); g.closePath(); g.fill(); } g.restore();
+  // растр в углах
+  g.fillStyle = 'rgba(255,255,255,.10)'; for (const [cx, cy] of [[0, 0], [W, 0], [0, H], [W, H]]) for (let y = 0; y < 520; y += 26) for (let x = 0; x < 520; x += 26) { const px = cx === 0 ? x : W - x, py = cy === 0 ? y : H - y, r = Math.max(0, 7 - Math.hypot(x, y) / 80); if (r > 0.6) { g.beginPath(); g.arc(px, py, r, 0, 7); g.fill(); } }
+  const OUT = (fill, path, lw = 11) => { g.save(); g.lineJoin = 'round'; g.lineCap = 'round'; g.lineWidth = lw; g.strokeStyle = INK; g.fillStyle = fill; path(); if (fill) g.fill(); g.stroke(); g.restore(); };
+  const T = (str, x, y, size, color, o = {}) => text(g, str, x, y, { size, color, font: F, weight: 700, stroke: size * 0.2, strokeColor: INK, ...o });
+  // ---- молния ----
+  const bolt = (x, y, s, rot, c = '#ffd23f') => { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); OUT(c, () => { g.beginPath(); g.moveTo(10, -90); g.lineTo(-45, 12); g.lineTo(-6, 12); g.lineTo(-24, 90); g.lineTo(46, -22); g.lineTo(4, -22); g.closePath(); }, 11 / s); g.restore(); };
+  // ---- звезда-вспышка ----
+  const burst = (x, y, r1, r2, n, fill, rot = 0) => OUT(fill, () => { g.beginPath(); for (let i = 0; i < n * 2; i++) { const r = i % 2 ? r1 : r2, a = rot + i * Math.PI / n; g.lineTo(x + Math.cos(a) * r, y + Math.sin(a) * r); } g.closePath(); });
+  // ================= ШКАЛА IQ (слева, в полосе десктопа) =================
+  { const cx = 275, cy = 880, R = 205; OUT('#fff6d8', () => { g.beginPath(); g.arc(cx, cy, R + 22, Math.PI, 0); g.lineTo(cx + R + 22, cy + 30); g.lineTo(cx - R - 22, cy + 30); g.closePath(); }, 12);
+    const cols = ['#3ddc84', '#a8e04a', '#ffd23f', '#ff9a2e', '#ff4d4d']; cols.forEach((c, i) => { g.beginPath(); g.arc(cx, cy, R - 24, Math.PI + i * Math.PI / 5, Math.PI + (i + 1) * Math.PI / 5); g.lineWidth = 44; g.strokeStyle = c; g.lineCap = 'butt'; g.stroke(); });
+    g.lineWidth = 6; g.strokeStyle = INK; for (let i = 0; i <= 10; i++) { const a = Math.PI + i * Math.PI / 10; g.beginPath(); g.moveTo(cx + Math.cos(a) * (R - 56), cy + Math.sin(a) * (R - 56)); g.lineTo(cx + Math.cos(a) * (R - 74), cy + Math.sin(a) * (R - 74)); g.stroke(); }
+    const na = Math.PI * 1.93; g.save(); g.lineCap = 'round'; g.strokeStyle = INK; g.lineWidth = 20; g.beginPath(); g.moveTo(cx, cy); g.lineTo(cx + Math.cos(na) * (R - 30), cy + Math.sin(na) * (R - 30)); g.stroke(); g.strokeStyle = '#e8262d'; g.lineWidth = 10; g.stroke(); g.restore();
+    OUT('#e8262d', () => { g.beginPath(); g.arc(cx, cy, 24, 0, 7); }, 9); T('IQ 9999', cx, 628, 96, '#ffd23f'); T('TEST BROKEN!', cx, cy + 62, 44, '#ffffff', { stroke: 10 }); }
+  // ================= ТАЙМЕР ЖИЗНИ (справа) =================
+  { const x = 2290, y = 700; g.save(); g.translate(x, y); g.rotate(0.03);
+    OUT('#15122e', () => { g.beginPath(); g.roundRect(-205, -110, 410, 235, 36); }, 13); g.strokeStyle = '#ff3b5c'; g.lineWidth = 7; g.beginPath(); g.roundRect(-190, -95, 380, 205, 26); g.stroke();
+    T('LIFE LEFT', 0, -62, 54, '#ff6b81', { stroke: 0 }); T('00:42:10', 0, 6, 84, '#ffffff', { stroke: 0, glow: 30, glowColor: 'rgba(255,60,90,.9)' });
+    g.lineWidth = 7; g.strokeStyle = '#ff3b5c'; g.lineCap = 'round'; g.lineJoin = 'round'; g.beginPath(); const pts = [[-160, 78], [-90, 78], [-65, 40], [-40, 100], [-12, 56], [8, 78], [160, 78]]; pts.forEach(([a, b], i) => i ? g.lineTo(a, b) : g.moveTo(a, b)); g.stroke(); g.restore();
+  }
+  // ================= ДЕКОР (для ТВ и планшета) =================
+  bolt(2420, 300, 2.2, 0.25); bolt(2200, 190, 1.3, -0.2, '#4dd0ff'); bolt(260, 1250, 1.8, -0.3); bolt(520, 1130, 1.0, 0.3, '#ff7ab6');
+  burst(300, 250, 105, 150, 12, '#ff5a5f', 0.2); T('LEVEL', 300, 222, 46, '#ffffff'); T('9,999', 300, 282, 70, '#ffd23f');
+  // лампочка
+  { const x = 1280, y = 250; glow(x, y, 330, 'rgba(255,230,120,.55)'); OUT('#ffe978', () => { g.beginPath(); g.arc(x, y - 20, 100, Math.PI * 0.78, Math.PI * 2.22); g.lineTo(x + 40, y + 110); g.lineTo(x - 40, y + 110); g.closePath(); }, 12); OUT('#c9d2e8', () => { g.beginPath(); g.roundRect(x - 42, y + 110, 84, 34, 10); }, 10); OUT('#c9d2e8', () => { g.beginPath(); g.roundRect(x - 30, y + 144, 60, 24, 10); }, 10); T('?', x, y - 10, 150, '#ff5a5f', { stroke: 14 });
+    for (let i = 0; i < 9; i++) { const a = -Math.PI + i * Math.PI / 8 - 0.0; g.save(); g.strokeStyle = '#ffe978'; g.lineWidth = 12; g.lineCap = 'round'; g.beginPath(); g.moveTo(x + Math.cos(a) * 150, y - 20 + Math.sin(a) * 150); g.lineTo(x + Math.cos(a) * 195, y - 20 + Math.sin(a) * 195); g.stroke(); g.restore(); } }
+  // планета и ракета
+  OUT('#6ee7ff', () => { g.beginPath(); g.arc(780, 215, 78, 0, 7); }, 11); g.save(); g.strokeStyle = INK; g.lineWidth = 11; g.fillStyle = '#ffb347'; g.beginPath(); g.ellipse(780, 215, 140, 34, -0.35, 0, 7); g.stroke(); g.lineWidth = 5; g.strokeStyle = '#ffb347'; g.stroke(); g.restore();
+  g.save(); g.translate(1780, 215); g.rotate(0.6); OUT('#ffffff', () => { g.beginPath(); g.moveTo(0, -110); g.quadraticCurveTo(62, -40, 44, 70); g.lineTo(-44, 70); g.quadraticCurveTo(-62, -40, 0, -110); }, 11); OUT('#ff5a5f', () => { g.beginPath(); g.moveTo(0, -110); g.quadraticCurveTo(28, -84, 38, -52); g.lineTo(-38, -52); g.quadraticCurveTo(-28, -84, 0, -110); }, 9); OUT('#4dd0ff', () => { g.beginPath(); g.arc(0, -12, 20, 0, 7); }, 8); OUT('#ffd23f', () => { g.beginPath(); g.moveTo(-26, 76); g.lineTo(0, 150); g.lineTo(26, 76); g.closePath(); }, 8); g.restore();
+  // пуля (медленно / быстро)
+  { const x = 2010, y = 1180; g.save(); g.translate(x, y); g.rotate(-0.08); for (let i = 0; i < 4; i++) { g.strokeStyle = `rgba(255,255,255,${.55 - i * .1})`; g.lineWidth = 9; g.lineCap = 'round'; g.beginPath(); g.moveTo(-80 - i * 40, -40 + i * 26); g.lineTo(-330 - i * 30, -40 + i * 26); g.stroke(); }
+    OUT('#e0a040', () => { g.beginPath(); g.moveTo(-100, -38); g.lineTo(60, -38); g.quadraticCurveTo(150, -20, 150, 0); g.quadraticCurveTo(150, 20, 60, 38); g.lineTo(-100, 38); g.closePath(); }, 11); OUT('#ff7a2f', () => { g.beginPath(); g.roundRect(-100, -38, 60, 76, 8); }, 9); g.restore(); T('10x', 2300, 1215, 140, '#ffd23f'); T('FASTER', 2360, 1330, 54, '#ffffff'); }
+  // монеты, вопросы, звёзды
+  const coin = (x, y, r) => { OUT('#ffd23f', () => { g.beginPath(); g.arc(x, y, r, 0, 7); }, 9); g.strokeStyle = '#e3a008'; g.lineWidth = 6; g.beginPath(); g.arc(x, y, r * 0.66, 0, 7); g.stroke(); T('$', x, y + 2, r * 1.1, '#e3a008', { stroke: 0 }); };
+  coin(640, 1250, 52); coin(730, 1300, 46); coin(1500, 1290, 48);
+  [['?', 2440, 1010, 190, '#4dd0ff', .3], ['?', 480, 420, 120, '#ffd23f', -.2]].forEach(([c, x, y, sz, col, r]) => { g.save(); g.translate(x, y); g.rotate(r); T(c, 0, 0, sz, col, { stroke: sz * 0.14 }); g.restore(); });
+  [[60, 1050, 38], [1400, 70, 34], [2490, 480, 36], [900, 1360, 30], [2100, 80, 30], [600, 90, 28], [1100, 1060, 26], [1650, 1330, 28]].forEach(([x, y, r], i) => burst(x, y, r * .45, r, 4, ['#ffffff', '#ffd23f', '#6ee7ff'][i % 3], .1));
+  // ---- название (безопасная зона x 507..2053, y 508..931) ----
+  const TT = (str, x, y, size, color, o = {}) => text(g, str, x, y, { size, color, align: 'left', font: F, weight: 700, ...o });
+  TT('WHAT IF?', 545, 685, 205, '#ffffff', { stroke: 38, strokeColor: INK, spacing: 4 }); TT('WHAT IF?', 545, 685, 205, '#ffd23f', { spacing: 4 });
+  g.save(); g.translate(560, 800); g.rotate(-0.02); OUT('#ff3b5c', () => { g.beginPath(); g.roundRect(0, 0, 905, 86, 22); }, 9); g.restore(); TT('Wild ideas. Real science. Stickman style.', 590, 848, 49, '#ffffff', { stroke: 0, weight: 700 });
 }
 if (mode === 'logo') {
   const gr = g.createRadialGradient(400, 330, 40, 400, 400, 520); gr.addColorStop(0, '#ffd34d'); gr.addColorStop(0.55, '#ff9d3a'); gr.addColorStop(1, '#ff5a5f'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
