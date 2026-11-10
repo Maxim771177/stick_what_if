@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c"></canvas><script type="module">
+import { E, setStyle, text, FONTS } from '/engine/core.js';
+import { loadPack } from '/engine/stylepack.js';
+import { drawCharacter, POSES, posesAt, breathe } from '/engine/characters.js';
+const q = new URLSearchParams(location.search), mode = q.get('mode') || 'banner';
+const [W, H] = mode === 'logo' ? [800, 800] : [2560, 1440];
+Object.assign(E, { W, H, PX: 1, outW: W, outH: H });
+await loadPack('doodle'); setStyle('clean');
+const c = document.getElementById('c'); c.width = W; c.height = H; const g = c.getContext('2d');
+const LEON = { arcBrows: true, top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' };
+const F = FONTS.title; await document.fonts.load(`700 100px "${F}"`);
+const leon = (x, y, s, expr, pose, facing = 1) => drawCharacter(g, { x, y, s, facing, outfit: LEON, expr, blink: 0, talk: 0, pose: breathe(posesAt(0.6, [[0, pose]]), 0.6, 1, 3) });
+// ---- background ----
+function bg() {
+  const gr = g.createLinearGradient(0, 0, W, H); gr.addColorStop(0, '#14123a'); gr.addColorStop(0.55, '#2b1b6b'); gr.addColorStop(1, '#0f3a6e'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+  const rg = g.createRadialGradient(W * 0.68, H * 0.5, 0, W * 0.68, H * 0.5, W * 0.45); rg.addColorStop(0, 'rgba(255,200,80,.30)'); rg.addColorStop(1, 'rgba(255,200,80,0)'); g.fillStyle = rg; g.fillRect(0, 0, W, H);
+}
+function doodle(kind, x, y, s, rot, col) {
+  g.save(); g.translate(x, y); g.rotate(rot); g.strokeStyle = col; g.fillStyle = col; g.lineWidth = 9 * s / 1; g.lineCap = 'round'; g.lineJoin = 'round';
+  if (kind === 'q') { g.font = `700 ${150 * s}px "${F}"`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('?', 0, 0); }
+  if (kind === 'star') { g.beginPath(); for (let i = 0; i < 10; i++) { const r = (i % 2 ? 22 : 56) * s, a = i * Math.PI / 5 - Math.PI / 2; g.lineTo(Math.cos(a) * r, Math.sin(a) * r); } g.closePath(); g.stroke(); }
+  if (kind === 'bulb') { g.beginPath(); g.arc(0, -10 * s, 44 * s, Math.PI * 0.8, Math.PI * 2.2); g.lineTo(18 * s, 50 * s); g.lineTo(-18 * s, 50 * s); g.closePath(); g.stroke(); g.beginPath(); g.moveTo(-16 * s, 66 * s); g.lineTo(16 * s, 66 * s); g.stroke(); }
+  if (kind === 'atom') { for (let i = 0; i < 3; i++) { g.beginPath(); g.ellipse(0, 0, 62 * s, 22 * s, i * Math.PI / 3, 0, 7); g.stroke(); } g.beginPath(); g.arc(0, 0, 8 * s, 0, 7); g.fill(); }
+  if (kind === 'planet') { g.beginPath(); g.arc(0, 0, 38 * s, 0, 7); g.stroke(); g.beginPath(); g.ellipse(0, 0, 78 * s, 18 * s, -0.4, 0, 7); g.stroke(); }
+  if (kind === 'rocket') { g.beginPath(); g.moveTo(0, -60 * s); g.quadraticCurveTo(30 * s, -20 * s, 22 * s, 40 * s); g.lineTo(-22 * s, 40 * s); g.quadraticCurveTo(-30 * s, -20 * s, 0, -60 * s); g.stroke(); g.beginPath(); g.arc(0, -10 * s, 9 * s, 0, 7); g.stroke(); g.beginPath(); g.moveTo(-8 * s, 52 * s); g.lineTo(0, 78 * s); g.lineTo(8 * s, 52 * s); g.stroke(); }
+  g.restore();
+}
+const COLS = ['rgba(255,255,255,.22)', 'rgba(255,211,77,.35)', 'rgba(110,210,255,.30)', 'rgba(255,120,150,.28)'];
+if (mode === 'banner') {
+  bg();
+  const items = [['q', 150, 190, 1.5, -.3], ['star', 330, 1130, 1.3, .2], ['bulb', 120, 700, 1.6, -.15], ['planet', 420, 330, 1.2, .1], ['atom', 300, 900, 1.2, 0], ['q', 2400, 200, 1.4, .35], ['rocket', 2330, 1180, 1.5, .5], ['star', 2150, 170, 1.1, .1], ['planet', 2380, 700, 1.3, -.2], ['bulb', 2150, 1230, 1.3, .3], ['atom', 1250, 160, 1.1, 0], ['q', 1500, 1290, 1.2, -.2], ['star', 800, 1260, 1, .3], ['planet', 1900, 300, .9, .5], ['star', 620, 220, .8, 0], ['rocket', 700, 1080, 1.1, -.5], ['q', 2020, 1060, .9, .2]];
+  items.forEach(([k, x, y, s, r], i) => doodle(k, x, y, s, r, COLS[i % 4]));
+  // safe zone 1546x423 centred: x 507..2053, y 508..931
+  const T = (str, x, y, size, color, o = {}) => text(g, str, x, y, { size, color, align: 'left', font: F, weight: 700, ...o });
+  T('WHAT IF?', 560, 690, 215, '#ffffff', { stroke: 34, strokeColor: '#0b0a26', spacing: 4 });
+  T('WHAT IF?', 560, 690, 215, '#ffd34d', { spacing: 4 });
+  T('Wild ideas. Real science. Stickman style.', 566, 835, 56, '#ffffff', { weight: 600, stroke: 14, strokeColor: '#0b0a26' });
+  T('Wild ideas. Real science. Stickman style.', 566, 835, 56, '#d9e4ff', { weight: 600 });
+  // glow under hero
+  g.save(); g.fillStyle = 'rgba(0,0,0,.28)'; g.beginPath(); g.ellipse(1840, 928, 120, 18, 0, 0, 7); g.fill(); g.restore();
+  leon(1840, 925, 1.27, 'happy', 'point', -1);
+}
+if (mode === 'logo') {
+  const gr = g.createRadialGradient(400, 330, 40, 400, 400, 520); gr.addColorStop(0, '#ffd34d'); gr.addColorStop(0.55, '#ff9d3a'); gr.addColorStop(1, '#ff5a5f'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+  g.save(); g.beginPath(); g.arc(400, 400, 400, 0, 7); g.clip();
+  doodle('q', 120, 150, 1.6, -.3, 'rgba(255,255,255,.35)'); doodle('star', 690, 130, 1.1, .2, 'rgba(255,255,255,.4)'); doodle('star', 90, 600, .9, 0, 'rgba(255,255,255,.35)'); doodle('q', 700, 560, 1.2, .3, 'rgba(255,255,255,.3)');
+  leon(400, 1010, 3.1, 'happy', 'point', -1);
+  g.restore();
+}
+window.READY = true;
+</script></body></html>
