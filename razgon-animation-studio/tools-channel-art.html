@@ -33,13 +33,12 @@ if (mode === 'banner') {
   items.forEach(([k, x, y, s, r], i) => doodle(k, x, y, s, r, COLS[i % 4]));
   // safe zone 1546x423 centred: x 507..2053, y 508..931
   const T = (str, x, y, size, color, o = {}) => text(g, str, x, y, { size, color, align: 'left', font: F, weight: 700, ...o });
-  T('WHAT IF?', 560, 690, 215, '#ffffff', { stroke: 34, strokeColor: '#0b0a26', spacing: 4 });
-  T('WHAT IF?', 560, 690, 215, '#ffd34d', { spacing: 4 });
-  T('Wild ideas. Real science. Stickman style.', 566, 835, 56, '#ffffff', { weight: 600, stroke: 14, strokeColor: '#0b0a26' });
-  T('Wild ideas. Real science. Stickman style.', 566, 835, 56, '#d9e4ff', { weight: 600 });
+  T('WHAT IF?', 560, 690, 195, '#ffffff', { stroke: 34, strokeColor: '#0b0a26', spacing: 4 });
+  T('WHAT IF?', 560, 690, 195, '#ffd34d', { spacing: 4 });
+  T('Wild ideas. Real science. Stickman style.', 566, 835, 50, '#ffffff', { weight: 600, stroke: 14, strokeColor: '#0b0a26' });
+  T('Wild ideas. Real science. Stickman style.', 566, 835, 50, '#d9e4ff', { weight: 600 });
   // glow under hero
-  g.save(); g.fillStyle = 'rgba(0,0,0,.28)'; g.beginPath(); g.ellipse(1840, 928, 120, 18, 0, 0, 7); g.fill(); g.restore();
-  leon(1840, 925, 1.27, 'happy', 'point', -1);
+  g.save(); g.fillStyle = 'rgba(0,0,0,.28)'; g.beginPath(); g.ellipse(1840, 932, 0.1, 0.1, 0, 0, 7); g.fill(); g.restore();
 }
 if (mode === 'logo') {
   const gr = g.createRadialGradient(400, 330, 40, 400, 400, 520); gr.addColorStop(0, '#ffd34d'); gr.addColorStop(0.55, '#ff9d3a'); gr.addColorStop(1, '#ff5a5f'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
