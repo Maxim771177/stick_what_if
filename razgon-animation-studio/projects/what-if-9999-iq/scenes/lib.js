@@ -190,10 +190,10 @@ function camOf(spec, t, dur, info) {
 
 // ---------- IQ-метки над головами (хук первых секунд): у всех обычные, у Leon золотая ----------
 const IQV = { LEON: '9,999', TEACHER: '120', KIDBG: ['100', '95', '105', '98'], KID: '100', FRIEND: '110' };
-function iqTag(g, t, x, y, id, i, start) {
+function iqTag(g, t, x, y, id, i, start, ov, sc = 1) {
   const k = ease.outBack(prog(t, start, start + 0.4)); if (k <= 0) return;
-  const leon = id === 'LEON', v = Array.isArray(IQV[id]) ? IQV[id][i % IQV[id].length] : IQV[id]; if (!v) return;
-  const pulse = leon ? 1 + 0.05 * Math.sin(t * 6) : 1, sz = leon ? 78 : 40, str = 'IQ ' + v;
+  const leon = id === 'LEON', v = ov ?? (Array.isArray(IQV[id]) ? IQV[id][i % IQV[id].length] : IQV[id]); if (!v) return;
+  const pulse = leon ? 1 + 0.05 * Math.sin(t * 6) : 1, sz = (leon ? 78 : 40) * sc, str = 'IQ ' + v;
   g.save(); g.translate(x, y); g.scale(k * pulse, k * pulse);
   const w = measure(g, str, sz) + (leon ? 70 : 44), h = sz * 1.5;
   if (leon) { for (let j = 0; j < 12; j++) { const a = j / 12 * 6.283 + t * 0.6; inkLine(g, [[Math.cos(a) * (w * 0.62), Math.sin(a) * (h * 0.9)], [Math.cos(a) * (w * 0.78), Math.sin(a) * (h * 1.15)]], { w: 6, stroke: ui().gold }); } }
@@ -217,8 +217,8 @@ export function def(id, spec) {
     layer(g, cam, 1, (g) => {
       ctx.cam = cam;
       if (spec.pre) spec.pre(g, t, info, ctx);
-      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s }); });
-      if (spec.iq) { const cnt = {}; heads.forEach((h, i) => { cnt[h.id] = (cnt[h.id] || 0); iqTag(g, t, h.x, h.y - (h.id === 'LEON' ? 60 : 30) - 90 * h.s * 0.6, h.id, cnt[h.id]++, h.id === 'LEON' ? 0.15 : 0.45 + i * 0.1); }); }
+      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s, v: c.iqv, sc: c.iqs }); });
+      if (spec.iq) { const cnt = {}; heads.forEach((h, i) => { cnt[h.id] = (cnt[h.id] || 0); iqTag(g, t, h.x, h.y - (h.id === 'LEON' ? 60 : 30) - 90 * h.s * 0.6, h.id, cnt[h.id]++, h.id === 'LEON' ? 0.15 : 0.45 + i * 0.1, h.v, h.sc); }); }
       if (spec.close && spec.iq) iqTag(g, t, E.W * 0.5, E.H * 0.13, 'LEON', 0, 0.4);
       if (spec.close) closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]);
       if (spec.fx) spec.fx(g, t, info, ctx);
