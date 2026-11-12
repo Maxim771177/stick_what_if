@@ -106,14 +106,17 @@ const BLUE = [63, 184, 255], PINK = [255, 95, 162];
 export const barColor = (f) => { const u = clamp((f - 0.25) / 0.25), c = PINK.map((p, i) => Math.round(lerp(p, BLUE[i], u))); return `rgb(${c[0]},${c[1]},${c[2]})`; };
 export function bar(g, x, y, frac, o = {}) {
   const k = o.t == null ? 1 : ease.outBack(prog(o.t, o.start ?? 0, (o.start ?? 0) + 0.35)); if (k <= 0.02) return;
-  const w = o.w ?? 250, h = o.h ?? Math.max(18, w * 0.125), sc = o.s ?? 1, tt = o.t ?? 0;
+  const w = o.w ?? 250, st = o.style || 'under', h = o.h ?? (st === 'in' ? Math.max(30, w * 0.22) : Math.max(18, w * 0.125)), sc = o.s ?? 1, tt = o.t ?? 0;
   let f = clamp(frac - (o.breathe === false ? 0 : 0.004 * Math.sin(tt * 0.5)));
   g.save(); g.translate(x, y); g.scale(k * sc, k * sc);
   if (o.glow) { g.save(); g.globalAlpha = 0.35 + 0.25 * Math.sin(tt * 6); inkRect(g, -w / 2 - 14, -h / 2 - 14, w + 28, h + 28, { fill: barColor(f), r: h, stroke: false }); g.restore(); }
   inkRect(g, -w / 2 - 6, -h / 2 - 6, w + 12, h + 12, { fill: '#1b2230', r: (h + 12) / 2, w: 5 });
   const fw = Math.max(h * 0.9, w * f);
   g.save(); g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, h / 2); g.clip(); g.fillStyle = '#39445a'; g.fillRect(-w / 2, -h / 2, w, h); g.fillStyle = barColor(f); g.fillRect(-w / 2, -h / 2, fw, h); g.fillStyle = 'rgba(255,255,255,.28)'; g.fillRect(-w / 2, -h / 2, fw, h * 0.34); g.restore();
-  if (o.label) {
+  if (o.label && st === 'in') { const sz = h * 0.78; text(g, o.label, 0, sz * 0.3, { size: sz, color: '#ffffff', weight: 900, font: FONTS.title, stroke: sz * 0.2, strokeColor: '#000' }); }
+  else if (o.label && st === 'pill') { const sz = h * 1.5, pw = measure(g, o.label, sz) + sz * 0.9; inkRect(g, -pw / 2, -h / 2 - sz * 1.75, pw, sz * 1.45, { fill: '#1b2230', r: sz * 0.7, w: 4 }); text(g, o.label, 0, -h / 2 - sz * 0.72, { size: sz, color: '#fff', weight: 900, font: FONTS.title }); }
+  else if (o.label && st === 'end') { const sz = h * 1.6; text(g, o.label, w / 2 + 24, sz * 0.32, { size: sz, color: '#fff', weight: 900, font: FONTS.title, align: 'left', stroke: sz * 0.2, strokeColor: '#000' }); }
+  else if (o.label) {
     const la = o.labelAt ?? -9, u = ease.outBack(prog(tt, la, la + 0.3)), ly = h / 2 + (o.size ?? w * 0.17) * 0.95;
     const sz = (o.size ?? w * 0.17) * (0.6 + 0.4 * u) * (o.labelBig ? 1.3 : 1);
     g.save(); g.globalAlpha *= clamp(u * 1.4); if (o.prevLabel && u < 1) { g.save(); g.globalAlpha *= 1 - u; text(g, o.prevLabel, 0, ly - 40 * u, { size: sz, color: '#fff', weight: 900, font: FONTS.title, stroke: sz * 0.2, strokeColor: '#000' }); g.restore(); }
@@ -211,10 +214,10 @@ export function def(id, spec) {
         const h = b.c != null ? heads[b.c] : null; if (h && h.hidden) return;
         const px = b.at ? b.at[0] * E.W : h.x + (b.dx ?? 0), py = b.at ? b.at[1] * E.H : h.y - (b.dy ?? 135 * (h.s ?? 1.5) / 1.5) + 22 + (b.lbl ? 36 : 0);
         const mine = b.lbl === true ? lbls : Array.isArray(b.lr) ? b.lr.map((i) => lbls[i]).filter(Boolean) : [];
-        let label = typeof b.lbl === 'string' ? b.lbl : null, la = b.on ?? 0, prev = null;
+        let label = typeof b.lbl === 'string' ? b.lbl : typeof b.label === 'string' ? b.label : null, la = b.on ?? 0, prev = null;
         for (const r of mine) if (t >= r.t) { prev = label; label = r.s; la = r.t; }
         if (typeof b.label === 'function') { const q = b.label(t); if (q) label = q.s, la = q.at ?? la, prev = q.prev ?? prev; }
-        bar(g, px, py, kf(b.f ?? 1, t, 1), { w: b.w ?? 250, t, start: b.on ?? 0, label, labelAt: la, prevLabel: prev, glow: b.glow ? tl(b.glow, t) : false, s: b.s, labelBig: b.big, size: b.size });
+        bar(g, px, py, kf(b.f ?? 1, t, 1), { w: b.w ?? 250, t, start: b.on ?? 0, label, labelAt: la, prevLabel: prev, glow: b.glow ? tl(b.glow, t) : false, style: b.style, s: b.s, labelBig: b.big, size: b.size });
       });
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
