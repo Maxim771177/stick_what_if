@@ -1,0 +1,962 @@
+[
+ {
+  "t": 7.9,
+  "s": "BLUE = PLENTY",
+  "k": "cap",
+  "sc": 2
+ },
+ {
+  "t": 9.3,
+  "s": "PINK = NOT MUCH",
+  "k": "cap",
+  "sc": 2
+ },
+ {
+  "t": 20.6,
+  "s": "61 YEARS",
+  "k": "lbl",
+  "sc": 4
+ },
+ {
+  "t": 22.9,
+  "s": "LEON. WHERE'S YOUR HOMEWORK?",
+  "k": "say",
+  "sc": 5
+ },
+ {
+  "t": 25.4,
+  "s": "MS. PARK, YOU HAVE 61 YEARS TO FORGIVE ME.",
+  "k": "say",
+  "sc": 6
+ },
+ {
+  "t": 39.5,
+  "s": "WHAT IF YOU COULD SEE HOW LONG EVERYONE HAS LEFT TO LIVE?",
+  "k": "cap",
+  "sc": 10
+ },
+ {
+  "t": 44.2,
+  "s": "NOBODY CAN DO THIS",
+  "k": "cap",
+  "sc": 11
+ },
+ {
+  "t": 46.8,
+  "s": "DOCTORS GUESS",
+  "k": "cap",
+  "sc": 11
+ },
+ {
+  "t": 49.8,
+  "s": "≈ 73 YEARS",
+  "k": "cap",
+  "sc": 12
+ },
+ {
+  "t": 50.5,
+  "s": "WORLD AVERAGE · WHO",
+  "k": "cap",
+  "sc": 12
+ },
+ {
+  "t": 54.0,
+  "s": "AVERAGE ≠ BAR",
+  "k": "cap",
+  "sc": 13
+ },
+ {
+  "t": 61.3,
+  "s": "61 YEARS",
+  "k": "lbl",
+  "sc": 14
+ },
+ {
+  "t": 62.0,
+  "s": "44 YEARS",
+  "k": "lbl",
+  "sc": 14
+ },
+ {
+  "t": 62.6,
+  "s": "81 YEARS",
+  "k": "lbl",
+  "sc": 14
+ },
+ {
+  "t": 63.8,
+  "s": "HERE'S HOW IT WORKS",
+  "k": "cap",
+  "sc": 15
+ },
+ {
+  "t": 65.0,
+  "s": "RULE 1",
+  "k": "plate",
+  "sc": 15
+ },
+ {
+  "t": 69.0,
+  "s": "FULL + BLUE = LONG LIFE",
+  "k": "cap",
+  "sc": 17
+ },
+ {
+  "t": 71.7,
+  "s": "SHORT + PINK = TIME IS ALMOST UP",
+  "k": "cap",
+  "sc": 17
+ },
+ {
+  "t": 77.0,
+  "s": "52 YEARS",
+  "k": "lbl",
+  "sc": 18
+ },
+ {
+  "t": 78.5,
+  "s": "3 DAYS",
+  "k": "lbl",
+  "sc": 18
+ },
+ {
+  "t": 79.4,
+  "s": "5 SEC",
+  "k": "lbl",
+  "sc": 18
+ },
+ {
+  "t": 87.0,
+  "s": "RULE 2",
+  "k": "plate",
+  "sc": 20
+ },
+ {
+  "t": 88.8,
+  "s": "FORECAST ≠ SENTENCE",
+  "k": "cap",
+  "sc": 20
+ },
+ {
+  "t": 94.8,
+  "s": "NO SEATBELT",
+  "k": "cap",
+  "sc": 22
+ },
+ {
+  "t": 96.8,
+  "s": "SEATBELT ON",
+  "k": "cap",
+  "sc": 22
+ },
+ {
+  "t": 99.4,
+  "s": "RULE 3",
+  "k": "plate",
+  "sc": 23
+ },
+ {
+  "t": 100.9,
+  "s": "EVERYTHING WITH A HEARTBEAT",
+  "k": "cap",
+  "sc": 23
+ },
+ {
+  "t": 105.2,
+  "s": "14 YEARS",
+  "k": "lbl",
+  "sc": 24
+ },
+ {
+  "t": 105.8,
+  "s": "10 YEARS",
+  "k": "lbl",
+  "sc": 24
+ },
+ {
+  "t": 110.3,
+  "s": "ONE LIMIT",
+  "k": "plate",
+  "sc": 25
+ },
+ {
+  "t": 112.1,
+  "s": "WHEN ✓",
+  "k": "cap",
+  "sc": 25
+ },
+ {
+  "t": 114.2,
+  "s": "WHY ?",
+  "k": "cap",
+  "sc": 25
+ },
+ {
+  "t": 116.8,
+  "s": "4 DAYS",
+  "k": "lbl",
+  "sc": 26
+ },
+ {
+  "t": 118.9,
+  "s": "FLU?",
+  "k": "cap",
+  "sc": 26
+ },
+ {
+  "t": 119.6,
+  "s": "FALL?",
+  "k": "cap",
+  "sc": 26
+ },
+ {
+  "t": 120.7,
+  "s": "BAD STAIRCASE?",
+  "k": "cap",
+  "sc": 26
+ },
+ {
+  "t": 122.0,
+  "s": "THE CLOCK, NOT THE STORY",
+  "k": "cap",
+  "sc": 27
+ },
+ {
+  "t": 124.8,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 28
+ },
+ {
+  "t": 134.5,
+  "s": "58 YEARS",
+  "k": "lbl",
+  "sc": 29
+ },
+ {
+  "t": 137.7,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 30
+ },
+ {
+  "t": 138.4,
+  "s": "THE LUNCH LINE",
+  "k": "cap",
+  "sc": 30
+ },
+ {
+  "t": 144.9,
+  "s": "OKAY, THAT ONE ISN'T SCIENCE",
+  "k": "cap",
+  "sc": 31
+ },
+ {
+  "t": 146.8,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 31
+ },
+ {
+  "t": 147.8,
+  "s": "ROCCO",
+  "k": "cap",
+  "sc": 31
+ },
+ {
+  "t": 153.1,
+  "s": "63 YEARS",
+  "k": "lbl",
+  "sc": 32
+ },
+ {
+  "t": 159.6,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 34
+ },
+ {
+  "t": 160.3,
+  "s": "THE DARK",
+  "k": "cap",
+  "sc": 34
+ },
+ {
+  "t": 170.7,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 36
+ },
+ {
+  "t": 171.3,
+  "s": "BISCUIT",
+  "k": "cap",
+  "sc": 36
+ },
+ {
+  "t": 174.3,
+  "s": "14 YEARS OF BELLY RUBS",
+  "k": "cap",
+  "sc": 36
+ },
+ {
+  "t": 182.0,
+  "s": "CHEAT CODE ACTIVATED",
+  "k": "cap",
+  "sc": 38
+ },
+ {
+  "t": 190.6,
+  "s": "BUT THEN... PROBLEMS",
+  "k": "cap",
+  "sc": 39
+ },
+ {
+  "t": 193.3,
+  "s": "PROBLEM 1",
+  "k": "plate",
+  "sc": 40
+ },
+ {
+  "t": 194.7,
+  "s": "CROWDS",
+  "k": "cap",
+  "sc": 40
+ },
+ {
+  "t": 195.7,
+  "s": "SATURDAY · COUNTY FAIR",
+  "k": "cap",
+  "sc": 40
+ },
+ {
+  "t": 201.8,
+  "s": "HOW MANY MOVING THINGS CAN YOU TRACK?",
+  "k": "cap",
+  "sc": 42
+ },
+ {
+  "t": 207.2,
+  "s": "PYLYSHYN & STORM, 1988",
+  "k": "cap",
+  "sc": 42
+ },
+ {
+  "t": 208.5,
+  "s": "≈ 4",
+  "k": "cap",
+  "sc": 42
+ },
+ {
+  "t": 210.9,
+  "s": "8–9",
+  "k": "cap",
+  "sc": 43
+ },
+ {
+  "t": 213.3,
+  "s": "THOUSANDS",
+  "k": "cap",
+  "sc": 43
+ },
+ {
+  "t": 216.5,
+  "s": "10 MIN",
+  "k": "cap",
+  "sc": 44
+ },
+ {
+  "t": 218.3,
+  "s": "ARE YOU OKAY?",
+  "k": "say",
+  "sc": 44
+ },
+ {
+  "t": 223.3,
+  "s": "NEW RULE",
+  "k": "cap",
+  "sc": 45
+ },
+ {
+  "t": 225.0,
+  "s": "ONE BAR ONLY",
+  "k": "cap",
+  "sc": 46
+ },
+ {
+  "t": 229.6,
+  "s": "IT WORKS",
+  "k": "cap",
+  "sc": 47
+ },
+ {
+  "t": 231.3,
+  "s": "MOSTLY",
+  "k": "cap",
+  "sc": 47
+ },
+ {
+  "t": 232.2,
+  "s": "PLACES TO AVOID: CROWDS",
+  "k": "cap",
+  "sc": 47
+ },
+ {
+  "t": 237.3,
+  "s": "PROBLEM 2",
+  "k": "plate",
+  "sc": 48
+ },
+ {
+  "t": 238.4,
+  "s": "YOU CAN'T TELL ANYONE",
+  "k": "cap",
+  "sc": 48
+ },
+ {
+  "t": 242.9,
+  "s": "OKAY, PROVE IT.",
+  "k": "say",
+  "sc": 49
+ },
+ {
+  "t": 244.7,
+  "s": "YOUR BAR SAYS 66 YEARS.",
+  "k": "say",
+  "sc": 49
+ },
+ {
+  "t": 245.3,
+  "s": "66 YEARS",
+  "k": "lbl",
+  "sc": 49
+ },
+ {
+  "t": 247.2,
+  "s": "EVERYBODY'S DOES. THAT'S A GUESS, NOT PROOF.",
+  "k": "say",
+  "sc": 50
+ },
+ {
+  "t": 251.3,
+  "s": "NOBODY ELSE CAN SEE IT",
+  "k": "cap",
+  "sc": 50
+ },
+ {
+  "t": 255.3,
+  "s": "EVEN EXPERTS GUESS WRONG",
+  "k": "cap",
+  "sc": 51
+ },
+ {
+  "t": 258.7,
+  "s": "2000",
+  "k": "cap",
+  "sc": 52
+ },
+ {
+  "t": 261.6,
+  "s": "343 DOCTORS",
+  "k": "cap",
+  "sc": 52
+ },
+ {
+  "t": 264.2,
+  "s": "468 PATIENTS",
+  "k": "cap",
+  "sc": 52
+ },
+ {
+  "t": 268.1,
+  "s": "BRITISH MEDICAL JOURNAL",
+  "k": "cap",
+  "sc": 53
+ },
+ {
+  "t": 271.3,
+  "s": "5.3× TOO LONG",
+  "k": "cap",
+  "sc": 53
+ },
+ {
+  "t": 274.6,
+  "s": "TOO HOPEFUL",
+  "k": "cap",
+  "sc": 54
+ },
+ {
+  "t": 276.5,
+  "s": "LEON > DOCTORS",
+  "k": "cap",
+  "sc": 54
+ },
+ {
+  "t": 285.7,
+  "s": "PROBLEM 3",
+  "k": "plate",
+  "sc": 55
+ },
+ {
+  "t": 287.0,
+  "s": "THIS ONE ISN'T FUNNY",
+  "k": "cap",
+  "sc": 55
+ },
+ {
+  "t": 289.5,
+  "s": "SATURDAY MORNING",
+  "k": "cap",
+  "sc": 56
+ },
+ {
+  "t": 302.5,
+  "s": "NOT A LITTLE PINK",
+  "k": "cap",
+  "sc": 58
+ },
+ {
+  "t": 304.3,
+  "s": "9 MONTHS",
+  "k": "lbl",
+  "sc": 59
+ },
+ {
+  "t": 305.5,
+  "s": "11 MONTHS",
+  "k": "lbl",
+  "sc": 59
+ },
+ {
+  "t": 307.2,
+  "s": "4 MONTHS",
+  "k": "lbl",
+  "sc": 59
+ },
+ {
+  "t": 309.6,
+  "s": "9 DAYS",
+  "k": "lbl",
+  "sc": 60
+ },
+ {
+  "t": 315.9,
+  "s": "NOBODY LOOKS REALLY SICK",
+  "k": "cap",
+  "sc": 61
+ },
+ {
+  "t": 318.2,
+  "s": "HEADACHE",
+  "k": "cap",
+  "sc": 62
+ },
+ {
+  "t": 319.3,
+  "s": "DIZZY",
+  "k": "cap",
+  "sc": 62
+ },
+ {
+  "t": 321.2,
+  "s": "TUMMY HURTS",
+  "k": "cap",
+  "sc": 62
+ },
+ {
+  "t": 322.8,
+  "s": "\"PROBABLY A BUG.\"",
+  "k": "say",
+  "sc": 63
+ },
+ {
+  "t": 325.2,
+  "s": "JUST ALL THE STARING...",
+  "k": "cap",
+  "sc": 63
+ },
+ {
+  "t": 329.0,
+  "s": "CLUE 1",
+  "k": "plate",
+  "sc": 64
+ },
+ {
+  "t": 330.7,
+  "s": "BY NOON",
+  "k": "cap",
+  "sc": 64
+ },
+ {
+  "t": 333.2,
+  "s": "3 DAYS",
+  "k": "lbl",
+  "sc": 64
+ },
+ {
+  "t": 334.6,
+  "s": "1 DAY",
+  "k": "lbl",
+  "sc": 64
+ },
+ {
+  "t": 336.0,
+  "s": "SAME SPEED",
+  "k": "cap",
+  "sc": 65
+ },
+ {
+  "t": 339.0,
+  "s": "SMALLEST FIRST",
+  "k": "cap",
+  "sc": 65
+ },
+ {
+  "t": 341.3,
+  "s": "CLUE 2",
+  "k": "plate",
+  "sc": 66
+ },
+ {
+  "t": 344.9,
+  "s": "THROWS OUT CEREAL: NOTHING",
+  "k": "cap",
+  "sc": 66
+ },
+ {
+  "t": 347.2,
+  "s": "BOTTLED WATER: NOTHING",
+  "k": "cap",
+  "sc": 67
+ },
+ {
+  "t": 349.9,
+  "s": "WINDOW OPEN: ↑ THEN ↓",
+  "k": "cap",
+  "sc": 67
+ },
+ {
+  "t": 355.2,
+  "s": "RULE 2",
+  "k": "plate",
+  "sc": 68
+ },
+ {
+  "t": 361.5,
+  "s": "NOTHING",
+  "k": "cap",
+  "sc": 68
+ },
+ {
+  "t": 363.3,
+  "s": "CLUE 3",
+  "k": "plate",
+  "sc": 69
+ },
+ {
+  "t": 365.6,
+  "s": "DAD GOES TO BUY PAINT",
+  "k": "cap",
+  "sc": 69
+ },
+ {
+  "t": 371.2,
+  "s": "4 DAYS",
+  "k": "lbl",
+  "sc": 70
+ },
+ {
+  "t": 372.2,
+  "s": "2 MONTHS",
+  "k": "lbl",
+  "sc": 70
+ },
+ {
+  "t": 373.4,
+  "s": "10 YEARS",
+  "k": "lbl",
+  "sc": 70
+ },
+ {
+  "t": 379.0,
+  "s": "IT'S NOT THE PEOPLE",
+  "k": "cap",
+  "sc": 71
+ },
+ {
+  "t": 380.9,
+  "s": "IT'S THE HOUSE",
+  "k": "cap",
+  "sc": 71
+ },
+ {
+  "t": 382.8,
+  "s": "CLUE 4",
+  "k": "plate",
+  "sc": 72
+ },
+ {
+  "t": 384.2,
+  "s": "WHAT CHANGED?",
+  "k": "cap",
+  "sc": 72
+ },
+ {
+  "t": 386.0,
+  "s": "3 WEEKS AGO",
+  "k": "cap",
+  "sc": 72
+ },
+ {
+  "t": 399.1,
+  "s": "IT KEPT BEEPING AT 3 A.M.",
+  "k": "say",
+  "sc": 75
+ },
+ {
+  "t": 401.9,
+  "s": "SO I TOOK IT OUT.",
+  "k": "say",
+  "sc": 75
+ },
+ {
+  "t": 404.2,
+  "s": "HEALTH CLASS",
+  "k": "cap",
+  "sc": 76
+ },
+ {
+  "t": 406.5,
+  "s": "NO COLOR · NO SMELL",
+  "k": "cap",
+  "sc": 76
+ },
+ {
+  "t": 411.4,
+  "s": "200–250×",
+  "k": "cap",
+  "sc": 77
+ },
+ {
+  "t": 411.5,
+  "s": "CO STICKS HARDER THAN O₂",
+  "k": "cap",
+  "sc": 77
+ },
+ {
+  "t": 416.7,
+  "s": "HEADACHE",
+  "k": "cap",
+  "sc": 78
+ },
+ {
+  "t": 417.4,
+  "s": "DIZZINESS",
+  "k": "cap",
+  "sc": 78
+ },
+ {
+  "t": 418.2,
+  "s": "UPSET STOMACH",
+  "k": "cap",
+  "sc": 78
+ },
+ {
+  "t": 419.7,
+  "s": "= A BUG?",
+  "k": "cap",
+  "sc": 78
+ },
+ {
+  "t": 424.1,
+  "s": "≈ 430 DEATHS A YEAR",
+  "k": "cap",
+  "sc": 79
+ },
+ {
+  "t": 425.0,
+  "s": "NOT COUNTING FIRES",
+  "k": "cap",
+  "sc": 79
+ },
+ {
+  "t": 427.3,
+  "s": "CDC · 1999–2010",
+  "k": "cap",
+  "sc": 79
+ },
+ {
+  "t": 432.7,
+  "s": "\"I SEE BARS.\"",
+  "k": "say",
+  "sc": 80
+ },
+ {
+  "t": 437.9,
+  "s": "WE LEARNED ABOUT THIS IN SCHOOL.",
+  "k": "say",
+  "sc": 81
+ },
+ {
+  "t": 439.7,
+  "s": "IT'S A GAS.",
+  "k": "say",
+  "sc": 81
+ },
+ {
+  "t": 440.5,
+  "s": "WE HAVE TO GO OUTSIDE.",
+  "k": "say",
+  "sc": 81
+ },
+ {
+  "t": 442.1,
+  "s": "PLEASE.",
+  "k": "say",
+  "sc": 81
+ },
+ {
+  "t": 458.3,
+  "s": "LEON, WHO'S WINNING?",
+  "k": "say",
+  "sc": 84
+ },
+ {
+  "t": 460.0,
+  "s": "BISCUIT.",
+  "k": "say",
+  "sc": 84
+ },
+ {
+  "t": 465.2,
+  "s": "BEEEEEP!",
+  "k": "cap",
+  "sc": 86
+ },
+ {
+  "t": 469.8,
+  "s": "GOOD CALL.",
+  "k": "say",
+  "sc": 87
+ },
+ {
+  "t": 470.6,
+  "s": "A FEW MORE HOURS, AND THIS WOULD HAVE GONE VERY DIFFERENTLY.",
+  "k": "say",
+  "sc": 87
+ },
+ {
+  "t": 476.3,
+  "s": "WHO TOLD YOU?",
+  "k": "say",
+  "sc": 88
+ },
+ {
+  "t": 477.7,
+  "s": "HEALTH CLASS.",
+  "k": "say",
+  "sc": 88
+ },
+ {
+  "t": 479.3,
+  "s": "REMIND ME TO THANK YOUR TEACHER.",
+  "k": "say",
+  "sc": 88
+ },
+ {
+  "t": 486.3,
+  "s": "50 YEARS",
+  "k": "lbl",
+  "sc": 90
+ },
+ {
+  "t": 488.1,
+  "s": "48 YEARS",
+  "k": "lbl",
+  "sc": 90
+ },
+ {
+  "t": 489.7,
+  "s": "81 YEARS",
+  "k": "lbl",
+  "sc": 90
+ },
+ {
+  "t": 491.8,
+  "s": "14 YEARS",
+  "k": "lbl",
+  "sc": 90
+ },
+ {
+  "t": 507.6,
+  "s": "TWICE.",
+  "k": "cap",
+  "sc": 92
+ },
+ {
+  "t": 511.8,
+  "s": "HOW DID YOU KNOW?",
+  "k": "say",
+  "sc": 93
+ },
+ {
+  "t": 513.4,
+  "s": "LUCKY GUESS.",
+  "k": "say",
+  "sc": 93
+ },
+ {
+  "t": 527.1,
+  "s": "FOUR BLUE BARS",
+  "k": "cap",
+  "sc": 96
+ },
+ {
+  "t": 535.1,
+  "s": "THAT'S NOT A CURSE.",
+  "k": "cap",
+  "sc": 97
+ },
+ {
+  "t": 536.3,
+  "s": "THAT'S A SUPERPOWER.",
+  "k": "cap",
+  "sc": 98
+ },
+ {
+  "t": 538.9,
+  "s": "MONDAY MORNING",
+  "k": "cap",
+  "sc": 99
+ },
+ {
+  "t": 545.1,
+  "s": "4 HOURS",
+  "k": "lbl",
+  "sc": 100
+ },
+ {
+  "t": 553.0,
+  "s": "WOULD YOU WANT TO SEE THE BARS?",
+  "k": "cap",
+  "sc": 102
+ },
+ {
+  "t": 554.8,
+  "s": "OR WOULD YOU RATHER NOT KNOW?",
+  "k": "cap",
+  "sc": 102
+ },
+ {
+  "t": 556.6,
+  "s": "SUBSCRIBE FOR PART 2",
+  "k": "cap",
+  "sc": 103
+ },
+ {
+  "t": 562.3,
+  "s": "4 HOURS",
+  "k": "lbl",
+  "sc": 103
+ }
+]
