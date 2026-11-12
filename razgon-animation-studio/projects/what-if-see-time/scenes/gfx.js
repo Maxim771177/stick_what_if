@@ -1,5 +1,5 @@
 // gfx.js: предметы и животные ролика 02 кодом (ink-линии, плоские цвета).
-import { E, S, ui, C, D, ease, prog, clamp, lerp, text, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, inkBlob, alpha, shade, bar, kf } from './lib.js';
+import { E, S, ui, C, D, ease, prog, clamp, lerp, text, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, inkBlob, alpha, shade, bar, kf, PH } from './lib.js';
 
 export const W = () => E.W, H = () => E.H;
 export const pop = (t, s, d = 0.35) => ease.outBack(prog(t, s, s + d));
@@ -18,9 +18,10 @@ export function dog(g, x, y, s = 1, o = {}) {
   const t = o.t ?? 0, f = o.f ?? 1, pose = o.pose || 'sit', wag = o.wag ?? 9;
   const key = pose === 'lie' ? (wag < 3 ? 'dog_tired' : 'dog_lie') : pose === 'tilt' ? 'dog_tilt' : pose === 'beg' ? 'dog_beg' : pose === 'sniff' ? 'dog_sniff' : pose === 'stand' ? (wag > 6 && Math.sin(t * wag) > 0 ? 'dog_wag' : 'dog_stand') : 'dog_sit';
   const bob = (wag > 6 && pose !== 'lie') ? Math.sin(t * wag) * 0.012 : 0;
-  sprite(g, key, x, y, (DOGH[key] || 140) * s * 1.25, f, { rot: bob });
+  const hh = (DOGH[key] || 140) * s * 1.25; sprite(g, key, x, y, hh, f, { rot: bob });
+  if (o.bar !== false) { const cr = PH.t >= 289.4 && PH.t < 481.9, late = PH.t >= 335.8; bar(g, x + f * hh * 0.15, y - hh - 38, cr ? 0.03 : 0.7, { w: 230, t: o.t ?? 9, start: 0.2, style: 'in', label: cr ? (late ? '6 HOURS' : '9 DAYS') : '14 YEARS' }); }
 }
-export function cat(g, x, y, s = 1, o = {}) { const key = o.jealous ? 'cat_jealous' : o.squint ? 'cat_squint' : o.pose === 'stand' ? 'cat_stand' : 'cat_sit'; sprite(g, key, x, y, 175 * s * 1.15, o.f ?? 1, {}); }
+export function cat(g, x, y, s = 1, o = {}) { const key = o.jealous ? 'cat_jealous' : o.squint ? 'cat_squint' : o.pose === 'stand' ? 'cat_stand' : 'cat_sit'; const hh = 175 * s * 1.15; sprite(g, key, x, y, hh, o.f ?? 1, {}); if (o.bar !== false) bar(g, x, y - hh - 38, 0.5, { w: 230, t: o.t ?? 9, start: 0.2, style: 'in', label: '10 YEARS' }); }
 export function bird(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y); g.scale(s, s); inkEllipse(g, 0, -30, 40, 30, { fill: '#4aa3df', w: 4 }); inkCircle(g, 30, -56, 20, { fill: '#4aa3df', w: 4 }); inkShape(g, [[48, -58], [72, -52], [48, -48]], { fill: '#f6b93b', w: 3 }); inkCircle(g, 36, -60, 4, { fill: INK(), stroke: false }); inkLine(g, [[-30, -34], [-70, -50 + Math.sin(t * 6) * 8]], { w: 6 }); inkLine(g, [[-6, 0], [-6, 22]], { w: 4 }); inkLine(g, [[10, 0], [10, 22]], { w: 4 }); g.restore(); }
 export function squirrel(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y); g.scale(s, s); inkShape(g, [[-30, -20], [-80, -40], [-90, -110], [-50, -150], [-26, -100], [-20, -50]], { fill: '#c98b4a', smooth: true, w: 5 }); inkEllipse(g, 0, -42, 38, 46, { fill: '#c98b4a', w: 5 }); inkCircle(g, 20, -100, 24, { fill: '#c98b4a', w: 5 }); inkShape(g, [[8, -118], [4, -140], [22, -122]], { fill: '#c98b4a', w: 3 }); inkCircle(g, 28, -104, 4, { fill: INK(), stroke: false }); inkCircle(g, 44, -96, 5, { fill: INK(), stroke: false }); inkEllipse(g, 14, -60 + Math.sin(t * 5) * 3, 10, 14, { fill: '#8a5a2e', w: 3 }); g.restore(); }
 export function fish(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y + Math.sin(t * 2) * 6); g.scale(s, s); inkEllipse(g, 0, 0, 60, 36, { fill: '#f08a24', w: 5 }); inkShape(g, [[-52, 0], [-96, -30 + Math.sin(t * 7) * 6], [-96, 30 - Math.sin(t * 7) * 6]], { fill: '#f08a24', w: 5 }); inkCircle(g, 32, -8, 6, { fill: INK(), stroke: false }); g.restore(); }
@@ -53,7 +54,7 @@ export function icn(g, kind, x, y, s = 1, t = 9, start = 0) { // быстрые 
 export function tint(g, col, a) { g.save(); g.globalAlpha = a; g.fillStyle = col; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore(); }
 export function vignette(g, col, a) { const gr = g.createRadialGradient(E.W / 2, E.H / 2, E.H * 0.35, E.W / 2, E.H / 2, E.H * 0.95); gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, col); g.save(); g.globalAlpha = a; g.fillStyle = gr; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore(); }
 export function table(g, x, GY, w = 520, h = 130) { inkRect(g, x - w / 2, GY - h, w, 22, { fill: C.wood, r: 6 }); inkLine(g, [[x - w / 2 + 40, GY - h + 22], [x - w / 2 + 40, GY]], { w: 10 }); inkLine(g, [[x + w / 2 - 40, GY - h + 22], [x + w / 2 - 40, GY]], { w: 10 }); return GY - h; }
-export function scarf(g, o, col = '#2f9e4a') { if (!o || o.hidden) return; const R = 55 * o.s / 1.55; inkEllipse(g, o.x, o.hy + R * 1.0, R * 0.78, R * 0.2, { fill: col, w: 4 }); }
+export function scarf() { }
 export const deskK = (g, x, GY, s = 1) => { inkRect(g, x - 120 * s, GY - 150 * s, 240 * s, 18 * s, { fill: C.wood, r: 5 }); inkRect(g, x - 110 * s, GY - 132 * s, 220 * s, 60 * s, { fill: '#e3b478', r: 5 }); inkLine(g, [[x - 100 * s, GY - 72 * s], [x - 100 * s, GY]], { w: 7 }); inkLine(g, [[x + 100 * s, GY - 72 * s], [x + 100 * s, GY]], { w: 7 }); };
 // скамейка в профиль: f = куда смотрит сидящий (−1 влево); сиденье на высоте бёдер позы sit при масштабе s
 export function bench(g, x, GY, f, s) { const sy = GY + (-72 + 6) * s, bx = x - f * 70; inkRect(g, bx - f * 10, sy - 150, 16, 150, { fill: '#b98a54', r: 4 }); inkRect(g, x - 85, sy, 170, 20, { fill: C.wood, r: 5 }); inkLine(g, [[x - 70, sy + 20], [x - 70, GY]], { w: 9 }); inkLine(g, [[x + 70, sy + 20], [x + 70, GY]], { w: 9 }); }

@@ -30,7 +30,7 @@ export const OUT = {
   FIRE: { top: 'jersey', color: '#d8232a', hat: 'hardhat', hatColor: '#f2c21a' },
   DOC: { top: 'labcoat', face: 'glasses', hair: 'none' },
   PLUMBER: { top: 'hoodie', color: '#3d7ea6', hat: 'cap', hatColor: '#f2c21a', legs: '#3a4a6b' },
-  SUB: { top: 'suit', color: '#4b5a3c', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
+  SUB: { top: 'suit', color: '#3f7a46', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
   GUY: { top: 'tshirt', color: '#7da55a', hair: 'short', hairColor: '#2b2420', legs: '#4a5a78' },
   STRANGER: { top: 'hoodie', color: '#2b2b33', hat: 'cap', hatColor: '#2b2b33', legs: '#5a5f78' },
   NEIGHBOR: { top: 'tshirt', color: '#d6872b', hair: 'short', hairColor: '#6b3a1e', legs: '#4a5a78' },
@@ -131,10 +131,15 @@ export function bar(g, x, y, frac, o = {}) {
   g.restore();
 }
 
+export const PH = { t: 0 };
+const CRISIS = (t) => t >= 289.4 && t < 481.9;
+export const FRAC = { PARK: 0.68, OMAR: 0.73, ROCCO: 0.7, GUY: 0.64, MOM: 0.55, DAD: 0.53, NORA: 0.9, NEIGHBOR: 0.49, FIRE: 0.6, DOC: 0.58, CLOWN: 0.52, LADY: 0.6, LADY2: 0.5, LADY3: 0.46, PLUMBER: 0.46, SUB: 0.04, STRANGER: 0.63, SCI: 0.54, KID: 0.7, KID2: 0.78, KID3: 0.82, KID4: 0.66, KID5: 0.73, KID6: 0.79 };
+const CRISISF = { MOM: 0.09, DAD: 0.11, NORA: 0.05 };
+export const autoFrac = (id, t) => (CRISIS(t) && CRISISF[id] != null ? CRISISF[id] : FRAC[id] ?? 0.6);
 // ---------- подпись полоски: цифра с единицей всегда (по доле и персонажу) ----------
 const YRS = { PARK: 61, OMAR: 66, ROCCO: 63, GUY: 58, MOM: 50, DAD: 48, NORA: 81, NEIGHBOR: 44, FIRE: 55, DOC: 52, CLOWN: 47, LADY: 52, LADY2: 40, LADY3: 38, PLUMBER: 41, SUB: 36, KID: 62, KID2: 70, KID3: 74, KID4: 59, KID5: 66, KID6: 71, STRANGER: 57, SCI: 49 };
-const LOW = { MOM: '9 MONTHS', DAD: '11 MONTHS', NORA: '4 MONTHS', SUB: '4 HOURS' };
-export function autoLabel(id, v) { if (id === 'SUB') return v > 0.02 ? '4 HOURS' : '0 SEC'; if (v >= 0.3) return (YRS[id] ?? Math.round(v * 90)) + ' YEARS'; if (LOW[id]) return LOW[id]; return v >= 0.12 ? '8 MONTHS' : '9 DAYS'; }
+const LOW1 = { MOM: '9 MONTHS', DAD: '11 MONTHS', NORA: '4 MONTHS', SUB: '4 HOURS' }, LOW2 = { MOM: '3 DAYS', DAD: '3 DAYS', NORA: '1 DAY', SUB: '4 HOURS' };
+export function autoLabel(id, v) { if (id === 'SUB') return v > 0.02 ? '4 HOURS' : '0 SEC'; if (v >= 0.3) return (YRS[id] ?? Math.round(v * 90)) + ' YEARS'; { const L = PH.t >= 335.8 && PH.t < 481.9 ? LOW2 : LOW1; if (L[id]) return L[id]; } return v >= 0.12 ? '8 MONTHS' : '9 DAYS'; }
 
 // ---------- места ----------
 const rect = (g, x, y, w, h, fill, o = {}) => inkRect(g, x, y, w, h, { fill, r: 4, ...o });
@@ -172,26 +177,26 @@ const rnd = (seed) => { let a = seed * 9301 + 49297; return () => { a = (a * 930
 const HAIRS = [['short', '#2b2420'], ['messy', '#8a5a2e'], ['curly', '#2b2420'], ['long', '#c8923a'], ['ponytail', '#6b3a1e'], ['bun', '#2b2420'], ['short', '#c8923a'], ['curly', '#6b3a1e'], ['messy', '#2b2420'], ['long', '#6b3a1e']];
 const KCOL = ['#3fb950', '#3a6ea5', '#f29ac0', '#8a6ab0', '#f2a03a', '#c0504d', '#17a2b8', '#e4872b', '#5a7fb0', '#9aa84a'];
 export const kidsPos = (n, seed, x0 = 0.05, x1 = 0.95, y0 = 0.78, y1 = 0.9) => { const r = rnd(seed); return Array.from({ length: n }, () => ({ x: lerp(x0, x1, r()), y: lerp(y0, y1, r()), id: KIDS[Math.floor(r() * KIDS.length)], f: r() < 0.5 ? -1 : 1, fr: r() < 0.22 ? 0.12 + r() * 0.2 : 0.55 + r() * 0.45, h: HAIRS[Math.floor(r() * HAIRS.length)], c: KCOL[Math.floor(r() * KCOL.length)] })); };
-function drawKids(g, t, spec, GY) {
+function drawKids(g, t, spec, GY, layerName) {
   const k = spec.kids; const list = k.list || kidsPos(k.n ?? 12, k.seed ?? 3, k.x0, k.x1, k.y0, k.y1); const sc = k.s ?? 1.0;
-  [...list].sort((a, b) => a.y - b.y).forEach((p, i) => {
+  [...list].map((p, i) => ({ ...p, i })).filter((p) => (layerName === 'front') === (p.y * E.H > GY + 4)).sort((a, b) => a.y - b.y).forEach((p) => { const i = p.i;
     const y = p.y * E.H, depth = 0.7 + 0.5 * (y / E.H), s = (k.s ?? 1.1) * depth * 1.35; const wob = Math.sin(t * 2 + i) * 0.5;
     const a = k.in ? ease.out(prog(t, k.in + i * (k.stagger ?? 0.03), k.in + i * (k.stagger ?? 0.03) + 0.4)) : 1; if (a <= 0) return;
     const o = { x: p.x * E.W + (k.drift ? Math.sin(t * k.drift + i) * 20 : 0) + (k.march ? (t * k.march * (p.f)) : 0), y, s, facing: p.f, outfit: { ...OUT[p.id], ...(p.id === 'OMAR' ? {} : { hair: p.h[0], hairColor: p.h[1], color: p.c }) }, expr: k.expr || 'neutral', blink: blinkAt(t, i * 3), pose: breathe(POSES[k.pose || 'stand'], t, 1, i + 1), alpha: a };
     g.save(); g.translate(o.x, y); g.scale(1, 1); g.translate(-o.x, -y); drawCharacter(g, o); g.restore();
-    if (k.bars) { const bw = (k.bw ?? 120) * depth, bt = k.barAt != null ? k.barAt + (k.wave ? (p.x * k.wave) : i * 0.04) : 0; const hy = characterHead(o)[1]; bar(g, o.x, hy - 70 * s, k.fr != null ? k.fr : p.fr, { w: bw, t: t, start: bt, label: k.lbl ? k.lbl(p, i) : null }); }
+    if (k.bars) { const bw = (k.focus === i ? 300 : (k.bw ?? 170)) * (k.focus === i ? 1 : depth), bt = k.barAt != null ? k.barAt + (k.wave ? (p.x * k.wave) : i * 0.04) : 0; const hy = characterHead(o)[1]; const fv = k.fr != null ? k.fr : p.fr; bar(g, o.x, hy - 78 * s, fv, { w: bw, t: t, start: bt, style: 'in', label: k.lbl ? k.lbl(p, i) : (fv >= 0.3 ? (34 + ((i * 37 + (k.seed || 3) * 11) % 48)) + ' YEARS' : (3 + (i % 9)) + ' MONTHS') }); }
   });
 }
 
 // ---------- надписи ----------
-function overlay(g, t, info, spec, heads) {
-  const T0 = info.shot.start, T1 = info.shot.end, rows = (spec.nocap ? [] : TEXTS).filter((r) => r.k !== 'lbl' && r.t >= T0 - 0.02 && r.t < T1 - 0.05 && !(spec.skip || []).includes(r.s));
-  let capIdx = 0, sayIdx = 0; const ty0 = spec.ty ?? 0.13;
+function overlay(g, t, info, spec, heads, only) {
+  const T0 = info.shot.start, T1 = info.shot.end, rows = (spec.nocap ? [] : TEXTS).filter((r) => r.k !== 'lbl' && (only === 'say' ? r.k === 'say' : only === 'rest' ? r.k !== 'say' : true) && r.t >= T0 - 0.02 && r.t < T1 - 0.05 && !(spec.skip || []).includes(r.s));
+  let capIdx = 0, sayIdx = 0; const ty0 = spec.ty ?? 0.13; const sayRows = rows.filter((r) => r.k === 'say');
   for (const r of rows) {
     const lt = r.t - T0; if (t < lt) { if (r.k === 'cap') capIdx++; if (r.k === 'say') sayIdx++; continue; }
     if (r.k === 'plate') { const k = ease.outBack(prog(t, lt, lt + 0.35)); g.save(); g.translate(E.W / 2, E.H * (spec.plateY ?? 0.22)); g.rotate(-0.03); g.scale(k, k); const w = measure(g, r.s, 150) + 160; inkRect(g, -w / 2, -110, w, 190, { fill: ui().gold, r: 30 }); text(g, r.s, 0, 10, { size: 150, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); }
     else if (r.k === 'cap') { const at = spec.capAt && spec.capAt[r.s]; const y = E.H * (at ? at[1] : spec.tyList ? spec.tyList[capIdx] ?? ty0 : ty0 + capIdx * 0.1); const x = at ? at[0] : (spec.tx ?? 0.5); const bigsz = at && at[2] ? at[2] : 84; const sz = Math.min(bigsz, (E.W * 0.9) / Math.max(1, measure(g, r.s, 84) / 84) * (bigsz / 84)); D.marker(g, r.s, E.W * x, y, { size: sz, t, start: lt, outline: 14, color: r.s === r.s.toUpperCase() && /\d/.test(r.s) && capIdx % 2 ? ui().accent : S().ink }); capIdx++; }
-    else { const idx = (spec.say ?? [0])[sayIdx % (spec.say ?? [0]).length] ?? 0; const h = heads[idx]; sayIdx++; if (!h) continue; const lines = wrap(r.s, 26), w = Math.min(980, Math.max(...lines.map((l) => measure(g, l, 44))) + 90), hgt = 70 + lines.length * 56, bx = clamp(h.x, w / 2 + 40, E.W - w / 2 - 40), by = clamp(h.y - 130 - hgt / 2, hgt / 2 + 30, E.H - 300); D.bubble(g, bx, by, w, hgt, { tail: [h.x, h.y - 70], t, start: lt }, (g2) => lines.forEach((l, i) => text(g2, l, 0, (i - (lines.length - 1) / 2) * 56 + 4, { size: 44, font: FONTS.ui, weight: 900, color: S().ink }))); }
+    else { const nx = sayRows.find((q) => q.t > r.t + 0.05), endT = nx ? nx.t - T0 : lt + 4; if (t > endT) { sayIdx++; continue; } const idx = (spec.say ?? [0])[sayIdx % (spec.say ?? [0]).length] ?? 0; const h = heads[idx]; sayIdx++; if (!h) continue; const lines = wrap(r.s, 26), w = Math.min(980, Math.max(...lines.map((l) => measure(g, l, 44))) + 90), hgt = 70 + lines.length * 56, side = h.id && h.id !== 'LEON', dir = h.x < E.W * 0.6 ? 1 : -1, bx = clamp(h.x + (side ? 230 * dir : 0), w / 2 + 40, E.W - w / 2 - 40), by = clamp(h.y - 130 - hgt / 2 - (side ? 190 : 0), hgt / 2 + 30, E.H - 300); D.bubble(g, bx, by, w, hgt, { tail: [side ? clamp(h.x + 150 * dir, bx - w / 2 + 40, bx + w / 2 - 40) : h.x, h.y - (side ? 50 : 70)], t, start: lt }, (g2) => lines.forEach((l, i) => text(g2, l, 0, (i - (lines.length - 1) / 2) * 56 + 4, { size: 44, font: FONTS.ui, weight: 900, color: S().ink }))); }
   }
 }
 function wrap(s, n) { const words = s.split(' '), out = []; let cur = ''; for (const w of words) { if ((cur + ' ' + w).trim().length > n) { out.push(cur); cur = w; } else cur = (cur + ' ' + w).trim(); } if (cur) out.push(cur); return out; }
@@ -209,7 +214,7 @@ function camOf(spec, t, dur, info) {
 // ---------- регистрация кадра ----------
 export function def(id, spec) {
   registerShot(id, { draw(g, t, info) {
-    const cam = camOf(spec, t, info.dur, info), wins = talkWins(spec, info);
+    PH.t = info.globalT; const cam = camOf(spec, t, info.dur, info), wins = talkWins(spec, info);
     let ctx = { GY: E.H * 0.84, dur: info.dur };
     layer(g, cam, 0.9, (g) => { ctx = { ...ctx, ...set(spec.set || 'void', g, spec.so) }; });
     const heads = [];
@@ -217,14 +222,16 @@ export function def(id, spec) {
     layer(g, cam, 1, (g) => {
       ctx.cam = cam;
       if (spec.pre) spec.pre(g, t, info, ctx);
-      if (spec.kids) drawKids(g, t, spec, ctx.GY);
+      if (spec.kids) drawKids(g, t, spec, ctx.GY, 'back');
       (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s, hidden: o.hidden }); });
+      if (spec.kids) drawKids(g, t, spec, ctx.GY, 'front');
       if (spec.close) closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]);
       if (spec.mid) spec.mid(g, t, info, { ...ctx, heads });
+      overlay(g, t, info, spec, heads.length ? heads : [{ x: E.W / 2, y: E.H * 0.55 }], 'say');
       // полоски: { c: индекс героя | at:[x,y] в долях кадра, f: число или [[t,доля]], on, w, dy, lbl: true | строка | индексы lr }
       (spec.bars || []).forEach((b) => {
         const h = b.c != null ? heads[b.c] : null; if (h && h.hidden) return;
-        const px = b.at ? b.at[0] * E.W : h.x + (b.dx ?? 0), py = b.at ? b.at[1] * E.H : h.y - (b.dy ?? 135 * (h.s ?? 1.5) / 1.5) + 22 + (b.lbl ? 36 : 0);
+        const px = b.at ? b.at[0] * E.W : h.x + (b.dx ?? 0), py = b.at ? b.at[1] * E.H : Math.max(70, h.y - (b.dy ?? 135 * (h.s ?? 1.5) / 1.5) + 22 + (b.lbl ? 36 : 0));
         const mine = b.lbl === true ? lbls : Array.isArray(b.lr) ? b.lr.map((i) => lbls[i]).filter(Boolean) : [];
         let label = typeof b.lbl === 'string' ? b.lbl : typeof b.label === 'string' ? b.label : null, la = b.on ?? 0, prev = null;
         for (const r of mine) if (t >= r.t) { prev = label; label = r.s; la = r.t; }
@@ -232,9 +239,13 @@ export function def(id, spec) {
         const fv = kf(b.f ?? 1, t, 1); if (!label && !b.nolabel) label = typeof b.n === 'function' ? b.n(t, fv) : b.n ?? (h ? autoLabel(h.id, fv) : null);
         bar(g, px, py, fv, { w: Math.max(b.w ?? 250, 230), t, start: b.on ?? 0, label, labelAt: la, prevLabel: prev, glow: b.glow ? tl(b.glow, t) : false, style: b.style || 'in', s: b.s, labelBig: b.big, size: b.size });
       });
+      if (!spec.nobars) (spec.chars || []).forEach((c, i) => {
+        const id = c.w; if (!id || id === 'LEON' || heads[i].hidden || (c.a != null && tl(c.a, t) < 0.6) || (spec.bars || []).some((b) => b.c === i)) return;
+        const h = heads[i], fv = autoFrac(id, info.globalT); bar(g, h.x, Math.max(70, h.y - (135 * (h.s ?? 1.5) / 1.5) - 14), fv, { w: 230, t, start: (c.in ?? 0) + 0.2, style: 'in', label: autoLabel(id, fv), s: 1 });
+      });
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
     if (spec.top) spec.top(g, t, info, ctx);
-    overlay(g, t, info, spec, heads.length ? heads : spec.close ? (() => { const c = spec.close, r = c.r ?? 330, cx = (c.x ?? 0.5) * E.W, cy = (c.y ?? 0.62) * E.H; return [{ x: cx - r * 0.55, y: cy - r * 1.62 + 110 }]; })() : [{ x: E.W / 2, y: E.H * 0.55 }]);
+    overlay(g, t, info, spec, heads.length ? heads : spec.close ? (() => { const c = spec.close, r = c.r ?? 330, cx = (c.x ?? 0.5) * E.W, cy = (c.y ?? 0.62) * E.H; return [{ x: cx - r * 0.55, y: cy - r * 1.62 + 110 }]; })() : [{ x: E.W / 2, y: E.H * 0.55 }], 'rest');
   } });
 }
