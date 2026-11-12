@@ -42,6 +42,8 @@ export const OUT = {
   KID5: { top: 'tshirt', color: '#8a6ab0', hair: 'short', hairColor: '#2b2420', kid: true },
   KID6: { top: 'tshirt', color: '#f2a03a', hair: 'bun', hairColor: '#2b2420', kid: true },
 };
+Object.values(OUT).forEach((o) => { o.whiteHands = true; });
+OUT.FIRE = { top: 'jersey', color: '#d8232a', helmet: '#f2c21a', whiteHands: true };
 const KIDS = ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6', 'OMAR'];
 const SM = { LEON: 0.86, NORA: 0.78, OMAR: 1.12, ROCCO: 1.42, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
 
@@ -91,6 +93,7 @@ export function who(g, c, t, info, GY, wins) {
   drawCharacter(g, o);
   g.restore();
   o.hy = characterHead(o)[1];
+  if (OUT[id].helmet && !o.hidden) { const R = 55 * s / 1.55 * 1.55, hx = o.x + 2 * f * s / 1.55, hyy = o.hy - R * 0.62, pts = []; for (let i = 0; i <= 14; i++) { const a = Math.PI + (i / 14) * Math.PI; pts.push([hx + Math.cos(a) * R * 0.95, hyy + Math.sin(a) * R * 0.62]); } inkShape(g, pts, { fill: OUT[id].helmet, smooth: true, seed: 71 }); inkRect(g, hx - R * 1.05, hyy - 4, R * 2.1, R * 0.16, { fill: shade(OUT[id].helmet, -0.12), r: 5, w: 4 }); inkRect(g, hx - R * 0.16, hyy - R * 0.66, R * 0.32, R * 0.3, { fill: '#d8232a', r: 4, w: 3 }); }
   if (c.after) c.after(g, o, t);
   return o;
 }
@@ -113,7 +116,7 @@ export function bar(g, x, y, frac, o = {}) {
   inkRect(g, -w / 2 - 6, -h / 2 - 6, w + 12, h + 12, { fill: '#1b2230', r: (h + 12) / 2, w: 5 });
   const fw = Math.max(h * 0.9, w * f);
   g.save(); g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, h / 2); g.clip(); g.fillStyle = '#39445a'; g.fillRect(-w / 2, -h / 2, w, h); g.fillStyle = barColor(f); g.fillRect(-w / 2, -h / 2, fw, h); g.fillStyle = 'rgba(255,255,255,.28)'; g.fillRect(-w / 2, -h / 2, fw, h * 0.34); g.restore();
-  if (o.label && st === 'in') { const sz = h * 0.78; text(g, o.label, 0, sz * 0.3, { size: sz, color: '#ffffff', weight: 900, font: FONTS.title, stroke: sz * 0.2, strokeColor: '#000' }); }
+  if (o.label && st === 'in') { const sz = h * 0.72; text(g, o.label, 0, sz * 0.34, { size: sz, color: '#ffffff', weight: 900, font: FONTS.ui, stroke: sz * 0.26, strokeColor: '#000' }); }
   else if (o.label && st === 'pill') { const sz = h * 1.5, pw = measure(g, o.label, sz) + sz * 0.9; inkRect(g, -pw / 2, -h / 2 - sz * 1.75, pw, sz * 1.45, { fill: '#1b2230', r: sz * 0.7, w: 4 }); text(g, o.label, 0, -h / 2 - sz * 0.72, { size: sz, color: '#fff', weight: 900, font: FONTS.title }); }
   else if (o.label && st === 'end') { const sz = h * 1.6; text(g, o.label, w / 2 + 24, sz * 0.32, { size: sz, color: '#fff', weight: 900, font: FONTS.title, align: 'left', stroke: sz * 0.2, strokeColor: '#000' }); }
   else if (o.label) {
