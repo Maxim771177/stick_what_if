@@ -1,0 +1,1492 @@
+{
+ "title": "What If You Could See How Long Everyone Has Left to Live",
+ "duration": 563.24,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 7.8,
+   "line": "The bell rings, and three hundred kids pour into the hallway. Above every head floats a bar, like a health bar in a video game.",
+   "scene": "Школьный коридор, общий план: звонок, из дверей классов вываливается толпа ребят (силуэты-статисты), над каждой головой появляется голубая полоска (плавно, волной по коридору)",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоски «включаются» волной слева направо с 3.7"
+  },
+  {
+   "id": "s002",
+   "start": 7.8,
+   "end": 11.7,
+   "line": "Blue means plenty. Pink means not much.",
+   "scene": "Разделённый кадр: слева ученик с полной голубой полоской, справа ученик с короткой розовой; под каждой чистое место под подпись",
+   "set": "void+HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоски заполняются/садятся на слова «plenty» и «not much»"
+  },
+  {
+   "id": "s003",
+   "start": 11.7,
+   "end": 17.0,
+   "line": "Leon walks through the crowd like he owns the place, because right now, he kind of does.",
+   "scene": "Leon идёт сквозь толпу по коридору расслабленно, руки в карманах, ребята расступаются; над ребятами полоски, над самим Leon полоски нет",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "панорама следом за Leon, лёгкое покачивание"
+  },
+  {
+   "id": "s004",
+   "start": 17.0,
+   "end": 22.9,
+   "line": "Ms. Park steps out of her classroom. Above her head, in neat white letters: sixty-one years.",
+   "scene": "Ms. Park выходит из класса (дверь), Leon останавливается; наезд на неё: над головой полоска почти полная, подпись крупно белыми буквами",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "наезд на Ms. Park; полоска и подпись появляются на «sixty-one»"
+  },
+  {
+   "id": "s005",
+   "start": 22.9,
+   "end": 25.2,
+   "line": "\"Leon. Where's your homework?\"",
+   "scene": "Ms. Park, руки в боки, смотрит строго; Leon перед ней, слегка втянул голову",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "короткий наезд на Ms. Park"
+  },
+  {
+   "id": "s006",
+   "start": 25.2,
+   "end": 29.1,
+   "line": "\"Ms. Park, you have sixty-one years to forgive me.\"",
+   "scene": "Leon крупно, хитрая улыбка, палец вверх; рядом край лица Ms. Park",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "улыбка расползается на «forgive me»"
+  },
+  {
+   "id": "s007",
+   "start": 29.1,
+   "end": 31.6,
+   "line": "She stares. He grins.",
+   "scene": "Два плана подряд: Ms. Park застыла с поднятой бровью, потом Leon ухмыляется",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "смена планов на 30.3"
+  },
+  {
+   "id": "s008",
+   "start": 31.6,
+   "end": 35.2,
+   "line": "Half the hallway laughs, and nobody knows why.",
+   "scene": "Коридор: половина ребят смеются (HA-HA-облачка), Ms. Park растеряна, никто не знает почему; Leon доволен спереди",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "облачка смеха выскакивают по очереди"
+  },
+  {
+   "id": "s009",
+   "start": 35.2,
+   "end": 39.4,
+   "line": "Later that day, Leon walks into his own kitchen, and the grin disappears.",
+   "scene": "Кухня дома, вид от двери (камера у косяка): Leon в проёме, улыбка сползает; лицо в розоватом свете; семьи в кадре ещё нет",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "крупный план лица, улыбка гаснет, зрачки-точки расширяются"
+  },
+  {
+   "id": "s010",
+   "start": 39.4,
+   "end": 44.0,
+   "line": "So, what if you could see how long everyone has left to live?",
+   "scene": "Чистый светлый фон-сетка, Leon по центру смотрит на зрителя; вокруг него вопросительные знаки",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "заголовок выезжает по слову «what if»"
+  },
+  {
+   "id": "s011",
+   "start": 44.0,
+   "end": 48.4,
+   "line": "Nobody on Earth can do that. Doctors make educated guesses.",
+   "scene": "Leon рядом с планетой (Земля), показывает на неё; затем врач у планшета с вопросительным знаком над головой",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "смена кадра на 46.7 (врач)"
+  },
+  {
+   "id": "s012",
+   "start": 48.4,
+   "end": 53.4,
+   "line": "Worldwide, people live about seventy-three years on average, according to the World Health Organization.",
+   "scene": "Земля с мелкой толпой на ней и рядом блок «73»; рядом пустое место под подпись",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "число проявляется на «seventy-three»"
+  },
+  {
+   "id": "s013",
+   "start": 53.4,
+   "end": 56.1,
+   "line": "But an average is not a bar.",
+   "scene": "Разделённый кадр: слева одна цифра-«среднее» в рамке, справа живая полоска; цифра перечёркивается",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "перечёркивание на «not a bar»"
+  },
+  {
+   "id": "s014",
+   "start": 56.1,
+   "end": 63.7,
+   "line": "An average can't tell you about your teacher, your neighbor, or your little sister. You get the real one, for every single person you meet.",
+   "scene": "Три силуэта по очереди: Ms. Park, сосед, маленькая Nora; над каждым пока вопросительный знак, на «the real one» знаки превращаются в полоски с подписями",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "вопросы лопаются, на их месте вырастают полоски (60.3)"
+  },
+  {
+   "id": "s015",
+   "start": 63.7,
+   "end": 66.3,
+   "line": "Here's how it works. Rule one.",
+   "scene": "Чёрный титр на светлом фоне, потом плашка Rule 1",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плашка выезжает на 65.0"
+  },
+  {
+   "id": "s016",
+   "start": 66.3,
+   "end": 68.8,
+   "line": "Above every head floats a bar.",
+   "scene": "Leon и двое прохожих в ряд, над головами полоски; камера отъезжает",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "отъезд, полоски покачиваются"
+  },
+  {
+   "id": "s017",
+   "start": 68.8,
+   "end": 74.8,
+   "line": "Full and blue means a long life ahead. Short and pink means time is almost up.",
+   "scene": "Разделённый экран: слева человек с полной голубой полоской, справа с почти пустой розовой",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «full» заливка голубая, на «short» розовая садится"
+  },
+  {
+   "id": "s018",
+   "start": 74.8,
+   "end": 81.0,
+   "line": "Under it, a label in the biggest unit that fits: fifty-two years, three days, five seconds.",
+   "scene": "Крупно: одна полоска, под ней подпись, которая меняется по ходу фразы: годы → дни → секунды",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "подпись «перекатывается» на каждом числе; полоска укорачивается и розовеет"
+  },
+  {
+   "id": "s019",
+   "start": 81.0,
+   "end": 87.0,
+   "line": "The bar drains smoothly, a tiny bit every second, slower than anything you've ever watched.",
+   "scene": "Макро полоски: заливка еле заметно уменьшается, рядом тикающие часы и улитка для масштаба",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "медленный тик, один пиксель в секунду; улитка ползёт обгоняя полоску"
+  },
+  {
+   "id": "s020",
+   "start": 87.0,
+   "end": 91.2,
+   "line": "Rule two. It's a forecast, not a sentence.",
+   "scene": "Плашка Rule 2; потом два знака: «прогноз погоды» (солнце-облако) и «приговор» (молоток судьи), второй перечёркнут",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плашка на 87.0, перечёркивание на 90.0"
+  },
+  {
+   "id": "s021",
+   "start": 91.2,
+   "end": 94.6,
+   "line": "Change what's about to happen, and the bar changes with it.",
+   "scene": "Развилка во времени: человек у стрелки-развилки, одна ветка ведёт к камню/яме, другая нет; над ним полоска меняет длину",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоска дёргается вслед за выбором пути"
+  },
+  {
+   "id": "s022",
+   "start": 94.6,
+   "end": 99.4,
+   "line": "Skip your seatbelt, it shrinks. Buckle up, it grows back.",
+   "scene": "Салон машины сбоку: Leon на пассажирском сиденье; ремень не пристёгнут и полоска растёт вниз, щёлк, ремень застёгнут и полоска возвращается",
+   "set": "CAR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "пристёгивание на 96.7, звук щелчка"
+  },
+  {
+   "id": "s023",
+   "start": 99.4,
+   "end": 103.1,
+   "line": "Rule three. Everything with a heartbeat gets one.",
+   "scene": "Плашка Rule 3; потом сердце с пульсом и вокруг птичка, белка, рыбка, у каждой полоска",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "звери по очереди появляются, пульс сердца"
+  },
+  {
+   "id": "s024",
+   "start": 103.1,
+   "end": 110.3,
+   "line": "Even the dog. Biscuit has fourteen years, which is more than the cat next door. The cat knows.",
+   "scene": "Гостиная: собака Biscuit сидит с полоской, рядом на подоконнике кот соседа с полоской короче; сравнение, кот щурится и смотрит надменно",
+   "set": "LIVING",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кадр две части: Biscuit (103.1) и кот (108.7); у кота «пот» от зависти"
+  },
+  {
+   "id": "s025",
+   "start": 110.3,
+   "end": 116.1,
+   "line": "And one limit. The bar tells you when. It never tells you why.",
+   "scene": "Плашка ONE LIMIT; затем полоска, слева галочка «WHEN», справа знак вопроса «WHY»",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «never why» «WHY?» остаётся пустым"
+  },
+  {
+   "id": "s026",
+   "start": 116.1,
+   "end": 121.8,
+   "line": "It can say four days. It can't say a flu, a fall, or a bad staircase.",
+   "scene": "Человек с полоской 4 DAYS; три иконки-варианта под ним (грипп, банановая кожура, лестница), на каждую вопросительный знак",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "иконки выскакивают на слова flu / fall / staircase"
+  },
+  {
+   "id": "s027",
+   "start": 121.8,
+   "end": 124.8,
+   "line": "You get the clock, not the story.",
+   "scene": "Разделённый кадр: часы слева (ясные), закрытая книга с замком справа",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "книга остаётся закрытой на «story»"
+  },
+  {
+   "id": "s028",
+   "start": 124.8,
+   "end": 131.7,
+   "line": "Plus. Every grown-up in the world is suddenly easier to read. Need someone to carry a heavy bag up three flights?",
+   "scene": "Плашка Plus; потом вестибюль дома: Leon сканирует взглядом взрослых, над каждым полоска разной длины; тяжёлая сумка на полу",
+   "set": "LOBBY",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "взгляд-перебор, полоски подсвечиваются по очереди"
+  },
+  {
+   "id": "s029",
+   "start": 131.7,
+   "end": 137.7,
+   "line": "You scan the lobby and pick the guy with the longest bar. Fifty-eight years. He has the time.",
+   "scene": "Крупно мужчина с самой длинной полоской; у него широкая улыбка, он поднимает тяжёлую сумку",
+   "set": "LOBBY",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "подпись на «fifty-eight», мужчина с сумкой уходит к лестнице"
+  },
+  {
+   "id": "s030",
+   "start": 137.7,
+   "end": 144.9,
+   "line": "Plus, the lunch line. Leon always picks the lunch lady with the longest bar, because the others sometimes run out of pizza.",
+   "scene": "Плашка Plus; столовая: три раздатчицы за прилавком, у одной полоска длинная, у двух короче; у тех двух поднос с пиццей пустой; Leon идёт к длинной",
+   "set": "CAFETERIA",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "Leon выбирает, звук «ping»; пустые подносы"
+  },
+  {
+   "id": "s031",
+   "start": 144.9,
+   "end": 148.9,
+   "line": "Okay, that one isn't science. Plus, Rocco.",
+   "scene": "Leon с куском пиццы пожимает плечами; следом плашка Plus и Rocco в профиль",
+   "set": "CAFETERIA",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на 146.8 плашка"
+  },
+  {
+   "id": "s032",
+   "start": 148.9,
+   "end": 155.2,
+   "line": "The biggest kid in school, fists like loaves of bread, and a bar of sixty-three years.",
+   "scene": "Rocco самый большой, кулаки как караваи, смотрит сверху вниз на мелкого ребёнка; над Rocco полоска",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "наезд снизу вверх, на «sixty-three» подпись"
+  },
+  {
+   "id": "s033",
+   "start": 155.2,
+   "end": 159.6,
+   "line": "Same as everyone else. Suddenly he looks a lot smaller.",
+   "scene": "Ряд: Rocco и мелкий ребёнок, полоски у обоих одной длины; Rocco «сдувается» (уменьшается в кадре), мелкий выпрямляется",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «a lot smaller» Rocco уменьшается"
+  },
+  {
+   "id": "s034",
+   "start": 159.6,
+   "end": 163.7,
+   "line": "Plus, the dark. Leon used to hate walking home after sunset.",
+   "scene": "Плашка Plus; ночная улица: раньше Leon идёт сжавшись, фонарь мигает, тёмный силуэт незнакомца",
+   "set": "STREETNIGHT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "из напряжения (холодный свет) в спокойствие"
+  },
+  {
+   "id": "s035",
+   "start": 163.7,
+   "end": 170.7,
+   "line": "Now every stranger on the street shows a full blue bar, and nothing pink anywhere, so he strolls like it's noon.",
+   "scene": "Leon идёт расслабленно, насвистывая; все прохожие с полными голубыми полосками, розовых нет",
+   "set": "STREETNIGHT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "свист-ноты над Leon"
+  },
+  {
+   "id": "s036",
+   "start": 170.7,
+   "end": 178.9,
+   "line": "Plus, Biscuit. Leon finally knows the dog has fourteen years, so he promises her fourteen years of belly rubs.",
+   "scene": "Плашка Plus; Leon чешет пузо Biscuit, у Biscuit полоска 14 YEARS, лапа дрыгается",
+   "set": "LIVING",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "лапа и хвост дёргаются, сердечки"
+  },
+  {
+   "id": "s037",
+   "start": 178.9,
+   "end": 181.9,
+   "line": "She doesn't understand. She approves.",
+   "scene": "Biscuit с наклонённой головой (не понимает), затем довольно виляет хвостом (одобряет); Leon рядом",
+   "set": "LIVING",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "две позы: вопрос-значок, потом одобряющий «лайк» лапой"
+  },
+  {
+   "id": "s038",
+   "start": 181.9,
+   "end": 187.2,
+   "line": "It feels like walking around with a cheat code. You know the score, and nobody else does.",
+   "scene": "Leon с геймпадом-читом в руке, вокруг него лёгкое свечение; затем Leon в толпе: у всех полоски, у него одного «знание»",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «cheat code» экран мигает как в игре"
+  },
+  {
+   "id": "s039",
+   "start": 187.2,
+   "end": 193.3,
+   "line": "Being the only one who knows feels incredible. But then you start noticing the problems.",
+   "scene": "Leon, руки раскинуты, лучи; в конце лёгкая тень: улыбка дрогнула",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "тень ползёт на 190.4"
+  },
+  {
+   "id": "s040",
+   "start": 193.3,
+   "end": 197.3,
+   "line": "Problem one. Crowds. Saturday, the county fair.",
+   "scene": "Плашка Problem 1; ярмарка, общий план с чертовым колесом, толпа с полосками",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плашка на 193.3, затем кадр ярмарки на 195.6"
+  },
+  {
+   "id": "s041",
+   "start": 197.3,
+   "end": 201.6,
+   "line": "Thousands of people, thousands of bars, bobbing and overlapping and glowing.",
+   "scene": "Густая толпа: сотни полосок покачиваются, перекрываются, светятся; в центре крошечный Leon",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоски шевелятся, камера плавно наезжает на Leon"
+  },
+  {
+   "id": "s042",
+   "start": 201.6,
+   "end": 209.4,
+   "line": "Scientists have tested how many moving things a person can follow at once. The classic answer, from Pylyshyn and Storm in nineteen eighty-eight, is about four.",
+   "scene": "Учёный с планшетом, на экране 4 летающих кружка, подсвечены; рядом крупно четыре; потом ещё кружки",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кружки носятся, подсветка на «four»"
+  },
+  {
+   "id": "s043",
+   "start": 209.4,
+   "end": 214.5,
+   "line": "Later tests got some people up to eight or nine. Leon is looking at thousands.",
+   "scene": "Кружки умножаются до 8–9; затем Leon в толпе: вокруг него тысячи полосок, глаза-спирали",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «thousands» кадр затопляется полосками"
+  },
+  {
+   "id": "s044",
+   "start": 214.5,
+   "end": 220.2,
+   "line": "He accidentally stares at a clown for ten full minutes, and the clown asks if he's okay.",
+   "scene": "Клоун в центре с одной полоской; Leon вылупился на него, часы тикают в углу; клоун наклонил голову",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "таймер 10 MIN бежит в углу, клоун машет рукой перед лицом"
+  },
+  {
+   "id": "s045",
+   "start": 220.2,
+   "end": 224.9,
+   "line": "His head spins, and his ice cream hits the ground. So he makes a rule.",
+   "scene": "Leon качается, глаза-спирали; мороженое падает в траву: шлёп; сразу следом Leon строгим лицом: «новое правило»",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "падение мороженого, шлёп на 222.0"
+  },
+  {
+   "id": "s046",
+   "start": 224.9,
+   "end": 229.5,
+   "line": "Pick one bar, look only at that one, and let the rest blur into fog.",
+   "scene": "Leon смотрит на одну полоску (резкую); остальное вокруг размыто в туман",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "фокус-пульс: одна полоска резкая, остальные размыты"
+  },
+  {
+   "id": "s047",
+   "start": 229.5,
+   "end": 237.3,
+   "line": "It works. Mostly. Crowds stay on the list of places to avoid. And that's the easy problem.",
+   "scene": "Leon показывает большой палец («работает»), потом качнулся («mostly»); затем табличка-список «PLACES TO AVOID» с пунктом CROWDS; Leon вытирает лоб: «и это ещё лёгкая проблема»",
+   "set": "FAIR",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "список с зачёркнутыми пунктами, крупная «1» превращается в «2» тенью на 234.7"
+  },
+  {
+   "id": "s048",
+   "start": 237.3,
+   "end": 242.9,
+   "line": "Problem two. You can't tell anyone. Leon tries with Omar, his best friend.",
+   "scene": "Плашка Problem 2; коридор, Leon подходит к Omar у шкафчиков, у Omar полоска",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плашка на 237.3"
+  },
+  {
+   "id": "s049",
+   "start": 242.9,
+   "end": 247.1,
+   "line": "\"Okay, prove it.\" \"Your bar says sixty-six years.\"",
+   "scene": "Диалог: Omar скрестил руки, Leon показывает пальцем над его головой на полоску",
+   "set": "HALL",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "два плана с чередованием"
+  },
+  {
+   "id": "s050",
+   "start": 247.1,
+   "end": 255.2,
+   "line": "\"Everybody's does. That's a guess, not proof.\" And he's right. Nobody else can see the bar, so nothing Leon says can be checked.",
+   "scene": "Что видит Leon (полоски) и что видят все остальные (ничего): разделённый экран, слева полоски, справа пусто",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "правая сторона остаётся пустой, на «nobody else» затемнение"
+  },
+  {
+   "id": "s051",
+   "start": 255.2,
+   "end": 258.6,
+   "line": "Here's the funny part. Even real experts guess wrong.",
+   "scene": "Крупно врач с хрустальным шаром, над ним мелкие вопросительные знаки",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "шар дрожит"
+  },
+  {
+   "id": "s052",
+   "start": 258.6,
+   "end": 267.8,
+   "line": "In two thousand, Nicholas Christakis and Elizabeth Lamont asked three hundred and forty-three doctors to predict how long four hundred and sixty-eight very sick patients had left.",
+   "scene": "Сетка из 343 маленьких врачей (иконки) слева и 468 пациентов справа; в центре стрелка: врачи называют сроки",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "иконки заполняют сетку волной"
+  },
+  {
+   "id": "s053",
+   "start": 267.8,
+   "end": 274.5,
+   "line": "In the British Medical Journal they reported that, on average, the doctors guessed five point three times too long.",
+   "scene": "Столбики: «предсказал врач» длинный, «на самом деле» короткий; стрелка 5.3×; рядом журнал-обложка (стилизованная, с подписью British Medical Journal без логотипа)",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "длинный столбик растёт, короткий остаётся"
+  },
+  {
+   "id": "s054",
+   "start": 274.5,
+   "end": 282.1,
+   "line": "Mostly too hopeful. So Leon is better than the doctors. And he can't tell a soul. He can live with that.",
+   "scene": "Врач в розовых очках (rose-tinted) улыбается; затем Leon с медалью «лучше врачей» и с зашитым ртом (никому не может сказать); пожимает плечами",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "медаль появляется на 276.4, «молния» на рот на 278.6"
+  },
+  {
+   "id": "s055",
+   "start": 282.1,
+   "end": 289.4,
+   "line": "What he can't live with is problem three. Problem three. And this one isn't funny.",
+   "scene": "Плашка Problem 3, потом тёмный, холодный тон; Leon в дверях кухни, лицо серьёзное",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плашка на 285.7, затем свет холоднее на 287.0"
+  },
+  {
+   "id": "s056",
+   "start": 289.4,
+   "end": 294.4,
+   "line": "Saturday morning. Leon walks into the kitchen. Mom is pouring coffee. Dad is hunting for his keys.",
+   "scene": "Кухня, общий план: Leon входит; мама наливает кофе, папа ищет ключи (шарит по карманам), с чашкой пар",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "занавес утренним светом; пар от кофе"
+  },
+  {
+   "id": "s057",
+   "start": 294.4,
+   "end": 298.6,
+   "line": "Nora is feeding Biscuit under the table, which she is not allowed to do.",
+   "scene": "Под столом Nora тайком кормит Biscuit косточкой; Biscuit виляет, Nora прикладывает палец к губам",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "покачивание хвоста; «ш-ш» облачко"
+  },
+  {
+   "id": "s058",
+   "start": 298.6,
+   "end": 303.7,
+   "line": "And above all four heads, the bars are pink. Not a little pink.",
+   "scene": "Общий план кухни: над головами мамы, папы, Nora и Biscuit четыре розовые полоски; Leon в центре, замер",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоски появляются слева направо, пульс-подсветка"
+  },
+  {
+   "id": "s059",
+   "start": 303.7,
+   "end": 308.4,
+   "line": "Mom, nine months. Dad, eleven months. Nora, four months.",
+   "scene": "Три крупных плана подряд: мама, папа, Nora; у каждого короткая розовая полоска",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "смена планов на 305.0 и 306.7"
+  },
+  {
+   "id": "s060",
+   "start": 308.4,
+   "end": 312.6,
+   "line": "Biscuit, nine days. All at once.",
+   "scene": "Biscuit крупно: почти пустая полоска; затем все четыре полоски одновременно мигают («все сразу»)",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "мигание полосок на «all at once»"
+  },
+  {
+   "id": "s061",
+   "start": 312.6,
+   "end": 318.1,
+   "line": "Biscuit lies on the kitchen floor, barely lifting her head. Nobody looks really sick.",
+   "scene": "Biscuit лежит на полу кухни, голова на лапах, едва поднимает; на заднем плане семья выглядит нормально, с кофе",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "Biscuit тяжело дышит, тень на кадре"
+  },
+  {
+   "id": "s062",
+   "start": 318.1,
+   "end": 322.7,
+   "line": "Mom has a headache. Dad feels a little dizzy. Nora says her tummy feels funny.",
+   "scene": "Три быстрых плана: мама держится за голову, папа покачивается, Nora держится за живот",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "смена планов на 319.2 и 321.1"
+  },
+  {
+   "id": "s063",
+   "start": 322.7,
+   "end": 329.0,
+   "line": "\"Probably a bug,\" Mom says. Leon's head is pounding too, but he blames all the staring.",
+   "scene": "Мама пожимает плечами: «наверное, вирус»; Leon сжимает виски, облачко «ТУК-ТУК» над головой; он виновато смотрит вверх на полоски",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "пульсирует кадр на виски"
+  },
+  {
+   "id": "s064",
+   "start": 329.0,
+   "end": 335.8,
+   "line": "Clue one. By noon, the bars fall again. Mom, three days. Nora, one day.",
+   "scene": "Плашка Clue 1; кухня, на стене часы показывают полдень, полоски ниже, чем утром",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "стрелка часов до 12 и полоски проседают"
+  },
+  {
+   "id": "s065",
+   "start": 335.8,
+   "end": 341.3,
+   "line": "Whatever this is, it's draining everyone at the same speed, and the smallest first.",
+   "scene": "Диаграмма: четыре полоски убывают с одинаковой скоростью; самая маленькая (Nora, Biscuit) кончается раньше",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоски тают, стрелка «same speed»"
+  },
+  {
+   "id": "s066",
+   "start": 341.3,
+   "end": 347.1,
+   "line": "Clue two. Leon checks the obvious. He throws out the cereal, and nothing moves.",
+   "scene": "Плашка Clue 2; Leon ищет причину: выбрасывает коробку хлопьев в мусор, проверяет полоски: не двигаются",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоска «примёрзла»"
+  },
+  {
+   "id": "s067",
+   "start": 347.1,
+   "end": 355.1,
+   "line": "He switches to bottled water, and nothing moves. He even opens a window, and the bars creep up for a minute, then slide down again.",
+   "scene": "Бутылка воды вместо крана: полоски не двигаются; Leon открывает окно, полоски ползут вверх на минуту и снова вниз (на кадре минутные часы)",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "два фазы: вверх (350.5) и вниз (353.0)"
+  },
+  {
+   "id": "s068",
+   "start": 355.1,
+   "end": 363.3,
+   "line": "Remember rule two? Remove the real cause, and the bars should jump like a character grabbing a power-up. They don't.",
+   "scene": "Мини-повтор: плашка Rule 2 на секунду; потом полоска, которая «должна прыгнуть» как за бонусом в игре (звёздочка power-up), но остаётся плоской, Leon разводит руками",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на 356.5 звёздочка вылетает, на 361.5 полоска плоская"
+  },
+  {
+   "id": "s069",
+   "start": 363.3,
+   "end": 371.2,
+   "line": "Clue three. Dad grabs his keys to buy paint. Through the window, Leon watches his bar climb with every step.",
+   "scene": "Плашка Clue 3; папа берёт ключи у двери (краска); Leon смотрит в окно: за окном двор, папа идёт к машине",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "рамка окна, папа уходит в окне"
+  },
+  {
+   "id": "s070",
+   "start": 371.2,
+   "end": 378.8,
+   "line": "Four days. Two months. Ten years. Dad comes back inside, and it sinks again.",
+   "scene": "Папа идёт по двору: полоска растёт с каждым шагом, на подписи сменяются числа; папа возвращается, переступает порог и полоска снова падает",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "подпись растёт на шагах, на пороге резкое падение"
+  },
+  {
+   "id": "s071",
+   "start": 378.8,
+   "end": 382.8,
+   "line": "It's not the people. It's the house.",
+   "scene": "Дом снаружи, окна подсвечены розовым; Leon и надписи «НЕ ЛЮДИ», «ДОМ»; крупный наезд на дом",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "розовое свечение пульсирует из окон"
+  },
+  {
+   "id": "s072",
+   "start": 382.8,
+   "end": 389.6,
+   "line": "Clue four. What changed? Three weeks ago, a plumber put a new gas water heater in the basement.",
+   "scene": "Плашка Clue 4; подвал: новый газовый водонагреватель у стены; сцена ретроспективы: сантехник ставит его, на экране «3 weeks ago»",
+   "set": "BASEMENT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кадр ретроспективы с чуть выцветшими цветами"
+  },
+  {
+   "id": "s073",
+   "start": 389.6,
+   "end": 394.8,
+   "line": "Leon runs downstairs, two steps at a time. On the wall beside it hangs a carbon monoxide detector.",
+   "scene": "Leon сбегает по лестнице через две ступеньки; в подвале на стене у нагревателя висит детектор угарного газа, крышка открыта, внутри пусто",
+   "set": "BASEMENT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "скоростной спуск, наезд на детектор"
+  },
+  {
+   "id": "s074",
+   "start": 394.8,
+   "end": 399.1,
+   "line": "The cover is open. There's no battery inside. It's sitting on the shelf.",
+   "scene": "Крупно детектор с открытой крышкой, пустое гнездо; на полке рядом лежит батарейка; Leon показывает пальцем на неё",
+   "set": "BASEMENT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "камера переходит с детектора на полку"
+  },
+  {
+   "id": "s075",
+   "start": 399.1,
+   "end": 404.1,
+   "line": "\"It kept beeping at three in the morning,\" Dad says later. \"So I took it out.\"",
+   "scene": "Папа в проёме подвала виновато чешет затылок; Leon смотрит на него",
+   "set": "BASEMENT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "папа жестикулирует «пищал»"
+  },
+  {
+   "id": "s076",
+   "start": 404.1,
+   "end": 409.4,
+   "line": "Leon knows this one from health class. Carbon monoxide has no color and no smell.",
+   "scene": "Класс: на доске плакат про безопасность (слово GAS, значок капельки, без текста мелким), Leon за партой вспоминает; затем кадр «воздух»: пустой воздух с пунктирным контуром газа",
+   "set": "CLASSROOM",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "плакат и «воздух» пунктиром"
+  },
+  {
+   "id": "s077",
+   "start": 409.4,
+   "end": 415.4,
+   "line": "In your blood, it sticks to hemoglobin about two hundred to two hundred and fifty times harder than oxygen does.",
+   "scene": "Красная клетка крови с молекулами: кислород (O) слабо держится, угарный газ (CO) приклеился «магнитом»; крупно стрелка силы",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "магнит притягивает CO к гемоглобину, кислород отваливается"
+  },
+  {
+   "id": "s078",
+   "start": 415.4,
+   "end": 421.9,
+   "line": "The first signs are a headache, dizziness, an upset stomach. Exactly like a bug.",
+   "scene": "Три иконки: голова (головная боль), закружившаяся голова, живот; рядом значок «вирус-жучок»; знак равенства",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "иконки встают в ряд, затем «=» к жучку на 419.6"
+  },
+  {
+   "id": "s079",
+   "start": 421.9,
+   "end": 431.0,
+   "line": "In the U.S., the CDC counted about four hundred and thirty deaths a year from it, not counting fires, in its numbers for nineteen ninety-nine to twenty ten.",
+   "scene": "Крупно цифра на светлом фоне, рядом график-столбики по годам; пометка «без пожаров»",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "столбики растут, цифра появляется на «four hundred»"
+  },
+  {
+   "id": "s080",
+   "start": 431.0,
+   "end": 437.8,
+   "line": "But Leon has a problem. He can't say, \"I see bars.\" So he says the one thing a kid can say.",
+   "scene": "Leon у кухонной двери: облачко «I SEE BARS» перечёркнуто красным крестом; он выбирает другое облачко",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "облачко с крестом, замена на новое"
+  },
+  {
+   "id": "s081",
+   "start": 437.8,
+   "end": 443.1,
+   "line": "\"We learned about this in school. It's a gas. We have to go outside. Please.\"",
+   "scene": "Leon держит маму за рукав, говорит серьёзно; мама наклоняется к нему; в облачках по очереди его слова",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "слова выезжают фразами"
+  },
+  {
+   "id": "s082",
+   "start": 443.1,
+   "end": 450.0,
+   "line": "Mom looks at his face, at the pale little hands holding her sleeve, and for once, she doesn't argue.",
+   "scene": "Крупный план: бледная маленькая рука держит рукав мамы; лицо мамы смягчается и она кивает",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "наезд на руку, затем на лицо мамы"
+  },
+  {
+   "id": "s083",
+   "start": 450.0,
+   "end": 454.3,
+   "line": "She grabs Nora. Dad grabs Biscuit. Leon grabs the door.",
+   "scene": "Быстрый ритм: мама хватает Nora, папа берёт Biscuit на руки, Leon распахивает входную дверь; свет из двери",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "три действия на 450.0, 451.2, 452.8"
+  },
+  {
+   "id": "s084",
+   "start": 454.3,
+   "end": 461.0,
+   "line": "Everybody goes out in their coats. Nora thinks it's a game. \"Leon, who's winning?\" \"Biscuit.\"",
+   "scene": "Двор: вся семья в пальто на лужайке; Nora радостно: «Leon, who is winning?» Leon показывает на Biscuit",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "пальто на плечах, Nora подпрыгивает"
+  },
+  {
+   "id": "s085",
+   "start": 461.0,
+   "end": 464.9,
+   "line": "Mom calls emergency services, and the firefighters arrive in minutes.",
+   "scene": "Мама с телефоном; пожарная машина с мигалкой подъезжает к дому; спасатели выбегают",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "мигалка, машина въезжает слева на «in minutes»"
+  },
+  {
+   "id": "s086",
+   "start": 464.9,
+   "end": 467.9,
+   "line": "The meter in the basement beeps all the way up.",
+   "scene": "Подвал: спасатель с газоанализатором, стрелка прибора идёт до упора вправо; над прибором красные лампочки",
+   "set": "BASEMENT",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "стрелка прибора резко вверх, писк"
+  },
+  {
+   "id": "s087",
+   "start": 467.9,
+   "end": 473.7,
+   "line": "The firefighter turns to Leon. \"Good call. A few more hours, and this would have gone very differently.\"",
+   "scene": "Спасатель поворачивается к Leon и серьёзно говорит; Leon слушает, маленький рядом с огромным",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "два плана: спасатель и Leon"
+  },
+  {
+   "id": "s088",
+   "start": 473.7,
+   "end": 481.6,
+   "line": "He looks at Leon for a long second. \"Who told you?\" \"Health class.\" \"Remind me to thank your teacher.\"",
+   "scene": "Спасатель долго смотрит на Leon; диалог: «Who told you?» «Health class.» «Remind me to thank your teacher»; в конце подмигивает",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "паузa на «long second», подмигивание на 481.0"
+  },
+  {
+   "id": "s089",
+   "start": 481.6,
+   "end": 485.6,
+   "line": "And the bars jump back like a health bar picking up a medkit.",
+   "scene": "Четыре полоски над семьёй подпрыгивают вверх как после аптечки (иконка medkit вспыхивает), цвет из розового в голубой",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "прыжок на 481.6, звук power-up"
+  },
+  {
+   "id": "s090",
+   "start": 485.6,
+   "end": 494.1,
+   "line": "Mom, fifty years. Dad, forty-eight. Nora, eighty-one. Biscuit, fourteen.",
+   "scene": "Семья в ряд, над каждым полная голубая полоска; камера скользит слева направо, подписи появляются по очереди",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "подписи на словах"
+  },
+  {
+   "id": "s091",
+   "start": 494.1,
+   "end": 500.6,
+   "line": "A doctor checks everyone with a quick test. A little oxygen, a lot of juice boxes, and everybody is fine.",
+   "scene": "Врач на лужайке проверяет всех фонариком; Nora в маске с кислородом; рядом стопка коробок сока; все улыбаются",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кислородная маска, соломинки в соке"
+  },
+  {
+   "id": "s092",
+   "start": 500.6,
+   "end": 508.6,
+   "line": "Biscuit gets a long checkup and a very large bone. Dad puts a fresh battery in every detector in the house. Twice.",
+   "scene": "Biscuit у ветеринара-врача, слушают сердце, затем получает огромную кость; следом папа на лестнице вставляет батарейку в детектор, ещё раз",
+   "set": "FRONTYARD",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кость выпрыгивает; «twice» повтор действия папы"
+  },
+  {
+   "id": "s093",
+   "start": 508.6,
+   "end": 514.6,
+   "line": "Mom hugs Leon for way too long. \"How did you know?\" \"Lucky guess.\"",
+   "scene": "Мама крепко обнимает Leon, очень долго; он слегка смущённо смотрит в камеру",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "обнимашки, сердечко"
+  },
+  {
+   "id": "s094",
+   "start": 514.6,
+   "end": 518.1,
+   "line": "She doesn't believe him, but she doesn't ask again.",
+   "scene": "Мама щурится, не верит, но улыбается и отпускает; Leon выдыхает",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "чуть наклон головы мамы"
+  },
+  {
+   "id": "s095",
+   "start": 518.1,
+   "end": 525.4,
+   "line": "That night, Leon sits at the dinner table and watches his family eat, argue about the salt, and laugh at nothing.",
+   "scene": "Вечер, обеденный стол: семья ест, мама и папа спорят про соль (тянут солонку), Nora смеётся ни о чём, Biscuit под столом; Leon молча наблюдает",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "кадры глаз Leon; солонка ездит туда-сюда"
+  },
+  {
+   "id": "s096",
+   "start": 525.4,
+   "end": 528.7,
+   "line": "Nobody notices he's staring. Four blue bars.",
+   "scene": "Leon подпёр щёку рукой и смотрит, семья его не замечает; затем над семьёй вспыхивают четыре полные голубые полоски",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "тёплый свет лампы, полоски зажигаются на «four blue bars»"
+  },
+  {
+   "id": "s097",
+   "start": 528.7,
+   "end": 536.2,
+   "line": "Everyone in this house has more time than they had this morning, and only one person on Earth knows why. That's not a curse.",
+   "scene": "Leon тихо улыбается; семья чокается стаканами за столом; камера медленно уходит назад",
+   "set": "KITCHEN",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "тёплое затухание света"
+  },
+  {
+   "id": "s098",
+   "start": 536.2,
+   "end": 538.9,
+   "line": "That's a superpower.",
+   "scene": "Leon в профиль на фоне рассвета, плащ-накидка, поза героя; лучи света",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "на «superpower» плащ развевается"
+  },
+  {
+   "id": "s099",
+   "start": 538.9,
+   "end": 543.4,
+   "line": "Monday morning. A substitute teacher walks into class, a tall man in a green scarf.",
+   "scene": "Класс в понедельник; дверь открывается, входит высокий мужчина в зелёном шарфе; ребята за партами, Leon в первом ряду",
+   "set": "CLASSROOM",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "вход замещающего, шаги"
+  },
+  {
+   "id": "s100",
+   "start": 543.4,
+   "end": 548.6,
+   "line": "Above his head, a pink bar. Four hours. He's smiling. He's holding a piece of chalk.",
+   "scene": "Крупно: над головой замещающего розовая полоска, почти пустая; в руках мел; он улыбается",
+   "set": "CLASSROOM",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "подпись на «four hours», мел крутится в пальцах"
+  },
+  {
+   "id": "s101",
+   "start": 548.6,
+   "end": 551.6,
+   "line": "And he's looking straight at Leon.",
+   "scene": "Leon широко раскрытыми глазами, замещающий в кадре смотрит прямо на него; быстрый наезд на глаза Leon",
+   "set": "CLASSROOM",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "резкий наезд, пауза"
+  },
+  {
+   "id": "s102",
+   "start": 551.6,
+   "end": 556.5,
+   "line": "So tell us in the comments. Would you want to see the bars, or would you rather not know?",
+   "scene": "Leon смотрит на зрителя, вокруг два облачка-выбора: «SEE THE BARS» и «NOT KNOW»",
+   "set": "void",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "два облачка по очереди"
+  },
+  {
+   "id": "s103",
+   "start": 556.5,
+   "end": 563.24,
+   "line": "And if you want part two, subscribe, because that substitute isn't going anywhere. Well. For four hours.",
+   "scene": "Замещающий у доски с мелом, над ним розовая полоска; рядом значок «Subscribe» и слова «PART 2»; в конце полоска тикает вниз",
+   "set": "CLASSROOM",
+   "bars": "hud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "полоска доходит до «0» к 563"
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 35.2,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 35.2,
+   "end": 39.4,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 39.4,
+   "end": 193.3,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 193.3,
+   "end": 285.7,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 285.7,
+   "end": 481.6,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 481.6,
+   "end": 539,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 539,
+   "end": 563.24,
+   "mood": "mystery",
+   "intensity": 0.4
+  }
+ ]
+}
