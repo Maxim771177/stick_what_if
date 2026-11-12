@@ -17,33 +17,35 @@ export const ui = () => S().ui;
 // ---------- наряды (doodle). Leon: одна кукла Razgon на весь канал, ONE_LEON ниже не отключать ----------
 export const OUT = {
   LEON: { arcBrows: true, top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
-  PARK: { top: 'suit', color: '#6b4e9b', hair: 'bun', face: 'glasses' },
-  OMAR: { top: 'hoodie', color: '#e4872b', hair: 'spiky', hairColor: '#2b2420', kid: true },
+  PARK: { top: 'suit', color: '#6b4e9b', hair: 'bun', face: 'glasses', legs: '#4a3a6b' },
+  OMAR: { top: 'hoodie', color: '#e4872b', legs: '#3a4a6b', hair: 'spiky', hairColor: '#2b2420', kid: true },
   MOM: { top: 'dress', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e' },
-  DAD: { top: 'tshirt', color: '#5a7fb0', hair: 'short', hairColor: '#3a2a1e', shorts: '#6b5a48' },
-  NORA: { top: 'tshirt', color: '#f2c21a', hair: 'ponytail', hairColor: '#8a5a2e', kid: true },
-  ROCCO: { top: 'hoodie', color: '#5a3e8a', hair: 'short', hairColor: '#2b2420', kid: true },
+  DAD: { top: 'tshirt', color: '#5a7fb0', hair: 'short', hairColor: '#3a2a1e', legs: '#4a5a78' },
+  NORA: { top: 'tshirt', color: '#f2c21a', hair: 'short', hairColor: '#8a5a2e', kid: true, legs: '#7a5a9b' },
+  ROCCO: { top: 'hoodie', color: '#5a3e8a', hair: 'short', hairColor: '#2b2420', kid: true, legs: '#3a3a48' },
   LADY: { top: 'dress', color: '#f2f2f2', hair: 'bun' },
   LADY2: { top: 'dress', color: '#f2f2f2', hair: 'ponytail', hairColor: '#2b2420' },
   LADY3: { top: 'dress', color: '#f2f2f2', hair: 'short', hairColor: '#8a5a2e' },
   CLOWN: { top: 'tshirt', color: '#e4572e', hair: 'spiky', hairColor: '#ff7a3d' },
   FIRE: { top: 'jersey', color: '#d8232a', hat: 'hardhat', hatColor: '#f2c21a' },
   DOC: { top: 'labcoat', face: 'glasses', hair: 'none' },
-  PLUMBER: { top: 'hoodie', color: '#3d7ea6', hat: 'cap', hatColor: '#f2c21a' },
-  SUB: { top: 'suit', color: '#4b5a3c', hair: 'short', hairColor: '#2b2420' },
-  GUY: { top: 'tshirt', color: '#7da55a', hair: 'short', hairColor: '#2b2420' },
-  STRANGER: { top: 'hoodie', color: '#2b2b33', hat: 'cap', hatColor: '#2b2b33' },
-  NEIGHBOR: { top: 'tshirt', color: '#d6872b', hair: 'short', hairColor: '#6b3a1e' },
+  PLUMBER: { top: 'hoodie', color: '#3d7ea6', hat: 'cap', hatColor: '#f2c21a', legs: '#3a4a6b' },
+  SUB: { top: 'suit', color: '#4b5a3c', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
+  GUY: { top: 'tshirt', color: '#7da55a', hair: 'short', hairColor: '#2b2420', legs: '#4a5a78' },
+  STRANGER: { top: 'hoodie', color: '#2b2b33', hat: 'cap', hatColor: '#2b2b33', legs: '#5a5f78' },
+  NEIGHBOR: { top: 'tshirt', color: '#d6872b', hair: 'short', hairColor: '#6b3a1e', legs: '#4a5a78' },
   SCI: { top: 'labcoat', face: 'glasses', hair: 'bun' },
   KID: { top: 'hoodie', color: '#3fb950', hair: 'short', kid: true },
-  KID2: { top: 'tshirt', color: '#3a6ea5', hair: 'spiky', hairColor: '#2b2420', kid: true },
+  KID2: { top: 'tshirt', color: '#3a6ea5', hair: 'curly', hairColor: '#2b2420', kid: true },
   KID3: { top: 'tshirt', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e', kid: true },
-  KID4: { top: 'hoodie', color: '#c9c3b4', hair: 'short', hairColor: '#8a5a2e', kid: true },
+  KID4: { top: 'hoodie', color: '#c9c3b4', hair: 'messy', hairColor: '#8a5a2e', kid: true },
   KID5: { top: 'tshirt', color: '#8a6ab0', hair: 'short', hairColor: '#2b2420', kid: true },
-  KID6: { top: 'tshirt', color: '#f2a03a', hair: 'bun', hairColor: '#2b2420', kid: true },
+  KID6: { top: 'tshirt', color: '#f2a03a', hair: 'long', hairColor: '#2b2420', kid: true },
 };
 Object.values(OUT).forEach((o) => { o.whiteHands = true; });
-OUT.FIRE = { top: 'jersey', color: '#d8232a', helmet: '#f2c21a', whiteHands: true };
+OUT.FIRE = { top: 'jersey', color: '#d8232a', helmet: '#f2c21a', whiteHands: true, legs: '#2b3a55' };
+Object.assign(OUT.DOC, { legs: '#4a5a78' }); Object.assign(OUT.SCI, { legs: '#4a5a78' }); Object.assign(OUT.CLOWN, { legs: '#e4572e' });
+for (const k of ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6']) OUT[k].legs = OUT[k].legs || '#3a4a6b';
 const KIDS = ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6', 'OMAR'];
 const SM = { LEON: 0.86, NORA: 0.78, OMAR: 1.12, ROCCO: 1.42, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
 
@@ -116,7 +118,7 @@ export function bar(g, x, y, frac, o = {}) {
   inkRect(g, -w / 2 - 6, -h / 2 - 6, w + 12, h + 12, { fill: '#1b2230', r: (h + 12) / 2, w: 5 });
   const fw = Math.max(h * 0.9, w * f);
   g.save(); g.beginPath(); g.roundRect(-w / 2, -h / 2, w, h, h / 2); g.clip(); g.fillStyle = '#39445a'; g.fillRect(-w / 2, -h / 2, w, h); g.fillStyle = barColor(f); g.fillRect(-w / 2, -h / 2, fw, h); g.fillStyle = 'rgba(255,255,255,.28)'; g.fillRect(-w / 2, -h / 2, fw, h * 0.34); g.restore();
-  if (o.label && st === 'in') { const sz = h * 0.72; text(g, o.label, 0, sz * 0.34, { size: sz, color: '#ffffff', weight: 900, font: FONTS.ui, stroke: sz * 0.26, strokeColor: '#000' }); }
+  if (o.label && st === 'in') { const sz = h * 0.72; text(g, o.label, 0, sz * 0.03, { size: sz, color: '#ffffff', weight: 900, font: FONTS.ui, stroke: sz * 0.26, strokeColor: '#000' }); }
   else if (o.label && st === 'pill') { const sz = h * 1.5, pw = measure(g, o.label, sz) + sz * 0.9; inkRect(g, -pw / 2, -h / 2 - sz * 1.75, pw, sz * 1.45, { fill: '#1b2230', r: sz * 0.7, w: 4 }); text(g, o.label, 0, -h / 2 - sz * 0.72, { size: sz, color: '#fff', weight: 900, font: FONTS.title }); }
   else if (o.label && st === 'end') { const sz = h * 1.6; text(g, o.label, w / 2 + 24, sz * 0.32, { size: sz, color: '#fff', weight: 900, font: FONTS.title, align: 'left', stroke: sz * 0.2, strokeColor: '#000' }); }
   else if (o.label) {
@@ -128,6 +130,11 @@ export function bar(g, x, y, frac, o = {}) {
   }
   g.restore();
 }
+
+// ---------- подпись полоски: цифра с единицей всегда (по доле и персонажу) ----------
+const YRS = { PARK: 61, OMAR: 66, ROCCO: 63, GUY: 58, MOM: 50, DAD: 48, NORA: 81, NEIGHBOR: 44, FIRE: 55, DOC: 52, CLOWN: 47, LADY: 52, LADY2: 40, LADY3: 38, PLUMBER: 41, SUB: 36, KID: 62, KID2: 70, KID3: 74, KID4: 59, KID5: 66, KID6: 71, STRANGER: 57, SCI: 49 };
+const LOW = { MOM: '9 MONTHS', DAD: '11 MONTHS', NORA: '4 MONTHS', SUB: '4 HOURS' };
+export function autoLabel(id, v) { if (id === 'SUB') return v > 0.02 ? '4 HOURS' : '0 SEC'; if (v >= 0.3) return (YRS[id] ?? Math.round(v * 90)) + ' YEARS'; if (LOW[id]) return LOW[id]; return v >= 0.12 ? '8 MONTHS' : '9 DAYS'; }
 
 // ---------- места ----------
 const rect = (g, x, y, w, h, fill, o = {}) => inkRect(g, x, y, w, h, { fill, r: 4, ...o });
@@ -162,13 +169,15 @@ export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
 // ---------- толпа ребят: n фигурок, ряды по глубине, у каждого (по желанию) полоска ----------
 const rnd = (seed) => { let a = seed * 9301 + 49297; return () => { a = (a * 9301 + 49297) % 233280; return a / 233280; }; };
-export const kidsPos = (n, seed, x0 = 0.05, x1 = 0.95, y0 = 0.78, y1 = 0.9) => { const r = rnd(seed); return Array.from({ length: n }, () => ({ x: lerp(x0, x1, r()), y: lerp(y0, y1, r()), id: KIDS[Math.floor(r() * KIDS.length)], f: r() < 0.5 ? -1 : 1, fr: r() < 0.22 ? 0.12 + r() * 0.2 : 0.55 + r() * 0.45 })); };
+const HAIRS = [['short', '#2b2420'], ['messy', '#8a5a2e'], ['curly', '#2b2420'], ['long', '#c8923a'], ['ponytail', '#6b3a1e'], ['bun', '#2b2420'], ['short', '#c8923a'], ['curly', '#6b3a1e'], ['messy', '#2b2420'], ['long', '#6b3a1e']];
+const KCOL = ['#3fb950', '#3a6ea5', '#f29ac0', '#8a6ab0', '#f2a03a', '#c0504d', '#17a2b8', '#e4872b', '#5a7fb0', '#9aa84a'];
+export const kidsPos = (n, seed, x0 = 0.05, x1 = 0.95, y0 = 0.78, y1 = 0.9) => { const r = rnd(seed); return Array.from({ length: n }, () => ({ x: lerp(x0, x1, r()), y: lerp(y0, y1, r()), id: KIDS[Math.floor(r() * KIDS.length)], f: r() < 0.5 ? -1 : 1, fr: r() < 0.22 ? 0.12 + r() * 0.2 : 0.55 + r() * 0.45, h: HAIRS[Math.floor(r() * HAIRS.length)], c: KCOL[Math.floor(r() * KCOL.length)] })); };
 function drawKids(g, t, spec, GY) {
   const k = spec.kids; const list = k.list || kidsPos(k.n ?? 12, k.seed ?? 3, k.x0, k.x1, k.y0, k.y1); const sc = k.s ?? 1.0;
   [...list].sort((a, b) => a.y - b.y).forEach((p, i) => {
     const y = p.y * E.H, depth = 0.7 + 0.5 * (y / E.H), s = (k.s ?? 1.1) * depth * 1.35; const wob = Math.sin(t * 2 + i) * 0.5;
     const a = k.in ? ease.out(prog(t, k.in + i * (k.stagger ?? 0.03), k.in + i * (k.stagger ?? 0.03) + 0.4)) : 1; if (a <= 0) return;
-    const o = { x: p.x * E.W + (k.drift ? Math.sin(t * k.drift + i) * 20 : 0) + (k.march ? (t * k.march * (p.f)) : 0), y, s, facing: p.f, outfit: OUT[p.id], expr: k.expr || 'neutral', blink: blinkAt(t, i * 3), pose: breathe(POSES[k.pose || 'stand'], t, 1, i + 1), alpha: a };
+    const o = { x: p.x * E.W + (k.drift ? Math.sin(t * k.drift + i) * 20 : 0) + (k.march ? (t * k.march * (p.f)) : 0), y, s, facing: p.f, outfit: { ...OUT[p.id], ...(p.id === 'OMAR' ? {} : { hair: p.h[0], hairColor: p.h[1], color: p.c }) }, expr: k.expr || 'neutral', blink: blinkAt(t, i * 3), pose: breathe(POSES[k.pose || 'stand'], t, 1, i + 1), alpha: a };
     g.save(); g.translate(o.x, y); g.scale(1, 1); g.translate(-o.x, -y); drawCharacter(g, o); g.restore();
     if (k.bars) { const bw = (k.bw ?? 120) * depth, bt = k.barAt != null ? k.barAt + (k.wave ? (p.x * k.wave) : i * 0.04) : 0; const hy = characterHead(o)[1]; bar(g, o.x, hy - 70 * s, k.fr != null ? k.fr : p.fr, { w: bw, t: t, start: bt, label: k.lbl ? k.lbl(p, i) : null }); }
   });
@@ -220,7 +229,8 @@ export function def(id, spec) {
         let label = typeof b.lbl === 'string' ? b.lbl : typeof b.label === 'string' ? b.label : null, la = b.on ?? 0, prev = null;
         for (const r of mine) if (t >= r.t) { prev = label; label = r.s; la = r.t; }
         if (typeof b.label === 'function') { const q = b.label(t); if (q) label = q.s, la = q.at ?? la, prev = q.prev ?? prev; }
-        bar(g, px, py, kf(b.f ?? 1, t, 1), { w: b.w ?? 250, t, start: b.on ?? 0, label, labelAt: la, prevLabel: prev, glow: b.glow ? tl(b.glow, t) : false, style: b.style, s: b.s, labelBig: b.big, size: b.size });
+        const fv = kf(b.f ?? 1, t, 1); if (!label && !b.nolabel) label = typeof b.n === 'function' ? b.n(t, fv) : b.n ?? (h ? autoLabel(h.id, fv) : null);
+        bar(g, px, py, fv, { w: Math.max(b.w ?? 250, 230), t, start: b.on ?? 0, label, labelAt: la, prevLabel: prev, glow: b.glow ? tl(b.glow, t) : false, style: b.style || 'in', s: b.s, labelBig: b.big, size: b.size });
       });
       if (spec.fx) spec.fx(g, t, info, ctx);
     });
