@@ -9,30 +9,18 @@ export const lab = (g, str, x, y, size = 46, color) => text(g, str, x, y, { size
 export const big = (g, str, x, y, size = 150, color) => text(g, str, x, y, { size, font: FONTS.title, weight: 400, color: color || INK() });
 
 // ---------- животные (x,y = точка земли под животным) ----------
-// Biscuit: рыжая собака. pose: 'sit' | 'stand' | 'lie' | 'tilt' | 'beg'; wag — частота хвоста; f = направление (1 вправо)
+// Biscuit и кот: картинки OpenAI (assets/animals). x,y = точка земли под животным; f = направление (1 вправо); h = высота ≈ base*s.
+import { loadImages, project } from '/engine/assets.js';
+const AN = await loadImages(Object.fromEntries(['dog_sit', 'dog_lie', 'dog_stand', 'dog_tilt', 'dog_wag', 'dog_tired', 'dog_beg', 'dog_sniff', 'cat_sit', 'cat_squint', 'cat_stand', 'cat_curl', 'cat_ledge', 'cat_stretch', 'cat_walk', 'cat_jealous'].map((n) => [n, project(`assets/animals/${n}.png`)])));
+function sprite(g, key, x, y, h, f = 1, o = {}) { const im = AN[key]; if (!im) return; const k = h / im.height; g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); g.scale(f * k, k); g.drawImage(im, -im.width / 2, -im.height); g.restore(); }
+const DOGH = { dog_sit: 150, dog_lie: 85, dog_stand: 140, dog_tilt: 155, dog_wag: 140, dog_tired: 85, dog_beg: 190, dog_sniff: 120 };
 export function dog(g, x, y, s = 1, o = {}) {
-  const t = o.t ?? 0, f = o.f ?? 1, pose = o.pose || 'sit', col = o.fill || '#d99a55', dark = shade(col, -0.2), wag = o.wag ?? 9;
-  g.save(); g.translate(x, y); g.scale(f * s, s);
-  const lie = pose === 'lie', sit = pose === 'sit' || pose === 'tilt' || pose === 'beg', by = lie ? -34 : sit ? -66 : -90;
-  const tw = Math.sin(t * wag) * (lie ? 0.15 : 0.5);
-  g.save(); g.translate(lie ? -96 : -78, by + 6); g.rotate(-0.9 + tw); inkShape(g, [[0, -10], [-62, -4], [-62, 12], [0, 10]], { fill: col, smooth: true, w: 5 }); g.restore();   // хвост
-  if (lie) { inkEllipse(g, 0, -40, 98, 38, { fill: col, w: 5 }); inkEllipse(g, 56, -14, 46, 14, { fill: col, w: 4 }); inkEllipse(g, -30, -12, 40, 14, { fill: col, w: 4 }); }
-  else if (sit) { inkEllipse(g, -10, -58, 62, 56, { fill: col, w: 5 }); inkEllipse(g, -44, -8, 40, 18, { fill: dark, w: 4 }); inkRect(g, 28, -78, 28, 76, { fill: col, r: 12, w: 5 }); inkEllipse(g, 44, -6, 34, 14, { fill: dark, w: 4 }); }
-  else { inkEllipse(g, 0, -92, 98, 42, { fill: col, w: 5 }); [-62, -36, 40, 66].forEach((lx, i) => { inkRect(g, lx - 12, -80, 24, 78, { fill: i % 2 ? dark : col, r: 10, w: 4 }); }); }
-  const hx = lie ? 112 : sit ? 56 : 112, hy = lie ? -52 : sit ? -132 : -134, tilt = pose === 'tilt' ? 0.4 : 0;
-  g.save(); g.translate(hx, hy); g.rotate(tilt);
-  inkCircle(g, 0, 0, 44, { fill: col, w: 5 }); inkEllipse(g, 34, 14, 30, 22, { fill: shade(col, 0.2), w: 4 }); inkCircle(g, 56, 8, 8, { fill: INK(), stroke: false });
-  inkShape(g, [[-24, -30], [-52, -14 + (pose === 'beg' ? 0 : 14)], [-40, 20], [-18, 2]], { fill: dark, smooth: true, w: 4 });
-  const bl = ((t + 1.3) % 3.4) > 3.25; inkCircle(g, 12, -8, 6, { fill: INK(), stroke: false }); if (bl) inkLine(g, [[4, -8], [20, -8]], { w: 4 });
-  g.restore(); g.restore();
+  const t = o.t ?? 0, f = o.f ?? 1, pose = o.pose || 'sit', wag = o.wag ?? 9;
+  const key = pose === 'lie' ? (wag < 3 ? 'dog_tired' : 'dog_lie') : pose === 'tilt' ? 'dog_tilt' : pose === 'beg' ? 'dog_beg' : pose === 'sniff' ? 'dog_sniff' : pose === 'stand' ? (wag > 6 && Math.sin(t * wag) > 0 ? 'dog_wag' : 'dog_stand') : 'dog_sit';
+  const bob = (wag > 6 && pose !== 'lie') ? Math.sin(t * wag) * 0.012 : 0;
+  sprite(g, key, x, y, (DOGH[key] || 140) * s * 1.25, f, { rot: bob });
 }
-export function cat(g, x, y, s = 1, o = {}) {
-  const t = o.t ?? 0, f = o.f ?? 1, col = o.fill || '#8a8a96'; g.save(); g.translate(x, y); g.scale(f * s, s);
-  const tw = Math.sin(t * 2.4) * 0.3; g.save(); g.translate(-60, -50); g.rotate(-1.1 + tw); inkShape(g, [[0, -8], [-70, -4], [-72, 10], [0, 8]], { fill: col, smooth: true, w: 5 }); g.restore();
-  inkEllipse(g, -6, -52, 62, 50, { fill: col, w: 5 }); inkEllipse(g, 20, -6, 34, 12, { fill: shade(col, -0.15), w: 4 });
-  g.save(); g.translate(40, -108); inkCircle(g, 0, 0, 38, { fill: col, w: 5 }); inkShape(g, [[-34, -14], [-30, -58], [-6, -32]], { fill: col, w: 4 }); inkShape(g, [[34, -14], [30, -58], [6, -32]], { fill: col, w: 4 });
-  const sq = o.squint; inkLine(g, [[-20, -4], [-6, sq ? -2 : -6]], { w: 5 }); inkLine(g, [[6, sq ? -2 : -6], [20, -4]], { w: 5 }); inkCircle(g, 0, 10, 5, { fill: '#f29ac0', w: 3 }); g.restore(); g.restore();
-}
+export function cat(g, x, y, s = 1, o = {}) { const key = o.jealous ? 'cat_jealous' : o.squint ? 'cat_squint' : o.pose === 'stand' ? 'cat_stand' : 'cat_sit'; sprite(g, key, x, y, 175 * s * 1.15, o.f ?? 1, {}); }
 export function bird(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y); g.scale(s, s); inkEllipse(g, 0, -30, 40, 30, { fill: '#4aa3df', w: 4 }); inkCircle(g, 30, -56, 20, { fill: '#4aa3df', w: 4 }); inkShape(g, [[48, -58], [72, -52], [48, -48]], { fill: '#f6b93b', w: 3 }); inkCircle(g, 36, -60, 4, { fill: INK(), stroke: false }); inkLine(g, [[-30, -34], [-70, -50 + Math.sin(t * 6) * 8]], { w: 6 }); inkLine(g, [[-6, 0], [-6, 22]], { w: 4 }); inkLine(g, [[10, 0], [10, 22]], { w: 4 }); g.restore(); }
 export function squirrel(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y); g.scale(s, s); inkShape(g, [[-30, -20], [-80, -40], [-90, -110], [-50, -150], [-26, -100], [-20, -50]], { fill: '#c98b4a', smooth: true, w: 5 }); inkEllipse(g, 0, -42, 38, 46, { fill: '#c98b4a', w: 5 }); inkCircle(g, 20, -100, 24, { fill: '#c98b4a', w: 5 }); inkShape(g, [[8, -118], [4, -140], [22, -122]], { fill: '#c98b4a', w: 3 }); inkCircle(g, 28, -104, 4, { fill: INK(), stroke: false }); inkCircle(g, 44, -96, 5, { fill: INK(), stroke: false }); inkEllipse(g, 14, -60 + Math.sin(t * 5) * 3, 10, 14, { fill: '#8a5a2e', w: 3 }); g.restore(); }
 export function fish(g, x, y, s = 1, o = {}) { const t = o.t ?? 0; g.save(); g.translate(x, y + Math.sin(t * 2) * 6); g.scale(s, s); inkEllipse(g, 0, 0, 60, 36, { fill: '#f08a24', w: 5 }); inkShape(g, [[-52, 0], [-96, -30 + Math.sin(t * 7) * 6], [-96, 30 - Math.sin(t * 7) * 6]], { fill: '#f08a24', w: 5 }); inkCircle(g, 32, -8, 6, { fill: INK(), stroke: false }); g.restore(); }
