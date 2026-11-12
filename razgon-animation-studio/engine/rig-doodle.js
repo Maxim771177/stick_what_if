@@ -171,9 +171,10 @@ export function drawDoodle(g, o) {
   hairBack(g, of, H.c, H.r);
   leg(g, of, p.hip, p.kB, p.fB, true);
   arm(g, of, p.sh, p.eB, p.hB, true);
-  // body
+  // body (у платья передняя нога рисуется ДО тела, чтобы подол закрывал ногу)
+  if (of.top === 'dress') leg(g, of, p.hip, p.kF, p.fF, false);
   drawTorso(g, of, p);
-  leg(g, of, p.hip, p.kF, p.fF, false);
+  if (of.top !== 'dress') leg(g, of, p.hip, p.kF, p.fF, false);
   // head
   inkCircle(g, H.c[0], H.c[1], H.r, { fill: skin, w: LINE().width * 1.1, seed: 33 });
   beard(g, of, H.c, H.r);
