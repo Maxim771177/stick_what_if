@@ -5,7 +5,7 @@ const FR = { park: 0.68, omar: 0.73, rocco: 0.7, guy: 0.64, mom: 0.55, dad: 0.53
 const L = (o) => ({ w: 'LEON', ...o });
 const HAHA = (g, t, pts) => pts.forEach(([x, y, s0], i) => { const k = X.pop(t, s0 + i * 0.25); if (k > 0) { g.save(); g.translate(x, y + Math.sin(t * 6 + i) * 5); g.rotate(-0.1 + i * 0.07); g.scale(k, k); text(g, 'HA-HA', 0, 0, { size: 64, font: FONTS.title, weight: 400, color: ui().accent, stroke: 9, strokeColor: '#fff' }); g.restore(); } });
 
-def('s001', { set: 'hall', cam: 'push', kids: { n: 14, seed: 5, y0: 0.74, y1: 0.92, in: 0.2, stagger: 0.12, bars: true, barAt: 3.7, wave: 3.4, bw: 170, s: 1.15, drift: 1.2 } });
+def('s001', { set: 'hall', cam: 'push', kids: { n: 14, seed: 5, y0: 0.74, y1: 0.92, in: 0.2, stagger: 0.12, bars: true, barAt: 0.3, wave: 1.2, bw: 170, s: 1.15, drift: 1.2 } });
 def('s002', { set: 'void', cam: 'still', tyList: [0.1, 0.2], chars: [{ w: 'KID', x: 0.28, s: 1.8, pose: 'stand', expr: 'smile' }, { w: 'KID2', x: 0.72, s: 1.8, pose: 'stand', expr: 'worried' }], bars: [{ c: 0, f: [[0, 0.2], [1.2, 1]], on: 0.2, w: 330 }, { c: 1, f: [[0, 0.55], [1.5, 0.55], [2.1, 0.12]], on: 0.2, w: 330 }], fx: (g) => inkLine(g, [[W() / 2, 300], [W() / 2, 980]], { w: 5, stroke: alpha('#000', 0.2) }) });
 def('s003', { set: 'hall', cam: 'right', chars: [L({ walk: [-0.1, 1.05, 0, 5.3], s: 1.6, pose: 'relaxed', expr: 'smirk' })], kids: { n: 11, seed: 9, y0: 0.76, y1: 0.92, bars: true, barAt: 0, bw: 170, s: 1.15, drift: 1.5 } });
 def('s004', { set: 'hall', cam: 'push', chars: [{ w: 'PARK', x: 0.7, f: -1, s: 1.7, pose: 'stand', expr: 'neutral', in: 0.4 }, L({ x: 0.3, s: 1.6, pose: 'stand', expr: 'surprised' })], bars: [{ c: 0, f: FR.park, on: 0.3, w: 330, lbl: true, big: true }] });
