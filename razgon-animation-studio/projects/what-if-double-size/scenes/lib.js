@@ -14,6 +14,8 @@ const TEXTS = await loadJSON(project('story/texts.json'));
 const STORY = await loadJSON(project('story/shots.json'));
 export const C = { wood: '#c98b4a', woodD: '#9a6a3a', board: '#3f6b57', paper: '#fffdf6', glass: '#cfe6f5', red: '#d8232a', gold: '#f6b93b', blue: '#3d7ea6', grey: '#b8b3a8', night: '#2e3a5c', green: '#7da55a', cream: '#f3e8d6', asphalt: '#8c8c93', orange: '#f28a1e' };
 export const ui = () => S().ui;
+// маленькие люди для масштаба рядом с гигантом: TINY(x, i, s, о) — ребёнок, смотрит вверх, в шоке
+export const TINY = (x, i = 0, s = 0.5, o = {}) => ({ w: ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6'][i % 6], x, s, pose: 'stand', expr: 'shocked', look: [0.3, -2.2], noin: true, ...o });
 export const texts = (info, k) => TEXTS.filter((r) => (!k || r.k === k) && r.t >= info.shot.start - 0.02 && r.t < info.shot.end - 0.05).map((r) => ({ ...r, lt: r.t - info.shot.start }));
 
 // ---------- наряды (doodle). Leon: одна кукла Razgon на весь канал, ONE_LEON ниже не отключать ----------
@@ -21,11 +23,11 @@ export const OUT = {
   LEON: { arcBrows: true, top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
   NORA: { top: 'tshirt', color: '#f2c21a', hair: 'short', hairColor: '#8a5a2e', kid: true, legs: '#7a5a9b' },
   MOM: { top: 'dress', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e' },
-  DRIVER: { top: 'suit', color: '#2f5d8a', hat: 'cap', hatColor: '#2f5d8a', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
+  DRIVER: { top: 'suit', color: '#2f5d8a', hat: 'capBack', hatColor: '#2f5d8a', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
   BULLY: { top: 'hoodie', color: '#8a3a3a', hair: 'messy', hairColor: '#2b2420', legs: '#3a3a48', kid: true },
-  GUARD: { top: 'jersey', color: '#f2a03a', hat: 'cap', hatColor: '#f2a03a', hair: 'ponytail', hairColor: '#6b3a1e', legs: '#3a4a6b' },
-  MAN: { top: 'tshirt', color: '#5a7fb0', hat: 'cap', hatColor: '#d8232a', hair: 'short', hairColor: '#3a2a1e', legs: '#4a5a78' },
-  PILOT: { top: 'suit', color: '#2b3a55', hat: 'cap', hatColor: '#2b3a55', hair: 'short', hairColor: '#2b2420', legs: '#2b3a55' },
+  GUARD: { top: 'jersey', color: '#f2a03a', hat: 'capBack', hatColor: '#f2a03a', hair: 'ponytail', hairColor: '#6b3a1e', legs: '#3a4a6b' },
+  MAN: { top: 'tshirt', color: '#5a7fb0', hat: 'capBack', hatColor: '#d8232a', hair: 'short', hairColor: '#3a2a1e', legs: '#4a5a78' },
+  PILOT: { top: 'suit', color: '#2b3a55', hat: 'capBack', hatColor: '#2b3a55', hair: 'short', hairColor: '#2b2420', legs: '#2b3a55' },
   CTRL: { top: 'suit', color: '#6b4e9b', hat: 'headband', hatColor: '#222', face: 'glasses', hair: 'bun', legs: '#4a3a6b' },
   CLIMB: { top: 'hoodie', color: '#e4872b', hat: 'beanie', hatColor: '#3d7ea6', legs: '#3a4a6b' },
   CLIMB2: { top: 'hoodie', color: '#3fb950', hat: 'beanie', hatColor: '#f2c21a', legs: '#3a4a6b' },
@@ -192,21 +194,24 @@ function drawKids(g, t, spec, GY, layerName) {
     const a = k.in ? ease.out(prog(t, k.in + i * (k.stagger ?? 0.03), k.in + i * (k.stagger ?? 0.03) + 0.4)) : 1; if (a <= 0) return;
     const look = k.up ? kf(k.up, t, 0) : 0;
     const o = { x: p.x * E.W + (k.drift ? Math.sin(t * k.drift + i) * 20 : 0) + (k.march ? (t * k.march * (p.f)) : 0), y, s, facing: p.f, outfit: { ...OUT[p.id], ...(p.id === 'TODD' ? {} : { hair: p.h[0], hairColor: p.h[1], color: p.c }) }, expr: tl(k.expr || 'neutral', t), blink: blinkAt(t, i * 3), pose: breathe(POSES[tl(k.pose || 'stand', t)], t, 1, i + 1), alpha: a };
-    if (k.lookUp) o.look = [0.2, -1.0];
+    if (k.lookUp !== undefined && k.lookUp !== false && t >= (k.lookUp === true ? 0 : k.lookUp)) o.look = [0.3, -2.2];
     drawCharacter(g, o);
   });
 }
 
 // ---------- надписи ----------
 function wrap(s, n) { const words = s.split(' '), out = []; let cur = ''; for (const w of words) { if ((cur + ' ' + w).trim().length > n) { out.push(cur); cur = w; } else cur = (cur + ' ' + w).trim(); } if (cur) out.push(cur); return out; }
+// автопроверка наложения: надпись не должна закрывать голову героя. Возвращает долю X (0..1) с запасом от голов в верхней части кадра
+const bigHeads = (heads) => (heads || []).filter((h) => h && !h.hidden && h.id === 'LEON' && h.y - 60 * (h.s || 1.5) < E.H * 0.42);
+const freeX = (heads, def, span = 0.3, cands = [0.22, 0.5, 0.78]) => { const hs = bigHeads(heads); if (!hs.length || hs.every((h) => Math.abs(h.x / E.W - def) > span)) return def; let best = def, bd = -1; for (const c of cands) { const d = Math.min(...hs.map((h) => Math.abs(h.x / E.W - c))); if (d > bd) { bd = d; best = c; } } return best; };
 const hasHud = (info, spec) => (!!HUD[info.shot.id] || !!HUD_TIME_ONLY[info.shot.id]) && !spec.nohudx;
 function overlay(g, t, info, spec, heads, only) {
   const T0 = info.shot.start, T1 = info.shot.end, rows = (spec.nocap ? [] : TEXTS).filter((r) => ['cap', 'plate', 'say'].includes(r.k) && (only === 'say' ? r.k === 'say' : only === 'rest' ? r.k !== 'say' : true) && r.t >= T0 - 0.02 && r.t < T1 - 0.05 && !(spec.skip || []).includes(r.s));
   let capIdx = 0, sayIdx = 0; const ty0 = spec.ty ?? (rows.some((r) => r.k === 'plate') ? 0.42 : 0.13); const sayRows = rows.filter((r) => r.k === 'say'); const hud = hasHud(info, spec);
   for (const r of rows) {
     const lt = r.t - T0; if (t < lt) { if (r.k === 'cap') capIdx++; if (r.k === 'say') sayIdx++; continue; }
-    if (r.k === 'plate') { const k = ease.outBack(prog(t, lt, lt + 0.35)); g.save(); g.translate(E.W / 2 - (hud ? 90 : 0), E.H * (spec.plateY ?? 0.22)); g.rotate(-0.03); g.scale(k, k); const w = measure(g, r.s, 150) + 160; inkRect(g, -w / 2, -110, w, 190, { fill: ui().gold, r: 30 }); text(g, r.s, 0, 10, { size: 150, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); }
-    else if (r.k === 'cap') { const at = spec.capAt && spec.capAt[r.s]; const y = E.H * (at ? at[1] : spec.tyList ? spec.tyList[capIdx] ?? ty0 : ty0 + capIdx * 0.1); const x = at ? at[0] : (spec.tx ?? (hud ? 0.4 : 0.5)); const bigsz = at && at[2] ? at[2] : 84; const maxW = E.W * (hud ? 0.72 : 0.9); const sz = Math.min(bigsz, maxW / Math.max(1, measure(g, r.s, 84) / 84) * (bigsz / 84)); D.marker(g, r.s, E.W * x, y, { size: sz, t, start: lt, outline: 14, color: r.s === r.s.toUpperCase() && /\d/.test(r.s) && capIdx % 2 ? ui().accent : S().ink }); capIdx++; }
+    if (r.k === 'plate') { const k = ease.outBack(prog(t, lt, lt + 0.35)); g.save(); g.translate(E.W * (spec.plateX ?? freeX(heads, hud ? 0.45 : 0.5, 0.26, [0.2, 0.5, 0.8])), E.H * (spec.plateY ?? (hud ? 0.25 : 0.22))); g.rotate(-0.03); g.scale(k, k); const w = measure(g, r.s, 150) + 160; inkRect(g, -w / 2, -110, w, 190, { fill: ui().gold, r: 30 }); text(g, r.s, 0, 10, { size: 150, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); }
+    else if (r.k === 'cap') { const at = spec.capAt && spec.capAt[r.s]; const y = E.H * (at ? at[1] : spec.tyList ? spec.tyList[capIdx] ?? ty0 : ty0 + capIdx * 0.1); const bx = spec.tx ?? (hud ? 0.4 : 0.5); const x = at ? at[0] : (spec.tx != null ? bx : freeX(heads, bx, 0.25)); const side = !at && spec.tx == null && x !== bx; const bigsz = at && at[2] ? at[2] : 84; const maxW = E.W * (side ? 0.38 : hud ? 0.72 : 0.9); const sz = Math.min(bigsz, maxW / Math.max(1, measure(g, r.s, 84) / 84) * (bigsz / 84)); D.marker(g, r.s, E.W * x, y, { size: sz, t, start: lt, outline: 14, color: r.s === r.s.toUpperCase() && /\d/.test(r.s) && capIdx % 2 ? ui().accent : S().ink }); capIdx++; }
     else { const nx = sayRows.find((q) => q.t > r.t + 0.05), endT = nx ? nx.t - T0 : lt + 4; if (t > endT) { sayIdx++; continue; } const idx = (spec.say ?? [0])[sayIdx % (spec.say ?? [0]).length] ?? 0; const h = heads[idx]; sayIdx++; if (!h) continue; const lines = wrap(r.s, 26), w = Math.min(980, Math.max(...lines.map((l) => measure(g, l, 44))) + 90), hgt = 70 + lines.length * 56, side = h.id && h.id !== 'LEON', dir = h.x < E.W * 0.6 ? 1 : -1, bx = clamp(h.x + (side ? 230 * dir : 0), w / 2 + 40, E.W - w / 2 - 40), by = clamp(h.y - 130 - hgt / 2 - (side ? 190 : 0), hgt / 2 + 30, E.H - 300); D.bubble(g, bx, by, w, hgt, { tail: [side ? clamp(h.x + 150 * dir, bx - w / 2 + 40, bx + w / 2 - 40) : h.x, h.y - (side ? 50 : 70)], t, start: lt }, (g2) => lines.forEach((l, i) => text(g2, l, 0, (i - (lines.length - 1) / 2) * 56 + 4, { size: 44, font: FONTS.ui, weight: 900, color: S().ink }))); }
   }
 }
@@ -222,6 +227,10 @@ function camOf(spec, t, dur, info) {
   return camAdd(b2, drift(t, 5, 5));
 }
 
+// ---------- автопроверка кадра: Leon целиком в кадре (голова и ступни), печатает ERROR frame-check в консоль рендера ----------
+const CHECKED = new Set();
+function frameCheck(id, o, walking) { const top = o.hy - 62 * o.s, bad = []; if (top < -4) bad.push(`голова за верхом кадра (${Math.round(top)}px)`); if (o.y > E.H + 6) bad.push(`ступни ниже кадра (${Math.round(o.y - E.H)}px)`); if (o.x < 40 || o.x > E.W - 40) { if (!walking) bad.push('Leon у края кадра по горизонтали'); } for (const b of bad) { const key = id + b; if (!CHECKED.has(key)) { CHECKED.add(key); console.log(`ERROR frame-check ${id}: ${b}`); } } }
+
 // ---------- регистрация кадра ----------
 export function def(id, spec) {
   registerShot(id, { draw(g, t, info) {
@@ -233,7 +242,7 @@ export function def(id, spec) {
       ctx.cam = cam;
       if (spec.pre) spec.pre(g, t, info, ctx);
       if (spec.kids) drawKids(g, t, spec, ctx.GY, 'back');
-      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s, hidden: o.hidden }); });
+      (spec.chars || []).forEach((c, i) => { const o = who(g, c, t, info, ctx.GY, wins[i]); heads.push({ x: o.x, y: o.hy ?? o.y - 360, id: c.w, s: o.s, hidden: o.hidden }); if (!spec.nocheck && c.w === 'LEON' && !o.hidden && !c.nocheck) frameCheck(info.shot.id, o, !!c.walk); });
       if (spec.kids) drawKids(g, t, spec, ctx.GY, 'front');
       if (spec.close) { closeUp(g, spec.close, t, spec.chars && spec.chars.length ? undefined : wins[0]); const c = spec.close; if (!(spec.chars && spec.chars.length)) heads.push({ x: (c.x ?? 0.5) * E.W - (c.r ?? 330) * 0.1, y: (c.y ?? 0.62) * E.H - (c.r ?? 330) * 0.62 + 40, id: c.w || 'LEON', s: 1.5 }); }
       if (spec.closes) spec.closes.forEach((c, i) => { closeUp(g, c, t, wins[i]); heads.push({ x: (c.x ?? 0.5) * E.W, y: (c.y ?? 0.62) * E.H - (c.r ?? 330) * 0.62 + 40, id: c.w || 'LEON', s: 1.5, hidden: !!(c.show && (t < c.show[0] || t > c.show[1])) }); });
