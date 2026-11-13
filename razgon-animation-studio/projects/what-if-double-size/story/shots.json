@@ -1,0 +1,2062 @@
+{
+ "title": "What If You Doubled in Size Every 10 Minutes",
+ "duration": 542.129,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.2,
+   "line": "The final bell rings at three o'clock, and Leon joins the bus line like every other Friday.",
+   "scene": "Школьная парковка, общий план: звонок, из дверей школы выходят ребята, у жёлтого автобуса выстраивается очередь, Leon встаёт в хвост очереди с рюкзаком (как каждую пятницу). Время на экране ещё не показываем.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "панорама слева направо за ребятами, звонок-волна над школой",
+   "assets": "BG parking; BUS; KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 5.2,
+   "end": 9.6,
+   "line": "Above the bus door hangs a sign: \"You must be this short to ride.\"",
+   "scene": "Дверь автобуса крупно: над ней знак-табличка с чертой роста и стрелкой вниз; Leon в очереди смотрит на знак снизу вверх.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "наезд на знак, табличка слегка качается",
+   "assets": "BG parking; BUS; SIGN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 9.6,
+   "end": 13.3,
+   "line": "Leon is four and a half feet tall. No problem.",
+   "scene": "Leon встаёт под знак: макушка ниже черты, большой палец вверх. Справа сверху появляется HUD: время и рост. «No problem»: подмигивает зрителю.",
+   "set": "PARK",
+   "hud": "3:00 PM · 4 ft 6 in",
+   "notes": "HUD выезжает по слову «four»; подмигивание на «No problem»",
+   "assets": "BG parking; BUS; SIGN; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 13.3,
+   "end": 18.5,
+   "line": "Ten minutes later, he is nine feet tall, and the whole line is looking up at him.",
+   "scene": "Первое удвоение: HUD, счётчик «+10 min» «пролистывает» 3:00 → 3:10, Leon со звуком «пинг» вырастает вдвое (вровень с дверью автобуса), кепка, футболка и кроссовки растут вместе с ним. Очередь запрокидывает головы.",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "скачок роста с отскоком на «nine feet»; ребята ведут взглядом вверх",
+   "assets": "BG parking; BUS; SIGN; KIDS; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 18.5,
+   "end": 22.6,
+   "line": "The bus driver leans out of his window, looks up, and keeps looking up.",
+   "scene": "Окошко автобуса: водитель высовывается, смотрит вверх, и ещё вверх; голова запрокидывается, глаза уходят в верх кадра.",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "камера наклоняется вверх следом за взглядом водителя",
+   "assets": "BG parking; BUS; DRIVER",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 22.6,
+   "end": 24.8,
+   "line": "\"Sir, you're over the limit.\"",
+   "scene": "Водитель строго, в окне виден низ подбородка Leon и ремешок кепки сверху кадра.",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "короткий наезд на водителя",
+   "assets": "DRIVER; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 24.8,
+   "end": 27.7,
+   "line": "\"Which limit?\" \"All of them.\"",
+   "scene": "Leon сверху (низ-вверх кадра), брови домиком: «Which limit?» Затем водитель непроницаемо: «All of them.»",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "смена планов на «All of them» (25.9)",
+   "assets": "DRIVER; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 27.7,
+   "end": 30.7,
+   "line": "Leon's shadow now covers the entire parking lot.",
+   "scene": "Общий план сверху (камера отъехала): огромная тень Leon накрывает всю парковку, машины и очередь; под тенью ребята и водитель смотрят вверх, жёлтый автобус виден в тени.",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "камера уходит вверх, тень расползается до краёв кадра",
+   "assets": "BG parking; BUS; KIDS; LEON shadow",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 30.7,
+   "end": 33.9,
+   "line": "Then he remembers what he promised his mom this morning.",
+   "scene": "Воспоминание (кадр с рамкой и дымкой): утро на кухне дома, мама пальцем: «обещал?», Leon кивает с тостом; Nora в пижаме дёргает его за рукав.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "кадр «из памяти»: мягкая виньетка, плавный въезд",
+   "assets": "BG kitchen (ролик 02); LEON; MOM; NORA",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 33.9,
+   "end": 39.5,
+   "line": "Six o'clock sharp. His little sister Nora is turning eight, and he's blowing out the candles with her.",
+   "scene": "Настенные часы крупно: стрелки показывают шесть, над ними плашка со временем. Затем: Nora (8 лет, колпак именинницы) и Leon вместе над тортом с восемью свечками, надувают щёки, задувают вместе (картинка-мечта).",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "стрелки быстро доезжают до шести, «тик»; щёки надуваются, огоньки свечей дрожат",
+   "assets": "PROP clock; BG kitchen (ролик 02); NORA; LEON; PROP cake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 39.5,
+   "end": 43.5,
+   "line": "At this rate, he won't just be late. He'll be enormous.",
+   "scene": "Leon смотрит на часы-браслет, потом на свои огромные кроссовки; капля пота. Затем: Общий план снизу: Leon громадный над автобусом, мелкая очередь внизу; слово на экране прыгает.",
+   "set": "PARK",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "быстрый наезд на лицо Leon, капля скатывается; низкая камера, слово «вырастает» на «enormous»",
+   "assets": "BG parking; LEON; BUS; KIDS; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 43.5,
+   "end": 48.1,
+   "line": "So, what if you doubled in size every ten minutes?",
+   "scene": "Светлый фон-сетка, Leon в центре смотрит на зрителя, вокруг вопросительные знаки; заголовок.",
+   "set": "void",
+   "hud": "—",
+   "notes": "заголовок выезжает по слову «what if»",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 48.1,
+   "end": 51.2,
+   "line": "Not every year. Every ten minutes.",
+   "scene": "Страничка календаря с большим красным крестом поверх «каждый год», потом Leon показывает на секундомер: «каждые 10 минут».",
+   "set": "void",
+   "hud": "—",
+   "notes": "крест «рисуется» на «Not every year», секундомер тикает на «Every ten minutes»",
+   "assets": "LEON; PROP calendar; PROP stopwatch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 51.2,
+   "end": 54.0,
+   "line": "A ten-year-old is about four and a half feet tall.",
+   "scene": "Ростомер на стене: Leon стоит, отметка «10 лет» у макушки.",
+   "set": "void",
+   "hud": "—",
+   "notes": "линейка выезжает, отметка ставится на «four and a half»",
+   "assets": "LEON; PROP height chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 54.0,
+   "end": 58.6,
+   "line": "After the first hour, he's not growing up. He's growing out of the neighborhood.",
+   "scene": "Leon растёт вверх, стрелка вверх перечёркивается; на слове «out» он растёт вширь и выше крыш: пригород игрушечный рядом с ним (домики макетом).",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "перечёркивание стрелки (54.8), затем Leon вырастает над домиками (56.4)",
+   "assets": "BG street; LEON; PROP houses",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 58.6,
+   "end": 61.6,
+   "line": "Six doublings. Sixty-four times bigger.",
+   "scene": "Шесть Leon в ряд лесенкой, между ними стрелки ×2; последний выше кадра.",
+   "set": "void",
+   "hud": "—",
+   "notes": "лесенка «собирается» по числам, ×64 вспыхивает",
+   "assets": "LEON ×6",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 61.6,
+   "end": 64.1,
+   "line": "Here's how it works. Rule one.",
+   "scene": "Плашка раздела на светлом фоне: Leon заглядывает снизу в кадр.",
+   "set": "void",
+   "hud": "—",
+   "notes": "плашка падает с отскоком на «Rule one»",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 64.1,
+   "end": 67.7,
+   "line": "Every ten minutes, starting at three o'clock, your height doubles.",
+   "scene": "Часы показывают 3:00, над ними стрелка «×2» и силуэт Leon удваивается.",
+   "set": "void",
+   "hud": "—",
+   "notes": "силуэт удваивается на «doubles»",
+   "assets": "LEON; PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 67.7,
+   "end": 71.8,
+   "line": "Four and a half feet, then nine, then eighteen, then thirty-six.",
+   "scene": "Четыре Leon подряд лесенкой, каждый с подписью роста.",
+   "set": "void",
+   "hud": "—",
+   "notes": "каждая метка падает на своё слово",
+   "assets": "LEON ×4",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 71.8,
+   "end": 77.3,
+   "line": "Your clothes grow with you, and so do your cap and your sneakers, because nobody wants to see the alternative.",
+   "scene": "Leon растёт, и одежда растёт: стрелки на кепке, футболке, кроссовках «×2». Потом гэг «альтернативы»: гигант в крошечной кепке и крошечных кроссовках на пальцах ног, зажмурился, поверх «НЕТ» и красный крест.",
+   "set": "void",
+   "hud": "—",
+   "notes": "кепка и кроссовки «хлопают» вместе с ростом; гэг-кадр на «because nobody»",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 77.3,
+   "end": 81.6,
+   "line": "Rule two. It never slows down, and it never stops.",
+   "scene": "Плашка раздела. Затем: Часы с огромным рычагом «СТОП»: рука тянет рычаг, он ломается; стрелка бежит дальше.",
+   "set": "void",
+   "hud": "—",
+   "notes": "плашка падает с отскоком; рычаг ломается на «never stops»",
+   "assets": "PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 81.6,
+   "end": 84.7,
+   "line": "Ten minutes is ten minutes, no matter how big you are.",
+   "scene": "Маленький Leon и огромный Leon рядом с одними и теми же часами, часы тикают одинаково.",
+   "set": "void",
+   "hud": "—",
+   "notes": "оба кивают в такт тиканью",
+   "assets": "LEON ×2; PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 84.7,
+   "end": 88.9,
+   "line": "Lunch, a nap, a bathroom break, none of it pauses the clock.",
+   "scene": "Три иконки роняются по очереди: сэндвич, подушка с Zzz, дверь с табличкой туалета; часы тикают поверх, ничего не останавливается; Leon сидит с сэндвичем.",
+   "set": "void",
+   "hud": "—",
+   "notes": "иконки падают на слова",
+   "assets": "LEON; PROP sandwich; PROP pillow; PROP door sign; PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 88.9,
+   "end": 94.2,
+   "line": "Rule three. Everything about you gets bigger, except the laws of physics.",
+   "scene": "Плашка раздела. Затем: Огромный Leon, у ног крошечный свиток «LAWS OF PHYSICS» с очками и ручками-ножками, не вырос.",
+   "set": "void",
+   "hud": "—",
+   "notes": "плашка падает с отскоком; свиток остаётся маленьким, Leon растёт",
+   "assets": "LEON; PROP physics scroll",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 94.2,
+   "end": 98.7,
+   "line": "They stay exactly the same size, and they have a few things to say to you later.",
+   "scene": "Крошечный свиток-физика строго грозит пальцем огромной ноге Leon; Leon потеет.",
+   "set": "void",
+   "hud": "—",
+   "notes": "свиток топает, Leon сглатывает",
+   "assets": "LEON; PROP physics scroll",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 98.7,
+   "end": 101.7,
+   "line": "One exception: you can always breathe.",
+   "scene": "Leon делает глубокий вдох, грудь и лёгкие светятся голубым; галочка.",
+   "set": "void",
+   "hud": "—",
+   "notes": "грудь надувается на «breathe»",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 101.7,
+   "end": 104.3,
+   "line": "Otherwise, this would be a very short video.",
+   "scene": "Гэг: полоска прогресса видео вверху внезапно обрывается ножницами и показывает «THE END» на 0:30; Leon растерянно смотрит на неё.",
+   "set": "void",
+   "hud": "—",
+   "notes": "ножницы щёлкают на «short video»",
+   "assets": "LEON; PROP progress bar; PROP scissors",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 104.3,
+   "end": 110.2,
+   "line": "And one number to keep in your pocket. After the first hour, you're two hundred and eighty-eight feet tall.",
+   "scene": "Leon кладёт в карман листок с большим числом, показывает на карман. Затем число крупно.",
+   "set": "void",
+   "hud": "4:00 PM · 288 ft",
+   "notes": "листок прячется в карман на «pocket»; число вспыхивает на «two hundred»",
+   "assets": "LEON; PROP note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 110.2,
+   "end": 114.6,
+   "line": "That's about a twenty-eight-story building, standing in a school bus line.",
+   "scene": "Рядом с автобусом выросло высокое здание в 28 этажей (контур этажей), потом здание заменяется Leon: он стоит на парковке такой же высоты, автобус как игрушка у пальца.",
+   "set": "PARK",
+   "hud": "4:00 PM · 288 ft",
+   "notes": "здание «морфится» в Leon на «standing in a school bus line»",
+   "assets": "BG parking; BUS; BUILDING; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 114.6,
+   "end": 117.7,
+   "line": "The doubling is fiction. Everything around it is real.",
+   "scene": "Два блока слева «FICTION» (удвоение) и справа «REAL» (физика и числа), Leon между ними, штамп.",
+   "set": "void",
+   "hud": "—",
+   "notes": "штампы падают на слова",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 117.7,
+   "end": 121.1,
+   "line": "Plus. At nine feet, Leon walks past the school gym,",
+   "scene": "Плашка «Plus 1» и школьная площадка (кирпичная стена спортзала, кольцо на столбе): Leon, 9 футов, шагает мимо зала.",
+   "set": "COURT",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "плашка падает на «Plus», Leon идёт слева направо",
+   "assets": "BG court (код); LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 121.1,
+   "end": 124.8,
+   "line": "reaches up, and dunks a basketball without jumping.",
+   "scene": "Leon тянется вверх и кладёт мяч в кольцо, не прыгая: рука просто доходит до кольца, мяч мягко падает в корзину.",
+   "set": "COURT",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "рука поднимается на «reaches up», мяч падает в кольцо",
+   "assets": "BG court (код); LEON; PROP basketball hoop; PROP basketball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 124.8,
+   "end": 129.3,
+   "line": "Nobody on the court can believe it. Neither can the basketball.",
+   "scene": "Ребята на площадке с отвисшими челюстями (три кадра подряд), мяч в сетке с выпученными глазами: «Neither can the basketball».",
+   "set": "COURT",
+   "hud": "3:10 PM · 9 ft",
+   "notes": "смена планов на «neither» (126.8)",
+   "assets": "BG court (код); KIDS; PROP basketball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 129.3,
+   "end": 135.1,
+   "line": "Plus. At eighteen feet, he runs into the biggest kid in school, the one who takes everybody's dessert.",
+   "scene": "Плашка «Plus». Leon, 18 футов, топает мимо школы, внизу перед его ногами самый большой ребёнок школы (BULLY) с подносом десертов и карманами, набитыми кексами.",
+   "set": "PARK",
+   "hud": "3:20 PM · 18 ft",
+   "notes": "HUD щёлкает на «eighteen», плашка падает на «Plus»",
+   "assets": "BG parking; LEON; BULLY; PROP desserts; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 135.1,
+   "end": 138.0,
+   "line": "The kid looks up. Then he looks up some more.",
+   "scene": "Низкий план: BULLY смотрит вверх, потом ещё выше, голова запрокидывается, глаза уходят в верх кадра по ногам Leon.",
+   "set": "PARK",
+   "hud": "3:20 PM · 18 ft",
+   "notes": "камера наклоняется вверх, бровь у BULLY дёргается",
+   "assets": "BG parking; BULLY; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 138.0,
+   "end": 141.5,
+   "line": "The dessert comes out of his pocket all by itself.",
+   "scene": "Из кармана BULLY сам вылезает кекс и аккуратно ложится у кроссовка Leon; BULLY застыл, руки по швам.",
+   "set": "PARK",
+   "hud": "3:20 PM · 18 ft",
+   "notes": "кекс выпрыгивает из кармана на «by itself»",
+   "assets": "BG parking; BULLY; PROP desserts; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 141.5,
+   "end": 145.9,
+   "line": "Plus. At thirty-six feet, Leon walks over a traffic jam.",
+   "scene": "Плашка «Plus». Улица в пробке (длинный ряд машин), Leon, 36 футов, идёт поверх: ботинки на уровне крыш.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "HUD щёлкает на «thirty-six»",
+   "assets": "BG street; CARS; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 145.9,
+   "end": 149.9,
+   "line": "Not around it. Over it. The cars look like toys.",
+   "scene": "Низкий план: огромная кроссовка Leon занесена над рядом машин и проходит поверх них, не задевая.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "подошва проходит над крышами; машины с заводными ключиками как игрушки",
+   "assets": "BG street; CARS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 149.9,
+   "end": 154.5,
+   "line": "A crossing guard blows her whistle, looks up, and puts it back in her pocket.",
+   "scene": "Регулировщица (crossing guard) у зебры свистит, смотрит вверх, прячет свисток в карман.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "свисток-звёздочки, взгляд вверх, свисток в карман",
+   "assets": "BG street; GUARD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 154.5,
+   "end": 160.1,
+   "line": "A man in a red truck honks, sees a shadow slide across his windshield, and stops honking.",
+   "scene": "Мужчина в красном пикапе сигналит, на лобовом стекле скользит огромная тень, сигнал стихает.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "тень скользит по лобовому на «shadow slide»",
+   "assets": "CAB (код); MAN; PROP red pickup",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 160.1,
+   "end": 163.9,
+   "line": "A little kid in a minivan presses his face to the window and waves.",
+   "scene": "Малыш в минивэне прижимает лицо к окну и машет.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "ладошка скользит по стеклу",
+   "assets": "PROP minivan; KID",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 163.9,
+   "end": 167.7,
+   "line": "Leon waves back with two fingers, very gently.",
+   "scene": "Leon сверху машет в ответ двумя пальцами, очень осторожно; лицо сосредоточенное.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "два пальца едва шевелятся",
+   "assets": "BG street; LEON; MINIVAN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 167.7,
+   "end": 171.1,
+   "line": "He's learning. Every step now is a careful one,",
+   "scene": "Leon на цыпочках шагает через пробку между машинами, смотрит под ноги.",
+   "set": "STREET",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "осторожные шаги на цыпочках",
+   "assets": "BG street; CARS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 171.1,
+   "end": 174.4,
+   "line": "like walking through a room full of sleeping cats.",
+   "scene": "Разделённый кадр: слева Leon крадётся по пробке, справа комната, полная спящих котов, и кто-то на цыпочках между ними.",
+   "set": "void",
+   "hud": "—",
+   "notes": "шаг слева синхронен с шагом справа",
+   "assets": "LEON; CATS (ролик 02)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 174.4,
+   "end": 176.9,
+   "line": "He also checks the school roof on the way.",
+   "scene": "Край плоской крыши школы, из-за него выглядывает огромный глаз Leon и бровь.",
+   "set": "ROOF",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "глаз моргает, бровь ползёт вверх",
+   "assets": "ROOF (код); LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 176.9,
+   "end": 181.5,
+   "line": "Three soccer balls, one shoe, and a very confused seagull.",
+   "scene": "Крыша крупно: три футбольных мяча, один ботинок и растерянная чайка с вопросительным знаком над головой.",
+   "set": "ROOF",
+   "hud": "3:30 PM · 36 ft",
+   "notes": "чайка наклоняет голову, «?» всплывает",
+   "assets": "ROOF (код); PROP soccer balls; PROP shoe; PROP seagull",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 181.5,
+   "end": 186.0,
+   "line": "Plus. At seventy-two feet, he can see his whole street at once.",
+   "scene": "Плашка «Plus». Вид с высоты: вся улица пригорода как на ладони, Leon, 72 фута, смотрит вниз, домики крошечные.",
+   "set": "AERIAL",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "камера взлетает над улицей",
+   "assets": "BG aerial; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 186.0,
+   "end": 192.8,
+   "line": "His house. Mom's car. And in the front yard, tiny, a girl with a fistful of balloons.",
+   "scene": "Быстро: наезд на его дом (кружок), затем на машину мамы у дома; наконец вниз на двор, где крошечная девочка с горстью шаров.",
+   "set": "AERIAL",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "три наезда подряд на «His house», «Mom's car», «front yard»",
+   "assets": "BG aerial; BG front yard (ролик 02); MOM's CAR; NORA; PROP balloons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 192.8,
+   "end": 196.1,
+   "line": "Nora spots him, jumps, and waves both arms.",
+   "scene": "Nora замечает Leon, подпрыгивает и машет обеими руками (шары взлетают).",
+   "set": "YARD",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "прыжок и взмах на «spots him»",
+   "assets": "BG front yard (ролик 02); NORA; PROP balloons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 196.1,
+   "end": 199.9,
+   "line": "\"You're late!\" Her voice floats up, small but clear.",
+   "scene": "Nora крошечная кричит вверх; её реплика поднимается к Leon маленьким облачком.",
+   "set": "YARD",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "облачко поднимается вверх",
+   "assets": "BG front yard (ролик 02); NORA",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 199.9,
+   "end": 202.8,
+   "line": "\"I'm not late!\" \"You're huge!\"",
+   "scene": "Разделённый кадр: сверху огромная голова Leon смеётся, внизу крошечная Nora.",
+   "set": "void",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "реплики перекрёстно, Leon ухмыляется",
+   "assets": "LEON; NORA",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 202.8,
+   "end": 206.0,
+   "line": "Being the biggest kid in the world feels amazing.",
+   "scene": "Leon стоит над городком руки в боки, золотой нимб, ветер треплет кепку.",
+   "set": "AERIAL",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "героическая поза, лучи за спиной",
+   "assets": "BG aerial; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 206.0,
+   "end": 209.0,
+   "line": "But then you start noticing the problems.",
+   "scene": "Лицо Leon, радость медленно гаснет, внизу по асфальту ползёт тонкая трещина.",
+   "set": "AERIAL",
+   "hud": "3:40 PM · 72 ft",
+   "notes": "взгляд опускается, трещина ползёт",
+   "assets": "BG aerial; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 209.0,
+   "end": 214.2,
+   "line": "Problem one. At three-fifty, Leon is a hundred and forty-four feet tall, and he",
+   "scene": "Плашка «Problem 1». HUD щёлкает на 3:50 PM, 144 фута. Leon громадный на улице, один ботинок занесён.",
+   "set": "STREET",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "плашка падает на «Problem one», HUD на «three-fifty»",
+   "assets": "BG street; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 214.2,
+   "end": 218.4,
+   "line": "takes one step toward home. The road takes one step back.",
+   "scene": "Низкий план на ногу: ботинок опускается на дорогу, асфальт прогибается и откатывается назад волной, как лента.",
+   "set": "STREET",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "волна по дороге на «step back»",
+   "assets": "BG street; LEON foot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 218.4,
+   "end": 223.3,
+   "line": "Here's the rule hiding under all of this. Galileo worked it out in sixteen thirty-eight.",
+   "scene": "Галилео в старом камзоле с бородой держит свиток, рядом год на пергаменте.",
+   "set": "void",
+   "hud": "—",
+   "notes": "свиток разворачивается на «Galileo»",
+   "assets": "PROP Galileo; PROP scroll",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 223.3,
+   "end": 227.6,
+   "line": "Every time you double in size, your weight grows eight times.",
+   "scene": "Маленький кубик рядом с большим кубом из восьми таких же; стрелка «×2 размер» и «×8 вес».",
+   "set": "void",
+   "hud": "—",
+   "notes": "куб собирается из восьми на «eight times»",
+   "assets": "PROP cubes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 227.6,
+   "end": 231.9,
+   "line": "But your bones only get four times stronger, because strength comes from thickness,",
+   "scene": "Срез кости кружком: стенки толстеют, площадь растёт вчетверо, стрелка «толщина».",
+   "set": "void",
+   "hud": "—",
+   "notes": "круг толстеет, цифра ×4 щёлкает на «four times»",
+   "assets": "PROP bone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 231.9,
+   "end": 234.7,
+   "line": "and weight comes from everything.",
+   "scene": "Весь Leon как кубик ×8 рядом с костью ×4: чаша весов склоняется в сторону веса.",
+   "set": "void",
+   "hud": "—",
+   "notes": "чаша весов склоняется на «weight comes from everything»",
+   "assets": "LEON; PROP scale; PROP bone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 234.7,
+   "end": 240.9,
+   "line": "After five doublings, Leon weighs about thirty-two thousand times more than he did at three o'clock.",
+   "scene": "Колонка «5 удвоений»: Leon растёт от 1 до 32 с метками ×2 на каждом шаге; затем столбик веса взлетает до ×32,768, рядом крошечный столбик костей.",
+   "set": "void",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "Leon растёт ступенями на «five doublings», столбик взлетает на «thirty-two thousand»",
+   "assets": "LEON; PROP bars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 240.9,
+   "end": 243.5,
+   "line": "His bones are only about a thousand times stronger.",
+   "scene": "Рядом: столбик «кости ×1,024» намного ниже башни веса; Leon смотрит на них нервно.",
+   "set": "void",
+   "hud": "—",
+   "notes": "столбик костей чуть дёргается",
+   "assets": "LEON; PROP bars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 243.5,
+   "end": 246.3,
+   "line": "His sneaker sinks into the asphalt like wet cement.",
+   "scene": "Кроссовка вдавливается в асфальт, как в мокрый цемент: лепёшки и вмятина, шнурок вверх.",
+   "set": "STREET",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "подошва уходит вниз с чавканьем",
+   "assets": "BG street; LEON foot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 246.3,
+   "end": 250.4,
+   "line": "The sidewalk cracks. A mailbox goes flat without a sound.",
+   "scene": "Тротуар трескается ёлочкой, синий почтовый ящик сплющивается в блин без звука; лист бумаги планирует вниз.",
+   "set": "STREET",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "трещины разбегаются, ящик сплющивается на «flat»",
+   "assets": "BG street; PROP mailbox; PROP mailbox flat",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 250.4,
+   "end": 254.4,
+   "line": "\"Okay,\" says Leon. \"New plan. Nobody moves.\"",
+   "scene": "Leon спокойно поднимает ладонь: «Okay. New plan. Nobody moves.»",
+   "set": "STREET",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "реплики одна за другой, ладонь «стоп»",
+   "assets": "BG street; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 254.4,
+   "end": 260.0,
+   "line": "So he plants his feet wide in the empty soccer field behind his street and stands very still.",
+   "scene": "Пустое футбольное поле за улицей: Leon делает несколько осторожных шагов, потом широко ставит ноги; штанги ворот у щиколоток; на «very still» замирает как статуя, пыль оседает.",
+   "set": "FIELD",
+   "hud": "3:50 PM · 144 ft",
+   "notes": "плавный шаг, остановка на «plants his feet», замирает на «stands very still»",
+   "assets": "BG field; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 260.0,
+   "end": 262.9,
+   "line": "That's the price. No more steps.",
+   "scene": "Огромные ноги широко на поле; под ними крестики вместо следов: больше шагов нет.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "красный крест на следах",
+   "assets": "BG field; LEON; PROP footprints",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 262.9,
+   "end": 265.6,
+   "line": "Not toward his house. Not toward Nora.",
+   "scene": "Две быстрые вставки: вдали маленький дом, стрелка к нему перечёркнута; вдали крошечная Nora с шарами, стрелка перечёркнута.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "перечёркивание на каждом «Not»",
+   "assets": "BG field; PROP house far; NORA; PROP balloons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 265.6,
+   "end": 267.8,
+   "line": "Not for the rest of the story.",
+   "scene": "Leon как каменная статуя на поле, листья и снежинки пролетают, на заднем плане сменяются кадры календаря.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "плавное «время идёт» вокруг неподвижного Leon",
+   "assets": "BG field; LEON; PROP calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 267.8,
+   "end": 272.2,
+   "line": "Problem one was loud. Problem two is quiet.",
+   "scene": "Разделённый кадр: слева «LOUD» (трещины, взрыв звука), справа «QUIET» (тихое поле, значок «без звука»).",
+   "set": "void",
+   "hud": "—",
+   "notes": "слева дрожь экрана, справа тишина",
+   "assets": "BG field; PROP icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 272.2,
+   "end": 277.5,
+   "line": "Problem two. By four-forty, Leon is almost a mile tall.",
+   "scene": "Плашка «Problem 2». HUD быстро перематывается: 4:00 → 4:40, четыре «+10 min» подряд, рост 288 → 576 → 1,152 → 2,304 → 4,608 фута (0,87 мили); камера отъезжает, голова Leon выходит за верх кадра.",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "перемотка HUD (щелчки) на «By four-forty»",
+   "assets": "BG field; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 277.5,
+   "end": 282.4,
+   "line": "Nora climbs the soccer field fence with a feather from the craft box and tickles his sneaker.",
+   "scene": "Nora лезет на забор поля с пером из коробки для поделок, добирается до огромного носка кроссовки и щекочет его.",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "Nora на заборе, перо водит по шву кроссовки",
+   "assets": "BG field; NORA; PROP feather; LEON shoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 282.4,
+   "end": 285.0,
+   "line": "Nothing happens. Leon stares at the horizon.",
+   "scene": "Кроссовка без движений, перо торчит; крошечное лицо Leon высоко вверху смотрит на горизонт.",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "тишина, ветер, цикады",
+   "assets": "BG field; LEON; PROP feather",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 285.0,
+   "end": 287.3,
+   "line": "Fourteen seconds later: \"Ha.",
+   "scene": "Лицо Leon крупно, глаза в горизонт; счётчик секунд в углу доходит до 14, и лицо наконец начинает смеяться.",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "счётчик 1…14, смех «просыпается» на «Ha»",
+   "assets": "LEON face; PROP timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 287.3,
+   "end": 290.4,
+   "line": "Hahaha. Wait, what?\"",
+   "scene": "Смех усиливается, потом выражение «Wait, what?»: брови вверх, глаза в стороны.",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "смена мимики с хохота на недоумение",
+   "assets": "LEON face",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 290.4,
+   "end": 295.3,
+   "line": "Here's why. Signals travel through your nerves at up to about a hundred and twenty meters per second.",
+   "scene": "Схема тела Leon: нерв от стопы к мозгу, по нему бежит импульс; скорость вынесена в подпись.",
+   "set": "void",
+   "hud": "—",
+   "notes": "импульс бежит по нерву",
+   "assets": "LEON; PROP nerve",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 295.3,
+   "end": 298.7,
+   "line": "That's plenty when your foot is a yard from your brain.",
+   "scene": "Маленький мальчик, нерв короткий, импульс мигом долетает до головы.",
+   "set": "void",
+   "hud": "—",
+   "notes": "импульс «щёлк» за долю секунды",
+   "assets": "LEON small; PROP nerve",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 298.7,
+   "end": 302.6,
+   "line": "But Leon's foot is now more than a thousand meters from his brain.",
+   "scene": "Огромный Leon: нерв растянут как башенный кабель, размерная линия вдоль всей ноги.",
+   "set": "void",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "размерная линия вытягивается вдоль ноги",
+   "assets": "LEON; PROP nerve; PROP dimension line",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 302.6,
+   "end": 305.4,
+   "line": "One way, that's about fourteen seconds.",
+   "scene": "Импульс ползёт по длинному нерву, секундомер идёт: 0 → 14.",
+   "set": "void",
+   "hud": "—",
+   "notes": "секундомер синхронен с бегом импульса",
+   "assets": "LEON; PROP nerve; PROP timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 305.4,
+   "end": 307.7,
+   "line": "He is officially living in the past.",
+   "scene": "Голова Leon, за ним календарь и часы отстают: призрачные двойники картинки с задержкой; сепия.",
+   "set": "void",
+   "hud": "—",
+   "notes": "двойной след взгляда",
+   "assets": "LEON face; PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 307.7,
+   "end": 310.8,
+   "line": "And Biscuit the dog is sniffing around that very sneaker,",
+   "scene": "Biscuit обнюхивает носок огромной кроссовки, нос в земле.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "хвост виляет, нос двигается",
+   "assets": "BG field; BISCUIT (ролик 02, dog_sniff); LEON shoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 310.8,
+   "end": 313.6,
+   "line": "which is now longer than two football fields.",
+   "scene": "Вид сверху: контуры двух футбольных полей рядом с кроссовкой, Biscuit как точка.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "контуры полей рисуются вдоль кроссовки",
+   "assets": "BG field; PROP field outline; BISCUIT; LEON shoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 313.6,
+   "end": 317.5,
+   "line": "Biscuit does not care. Biscuit has found a smell.",
+   "scene": "Biscuit крупно, нос в траве, носом ведёт по следу; над ним завитки «запаха».",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "завитки запаха, хвост машет",
+   "assets": "BG field; BISCUIT (dog_sniff)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 317.5,
+   "end": 321.4,
+   "line": "If Leon stepped on him, he wouldn't find out for fourteen seconds.",
+   "scene": "Огромная подошва зависает над Biscuit, тот ничего не замечает; Leon вверху нервно поджимает губы, у подошвы таймер «14».",
+   "set": "FIELD",
+   "hud": "4:40 PM · 4,608 ft",
+   "notes": "подошва дрожит, таймер мигает",
+   "assets": "BG field; BISCUIT; LEON shoe; PROP timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 321.4,
+   "end": 325.8,
+   "line": "Mom grabs a megaphone. \"Leon, do not move!\"",
+   "scene": "Мама на дороге у поля хватает мегафон (приёмник-рупор) и кричит.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "звуковые дуги от мегафона",
+   "assets": "BG field; MOM; PROP megaphone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 325.8,
+   "end": 330.6,
+   "line": "Nora yells, \"I'm on your left shoe!\" \"Okay. Okay. I'm not moving.\"",
+   "scene": "Nora на шнурке огромного левого кроссовка машет рукой; Leon слышит издалека, лицо сжато в улыбку.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Nora размахивает руками, Leon застыл",
+   "assets": "BG field; NORA; LEON face; LEON shoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 330.6,
+   "end": 335.4,
+   "line": "So the new rule is simple. Nothing moves unless Mom says so.",
+   "scene": "Плашка правила: мама с мегафоном и Leon-статуя.",
+   "set": "void",
+   "hud": "—",
+   "notes": "плашка падает с отскоком",
+   "assets": "MOM; LEON; PROP megaphone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 335.4,
+   "end": 341.0,
+   "line": "But Leon is not done growing. And the sky is about to run out of air.",
+   "scene": "HUD быстро: 4:50 → 5:00, ещё два «+10 min», рост 9,216 → 18,432 фута (3,5 мили); потом Leon поднимается сквозь небо, воздух вокруг редеет: шкала «AIR» в углу падает.",
+   "set": "SKY",
+   "hud": "5:00 PM · 3.5 mi",
+   "notes": "HUD перематывается на «not done growing»; шкала AIR падает на «run out of air»",
+   "assets": "BG sky; LEON; HUD; PROP air gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 341.0,
+   "end": 344.1,
+   "line": "At five o'clock, Leon's head is three and a half miles up,",
+   "scene": "Плашка не нужна. Leon поднимается над облаками: голова выходит над морем облаков.",
+   "set": "SKY",
+   "hud": "5:00 PM · 3.5 mi",
+   "notes": "подъём головы над облаками",
+   "assets": "BG sky; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 344.1,
+   "end": 347.3,
+   "line": "and the clouds are somewhere around his belt.",
+   "scene": "Облака на уровне пояса Leon, торс над облаками.",
+   "set": "SKY",
+   "hud": "5:00 PM · 3.5 mi",
+   "notes": "облака плывут мимо пояса",
+   "assets": "BG sky; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 347.3,
+   "end": 352.4,
+   "line": "Seven minutes later, he passes the top of Mount Everest, about twenty-nine thousand feet.",
+   "scene": "Вершина Эвереста рядом с лицом Leon на уровне глаз, флажки на вершине.",
+   "set": "SKY",
+   "hud": "5:07 PM · 29,032 ft",
+   "notes": "вершина проплывает вниз на «Everest»",
+   "assets": "BG sky; PROP Everest; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 352.4,
+   "end": 356.1,
+   "line": "The air up there has only about a third of the pressure it has at sea level.",
+   "scene": "Два манометра: «уровень моря = 100%» и «Эверест ≈ треть».",
+   "set": "void",
+   "hud": "—",
+   "notes": "стрелка падает до трети",
+   "assets": "PROP gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 356.1,
+   "end": 358.4,
+   "line": "Climbers need oxygen tanks.",
+   "scene": "Крошечные альпинисты с кислородными баллонами на склоне Эвереста.",
+   "set": "SKY",
+   "hud": "5:07 PM · 29,032 ft",
+   "notes": "альпинисты дышат из масок",
+   "assets": "BG sky; PROP Everest; CLIMBERS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 358.4,
+   "end": 362.3,
+   "line": "Leon needs nothing. Remember rule three.",
+   "scene": "Leon спокойно вдыхает полной грудью, большой палец вверх; во вставке карточка «RULE 3».",
+   "set": "SKY",
+   "hud": "5:07 PM · 29,032 ft",
+   "notes": "карточка выезжает на «rule three»",
+   "assets": "BG sky; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 362.3,
+   "end": 364.9,
+   "line": "Frost builds on his eyebrows anyway.",
+   "scene": "Лицо Leon крупно: брови покрыты инеем, на козырьке кепки сосулька.",
+   "set": "SKY",
+   "hud": "5:07 PM · 29,032 ft",
+   "notes": "иней нарастает на бровях",
+   "assets": "BG sky; LEON face",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 364.9,
+   "end": 370.2,
+   "line": "A flock of geese flies past his nose, takes one look at his face, and turns around.",
+   "scene": "Стая гусей клином летит мимо носа Leon, головы поворачиваются на его лицо; клин разворачивается.",
+   "set": "SKY",
+   "hud": "5:07 PM · 29,032 ft",
+   "notes": "клин делает разворот",
+   "assets": "BG sky; GEESE; LEON face",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 370.2,
+   "end": 375.8,
+   "line": "At ten past five, a passenger jet glides by just under his chin, right around thirty-five thousand feet.",
+   "scene": "HUD 5:10 PM, 36,864 фута. Пассажирский самолёт скользит под подбородком Leon, у самого воротника.",
+   "set": "SKY",
+   "hud": "5:10 PM · 36,864 ft",
+   "notes": "самолёт проходит под подбородком на «just under his chin»",
+   "assets": "BG sky; PROP jet; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 375.8,
+   "end": 379.6,
+   "line": "The pilot picks up the radio. \"Tower, there's a kid in my flight path.\"",
+   "scene": "Кабина пилота: пилот снимает радио, смотрит в лобовое стекло, где видно огромный подбородок.",
+   "set": "COCKPIT",
+   "hud": "—",
+   "notes": "пилот поворачивается к радио",
+   "assets": "COCKPIT (код); PILOT; PROP radio",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 379.6,
+   "end": 383.0,
+   "line": "\"Say again?\" \"Big kid. Red shirt. He's waving.\"",
+   "scene": "Разделённый кадр: диспетчер башни слева, пилот справа.",
+   "set": "void",
+   "hud": "—",
+   "notes": "реплики по очереди",
+   "assets": "CONTROLLER; PILOT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 383.0,
+   "end": 386.7,
+   "line": "Leon waves with one finger, and the whole plane tilts.",
+   "scene": "Leon машет одним пальцем, самолёт заваливается на крыло и выправляется.",
+   "set": "SKY",
+   "hud": "5:10 PM · 36,864 ft",
+   "notes": "самолёт накренился от ветра пальца",
+   "assets": "BG sky; PROP jet; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 386.7,
+   "end": 389.6,
+   "line": "Down below, Mom's megaphone is getting harder to hear.",
+   "scene": "Вид с головы вниз: крошечные облака, далеко внизу мама с мегафоном, звуковые дуги слабеют и тают.",
+   "set": "SKY",
+   "hud": "5:10 PM · 36,864 ft",
+   "notes": "слова мамы тают, дуги бледнеют",
+   "assets": "BG sky; MOM tiny; PROP megaphone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 389.6,
+   "end": 392.2,
+   "line": "In half an hour, it will stop completely.",
+   "scene": "Циферблат с отмеченным отрезком 30 минут и значок «без звука».",
+   "set": "void",
+   "hud": "—",
+   "notes": "сектор часов заливается серым",
+   "assets": "PROP clock; PROP icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 392.2,
+   "end": 396.9,
+   "line": "At twenty to six, Leon's head crosses sixty-two miles above the ground.",
+   "scene": "Leon поднимает голову из последних облаков; чёрное небо с синей полоской атмосферы внизу, звёзды. HUD: 5:41, 62 мили.",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "небо темнеет вверх, звёзды зажигаются",
+   "assets": "BG space edge; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 396.9,
+   "end": 399.0,
+   "line": "That's the edge of space.",
+   "scene": "Тонкая линия границы космоса рисуется поперёк кадра, голова Leon пересекает её.",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "линия рисуется на «edge of space»",
+   "assets": "BG space edge; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 399.0,
+   "end": 403.1,
+   "line": "Sound needs air to travel, and up here, there's almost none.",
+   "scene": "Мегафон испускает дуги звука, которые доходят до пустоты и исчезают: сверху слово «AIR» перечёркнуто.",
+   "set": "void",
+   "hud": "—",
+   "notes": "дуги затухают у границы",
+   "assets": "PROP megaphone; PROP sound arcs",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 403.1,
+   "end": 405.2,
+   "line": "So the megaphone goes quiet.",
+   "scene": "Крошечная фигурка мамы с мегафоном внизу: рот открыт, звука нет, над ней значок «mute».",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "тишина, тихий «пшш»",
+   "assets": "BG space edge; MOM tiny; PROP megaphone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 405.2,
+   "end": 409.2,
+   "line": "Mom goes quiet. Nora, mid-sentence, goes quiet.",
+   "scene": "Mom и Nora с раскрытыми ртами: Nora на полуслове, рот застыл, текста нет.",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "рты шевелятся без звука",
+   "assets": "NORA; MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 409.2,
+   "end": 413.4,
+   "line": "The whole town goes quiet, like somebody pressed mute on the planet.",
+   "scene": "Планета с большим пальцем, жмущим кнопку MUTE на всём городке.",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "палец жмёт кнопку, мир «выключается»",
+   "assets": "BG space edge; PROP planet; PROP mute button",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 413.4,
+   "end": 416.6,
+   "line": "Leon can't hear his sister. He can't feel his feet.",
+   "scene": "Лицо Leon: ухо навострено, сестру не слышно; затем взгляд вниз на ноги, они далеко и в тумане, над ними перечёркнутый значок ощущения.",
+   "set": "EDGE",
+   "hud": "5:41 PM · 62 mi",
+   "notes": "взгляд идёт вниз по телу",
+   "assets": "BG space edge; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 416.6,
+   "end": 420.4,
+   "line": "They could be freezing right now, and he'd hear about it in fifteen minutes.",
+   "scene": "Огромные стопы далеко внизу покрыты инеем и сосульками, рядом таймер «15 MIN».",
+   "set": "EDGE",
+   "hud": "5:50 PM · 112 mi",
+   "notes": "иней нарастает на стопах",
+   "assets": "BG space edge; LEON feet; PROP timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 420.4,
+   "end": 425.5,
+   "line": "He can't even see his own street, just a faint orange smudge on a dark planet.",
+   "scene": "Тёмная планета из космоса, едва заметное оранжевое пятнышко: его улица; Leon вдалеке смотрит вниз, HUD 5:50.",
+   "set": "ORBIT",
+   "hud": "5:50 PM · 112 mi",
+   "notes": "пятнышко чуть мерцает",
+   "assets": "BG orbit; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 425.5,
+   "end": 431.8,
+   "line": "Six o'clock. Leon is two hundred and twenty-three miles tall now, about as high as the space station.",
+   "scene": "HUD щёлкает на 6:00 PM, 223 мили: Leon на фоне чёрного неба. Затем рядом с Leon на той же высоте проплывает космическая станция (панели солнечных батарей).",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "HUD щёлкает на «Six o'clock»; станция проплывает слева направо на «about as high»",
+   "assets": "BG orbit; LEON; HUD; PROP ISS (код)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 431.8,
+   "end": 435.8,
+   "line": "Somewhere down there, a cake sits on a table with eight candles.",
+   "scene": "Вставка: праздничный стол в доме, торт с восемью горящими свечками.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "огоньки свечей мерцают",
+   "assets": "BG kitchen (ролик 02); PROP cake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 435.8,
+   "end": 440.3,
+   "line": "Last year, he missed her birthday for soccer practice, and she blew out the candles alone.",
+   "scene": "Воспоминание в сепии: прошлый год, Leon гоняет мяч на поле; сплит: Nora одна за столом, дует на свечи.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "сепия, два плана рядом",
+   "assets": "BG field; LEON; NORA; PROP cake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 440.3,
+   "end": 442.8,
+   "line": "This year, he promised. He swore.",
+   "scene": "Leon над планетой, лицо серьёзное, мизинец поднят как клятва.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "мизинец поднимается на «promised»",
+   "assets": "BG orbit; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 442.8,
+   "end": 447.0,
+   "line": "And he's going to miss it again, by two hundred miles.",
+   "scene": "Размерная линия «223 MILES» от лица Leon вниз к городку; Leon грустнеет.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "линия вытягивается вниз",
+   "assets": "BG orbit; LEON; PROP dimension line",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 447.0,
+   "end": 450.0,
+   "line": "Then the orange smudge blinks.",
+   "scene": "Крупно: оранжевое пятнышко внизу, один раз мигает.",
+   "set": "ORBIT",
+   "hud": "—",
+   "notes": "пятно гаснет и вспыхивает",
+   "assets": "BG orbit; PROP town lights (код)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 450.0,
+   "end": 453.4,
+   "line": "Off. On. Off. On.",
+   "scene": "Четыре мигания подряд ровно по словам: Off, On, Off, On; лицо Leon в тени, в зрачках отражаются вспышки.",
+   "set": "ORBIT",
+   "hud": "—",
+   "notes": "мигания синхронны со словами (450.2, 451.0, 451.8, 452.6)",
+   "assets": "BG orbit; PROP town lights; LEON eyes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 453.4,
+   "end": 456.7,
+   "line": "Leon counts. Three. Five. Eight.",
+   "scene": "Leon считает вслух: цифры 3, 5, 8 всплывают над городком на мигающих вспышках.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "каждая цифра с вспышкой",
+   "assets": "BG orbit; PROP town lights; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 456.7,
+   "end": 462.2,
+   "line": "It's Nora's idea. One blink for every year, and every house in town joined in.",
+   "scene": "Nora у выключателя на крыльце, лампочка идеи над головой, затем вся улица: окна домов мигают по очереди, соседи в окнах.",
+   "set": "NIGHT",
+   "hud": "—",
+   "notes": "окна домов мигают волной слева направо",
+   "assets": "BG street night (ролик 02); NORA; PROP switch; NEIGHBORS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 462.2,
+   "end": 466.9,
+   "line": "Leon can't answer with his voice. So he does the only thing that works at his size.",
+   "scene": "Leon открывает рот, звука нет, значок «mute»; потом подбородок на ладони, мысль, лампочка.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "рот шевелится, потом озарение",
+   "assets": "BG orbit; LEON; PROP icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 466.9,
+   "end": 470.9,
+   "line": "He lifts one enormous hand in front of the stars, and for a moment,",
+   "scene": "Leon поднимает огромную ладонь на фоне звёзд; ладонь закрывает звёзды и свет планеты.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "ладонь поднимается, звёзды гаснут за ней",
+   "assets": "BG orbit; LEON hand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 470.9,
+   "end": 476.1,
+   "line": "a whole town looks up and sees a hand-shaped hole in the sky.",
+   "scene": "Снизу, от земли: ночной городок, вся улица смотрит вверх; в звёздном небе тёмная дыра в форме огромной ладони.",
+   "set": "NIGHT",
+   "hud": "—",
+   "notes": "силуэт ладони плывёт по звёздам",
+   "assets": "BG street night (ролик 02); NEIGHBORS; NORA; MOM; hand silhouette (код)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 476.1,
+   "end": 480.6,
+   "line": "Then he sings. Happy birthday to you.",
+   "scene": "Leon поёт с закрытыми глазами, над ним беззвучные ноты уплывают.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "ноты плывут вверх и гаснут",
+   "assets": "BG orbit; LEON; PROP notes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 480.6,
+   "end": 486.8,
+   "line": "No sound at all, just a boy in space, singing to a town that can't hear him.",
+   "scene": "Крупно: беззвучные волны звука гаснут у лица Leon, на экране плоская линия. Затем общий план: Leon над ночной планетой поёт, внизу городок светится, ноты тают в пустоте.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "плоская линия на «no sound», камера медленно отъезжает на «a boy in space»",
+   "assets": "BG orbit; LEON; PROP notes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 486.8,
+   "end": 490.3,
+   "line": "Down below, one tiny flame goes out.",
+   "scene": "Nora задувает последнюю свечку на торте, тонкая струйка дыма, соседи у стола аплодируют.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "пламя гаснет на «goes out», дымок завивается",
+   "assets": "BG kitchen (ролик 02); NORA; PROP cake; NEIGHBORS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 490.3,
+   "end": 495.9,
+   "line": "Leon can't hear the cheering. He won't feel Nora's hug on his shoe for about an hour.",
+   "scene": "Leon смотрит вниз; рядом беззвучные аплодисменты городка в пузыре; потом Nora обнимает огромный кроссовок (крошечная).",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "пузырь с толпой, затем вставка с Nora у кроссовка",
+   "assets": "BG orbit; LEON; NORA; LEON shoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 495.9,
+   "end": 497.8,
+   "line": "He's fine with that. He made it.",
+   "scene": "Leon улыбается, поднимает кулак.",
+   "set": "ORBIT",
+   "hud": "6:00 PM · 223 mi",
+   "notes": "кулак вверх на «He made it»",
+   "assets": "BG orbit; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s128",
+   "start": 497.8,
+   "end": 501.4,
+   "line": "Six-ten. The space station glides past his belt buckle.",
+   "scene": "HUD 6:10 PM, станция проплывает у пряжки ремня Leon.",
+   "set": "ORBIT",
+   "hud": "6:10 PM · 446 mi",
+   "notes": "станция скользит мимо ремня",
+   "assets": "BG orbit; LEON; PROP ISS; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s129",
+   "start": 501.4,
+   "end": 507.4,
+   "line": "Six fifty-one. Leon is taller than the Earth is wide, nearly eight thousand miles.",
+   "scene": "HUD щёлкает 6:51 PM. Leon рядом с Землёй: Земля вся умещается под его локтем.",
+   "set": "ORBIT",
+   "hud": "6:51 PM · 7,918+ mi",
+   "notes": "Leon выше Земли, размерная линия",
+   "assets": "BG orbit; PROP Earth; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s130",
+   "start": 507.4,
+   "end": 512.0,
+   "line": "And the Moon? It's two hundred and thirty-nine thousand miles away.",
+   "scene": "Чёрный космос, далеко маленькая Луна, пунктирная стрелка от Leon к ней.",
+   "set": "void",
+   "hud": "—",
+   "notes": "пунктир растягивается к Луне",
+   "assets": "LEON; PROP moon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s131",
+   "start": 512.0,
+   "end": 515.3,
+   "line": "At this pace, Leon gets there at seven forty-one.",
+   "scene": "HUD щёлкает на 7:41 PM; Leon тянет руку к Луне; пунктир сокращается.",
+   "set": "void",
+   "hud": "7:41 PM · 238,855 mi",
+   "notes": "рука почти дотягивается",
+   "assets": "LEON; PROP moon; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s132",
+   "start": 515.3,
+   "end": 520.0,
+   "line": "Then the doubling keeps going. By about nine o'clock, he's tall enough to reach the Sun.",
+   "scene": "Счётчик часов быстро мелькает вперёд; Leon тянется к Солнцу, рядом огромное жёлтое Солнце.",
+   "set": "void",
+   "hud": "≈ 9:00 PM · …",
+   "notes": "часы мелькают на «keeps going»",
+   "assets": "LEON; PROP sun; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s133",
+   "start": 520.0,
+   "end": 525.6,
+   "line": "But first, the Moon. It sits there, round and calm and very far away, and",
+   "scene": "Луна крупно, спокойная, круглая; Leon смотрит с краю кадра.",
+   "set": "void",
+   "hud": "—",
+   "notes": "Луна медленно появляется",
+   "assets": "PROP moon; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s134",
+   "start": 525.6,
+   "end": 530.5,
+   "line": "for the first time in four billion years, something is looking back at it.",
+   "scene": "Огромный глаз Leon въезжает в кадр справа, в зрачке отражается Луна; Луна замерла.",
+   "set": "void",
+   "hud": "—",
+   "notes": "глаз моргает, отражение дрожит",
+   "assets": "PROP moon; LEON eye",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s135",
+   "start": 530.5,
+   "end": 533.9,
+   "line": "So tell us: where would you stop growing?",
+   "scene": "Leon на ростомере с вопросительными знаками, раздумывает.",
+   "set": "void",
+   "hud": "—",
+   "notes": "линейка, знаки вопроса",
+   "assets": "LEON; PROP height chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s136",
+   "start": 533.9,
+   "end": 537.6,
+   "line": "And would you have made it to the party? Let us know in the comments.",
+   "scene": "Торт с восемью свечками и Leon рядом; затем иконка «комментарии» подпрыгивает.",
+   "set": "void",
+   "hud": "—",
+   "notes": "иконка комментария подпрыгивает на «comments»",
+   "assets": "LEON; PROP cake; PROP comment icon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s137",
+   "start": 537.6,
+   "end": 542.1,
+   "line": "And if you want to see what happens when Leon meets the Moon, subscribe for part two.",
+   "scene": "Кнопка Subscribe и колокольчик, Leon показывает на них, на фоне Луна.",
+   "set": "void",
+   "hud": "—",
+   "notes": "колокольчик звенит, кнопка нажимается на «subscribe»",
+   "assets": "LEON; PROP subscribe; PROP moon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

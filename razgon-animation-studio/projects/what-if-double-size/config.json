@@ -1,0 +1,24 @@
+{
+ "title": "What If You Doubled in Size Every 10 Minutes",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "stylePack": "doodle",
+ "style": "clean",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
+ "duration": 542.129,
+ "captions": false,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -17
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

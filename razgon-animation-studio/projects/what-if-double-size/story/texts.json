@@ -1,0 +1,1100 @@
+[
+ {
+  "t": 0.3,
+  "s": "3:00 PM",
+  "k": "lbl",
+  "sc": 1
+ },
+ {
+  "t": 7.2,
+  "s": "YOU MUST BE THIS SHORT TO RIDE",
+  "k": "lbl",
+  "sc": 2
+ },
+ {
+  "t": 10.5,
+  "s": "4 FT 6 IN",
+  "k": "hud",
+  "sc": 3
+ },
+ {
+  "t": 12.1,
+  "s": "NO PROBLEM",
+  "k": "cap",
+  "sc": 3
+ },
+ {
+  "t": 13.3,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 4
+ },
+ {
+  "t": 14.6,
+  "s": "3:10 PM · 9 FT",
+  "k": "hud",
+  "sc": 4
+ },
+ {
+  "t": 22.6,
+  "s": "SIR, YOU'RE OVER THE LIMIT.",
+  "k": "say",
+  "sc": 6
+ },
+ {
+  "t": 24.8,
+  "s": "WHICH LIMIT?",
+  "k": "say",
+  "sc": 7
+ },
+ {
+  "t": 25.9,
+  "s": "ALL OF THEM.",
+  "k": "say",
+  "sc": 7
+ },
+ {
+  "t": 32.8,
+  "s": "THIS MORNING",
+  "k": "cap",
+  "sc": 9
+ },
+ {
+  "t": 33.9,
+  "s": "6:00 PM SHARP",
+  "k": "cap",
+  "sc": 10
+ },
+ {
+  "t": 37.0,
+  "s": "NORA TURNS 8",
+  "k": "cap",
+  "sc": 10
+ },
+ {
+  "t": 42.0,
+  "s": "ENORMOUS.",
+  "k": "cap",
+  "sc": 11
+ },
+ {
+  "t": 44.5,
+  "s": "WHAT IF YOU DOUBLED IN SIZE EVERY 10 MINUTES?",
+  "k": "cap",
+  "sc": 12
+ },
+ {
+  "t": 48.1,
+  "s": "NOT EVERY YEAR",
+  "k": "cap",
+  "sc": 13
+ },
+ {
+  "t": 49.2,
+  "s": "EVERY 10 MIN",
+  "k": "cap",
+  "sc": 13
+ },
+ {
+  "t": 52.5,
+  "s": "10-YEAR-OLD ≈ 4 FT 6 IN",
+  "k": "cap",
+  "sc": 14
+ },
+ {
+  "t": 55.3,
+  "s": "NOT GROWING UP",
+  "k": "cap",
+  "sc": 15
+ },
+ {
+  "t": 56.6,
+  "s": "GROWING OUT OF THE NEIGHBORHOOD",
+  "k": "cap",
+  "sc": 15
+ },
+ {
+  "t": 58.6,
+  "s": "6 DOUBLINGS",
+  "k": "cap",
+  "sc": 16
+ },
+ {
+  "t": 59.5,
+  "s": "×64",
+  "k": "cap",
+  "sc": 16
+ },
+ {
+  "t": 61.6,
+  "s": "HERE'S HOW IT WORKS",
+  "k": "cap",
+  "sc": 17
+ },
+ {
+  "t": 62.9,
+  "s": "RULE 1",
+  "k": "plate",
+  "sc": 17
+ },
+ {
+  "t": 64.1,
+  "s": "EVERY 10 MIN: HEIGHT ×2",
+  "k": "cap",
+  "sc": 18
+ },
+ {
+  "t": 64.8,
+  "s": "STARTING AT 3:00 PM",
+  "k": "cap",
+  "sc": 18
+ },
+ {
+  "t": 67.7,
+  "s": "4 FT 6 IN",
+  "k": "lbl",
+  "sc": 19
+ },
+ {
+  "t": 68.7,
+  "s": "9 FT",
+  "k": "lbl",
+  "sc": 19
+ },
+ {
+  "t": 69.7,
+  "s": "18 FT",
+  "k": "lbl",
+  "sc": 19
+ },
+ {
+  "t": 70.7,
+  "s": "36 FT",
+  "k": "lbl",
+  "sc": 19
+ },
+ {
+  "t": 74.6,
+  "s": "NOPE",
+  "k": "cap",
+  "sc": 20
+ },
+ {
+  "t": 77.3,
+  "s": "RULE 2",
+  "k": "plate",
+  "sc": 21
+ },
+ {
+  "t": 79.2,
+  "s": "NEVER SLOWS DOWN",
+  "k": "cap",
+  "sc": 21
+ },
+ {
+  "t": 80.4,
+  "s": "NEVER STOPS",
+  "k": "cap",
+  "sc": 21
+ },
+ {
+  "t": 81.6,
+  "s": "10 MIN = 10 MIN",
+  "k": "cap",
+  "sc": 22
+ },
+ {
+  "t": 84.7,
+  "s": "LUNCH",
+  "k": "cap",
+  "sc": 23
+ },
+ {
+  "t": 85.3,
+  "s": "A NAP",
+  "k": "cap",
+  "sc": 23
+ },
+ {
+  "t": 85.8,
+  "s": "BATHROOM BREAK",
+  "k": "cap",
+  "sc": 23
+ },
+ {
+  "t": 86.9,
+  "s": "CLOCK DOESN'T PAUSE",
+  "k": "cap",
+  "sc": 23
+ },
+ {
+  "t": 88.9,
+  "s": "RULE 3",
+  "k": "plate",
+  "sc": 24
+ },
+ {
+  "t": 90.3,
+  "s": "EVERYTHING GROWS",
+  "k": "cap",
+  "sc": 24
+ },
+ {
+  "t": 91.9,
+  "s": "EXCEPT PHYSICS",
+  "k": "cap",
+  "sc": 24
+ },
+ {
+  "t": 95.5,
+  "s": "PHYSICS: SAME SIZE",
+  "k": "cap",
+  "sc": 25
+ },
+ {
+  "t": 98.7,
+  "s": "EXCEPTION: YOU CAN ALWAYS BREATHE",
+  "k": "cap",
+  "sc": 26
+ },
+ {
+  "t": 101.7,
+  "s": "THE END",
+  "k": "plate",
+  "sc": 27
+ },
+ {
+  "t": 102.9,
+  "s": "A VERY SHORT VIDEO",
+  "k": "cap",
+  "sc": 27
+ },
+ {
+  "t": 104.6,
+  "s": "ONE NUMBER TO KEEP",
+  "k": "cap",
+  "sc": 28
+ },
+ {
+  "t": 107.7,
+  "s": "288 FT",
+  "k": "cap",
+  "sc": 28
+ },
+ {
+  "t": 110.2,
+  "s": "≈ 28 STORIES",
+  "k": "cap",
+  "sc": 29
+ },
+ {
+  "t": 114.6,
+  "s": "FICTION: THE DOUBLING",
+  "k": "cap",
+  "sc": 30
+ },
+ {
+  "t": 116.0,
+  "s": "REAL: EVERYTHING AROUND IT",
+  "k": "cap",
+  "sc": 30
+ },
+ {
+  "t": 117.7,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 31
+ },
+ {
+  "t": 118.4,
+  "s": "9 FT",
+  "k": "lbl",
+  "sc": 31
+ },
+ {
+  "t": 123.0,
+  "s": "NO JUMP",
+  "k": "cap",
+  "sc": 32
+ },
+ {
+  "t": 129.3,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 34
+ },
+ {
+  "t": 129.3,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 34
+ },
+ {
+  "t": 129.8,
+  "s": "3:20 PM · 18 FT",
+  "k": "hud",
+  "sc": 34
+ },
+ {
+  "t": 141.5,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 37
+ },
+ {
+  "t": 141.5,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 37
+ },
+ {
+  "t": 142.6,
+  "s": "3:30 PM · 36 FT",
+  "k": "hud",
+  "sc": 37
+ },
+ {
+  "t": 145.9,
+  "s": "NOT AROUND IT",
+  "k": "cap",
+  "sc": 38
+ },
+ {
+  "t": 146.9,
+  "s": "OVER IT",
+  "k": "cap",
+  "sc": 38
+ },
+ {
+  "t": 148.8,
+  "s": "LIKE TOYS",
+  "k": "cap",
+  "sc": 38
+ },
+ {
+  "t": 155.6,
+  "s": "HONK!",
+  "k": "cap",
+  "sc": 40
+ },
+ {
+  "t": 167.7,
+  "s": "HE'S LEARNING",
+  "k": "cap",
+  "sc": 43
+ },
+ {
+  "t": 172.8,
+  "s": "LIKE A ROOM FULL OF SLEEPING CATS",
+  "k": "cap",
+  "sc": 44
+ },
+ {
+  "t": 176.9,
+  "s": "3 BALLS · 1 SHOE · 1 SEAGULL",
+  "k": "cap",
+  "sc": 46
+ },
+ {
+  "t": 181.5,
+  "s": "PLUS",
+  "k": "plate",
+  "sc": 47
+ },
+ {
+  "t": 181.5,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 47
+ },
+ {
+  "t": 182.4,
+  "s": "3:40 PM · 72 FT",
+  "k": "hud",
+  "sc": 47
+ },
+ {
+  "t": 186.0,
+  "s": "HIS HOUSE",
+  "k": "cap",
+  "sc": 48
+ },
+ {
+  "t": 196.1,
+  "s": "YOU'RE LATE!",
+  "k": "say",
+  "sc": 50
+ },
+ {
+  "t": 199.9,
+  "s": "I'M NOT LATE!",
+  "k": "say",
+  "sc": 51
+ },
+ {
+  "t": 201.2,
+  "s": "YOU'RE HUGE!",
+  "k": "say",
+  "sc": 51
+ },
+ {
+  "t": 203.3,
+  "s": "BIGGEST KID IN THE WORLD",
+  "k": "cap",
+  "sc": 52
+ },
+ {
+  "t": 207.9,
+  "s": "BUT THEN...",
+  "k": "cap",
+  "sc": 53
+ },
+ {
+  "t": 209.0,
+  "s": "PROBLEM 1",
+  "k": "plate",
+  "sc": 54
+ },
+ {
+  "t": 209.0,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 54
+ },
+ {
+  "t": 210.3,
+  "s": "3:50 PM · 144 FT",
+  "k": "hud",
+  "sc": 54
+ },
+ {
+  "t": 214.4,
+  "s": "ONE STEP FORWARD...",
+  "k": "cap",
+  "sc": 55
+ },
+ {
+  "t": 216.5,
+  "s": "...ONE STEP BACK",
+  "k": "cap",
+  "sc": 55
+ },
+ {
+  "t": 220.8,
+  "s": "GALILEO · 1638",
+  "k": "cap",
+  "sc": 56
+ },
+ {
+  "t": 224.2,
+  "s": "2× SIZE",
+  "k": "cap",
+  "sc": 57
+ },
+ {
+  "t": 226.4,
+  "s": "8× WEIGHT",
+  "k": "cap",
+  "sc": 57
+ },
+ {
+  "t": 228.8,
+  "s": "BONES: ×4",
+  "k": "cap",
+  "sc": 58
+ },
+ {
+  "t": 231.5,
+  "s": "STRENGTH = THICKNESS",
+  "k": "cap",
+  "sc": 58
+ },
+ {
+  "t": 231.9,
+  "s": "WEIGHT = EVERYTHING",
+  "k": "cap",
+  "sc": 59
+ },
+ {
+  "t": 235.2,
+  "s": "5 DOUBLINGS",
+  "k": "cap",
+  "sc": 60
+ },
+ {
+  "t": 237.1,
+  "s": "WEIGHT: ×32,768",
+  "k": "cap",
+  "sc": 60
+ },
+ {
+  "t": 241.9,
+  "s": "BONES: ×1,024",
+  "k": "cap",
+  "sc": 61
+ },
+ {
+  "t": 247.7,
+  "s": "SPLAT",
+  "k": "cap",
+  "sc": 63
+ },
+ {
+  "t": 250.4,
+  "s": "OKAY.",
+  "k": "say",
+  "sc": 64
+ },
+ {
+  "t": 251.9,
+  "s": "NEW PLAN.",
+  "k": "say",
+  "sc": 64
+ },
+ {
+  "t": 252.8,
+  "s": "NOBODY MOVES.",
+  "k": "say",
+  "sc": 64
+ },
+ {
+  "t": 260.0,
+  "s": "THE PRICE",
+  "k": "cap",
+  "sc": 66
+ },
+ {
+  "t": 261.4,
+  "s": "NO MORE STEPS",
+  "k": "cap",
+  "sc": 66
+ },
+ {
+  "t": 263.3,
+  "s": "NOT TOWARD HIS HOUSE",
+  "k": "cap",
+  "sc": 67
+ },
+ {
+  "t": 264.4,
+  "s": "NOT TOWARD NORA",
+  "k": "cap",
+  "sc": 67
+ },
+ {
+  "t": 266.3,
+  "s": "FOR THE REST OF THE STORY",
+  "k": "cap",
+  "sc": 68
+ },
+ {
+  "t": 267.8,
+  "s": "LOUD",
+  "k": "cap",
+  "sc": 69
+ },
+ {
+  "t": 269.9,
+  "s": "QUIET",
+  "k": "cap",
+  "sc": 69
+ },
+ {
+  "t": 272.2,
+  "s": "PROBLEM 2",
+  "k": "plate",
+  "sc": 70
+ },
+ {
+  "t": 272.2,
+  "s": "4:40 PM",
+  "k": "hud",
+  "sc": 70
+ },
+ {
+  "t": 272.2,
+  "s": "+10 MIN ×4",
+  "k": "hudtick",
+  "sc": 70
+ },
+ {
+  "t": 275.7,
+  "s": "4,608 FT · 0.87 MI",
+  "k": "hud",
+  "sc": 70
+ },
+ {
+  "t": 282.4,
+  "s": "NOTHING HAPPENS",
+  "k": "cap",
+  "sc": 72
+ },
+ {
+  "t": 285.0,
+  "s": "14 SEC LATER",
+  "k": "cap",
+  "sc": 73
+ },
+ {
+  "t": 286.8,
+  "s": "HA.",
+  "k": "say",
+  "sc": 73
+ },
+ {
+  "t": 287.3,
+  "s": "HAHAHA",
+  "k": "say",
+  "sc": 74
+ },
+ {
+  "t": 287.9,
+  "s": "WAIT, WHAT?",
+  "k": "say",
+  "sc": 74
+ },
+ {
+  "t": 290.4,
+  "s": "HERE'S WHY",
+  "k": "cap",
+  "sc": 75
+ },
+ {
+  "t": 293.6,
+  "s": "SIGNAL SPEED ≈ 120 M/S",
+  "k": "cap",
+  "sc": 75
+ },
+ {
+  "t": 297.0,
+  "s": "FOOT → BRAIN: 1 YARD",
+  "k": "cap",
+  "sc": 76
+ },
+ {
+  "t": 300.1,
+  "s": "MORE THAN 1,000 M",
+  "k": "cap",
+  "sc": 77
+ },
+ {
+  "t": 303.9,
+  "s": "≈ 14 SEC",
+  "k": "cap",
+  "sc": 78
+ },
+ {
+  "t": 306.6,
+  "s": "LIVING IN THE PAST",
+  "k": "cap",
+  "sc": 79
+ },
+ {
+  "t": 311.4,
+  "s": "SNEAKER > 2 FOOTBALL FIELDS",
+  "k": "cap",
+  "sc": 81
+ },
+ {
+  "t": 319.8,
+  "s": "14 SEC",
+  "k": "cap",
+  "sc": 83
+ },
+ {
+  "t": 323.1,
+  "s": "LEON, DO NOT MOVE!",
+  "k": "say",
+  "sc": 84
+ },
+ {
+  "t": 326.9,
+  "s": "I'M ON YOUR LEFT SHOE!",
+  "k": "say",
+  "sc": 85
+ },
+ {
+  "t": 328.7,
+  "s": "OKAY. OKAY. I'M NOT MOVING.",
+  "k": "say",
+  "sc": 85
+ },
+ {
+  "t": 331.3,
+  "s": "NEW RULE",
+  "k": "plate",
+  "sc": 86
+ },
+ {
+  "t": 332.7,
+  "s": "NOTHING MOVES UNLESS MOM SAYS SO",
+  "k": "cap",
+  "sc": 86
+ },
+ {
+  "t": 336.6,
+  "s": "+10 MIN ×2",
+  "k": "hudtick",
+  "sc": 87
+ },
+ {
+  "t": 338.4,
+  "s": "5:00 PM · 3.5 MI",
+  "k": "hud",
+  "sc": 87
+ },
+ {
+  "t": 339.5,
+  "s": "AIR",
+  "k": "cap",
+  "sc": 87
+ },
+ {
+  "t": 341.1,
+  "s": "5:00 PM · 3.5 MI UP",
+  "k": "hud",
+  "sc": 88
+ },
+ {
+  "t": 347.3,
+  "s": "5:07 PM · 29,032 FT",
+  "k": "hud",
+  "sc": 90
+ },
+ {
+  "t": 350.4,
+  "s": "MOUNT EVEREST",
+  "k": "cap",
+  "sc": 90
+ },
+ {
+  "t": 353.7,
+  "s": "AIR PRESSURE ≈ 1/3 OF SEA LEVEL",
+  "k": "cap",
+  "sc": 91
+ },
+ {
+  "t": 356.9,
+  "s": "CLIMBERS NEED OXYGEN TANKS",
+  "k": "cap",
+  "sc": 92
+ },
+ {
+  "t": 358.7,
+  "s": "LEON NEEDS NOTHING",
+  "k": "cap",
+  "sc": 93
+ },
+ {
+  "t": 360.8,
+  "s": "RULE 3: YOU CAN ALWAYS BREATHE",
+  "k": "cap",
+  "sc": 93
+ },
+ {
+  "t": 370.2,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 96
+ },
+ {
+  "t": 370.3,
+  "s": "5:10 PM · 36,864 FT",
+  "k": "hud",
+  "sc": 96
+ },
+ {
+  "t": 374.3,
+  "s": "JET: ≈ 35,000 FT",
+  "k": "cap",
+  "sc": 96
+ },
+ {
+  "t": 377.4,
+  "s": "TOWER, THERE'S A KID IN MY FLIGHT PATH.",
+  "k": "say",
+  "sc": 97
+ },
+ {
+  "t": 379.6,
+  "s": "SAY AGAIN?",
+  "k": "say",
+  "sc": 98
+ },
+ {
+  "t": 380.5,
+  "s": "BIG KID. RED SHIRT. HE'S WAVING.",
+  "k": "say",
+  "sc": 98
+ },
+ {
+  "t": 387.7,
+  "s": "LEON, DO NOT M...",
+  "k": "say",
+  "sc": 100
+ },
+ {
+  "t": 389.8,
+  "s": "IN 30 MIN: SILENCE",
+  "k": "cap",
+  "sc": 101
+ },
+ {
+  "t": 392.8,
+  "s": "5:41 PM · 62 MILES",
+  "k": "hud",
+  "sc": 102
+ },
+ {
+  "t": 397.5,
+  "s": "EDGE OF SPACE",
+  "k": "cap",
+  "sc": 103
+ },
+ {
+  "t": 399.0,
+  "s": "SOUND NEEDS AIR",
+  "k": "cap",
+  "sc": 104
+ },
+ {
+  "t": 411.6,
+  "s": "MUTE",
+  "k": "cap",
+  "sc": 107
+ },
+ {
+  "t": 419.0,
+  "s": "15 MIN",
+  "k": "cap",
+  "sc": 109
+ },
+ {
+  "t": 422.7,
+  "s": "FAINT ORANGE SMUDGE",
+  "k": "cap",
+  "sc": 110
+ },
+ {
+  "t": 425.5,
+  "s": "6:00 PM · 223 MILES",
+  "k": "hud",
+  "sc": 111
+ },
+ {
+  "t": 425.5,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 111
+ },
+ {
+  "t": 430.6,
+  "s": "≈ SPACE STATION ALTITUDE",
+  "k": "cap",
+  "sc": 111
+ },
+ {
+  "t": 434.5,
+  "s": "8 CANDLES",
+  "k": "cap",
+  "sc": 112
+ },
+ {
+  "t": 435.8,
+  "s": "LAST YEAR",
+  "k": "cap",
+  "sc": 113
+ },
+ {
+  "t": 440.9,
+  "s": "HE PROMISED.",
+  "k": "cap",
+  "sc": 114
+ },
+ {
+  "t": 441.8,
+  "s": "HE SWORE.",
+  "k": "cap",
+  "sc": 114
+ },
+ {
+  "t": 444.7,
+  "s": "223 MILES AWAY",
+  "k": "cap",
+  "sc": 115
+ },
+ {
+  "t": 450.0,
+  "s": "OFF",
+  "k": "cap",
+  "sc": 117
+ },
+ {
+  "t": 450.8,
+  "s": "ON",
+  "k": "cap",
+  "sc": 117
+ },
+ {
+  "t": 454.3,
+  "s": "3",
+  "k": "cap",
+  "sc": 118
+ },
+ {
+  "t": 455.1,
+  "s": "5",
+  "k": "cap",
+  "sc": 118
+ },
+ {
+  "t": 455.9,
+  "s": "8",
+  "k": "cap",
+  "sc": 118
+ },
+ {
+  "t": 458.0,
+  "s": "ONE BLINK FOR EVERY YEAR",
+  "k": "cap",
+  "sc": 119
+ },
+ {
+  "t": 467.2,
+  "s": "ONE HAND",
+  "k": "cap",
+  "sc": 121
+ },
+ {
+  "t": 473.3,
+  "s": "A HAND-SHAPED HOLE IN THE SKY",
+  "k": "cap",
+  "sc": 122
+ },
+ {
+  "t": 476.1,
+  "s": "♪ HAPPY BIRTHDAY TO YOU ♪",
+  "k": "cap",
+  "sc": 123
+ },
+ {
+  "t": 480.6,
+  "s": "NO SOUND AT ALL",
+  "k": "cap",
+  "sc": 124
+ },
+ {
+  "t": 482.3,
+  "s": "A BOY IN SPACE",
+  "k": "cap",
+  "sc": 124
+ },
+ {
+  "t": 494.5,
+  "s": "≈ 1 HOUR DELAY",
+  "k": "cap",
+  "sc": 126
+ },
+ {
+  "t": 497.3,
+  "s": "HE MADE IT.",
+  "k": "cap",
+  "sc": 127
+ },
+ {
+  "t": 497.8,
+  "s": "6:10 PM · 446 MI",
+  "k": "hud",
+  "sc": 128
+ },
+ {
+  "t": 497.8,
+  "s": "+10 MIN",
+  "k": "hudtick",
+  "sc": 128
+ },
+ {
+  "t": 501.4,
+  "s": "6:51 PM · 7,918 MI",
+  "k": "hud",
+  "sc": 129
+ },
+ {
+  "t": 505.6,
+  "s": "EARTH: 7,918 MI WIDE",
+  "k": "cap",
+  "sc": 129
+ },
+ {
+  "t": 507.6,
+  "s": "THE MOON",
+  "k": "cap",
+  "sc": 130
+ },
+ {
+  "t": 508.7,
+  "s": "≈ 239,000 MILES",
+  "k": "cap",
+  "sc": 130
+ },
+ {
+  "t": 512.0,
+  "s": "7:41 PM · 238,855 MI",
+  "k": "hud",
+  "sc": 131
+ },
+ {
+  "t": 517.5,
+  "s": "≈ 9:00 PM",
+  "k": "hud",
+  "sc": 132
+ },
+ {
+  "t": 519.2,
+  "s": "THE SUN",
+  "k": "cap",
+  "sc": 132
+ },
+ {
+  "t": 520.0,
+  "s": "BUT FIRST, THE MOON",
+  "k": "cap",
+  "sc": 133
+ },
+ {
+  "t": 526.5,
+  "s": "4 BILLION YEARS",
+  "k": "cap",
+  "sc": 134
+ },
+ {
+  "t": 531.9,
+  "s": "WHERE WOULD YOU STOP GROWING?",
+  "k": "cap",
+  "sc": 135
+ },
+ {
+  "t": 534.2,
+  "s": "WOULD YOU HAVE MADE IT TO THE PARTY?",
+  "k": "cap",
+  "sc": 136
+ },
+ {
+  "t": 537.0,
+  "s": "COMMENT BELOW",
+  "k": "cap",
+  "sc": 136
+ },
+ {
+  "t": 540.6,
+  "s": "SUBSCRIBE",
+  "k": "cap",
+  "sc": 137
+ },
+ {
+  "t": 541.5,
+  "s": "PART 2: LEON MEETS THE MOON",
+  "k": "cap",
+  "sc": 137
+ }
+]
