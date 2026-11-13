@@ -15,7 +15,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -12,
+     "pitch": 0.8
+    },
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s002",
@@ -30,7 +47,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s003",
@@ -45,7 +66,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s004",
@@ -60,7 +98,36 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 1.2,
+     "name": "whoosh",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.5,
+     "name": "powerup",
+     "gain": -10,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s005",
@@ -75,7 +142,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s006",
@@ -90,7 +161,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s007",
@@ -105,7 +187,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.1,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s008",
@@ -120,7 +219,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -16,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s009",
@@ -135,7 +245,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
   },
   {
    "id": "s010",
@@ -150,7 +271,36 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -18,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 4.5,
+     "name": "whoosh",
+     "gain": -14,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
   },
   {
    "id": "s011",
@@ -165,7 +315,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "impact",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s012",
@@ -180,7 +347,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s013",
@@ -195,7 +369,26 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s014",
@@ -210,7 +403,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s015",
@@ -225,7 +425,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s016",
@@ -240,7 +457,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s017",
@@ -255,7 +485,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s018",
@@ -270,7 +513,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s019",
@@ -300,7 +556,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.8,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.0,
+     "name": "glitch",
+     "gain": -12,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s021",
@@ -315,7 +584,32 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.0,
+     "name": "hit",
+     "gain": -8,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s022",
@@ -330,7 +624,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s023",
@@ -345,7 +646,32 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s024",
@@ -360,7 +686,26 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s025",
@@ -375,7 +720,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s026",
@@ -390,7 +742,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s027",
@@ -405,7 +764,32 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "swish",
+     "gain": -10,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s028",
@@ -420,7 +804,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s029",
@@ -435,7 +832,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s030",
@@ -450,7 +858,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s031",
@@ -465,7 +886,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s032",
@@ -480,7 +912,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -12,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s033",
@@ -495,7 +944,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s034",
@@ -510,7 +963,36 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.0,
+     "name": "footstep",
+     "gain": -14,
+     "pitch": 0.8
+    },
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s035",
@@ -525,7 +1007,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s036",
@@ -540,7 +1026,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
   },
   {
    "id": "s037",
@@ -555,7 +1045,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s038",
@@ -570,7 +1083,42 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.5,
+     "name": "footstep",
+     "gain": -10,
+     "pitch": 0.7
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.3,
+     "name": "footstep",
+     "gain": -10,
+     "pitch": 0.7
+    },
+    {
+     "at": 2.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s039",
@@ -585,7 +1133,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s040",
@@ -600,7 +1152,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.0,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s041",
@@ -615,7 +1184,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s042",
@@ -630,7 +1203,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s043",
@@ -645,7 +1222,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s044",
@@ -660,7 +1248,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s045",
@@ -675,7 +1270,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s046",
@@ -690,7 +1289,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s047",
@@ -705,7 +1315,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
   },
   {
    "id": "s048",
@@ -720,7 +1353,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
   },
   {
    "id": "s049",
@@ -735,7 +1379,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
   },
   {
    "id": "s050",
@@ -750,7 +1398,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -34
+   }
   },
   {
    "id": "s051",
@@ -765,7 +1424,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s052",
@@ -780,7 +1452,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
   },
   {
    "id": "s053",
@@ -795,7 +1478,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
   },
   {
    "id": "s054",
@@ -810,7 +1504,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 1.3,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s055",
@@ -825,7 +1542,36 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.0,
+     "name": "footstep",
+     "gain": -9,
+     "pitch": 0.6
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.4,
+     "name": "whoosh",
+     "gain": -14,
+     "pitch": 0.7
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s056",
@@ -840,7 +1586,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s057",
@@ -855,7 +1608,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s058",
@@ -870,7 +1636,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s059",
@@ -885,7 +1664,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s060",
@@ -900,7 +1686,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s061",
@@ -915,7 +1714,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s062",
@@ -930,7 +1736,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "hit",
+     "gain": -8,
+     "pitch": 0.6
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s063",
@@ -945,7 +1762,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.2,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s064",
@@ -960,7 +1794,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.5,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.4,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s065",
@@ -975,7 +1832,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "footstep",
+     "gain": -10,
+     "pitch": 0.6
+    },
+    {
+     "at": 2.6,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.7
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s066",
@@ -990,7 +1864,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s067",
@@ -1005,7 +1896,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s068",
@@ -1020,7 +1928,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s069",
@@ -1035,7 +1954,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s070",
@@ -1050,7 +1982,42 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.5,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s071",
@@ -1065,7 +2032,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s072",
@@ -1080,7 +2051,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s073",
@@ -1095,7 +2077,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -16,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.8,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s074",
@@ -1110,7 +2115,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s075",
@@ -1125,7 +2147,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s076",
@@ -1140,7 +2175,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s077",
@@ -1155,7 +2197,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s078",
@@ -1170,7 +2219,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -16,
+     "pitch": 0.9
+    },
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s079",
@@ -1185,7 +2247,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s080",
@@ -1200,7 +2269,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s081",
@@ -1215,7 +2288,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s082",
@@ -1230,7 +2314,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s083",
@@ -1245,7 +2333,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -18,
+     "pitch": 0.7
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s084",
@@ -1260,7 +2365,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.7,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s085",
@@ -1275,7 +2391,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.9,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s086",
@@ -1290,7 +2423,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s087",
@@ -1305,7 +2451,42 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.2,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 3.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 4.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 4.1,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s088",
@@ -1320,7 +2501,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s089",
@@ -1335,7 +2527,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s090",
@@ -1350,7 +2546,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.0,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s091",
@@ -1365,7 +2584,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s092",
@@ -1380,7 +2606,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s093",
@@ -1395,7 +2632,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s094",
@@ -1410,7 +2664,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s095",
@@ -1425,7 +2683,11 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s096",
@@ -1440,7 +2702,36 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.5,
+     "name": "carpass",
+     "gain": -16,
+     "pitch": 1.0
+    },
+    {
+     "at": 4.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s097",
@@ -1455,7 +2746,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -27
+   }
   },
   {
    "id": "s098",
@@ -1470,7 +2772,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.9,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s099",
@@ -1485,7 +2800,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "whoosh",
+     "gain": -12,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s100",
@@ -1500,7 +2826,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -17,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
   },
   {
    "id": "s101",
@@ -1515,7 +2852,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s102",
@@ -1530,7 +2874,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s103",
@@ -1545,7 +2902,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s104",
@@ -1560,7 +2924,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s105",
@@ -1605,7 +2976,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -9,
+     "pitch": 0.6
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s108",
@@ -1635,7 +3019,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s110",
@@ -1650,7 +3041,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s111",
@@ -1665,7 +3063,32 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 5.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s112",
@@ -1680,7 +3103,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
   },
   {
    "id": "s113",
@@ -1695,7 +3129,18 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
   },
   {
    "id": "s114",
@@ -1710,7 +3155,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s115",
@@ -1725,7 +3183,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s116",
@@ -1740,7 +3205,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 0.7
+    },
+    {
+     "at": 1.75,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s117",
@@ -1755,7 +3233,44 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 0.7
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.1
+    },
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 0.7
+    },
+    {
+     "at": 2.4,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.1
+    }
+   ]
   },
   {
    "id": "s118",
@@ -1770,7 +3285,44 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.9,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.7,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 2.5,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.5,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.4
+    }
+   ]
   },
   {
    "id": "s119",
@@ -1785,7 +3337,30 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -10,
+     "pitch": 0.8
+    },
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.8,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s120",
@@ -1815,7 +3390,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 0.7
+    }
+   ]
   },
   {
    "id": "s122",
@@ -1830,7 +3418,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -18,
+     "pitch": 0.6
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -31
+   }
   },
   {
    "id": "s123",
@@ -1845,7 +3450,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s124",
@@ -1860,7 +3472,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s125",
@@ -1875,7 +3500,24 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "applause",
+     "gain": -18,
+     "pitch": 1.0
+    },
+    {
+     "at": 2.0,
+     "name": "whoosh",
+     "gain": -14,
+     "pitch": 0.8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
   },
   {
    "id": "s126",
@@ -1890,7 +3532,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 4.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s127",
@@ -1905,7 +3554,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "ding",
+     "gain": -12,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s128",
@@ -1920,7 +3582,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.0,
+     "name": "ding",
+     "gain": -13,
+     "pitch": 1.3
+    }
+   ]
   },
   {
    "id": "s129",
@@ -1935,7 +3610,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 4.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s130",
@@ -1950,7 +3638,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s131",
@@ -1965,7 +3666,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s132",
@@ -1980,7 +3688,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "tick",
+     "gain": -22,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s133",
@@ -1995,7 +3716,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s134",
@@ -2010,7 +3738,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -16,
+     "pitch": 0.6
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s135",
@@ -2025,7 +3766,14 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s136",
@@ -2040,7 +3788,20 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   },
   {
    "id": "s137",
@@ -2055,8 +3816,82 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -8,
+     "pitch": 1.0
+    },
+    {
+     "at": 3.1,
+     "name": "ding",
+     "gain": -10,
+     "pitch": 1.2
+    },
+    {
+     "at": 3.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    }
+   ]
   }
  ],
- "music": []
+ "music": [
+  {
+   "start": 0,
+   "end": 43.5,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 43.5,
+   "end": 117.7,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 117.7,
+   "end": 209.0,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 209.0,
+   "end": 335.4,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 335.4,
+   "end": 392.2,
+   "mood": "wonder",
+   "intensity": 0.5
+  },
+  {
+   "start": 392.2,
+   "end": 450.0,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 450.0,
+   "end": 520.0,
+   "mood": "hopeful",
+   "intensity": 0.5
+  },
+  {
+   "start": 520.0,
+   "end": 542.1,
+   "mood": "mystery",
+   "intensity": 0.42
+  }
+ ]
 }
