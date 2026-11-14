@@ -1,7 +1,7 @@
 // render.mjs — deterministic frame renderer (headless Chromium -> ffmpeg), parallel workers.
 //   node render.mjs --project projects/my-video                      full video  -> build/video_silent.mp4
 //   node render.mjs --project P --from 30 --to 45 --scale 0.5         preview a range
-//   node render.mjs --project P --sheet                               one still per shot -> build/sheets/*.png
+//   node render.mjs --project P --sheet [--phases 0.1,0.5,0.9]        one still per shot (or several moments per shot) -> build/sheets/*.png
 //   node render.mjs --project P --stills 3.5,12,40                    stills at times -> build/stills
 //   node render.mjs --project P --styles dusk,midnight,golden,neon --at 3.5,12,40   variant comparison grid (rows)
 //   node render.mjs --project P --styles razgon-stickman:dusk,my-pack:main --at …     compare whole style packs (pack:variant)
@@ -98,7 +98,7 @@ async function renderStills() {
   for (const st of styles) {
     const page = await openPlayer(browser, st); const fps = FPS;
     let targets;
-    if (args.sheet) targets = (await page.evaluate('window.SHOT_LIST')).map(s => ({ t: s.start + (s.end - s.start) * 0.45, label: `${s.id}  ${s.start.toFixed(1)}s${s.ok ? '' : '  (MISSING)'}` }));
+    if (args.sheet) { const ph = args.phases && args.phases !== true ? String(args.phases).split(',').map(Number) : [0.45]; targets = (await page.evaluate('window.SHOT_LIST')).flatMap(s => ph.map(p => ({ t: s.start + (s.end - s.start) * p, label: `${s.id}  ${s.start.toFixed(1)}s${ph.length > 1 ? ` @${Math.round(p * 100)}%` : ''}${s.ok ? '' : '  (MISSING)'}` }))); }
     else targets = String(args.stills || args.at || '1').split(',').map(Number).map(t => ({ t, label: `${t}s` }));
     for (const tg of targets) { const img = await shot(page, Math.round(tg.t * fps)); const name = `${st ? st + '_' : ''}${tg.label.split(' ')[0].replace(/[^\w.]/g, '')}_${tg.t.toFixed(2)}.${FORMAT}`; fs.writeFileSync(path.join(dir, name), img); all.push({ img, label: `${st ? `[${st}] ` : ''}${tg.label}`, st }); }
     (await page.evaluate('window.ERRORS')).forEach(e => console.log('  shot error:', e)); await page.close();
