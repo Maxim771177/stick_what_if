@@ -1,0 +1,1957 @@
+{
+ "title": "What If You Could Read Minds for 7 Days",
+ "duration": 494.492,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.0,
+   "line": "Monday morning, five past eight, the school hallway.",
+   "scene": "Школьный коридор, общий план в полную ширину: у шкафчиков, у окна и у двери кабинета 8–10 детей. Слева в кадр входит Leon с рюкзаком, идёт вправо. У всех детей над головой ничего нет, пока диктор не заговорит об облаках.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "панорама слева направо за Leon, дети двигаются в толпе",
+   "assets": "BG hall; LEON; CROWD; ROCCO; CHASE; ZOE (вдали)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 3.0,
+   "end": 6.5,
+   "line": "Above the toughest kid in school, Rocco, floats a small cloud.",
+   "scene": "Rocco крупнее всех, широкие плечи, пурпурная худи, руки скрещены, мрачный взгляд (глаза видны). Над его головой с хлопком «пуф» вырастает маленькая облачко-мысль с цепочкой кружков от головы (пока пустое, три точки). Leon справа внизу смотрит на облако.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облако надувается с пружинкой, три точки мигают",
+   "assets": "BG hall; ROCCO; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 6.5,
+   "end": 9.5,
+   "line": "It says, \"Please let Leon be my friend.\"",
+   "scene": "То же место, облако Rocco раскрылось на ширину текста. Rocco всё так же сердито стоит. Leon открывает рот от удивления («шок»), глаза направлены на облако.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "текст печатается по словам диктора; Leon: пауза, брови вверх",
+   "assets": "BG hall; ROCCO; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 9.5,
+   "end": 14.1,
+   "line": "Above Chase, the captain of the dodgeball team: \"Does anyone actually like me?\"",
+   "scene": "Кадр шире: слева Rocco с облаком (ярус 1), справа Chase (синяя форма с номером 7, мяч под мышкой, уверенная поза). Над Chase облако выше облака Rocco (ярус 2): «DOES ANYONE ACTUALLY LIKE ME?». Облака не перекрываются: одно ниже, другое выше и сдвинуто в сторону.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "камера отъезжает, второе облако выпрыгивает на ярус выше",
+   "assets": "BG hall; ROCCO; CHASE; LEON; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 14.1,
+   "end": 15.9,
+   "line": "Then Zoe walks past.",
+   "scene": "Справа в кадр входит Zoe (длинные тёмные волосы, жёлтый свитер, сумка через плечо), идёт мимо шкафчиков вдоль коридора. Leon в центре поворачивает голову за ней.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Zoe проходит справа налево (лицом по ходу), Leon провожает взглядом",
+   "assets": "BG hall; ZOE; LEON; ROCCO; CHASE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 15.9,
+   "end": 19.5,
+   "line": "Zoe, the girl Leon has been trying not to look at since September.",
+   "scene": "Leon изо всех сил смотрит на шкафчики, но глаза косятся на Zoe; на заднем плане календарь с листом «SEPTEMBER», который отлистывается к «MONDAY».",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "глаза Leon скользят туда-сюда, пот со лба",
+   "assets": "BG hall; LEON; ZOE; PROP calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 19.5,
+   "end": 24.0,
+   "line": "Her cloud says, \"Don't look at him. Look at him. Don't.\"",
+   "scene": "Крупный план Zoe по плечи, над ней облако (ярус 1), текст меняется три раза: DON'T LOOK AT HIM. → LOOK AT HIM. → DON'T. Zoe украдкой смотрит в сторону Leon (глаза видны).",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облако дрожит и меняет текст ровно на словах диктора",
+   "assets": "BG hall; ZOE; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 24.0,
+   "end": 28.9,
+   "line": "Leon stops walking, and a kid crashes into his backpack. He doesn't even notice.",
+   "scene": "Leon замирает посреди коридора лицом к Zoe, малыш с портфелем врезается в рюкзак Leon сзади и отскакивает на пол (звёздочки). Leon не моргает.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "удар в рюкзак, Leon чуть качнулся и всё равно смотрит вперёд",
+   "assets": "BG hall; LEON; KID; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 28.9,
+   "end": 30.2,
+   "line": "That's Monday.",
+   "scene": "Leon по центру крупнее, по краям кадра виньетка; стрелка календаря: MON подчёркнуто.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "виньетка сжимается",
+   "assets": "BG hall; LEON; PROP calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 30.2,
+   "end": 32.3,
+   "line": "By Sunday, he'll know three things:",
+   "scene": "Светлый void-фон. Leon справа смотрит на пустую доску слева, на доске появляется заголовок «BY SUNDAY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "доска выезжает слева",
+   "assets": "LEON; PROP board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 32.3,
+   "end": 33.5,
+   "line": "whether Zoe likes him,",
+   "scene": "Карточка 1 выезжает на доску: большое сердце, Zoe в рамке с вопросительным знаком.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка влетает с отскоком",
+   "assets": "LEON; ZOE; PROP card heart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 33.5,
+   "end": 35.4,
+   "line": "how to become the coolest kid in school,",
+   "scene": "Карточка 2: корона и значок «COOL» над стулом во главе стола.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка влетает, корона качается",
+   "assets": "LEON; PROP card crown",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 35.4,
+   "end": 38.3,
+   "line": "and what his dad really thinks of him.",
+   "scene": "Карточка 3: силуэт Dad с пустой тёмной мысленной тучкой над головой и «?» внутри.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка влетает, вопрос в облаке мигает",
+   "assets": "LEON; DAD; PROP card cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 38.3,
+   "end": 42.5,
+   "line": "So, what if you could read minds for seven days?",
+   "scene": "Название ролика. Leon в центре смотрит прямо на зрителя, вокруг в воздухе плавают пустые облака разных размеров и ярусов (все лёгкие, как пузыри).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "облака лениво плывут вверх, название набирается по словам",
+   "assets": "LEON; PROP clouds",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 42.5,
+   "end": 49.3,
+   "line": "Every morning, a small cloud floats above every head, and inside it, whatever that person is thinking right now.",
+   "scene": "Тот же коридор утром, но теперь у каждого ребёнка (8–10 человек) над головой облако, облака на трёх ярусах («этажами»), внутри картинки без слов: пицца, сердечко, нота, вопрос, футбольный мяч, тетрадь. Над Leon облака нет, Leon поднимает голову и смотрит на других.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облака один за другим вырастают слева направо, камера медленно едет вдоль толпы",
+   "assets": "BG hall; CROWD; CLOUDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 49.3,
+   "end": 50.6,
+   "line": "Here's how it works.",
+   "scene": "Void: крупная плашка «HOW IT WORKS» с лампочкой; Leon показывает на неё рукой.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка вылетает с отскоком",
+   "assets": "LEON; PROP card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 50.6,
+   "end": 54.3,
+   "line": "Rule one. The cloud changes the second the thought does.",
+   "scene": "Карточка «RULE 1». Ниже: ребёнок с облаком «PIZZA?»; облако мгновенно меняется на «NO. TACOS.» вместе с резким поворотом головы.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "тест-облако мигает при смене",
+   "assets": "LEON; KID; PROP card; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 54.3,
+   "end": 56.8,
+   "line": "Rule two. Only you can see them,",
+   "scene": "Карточка «RULE 2». Ниже Leon крупный план лица: глаза широко открыты, над ним значок «глаз»; позади тёмные силуэты зрителей без глаз.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значок-глаз загорается",
+   "assets": "LEON; PROP card; PROP eye",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 56.8,
+   "end": 57.8,
+   "line": "you can't see your own,",
+   "scene": "Leon задирает глаза вверх, над его собственной макушкой пустое место, «?»; рядом на кадре в зеркале тоже пусто.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon косится вверх, ничего нет",
+   "assets": "LEON; PROP question mark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 57.8,
+   "end": 59.2,
+   "line": "and you can't turn them off.",
+   "scene": "Leon жмёт на большую кнопку OFF на стене; облака у проходящих детей на заднем плане не исчезают.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кнопка щёлкает, облака на фоне продолжают плыть",
+   "assets": "LEON; PROP switch; KIDS; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 59.2,
+   "end": 63.5,
+   "line": "Rule three. On Sunday at midnight, every cloud disappears.",
+   "scene": "Карточка «RULE 3», рядом часы со стрелками на 12:00 и подпись «SUNDAY». Облака вокруг лопаются одно за другим как пузыри.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "часы бьют, облака лопаются с хлопками",
+   "assets": "LEON; PROP clock; PROP card; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 63.5,
+   "end": 65.2,
+   "line": "Leon has a list.",
+   "scene": "Leon с блокнотом в руке и карандашом за ухом, строго смотрит на зрителя.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "поднимает блокнот",
+   "assets": "LEON; PROP notepad",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 65.2,
+   "end": 73.6,
+   "line": "One, find out if Zoe likes him. Two, become the coolest kid in school. Three, find out what his dad really thinks.",
+   "scene": "Блокнот крупно, три строки появляются по очереди с галочкой-пустым квадратиком: 1 сердце, 2 корона, 3 облачко с «?».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карандаш рисует квадратики на словах One / Two / Three",
+   "assets": "PROP notepad; LEON hand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 73.6,
+   "end": 76.3,
+   "line": "At breakfast, he checks the dog first.",
+   "scene": "Кухня (день): Leon за столом с миской хлопьев, под столом собака Biscuit сидит, смотрит на Leon, Leon опускает глаза на неё.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Leon наклоняется заглянуть под стол",
+   "assets": "BG kitchen; LEON; BISCUIT; PROP bowl",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 76.3,
+   "end": 79.2,
+   "line": "Biscuit's cloud is a drawing of one sock.",
+   "scene": "Над головой Biscuit облако (ярус 1), внутри нарисованный носок (серый в полоску), не слова. Biscuit виляет хвостом.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "облако вырастает, носок покачивается",
+   "assets": "BG kitchen; BISCUIT; LEON; PROP sock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 79.2,
+   "end": 82.5,
+   "line": "Day one. Let's start with power.",
+   "scene": "Плашка «DAY 1: POWER» с рукой-бицепсом, Leon показывает бицепс. В углу появляется счётчик DAY 1 и остаётся до конца дня.",
+   "set": "VOID",
+   "hud": "DAY 1",
+   "notes": "счётчик вылетает в угол на слове «Day»",
+   "assets": "LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 82.5,
+   "end": 85.7,
+   "line": "Plus. Gym class, dodgeball.",
+   "scene": "Спортзал: две команды выстроились друг напротив друга по разные стороны центральной линии, у каждого ребёнка в руках красный мяч. Leon на своей стороне. Сверху зелёная плашка «PLUS».",
+   "set": "GYM",
+   "hud": "DAY 1",
+   "notes": "плашка выскакивает, дети разминаются",
+   "assets": "BG gym; LEON; KIDS; BALLS; CHASE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 85.7,
+   "end": 88.7,
+   "line": "Every kid's cloud says exactly who they're aiming at.",
+   "scene": "Команда напротив, пять детей в ряд, у каждого над головой облако на своём ярусе (ступенями: 1-2-3-2-1), в каждом облаке прицел-перекрестие на фигурке Leon. Leon внизу слева смотрит вверх на облака.",
+   "set": "GYM",
+   "hud": "DAY 1",
+   "notes": "облака вспыхивают по очереди слева направо, прицелы подрагивают",
+   "assets": "BG gym; KIDS; CLOUDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 88.7,
+   "end": 90.9,
+   "line": "\"Leon, left. Leon, left.\"",
+   "scene": "Крупный план бросающего: мальчик замахивается, над ним облако (ярус 1): «LEON, LEFT. LEON, LEFT.» со стрелкой влево. На заднем плане Leon.",
+   "set": "GYM",
+   "hud": "DAY 1",
+   "notes": "стрелка пульсирует влево",
+   "assets": "BG gym; KID; CLOUD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 90.9,
+   "end": 93.8,
+   "line": "Leon steps right, and the ball misses him.",
+   "scene": "Общий план: мяч летит влево от Leon (слева направо по кадру), Leon делает шаг вправо, мяч пролетает за его спиной и бьёт в стену, у стены остаются «полосы скорости». Leon спокоен.",
+   "set": "GYM",
+   "hud": "DAY 1",
+   "notes": "шаг в сторону строго на «steps right», мяч «свиш» мимо",
+   "assets": "BG gym; LEON; BALL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 93.8,
+   "end": 96.0,
+   "line": "It misses him all day.",
+   "scene": "Монтаж из трёх кадров подряд с часами в углу (9:00, 11:00, 2:00): Leon спокойно пьёт воду, читает, завязывает кроссовки, мячи пролетают мимо в разные стороны; дети-метатели в отчаянии.",
+   "set": "GYM",
+   "hud": "DAY 1",
+   "notes": "три быстрых смены плана, мячи мимо",
+   "assets": "BG gym; LEON; KIDS; BALLS; PROP clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 96.0,
+   "end": 99.9,
+   "line": "Plus. In math, Ms. Park is about to call someone to the board.",
+   "scene": "Класс (доска слева): ребята за партами, Ms. Park (фиолетовый костюм, пучок, очки) стоит у доски с журналом, водит пальцем по списку. Над ней облако (ярус 2). Leon за партой слева. Плашка «PLUS».",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "палец Park бегает по списку",
+   "assets": "BG class; PARK; LEON; OWEN; KIDS; PROP roster",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 99.9,
+   "end": 105.1,
+   "line": "Her cloud says, \"Leon next.\" Leon has eight seconds to learn the problem.",
+   "scene": "Над Park облако «LEON NEXT.» Leon за партой в шоке (глаза на облако), потом перелистывает учебник; в углу таймер 8…0.",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "таймер идёт назад на «eight seconds», страницы листаются быстро",
+   "assets": "BG class; PARK; LEON; PROP textbook; PROP timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 105.1,
+   "end": 109.4,
+   "line": "He learns it, walks up, and solves it like he planned it since breakfast.",
+   "scene": "Leon у доски, на доске решённый пример, он уверенно чертит ответ и стряхивает мел; класс смотрит.",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "решение дорисовывается, Leon разворачивается к классу",
+   "assets": "BG class; LEON; PARK; KIDS; PROP chalk",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 109.4,
+   "end": 111.9,
+   "line": "Her cloud says, \"Huh.\"",
+   "scene": "Крупно Ms. Park, брови подняты над очками; над ней облако «HUH.»",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "облако мигает один раз",
+   "assets": "BG class; PARK; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 111.9,
+   "end": 117.0,
+   "line": "Plus. Leon slides a note to his friend Owen while Ms. Park writes on the board.",
+   "scene": "Ms. Park спиной к классу пишет мелом на доске. Leon тянет сложенную записку соседу по парте Owen (зелёная толстовка, круглые очки). Плашка «PLUS».",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "записка скользит по парте от Leon к Owen",
+   "assets": "BG class; PARK; LEON; OWEN; PROP note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 117.0,
+   "end": 120.0,
+   "line": "Her cloud says, \"Don't turn around. Turn around.\"",
+   "scene": "Ms. Park пишет на доске, над ней облако (ярус 2) меняется: DON'T TURN AROUND. → TURN AROUND. Park начинает поворачивать плечо.",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "облако дёргается, плечо Park поворачивается",
+   "assets": "BG class; PARK; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 120.0,
+   "end": 123.2,
+   "line": "He hides the note one second before she turns.",
+   "scene": "Park разворачивается лицом к классу, Leon уже спрятал записку под учебник и невинно смотрит на доску; Owen еле сдерживает улыбку. В углу «1 SEC».",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "записка исчезает под книгой за миг до поворота",
+   "assets": "BG class; PARK; LEON; OWEN; PROP note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 123.2,
+   "end": 128.6,
+   "line": "Her cloud says, \"I know somebody is passing notes. I'm just too tired.\"",
+   "scene": "Ms. Park смотрит сонно, плечи опущены, над ней облако (ярус 2) на две строки. Класс сидит как ни в чём не бывало.",
+   "set": "CLASS",
+   "hud": "DAY 1",
+   "notes": "облако набирается, Park вздыхает и трёт глаза",
+   "assets": "BG class; PARK; LEON; OWEN; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 128.6,
+   "end": 131.4,
+   "line": "And then there are the cool kids.",
+   "scene": "Столовая: у дальнего стола четыре крутых ученика (Chase и трое других) в куртках, позируют, у стола стулья. Остальные столы на заднем плане. Счётчик DAY 2.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "крутые разом поворачивают головы в кадр",
+   "assets": "BG cafe; CHASE; COOL; PROP table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 131.4,
+   "end": 136.9,
+   "line": "Leon doesn't just hear what people say anymore. He knows what they hoped somebody would say.",
+   "scene": "Leon со своим подносом стоит у стола крутых. Из ртов идут обычные слова (пустые речевые пузыри), а над головами облака поярусно показывают то, что они хотели бы услышать: «SAY SOMETHING NICE.», «NOTICE ME.»",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "речевые пузыри исчезают, облака проявляются выше",
+   "assets": "BG cafe; LEON; COOL; CLOUDS; PROP trays",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 136.9,
+   "end": 141.1,
+   "line": "Chase scores in gym, and Leon says, \"Nice captain move.\"",
+   "scene": "Спортзал: Chase попадает мячом в соперника, раскидывает руки; Leon с краю даёт большой палец вверх и говорит. Речевой пузырь Leon (не облако).",
+   "set": "GYM",
+   "hud": "DAY 2",
+   "notes": "мяч попадает, Leon показывает палец",
+   "assets": "BG gym; CHASE; LEON; BALL; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 141.1,
+   "end": 144.0,
+   "line": "Chase's cloud lights up: \"He noticed.\"",
+   "scene": "Крупно Chase: над ним облако светится жёлтым, вокруг искры: «HE NOTICED.» Chase пытается скрыть улыбку.",
+   "set": "GYM",
+   "hud": "DAY 2",
+   "notes": "облако вспыхивает, искры",
+   "assets": "BG gym; CHASE; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 144.0,
+   "end": 148.0,
+   "line": "By lunch, the coolest table in school pulls out a chair for him.",
+   "scene": "Столовая: Leon идёт с подносом к крутому столу, Chase выдвигает для него стул.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "стул отодвигается по полу, Leon подходит",
+   "assets": "BG cafe; LEON; CHASE; COOL; PROP chair; PROP tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 148.0,
+   "end": 150.7,
+   "line": "Nobody has ever pulled out a chair for Leon.",
+   "scene": "Крупно Leon: тычет в себя пальцем «я?», на лице недоверие; над стулом блестит звёздочка.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "Leon оглядывается назад, нет ли кого сзади",
+   "assets": "BG cafe; LEON; PROP chair",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 150.7,
+   "end": 156.0,
+   "line": "He sits down very carefully, in case it's a trap. It isn't.",
+   "scene": "Leon медленно садится на край стула, одной рукой держится за стол, готов вскочить; стул держит, крутые кивают.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "медленное опускание, пауза, затем расслабление на «It isn't»",
+   "assets": "BG cafe; LEON; COOL; PROP chair",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 156.0,
+   "end": 160.2,
+   "line": "Chase leans over and says, \"Dodgeball tomorrow. You're my first pick.\"",
+   "scene": "Chase наклоняется к Leon через стол, говорит ему, пузырь реплики.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "Chase наклоняется ближе",
+   "assets": "BG cafe; CHASE; LEON; COOL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 160.2,
+   "end": 162.7,
+   "line": "First. Not last.",
+   "scene": "Сплит-вставка: слева прошлое, серым: Leon один на скамейке, его выбирают последним; справа зелёным: Leon в кружке на первом месте. Надпись «LAST» перечёркнута, «FIRST» горит.",
+   "set": "GYM",
+   "hud": "DAY 2",
+   "notes": "галочка на FIRST, крест на LAST",
+   "assets": "LEON; PROP bench; PROP stars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 162.7,
+   "end": 168.4,
+   "line": "But across the cafeteria, the scariest kid in school is still staring at him.",
+   "scene": "Широкий план столовой: Leon и крутые на переднем плане, далеко у стены Rocco сидит один за пустым столом и тяжело смотрит на Leon (глаза видны). Над Rocco облака пока нет. Leon чувствует взгляд и косится.",
+   "set": "CAFE",
+   "hud": "DAY 2",
+   "notes": "камера медленно наезжает на Rocco, Leon нервно сглатывает",
+   "assets": "BG cafe; LEON; COOL; ROCCO; PROP table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 168.4,
+   "end": 169.8,
+   "line": "Day three.",
+   "scene": "Плашка «DAY 3», Leon уже в кадре, поправляет кепку.",
+   "set": "VOID",
+   "hud": "DAY 3",
+   "notes": "счётчик меняется 2 → 3 с отскоком",
+   "assets": "LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 169.8,
+   "end": 172.0,
+   "line": "Rocco corners him by the lockers.",
+   "scene": "Коридор, шкафчики: Rocco нависает над Leon, одна рука на шкафчике рядом с головой Leon. Leon прижат к шкафчикам спиной, смотрит снизу вверх.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "Rocco надвигается, тень падает на Leon",
+   "assets": "BG hall; ROCCO; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 172.0,
+   "end": 176.7,
+   "line": "Rocco is the size of a refrigerator, and his knuckles crack like popcorn.",
+   "scene": "Рядом с Rocco проявляется силуэт холодильника такого же роста: сходство. Rocco хрустит пальцами; Leon крошечный в тени. Подпись «POP POP».",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "контур холодильника рядом, пальцы хрустят",
+   "assets": "BG hall; ROCCO; LEON; PROP fridge outline",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 176.7,
+   "end": 180.4,
+   "line": "\"Hey, Leon.\" The whole hallway steps back.",
+   "scene": "Rocco низким голосом (пузырь). Толпа детей позади отшатывается назад, освобождая круг вокруг двоих.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "толпа раздаётся шагами назад",
+   "assets": "BG hall; ROCCO; LEON; CROWD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 180.4,
+   "end": 181.6,
+   "line": "But Leon looks up,",
+   "scene": "Leon поднимает глаза выше головы Rocco, на лице напряжение.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "взгляд идёт вверх по кадру",
+   "assets": "BG hall; ROCCO; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 181.6,
+   "end": 186.4,
+   "line": "and Rocco's cloud says, \"Please don't be scared of me. Please be my friend.\"",
+   "scene": "Над сердитым Rocco большое облако (ярус 2): «PLEASE DON'T BE SCARED OF ME. PLEASE BE MY FRIEND.» Контраст: мрачное лицо и мягкие слова. Глаза Rocco виднее, грустные.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "облако раскрывается над Rocco, лицо Leon смягчается",
+   "assets": "BG hall; ROCCO; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 186.4,
+   "end": 190.7,
+   "line": "So Leon doesn't run. He says, \"Nice jacket.\"",
+   "scene": "Leon выпрямляется, не убегает, улыбается и показывает на куртку Rocco (потёртая коричневая куртка поверх худи, на рукаве заплатка). Пузырь реплики Leon.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "Leon делает шаг вперёд",
+   "assets": "BG hall; LEON; ROCCO",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 190.7,
+   "end": 197.1,
+   "line": "Rocco's cloud freezes. Then, very slowly, it says, \"He talked to me.\"",
+   "scene": "Облако Rocco покрывается инеем и замирает на секунду; потом лёд трескается, текст появляется по буквам: «HE TALKED TO ME.»",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "иней на облаке, затем медленная печать букв",
+   "assets": "BG hall; ROCCO; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 197.1,
+   "end": 201.3,
+   "line": "Rocco looks at his sleeve. \"Thanks. My brother gave it to me.\"",
+   "scene": "Rocco смущённо смотрит на рукав с заплаткой, трёт его, кивает. Пузырь реплики.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "Rocco застенчиво почёсывает затылок",
+   "assets": "BG hall; ROCCO; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 201.3,
+   "end": 205.3,
+   "line": "Leon has a bodyguard, and he didn't pay a cent.",
+   "scene": "Leon идёт по коридору, Rocco как охранник за его плечом; рядом появляется чек с суммой $0.00.",
+   "set": "HALL",
+   "hud": "DAY 3",
+   "notes": "чек выпрыгивает у Leon из кармана",
+   "assets": "BG hall; LEON; ROCCO; PROP receipt",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 205.3,
+   "end": 207.2,
+   "line": "At lunch, Zoe looks over.",
+   "scene": "Столовая: Zoe за столом с подносом оглядывается через плечо, смотрит в сторону Leon (его силуэт на заднем плане).",
+   "set": "CAFE",
+   "hud": "DAY 3",
+   "notes": "Zoe поворачивает голову",
+   "assets": "BG cafe; ZOE; LEON; PROP tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 207.2,
+   "end": 210.6,
+   "line": "Her cloud says, \"I hope Leo sits next to me.\"",
+   "scene": "Над Zoe облако (ярус 1): «I HOPE LEO SITS NEXT TO ME.» Leon вдали замер с подносом.",
+   "set": "CAFE",
+   "hud": "DAY 3",
+   "notes": "облако раскрывается, у Leon подгибаются колени",
+   "assets": "BG cafe; ZOE; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 210.6,
+   "end": 213.7,
+   "line": "Leo. Not Leon. Leo.",
+   "scene": "Крупно облако: слово «LEO» набрано жирно, рядом тусклая тень «N», которая стирается. Три удара по словам. Лицо Leon: «Leo? Или Leon?» брови вверх.",
+   "set": "CAFE",
+   "hud": "DAY 3",
+   "notes": "три удара слова, N стирается ластиком",
+   "assets": "BG cafe; LEON; PROP big text",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 213.7,
+   "end": 217.0,
+   "line": "There's a new kid named Leo, and he has a guitar.",
+   "scene": "Рядом с Zoe стоит новенький Leo (жёлтая куртка, лохматые тёмные волосы), гитара за спиной, держит поднос. Над Leo подпись-стрелка «LEO».",
+   "set": "CAFE",
+   "hud": "DAY 3",
+   "notes": "Leo подсаживается к столу Zoe, гитара качается",
+   "assets": "BG cafe; LEO; ZOE; PROP guitar; PROP tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 217.0,
+   "end": 221.1,
+   "line": "Leon sits very still. Leo or Leon?",
+   "scene": "Leon застыл за дальним столом, ложка на полпути ко рту. Над кадром пинг-понг: слева крошечный Leo, справа крошечный Leon, между ними Zoe и вопросительные знаки.",
+   "set": "CAFE",
+   "hud": "DAY 3",
+   "notes": "вопросы прыгают туда-сюда",
+   "assets": "BG cafe; LEON; ZOE; LEO; PROP question marks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 221.1,
+   "end": 227.5,
+   "line": "He has four more days to find out, and it feels longer than his whole life.",
+   "scene": "Календарь: Thu, Fri, Sat, Sun ячейки пустые; растягиваются в длинную бесконечную ленту, Leon на фоне сутулится.",
+   "set": "VOID",
+   "hud": "DAY 3",
+   "notes": "лента календаря удлиняется",
+   "assets": "LEON; PROP calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 227.5,
+   "end": 231.0,
+   "line": "That night, he sees a very different thought.",
+   "scene": "Ночная улица, дом Leon со светящимся окном кухни; камера наезжает на окно.",
+   "set": "NIGHT",
+   "hud": "DAY 3",
+   "notes": "медленный наезд на окно",
+   "assets": "BG street night (ролик 02)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 231.0,
+   "end": 232.6,
+   "line": "Day four, dinner.",
+   "scene": "Кухня вечером: за столом Mom (ставит кастрюлю), Dad (газета), Leon, под столом Biscuit. Счётчик DAY 4.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "счётчик меняется на 4",
+   "assets": "BG kitchen; MOM; DAD; LEON; BISCUIT; PROP table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 232.6,
+   "end": 236.2,
+   "line": "Mom's cloud says, \"Did he eat anything green?\"",
+   "scene": "Mom (розовое платье, хвост) смотрит на тарелку Leon; над ней облако (ярус 1): «DID HE EAT ANYTHING GREEN?»",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "облако раскрывается",
+   "assets": "BG kitchen; MOM; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 236.2,
+   "end": 239.5,
+   "line": "He hasn't. Dad is reading the news.",
+   "scene": "Leon прячет брокколи под салфетку; Dad читает газету, над краем газеты видны глаза.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "Leon толкает брокколи Biscuit под стол",
+   "assets": "BG kitchen; LEON; DAD; BISCUIT; PROP broccoli; PROP newspaper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 239.5,
+   "end": 243.1,
+   "line": "Leon wants the new game, the one that costs sixty dollars.",
+   "scene": "Справа выезжает карточка-врезка (не мысль Leon): коробка игры с ценником «$60». Leon смотрит на неё краем глаза.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "карточка выезжает, ценник блестит",
+   "assets": "BG kitchen; LEON; PROP game box",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 243.1,
+   "end": 248.3,
+   "line": "Last time he asked, Dad said, \"We'll see,\" which in dad means no.",
+   "scene": "Вставка-воспоминание в сепии: Dad говорит «WE'LL SEE.», подпись переводчик «= NO» поверх.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "сепия, слова-перевод печатаются",
+   "assets": "BG kitchen (сепия); DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 248.3,
+   "end": 250.6,
+   "line": "This time, Leon waits.",
+   "scene": "Leon складывает руки на столе, терпеливо ждёт, на стене тикают часы.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "часы тикают, Leon не двигается",
+   "assets": "BG kitchen; LEON; DAD; PROP wall clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 250.6,
+   "end": 255.8,
+   "line": "Dad's cloud says, \"Say no. No. Say no.\"",
+   "scene": "Над Dad облако (ярус 2), текст повторяется три раза: SAY NO. / NO. / SAY NO. Dad невозмутимо читает.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "каждое слово ударом, облако дрожит",
+   "assets": "BG kitchen; DAD; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 255.8,
+   "end": 257.6,
+   "line": "Leon chews a carrot.",
+   "scene": "Leon громко хрустит морковкой, смотрит прямо на Dad.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "челюсть двигается, хруст",
+   "assets": "BG kitchen; LEON; DAD; PROP carrot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 257.6,
+   "end": 263.0,
+   "line": "Then Dad glances at the empty plate, and the cloud says, \"He worked hard this week.\"",
+   "scene": "Dad отводит газету, смотрит на пустую тарелку Leon, лицо добреет; облако меняется на «HE WORKED HARD THIS WEEK.»",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "облако стирает «SAY NO» и пишет новое",
+   "assets": "BG kitchen; DAD; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 263.0,
+   "end": 266.6,
+   "line": "\"Dad, can I get the new game?\" \"Okay.\"",
+   "scene": "Leon просит, Dad отвечает; две реплики по очереди (пузыри).",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "пузыри по очереди",
+   "assets": "BG kitchen; LEON; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 266.6,
+   "end": 272.4,
+   "line": "Mom drops her fork. Dad's cloud says, \"Wait. Did I just say okay?\"",
+   "scene": "Mom роняет вилку (звон), глаза в шоке; над Dad облако (ярус 2): «WAIT. DID I JUST SAY OKAY?»",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "вилка падает, Dad хватается за газету",
+   "assets": "BG kitchen; MOM; DAD; LEON; PROP fork; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 272.4,
+   "end": 275.4,
+   "line": "Leon is basically running the house.",
+   "scene": "Leon откидывается на стуле, руки за головой, с победной улыбкой; над столом плашка «THE BOSS».",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "Leon качается на задних ножках",
+   "assets": "BG kitchen; LEON; DAD; MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 275.4,
+   "end": 281.0,
+   "line": "But later, while Mom washes the dishes, Dad looks at Leon for a long time.",
+   "scene": "Mom спиной у раковины моет посуду, Dad опускает газету, смотрит на Leon долгим взглядом; Leon доедает, замечает взгляд.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "Dad медленно опускает газету",
+   "assets": "BG kitchen; MOM; DAD; LEON; PROP sink",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 281.0,
+   "end": 285.5,
+   "line": "His cloud says, \"I should tell him I'm proud of him. I never say it.\"",
+   "scene": "Крупно Dad, над ним облако (ярус 2) на две строки: «I SHOULD TELL HIM I'M PROUD OF HIM. I NEVER SAY IT.» Leon справа на нижнем плане читает.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "вторая строка появляется на «I never»",
+   "assets": "BG kitchen; DAD; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 285.5,
+   "end": 289.6,
+   "line": "Dad opens his mouth. Closes it. Picks up the news.",
+   "scene": "Три быстрых кадра Dad: рот открывается; закрывается; газета поднимается заново перед лицом.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "три смены позы ровно по словам",
+   "assets": "BG kitchen; DAD; PROP newspaper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 289.6,
+   "end": 292.6,
+   "line": "The cloud says, \"Next time.\"",
+   "scene": "Над поднятой газетой облако: «NEXT TIME.» Leon смотрит на него снизу.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "облако тускнеет",
+   "assets": "BG kitchen; DAD; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 292.6,
+   "end": 296.7,
+   "line": "Leon stares at that cloud for a very long minute.",
+   "scene": "Leon неподвижно смотрит вверх на облако; часы на стене прокручиваются; облако медленно уменьшается.",
+   "set": "KITCHEN",
+   "hud": "DAY 4",
+   "notes": "стрелки часов крутятся, свет за окном темнеет",
+   "assets": "BG kitchen; LEON; PROP wall clock; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 296.7,
+   "end": 301.4,
+   "line": "And then comes day five, the day nobody warns you about.",
+   "scene": "Плашка «DAY 5», рядом знак предупреждения с восклицательным знаком, Leon настороженно оглядывается.",
+   "set": "VOID",
+   "hud": "DAY 5",
+   "notes": "знак предупреждения мигает",
+   "assets": "LEON; HUD; PROP warning sign",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 301.4,
+   "end": 303.2,
+   "line": "Problem one, the noise.",
+   "scene": "Плашка «PROBLEM 1: THE NOISE», фоном размытые гудящие облака.",
+   "set": "VOID",
+   "hud": "DAY 5",
+   "notes": "плашка вылетает, звук гула",
+   "assets": "LEON; PROP card; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 303.2,
+   "end": 310.3,
+   "line": "Two hundred kids, two hundred clouds, stacked like floors in a skyscraper until the top ones touch the ceiling.",
+   "scene": "Коридор до отказа: толпа детей, над ними облака стопкой «как этажи небоскрёба» (8 ярусов), верхние упираются в потолок; в углу счётчик «200». Leon внизу у шкафчиков зажмурил один глаз.",
+   "set": "HALL",
+   "hud": "DAY 5",
+   "notes": "камера снизу вверх вдоль этажей облаков, счётчик растёт до 200",
+   "assets": "BG hall; CROWD; CLOUDS; LEON; PROP counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 310.3,
+   "end": 315.6,
+   "line": "A Harvard study found that almost half the time, a mind is somewhere other than where its body is.",
+   "scene": "Ребёнок сидит на стуле, а его облако улетает вверх и показывает пляж с пальмой; круговая диаграмма почти пополам. Подпись «ALMOST HALF».",
+   "set": "VOID",
+   "hud": "DAY 5",
+   "notes": "облако уплывает, диаграмма заполняется",
+   "assets": "KID; PROP pie chart; PROP beach cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 315.6,
+   "end": 318.9,
+   "line": "In Ms. Park's class, half the clouds are about lunch.",
+   "scene": "Класс: Ms. Park у доски, ряды детей, над каждой второй головой облако с едой (пицца, бургер, мороженое), на разных ярусах. Ms. Park сердито стучит указкой.",
+   "set": "CLASS",
+   "hud": "DAY 5",
+   "notes": "облака с едой лопаются по очереди",
+   "assets": "BG class; PARK; KIDS; CLOUDS; PROP food icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 318.9,
+   "end": 323.2,
+   "line": "Later, he answers a question nobody asked, and everybody laughs.",
+   "scene": "Leon вскакивает с места и громко отвечает, над головой сидящего рядом облако с вопросом «IS THIS ON THE TEST?», на самом деле другой вопрос; весь класс хохочет (облака «HA HA»).",
+   "set": "CLASS",
+   "hud": "DAY 5",
+   "notes": "класс смеётся, Leon краснеет",
+   "assets": "BG class; LEON; KIDS; PARK; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 323.2,
+   "end": 327.5,
+   "line": "Problem two, the thoughts you wish you hadn't seen.",
+   "scene": "Плашка «PROBLEM 2: THOUGHTS YOU WISH YOU HADN'T SEEN», Leon прикрывает глаза рукой, но смотрит между пальцев (глаза видны).",
+   "set": "VOID",
+   "hud": "DAY 5",
+   "notes": "плашка вылетает",
+   "assets": "LEON; PROP card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 327.5,
+   "end": 336.2,
+   "line": "Owen laughs at Leon's joke, and for one second his cloud says, \"I miss when it was just us.\" Then, \"He doesn't even notice me now.\"",
+   "scene": "Столовая: Leon и Owen у стола, Owen смеётся, но над ним облако (ярус 1) грустное: «I MISS WHEN IT WAS JUST US.» Затем облако меняется: «HE DOESN'T EVEN NOTICE ME NOW.»",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "смех Owen и грустное облако расходятся, облако меняется",
+   "assets": "BG cafe; OWEN; LEON; CLOUD; PROP table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 336.2,
+   "end": 339.7,
+   "line": "Leon realizes he hasn't talked to Owen since Monday.",
+   "scene": "Календарь: MON–FRI, около Owen отметки «0 TALKS»; Leon со стыдом опускает глаза. Короткая вставка: записка из класса и тут же серый пустой стул Owen.",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "отметки по дням проявляются и гаснут",
+   "assets": "LEON; OWEN; PROP calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 339.7,
+   "end": 345.1,
+   "line": "At the cool table, Chase smiles at him, and his cloud says, \"He's useful.\"",
+   "scene": "Крутой стол: Chase широко улыбается Leon, над ним облако (ярус 2): «HE'S USEFUL.» Улыбка и мысль не совпадают.",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "облако вспыхивает холодно, улыбка не меняется",
+   "assets": "BG cafe; CHASE; COOL; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 345.1,
+   "end": 349.2,
+   "line": "That one stings. But here's what surprises Leon most.",
+   "scene": "Leon держится за грудь (укол, звёздочка боли), затем поднимает брови и оглядывается на других крутых: «!»",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "укол, затем озарение",
+   "assets": "BG cafe; LEON; COOL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 349.2,
+   "end": 351.8,
+   "line": "The coolest kids are the most scared.",
+   "scene": "Крутые за столом дрожат, пот, глаза бегают, хотя позы расслабленные (по кругу штрихи дрожи).",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "пальцы стучат, пот капает",
+   "assets": "BG cafe; COOL; PROP sweat marks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 351.8,
+   "end": 355.9,
+   "line": "Their clouds are full of \"Do they like me?\" and \"Don't mess up.\"",
+   "scene": "Над четырьмя крутыми облака на разных ярусах (1-3-2-4): «DO THEY LIKE ME?», «DON'T MESS UP.», «DO THEY LIKE ME?», «DON'T MESS UP.» Облака не накладываются.",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "облака вырастают ступенями",
+   "assets": "BG cafe; COOL; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 355.9,
+   "end": 358.7,
+   "line": "A thought isn't a decision. It's weather.",
+   "scene": "Карточка «THOUGHT ≠ DECISION»; затем облако-мысль превращается в дождевую тучку, она проплывает и выходит солнце.",
+   "set": "VOID",
+   "hud": "DAY 5",
+   "notes": "облако меняется на тучку и солнце",
+   "assets": "PROP card; PROP weather cloud; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 358.7,
+   "end": 363.6,
+   "line": "So Leon picks up his tray, walks past the cool table, and sits down next to Owen.",
+   "scene": "Leon берёт поднос, идёт мимо крутого стола (Chase удивлён), садится рядом с Owen; Owen поворачивает голову, глаза расширены.",
+   "set": "CAFE",
+   "hud": "DAY 5",
+   "notes": "ходьба мимо стола, посадка рядом с Owen",
+   "assets": "BG cafe; LEON; OWEN; CHASE; COOL; PROP tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 363.6,
+   "end": 369.3,
+   "line": "Day six is the best day of Leon's life, and it takes him a minute to understand why.",
+   "scene": "Коридор утром, Leon идёт один, дети смотрят на него и улыбаются; счётчик DAY 6. Leon недоумевает: почему все смотрят.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "счётчик меняется на 6, дети поворачиваются на Leon",
+   "assets": "BG hall; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 369.3,
+   "end": 372.1,
+   "line": "Today, the clouds are about him.",
+   "scene": "Широкий план: у каждого ребёнка над головой облако с маленькой фигуркой Leon (кепка, красная футболка), на трёх ярусах.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "облака вспыхивают по очереди, в каждом мини-Leon",
+   "assets": "BG hall; KIDS; CLOUDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 372.1,
+   "end": 378.8,
+   "line": "\"Leon is the funniest kid in class.\" \"I wish Leon sat with us.\" \"Leon's cap is actually cool.\"",
+   "scene": "Три ребёнка в ряд (по кадру слева направо), три облака на трёх ярусах (3-1-2). Текст читается по очереди: «LEON IS THE FUNNIEST KID IN CLASS.», «I WISH LEON SAT WITH US.», «LEON'S CAP IS ACTUALLY COOL.» Leon внизу улыбается, поправляет кепку.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "облака появляются по очереди ступеньками",
+   "assets": "BG hall; KID; KID2; KID3; LEON; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 378.8,
+   "end": 382.2,
+   "line": "Even Rocco's cloud says, \"That's my friend.\"",
+   "scene": "Rocco идёт позади Leon, над ним высокое облако (ярус 2): «THAT'S MY FRIEND.» Он гордо скрещивает руки.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "облако качается, Rocco кивает",
+   "assets": "BG hall; ROCCO; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 382.2,
+   "end": 387.1,
+   "line": "Then Owen walks up, and his cloud says, \"Best friend.\"",
+   "scene": "Owen подходит с краю, улыбаясь, над ним облако (ярус 1): «BEST FRIEND.» с символом дружбы.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "облако светится тёплым",
+   "assets": "BG hall; OWEN; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 387.1,
+   "end": 390.5,
+   "line": "That's the one that makes Leon stop in the middle of the hallway.",
+   "scene": "Leon замер посреди коридора, дети обтекают его с двух сторон; глаза блестят, улыбка дрожит.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "толпа обтекает Leon, он остаётся на месте",
+   "assets": "BG hall; LEON; KIDS; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 390.5,
+   "end": 396.8,
+   "line": "For the first time, he doesn't need to ask whether he matters. It's floating right there, in plain sight.",
+   "scene": "Рядом с Leon на мгновение появляется вопрос «DO I MATTER?», перечёркивается; камера отъезжает: в коридоре десятки светящихся облаков про Leon.",
+   "set": "HALL",
+   "hud": "DAY 6",
+   "notes": "вопрос стирается, облака загораются тёплым",
+   "assets": "BG hall; LEON; KIDS; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 396.8,
+   "end": 399.6,
+   "line": "Saturday night, the school dance.",
+   "scene": "Спортзал ночью: гирлянды, дискошар, цветные лучи, дети танцуют, у стены колонки. Подпись «SATURDAY NIGHT · SCHOOL DANCE».",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "лучи света бегают по залу",
+   "assets": "BG gym (ночной свет кодом); KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 399.6,
+   "end": 404.8,
+   "line": "Zoe stands by the wall, and her cloud says, \"I hope Leon asks me to dance.\"",
+   "scene": "Zoe у стены в нарядной жёлтой юбке-платье, облако (ярус 1): «I HOPE LEON ASKS ME TO DANCE.» Leon вдали у двери читает.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "облако светится розовым",
+   "assets": "BG gym dance; ZOE; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 404.8,
+   "end": 408.7,
+   "line": "Leon. Not Leo. Leon.",
+   "scene": "Крупно облако Zoe: слово «LEON» со вспышкой, «N» подсвечено, три удара: LEON / NOT LEO / LEON; повторяет кадр S066 наоборот.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "три удара слова, N загорается",
+   "assets": "BG gym dance; PROP big text",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 408.7,
+   "end": 410.8,
+   "line": "He reads it three times.",
+   "scene": "Leon крупно, глаза скользят по облаку слева направо три раза, рядом счётчик «×3».",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "три прохода глаз по строке",
+   "assets": "BG gym dance; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 410.8,
+   "end": 416.1,
+   "line": "Behind the speakers, Rocco puts on a slow song, and his cloud says, \"You're welcome.\"",
+   "scene": "У колонок за пультом стоит Rocco, ставит медленную песню (пластинка/кнопка play), над ним облако (ярус 2): «YOU'RE WELCOME.» Ноты в воздухе.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "ноты плывут, облако мигает",
+   "assets": "BG gym dance; ROCCO; PROP speakers; PROP notes; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 416.1,
+   "end": 421.4,
+   "line": "Then he does something he hasn't done all week. He stops looking up.",
+   "scene": "Leon опускает глаза с облаков на уровень лица и больше не смотрит вверх; облака вокруг остаются, но он их не замечает.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "взгляд опускается",
+   "assets": "BG gym dance; LEON; KIDS; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 421.4,
+   "end": 424.8,
+   "line": "He crosses the whole gym and says, \"Do you want to dance?\"",
+   "scene": "Leon идёт через весь зал сквозь танцующих к Zoe, у неё лицо ему навстречу; пузырь реплики.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "длинная ходьба, дети расступаются",
+   "assets": "BG gym dance; LEON; ZOE; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 424.8,
+   "end": 430.1,
+   "line": "Zoe smiles. \"Yes.\" Her cloud says, \"Finally.\"",
+   "scene": "Zoe улыбается и кивает, говорит «YES.»; над ней облако (ярус 1): «FINALLY.»",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "облако светится, они берутся за руки",
+   "assets": "BG gym dance; ZOE; LEON; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 430.1,
+   "end": 432.0,
+   "line": "Leon doesn't read the rest.",
+   "scene": "Leon и Zoe медленно танцуют, облако над Zoe мелкими буквами продолжается, Leon смотрит ей в лицо и улыбается, не читает.",
+   "set": "GYMDANCE",
+   "hud": "DAY 6 · SAT NIGHT",
+   "notes": "облако блёкнет, пара покачивается",
+   "assets": "BG gym dance; LEON; ZOE; CLOUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 432.0,
+   "end": 434.6,
+   "line": "All day Sunday, he watches Dad's cloud.",
+   "scene": "Воскресенье, дом днём: Dad с газетой в кресле, Leon сидит рядом и украдкой смотрит на пустое место над его головой. Счётчик DAY 7.",
+   "set": "LIVING",
+   "hud": "DAY 7",
+   "notes": "Leon косится вверх, облако пока пустое",
+   "assets": "BG livingRoom; DAD; LEON; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 434.6,
+   "end": 436.6,
+   "line": "It never says the thing.",
+   "scene": "Часы на стене крутятся день к вечеру; облако над Dad со скучными мыслями «···»; Leon опускает голову на ладонь.",
+   "set": "LIVING",
+   "hud": "DAY 7",
+   "notes": "свет в окне меняется с дня на вечер",
+   "assets": "BG livingRoom; DAD; LEON; CLOUD; PROP wall clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 436.6,
+   "end": 439.9,
+   "line": "Eleven fifty-nine at night, the kitchen.",
+   "scene": "Ночная кухня (темнее, тёплая лампа над столом), на стене часы 11:59 PM. Dad за столом с чашкой, Leon в дверях в пижаме.",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "свет приглушается, часы тикают",
+   "assets": "BG kitchen night; DAD; LEON; PROP wall clock; PROP tea",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 439.9,
+   "end": 444.7,
+   "line": "Dad sits with his tea. His cloud says, \"Tell him. Tell him.\"",
+   "scene": "Крупнее: Dad с чашкой, пар; над ним облако (ярус 2): «TELL HIM. TELL HIM.» Leon из дверей напряжённо смотрит на облако.",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "облако пульсирует, пар от чая",
+   "assets": "BG kitchen night; DAD; LEON; CLOUD; PROP tea",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 444.7,
+   "end": 448.4,
+   "line": "Leon watches the clock. Midnight.",
+   "scene": "Крупно часы: секундная стрелка идёт к 12, потом колокольчик, стрелки сходятся на 12:00 AM; Leon смотрит на них.",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "стрелка тикает, бой часов",
+   "assets": "BG kitchen night; LEON; PROP wall clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s128",
+   "start": 448.4,
+   "end": 452.9,
+   "line": "Every cloud in the world disappears, and the kitchen is just a kitchen.",
+   "scene": "Облако над Dad лопается тихими пузырьками; на полу у ног Biscuit тает её носок-облако; над Leon и так никогда ничего нет. Кадр успокаивается: просто кухня, просто двое.",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "облака лопаются с тихим хлопком, свет мягчает",
+   "assets": "BG kitchen night; DAD; LEON; BISCUIT; CLOUDS pop",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s129",
+   "start": 452.9,
+   "end": 456.0,
+   "line": "Dad looks at his cup. Then he looks up.",
+   "scene": "Dad смотрит в чашку, потом поднимает глаза на Leon.",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "взгляд из чашки на Leon",
+   "assets": "BG kitchen night; DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s130",
+   "start": 456.0,
+   "end": 462.7,
+   "line": "Out loud, with no cloud at all, he says, \"Leon. I'm proud of you.\"",
+   "scene": "Dad говорит вслух, над его головой нет облака. Пузырь реплики: «LEON. I'M PROUD OF YOU.» (обычный речевой пузырь с хвостом ко рту).",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "пузырь появляется без облака, мягкий свет",
+   "assets": "BG kitchen night; DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s131",
+   "start": 462.7,
+   "end": 467.7,
+   "line": "Leon grins. \"I know.\" \"How?\" \"Lucky guess.\"",
+   "scene": "Leon улыбается: «I KNOW.»; Dad удивлённо: «HOW?»; Leon подмигивает зрителю: «LUCKY GUESS.»",
+   "set": "KITCHENNIGHT",
+   "hud": "DAY 7",
+   "notes": "три реплики по очереди, подмигивание на «Lucky guess»",
+   "assets": "BG kitchen night; LEON; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s132",
+   "start": 467.7,
+   "end": 470.7,
+   "line": "So, is any of this real? Kind of.",
+   "scene": "Void: Leon задумчиво поднимает палец, над ним большой вопросительный знак; затем «KIND OF» в плашке.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "вопрос меняется на «KIND OF»",
+   "assets": "LEON; PROP card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s134",
+   "start": 470.7,
+   "end": 476.6,
+   "line": "In nineteen ninety-eight, psychologists showed that people believe others can see their feelings far more than they really can.",
+   "scene": "Ребёнок краснеет, вокруг стрелки «все видят!» со стороны воображаемых зрителей; рядом реальный зал, где никто не смотрит. Подпись «1998».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелки прицеливаются на ребёнка, потом разворачиваются прочь",
+   "assets": "KID; PROP arrows; PROP eyes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s135",
+   "start": 476.6,
+   "end": 479.3,
+   "line": "It's called the illusion of transparency.",
+   "scene": "Ребёнок в стеклянной коробке, снаружи никто не смотрит; плашка «ILLUSION OF TRANSPARENCY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стекло исчезает, коробка не нужна",
+   "assets": "KID; PROP glass box; PROP card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s136",
+   "start": 479.3,
+   "end": 483.5,
+   "line": "Nobody is reading your mind. So say the thing out loud.",
+   "scene": "Коридор: дети без облаков, Leon стоит перед камерой, спокойный. На последних словах Leon подходит к зрителю и говорит вслух: речевой пузырь.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облаков нет, Leon шагает к камере",
+   "assets": "BG hall; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s137",
+   "start": 483.5,
+   "end": 487.7,
+   "line": "So, what thought would you want to see above someone's head? Tell us in the comments.",
+   "scene": "Leon держит пустое облако над воображаемой головой и протягивает к зрителю; иконка комментария подпрыгивает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "иконка комментария подпрыгивает",
+   "assets": "LEON; PROP empty cloud; PROP comment icon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s138",
+   "start": 487.7,
+   "end": 491.2,
+   "line": "And if you want to see what everyone is thinking next week, hit subscribe.",
+   "scene": "Кнопка Subscribe и колокольчик; позади несколько детей, облака над ними с «SUBSCRIBE!»; Leon показывает на кнопку.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кнопка нажимается, колокольчик звенит",
+   "assets": "LEON; PROP subscribe; KIDS; CLOUDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s139",
+   "start": 491.2,
+   "end": 494.5,
+   "line": "Biscuit's cloud, by the way, is still a sock.",
+   "scene": "Кухня утром: Biscuit сидит, над ней облако с носком; Leon прикрывает лицо рукой (facepalm). Конец ролика.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "носок качается, Biscuit виляет хвостом",
+   "assets": "BG kitchen; BISCUIT; LEON; PROP sock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}
