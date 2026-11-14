@@ -1,5 +1,5 @@
 // cast.js ролика 04: общие кирпичики сцен (герои, мебель, картинки для облаков).
-import { E, C, D, ease, prog, clamp, lerp, text, measure, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, kf, NOW } from './lib.js';
+import { OUT, E, C, D, ease, prog, clamp, lerp, text, measure, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, kf, NOW } from './lib.js';
 import * as X from './gfx.js';
 export const W = () => E.W, H = () => E.H;
 export const UP = [0.3, -2.2];
@@ -28,7 +28,16 @@ export const pics = (...n) => n.map((k) => pic[k]);
 export const effS = (w, s = 1.55) => s * ({ LEON: 0.86, OWEN: 1.12, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15, CHASE: 1.2, ZOE: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, ROCCO: 1.42, LEO: 1.15, DAD: 1.22, MOM: 1.14, PARK: 1.2 }[w] ?? 1);
 export const seat = (g, x, GY, w, f = 1, s) => chair(g, x, GY, effS(w, s), f);
 export const deskAt = (g, x, GY, w, f = 1, s, wd = 200) => { const e = effS(w, s), top = GY - 112 * e, cx = x + f * 80 * e; inkRect(g, cx - wd / 2, top, wd, 16, { fill: '#c98b4a', r: 5, w: 5 }); inkLine(g, [[cx - wd / 2 + 14, top + 16], [cx - wd / 2 + 14, GY]], { w: 6 }); inkLine(g, [[cx + wd / 2 - 14, top + 16], [cx + wd / 2 - 14, GY]], { w: 6 }); };
-export const trayAt = (g, x, GY, w, f = 1, s, k = 1) => prop(g, 'tray', x + f * 60 * effS(w, s), GY - 112 * effS(w, s), 70 * effS(w, s) * 0.8 * k);
+// реальный масштаб героя (детские куклы ×0.72): по нему ставим предметы в руки
+export const hs = (w, s) => effS(w, s) * (OUT[w]?.kid ? 0.72 : 1);
+// поднос в руках: руки (holdTray) снизу под подносом, поднос смотрит сверху (сплюснут по высоте)
+export const trayAt = (g, x, GY, w, f = 1, s, k = 1) => { const e = hs(w, s); g.save(); g.translate(x + f * 40 * e, GY - 139 * e); g.scale(1, 0.62); prop(g, 'tray', 0, 0, 72 * e * k); g.restore(); };
+// поднос на столе: лежит плашмя на столешнице (низ подноса на плоскости стола)
+export const trayFlat = (g, x, topY, wd = 150) => { const h = wd * 0.747 * 0.42; g.save(); g.translate(x, topY + 14 - h / 2); g.scale(1, 0.42); prop(g, 'tray', 0, 0, wd * 0.747); g.restore(); };
+// мяч в руках (holdBall): центр перед грудью, руки снизу
+export const ballAt = (g, x, GY, w, f = 1, s) => { const e = hs(w, s); prop(g, 'dodgeball', x + f * 34 * e, GY - 136 * e, 49 * e); };
+// бумага плашмя на столешнице
+export const paperFlat = (g, x, topY, wd = 110) => { const h = wd * 0.2; g.save(); g.translate(x, topY + 12); inkShape(g, [[-wd / 2, h / 2], [wd / 2 - 8, h / 2], [wd / 2 + 6, -h / 2], [-wd / 2 + 14, -h / 2]], { fill: '#fffdf6', w: 4 }); for (let i = 0; i < 3; i++) inkLine(g, [[-wd * 0.28 + i * 4, h * 0.3 - i * h * 0.3], [wd * 0.3 + i * 3, h * 0.3 - i * h * 0.3]], { w: 2, stroke: '#888' }); g.restore(); };
 // столовая: стол крутых по центру, стулья по бокам (стол рисуется в mid поверх ног)
 export const cafeTable = (g, x, GY, w = 560) => { table(g, x, GY, w, 180, '#c98b4a'); };
 // проверка на перекрытие облаков не нужна: ярусы задаются в сценах

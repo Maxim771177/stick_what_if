@@ -91,7 +91,11 @@ export function who(g, c, t, info, GY, wins) {
   if (c.rotK) o.rot = kf(c.rotK, t);
   if (c.hide && (t < c.hide[0] || t > c.hide[1])) return { x: cx, y, s, hy: y - 300 * s * 0.5, hidden: true };
   let pose;
-  if (walking) pose = walkPose(t * 2 * Math.PI * 1.3);
+  if (walking) {
+    const hold = pn === 'holdTray' || pn === 'holdBall';
+    pose = walkPose(t * 2 * Math.PI * 1.3, hold ? { bob: 0, arm: 0 } : {});
+    if (hold) { const P0 = POSES[pn], hy = pose.hip[1] + 100, d = (a) => [a[0] + pose.sh[0] - 1, a[1] + hy]; pose = { ...pose, eF: d(P0.eF), hF: d(P0.hF), eB: d(P0.eB), hB: d(P0.hB) }; }
+  }
   else if (c.poseObj) pose = c.poseObj;
   else if (talking && ['stand', 'relaxed', 'talk', 'explain'].includes(pn) && !SIT(pn)) pose = breathe(posesAt(t, Array.from({ length: 30 }, (_, i) => [i * 0.7, TALKSEQ[(i + id.length) % 4]])), t, 1, id.length + 2);
   else pose = breathe(posesAt(t, (Array.isArray(c.pose) ? c.pose : [[0, c.pose || 'stand']])), t, 1, id.length + 2);
