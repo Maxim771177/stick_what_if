@@ -1,5 +1,5 @@
 // cast.js ролика 04: общие кирпичики сцен (герои, мебель, картинки для облаков).
-import { OUT, E, C, D, ease, prog, clamp, lerp, text, measure, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, kf, NOW } from './lib.js';
+import { OUT, POSES, E, C, D, ease, prog, clamp, lerp, text, measure, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, kf, NOW } from './lib.js';
 import * as X from './gfx.js';
 export const W = () => E.W, H = () => E.H;
 export const UP = [0.3, -2.2];
@@ -42,3 +42,19 @@ export const paperFlat = (g, x, topY, wd = 110) => { const h = wd * 0.2; g.save(
 export const cafeTable = (g, x, GY, w = 560) => { table(g, x, GY, w, 180, '#c98b4a'); };
 // проверка на перекрытие облаков не нужна: ярусы задаются в сценах
 export const seated = (w, x, f, o = {}) => c(w, x, { f, pose: 'sit', ...o });
+
+// ---- предметы строго в руках (с 15.11.2026): координаты ладоней берём из позы куклы ----
+POSES.windup = { ...POSES.stand, head: [6, -208], sh: [1, -174], eF: [-30, -202], hF: [-8, -272], eB: [-36, -196], hB: [-44, -250] };
+POSES.twoBalls = { ...POSES.stand, eF: [24, -134], hF: [40, -112], eB: [-18, -134], hB: [-30, -112] };
+POSES.trayReach = { ...POSES.holdTray, eF: [30, -150], hF: [60, -160], eB: [44, -148], hB: [78, -140] };
+POSES.leash = { ...POSES.stand, eF: [24, -140], hF: [48, -122], eB: [-7, -136], hB: [-9, -100] };
+export const sc = (o) => o.s * (o.outfit?.kid ? 0.72 : 1);
+export const joint = (o, n) => { const h = o.pose[n], e = sc(o); return [o.x + o.facing * e * h[0], o.y + e * h[1]]; };
+export const hand = (o, k = 'F') => joint(o, k === 'B' ? 'hB' : 'hF');
+const dot = (g, p, e) => inkCircle(g, p[0], p[1], 5.5 * e, { fill: S().ink, w: 0 });
+// мяч в двух руках: центр между ладонями, ладони поверх нижнего края
+export const ballHeld = (g, o, r = 23) => { const a = hand(o, 'F'), b = hand(o, 'B'), e = sc(o), cx = (a[0] + b[0]) / 2, cy = (a[1] + b[1]) / 2 - r * 0.45 * e; prop(g, 'dodgeball', cx, cy, 2 * r * e, { rot: 0 }); dot(g, [cx + o.facing * r * 0.55 * e, cy + r * 0.7 * e], e); dot(g, [cx - o.facing * r * 0.55 * e, cy + r * 0.72 * e], e); };
+// предмет в одной руке: рисуем fn(x,y,e) в ладони, ладонь поверх
+export const inHand = (g, o, k, fn) => { const h = hand(o, k), e = sc(o); fn(h[0], h[1], e); dot(g, h, e); };
+// поднос на ладонях (под подносом), items = [[вид, dx, dy]] в единицах e; only: 'B' | 'F' — держать одной рукой
+export const heldTray = (g, o, items = [], only = null, k = 1) => { const e = sc(o), a = hand(o, 'F'), b = hand(o, 'B'), h = only === 'B' ? b : only === 'F' ? a : [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], cx = h[0] + o.facing * 4 * e, cy = h[1] - 15 * e * k; g.save(); g.translate(cx, cy); g.scale(1, 0.62); prop(g, 'tray', 0, 0, 76 * e * k); g.restore(); items.forEach(([n, dx, dy]) => X.food(g, n, cx + dx * e, cy + dy * e, 0.7 * e)); dot(g, a, e); dot(g, b, e); return [cx, cy, e]; };
