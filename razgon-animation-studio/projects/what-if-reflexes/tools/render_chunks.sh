@@ -8,7 +8,7 @@ mkdir -p $P/out/$D
 i=0
 for f in $(seq 0 15 480); do
   if [ $((i % LANES)) -eq $LANE ]; then
-    t=$((f+15)); [ $t -gt 495 ] && t=494.5
+    t=$((f+15)); [ $t -gt 480 ] && t=480.5
     for try in 1 2 3 4; do
       [ -f $P/out/$D/c_$(printf %03d $f).mp4 ] && break
       perl -e 'alarm 200; exec @ARGV' node render.mjs --project $P --from $f --to $t --scale $SCALE --workers 1 --out $P/out/$D/tmp_$LANE.mp4 --chrome "$CH" > $P/out/$D/log_$LANE.txt 2>&1 && mv $P/out/$D/tmp_$LANE.mp4 $P/out/$D/c_$(printf %03d $f).mp4
