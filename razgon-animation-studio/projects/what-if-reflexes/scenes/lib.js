@@ -21,12 +21,12 @@ export const texts = (info, k) => TEXTS.filter((r) => (!k || r.k === k) && r.t >
 // ---------- наряды (doodle). Leon: одна кукла Razgon на весь канал, ONE_LEON ниже не отключать ----------
 export const OUT = {
   LEON: { arcBrows: true, top: 'tshirt', color: '#d8232a', color2: '#ffffff', emblem: 'bolt', shorts: '#8a8a8a', shoes: '#f28a1e', sneakers: true, whiteHands: true, hair: 'none', hairColor: '#6b3a1e', hat: 'capBack', hatColor: '#17c3b2' },
-  DUNN: { top: 'jersey', color: '#d8232a', hat: 'capBack', hatColor: '#d8232a', hair: 'short', hairColor: '#2b2420', legs: '#2b2b33', emblem: 'D' },
+  DUNN: { top: 'jersey', color: '#d8232a', hat: 'capBack', hatColor: '#d8232a', hair: 'none', hairColor: '#2b2420', legs: '#2b2b33', emblem: 'D' },
   DOCTOR: { top: 'suit', color: '#f4f6f8', face: 'glasses', hair: 'short', hairColor: '#4a3a2a', legs: '#5a6b7a' },
-  ATTEND: { top: 'tshirt', color: '#f2c21a', hat: 'capBack', hatColor: '#d8232a', hair: 'short', hairColor: '#6b3a1e', legs: '#3a4a6b' },
+  ATTEND: { top: 'tshirt', color: '#f2c21a', hat: 'capBack', hatColor: '#d8232a', hair: 'none', hairColor: '#2b2420', legs: '#3a4a6b' },
   NORA: { top: 'tshirt', color: '#f2c21a', hair: 'short', hairColor: '#8a5a2e', kid: true, legs: '#7a5a9b' },
   MOM: { top: 'dress', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e' },
-  DRIVER: { top: 'suit', color: '#2f5d8a', hat: 'capBack', hatColor: '#2f5d8a', hair: 'short', hairColor: '#2b2420', legs: '#3a3a48' },
+  DRIVER: { top: 'suit', color: '#2f5d8a', hat: 'capBack', hatColor: '#2f5d8a', hair: 'none', hairColor: '#2b2420', legs: '#3a3a48' },
   BULLY: { top: 'hoodie', color: '#8a3a3a', hair: 'messy', hairColor: '#2b2420', legs: '#3a3a48', kid: true },
   GUARD: { top: 'jersey', color: '#f2a03a', hat: 'capBack', hatColor: '#f2a03a', hair: 'short', hairColor: '#6b3a1e', legs: '#3a4a6b' },
   MAN: { top: 'tshirt', color: '#5a7fb0', hat: 'capBack', hatColor: '#d8232a', hair: 'short', hairColor: '#3a2a1e', legs: '#4a5a78' },
