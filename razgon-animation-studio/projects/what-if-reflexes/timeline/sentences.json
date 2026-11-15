@@ -1,0 +1,944 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 2.2,
+  "text": "Monday, third period, the gym."
+ },
+ {
+  "i": 1,
+  "start": 3.04,
+  "end": 6.38,
+  "text": "Chase holds two dodgeballs, and his whole team holds eight more."
+ },
+ {
+  "i": 2,
+  "start": 6.94,
+  "end": 10.74,
+  "text": "On the whistle, all ten fly at once, aimed at one kid."
+ },
+ {
+  "i": 3,
+  "start": 11.58,
+  "end": 11.9,
+  "text": "Leon."
+ },
+ {
+  "i": 4,
+  "start": 12.76,
+  "end": 13.64,
+  "text": "He doesn't run."
+ },
+ {
+  "i": 5,
+  "start": 14.04,
+  "end": 19.92,
+  "text": "He leans left, ducks under one, steps back from another, and plucks a third out of the air like a grape."
+ },
+ {
+  "i": 6,
+  "start": 20.54,
+  "end": 22.24,
+  "text": "The other seven hit the wall behind him."
+ },
+ {
+  "i": 7,
+  "start": 22.94,
+  "end": 24.88,
+  "text": "Ten balls, zero hits."
+ },
+ {
+  "i": 8,
+  "start": 25.8,
+  "end": 27.92,
+  "text": "The gym goes dead silent."
+ },
+ {
+  "i": 9,
+  "start": 28.8,
+  "end": 30.4,
+  "text": "Owen whispers from the bench,"
+ },
+ {
+  "i": 10,
+  "start": 31.24,
+  "end": 31.5,
+  "text": "\"Dude."
+ },
+ {
+  "i": 11,
+  "start": 32.0,
+  "end": 32.56,
+  "text": "How?\""
+ },
+ {
+  "i": 12,
+  "start": 33.94,
+  "end": 34.9,
+  "text": "Leon shrugs."
+ },
+ {
+  "i": 13,
+  "start": 35.26,
+  "end": 37.16,
+  "text": "\"They were just really slow.\""
+ },
+ {
+  "i": 14,
+  "start": 38.28,
+  "end": 39.46,
+  "text": "But they weren't slow."
+ },
+ {
+  "i": 15,
+  "start": 40.02,
+  "end": 44.62,
+  "text": "A normal kid needs about a quarter of a second between seeing a ball and starting to move."
+ },
+ {
+  "i": 16,
+  "start": 45.26,
+  "end": 47.84,
+  "text": "By then, the ball has already crossed a good part of the gym."
+ },
+ {
+  "i": 17,
+  "start": 48.78,
+  "end": 51.22,
+  "text": "Leon needs one fortieth of a second."
+ },
+ {
+  "i": 18,
+  "start": 52.08,
+  "end": 55.94,
+  "text": "So, what if your reflexes were ten times faster?"
+ },
+ {
+  "i": 19,
+  "start": 56.9,
+  "end": 57.78,
+  "text": "Here's how it works."
+ },
+ {
+  "i": 20,
+  "start": 58.56,
+  "end": 58.94,
+  "text": "Rule one."
+ },
+ {
+  "i": 21,
+  "start": 59.52,
+  "end": 65.56,
+  "text": "The gap between seeing something and starting to move shrinks from a quarter of a second to a fortieth."
+ },
+ {
+  "i": 22,
+  "start": 65.56,
+  "end": 68.36,
+  "text": "Eyes, brain, nerves, all of it."
+ },
+ {
+  "i": 23,
+  "start": 69.12,
+  "end": 69.58,
+  "text": "Rule two."
+ },
+ {
+  "i": 24,
+  "start": 70.12,
+  "end": 72.56,
+  "text": "You start sooner, but you don't move faster."
+ },
+ {
+  "i": 25,
+  "start": 72.9,
+  "end": 75.68,
+  "text": "Your legs run exactly as fast as they did yesterday."
+ },
+ {
+  "i": 26,
+  "start": 77.38,
+  "end": 78.38,
+  "text": "Rule three."
+ },
+ {
+  "i": 27,
+  "start": 78.86,
+  "end": 81.42,
+  "text": "The world isn't in slow motion."
+ },
+ {
+  "i": 28,
+  "start": 82.16,
+  "end": 85.5,
+  "text": "It's just that everybody else seems to be loading."
+ },
+ {
+  "i": 29,
+  "start": 86.86,
+  "end": 87.2,
+  "text": "Want proof?"
+ },
+ {
+  "i": 30,
+  "start": 88.42,
+  "end": 90.24,
+  "text": "Owen holds a ruler and lets go."
+ },
+ {
+  "i": 31,
+  "start": 90.94,
+  "end": 95.0,
+  "text": "A normal kid catches it about twenty-five centimeters down, ten inches."
+ },
+ {
+  "i": 32,
+  "start": 96.26,
+  "end": 98.72,
+  "text": "Leon catches it at three millimeters."
+ },
+ {
+  "i": 33,
+  "start": 99.32,
+  "end": 100.76,
+  "text": "That's not catching."
+ },
+ {
+  "i": 34,
+  "start": 101.22,
+  "end": 102.78,
+  "text": "That's practically a handshake."
+ },
+ {
+  "i": 35,
+  "start": 103.62,
+  "end": 105.74,
+  "text": "Plus number one, breakfast."
+ },
+ {
+  "i": 36,
+  "start": 106.68,
+  "end": 110.52,
+  "text": "Dad flips a pancake, and it sails toward the ceiling fan."
+ },
+ {
+  "i": 37,
+  "start": 111.38,
+  "end": 114.32,
+  "text": "Leon slides a plate under it without looking up from his cereal."
+ },
+ {
+  "i": 38,
+  "start": 115.04,
+  "end": 119.02,
+  "text": "Dad stares at the plate, then the ceiling, then Leon."
+ },
+ {
+  "i": 39,
+  "start": 120.1,
+  "end": 125.6,
+  "text": "Then Biscuit, the dog, grabs a sausage off the counter, and Leon beats him to it."
+ },
+ {
+  "i": 40,
+  "start": 126.32,
+  "end": 128.74,
+  "text": "Biscuit has never lost a race to food."
+ },
+ {
+  "i": 41,
+  "start": 129.26,
+  "end": 131.1,
+  "text": "He does not take it well."
+ },
+ {
+  "i": 42,
+  "start": 132.3,
+  "end": 135.02,
+  "text": "Plus number two, the town fair."
+ },
+ {
+  "i": 43,
+  "start": 136.12,
+  "end": 139.98,
+  "text": "The whack-a-mole machine shows each mole for less than half a second."
+ },
+ {
+  "i": 44,
+  "start": 140.96,
+  "end": 143.4,
+  "text": "Leon's mallet is waiting at every hole."
+ },
+ {
+  "i": 45,
+  "start": 144.46,
+  "end": 150.48,
+  "text": "The attendant hands over the biggest stuffed bear in the booth, and the bear is bigger than Leon."
+ },
+ {
+  "i": 46,
+  "start": 150.94,
+  "end": 153.1,
+  "text": "Plus number three, the cafeteria."
+ },
+ {
+  "i": 47,
+  "start": 154.12,
+  "end": 160.92,
+  "text": "A kid trips with a full tray, and Leon catches the milk, the apple, and the pudding before any of them reach the floor."
+ },
+ {
+  "i": 48,
+  "start": 161.66,
+  "end": 163.8,
+  "text": "The kid doesn't even realize he tripped."
+ },
+ {
+  "i": 49,
+  "start": 165.22,
+  "end": 167.04,
+  "text": "Plus number four, tag."
+ },
+ {
+  "i": 50,
+  "start": 168.02,
+  "end": 169.76,
+  "text": "Nobody can tag him, ever."
+ },
+ {
+  "i": 51,
+  "start": 170.3,
+  "end": 173.92,
+  "text": "He plays the whole game at a walk, with his hands in his pockets."
+ },
+ {
+  "i": 52,
+  "start": 174.82,
+  "end": 180.0,
+  "text": "But before you get too excited, this is reflexes, not brains."
+ },
+ {
+  "i": 53,
+  "start": 181.32,
+  "end": 184.9,
+  "text": "Question seven on the math quiz is still question seven."
+ },
+ {
+  "i": 54,
+  "start": 185.56,
+  "end": 187.66,
+  "text": "But then you start noticing the problems."
+ },
+ {
+  "i": 55,
+  "start": 188.44,
+  "end": 190.16,
+  "text": "Problem one, the lights."
+ },
+ {
+  "i": 56,
+  "start": 191.28,
+  "end": 196.64,
+  "text": "Small animals with fast metabolisms, like flies, see the world at a higher refresh rate."
+ },
+ {
+  "i": 57,
+  "start": 197.52,
+  "end": 205.22,
+  "text": "A 2013 study in the journal Animal Behaviour found that link, and it's one reason a fly dodges your hand so easily."
+ },
+ {
+  "i": 58,
+  "start": 206.52,
+  "end": 210.6,
+  "text": "Leon is now the fly, and flies live in a flickering world."
+ },
+ {
+  "i": 59,
+  "start": 211.42,
+  "end": 217.12,
+  "text": "A human eye stops seeing a flickering light as flicker at around sixty flashes a second."
+ },
+ {
+  "i": 60,
+  "start": 217.96,
+  "end": 219.42,
+  "text": "Above that, it looks steady."
+ },
+ {
+  "i": 61,
+  "start": 219.42,
+  "end": 224.76,
+  "text": "Ten times faster, and that limit moves to six hundred."
+ },
+ {
+  "i": 62,
+  "start": 224.76,
+  "end": 226.78,
+  "text": "Now look at the lights in your school."
+ },
+ {
+  "i": 63,
+  "start": 227.18,
+  "end": 231.3,
+  "text": "They run on the power grid, and they flicker a hundred and twenty times a second."
+ },
+ {
+  "i": 64,
+  "start": 232.18,
+  "end": 233.38,
+  "text": "Almost nobody notices."
+ },
+ {
+  "i": 65,
+  "start": 234.58,
+  "end": 235.26,
+  "text": "Leon notices."
+ },
+ {
+  "i": 66,
+  "start": 236.06,
+  "end": 244.42,
+  "text": "His classroom looks like a bad disco, every screen looks like a slideshow, and by Wednesday he has a headache that won't leave."
+ },
+ {
+  "i": 67,
+  "start": 245.96,
+  "end": 247.56,
+  "text": "Problem two, the waiting."
+ },
+ {
+  "i": 68,
+  "start": 248.64,
+  "end": 250.9,
+  "text": "People still talk at the same speed."
+ },
+ {
+  "i": 69,
+  "start": 251.62,
+  "end": 256.36,
+  "text": "But Leon's brain now gets ten times more thinking between every word."
+ },
+ {
+  "i": 70,
+  "start": 257.28,
+  "end": 259.12,
+  "text": "Dad asks, \"How was school?\""
+ },
+ {
+  "i": 71,
+  "start": 259.74,
+  "end": 262.02,
+  "text": "and before he reaches the word school,"
+ },
+ {
+  "i": 72,
+  "start": 262.94,
+  "end": 267.88,
+  "text": "Leon has answered, thought of fifty better answers, and counted the kitchen tiles."
+ },
+ {
+  "i": 73,
+  "start": 268.84,
+  "end": 269.18,
+  "text": "Ms."
+ },
+ {
+  "i": 74,
+  "start": 269.42,
+  "end": 273.24,
+  "text": "Park says, \"Good morning, class,\" and Leon ages a little."
+ },
+ {
+  "i": 75,
+  "start": 274.42,
+  "end": 278.8,
+  "text": "Waiting two minutes for the microwave feels like twenty."
+ },
+ {
+  "i": 76,
+  "start": 278.8,
+  "end": 282.14,
+  "text": "Waiting for Owen to finish a joke is a tragedy."
+ },
+ {
+  "i": 77,
+  "start": 283.22,
+  "end": 285.06,
+  "text": "Problem three, the bill."
+ },
+ {
+  "i": 78,
+  "start": 286.24,
+  "end": 292.7,
+  "text": "Your brain is only about two percent of your body weight, but it burns about twenty percent of your energy."
+ },
+ {
+  "i": 79,
+  "start": 293.42,
+  "end": 298.0,
+  "text": "That comes from a 2002 paper by Marcus Raichle and Debra Gusnard."
+ },
+ {
+  "i": 80,
+  "start": 298.66,
+  "end": 303.66,
+  "text": "So a brain running ten times faster is not going to run for free."
+ },
+ {
+  "i": 81,
+  "start": 303.96,
+  "end": 310.84,
+  "text": "Nobody knows exactly how much extra it costs, so that part is a guess, but Leon's stomach has already voted."
+ },
+ {
+  "i": 82,
+  "start": 311.6,
+  "end": 312.52,
+  "text": "Breakfast number one."
+ },
+ {
+  "i": 83,
+  "start": 313.46,
+  "end": 314.36,
+  "text": "Breakfast number two."
+ },
+ {
+  "i": 84,
+  "start": 315.4,
+  "end": 322.04,
+  "text": "At lunch, he finishes his tray, then Owen's tray, then half of Chase's, and Chase doesn't dare argue."
+ },
+ {
+  "i": 85,
+  "start": 322.6,
+  "end": 324.24,
+  "text": "Mom starts counting the toast."
+ },
+ {
+  "i": 86,
+  "start": 325.24,
+  "end": 330.36,
+  "text": "By Thursday, Leon has eaten four sandwiches before first period, and he's still hungry."
+ },
+ {
+  "i": 87,
+  "start": 331.12,
+  "end": 333.24,
+  "text": "Biscuit starts guarding his own bowl from him."
+ },
+ {
+  "i": 88,
+  "start": 334.02,
+  "end": 339.24,
+  "text": "A fast brain is an expensive brain, and nobody warned Leon's lunch money."
+ },
+ {
+  "i": 89,
+  "start": 340.52,
+  "end": 342.34,
+  "text": "Problem four, the rules."
+ },
+ {
+  "i": 90,
+  "start": 343.74,
+  "end": 345.94,
+  "text": "Friday is field day, the fifty meter dash."
+ },
+ {
+  "i": 91,
+  "start": 346.46,
+  "end": 349.64,
+  "text": "The starting gun goes off, and Leon is already gone."
+ },
+ {
+  "i": 92,
+  "start": 350.1,
+  "end": 352.94,
+  "text": "His legs left before the other kids even knew it was a gun."
+ },
+ {
+  "i": 93,
+  "start": 353.76,
+  "end": 354.98,
+  "text": "Coach Dunn blows the whistle."
+ },
+ {
+  "i": 94,
+  "start": 355.68,
+  "end": 356.26,
+  "text": "\"False start."
+ },
+ {
+  "i": 95,
+  "start": 356.52,
+  "end": 356.98,
+  "text": "Disqualified.\""
+ },
+ {
+  "i": 96,
+  "start": 358.26,
+  "end": 359.66,
+  "text": "Leon stares at him."
+ },
+ {
+  "i": 97,
+  "start": 360.12,
+  "end": 361.4,
+  "text": "\"I started after the gun!\""
+ },
+ {
+  "i": 98,
+  "start": 362.36,
+  "end": 366.28,
+  "text": "\"Son, anything under a tenth of a second means you must have guessed."
+ },
+ {
+  "i": 99,
+  "start": 366.88,
+  "end": 367.9,
+  "text": "It's an official rule.\""
+ },
+ {
+  "i": 100,
+  "start": 369.06,
+  "end": 369.92,
+  "text": "And it really is."
+ },
+ {
+  "i": 101,
+  "start": 370.32,
+  "end": 381.18,
+  "text": "World Athletics uses it, and in 2022 a sprinter named Devon Allen was thrown out of a World Championships final for reacting in ninety-nine thousandths of a second."
+ },
+ {
+  "i": 102,
+  "start": 382.28,
+  "end": 385.12,
+  "text": "Leon reacts four times faster than that limit."
+ },
+ {
+  "i": 103,
+  "start": 386.06,
+  "end": 388.12,
+  "text": "So next race, he waits."
+ },
+ {
+  "i": 104,
+  "start": 388.9,
+  "end": 389.36,
+  "text": "On purpose."
+ },
+ {
+  "i": 105,
+  "start": 390.24,
+  "end": 394.16,
+  "text": "He counts one Mississippi in his head, runs, and finishes fourth."
+ },
+ {
+  "i": 106,
+  "start": 395.34,
+  "end": 398.66,
+  "text": "For the first time all week, nobody suspects a thing."
+ },
+ {
+  "i": 107,
+  "start": 399.46,
+  "end": 403.5,
+  "text": "He's the only kid in history who has to fake being slow."
+ },
+ {
+  "i": 108,
+  "start": 405.68,
+  "end": 407.1,
+  "text": "Saturday afternoon, the park."
+ },
+ {
+  "i": 109,
+  "start": 408.5,
+  "end": 411.12,
+  "text": "Leon holds Biscuit's leash while Mom buys ice cream."
+ },
+ {
+  "i": 110,
+  "start": 411.68,
+  "end": 416.3,
+  "text": "A squirrel darts across the grass, and Biscuit's collar slips right over his head."
+ },
+ {
+  "i": 111,
+  "start": 416.98,
+  "end": 418.56,
+  "text": "The squirrel runs for the road."
+ },
+ {
+  "i": 112,
+  "start": 419.12,
+  "end": 420.64,
+  "text": "Biscuit runs after the squirrel."
+ },
+ {
+  "i": 113,
+  "start": 421.4,
+  "end": 425.96,
+  "text": "Across the street, a delivery van turns the corner, and the driver is looking at his map."
+ },
+ {
+  "i": 114,
+  "start": 426.92,
+  "end": 429.64,
+  "text": "Leon sees all of it at once."
+ },
+ {
+  "i": 115,
+  "start": 430.48,
+  "end": 437.68,
+  "text": "The van is doing thirty kilometers an hour, about nineteen miles an hour, and Biscuit is two seconds from the road."
+ },
+ {
+  "i": 116,
+  "start": 438.5,
+  "end": 440.78,
+  "text": "And this is where rule two matters."
+ },
+ {
+  "i": 117,
+  "start": 441.1,
+  "end": 444.22,
+  "text": "He can't run faster than a ten year old, and he knows it."
+ },
+ {
+  "i": 118,
+  "start": 444.92,
+  "end": 449.68,
+  "text": "But a normal kid would have lost a quarter of a second just understanding what he's looking at."
+ },
+ {
+  "i": 119,
+  "start": 450.3,
+  "end": 454.02,
+  "text": "That quarter of a second is about one big step."
+ },
+ {
+  "i": 120,
+  "start": 454.9,
+  "end": 459.02,
+  "text": "One step is the whole difference between a dog and a van."
+ },
+ {
+  "i": 121,
+  "start": 460.3,
+  "end": 461.18,
+  "text": "Leon doesn't think."
+ },
+ {
+  "i": 122,
+  "start": 461.62,
+  "end": 462.24,
+  "text": "He goes."
+ },
+ {
+  "i": 123,
+  "start": 463.3,
+  "end": 464.52,
+  "text": "Dive, grab, pull."
+ },
+ {
+  "i": 124,
+  "start": 465.14,
+  "end": 469.26,
+  "text": "The tires scream, and the bumper stops one hand away from Leon's shoes."
+ },
+ {
+  "i": 125,
+  "start": 470.02,
+  "end": 475.5,
+  "text": "His knees are skinned, his elbow is bleeding, and the dog in his arms is licking his face."
+ },
+ {
+  "i": 126,
+  "start": 476.54,
+  "end": 478.16,
+  "text": "The driver climbs out, shaking."
+ },
+ {
+  "i": 127,
+  "start": 478.92,
+  "end": 481.16,
+  "text": "\"Kid, how did you even see me?\""
+ },
+ {
+  "i": 128,
+  "start": 482.02,
+  "end": 482.96,
+  "text": "Leon looks up."
+ },
+ {
+  "i": 129,
+  "start": 483.66,
+  "end": 484.78,
+  "text": "\"I just started early.\""
+ },
+ {
+  "i": 130,
+  "start": 486.08,
+  "end": 491.34,
+  "text": "Mom runs over, drops the ice cream, and hugs him so hard his elbow stops hurting."
+ },
+ {
+  "i": 131,
+  "start": 492.26,
+  "end": 494.62,
+  "text": "By dinner, the whole street knows."
+ },
+ {
+  "i": 132,
+  "start": 495.48,
+  "end": 497.16,
+  "text": "Mom books a doctor for Monday."
+ },
+ {
+  "i": 133,
+  "start": 497.72,
+  "end": 506.68,
+  "text": "The doctor says every test is normal, except the reaction test, where the computer shows an error and the doctor says, \"Let's try the other computer.\""
+ },
+ {
+  "i": 134,
+  "start": 507.8,
+  "end": 512.64,
+  "text": "Dad puts a Band-Aid on every scrape, and a second Band-Aid on top, for luck."
+ },
+ {
+  "i": 135,
+  "start": 512.94,
+  "end": 514.62,
+  "text": "Biscuit forgives him for the sausage."
+ },
+ {
+  "i": 136,
+  "start": 515.68,
+  "end": 516.28,
+  "text": "Completely."
+ },
+ {
+  "i": 137,
+  "start": 516.82,
+  "end": 517.1,
+  "text": "Forever."
+ },
+ {
+  "i": 138,
+  "start": 518.16,
+  "end": 520.82,
+  "text": "That's the thing about being ten times faster."
+ },
+ {
+  "i": 139,
+  "start": 521.32,
+  "end": 522.94,
+  "text": "It doesn't make you a superhero."
+ },
+ {
+  "i": 140,
+  "start": 523.7,
+  "end": 525.32,
+  "text": "It gives you one step."
+ },
+ {
+  "i": 141,
+  "start": 526.22,
+  "end": 528.72,
+  "text": "And sometimes one step is enough,"
+ },
+ {
+  "i": 142,
+  "start": 529.68,
+  "end": 530.88,
+  "text": "if you take it."
+ },
+ {
+  "i": 143,
+  "start": 533.53,
+  "end": 536.59,
+  "text": "But that night, Owen holds the ruler again."
+ },
+ {
+  "i": 144,
+  "start": 537.73,
+  "end": 538.77,
+  "text": "Leon catches it."
+ },
+ {
+  "i": 145,
+  "start": 539.35,
+  "end": 540.21,
+  "text": "Three millimeters."
+ },
+ {
+  "i": 146,
+  "start": 541.25,
+  "end": 542.33,
+  "text": "Owen drops it again."
+ },
+ {
+  "i": 147,
+  "start": 543.47,
+  "end": 543.55,
+  "text": "Two."
+ },
+ {
+  "i": 148,
+  "start": 544.81,
+  "end": 545.23,
+  "text": "Again."
+ },
+ {
+  "i": 149,
+  "start": 546.53,
+  "end": 546.63,
+  "text": "One."
+ },
+ {
+  "i": 150,
+  "start": 547.85,
+  "end": 551.81,
+  "text": "By morning, Leon's hand is closing before Owen's fingers even open."
+ },
+ {
+  "i": 151,
+  "start": 552.51,
+  "end": 555.27,
+  "text": "His reflexes aren't ten times faster anymore."
+ },
+ {
+  "i": 152,
+  "start": 556.25,
+  "end": 557.27,
+  "text": "They're still going."
+ },
+ {
+  "i": 153,
+  "start": 558.55,
+  "end": 561.09,
+  "text": "So, what if they never stop?"
+ },
+ {
+  "i": 154,
+  "start": 562.09,
+  "end": 565.97,
+  "text": "And what would you do with reflexes ten times faster?"
+ },
+ {
+  "i": 155,
+  "start": 567.03,
+  "end": 567.95,
+  "text": "Tell us in the comments."
+ },
+ {
+  "i": 156,
+  "start": 568.63,
+  "end": 573.49,
+  "text": "And if you would have run for Biscuit too, subscribe, because part two is coming."
+ }
+]

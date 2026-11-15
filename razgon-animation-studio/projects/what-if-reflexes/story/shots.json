@@ -1,0 +1,1897 @@
+{
+ "title": "What If Your Reflexes Were 10x Faster",
+ "duration": 480.538,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.183,
+   "line": "Monday, third period, the gym.",
+   "scene": "Общий план спортзала, на скамейках зрители, команда Chase слева, Leon один справа у стены.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "камера медленно наезжает",
+   "assets": "BG gym; CHASE; TEAM; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 2.183,
+   "end": 3.867,
+   "line": "Chase holds two dodgeballs,",
+   "scene": "Chase крупнее, в каждой руке по мячу, самоуверенная поза. Leon вдали.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "лёгкий наезд",
+   "assets": "BG gym; CHASE; ball×2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 3.867,
+   "end": 5.55,
+   "line": "and his whole team holds eight more.",
+   "scene": "Четверо ребят из команды в ряд, у каждого по два мяча. Над ними счётчик: 10 мячей.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "ряд ребят, мячи в руках",
+   "assets": "BG gym; TEAM×4; balls×8",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 5.55,
+   "end": 7.858,
+   "line": "On the whistle, all ten fly at once,",
+   "scene": "Свисток, десять мячей летят дугой слева направо в одного Leon. Leon стоит справа у стены.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "мячи по траектории, камера держит всех",
+   "assets": "BG gym; TEAM; LEON; balls×10",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 7.858,
+   "end": 10.275,
+   "line": "aimed at one kid. Leon.",
+   "scene": "Крупный Leon в прицеле, мячи близко. Подпись LEON со стрелкой.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "прицел сжимается",
+   "assets": "LEON; crosshair; balls",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 10.275,
+   "end": 11.533,
+   "line": "He doesn't run.",
+   "scene": "Leon стоит спокойно, руки расслаблены, мячи почти рядом.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "мячи подлетают, Leon не двигается",
+   "assets": "LEON; balls",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 11.533,
+   "end": 14.467,
+   "line": "He leans left, ducks under one, steps back from another,",
+   "scene": "Leon наклоняется влево, один мяч над головой, другой отлетает от шага назад.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "пара поз: наклон, шаг назад",
+   "assets": "LEON; balls",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 14.467,
+   "end": 16.858,
+   "line": "and plucks a third out of the air like a grape.",
+   "scene": "Leon ловит мяч одной рукой на лету, остальные мячи проносятся мимо.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "рука смыкается на мяче",
+   "assets": "LEON; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 16.858,
+   "end": 18.825,
+   "line": "The other seven hit the wall behind him.",
+   "scene": "Семь мячей бьются в стену за Leon, отскакивают; Leon с пойманным мячом.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "мячи ударяются о стену, пыль",
+   "assets": "LEON; wall; balls×7",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 18.825,
+   "end": 21.117,
+   "line": "Ten balls, zero hits.",
+   "scene": "Табло на стене: 10 МЯЧЕЙ, 0 ПОПАДАНИЙ.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "плашка вылетает",
+   "assets": "LEON; plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 21.117,
+   "end": 23.633,
+   "line": "The gym goes dead silent.",
+   "scene": "Зал замер: команда с открытыми ртами, на скамейке зрители в шоке; над залом «…».",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "все застыли, тишина",
+   "assets": "TEAM; CROWD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 23.633,
+   "end": 27.708,
+   "line": "Owen whispers from the bench, \"Dude. How?\"",
+   "scene": "Owen на скамейке шепчет Leon, глаза широко открыты.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Owen наклонился вперёд",
+   "assets": "OWEN; LEON; bench",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 27.708,
+   "end": 31.433,
+   "line": "Leon shrugs. \"They were just really slow.\"",
+   "scene": "Leon пожимает плечами, мяч в руке, небрежно.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "плечи вверх",
+   "assets": "LEON; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 31.433,
+   "end": 33.117,
+   "line": "But they weren't slow.",
+   "scene": "Замедленный кадр: мячи застыли в воздухе, перед ними Leon. Подпись «BUT THEY WEREN’T SLOW».",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "мячи замедляются и замирают",
+   "assets": "LEON; balls",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 33.117,
+   "end": 37.45,
+   "line": "A normal kid needs about a quarter of a second between seeing a ball and starting to move.",
+   "scene": "Таймлайн: ребёнок видит мяч (глаз), полоса 0,25 с до начала движения, нога. Подписи 0,25 s.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "полоса наполняется слева направо",
+   "assets": "KID; ball; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 37.45,
+   "end": 40.258,
+   "line": "By then, the ball has already crossed a good part of the gym.",
+   "scene": "Спортзал сбоку: мяч уже пролетел половину зала, ребёнок только начал двигаться. Линия «ПРОЛЕТЕЛ».",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "мяч летит, ребёнок стоит",
+   "assets": "BG gym; KID; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 40.258,
+   "end": 43.042,
+   "line": "Leon needs one fortieth of a second.",
+   "scene": "Таймлайн Leon: короткая полоска 1/40 s, ребёнок для сравнения рядом с длинной полосой.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "полоска Leon вспыхивает",
+   "assets": "LEON; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 43.042,
+   "end": 47.017,
+   "line": "So, what if your reflexes were ten times faster?",
+   "scene": "Название ролика большими буквами, Leon с кепкой и стрелкой «×10».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "название влетает",
+   "assets": "LEON; title",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 47.017,
+   "end": 48.475,
+   "line": "Here's how it works.",
+   "scene": "Доска с тремя пустыми карточками, Leon показывает на доску.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточки выезжают",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 48.475,
+   "end": 54.633,
+   "line": "Rule one. The gap between seeing something and starting to move shrinks from a quarter of a second to a fortieth.",
+   "scene": "Доска: RULE 1, шкала 0,25 с сжимается до 1/40.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "шкала сжимается",
+   "assets": "LEON; board; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 54.633,
+   "end": 57.283,
+   "line": "Eyes, brain, nerves, all of it.",
+   "scene": "Схема: глаз → мозг → нерв → нога, у каждого значок вспыхивает по очереди.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "вспышки по цепочке",
+   "assets": "icons eye brain nerve leg",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 57.283,
+   "end": 60.608,
+   "line": "Rule two. You start sooner, but you don't move faster.",
+   "scene": "Доска: RULE 2, надпись «START SOONER ≠ MOVE FASTER».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка появляется",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 60.608,
+   "end": 63.775,
+   "line": "Your legs run exactly as fast as they did yesterday.",
+   "scene": "Leon и обычный Owen бегут рядом по дорожке с одинаковой скоростью, спидометр SAME SPEED.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "оба бегут вровень",
+   "assets": "BG field; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 63.775,
+   "end": 68.158,
+   "line": "Rule three. The world isn't in slow motion.",
+   "scene": "Доска: RULE 3, мир рядом с Leon не замедлен: маятник и ребята идут нормально.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка появляется",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 68.158,
+   "end": 71.817,
+   "line": "It's just that everybody else seems to be loading.",
+   "scene": "Над головами у ребят крутятся «загрузки» (круги прогресса), Leon ждёт скучая.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "круги загрузки крутятся",
+   "assets": "BG gym; KIDS; LEON; spinners",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 71.817,
+   "end": 73.175,
+   "line": "Want proof?",
+   "scene": "Owen держит линейку вертикально, рядом Leon с раскрытой ладонью, подпись PROOF.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Owen поднимает линейку",
+   "assets": "BG classroom; OWEN; LEON; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 73.175,
+   "end": 75.492,
+   "line": "Owen holds a ruler and lets go.",
+   "scene": "Owen отпускает линейку, она падает между пальцев ребёнка (KID).",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "линейка падает",
+   "assets": "OWEN; KID; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 75.492,
+   "end": 79.692,
+   "line": "A normal kid catches it about twenty-five centimeters down, ten inches.",
+   "scene": "Линейка упала, кид ловит у отметки 25 см (10 inches), подпись.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "линейка проскальзывает, кид хватает",
+   "assets": "OWEN; KID; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 79.692,
+   "end": 82.517,
+   "line": "Leon catches it at three millimeters.",
+   "scene": "Leon ловит линейку почти сразу, пальцы у самой отметки 3 мм.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "мгновенный хват",
+   "assets": "OWEN; LEON; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 82.517,
+   "end": 86.0,
+   "line": "That's not catching. That's practically a handshake.",
+   "scene": "Leon и Owen пожимают руки через линейку: «HANDSHAKE».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "рукопожатие",
+   "assets": "OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 86.0,
+   "end": 88.508,
+   "line": "Plus number one, breakfast.",
+   "scene": "Кухня утром, Leon за столом с хлопьями, Dad у плиты.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG kitchen; LEON; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 88.508,
+   "end": 92.458,
+   "line": "Dad flips a pancake, and it sails toward the ceiling fan.",
+   "scene": "Dad подбрасывает блин, тот летит к потолочному вентилятору.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "блин взлетает по дуге",
+   "assets": "DAD; LEON; pancake; fan",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 92.458,
+   "end": 95.567,
+   "line": "Leon slides a plate under it without looking up from his cereal.",
+   "scene": "Leon, не глядя от хлопьев, подставляет тарелку, блин падает точно на неё.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "тарелка подъезжает",
+   "assets": "LEON; plate; pancake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 95.567,
+   "end": 99.633,
+   "line": "Dad stares at the plate, then the ceiling, then Leon.",
+   "scene": "Dad смотрит на тарелку, потом вверх на потолок, потом на Leon; три позы.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "взгляд Dad меняет направление",
+   "assets": "DAD; LEON; plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 99.633,
+   "end": 104.967,
+   "line": "Then Biscuit, the dog, grabs a sausage off the counter, and Leon beats him to it.",
+   "scene": "На столешнице сосиска, Biscuit прыгает за ней, Leon уже держит сосиску в руке.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "прыжок и перехват",
+   "assets": "DAD; LEON; BISCUIT; sausage",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 104.967,
+   "end": 109.75,
+   "line": "Biscuit has never lost a race to food. He does not take it well.",
+   "scene": "Biscuit лежит, оскорблённо отвернувшись, Leon с сосиской.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Biscuit фыркает",
+   "assets": "BISCUIT; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 109.75,
+   "end": 112.975,
+   "line": "Plus number two, the town fair.",
+   "scene": "Ярмарка: палатки, флажки, гирлянда.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "флажки колышутся",
+   "assets": "BG fair code; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 112.975,
+   "end": 117.058,
+   "line": "The whack-a-mole machine shows each mole for less than half a second.",
+   "scene": "Автомат с дырами, кроты высовываются по очереди, таймер 0,5 s.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "кроты выскакивают",
+   "assets": "machine; moles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 117.058,
+   "end": 119.942,
+   "line": "Leon's mallet is waiting at every hole.",
+   "scene": "Leon с молотком у автомата, молоток уже над каждой дырой, кроты бьются.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "удары молотком по очереди",
+   "assets": "LEON; mallet; machine",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 119.942,
+   "end": 125.592,
+   "line": "The attendant hands over the biggest stuffed bear in the booth, and the bear is bigger than Leon.",
+   "scene": "Работник палатки вручает огромного плюшевого медведя, медведь больше Leon.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "медведь вручается",
+   "assets": "LEON; ATTENDANT; bear",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 125.592,
+   "end": 128.008,
+   "line": "Plus number three, the cafeteria.",
+   "scene": "Столовая, дети с подносами в очереди.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG cafeteria; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 128.008,
+   "end": 129.833,
+   "line": "A kid trips with a full tray,",
+   "scene": "Мальчик с подносом споткнулся, поднос с едой летит вверх.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "падает, поднос вылетает",
+   "assets": "KID; tray; food",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 129.833,
+   "end": 134.408,
+   "line": "and Leon catches the milk, the apple, and the pudding before any of them reach the floor.",
+   "scene": "Leon на лету ловит молоко, яблоко и пудинг, поднос в другой руке, три предмета в руках.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "три предмета у Leon",
+   "assets": "LEON; milk; apple; pudding",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 134.408,
+   "end": 137.092,
+   "line": "The kid doesn't even realize he tripped.",
+   "scene": "Мальчик лежит на полу и недоумевает, Leon ставит поднос ему на стол.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "мальчик моргает",
+   "assets": "KID; LEON; tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 137.092,
+   "end": 139.608,
+   "line": "Plus number four, tag.",
+   "scene": "Площадка, дети играют в пятнашки.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG field; KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 139.608,
+   "end": 141.692,
+   "line": "Nobody can tag him, ever.",
+   "scene": "Три водящих тянутся к Leon, он уходит от каждой руки.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "руки хватают воздух",
+   "assets": "KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 141.692,
+   "end": 145.308,
+   "line": "He plays the whole game at a walk, with his hands in his pockets.",
+   "scene": "Leon идёт шагом, руки в карманах, водящие кучей запыхались.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon идёт, водящие падают",
+   "assets": "KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 145.308,
+   "end": 150.55,
+   "line": "But before you get too excited, this is reflexes, not brains.",
+   "scene": "Класс, на доске «REFLEXES ≠ BRAINS», Leon задумался.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG classroom; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 150.55,
+   "end": 154.358,
+   "line": "Question seven on the math quiz is still question seven.",
+   "scene": "Листок теста, вопрос 7 с большим вопросом, Leon смотрит в растерянности.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "ручка зависла",
+   "assets": "LEON; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 154.358,
+   "end": 156.708,
+   "line": "But then you start noticing the problems.",
+   "scene": "Leon хмурится, на заднем плане мигает свет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "свет мигает",
+   "assets": "BG classroom; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 156.708,
+   "end": 158.933,
+   "line": "Problem one, the lights.",
+   "scene": "Лампа под потолком, подпись PROBLEM 1 · THE LIGHTS.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "lamp; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 158.933,
+   "end": 164.233,
+   "line": "Small animals with fast metabolisms, like flies, see the world at a higher refresh rate.",
+   "scene": "Муха с крупными глазами, рядом мелкие значки; подпись «FASTER BRAIN = HIGHER REFRESH RATE».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "муха парит",
+   "assets": "fly; icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 164.233,
+   "end": 171.558,
+   "line": "A 2013 study in the journal Animal Behaviour found that link, and it's one reason a fly dodges your hand so easily.",
+   "scene": "Карточка исследования: журнал Animal Behaviour 2013, рука взмахивает, муха уворачивается.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка, муха улетает от руки",
+   "assets": "card; fly; hand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 171.558,
+   "end": 175.842,
+   "line": "Leon is now the fly, and flies live in a flickering world.",
+   "scene": "Leon с мушиными глазами-фасетами, вокруг мерцает свет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "свет мерцает",
+   "assets": "LEON; flicker",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 175.842,
+   "end": 181.283,
+   "line": "A human eye stops seeing a flickering light as flicker at around sixty flashes a second.",
+   "scene": "Лампа мигает, шкала 60 вспышек в секунду, надпись «60 FLASHES / SEC».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "мигание, шкала",
+   "assets": "lamp; gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 181.283,
+   "end": 182.85,
+   "line": "Above that, it looks steady.",
+   "scene": "Лампа горит ровно, надпись «LOOKS STEADY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "свет ровный",
+   "assets": "lamp",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 182.85,
+   "end": 187.3,
+   "line": "Ten times faster, and that limit moves to six hundred.",
+   "scene": "Шкала растёт с 60 до 600, стрелка прыгает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелка прыгает",
+   "assets": "gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 187.3,
+   "end": 193.117,
+   "line": "Now look at the lights in your school. They run on the power grid, and they flicker a hundred and twenty times a second.",
+   "scene": "Лампы в классе мигают очень часто, надпись «120 FLICKERS / SEC».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лампы мерцают (без быстрых стробов)",
+   "assets": "BG classroom; lamps",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 193.117,
+   "end": 196.383,
+   "line": "Almost nobody notices. Leon notices.",
+   "scene": "Дети сидят спокойно, один Leon прищурился и держится за лоб.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon щурится",
+   "assets": "KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 196.383,
+   "end": 198.817,
+   "line": "His classroom looks like a bad disco,",
+   "scene": "Класс как дискотека: цветные вспышки, Leon за партой в очках-звёздах.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "цветные лучи",
+   "assets": "BG classroom; LEON; disco",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 198.817,
+   "end": 204.325,
+   "line": "every screen looks like a slideshow, and by Wednesday he has a headache that won't leave.",
+   "scene": "Экран компьютера показывает слайды вместо видео, Leon держится за голову, над головой молнии боли.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "слайды переключаются",
+   "assets": "LEON; screen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 204.325,
+   "end": 206.75,
+   "line": "Problem two, the waiting.",
+   "scene": "Кухня, подпись PROBLEM 2 · THE WAITING.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG kitchen; LEON; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 206.75,
+   "end": 214.017,
+   "line": "People still talk at the same speed. But Leon's brain now gets ten times more thinking between every word.",
+   "scene": "Dad говорит, у каждого слова над ним медленно ползёт полоска; Leon уже заскучал.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "слова ползут",
+   "assets": "DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 214.017,
+   "end": 218.733,
+   "line": "Dad asks, \"How was school?\" and before he reaches the word school,",
+   "scene": "Dad спрашивает, Leon уже ответил и мысли про 50 ответов в облаках-пузырях.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "пузыри мыслей множатся",
+   "assets": "DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 218.733,
+   "end": 223.633,
+   "line": "Leon has answered, thought of fifty better answers, and counted the kitchen tiles.",
+   "scene": "Leon считает плитки на полу, на каждой цифра.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "цифры на плитках",
+   "assets": "LEON; tiles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 223.633,
+   "end": 228.192,
+   "line": "Ms. Park says, \"Good morning, class,\" and Leon ages a little.",
+   "scene": "Ms. Park у доски говорит, Leon за партой стареет: борода и седые волосы.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon седеет",
+   "assets": "PARK; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 228.192,
+   "end": 232.333,
+   "line": "Waiting two minutes for the microwave feels like twenty.",
+   "scene": "Микроволновка с таймером 2:00, Leon смотрит на неё, часы показывают 20 минут.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "таймер идёт медленно",
+   "assets": "microwave; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 232.333,
+   "end": 235.567,
+   "line": "Waiting for Owen to finish a joke is a tragedy.",
+   "scene": "Owen рассказывает шутку, Leon в позе facepalm/ждёт, над Owen пузырь с шуткой.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon вздыхает",
+   "assets": "OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 235.567,
+   "end": 238.042,
+   "line": "Problem three, the bill.",
+   "scene": "Чек со счётом, подпись PROBLEM 3 · THE BILL.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "receipt",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 238.042,
+   "end": 244.217,
+   "line": "Your brain is only about two percent of your body weight, but it burns about twenty percent of your energy.",
+   "scene": "Два круга: 2% тела (мозг), 20% энергии (заполненная диаграмма).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "круги заполняются",
+   "assets": "pie×2; brain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 244.217,
+   "end": 248.608,
+   "line": "That comes from a 2002 paper by Marcus Raichle and Debra Gusnard.",
+   "scene": "Карточка статьи: Raichle & Gusnard, 2002.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка",
+   "assets": "card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 248.608,
+   "end": 253.175,
+   "line": "So a brain running ten times faster is not going to run for free.",
+   "scene": "Мозг с шестерёнками и кошельком, шкала батареи быстро падает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "батарея падает",
+   "assets": "brain; battery",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 253.175,
+   "end": 259.35,
+   "line": "Nobody knows exactly how much extra it costs, so that part is a guess, but Leon's stomach has already voted.",
+   "scene": "Leon держится за живот, над головой «?», желудок урчит.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "желудок урчит",
+   "assets": "LEON; qmark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 259.35,
+   "end": 262.4,
+   "line": "Breakfast number one. Breakfast number two.",
+   "scene": "Leon съедает один завтрак, потом второй: две пустые тарелки и Dad удивлённо.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "тарелки множатся",
+   "assets": "LEON; DAD; plates",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 262.4,
+   "end": 268.6,
+   "line": "At lunch, he finishes his tray, then Owen's tray, then half of Chase's, and Chase doesn't dare argue.",
+   "scene": "Leon за столом, три пустых подноса стопкой, Owen и Chase смотрят испуганно.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "подносы растут стопкой",
+   "assets": "LEON; OWEN; CHASE; trays",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 268.6,
+   "end": 270.617,
+   "line": "Mom starts counting the toast.",
+   "scene": "Mom считает ломти тоста на тарелке, Leon тянется к тосту.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom считает пальцем",
+   "assets": "MOM; LEON; toast",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 270.617,
+   "end": 275.617,
+   "line": "By Thursday, Leon has eaten four sandwiches before first period, and he's still hungry.",
+   "scene": "Четыре бутерброда на тарелках, Leon всё ещё голодный, живот пустой.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "бутерброды исчезают",
+   "assets": "LEON; sandwiches",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 275.617,
+   "end": 278.025,
+   "line": "Biscuit starts guarding his own bowl from him.",
+   "scene": "Biscuit закрывает миску собой и рычит на Leon.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Biscuit над миской",
+   "assets": "BISCUIT; LEON; bowl",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 278.025,
+   "end": 283.233,
+   "line": "A fast brain is an expensive brain, and nobody warned Leon's lunch money.",
+   "scene": "Leon с пустым кошельком, из которого вылетает моль.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "моль вылетает",
+   "assets": "LEON; wallet",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 283.233,
+   "end": 285.867,
+   "line": "Problem four, the rules.",
+   "scene": "Школьное поле, подпись PROBLEM 4 · THE RULES.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG field; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 285.867,
+   "end": 288.5,
+   "line": "Friday is field day, the fifty meter dash.",
+   "scene": "Старт: шесть ребят в ряд на линии, тренер с пистолетом, лента на финише; подпись «FRIDAY · 50 M».",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "ребята встают на линию",
+   "assets": "BG field; LEON; KIDS; COACH",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 288.5,
+   "end": 291.558,
+   "line": "The starting gun goes off, and Leon is already gone.",
+   "scene": "Выстрел, дымок, Leon уже у финиша, остальные ещё на старте.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon уносится",
+   "assets": "LEON; KIDS; COACH; gun",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 291.558,
+   "end": 294.458,
+   "line": "His legs left before the other kids even knew it was a gun.",
+   "scene": "Leon на финише, остальные только начали шаг, над ними «?».",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "остальные стартуют",
+   "assets": "LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 294.458,
+   "end": 298.017,
+   "line": "Coach Dunn blows the whistle. \"False start. Disqualified.\"",
+   "scene": "Тренер Dunn со свистком, показывает красную карточку.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "карточка вверх",
+   "assets": "COACH; LEON; card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 298.017,
+   "end": 301.567,
+   "line": "Leon stares at him. \"I started after the gun!\"",
+   "scene": "Leon возмущён, руки в стороны.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon жестикулирует",
+   "assets": "LEON; COACH",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 301.567,
+   "end": 307.067,
+   "line": "\"Son, anything under a tenth of a second means you must have guessed. It's an official rule.\"",
+   "scene": "Dunn объясняет, показывает на табличку «0.1 s».",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Dunn показывает табличку",
+   "assets": "COACH; LEON; sign",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 307.067,
+   "end": 318.108,
+   "line": "And it really is. World Athletics uses it, and in 2022 a sprinter named Devon Allen was thrown out of a World Championships final for reacting in ninety-nine thousandths of a second.",
+   "scene": "Карточка Devon Allen 2022, на ней время 0,099 с и красный крест.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка, красный крест",
+   "assets": "card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 318.108,
+   "end": 321.325,
+   "line": "Leon reacts four times faster than that limit.",
+   "scene": "Шкала 0,1 s и метка Leon на 0,025, стрелка ×4.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "метка Leon у нуля",
+   "assets": "gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 321.325,
+   "end": 324.833,
+   "line": "So next race, he waits. On purpose.",
+   "scene": "Leon на старте, часы с обратным отсчётом, он ждёт, глаза на пистолет.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon стоит, остальные стартуют",
+   "assets": "LEON; KIDS; COACH",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 324.833,
+   "end": 328.958,
+   "line": "He counts one Mississippi in his head, runs, and finishes fourth.",
+   "scene": "Leon над головой «ONE MISSISSIPPI», потом бежит и финиширует четвёртым: табло «4TH».",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon считает, бежит",
+   "assets": "LEON; KIDS; podium",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 328.958,
+   "end": 332.55,
+   "line": "For the first time all week, nobody suspects a thing.",
+   "scene": "Зрители равнодушно хлопают, Leon доволен, никто ничего не подозревает.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "аплодисменты",
+   "assets": "KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 332.55,
+   "end": 337.158,
+   "line": "He's the only kid in history who has to fake being slow.",
+   "scene": "Leon изображает усталость: пыхтит и вытирает лоб, на заднем плане подпись.",
+   "set": "FIELD",
+   "hud": "—",
+   "notes": "Leon притворно пыхтит",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 337.158,
+   "end": 339.833,
+   "line": "Saturday afternoon, the park.",
+   "scene": "Парк, лавочка, дерево; подпись SATURDAY AFTERNOON.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "камера плывёт",
+   "assets": "BG field/park; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 339.833,
+   "end": 342.833,
+   "line": "Leon holds Biscuit's leash while Mom buys ice cream.",
+   "scene": "Leon держит поводок, Biscuit рядом, Mom уходит к киоску мороженого.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "Mom уходит",
+   "assets": "LEON; BISCUIT; MOM; kiosk",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 342.833,
+   "end": 347.2,
+   "line": "A squirrel darts across the grass, and Biscuit's collar slips right over his head.",
+   "scene": "Белка бежит по траве, Biscuit вырывается, ошейник соскальзывает с головы.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "ошейник слетает",
+   "assets": "BISCUIT; squirrel; LEON; leash",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 347.2,
+   "end": 350.85,
+   "line": "The squirrel runs for the road. Biscuit runs after the squirrel.",
+   "scene": "Белка и Biscuit бегут к дороге справа, Leon смотрит им вслед.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "погоня вправо",
+   "assets": "BISCUIT; squirrel; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 350.85,
+   "end": 355.367,
+   "line": "Across the street, a delivery van turns the corner, and the driver is looking at his map.",
+   "scene": "Улица: вдали поворачивает фургон, водитель смотрит в карту.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "фургон выезжает",
+   "assets": "BG street; van; DRIVER",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 355.367,
+   "end": 358.383,
+   "line": "Leon sees all of it at once.",
+   "scene": "Крупный Leon, глаза расширены, три мини-кадра вокруг: пёс, белка, фургон.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "кадры вспыхивают",
+   "assets": "LEON; icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 358.383,
+   "end": 365.075,
+   "line": "The van is doing thirty kilometers an hour, about nineteen miles an hour, and Biscuit is two seconds from the road.",
+   "scene": "Дорога: фургон слева (30 km/h), Biscuit у обочины справа, таймер 2 s.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "фургон едет, Biscuit бежит",
+   "assets": "BG street; van; BISCUIT; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 365.075,
+   "end": 367.45,
+   "line": "And this is where rule two matters.",
+   "scene": "Доска: RULE 2, Leon показывает пальцем на неё.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 367.45,
+   "end": 370.475,
+   "line": "He can't run faster than a ten year old, and he knows it.",
+   "scene": "Leon смотрит на свои ноги, они те же; подпись «SAME LEGS».",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "Leon смотрит вниз",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 370.475,
+   "end": 374.992,
+   "line": "But a normal kid would have lost a quarter of a second just understanding what he's looking at.",
+   "scene": "Обычный ребёнок застыл, над ним шкала 0,25 с крутится.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "ребёнок стоит",
+   "assets": "KID; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 374.992,
+   "end": 378.717,
+   "line": "That quarter of a second is about one big step.",
+   "scene": "След от одного большого шага на асфальте, Leon рядом.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "след появляется",
+   "assets": "LEON; footprint",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 378.717,
+   "end": 383.05,
+   "line": "One step is the whole difference between a dog and a van.",
+   "scene": "Весы: на одной чаше пёс, на другой фургон, между ними один шаг.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "шаг между ними",
+   "assets": "BISCUIT; van; step",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 383.05,
+   "end": 385.642,
+   "line": "Leon doesn't think. He goes.",
+   "scene": "Leon срывается с места, пыль за ногами.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "рывок",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 385.642,
+   "end": 387.358,
+   "line": "Dive, grab, pull.",
+   "scene": "Три кадра: прыжок, хват, рывок назад.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "три позы подряд",
+   "assets": "LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 387.358,
+   "end": 391.367,
+   "line": "The tires scream, and the bumper stops one hand away from Leon's shoes.",
+   "scene": "Фургон тормозит с дымом, бампер в одной ладони от кроссовок Leon.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "фургон тормозит",
+   "assets": "van; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 391.367,
+   "end": 396.683,
+   "line": "His knees are skinned, his elbow is bleeding, and the dog in his arms is licking his face.",
+   "scene": "Leon сидит на асфальте, ссадины, пластыри, пёс лижет лицо.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "пёс лижет",
+   "assets": "LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 396.683,
+   "end": 401.325,
+   "line": "The driver climbs out, shaking. \"Kid, how did you even see me?\"",
+   "scene": "Водитель выходит из фургона, руки трясутся.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "водитель выходит",
+   "assets": "DRIVER; LEON; van",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 401.325,
+   "end": 404.525,
+   "line": "Leon looks up. \"I just started early.\"",
+   "scene": "Leon поднимает взгляд на водителя, пёс на руках.",
+   "set": "ROAD",
+   "hud": "—",
+   "notes": "Leon поднимает голову",
+   "assets": "LEON; DRIVER; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 404.525,
+   "end": 409.833,
+   "line": "Mom runs over, drops the ice cream, and hugs him so hard his elbow stops hurting.",
+   "scene": "Mom бежит, роняет мороженое, обнимает Leon.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "мороженое падает",
+   "assets": "MOM; LEON; icecream",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 409.833,
+   "end": 412.542,
+   "line": "By dinner, the whole street knows.",
+   "scene": "Улица с домами, из окон смотрят соседи; подпись THE WHOLE STREET KNOWS.",
+   "set": "NIGHT",
+   "hud": "—",
+   "notes": "соседи выглядывают",
+   "assets": "BG street; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 412.542,
+   "end": 414.533,
+   "line": "Mom books a doctor for Monday.",
+   "scene": "Mom по телефону, на календаре «MONDAY · DOCTOR».",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "Mom звонит",
+   "assets": "MOM; phone; calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 414.533,
+   "end": 420.533,
+   "line": "The doctor says every test is normal, except the reaction test, where the computer shows an error and the doctor says,",
+   "scene": "Кабинет врача: Leon у компьютера, на экране «ERROR».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "экран мигает",
+   "assets": "DOCTOR; LEON; computer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 420.533,
+   "end": 422.7,
+   "line": "\"Let's try the other computer.\"",
+   "scene": "Врач переносит Leon к другому компьютеру, снова ERROR.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "врач чешет затылок",
+   "assets": "DOCTOR; LEON; computers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 422.7,
+   "end": 427.325,
+   "line": "Dad puts a Band-Aid on every scrape, and a second Band-Aid on top, for luck.",
+   "scene": "Dad клеит Leon пластыри: на каждую царапину и ещё один сверху.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "пластыри множатся",
+   "assets": "DAD; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 427.325,
+   "end": 431.358,
+   "line": "Biscuit forgives him for the sausage. Completely. Forever.",
+   "scene": "Biscuit кладёт голову Leon на колени, виляет хвостом.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "хвост виляет",
+   "assets": "BISCUIT; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 431.358,
+   "end": 436.1,
+   "line": "That's the thing about being ten times faster. It doesn't make you a superhero.",
+   "scene": "Leon сидит с пластырями, на заднем плане силуэт с плащом перечёркнут «NOT A SUPERHERO».",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "LEON; cape",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 436.1,
+   "end": 443.504,
+   "line": "It gives you one step. And sometimes one step is enough, if you take it.",
+   "scene": "Один большой след шага светится, надпись «ONE STEP».",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "след светится",
+   "assets": "LEON; footprint",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 443.504,
+   "end": 447.633,
+   "line": "But that night, Owen holds the ruler again.",
+   "scene": "Ночная кухня: Owen и Leon за столом, Owen держит линейку.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "линейка вверх",
+   "assets": "BG kitchen; OWEN; LEON; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 447.633,
+   "end": 456.033,
+   "line": "Leon catches it. Three millimeters. Owen drops it again. Two. Again. One.",
+   "scene": "Линейка падает три раза: 3 мм, 2 мм, 1 мм; на экране счётчик убывает.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "три падения подряд",
+   "assets": "OWEN; LEON; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 456.033,
+   "end": 460.133,
+   "line": "By morning, Leon's hand is closing before Owen's fingers even open.",
+   "scene": "Утро, Leon ловит линейку до того, как пальцы Owen разжались.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "линейка не падает",
+   "assets": "OWEN; LEON; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 460.133,
+   "end": 464.925,
+   "line": "His reflexes aren't ten times faster anymore. They're still going.",
+   "scene": "Спидометр с шкалой ×10, стрелка выходит за край и продолжает идти.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелка за край",
+   "assets": "gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 464.925,
+   "end": 467.992,
+   "line": "So, what if they never stop?",
+   "scene": "Leon смотрит на зрителя, надпись крупно.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 467.992,
+   "end": 473.575,
+   "line": "And what would you do with reflexes ten times faster? Tell us in the comments.",
+   "scene": "Leon показывает пальцем на зрителя, подпись COMMENT.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon указывает",
+   "assets": "LEON; comment icon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 473.575,
+   "end": 480.519,
+   "line": "And if you would have run for Biscuit too, subscribe, because part two is coming.",
+   "scene": "Leon и Biscuit рядом, кнопка SUBSCRIBE нажимается; подпись PART 2 IS COMING.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "кнопка нажимается",
+   "assets": "LEON; BISCUIT; button",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

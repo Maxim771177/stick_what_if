@@ -1,0 +1,656 @@
+[
+ {
+  "t": 0.0,
+  "s": "MONDAY · 3RD PERIOD",
+  "sc": 1,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 4.767,
+  "s": "10 BALLS",
+  "sc": 3,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 6.033,
+  "s": "TWEET!",
+  "sc": 4,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 9.65,
+  "s": "LEON",
+  "sc": 5,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 16.35,
+  "s": "CATCH!",
+  "sc": 8,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 19.117,
+  "s": "10 BALLS · 0 HITS",
+  "sc": 10,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 26.033,
+  "s": "DUDE. HOW?",
+  "sc": 12,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 29.383,
+  "s": "THEY WERE JUST REALLY SLOW.",
+  "sc": 13,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 32.567,
+  "s": "BUT THEY WEREN’T SLOW",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 34.6,
+  "s": "0.25 SECONDS",
+  "sc": 15,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 41.533,
+  "s": "1/40 SECOND",
+  "sc": 17,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 43.4,
+  "s": "WHAT IF YOUR REFLEXES WERE 10X FASTER?",
+  "sc": 18,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 48.833,
+  "s": "RULE 1",
+  "sc": 20,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 57.717,
+  "s": "RULE 2",
+  "sc": 22,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 61.333,
+  "s": "SAME SPEED",
+  "sc": 23,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 64.983,
+  "s": "RULE 3",
+  "sc": 24,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 70.85,
+  "s": "LOADING…",
+  "sc": 25,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 72.417,
+  "s": "PROOF",
+  "sc": 26,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 77.2,
+  "s": "25 CM · 10 INCHES",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 81.25,
+  "s": "3 MM",
+  "sc": 29,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 85.25,
+  "s": "HANDSHAKE",
+  "sc": 30,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 86.95,
+  "s": "PLUS #1 · BREAKFAST",
+  "sc": 31,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 105.833,
+  "s": "BISCUIT: 0 WINS",
+  "sc": 36,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 110.95,
+  "s": "PLUS #2 · THE TOWN FAIR",
+  "sc": 37,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 115.85,
+  "s": "< 0.5 SECOND",
+  "sc": 38,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 126.317,
+  "s": "PLUS #3 · THE CAFETERIA",
+  "sc": 41,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 138.067,
+  "s": "PLUS #4 · TAG",
+  "sc": 45,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 148.35,
+  "s": "REFLEXES ≠ BRAINS",
+  "sc": 48,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 151.333,
+  "s": "QUESTION 7",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 156.0,
+  "s": "PROBLEMS",
+  "sc": 50,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 157.317,
+  "s": "PROBLEM 1 · THE LIGHTS",
+  "sc": 51,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 164.7,
+  "s": "ANIMAL BEHAVIOUR · 2013",
+  "sc": 53,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 179.667,
+  "s": "60 FLASHES / SEC",
+  "sc": 55,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 182.5,
+  "s": "LOOKS STEADY",
+  "sc": 56,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 185.9,
+  "s": "60 → 600",
+  "sc": 57,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 191.412,
+  "s": "120 FLICKERS / SEC",
+  "sc": 58,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 195.483,
+  "s": "LEON NOTICES",
+  "sc": 59,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 198.167,
+  "s": "BAD DISCO",
+  "sc": 60,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 201.317,
+  "s": "WEDNESDAY",
+  "sc": 61,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 204.967,
+  "s": "PROBLEM 2 · THE WAITING",
+  "sc": 62,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 215.45,
+  "s": "HOW WAS SCHOOL?",
+  "sc": 64,
+  "k": "say",
+  "raw": "say",
+  "who": "DAD"
+ },
+ {
+  "t": 220.55,
+  "s": "50 BETTER ANSWERS",
+  "sc": 65,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 225.133,
+  "s": "GOOD MORNING, CLASS.",
+  "sc": 66,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 231.017,
+  "s": "2 MIN = 20",
+  "sc": 67,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 234.55,
+  "s": "A TRAGEDY",
+  "sc": 68,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 236.233,
+  "s": "PROBLEM 3 · THE BILL",
+  "sc": 69,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 239.75,
+  "s": "2% OF YOUR BODY",
+  "sc": 70,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 242.533,
+  "s": "20% OF YOUR ENERGY",
+  "sc": 70,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 245.35,
+  "s": "RAICHLE & GUSNARD · 2002",
+  "sc": 71,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 256.717,
+  "s": "THIS PART IS A GUESS",
+  "sc": 73,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 260.083,
+  "s": "BREAKFAST #1",
+  "sc": 74,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 261.633,
+  "s": "BREAKFAST #2",
+  "sc": 74,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 271.033,
+  "s": "THURSDAY",
+  "sc": 77,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 283.983,
+  "s": "PROBLEM 4 · THE RULES",
+  "sc": 80,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 286.45,
+  "s": "FRIDAY · 50 M DASH",
+  "sc": 81,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 296.4,
+  "s": "FALSE START. DISQUALIFIED.",
+  "sc": 84,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 300.1,
+  "s": "I STARTED AFTER THE GUN!",
+  "sc": 85,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 301.967,
+  "s": "SON, ANYTHING UNDER A TENTH OF A SECOND MEANS YOU MUST HAVE GUESSED. IT’S AN OFFICIAL RULE.",
+  "sc": 86,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 310.133,
+  "s": "DEVON ALLEN · 2022 · 0.099 S",
+  "sc": 87,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 319.083,
+  "s": "×4 FASTER THAN THE LIMIT",
+  "sc": 88,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 326.0,
+  "s": "ONE MISSISSIPPI…",
+  "sc": 90,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 335.833,
+  "s": "FAKING SLOW",
+  "sc": 92,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 338.067,
+  "s": "SATURDAY · THE PARK",
+  "sc": 93,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 357.617,
+  "s": "ALL AT ONCE",
+  "sc": 98,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 359.567,
+  "s": "30 KM/H · 19 MPH",
+  "sc": 99,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 363.5,
+  "s": "2 SECONDS",
+  "sc": 99,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 366.55,
+  "s": "RULE 2",
+  "sc": 100,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 368.1,
+  "s": "SAME LEGS",
+  "sc": 101,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 372.217,
+  "s": "−0.25 S",
+  "sc": 102,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 377.833,
+  "s": "1 STEP",
+  "sc": 103,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 384.833,
+  "s": "GO!",
+  "sc": 105,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 386.083,
+  "s": "DIVE",
+  "sc": 106,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 386.417,
+  "s": "GRAB",
+  "sc": 106,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 386.95,
+  "s": "PULL",
+  "sc": 106,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 388.0,
+  "s": "SCREEEECH",
+  "sc": 107,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 399.1,
+  "s": "KID, HOW DID YOU EVEN SEE ME?",
+  "sc": 109,
+  "k": "say",
+  "raw": "say",
+  "who": "DRIVER"
+ },
+ {
+  "t": 403.05,
+  "s": "I JUST STARTED EARLY.",
+  "sc": 110,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 411.5,
+  "s": "THE WHOLE STREET KNOWS",
+  "sc": 112,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 414.05,
+  "s": "MONDAY · DOCTOR",
+  "sc": 113,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 419.117,
+  "s": "ERROR",
+  "sc": 114,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 420.8,
+  "s": "LET’S TRY THE OTHER COMPUTER.",
+  "sc": 115,
+  "k": "say",
+  "raw": "say",
+  "who": "DOCTOR"
+ },
+ {
+  "t": 426.95,
+  "s": "+1 BAND-AID FOR LUCK",
+  "sc": 116,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 430.683,
+  "s": "FORGIVEN. FOREVER.",
+  "sc": 117,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 435.35,
+  "s": "NOT A SUPERHERO",
+  "sc": 118,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 437.383,
+  "s": "ONE STEP",
+  "sc": 119,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 449.458,
+  "s": "3 MM",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 452.892,
+  "s": "2 MM",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 455.442,
+  "s": "1 MM",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 463.825,
+  "s": "STILL GOING…",
+  "sc": 123,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 466.975,
+  "s": "WHAT IF THEY NEVER STOP?",
+  "sc": 124,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 473.025,
+  "s": "TELL US IN THE COMMENTS",
+  "sc": 125,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 475.642,
+  "s": "SUBSCRIBE",
+  "sc": 126,
+  "k": "plate",
+  "raw": "plate"
+ }
+]
