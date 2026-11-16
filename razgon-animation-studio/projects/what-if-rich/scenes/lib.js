@@ -1,4 +1,4 @@
-// lib.js: общий каркас кадров ролика 05 «What If Your Reflexes Were 10x Faster?» (пак doodle:clean, как ролики 01 и 02).
+// lib.js: общий каркас кадров ролика 06 «What If You Could See How Rich Everyone Will Become?» (пак doodle:clean, как ролики 01 и 02).
 // Кадр = def('s001', {...}). Поля: set, cam, chars[], kids{}, fx(g,t,info,c) (поверх людей), pre(g,t,info,c) (до людей), close{...}, ty.
 // Тексты на экране: story/texts.json (из text_elements.md; k = cap | plate | say | hud | hudtick | lbl). HUD (время и рост) рисует lib по полю hud раскадровки.
 import { E, V, S, registerShot, mood, layer, blurLayer, ease, prog, lerp, clamp, FONTS, text, measure, shade, alpha } from '/engine/core.js';
@@ -51,6 +51,15 @@ export const OUT = {
   COOL2: { top: 'tshirt', color: '#17a2b8', hair: 'curly', hairColor: '#6b3a1e', kid: true, legs: '#3a4a6b' },
   COOL3: { top: 'hoodie', color: '#e4872b', hair: 'ponytail', hairColor: '#2b2420', kid: true, legs: '#3a3a48' },
   COOL4: { top: 'tshirt', color: '#8a6ab0', hair: 'long', hairColor: '#c8923a', kid: true, legs: '#3a4a6b' },
+  WALT: { top: 'coat', color: '#6b6f4a', hat: 'beanie', hatColor: '#9a3a3a', hair: 'messy', hairColor: '#b9b9b9', beard: true, legs: '#4a4a52', shoes: '#5a4a3a' },
+  GIRL: { top: 'hoodie', color: '#f2c21a', hair: 'long', hairColor: '#2b2420', kid: true, legs: '#3a4a6b' },
+  OLDMAN: { top: 'sweater', color: '#8a5a3a', hat: 'beanie', hatColor: '#7a7a7a', hair: 'short', hairColor: '#dcdcdc', beard: true, legs: '#5a6b7a' },
+  MAILMAN: { top: 'uniform', color: '#2f5d8a', hat: 'capBack', hatColor: '#2f5d8a', hair: 'short', hairColor: '#4a2f1e', legs: '#2f4a6b' },
+  SKATER: { top: 'hoodie', color: '#e5383b', hair: 'ponytail', hairColor: '#6b3a1e', kid: true, legs: '#2b2b33' },
+  P1: { top: 'suit', color: '#3a4a6b', hair: 'short', hairColor: '#2b2420', legs: '#2b3a55' },
+  P2: { top: 'dress', color: '#c0504d', hair: 'bun', hairColor: '#6b3a1e' },
+  P3: { top: 'coat', color: '#7a5a8a', hair: 'curly', hairColor: '#2b2420', legs: '#3a3a48' },
+  P4: { top: 'tshirt', color: '#17a2b8', hair: 'short', hairColor: '#8a5a2e', legs: '#4a5a78' },
   KID: { top: 'hoodie', color: '#3fb950', hair: 'short', kid: true },
   KID2: { top: 'tshirt', color: '#3a6ea5', hair: 'curly', hairColor: '#2b2420', kid: true },
   KID3: { top: 'tshirt', color: '#f29ac0', hair: 'ponytail', hairColor: '#6b3a1e', kid: true },
@@ -62,7 +71,7 @@ Object.values(OUT).forEach((o) => { o.whiteHands = true; });
 for (const k of ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6']) OUT[k].legs = OUT[k].legs || '#3a4a6b';
 const KIDS = ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6', 'TODD'];
 const FIXED = (id) => ['TODD'].includes(id);
-const SM = { DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
+const SM = { WALT: 1.2, GIRL: 1.12, OLDMAN: 1.12, MAILMAN: 1.2, SKATER: 1.1, P1: 1.2, P2: 1.14, P3: 1.18, P4: 1.2, DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
 
 const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt, x]) => (t >= tt ? x : a), v[0][1]) : v);
 const kf = (v, t, d = 0) => { if (v == null) return d; if (!Array.isArray(v)) return v; if (t <= v[0][0]) return v[0][1]; for (let i = 1; i < v.length; i++) if (t <= v[i][0]) { const [a, x] = v[i - 1], [b, y] = v[i]; return lerp(x, y, ease.inOut(prog(t, a, b))); } return v[v.length - 1][1]; };
@@ -167,7 +176,7 @@ const SETS = {
 };
 // Фоны от OpenAI (assets/bg/<файл>.png, 1536x1024, в кадре обрезаются до 16:9). BG_IMG=false вернёт кодовые заглушки.
 const BG_IMG = true;
-export const BG_SETS = { gym: 'gym', classroom: 'classroom', cafeteria: 'cafeteria', kitchen: 'kitchen', livingRoom: 'livingRoom', field: 'field', street: 'street' };
+export const BG_SETS = { gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom' };
 const BGIM = await loadImages(Object.fromEntries(Object.entries(BG_SETS).map(([n, f]) => [n, project(`assets/bg/${f}.png`)])));
 const PNAMES = ['school/tray', 'school/dodgeball'];
 export const PIM = await loadImages(Object.fromEntries(PNAMES.map((n) => [n.split('/')[1], project(`assets/props/${n}.png`)])));
@@ -198,6 +207,48 @@ SETS.fair = (g) => { const GY = E.H * 0.84; D.plain(g, '#9bd7f5'); D.cloud(g, 30
   [[0.12, '#e5383b'], [0.45, '#3d7ea6']].forEach(([x, col]) => { const cx = x * E.W; inkShape(g, [[cx - 230, E.H * 0.46], [cx, E.H * 0.3], [cx + 230, E.H * 0.46]], { fill: col, w: 6 }); for (let i = 0; i < 4; i++) inkRect(g, cx - 230 + i * 115, E.H * 0.46, 115, 40, { fill: i % 2 ? '#fff' : col, r: 8, w: 4 }); inkRect(g, cx - 230, E.H * 0.5, 460, E.H * 0.1, { fill: '#f3e8d6', r: 4, w: 5 }); });
   g.save(); const y0 = E.H * 0.18; inkLine(g, [[-20, y0], [E.W * 0.5, y0 + 50], [E.W + 20, y0]], { w: 4 }); for (let i = 0; i < 14; i++) { const u = i / 13, x = u * E.W, y = y0 + 50 * 4 * u * (1 - u) + (u > 0.5 ? 0 : 0); inkShape(g, [[x - 18, y], [x + 18, y], [x, y + 36]], { fill: ['#e5383b', '#ffd23a', '#3d7ea6', '#4fb04a'][i % 4], w: 3 }); } g.restore(); return { GY }; };
 SETS.clinic = (g) => { const GY = E.H * 0.84; D.plain(g, '#e4f1ef'); g.fillStyle = '#b9cfd0'; g.fillRect(-E.W, GY, E.W * 3, E.H); inkLine(g, [[-E.W, GY], [E.W * 2, GY]], { w: 6, step: 40 }); rect(g, E.W * 0.06, E.H * 0.14, 300, 360, '#fff'); for (const [i, ch] of ['E', 'F P', 'T O Z', 'L P E D'].entries()) text(g, ch, E.W * 0.06 + 150, E.H * 0.14 + 60 + i * 72, { size: 70 - i * 12, font: FONTS.title, weight: 400, color: S().ink }); win(g, E.W * 0.78, E.H * 0.16, 330, 300); rect(g, E.W * 0.34, E.H * 0.62, 520, 24, '#c98b4a'); inkLine(g, [[E.W * 0.34 + 30, E.H * 0.62 + 24], [E.W * 0.34 + 30, GY]], { w: 6 }); inkLine(g, [[E.W * 0.34 + 490, E.H * 0.62 + 24], [E.W * 0.34 + 490, GY]], { w: 6 }); return { GY }; };
+
+// ---- новые места ролика 06 (кодом) ----
+const rain = (g, a = 1, n = 140) => { const T = NOW; g.save(); g.strokeStyle = `rgba(190,215,240,${0.55 * a})`; g.lineWidth = 3; g.lineCap = 'round'; for (let i = 0; i < n; i++) { const x = ((i * 137.5) % (E.W + 200)) - 100, y = ((i * 71.3 + T * 1500 * (0.8 + (i % 5) * 0.08)) % (E.H + 120)) - 60; g.beginPath(); g.moveTo(x, y); g.lineTo(x - 14, y + 44); g.stroke(); } g.restore(); };
+export { rain };
+SETS.store = (g) => { const GY = E.H * 0.84; D.plain(g, '#9bd7f5');
+  const wall = '#b86a4e'; g.fillStyle = wall; g.fillRect(-E.W, E.H * 0.05, E.W * 3, GY - E.H * 0.05);
+  for (let y = E.H * 0.05 + 50; y < GY; y += 50) inkLine(g, [[-E.W * 0.1, y], [E.W * 1.1, y]], { w: 2, stroke: 'rgba(60,20,10,.28)' });
+  for (let r = 0; r * 50 + E.H * 0.05 < GY; r++) for (let x = (r % 2 ? 0 : 60); x < E.W + 60; x += 120) inkLine(g, [[x, E.H * 0.05 + r * 50], [x, E.H * 0.05 + r * 50 + 50]], { w: 2, stroke: 'rgba(60,20,10,.22)' });
+  rect(g, E.W * 0.075, E.H * 0.2, E.W * 0.2, 84, '#2f5d8a', { w: 6 }); text(g, 'HARDWARE', E.W * 0.175, E.H * 0.2 + 46, { size: 56, font: FONTS.title, weight: 400, color: '#fff', stroke: 6, strokeColor: '#1b2230' });
+  rect(g, E.W * 0.09, E.H * 0.31, E.W * 0.17, GY - E.H * 0.31, '#5a3e2a', { w: 6 }); rect(g, E.W * 0.105, E.H * 0.35, E.W * 0.14, E.H * 0.2, '#cfe6f5', { w: 5 }); inkCircle(g, E.W * 0.245, E.H * 0.62, 14, { fill: '#f6d15a', w: 4 });
+  const wx = E.W * 0.56, wy = E.H * 0.26, ww = E.W * 0.34, wh = E.H * 0.34;
+  rect(g, wx - 14, wy - 14, ww + 28, wh + 28, '#2b2b33', { w: 6 }); rect(g, wx, wy, ww, wh, '#bfe3f5', { w: 5, r: 6 });
+  for (let i = 0; i < 3; i++) { inkRect(g, wx + 30 + i * 120, wy + wh - 130, 90, 120 - i * 10, { fill: ['#e5383b', '#ffd23a', '#3d7ea6'][i], r: 8, w: 4 }); }
+  g.save(); g.globalAlpha = 0.5; g.fillStyle = '#fff'; g.beginPath(); g.moveTo(wx + ww * 0.62, wy); g.lineTo(wx + ww * 0.82, wy); g.lineTo(wx + ww * 0.52, wy + wh); g.lineTo(wx + ww * 0.32, wy + wh); g.closePath(); g.fill(); g.restore();
+  g.fillStyle = '#c9c3b4'; g.fillRect(-E.W, GY, E.W * 3, E.H * 0.1); inkLine(g, [[-E.W, GY], [E.W * 2, GY]], { w: 6, step: 40 });
+  g.fillStyle = '#8c8c93'; g.fillRect(-E.W, GY + E.H * 0.1, E.W * 3, E.H); inkLine(g, [[-E.W, GY + E.H * 0.1], [E.W * 2, GY + E.H * 0.1]], { w: 5 });
+  return { GY, win: { x: wx, y: wy, w: ww, h: wh } }; };
+SETS.storeRain = (g) => { const r = SETS.store(g); g.save(); g.fillStyle = 'rgba(44,56,86,.45)'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore();
+  g.save(); g.fillStyle = 'rgba(120,150,190,.45)'; for (const [px, pw] of [[0.2, 260], [0.55, 320], [0.85, 220]]) { g.beginPath(); g.ellipse(E.W * px, r.GY + E.H * 0.06, pw, 24, 0, 0, 7); g.fill(); } g.restore();
+  rain(g, 1); return r; };
+SETS.alley = (g) => { const GY = E.H * 0.84; D.plain(g, '#52607a'); g.fillStyle = '#7a4a3e'; g.fillRect(-E.W, 0, E.W * 3, GY);
+  for (let y = 40; y < GY; y += 50) inkLine(g, [[-E.W * 0.1, y], [E.W * 1.1, y]], { w: 2, stroke: 'rgba(20,10,10,.35)' });
+  rect(g, E.W * 0.05, E.H * 0.2, 150, 400, '#5a5a62', { w: 6 }); inkLine(g, [[E.W * 0.05 + 75, E.H * 0.2], [E.W * 0.05 + 75, E.H * 0.2 + 400]], { w: 5 });
+  g.fillStyle = '#6a6a72'; g.fillRect(-E.W, GY, E.W * 3, E.H); inkLine(g, [[-E.W, GY], [E.W * 2, GY]], { w: 6, step: 40 });
+  g.save(); g.fillStyle = 'rgba(16,24,48,.4)'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore();
+  const bx = E.W * 0.76, bw = 400, bh = 230; rect(g, bx - bw / 2, GY - bh, bw, bh, '#3d6b4a', { w: 6, r: 10 }); for (let i = 1; i < 4; i++) inkLine(g, [[bx - bw / 2 + i * bw / 4, GY - bh + 10], [bx - bw / 2 + i * bw / 4, GY - 12]], { w: 4, stroke: 'rgba(0,0,0,.35)' });
+  inkShape(g, [[bx - bw / 2 - 10, GY - bh], [bx + bw / 2 + 10, GY - bh], [bx + bw / 2 + 30, GY - bh - 36], [bx - bw / 2 + 30, GY - bh - 36]], { fill: '#2f5338', w: 6 });
+  inkCircle(g, bx - bw / 2 + 40, GY + 8, 24, { fill: '#222', w: 4 }); inkCircle(g, bx + bw / 2 - 40, GY + 8, 24, { fill: '#222', w: 4 });
+  g.save(); g.fillStyle = 'rgba(120,150,190,.5)'; g.beginPath(); g.ellipse(E.W * 0.3, GY + E.H * 0.07, 280, 26, 0, 0, 7); g.fill(); g.restore();
+  rain(g, 1); return { GY, bin: { x: bx, y: GY - bh, w: bw } }; };
+SETS.garage = (g) => { const GY = E.H * 0.84; D.plain(g, '#cfc7b8'); g.fillStyle = '#bdb4a2'; g.fillRect(-E.W, GY, E.W * 3, E.H); inkLine(g, [[-E.W, GY], [E.W * 2, GY]], { w: 6, step: 40 });
+  rect(g, E.W * 0.04, E.H * 0.12, E.W * 0.27, GY - E.H * 0.12 - 20, '#e8e1d2', { w: 6 }); for (let i = 1; i < 6; i++) inkLine(g, [[E.W * 0.04, E.H * 0.12 + i * (GY - E.H * 0.12 - 20) / 6], [E.W * 0.31, E.H * 0.12 + i * (GY - E.H * 0.12 - 20) / 6]], { w: 4 });
+  for (const [y, n] of [[0.22, 4], [0.4, 3]]) { inkLine(g, [[E.W * 0.6, E.H * y + 80], [E.W * 0.95, E.H * y + 80]], { w: 8, stroke: '#7a4a1e' }); for (let i = 0; i < n; i++) inkRect(g, E.W * (0.62 + i * 0.08), E.H * y, 90, 80, { fill: ['#3d7ea6', '#e4872b', '#4fb04a', '#8a6ab0'][i % 4], r: 8, w: 4 }); }
+  rect(g, E.W * 0.36, E.H * 0.24, 300, 130, '#fffdf6', { w: 5 }); text(g, 'ROBOT', E.W * 0.36 + 150, E.H * 0.24 + 70, { size: 64, font: FONTS.title, weight: 400, color: '#2f5d8a' });
+  inkRect(g, E.W * 0.34, GY - 170, 760, 24, { fill: '#9a6a3a', r: 6, w: 5 }); inkLine(g, [[E.W * 0.34 + 40, GY - 146], [E.W * 0.34 + 40, GY]], { w: 7 }); inkLine(g, [[E.W * 0.34 + 720, GY - 146], [E.W * 0.34 + 720, GY]], { w: 7 });
+  return { GY, benchY: GY - 170 }; };
+SETS.busstop = (g) => { const GY = E.H * 0.84; const gr = g.createLinearGradient(0, 0, 0, E.H * 0.6); gr.addColorStop(0, '#9bd7f5'); gr.addColorStop(1, '#e6f4ff'); g.fillStyle = gr; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 2);
+  for (const [x, w, h, col] of [[0.02, 280, 520, '#c9a77c'], [0.2, 240, 420, '#a8b4c4'], [0.7, 300, 560, '#d6b48a'], [0.88, 260, 460, '#b4c0d0']]) { rect(g, E.W * x, GY - h, w, h, col, { w: 5 }); for (let i = 0; i < 3; i++) for (let j = 0; j < Math.floor(h / 140); j++) inkRect(g, E.W * x + 30 + i * 80, GY - h + 40 + j * 130, 50, 70, { fill: '#cfe6f5', r: 4, w: 3 }); }
+  g.fillStyle = '#c9c3b4'; g.fillRect(-E.W, GY - 8, E.W * 3, E.H * 0.1); inkLine(g, [[-E.W, GY - 8], [E.W * 2, GY - 8]], { w: 6, step: 40 }); g.fillStyle = '#8c8c93'; g.fillRect(-E.W, GY + E.H * 0.09, E.W * 3, E.H); inkLine(g, [[-E.W, GY + E.H * 0.09], [E.W * 2, GY + E.H * 0.09]], { w: 5 });
+  const sx = E.W * 0.5; inkLine(g, [[sx, GY - 8], [sx, GY - 440]], { w: 9 }); inkRect(g, sx - 70, GY - 560, 140, 130, { fill: '#2f5d8a', r: 18, w: 6 }); text(g, 'BUS', sx, GY - 495, { size: 64, font: FONTS.title, weight: 400, color: '#fff' });
+  inkRect(g, E.W * 0.58, GY - 150, 340, 20, { fill: '#9a6a3a', r: 6, w: 5 }); inkLine(g, [[E.W * 0.58 + 30, GY - 130], [E.W * 0.58 + 30, GY - 8]], { w: 6 }); inkLine(g, [[E.W * 0.58 + 310, GY - 130], [E.W * 0.58 + 310, GY - 8]], { w: 6 });
+  return { GY: GY, benchY: GY - 150, benchX: E.W * 0.58 }; };
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
 // ---------- толпа ребят: n фигурок, ряды по глубине ----------
