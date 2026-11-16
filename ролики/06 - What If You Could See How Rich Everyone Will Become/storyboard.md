@@ -89,7 +89,7 @@
 | S046 | 02:42.4–02:47.5 | But this is money, not magic. Leon still fails the history quiz. | CLASS | Leon за партой, перед ним тест с большой красной F, рядом число и вздох. | `02:47.0` HISTORY QUIZ: F | Leon опускает голову | LEON; paper |
 | S047 | 02:47.5–02:50.2 | But then you start noticing the problems. | PARK | Leon идёт по улице, хмурится, смотрит на людей. | `02:49.3` PROBLEMS | плашка | BG park; LEON |
 | S048 | 02:50.2–02:55.7 | Problem one. The number is the end of a very long road, and you only see the finish line. | VOID | Длинная дорога уходит вдаль, на конце флажок финиша; над флажком светится число. | `02:50.7` PROBLEM 1 · THE FINISH LINE | дорога | road; flag; number |
-| S049 | 02:55.7–03:02.1 | Warren Buffett built about ninety-nine percent of his fortune after his fiftieth birthday, according to the writer Morgan Housel. | VOID | Шкала жизни: от 0 до 50 лет маленькая полоска, после 50 длинный столбик; карточка «BUFFETT: 99% AFTER 50». | `02:56.9` 99% AFTER HIS 50TH BIRTHDAY; `03:01.1` MORGAN HOUSEL | столбик растёт | chart; card |
+| S049 | 02:55.7–03:02.1 | Warren Buffett built about ninety-nine percent of his fortune after his fiftieth birthday, according to the writer Morgan Housel. | VOID | Шкала жизни: от 0 до 50 лет маленькая полоска, после 50 длинный столбик; карточка «BUFFETT: 99% AFTER 50». | `02:56.9` 99% AFTER HIS 50TH BIRTHDAY; `03:01.1` MORGAN HOUSEL; `02:56.1` WARREN BUFFETT | столбик растёт | chart; card |
 | S050 | 03:02.1–03:06.0 | So Leon watches an old man feeding pigeons and sees nine million, | PARK | Старик на скамейке кормит голубей, над ним $9,000,000. | — | голуби клюют | BG park; OLDMAN; pigeons; LEON; number |
 | S051 | 03:06.0–03:09.8 | then a girl on a skateboard and sees two thousand. | PARK | Девочка на скейтборде едет мимо, над ней $2,000. | — | девочка проезжает | SKATER; LEON; number |
 | S052 | 03:09.8–03:12.1 | The mailman has eight hundred thousand. | PARK | Почтальон с сумкой, над ним $800,000. | — | почтальон идёт | MAILMAN; LEON; number |
@@ -155,7 +155,7 @@
 | S112 | 06:60.0–07:05.6 | Six billion, three hundred and ten million dollars. Exactly the same number. | GYM | Walt, число $6,310,000,000 горит, вокруг искры. | — | искры, число пульсирует | WALT; number; sparks |
 | S113 | 07:05.6–07:10.6 | The only thing that changed was somebody reading past page two. | GYM | Блокнот лежит открытым на странице три, над ним свет; рядом руки читают. | `07:09.2` READ PAST PAGE TWO | свет от блокнота | notebook; hands |
 | S114 | 07:10.6–07:13.6 | Leon finally understands what the numbers are. | GYM | Leon задумчиво смотрит на группу, улыбается. | — | камера мягко наезжает | LEON; WALT; OWEN; PARK |
-| S115 | 07:13.6–07:20.2 | Not a promise. A road nobody has walked yet, and it only stays open if somebody walks it with you. | VOID | Дорога без следов; затем на ней следы одной пары ног, затем второй: «NOBODY WALKED IT YET» → «WALK IT WITH SOMEONE». | `07:15.0` A ROAD NOBODY HAS WALKED YET | следы появляются | road; footprints |
+| S115 | 07:13.6–07:20.2 | Not a promise. A road nobody has walked yet, and it only stays open if somebody walks it with you. | VOID | Дорога без следов; затем на ней следы одной пары ног, затем второй: «NOBODY WALKED IT YET» → «WALK IT WITH SOMEONE». | `07:15.0` A ROAD NOBODY HAS WALKED YET; `07:19.0` WALK IT WITH SOMEONE | следы появляются | road; footprints |
 | S116 | 07:20.2–07:26.4 | Walt gets a table in the robotics room and a hot lunch from Ms. Park, who says it's not charity, it's an investment. | GYM | Walt за столом кружка, перед ним горячий обед на подносе, Ms. Park рядом говорит. | `07:24.5` IT’S NOT CHARITY. IT’S AN INVESTMENT. | Ms. Park ставит поднос | WALT; PARK; tray; table |
 | S117 | 07:26.4–07:31.3 | Owen's number is twenty-one million, and he hasn't put the screwdriver down all day. | GYM | Owen с отвёрткой, над ним $21,000,000; он не отрывается от робота. | — | Owen работает | OWEN; robot; number |
 | S118 | 07:31.3–07:36.4 | Biscuit's number, by the way, is eight dollars. Somebody dropped a second sausage. | LIVING | Biscuit с вторым куском сосиски, над ним число $8. | — | Biscuit жуёт | BG livingRoom; BISCUIT; sausage; number |
@@ -171,6 +171,6 @@
 
 ## Итоги
 - Сцен: 127. Средняя длина 3.9 с, самая длинная 8.8 с (S014), самая короткая 1.0 с (S077). Итог 08:14.2.
-- Строк текста на экране: 67.
+- Строк текста на экране: 69.
 - Гэги без звука: число над головой Walt против числа Leon (табло MONEY CONTEST), одно целое окно у машины Mom, сосиска вместо Biscuit, 7 цифр — только им лимонад, Owen и число падает, мешок SECRET, прохожие огибают Walt как почтовый ящик, нули отваливаются от числа на каждом шаге Walt к баку, вода из ведра, число Leon $61,400 → $52,000, девочка пишет число на руке.
 - Логика: вторник (откровение) → день 1 (плюсы) → четверг (Owen) → пятница (Walt) → суббота (дождь, зал кружка) → воскресенье (остановка). Число Leon: 61 400 до субботы, потом 52 000 до конца. Число Walt падает ступенями: 6,31 млрд → 4 млрд → 900 млн → 300 млн, после зала возвращается к 6 310 000 000.

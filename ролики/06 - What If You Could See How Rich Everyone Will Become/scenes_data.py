@@ -65,7 +65,7 @@ S('But this is money', 'CLASS', 'Leon за партой, перед ним те�
 # ===== блок 3: проблема 1 =====
 S('But then you start', 'PARK', 'Leon идёт по улице, хмурится, смотрит на людей.', [('problems.', 'PROBLEMS', 'plate', None)], 'плашка', 'BG park; LEON')
 S('Problem one', 'VOID', 'Длинная дорога уходит вдаль, на конце флажок финиша; над флажком светится число.', [('one.', 'PROBLEM 1 · THE FINISH LINE', 'plate', None)], 'дорога', 'road; flag; number')
-S('Warren Buffett built', 'VOID', 'Шкала жизни: от 0 до 50 лет маленькая полоска, после 50 длинный столбик; карточка «BUFFETT: 99% AFTER 50».', [('ninety-nine', '99% AFTER HIS 50TH BIRTHDAY', 'card', None), ('Housel,', 'MORGAN HOUSEL', 'lbl', None)], 'столбик растёт', 'chart; card')
+S('Warren Buffett built', 'VOID', 'Шкала жизни: от 0 до 50 лет маленькая полоска, после 50 длинный столбик; карточка «BUFFETT: 99% AFTER 50».', [('ninety-nine', '99% AFTER HIS 50TH BIRTHDAY', 'card', None), ('Housel,', 'MORGAN HOUSEL', 'lbl', None), ('Buffett', 'WARREN BUFFETT', 'cap', None)], 'столбик растёт', 'chart; card')
 S('So Leon watches', 'PARK', 'Старик на скамейке кормит голубей, над ним $9,000,000.', [], 'голуби клюют', 'BG park; OLDMAN; pigeons; LEON; number')
 S('then a girl on a skateboard', 'PARK', 'Девочка на скейтборде едет мимо, над ней $2,000.', [], 'девочка проезжает', 'SKATER; LEON; number')
 S('The mailman has', 'PARK', 'Почтальон с сумкой, над ним $800,000.', [], 'почтальон идёт', 'MAILMAN; LEON; number')
@@ -146,7 +146,7 @@ S('The only thing that changed', 'GYM', 'Блокнот лежит открыт�
 
 # ===== блок 8: развязка и крючок =====
 S('Leon finally understands', 'GYM', 'Leon задумчиво смотрит на группу, улыбается.', [], 'камера мягко наезжает', 'LEON; WALT; OWEN; PARK')
-S('Not a promise', 'VOID', 'Дорога без следов; затем на ней следы одной пары ног, затем второй: «NOBODY WALKED IT YET» → «WALK IT WITH SOMEONE».', [('road', 'A ROAD NOBODY HAS WALKED YET', 'cap', None)], 'следы появляются', 'road; footprints')
+S('Not a promise', 'VOID', 'Дорога без следов; затем на ней следы одной пары ног, затем второй: «NOBODY WALKED IT YET» → «WALK IT WITH SOMEONE».', [('road', 'A ROAD NOBODY HAS WALKED YET', 'cap', None), ('walks', 'WALK IT WITH SOMEONE', 'cap', None)], 'следы появляются', 'road; footprints')
 S('Walt gets a table', 'GYM', 'Walt за столом кружка, перед ним горячий обед на подносе, Ms. Park рядом говорит.', [('"charity,', 'IT’S NOT CHARITY. IT’S AN INVESTMENT.', 'say', 'PARK')], 'Ms. Park ставит поднос', 'WALT; PARK; tray; table')
 S("Owen's number is", 'GYM', 'Owen с отвёрткой, над ним $21,000,000; он не отрывается от робота.', [], 'Owen работает', 'OWEN; robot; number')
 S("Biscuit's number", 'LIVING', 'Biscuit с вторым куском сосиски, над ним число $8.', [], 'Biscuit жуёт', 'BG livingRoom; BISCUIT; sausage; number')

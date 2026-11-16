@@ -32,6 +32,7 @@
 | S048 | 02:50.7 | PROBLEM 1 · THE FINISH LINE | plate | — |
 | S049 | 02:56.9 | 99% AFTER HIS 50TH BIRTHDAY | card | — |
 | S049 | 03:01.1 | MORGAN HOUSEL | lbl | — |
+| S049 | 02:56.1 | WARREN BUFFETT | cap | — |
 | S055 | 03:21.4 | YOU ARE HERE? | cap | — |
 | S056 | 03:27.7 | PROBLEM 2 · THE SECRET | plate | — |
 | S058 | 03:33.0 | THURSDAY | cap | — |
@@ -63,6 +64,7 @@
 | S110 | 06:54.9 | SO, WHAT’S ON PAGE TEN? | say | LEON |
 | S113 | 07:09.2 | READ PAST PAGE TWO | plate | — |
 | S115 | 07:15.0 | A ROAD NOBODY HAS WALKED YET | cap | — |
+| S115 | 07:19.0 | WALK IT WITH SOMEONE | cap | — |
 | S116 | 07:24.5 | IT’S NOT CHARITY. IT’S AN INVESTMENT. | say | PARK |
 | S120 | 07:45.6 | SUNDAY MORNING | cap | — |
 | S122 | 07:54.3 | YOU CAN SEE THEM TOO. CAN’T YOU? | say | GIRL |

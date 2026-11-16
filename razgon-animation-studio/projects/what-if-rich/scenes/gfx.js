@@ -106,8 +106,8 @@ export function numText(g, str, x, y, size, col = 'green', o = {}) {
 const NOWT = () => NOW;
 // число над головой героя o (результат who): над макушкой, не закрывает глаза
 export function numTag(g, o, str, col = 'green', opt = {}) {
-  const e = o.s * (o.outfit?.kid ? 0.72 : 1), size = opt.size ?? 62, top = o.hy - 108 * e;
-  numText(g, str, o.x + (opt.dx || 0), top - size * 0.72 - 6 + (opt.dy || 0), size, col, opt);
+  const e = o.s * (o.outfit?.kid ? 0.72 : 1), size = (opt.size ?? 62) * 1.22, top = o.hy - 104 * e;
+  numText(g, str, o.x + (opt.dx || 0), top - size * 0.6 - 2 + (opt.dy || 0), size, col, opt);
 }
 // отваливающиеся нули: падают от (x,y), t0 — момент отрыва
 export function fallZeros(g, x, y, size, t0, t, n = 3) {

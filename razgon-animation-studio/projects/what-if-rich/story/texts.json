@@ -193,6 +193,13 @@
   "raw": "plate"
  },
  {
+  "t": 176.133,
+  "s": "WARREN BUFFETT",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
   "t": 176.867,
   "s": "99% AFTER HIS 50TH BIRTHDAY",
   "sc": 49,
@@ -429,6 +436,13 @@
  {
   "t": 435.0,
   "s": "A ROAD NOBODY HAS WALKED YET",
+  "sc": 115,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 439.017,
+  "s": "WALK IT WITH SOMEONE",
   "sc": 115,
   "k": "cap",
   "raw": "cap"
