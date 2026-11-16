@@ -1,0 +1,487 @@
+[
+ {
+  "t": 0.0,
+  "s": "TUESDAY · 7:52 AM",
+  "sc": 1,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 12.15,
+  "s": "$2 · BUS MONEY",
+  "sc": 4,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 15.8,
+  "s": "THANKS, KID.",
+  "sc": 6,
+  "k": "say",
+  "raw": "say",
+  "who": "WALT"
+ },
+ {
+  "t": 42.533,
+  "s": "MONEY CONTEST",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 54.4,
+  "s": "BY SATURDAY",
+  "sc": 16,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 59.533,
+  "s": "WHAT IF YOU COULD SEE HOW RICH EVERYONE WILL BECOME?",
+  "sc": 17,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 64.85,
+  "s": "RULE 1 · THE MOST YOU’LL EVER HAVE",
+  "sc": 19,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 70.883,
+  "s": "RULE 2 · IT CHANGES",
+  "sc": 20,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 74.55,
+  "s": "NEW JOB",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 75.3,
+  "s": "BIG CHOICE",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 76.883,
+  "s": "ONE BAD DAY",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 78.6,
+  "s": "RULE 3 · MONEY, NOTHING ELSE",
+  "sc": 22,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 94.083,
+  "s": "ONE WORKING WINDOW",
+  "sc": 26,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 105.983,
+  "s": "DAY 1 · POWER",
+  "sc": 30,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 109.017,
+  "s": "PLUS #1 · ALLOWANCE",
+  "sc": 31,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 114.767,
+  "s": "TECHNICALLY, YOU’LL HAVE TWO MILLION DOLLARS, SO FIVE WON’T MATTER.",
+  "sc": 32,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 120.0,
+  "s": "$5",
+  "sc": 33,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 123.75,
+  "s": "PLUS #2 · LEMONADE",
+  "sc": 34,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 128.65,
+  "s": "7+ DIGITS ONLY",
+  "sc": 35,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 133.25,
+  "s": "KEEP IT. I HAVE A GOOD FEELING ABOUT THIS STAND.",
+  "sc": 37,
+  "k": "say",
+  "raw": "say",
+  "who": "MAN"
+ },
+ {
+  "t": 136.333,
+  "s": "PLUS #3 · GROUP PROJECT",
+  "sc": 38,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 149.633,
+  "s": "WHY ARE YOU STARING AT MY FOREHEAD?",
+  "sc": 41,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 152.267,
+  "s": "PLUS #4 · CLASS ELECTION",
+  "sc": 42,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 159.217,
+  "s": "LONGER RECESS",
+  "sc": 44,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 166.95,
+  "s": "HISTORY QUIZ: F",
+  "sc": 46,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 169.267,
+  "s": "PROBLEMS",
+  "sc": 47,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 170.717,
+  "s": "PROBLEM 1 · THE FINISH LINE",
+  "sc": 48,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 176.867,
+  "s": "99% AFTER HIS 50TH BIRTHDAY",
+  "sc": 49,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 181.083,
+  "s": "MORGAN HOUSEL",
+  "sc": 49,
+  "k": "lbl",
+  "raw": "lbl"
+ },
+ {
+  "t": 201.367,
+  "s": "YOU ARE HERE?",
+  "sc": 55,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 207.683,
+  "s": "PROBLEM 2 · THE SECRET",
+  "sc": 56,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 212.967,
+  "s": "THURSDAY",
+  "sc": 58,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 214.617,
+  "s": "YOU’RE GOING TO BE RICH. EIGHTEEN MILLION.",
+  "sc": 59,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 220.117,
+  "s": "SO IT’S ALREADY DECIDED? THEN WHY AM I BUILDING THIS?",
+  "sc": 61,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 234.8,
+  "s": "THIS PART IS REAL",
+  "sc": 64,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 236.217,
+  "s": "MUELLER & DWECK · 1998",
+  "sc": 65,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 254.183,
+  "s": "I MADE IT UP, OWEN. FORGET IT.",
+  "sc": 69,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 256.95,
+  "s": "2 DAYS",
+  "sc": 70,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 267.7,
+  "s": "PROBLEM 3 · THE MAN BY THE STORE",
+  "sc": 72,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 279.792,
+  "s": "770,000 PEOPLE · ONE NIGHT · USA",
+  "sc": 75,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 284.633,
+  "s": "FRIDAY",
+  "sc": 76,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 287.417,
+  "s": "WALT",
+  "sc": 77,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 288.733,
+  "s": "ELEVATORS",
+  "sc": 78,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 289.933,
+  "s": "HIS BACK",
+  "sc": 78,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 291.383,
+  "s": "HIS JOB",
+  "sc": 78,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 292.6,
+  "s": "HIS HOME",
+  "sc": 78,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 301.283,
+  "s": "WORKS ON PAPER.",
+  "sc": 81,
+  "k": "say",
+  "raw": "say",
+  "who": "WALT"
+ },
+ {
+  "t": 303.583,
+  "s": "NOBODY EVER READ PAST PAGE TWO.",
+  "sc": 81,
+  "k": "say",
+  "raw": "say",
+  "who": "WALT"
+ },
+ {
+  "t": 309.083,
+  "s": "NOBODY GIVES A WORKSHOP TO A MAN WITH A CARDBOARD SIGN.",
+  "sc": 83,
+  "k": "say",
+  "raw": "say",
+  "who": "WALT"
+ },
+ {
+  "t": 317.167,
+  "s": "THE NUMBER LIVES IN THE NOTEBOOK",
+  "sc": 85,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 318.383,
+  "s": "SATURDAY · RAIN",
+  "sc": 86,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 347.75,
+  "s": "WALT, WAIT! GIVE ME ONE DAY!",
+  "sc": 93,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 360.633,
+  "s": "$61,400 → $52,000",
+  "sc": 96,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 368.3,
+  "s": "A FAIR PRICE",
+  "sc": 98,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 372.983,
+  "s": "ROBOTICS CLUB",
+  "sc": 99,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 387.25,
+  "s": "PAGE NINE IS WRONG, BUT IT’S THE BEST WRONG I’VE SEEN IN YEARS.",
+  "sc": 103,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 406.817,
+  "s": "ELEVEN YEARS I CARRIED THAT NOTEBOOK.",
+  "sc": 108,
+  "k": "say",
+  "raw": "say",
+  "who": "WALT"
+ },
+ {
+  "t": 414.933,
+  "s": "SO, WHAT’S ON PAGE TEN?",
+  "sc": 110,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 429.217,
+  "s": "READ PAST PAGE TWO",
+  "sc": 113,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 435.0,
+  "s": "A ROAD NOBODY HAS WALKED YET",
+  "sc": 115,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 444.45,
+  "s": "IT’S NOT CHARITY. IT’S AN INVESTMENT.",
+  "sc": 116,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 465.633,
+  "s": "SUNDAY MORNING",
+  "sc": 120,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 474.317,
+  "s": "YOU CAN SEE THEM TOO. CAN’T YOU?",
+  "sc": 122,
+  "k": "say",
+  "raw": "say",
+  "who": "GIRL"
+ },
+ {
+  "t": 479.667,
+  "s": "WHAT WOULD YOU DO?",
+  "sc": 123,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 483.417,
+  "s": "WOULD YOU WALK PAST?",
+  "sc": 124,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 484.883,
+  "s": "TELL US IN THE COMMENTS",
+  "sc": 125,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 485.85,
+  "s": "SUBSCRIBE · PART 2",
+  "sc": 126,
+  "k": "plate",
+  "raw": "plate"
+ }
+]

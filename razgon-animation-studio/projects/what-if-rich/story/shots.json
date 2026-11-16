@@ -1,0 +1,1912 @@
+{
+ "title": "What If You Could See How Rich Everyone Will Become",
+ "duration": 494.2,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.275,
+   "line": "Tuesday, seven fifty-two in the morning, Maple Street.",
+   "scene": "Хозяйственный магазин на Maple Street, табличка улицы, утро. Leon бежит к автобусу с рюкзаком.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon бежит слева направо",
+   "assets": "BG код: магазин; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 3.275,
+   "end": 6.433,
+   "line": "Leon is running for the bus, but he stops at the hardware store,",
+   "scene": "Leon тормозит у стены магазина: у стены сидит Walt с картонкой и бумажным стаканчиком.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon тормозит",
+   "assets": "LEON; WALT; sign; cup",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 6.433,
+   "end": 10.625,
+   "line": "because a man is sitting against the wall with a paper cup and a cardboard sign.",
+   "scene": "Крупнее: Walt, картонка «HUNGRY», стаканчик с мелочью, рваная куртка.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "камера наезжает",
+   "assets": "WALT; sign; cup",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 10.625,
+   "end": 13.892,
+   "line": "Leon has exactly two dollars, his bus money.",
+   "scene": "Leon достаёт две бумажки по доллару, смотрит на них; над ними «$2».",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon достаёт деньги",
+   "assets": "LEON; dollars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 13.892,
+   "end": 15.417,
+   "line": "He drops it in the cup.",
+   "scene": "Две бумажки падают в стаканчик Walt.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "бумажки летят в стаканчик",
+   "assets": "LEON; WALT; cup; dollars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 15.417,
+   "end": 18.5,
+   "line": "\"Thanks, kid,\" the man says, and looks up.",
+   "scene": "Walt поднимает глаза на Leon и благодарит, улыбается.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Walt поднимает голову",
+   "assets": "WALT; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 18.5,
+   "end": 23.967,
+   "line": "And that's when Leon sees it. A glowing number, hanging in the air above the man's head.",
+   "scene": "Leon застыл, глаза вверх: над Walt проявляется светящееся число.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "число проявляется со вспышкой",
+   "assets": "LEON; WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 23.967,
+   "end": 29.817,
+   "line": "Six billion, three hundred and ten million dollars.",
+   "scene": "Крупно: Walt и над ним зелёное светящееся число $6,310,000,000. Leon снизу, смотрит вверх.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "число пульсирует",
+   "assets": "WALT; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 29.817,
+   "end": 31.45,
+   "line": "Leon looks at the torn jacket.",
+   "scene": "Рваная куртка Walt: дыра на рукаве, заплатка.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "камера по куртке вниз",
+   "assets": "WALT; jacket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 31.45,
+   "end": 33.358,
+   "line": "The shoes held together with tape.",
+   "scene": "Ботинки Walt, обмотанные скотчем.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "крупно ботинки",
+   "assets": "WALT; shoes; tape",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 33.358,
+   "end": 35.108,
+   "line": "Then back at the number.",
+   "scene": "Leon резко смотрит снова вверх, на число, глаза круглые.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon вздрагивает",
+   "assets": "LEON; WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 35.108,
+   "end": 37.633,
+   "line": "Then at his own reflection in the shop window.",
+   "scene": "Витрина магазина, в стекле отражение Leon; над его отражением синее число.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon у витрины",
+   "assets": "LEON; window; reflection",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 37.633,
+   "end": 41.767,
+   "line": "Sixty-one thousand, four hundred dollars.",
+   "scene": "Крупно отражение Leon и число $61,400 синим.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "число появляется",
+   "assets": "LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 41.767,
+   "end": 50.525,
+   "line": "Leon is ten years old, he is about to walk to school, and he has just lost a money contest to a man with a paper cup.",
+   "scene": "Табло «MONEY CONTEST»: слева Leon с $61,400, справа Walt с $6,310,000,000 и бумажным стаканчиком; Walt побеждает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "шкалы растут, у Walt гигантская",
+   "assets": "LEON; WALT; scoreboard",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 50.525,
+   "end": 53.817,
+   "line": "How? Leon has no idea.",
+   "scene": "Leon пожимает плечами, над головой знак вопроса, Walt позади.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon пожимает плечами",
+   "assets": "LEON; WALT; qmark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 53.817,
+   "end": 59.117,
+   "line": "But by Saturday, he'll know exactly how, and what it costs to find out.",
+   "scene": "Календарь: вторник зачёркнут, обведена суббота; рядом ценник «?».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "календарь листается",
+   "assets": "calendar; price tag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 59.117,
+   "end": 63.292,
+   "line": "So, what if you could see how rich everyone will become?",
+   "scene": "Leon радуется, над ним название ролика.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "название, искры",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 63.292,
+   "end": 64.633,
+   "line": "Here's how it works.",
+   "scene": "Доска, Leon показывает на неё указкой; на доске «HOW IT WORKS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon у доски",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 64.633,
+   "end": 70.325,
+   "line": "Rule one. The number above a head is the most money that person will ever have, if nothing changes.",
+   "scene": "Доска «RULE 1»: человек со светящимся числом, подпись «MOST MONEY EVER» со стрелкой на число.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "число над человеком, стрелка",
+   "assets": "LEON; board; person",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 70.325,
+   "end": 74.092,
+   "line": "Rule two. The number changes the second something else does.",
+   "scene": "Доска «RULE 2»: число над человеком меняется (старое зачёркнуто, новое выше).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "число меняется",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 74.092,
+   "end": 77.858,
+   "line": "A new job, a big choice, one bad day.",
+   "scene": "Три значка один за другим: портфель (NEW JOB), развилка (BIG CHOICE), тучка (BAD DAY), над каждым число прыгает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки по очереди",
+   "assets": "icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 77.858,
+   "end": 85.058,
+   "line": "Rule three. It shows money and nothing else. Not how, not when, and not whether anyone is happy.",
+   "scene": "Доска «RULE 3»: число, рядом три зачёркнутых слова HOW · WHEN · HAPPY?",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "слова зачёркиваются по очереди",
+   "assets": "board; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 85.058,
+   "end": 86.825,
+   "line": "You can't turn it off.",
+   "scene": "Leon трёт глаза, закрывает ладонями: число над соседом всё равно светится.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon жмурится, число светится",
+   "assets": "LEON; person; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 86.825,
+   "end": 89.717,
+   "line": "Leon sprints home to check his family.",
+   "scene": "Leon влетает на кухню, на ходу смотрит на семью.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Leon вбегает",
+   "assets": "BG kitchen; LEON; MOM; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 89.717,
+   "end": 93.05,
+   "line": "Mom, two million, three hundred thousand dollars.",
+   "scene": "Mom у плиты, над ней зелёное число $2,300,000.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "число появляется",
+   "assets": "BG kitchen; MOM; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 93.05,
+   "end": 95.558,
+   "line": "Mom drives a car with one working window.",
+   "scene": "Старая машина сбоку, окна: три разбиты (заклеены картоном), одно целое с зелёной галочкой.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "машина слегка трясётся",
+   "assets": "car",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 95.558,
+   "end": 98.517,
+   "line": "Dad, four hundred and eighty thousand.",
+   "scene": "Dad за столом с газетой, над ним $480,000.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "число появляется",
+   "assets": "BG kitchen; DAD; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 98.517,
+   "end": 101.217,
+   "line": "And Biscuit, the dog, seven dollars.",
+   "scene": "Biscuit сидит, виляет хвостом, над ним зелёное число $7.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "хвост виляет",
+   "assets": "BG kitchen; BISCUIT; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 101.217,
+   "end": 104.758,
+   "line": "Leon is fairly sure that's one large sausage.",
+   "scene": "Над Biscuit облачко с большой сосиской, Leon кивает.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "сосиска в облачке",
+   "assets": "BISCUIT; LEON; sausage",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 104.758,
+   "end": 108.292,
+   "line": "Day one. Let's start with power.",
+   "scene": "Leon со скрещёнными руками, весёлый, плашка DAY 1.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 108.292,
+   "end": 110.775,
+   "line": "Plus number one, allowance.",
+   "scene": "Leon и Mom на кухне.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG kitchen; LEON; MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 110.775,
+   "end": 118.908,
+   "line": "Leon looks at Mom's number, looks at Mom, and says, \"Technically, you'll have two million dollars, so five of them won't matter.\"",
+   "scene": "Leon смотрит на число Mom, потом на неё; говорит. Mom скрестила руки.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Leon объясняет",
+   "assets": "MOM; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 118.908,
+   "end": 122.875,
+   "line": "Mom hands him five dollars and a very long look.",
+   "scene": "Mom протягивает пять долларов и смотрит долгим взглядом (брови вниз, глаза на Leon).",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom протягивает бумажку",
+   "assets": "MOM; LEON; dollars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 122.875,
+   "end": 125.725,
+   "line": "Plus number two, the lemonade stand.",
+   "scene": "Парк, ларёк с лимонадом, Leon за прилавком.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG park; LEON; stand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 125.725,
+   "end": 129.725,
+   "line": "In the park, Leon only serves people with at least seven digits.",
+   "scene": "Очередь из четырёх людей, над каждым число; Leon показывает пальцем на тех, у кого длинное число; у коротких стоит значок «NO».",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "очередь, значки",
+   "assets": "LEON; stand; KIDS×4; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 129.725,
+   "end": 131.008,
+   "line": "They all tip.",
+   "scene": "В банку Leon летят монеты и купюры, покупатели довольны.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "монеты летят",
+   "assets": "LEON; stand; coins; jar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 131.008,
+   "end": 135.692,
+   "line": "One man gives him a twenty and says, \"Keep it. I have a good feeling about this stand.\"",
+   "scene": "Мужчина в пиджаке протягивает двадцать и говорит.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "мужчина кладёт $20",
+   "assets": "MAN; LEON; stand; $20",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 135.692,
+   "end": 138.283,
+   "line": "Plus number three, the group project.",
+   "scene": "Класс, Leon у парты, ребята спорят.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG classroom; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 138.283,
+   "end": 144.333,
+   "line": "Everybody fights over Chase and Zoe, and Leon walks straight to Owen, the quiet kid building a robot in his garage.",
+   "scene": "Двое тянут к себе Chase и Zoe, за руки; Leon уходит вправо к Owen.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Chase и Zoe тянут, Leon идёт к Owen",
+   "assets": "CHASE; ZOE; KIDS; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 144.333,
+   "end": 148.1,
+   "line": "Owen's number is eighteen million, four hundred thousand dollars.",
+   "scene": "Гараж: стол с роботом, Owen с отвёрткой, над ним зелёное число $18,400,000; Leon смотрит.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "число появляется, Owen паяет",
+   "assets": "BG код: гараж; OWEN; LEON; robot; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 148.1,
+   "end": 151.492,
+   "line": "Owen's only question is, \"Why are you staring at my forehead?\"",
+   "scene": "Owen хмурится, Leon смотрит на его лоб.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Owen отодвигается",
+   "assets": "OWEN; LEON; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 151.492,
+   "end": 154.192,
+   "line": "Plus number four, the class election.",
+   "scene": "Класс, на доске «PRESIDENT».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG classroom; LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 154.192,
+   "end": 155.958,
+   "line": "Two kids run for president.",
+   "scene": "Двое кандидатов с плакатами «A» и «B», над ними числа; Leon в зале.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "кандидаты, числа",
+   "assets": "KIDS×2; posters; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 155.958,
+   "end": 160.808,
+   "line": "Leon checks their numbers, votes for the bigger one, and gets longer recess for the whole school.",
+   "scene": "Leon опускает бюллетень в ящик, на листе обведено большее число.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "бюллетень падает в ящик",
+   "assets": "LEON; box; ballot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 160.808,
+   "end": 162.442,
+   "line": "Nobody knows who to thank.",
+   "scene": "Школьный двор: дети радуются длинной перемене, подпись над толпой.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "дети прыгают",
+   "assets": "BG park; KIDS; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 162.442,
+   "end": 167.483,
+   "line": "But this is money, not magic. Leon still fails the history quiz.",
+   "scene": "Leon за партой, перед ним тест с большой красной F, рядом число и вздох.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon опускает голову",
+   "assets": "LEON; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 167.483,
+   "end": 170.217,
+   "line": "But then you start noticing the problems.",
+   "scene": "Leon идёт по улице, хмурится, смотрит на людей.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG park; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 170.217,
+   "end": 175.7,
+   "line": "Problem one. The number is the end of a very long road, and you only see the finish line.",
+   "scene": "Длинная дорога уходит вдаль, на конце флажок финиша; над флажком светится число.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "дорога",
+   "assets": "road; flag; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 175.7,
+   "end": 182.083,
+   "line": "Warren Buffett built about ninety-nine percent of his fortune after his fiftieth birthday, according to the writer Morgan Housel.",
+   "scene": "Шкала жизни: от 0 до 50 лет маленькая полоска, после 50 длинный столбик; карточка «BUFFETT: 99% AFTER 50».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "столбик растёт",
+   "assets": "chart; card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 182.083,
+   "end": 185.958,
+   "line": "So Leon watches an old man feeding pigeons and sees nine million,",
+   "scene": "Старик на скамейке кормит голубей, над ним $9,000,000.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "голуби клюют",
+   "assets": "BG park; OLDMAN; pigeons; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 185.958,
+   "end": 189.8,
+   "line": "then a girl on a skateboard and sees two thousand.",
+   "scene": "Девочка на скейтборде едет мимо, над ней $2,000.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "девочка проезжает",
+   "assets": "SKATER; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 189.8,
+   "end": 192.083,
+   "line": "The mailman has eight hundred thousand.",
+   "scene": "Почтальон с сумкой, над ним $800,000.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "почтальон идёт",
+   "assets": "MAILMAN; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 192.083,
+   "end": 195.783,
+   "line": "The crossing guard has forty dollars and a very good whistle.",
+   "scene": "Регулировщик со свистком у перехода, над ним $40.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "свисток",
+   "assets": "GUARD; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 195.783,
+   "end": 200.0,
+   "line": "Is the skateboard girl doomed? Or is she just at the start?",
+   "scene": "Девочка со скейтом, над ней вопросительные знаки; Leon чешет голову.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "знаки вопроса",
+   "assets": "SKATER; LEON; qmark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 200.0,
+   "end": 206.733,
+   "line": "The number never says where anyone is on the road. Only where it ends, if nobody gets in the way.",
+   "scene": "Дорога: человечек стоит на середине, над ним «YOU ARE HERE?», число только на дальнем конце.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "человечек шагает",
+   "assets": "road; person; flag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 206.733,
+   "end": 208.442,
+   "line": "Problem two.",
+   "scene": "Leon тащит огромный тяжёлый мешок с надписью SECRET.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "мешок тянет вниз",
+   "assets": "LEON; sack",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 208.442,
+   "end": 212.475,
+   "line": "Secrets are heavy, and Leon is terrible at carrying them.",
+   "scene": "Leon сутулится под мешком, пот, ноги подгибаются.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon кряхтит",
+   "assets": "LEON; sack",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 212.475,
+   "end": 214.325,
+   "line": "On Thursday, he tells Owen.",
+   "scene": "Гараж: Owen с отвёрткой, Leon шепчет ему; подпись THURSDAY.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Leon шепчет",
+   "assets": "BG гараж; OWEN; LEON; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 214.325,
+   "end": 217.725,
+   "line": "\"You're going to be rich. Eighteen million.\"",
+   "scene": "Leon говорит с улыбкой, Owen слушает.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Leon говорит",
+   "assets": "OWEN; LEON; robot; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 217.725,
+   "end": 219.817,
+   "line": "Owen puts down his screwdriver.",
+   "scene": "Owen кладёт отвёртку на стол, поднимает глаза.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "отвёртка ложится",
+   "assets": "OWEN; LEON; robot; screwdriver",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 219.817,
+   "end": 223.4,
+   "line": "\"So it's already decided? Then why am I building this?\"",
+   "scene": "Owen разводит руками и спрашивает.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Owen разводит руками",
+   "assets": "OWEN; LEON; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 223.4,
+   "end": 228.45,
+   "line": "He walks home. The robot stays on the table, and above Owen's head, the number drops.",
+   "scene": "Owen уходит влево, робот остался на столе; Leon смотрит вслед.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Owen уходит",
+   "assets": "OWEN; LEON; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 228.45,
+   "end": 233.817,
+   "line": "Eighteen million. Six million. Nine hundred thousand.",
+   "scene": "Крупно Owen, над головой число падает: $18,400,000 → $6,000,000 → $900,000, оно тускнеет.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "число падает",
+   "assets": "OWEN; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 233.817,
+   "end": 235.358,
+   "line": "And this part is real.",
+   "scene": "Плашка THIS PART IS REAL, Leon показывает на неё.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 235.358,
+   "end": 242.8,
+   "line": "In nineteen ninety-eight, psychologists Claudia Mueller and Carol Dweck gave fifth graders puzzles and praised some of them for being smart.",
+   "scene": "Карточка исследования: два ряда детей с головоломками, над первым рядом «SMART!», над вторым «HARD WORK!».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "дети решают",
+   "assets": "card; KIDS; puzzles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 242.8,
+   "end": 247.4,
+   "line": "Those kids did worse on the next round than kids praised for working hard.",
+   "scene": "Два столбика: «SMART!» ниже, «HARD WORK!» выше.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "столбики растут",
+   "assets": "chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 247.4,
+   "end": 251.683,
+   "line": "Tell somebody they've already won, and they stop playing.",
+   "scene": "Owen с кубком в руках и значком стоп: «STOPS PLAYING».",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Owen сидит",
+   "assets": "OWEN; cup; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 251.683,
+   "end": 254.058,
+   "line": "Leon fixes it the only way he can.",
+   "scene": "Leon догоняет Owen, руки к нему.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Leon идёт",
+   "assets": "LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 254.058,
+   "end": 255.758,
+   "line": "\"I made it up, Owen. Forget it.\"",
+   "scene": "Leon извиняется, Owen слушает.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "Leon говорит",
+   "assets": "LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 255.758,
+   "end": 261.358,
+   "line": "Then he spends two days handing him screws, until the number crawls back to fourteen million.",
+   "scene": "Leon подаёт Owen винты; над Owen число ползёт вверх до $14,000,000.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "число ползёт вверх",
+   "assets": "LEON; OWEN; screws; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 261.358,
+   "end": 266.767,
+   "line": "Not all the way. Some things you can't un-say, even with a screwdriver.",
+   "scene": "Число Owen $14,000,000; призрак старого числа $18,400,000 бледный над ним.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "число замирает",
+   "assets": "OWEN; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 266.767,
+   "end": 270.242,
+   "line": "Problem three is the one that keeps Leon awake.",
+   "scene": "Ночная комната, Leon сидит на кровати/у стола и не спит, подпись PROBLEM 3.",
+   "set": "NIGHT",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "BG kitchenNight; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 270.242,
+   "end": 272.225,
+   "line": "The man by the hardware store.",
+   "scene": "Walt сидит у стены, прохожие идут мимо.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "прохожие проходят",
+   "assets": "BG магазин; WALT; PEOPLE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 272.225,
+   "end": 277.175,
+   "line": "All week, his number never moves, and everyone walks around him like he's a mailbox.",
+   "scene": "Walt у стены, рядом почтовый ящик; прохожие огибают их обоих; над Walt число не меняется.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "прохожие огибают",
+   "assets": "WALT; mailbox; PEOPLE; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 277.175,
+   "end": 284.142,
+   "line": "On one night in January twenty twenty-four, about seven hundred and seventy thousand people in America had no home.",
+   "scene": "Карточка «JAN 2024 · 770,000 PEOPLE WITHOUT A HOME (USA)»: россыпь точек-человечков.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "точки заполняют кадр",
+   "assets": "card; dots",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 284.142,
+   "end": 286.858,
+   "line": "On Friday, Leon sits down next to him.",
+   "scene": "Leon садится рядом с Walt у стены, подпись FRIDAY.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon садится",
+   "assets": "WALT; LEON; wall",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 286.858,
+   "end": 287.867,
+   "line": "His name is Walt.",
+   "scene": "Крупно лицо Walt с бородой, добрые глаза.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "камера на лицо",
+   "assets": "WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 287.867,
+   "end": 293.317,
+   "line": "He used to repair elevators, until his back gave out, then his job, then his apartment.",
+   "scene": "Четыре значка по очереди зачёркиваются: лифт, спина, работа, дом.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки зачёркиваются",
+   "assets": "icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 293.317,
+   "end": 296.858,
+   "line": "From his jacket, Walt pulls a wet notebook full of drawings.",
+   "scene": "Walt достаёт из куртки мокрый блокнот; Leon смотрит.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "блокнот появляется",
+   "assets": "WALT; LEON; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 296.858,
+   "end": 301.05,
+   "line": "A machine that cleans dirty water with a bucket, sand, and a car part.",
+   "scene": "Страница блокнота: ведро, песок, деталь машины, из ведра течёт чистая вода (чертёж).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "чертёж рисуется линиями",
+   "assets": "notebook page",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 301.05,
+   "end": 305.617,
+   "line": "\"Works on paper,\" Walt says. \"Nobody ever read past page two.\"",
+   "scene": "Walt показывает страницу и говорит, Leon слушает.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Walt показывает блокнот",
+   "assets": "WALT; LEON; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 305.617,
+   "end": 308.867,
+   "line": "Leon asks why he never built it. Walt laughs.",
+   "scene": "Leon спрашивает, Walt смеётся.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Walt смеётся",
+   "assets": "WALT; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 308.867,
+   "end": 312.367,
+   "line": "\"Nobody gives a workshop to a man with a cardboard sign.\"",
+   "scene": "Walt показывает на картонку.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Walt указывает на табличку",
+   "assets": "WALT; LEON; sign",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 312.367,
+   "end": 314.55,
+   "line": "Leon looks up at the number.",
+   "scene": "Leon смотрит на число над Walt, Walt прижимает блокнот к груди.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "число светится",
+   "assets": "LEON; WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 314.55,
+   "end": 317.992,
+   "line": "It was never about Walt. It's about the notebook.",
+   "scene": "Число над Walt и от него светящаяся нить к блокноту; блокнот светится.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "нить пульсирует",
+   "assets": "WALT; notebook; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 317.992,
+   "end": 319.817,
+   "line": "Saturday morning, it rains.",
+   "scene": "Идёт дождь, улица мокрая, подпись SATURDAY · RAIN.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "дождь",
+   "assets": "BG магазин в дождь; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 319.817,
+   "end": 324.083,
+   "line": "Leon is carrying a pitcher to the park to open the biggest lemonade stand in town,",
+   "scene": "Leon бежит под дождём с кувшином лимонада, капли.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon бежит",
+   "assets": "LEON; pitcher; rain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 324.083,
+   "end": 328.7,
+   "line": "when he spots Walt behind the hardware store, holding the notebook over the dumpster.",
+   "scene": "Переулок за магазином: Walt у мусорного бака, держит блокнот над баком; Leon далеко слева на углу.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "камера на Walt",
+   "assets": "BG переулок; WALT; dumpster; LEON; notebook; rain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 328.7,
+   "end": 332.092,
+   "line": "Above Walt's head, the number starts to fall.",
+   "scene": "Над Walt число начинает мигать и трясётся.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "число трясётся",
+   "assets": "WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 332.092,
+   "end": 336.458,
+   "line": "Six billion. Four billion. Nine hundred million.",
+   "scene": "Число падает: $6,310,000,000 → $4,000,000,000 → $900,000,000.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "число падает ступенями",
+   "assets": "WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 336.458,
+   "end": 340.083,
+   "line": "Every step toward the bin, a zero disappears.",
+   "scene": "Walt идёт к баку, на каждый шаг справа от числа отваливается нуль и падает вниз.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "нули падают с каждым шагом",
+   "assets": "WALT; dumpster; zeros",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 340.083,
+   "end": 347.383,
+   "line": "Leon drops the pitcher and runs, sneakers sliding, rain in his eyes, the notebook the only thing on the street he can see.",
+   "scene": "Кувшин падает и разбивается, лимонад брызгает; Leon бросается вперёд.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "кувшин падает",
+   "assets": "LEON; pitcher; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 347.383,
+   "end": 349.917,
+   "line": "\"Walt, wait! Give me one day!\"",
+   "scene": "Leon бежит с вытянутой рукой, кричит.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "Leon бежит, брызги",
+   "assets": "LEON; WALT; dumpster; rain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 349.917,
+   "end": 353.3,
+   "line": "He snatches the notebook one second before it hits the trash.",
+   "scene": "Рука Leon выхватывает блокнот, Walt ошарашен, блокнот не долетел до бака.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "рывок",
+   "assets": "LEON; WALT; notebook; dumpster",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 353.3,
+   "end": 356.033,
+   "line": "The number stops at three hundred million.",
+   "scene": "Число над Walt замирает на $300,000,000.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "число замирает",
+   "assets": "WALT; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 356.033,
+   "end": 361.533,
+   "line": "Then Leon sees his own reflection in a puddle. Fifty-two thousand.",
+   "scene": "Leon смотрит в лужу: там отражение, над ним $52,000.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "число меняется",
+   "assets": "LEON; puddle; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 361.533,
+   "end": 366.633,
+   "line": "The future where he sold lemonade all Saturday was a little richer than this one.",
+   "scene": "Слева лимонадный ларёк с $61,400, справа лужа и блокнот с $52,000 (меньше).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "две чаши",
+   "assets": "stand; notebook; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 366.633,
+   "end": 369.158,
+   "line": "Leon decides it's a fair price.",
+   "scene": "Leon мокрый, улыбается и показывает большой палец; Walt растерян.",
+   "set": "ALLEY",
+   "hud": "—",
+   "notes": "Leon поднимает палец",
+   "assets": "LEON; WALT; notebook; rain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 369.158,
+   "end": 375.175,
+   "line": "The only open door on a rainy Saturday is the school gym, where Ms. Park runs the robotics club.",
+   "scene": "Школьный зал, на столах детали роботов, на стене плакат ROBOTICS; Ms. Park с планшетом.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "камера по залу",
+   "assets": "BG gym; PARK; tables",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 375.175,
+   "end": 378.517,
+   "line": "Owen is there, because Owen is always there.",
+   "scene": "Owen у стола с роботом; Leon, Walt вошли в дверь с блокнотом.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "входят",
+   "assets": "OWEN; LEON; WALT; PARK; robot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 378.517,
+   "end": 381.675,
+   "line": "Ms. Park flips to page three. Then page four.",
+   "scene": "Ms. Park листает блокнот, глаза бегут по строкам.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "страницы листаются",
+   "assets": "PARK; notebook; LEON; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 381.675,
+   "end": 386.867,
+   "line": "Then she sits down, which Ms. Park never does. She stops talking.",
+   "scene": "Ms. Park садится на стул, замолкает; остальные притихли.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Ms. Park садится",
+   "assets": "PARK; chair; notebook; OWEN; LEON; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 386.867,
+   "end": 392.858,
+   "line": "\"Page nine is wrong,\" she says finally, \"but it's the best wrong I've seen in years.\"",
+   "scene": "Ms. Park поднимает палец и говорит.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Ms. Park указывает",
+   "assets": "PARK; notebook; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 392.858,
+   "end": 396.642,
+   "line": "Owen finds a bottle, a bucket, sand, and a coffee filter.",
+   "scene": "На столе бутылка, ведро, песок, кофейный фильтр.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "предметы появляются по одному",
+   "assets": "OWEN; table; bottle; bucket; sand; filter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 396.642,
+   "end": 399.358,
+   "line": "Walt pours in muddy water from the parking lot.",
+   "scene": "Walt льёт мутную воду из банки в ведро-фильтр.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "вода льётся",
+   "assets": "WALT; OWEN; PARK; bucket; jar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 399.358,
+   "end": 403.592,
+   "line": "Out comes water so clear that Owen forgets to breathe.",
+   "scene": "В стакан течёт прозрачная вода, Owen раздул щёки (забыл дышать).",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "вода стекает, Owen щёки",
+   "assets": "OWEN; glass; filter; LEON; PARK; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 403.592,
+   "end": 406.392,
+   "line": "Walt stares at it for a long time.",
+   "scene": "Walt смотрит на стакан, глаза блестят.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Walt не двигается",
+   "assets": "WALT; glass",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 406.392,
+   "end": 410.208,
+   "line": "\"Eleven years I carried that notebook,\" he says.",
+   "scene": "Walt прижимает блокнот к груди и говорит.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Walt говорит",
+   "assets": "WALT; notebook; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 410.208,
+   "end": 413.558,
+   "line": "Leon doesn't tell him the number. He's learned that lesson.",
+   "scene": "Leon молча застёгивает на губах «молнию»; над Walt число видно только Leon.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Leon застёгивает рот",
+   "assets": "LEON; WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 413.558,
+   "end": 416.892,
+   "line": "He just says, \"So, what's on page ten?\"",
+   "scene": "Leon улыбается и спрашивает.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Leon говорит",
+   "assets": "LEON; WALT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 416.892,
+   "end": 419.992,
+   "line": "And above Walt's head, the number climbs.",
+   "scene": "Крупно Walt, над ним число поднимается с $300,000,000 вверх.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "число растёт",
+   "assets": "WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 419.992,
+   "end": 425.633,
+   "line": "Six billion, three hundred and ten million dollars. Exactly the same number.",
+   "scene": "Walt, число $6,310,000,000 горит, вокруг искры.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "искры, число пульсирует",
+   "assets": "WALT; number; sparks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 425.633,
+   "end": 430.558,
+   "line": "The only thing that changed was somebody reading past page two.",
+   "scene": "Блокнот лежит открытым на странице три, над ним свет; рядом руки читают.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "свет от блокнота",
+   "assets": "notebook; hands",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 430.558,
+   "end": 433.592,
+   "line": "Leon finally understands what the numbers are.",
+   "scene": "Leon задумчиво смотрит на группу, улыбается.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "камера мягко наезжает",
+   "assets": "LEON; WALT; OWEN; PARK",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 433.592,
+   "end": 440.225,
+   "line": "Not a promise. A road nobody has walked yet, and it only stays open if somebody walks it with you.",
+   "scene": "Дорога без следов; затем на ней следы одной пары ног, затем второй: «NOBODY WALKED IT YET» → «WALK IT WITH SOMEONE».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "следы появляются",
+   "assets": "road; footprints",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 440.225,
+   "end": 446.392,
+   "line": "Walt gets a table in the robotics room and a hot lunch from Ms. Park, who says it's not charity, it's an investment.",
+   "scene": "Walt за столом кружка, перед ним горячий обед на подносе, Ms. Park рядом говорит.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Ms. Park ставит поднос",
+   "assets": "WALT; PARK; tray; table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 446.392,
+   "end": 451.258,
+   "line": "Owen's number is twenty-one million, and he hasn't put the screwdriver down all day.",
+   "scene": "Owen с отвёрткой, над ним $21,000,000; он не отрывается от робота.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Owen работает",
+   "assets": "OWEN; robot; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 451.258,
+   "end": 456.425,
+   "line": "Biscuit's number, by the way, is eight dollars. Somebody dropped a second sausage.",
+   "scene": "Biscuit с вторым куском сосиски, над ним число $8.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "Biscuit жуёт",
+   "assets": "BG livingRoom; BISCUIT; sausage; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 456.425,
+   "end": 464.975,
+   "line": "Leon's own number is still fifty-two thousand. It's the worst week of his financial life, and he has never been happier.",
+   "scene": "Leon у зеркала в гостиной, над головой синее $52,000, он улыбается.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "число в зеркале",
+   "assets": "LEON; mirror; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 464.975,
+   "end": 469.325,
+   "line": "Sunday morning, at the bus stop, a girl is staring at the air above his head.",
+   "scene": "Остановка, на скамейке девочка, Leon подходит; подпись SUNDAY.",
+   "set": "BUSSTOP",
+   "hud": "—",
+   "notes": "Leon подходит",
+   "assets": "BG остановка; LEON; GIRL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 469.325,
+   "end": 473.883,
+   "line": "She takes out a pen, writes a number on her hand, then looks straight at Leon.",
+   "scene": "Девочка достаёт ручку, пишет число на руке, смотрит на воздух над Leon.",
+   "set": "BUSSTOP",
+   "hud": "—",
+   "notes": "ручка пишет",
+   "assets": "GIRL; LEON; pen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 473.883,
+   "end": 478.108,
+   "line": "\"You can see them too,\" she whispers. \"Can't you?\"",
+   "scene": "Крупно девочка шепчет, Leon поражён.",
+   "set": "BUSSTOP",
+   "hud": "—",
+   "notes": "девочка шепчет",
+   "assets": "GIRL; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 478.108,
+   "end": 480.167,
+   "line": "So, what would you do?",
+   "scene": "Leon обращается к зрителю: над ним знак вопроса; рядом Walt с числом.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "вопрос",
+   "assets": "LEON; WALT; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 480.167,
+   "end": 484.017,
+   "line": "If you saw a number like Walt's above a stranger, would you walk past?",
+   "scene": "Силуэт прохожего с числом, мимо идёт тень.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "тень проходит мимо",
+   "assets": "figure; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 484.017,
+   "end": 485.133,
+   "line": "Tell us in the comments.",
+   "scene": "Значок комментариев, Leon указывает на него.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon указывает",
+   "assets": "LEON; comment icon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 485.133,
+   "end": 487.183,
+   "line": "And subscribe for part two,",
+   "scene": "Кнопка SUBSCRIBE нажимается; рядом девочка с числом на руке.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кнопка нажимается",
+   "assets": "LEON; button",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 487.183,
+   "end": 494.233,
+   "line": "because that girl knows something about Leon's number that Leon doesn't.",
+   "scene": "Девочка смотрит на камеру, Leon не замечает; над Leon число мерцает.",
+   "set": "BUSSTOP",
+   "hud": "—",
+   "notes": "число Leon мерцает",
+   "assets": "GIRL; LEON; number",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

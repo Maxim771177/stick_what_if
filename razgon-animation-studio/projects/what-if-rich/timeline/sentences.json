@@ -1,0 +1,974 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "end": 3.18,
+  "text": "Tuesday, seven fifty-two in the morning, Maple Street."
+ },
+ {
+  "i": 1,
+  "start": 4.68,
+  "end": 12.28,
+  "text": "Leon is running for the bus, but he stops at the hardware store, because a man is sitting against the wall with a paper cup and a cardboard sign."
+ },
+ {
+  "i": 2,
+  "start": 13.22,
+  "end": 16.38,
+  "text": "Leon has exactly two dollars, his bus money."
+ },
+ {
+  "i": 3,
+  "start": 16.96,
+  "end": 18.04,
+  "text": "He drops it in the cup."
+ },
+ {
+  "i": 4,
+  "start": 18.96,
+  "end": 21.6,
+  "text": "\"Thanks, kid,\" the man says, and looks up."
+ },
+ {
+  "i": 5,
+  "start": 22.8,
+  "end": 24.78,
+  "text": "And that's when Leon sees it."
+ },
+ {
+  "i": 6,
+  "start": 25.32,
+  "end": 28.76,
+  "text": "A glowing number, hanging in the air above the man's head."
+ },
+ {
+  "i": 7,
+  "start": 28.76,
+  "end": 35.78,
+  "text": "Six billion, three hundred and ten million dollars."
+ },
+ {
+  "i": 8,
+  "start": 35.78,
+  "end": 37.48,
+  "text": "Leon looks at the torn jacket."
+ },
+ {
+  "i": 9,
+  "start": 38.0,
+  "end": 39.68,
+  "text": "The shoes held together with tape."
+ },
+ {
+  "i": 10,
+  "start": 40.38,
+  "end": 41.7,
+  "text": "Then back at the number."
+ },
+ {
+  "i": 11,
+  "start": 42.56,
+  "end": 45.16,
+  "text": "Then at his own reflection in the shop window."
+ },
+ {
+  "i": 12,
+  "start": 45.16,
+  "end": 50.12,
+  "text": "Sixty-one thousand, four hundred dollars."
+ },
+ {
+  "i": 13,
+  "start": 50.12,
+  "end": 59.72,
+  "text": "Leon is ten years old, he is about to walk to school, and he has just lost a money contest to a man with a paper cup."
+ },
+ {
+  "i": 14,
+  "start": 61.54,
+  "end": 61.54,
+  "text": "How?"
+ },
+ {
+  "i": 15,
+  "start": 63.18,
+  "end": 64.4,
+  "text": "Leon has no idea."
+ },
+ {
+  "i": 16,
+  "start": 64.76,
+  "end": 70.44,
+  "text": "But by Saturday, he'll know exactly how, and what it costs to find out."
+ },
+ {
+  "i": 17,
+  "start": 71.44,
+  "end": 75.42,
+  "text": "So, what if you could see how rich everyone will become?"
+ },
+ {
+  "i": 18,
+  "start": 76.48,
+  "end": 77.38,
+  "text": "Here's how it works."
+ },
+ {
+  "i": 19,
+  "start": 77.74,
+  "end": 78.62,
+  "text": "Rule one."
+ },
+ {
+  "i": 20,
+  "start": 78.62,
+  "end": 83.72,
+  "text": "The number above a head is the most money that person will ever have, if nothing changes."
+ },
+ {
+  "i": 21,
+  "start": 85.06,
+  "end": 86.06,
+  "text": "Rule two."
+ },
+ {
+  "i": 22,
+  "start": 86.06,
+  "end": 88.7,
+  "text": "The number changes the second something else does."
+ },
+ {
+  "i": 23,
+  "start": 89.12,
+  "end": 92.7,
+  "text": "A new job, a big choice, one bad day."
+ },
+ {
+  "i": 24,
+  "start": 94.16,
+  "end": 95.22,
+  "text": "Rule three."
+ },
+ {
+  "i": 25,
+  "start": 95.22,
+  "end": 97.4,
+  "text": "It shows money and nothing else."
+ },
+ {
+  "i": 26,
+  "start": 97.94,
+  "end": 101.68,
+  "text": "Not how, not when, and not whether anyone is happy."
+ },
+ {
+  "i": 27,
+  "start": 102.46,
+  "end": 103.74,
+  "text": "You can't turn it off."
+ },
+ {
+  "i": 28,
+  "start": 104.64,
+  "end": 107.26,
+  "text": "Leon sprints home to check his family."
+ },
+ {
+  "i": 29,
+  "start": 108.06,
+  "end": 111.66,
+  "text": "Mom, two million, three hundred thousand dollars."
+ },
+ {
+  "i": 30,
+  "start": 111.66,
+  "end": 114.22,
+  "text": "Mom drives a car with one working window."
+ },
+ {
+  "i": 31,
+  "start": 115.12,
+  "end": 118.22,
+  "text": "Dad, four hundred and eighty thousand."
+ },
+ {
+  "i": 32,
+  "start": 118.22,
+  "end": 121.46,
+  "text": "And Biscuit, the dog, seven dollars."
+ },
+ {
+  "i": 33,
+  "start": 121.46,
+  "end": 124.92,
+  "text": "Leon is fairly sure that's one large sausage."
+ },
+ {
+  "i": 34,
+  "start": 126.5,
+  "end": 128.06,
+  "text": "Day one."
+ },
+ {
+  "i": 35,
+  "start": 128.06,
+  "end": 129.48,
+  "text": "Let's start with power."
+ },
+ {
+  "i": 36,
+  "start": 130.42,
+  "end": 132.24,
+  "text": "Plus number one, allowance."
+ },
+ {
+  "i": 37,
+  "start": 133.62,
+  "end": 136.7,
+  "text": "Leon looks at Mom's number, looks at Mom, and says,"
+ },
+ {
+  "i": 38,
+  "start": 137.72,
+  "end": 142.22,
+  "text": "\"Technically, you'll have two million dollars, so five of them won't matter.\""
+ },
+ {
+  "i": 39,
+  "start": 143.16,
+  "end": 146.88,
+  "text": "Mom hands him five dollars and a very long look."
+ },
+ {
+  "i": 40,
+  "start": 148.02,
+  "end": 150.58,
+  "text": "Plus number two, the lemonade stand."
+ },
+ {
+  "i": 41,
+  "start": 151.16,
+  "end": 155.36,
+  "text": "In the park, Leon only serves people with at least seven digits."
+ },
+ {
+  "i": 42,
+  "start": 155.98,
+  "end": 156.82,
+  "text": "They all tip."
+ },
+ {
+  "i": 43,
+  "start": 157.6,
+  "end": 160.28,
+  "text": "One man gives him a twenty and says, \"Keep it."
+ },
+ {
+  "i": 44,
+  "start": 160.68,
+  "end": 162.44,
+  "text": "I have a good feeling about this stand.\""
+ },
+ {
+  "i": 45,
+  "start": 163.22,
+  "end": 165.58,
+  "text": "Plus number three, the group project."
+ },
+ {
+  "i": 46,
+  "start": 166.3,
+  "end": 172.92,
+  "text": "Everybody fights over Chase and Zoe, and Leon walks straight to Owen, the quiet kid building a robot in his garage."
+ },
+ {
+  "i": 47,
+  "start": 173.48,
+  "end": 177.72,
+  "text": "Owen's number is eighteen million, four hundred thousand dollars."
+ },
+ {
+  "i": 48,
+  "start": 177.72,
+  "end": 181.28,
+  "text": "Owen's only question is, \"Why are you staring at my forehead?\""
+ },
+ {
+  "i": 49,
+  "start": 182.3,
+  "end": 184.72,
+  "text": "Plus number four, the class election."
+ },
+ {
+  "i": 50,
+  "start": 185.34,
+  "end": 186.86,
+  "text": "Two kids run for president."
+ },
+ {
+  "i": 51,
+  "start": 187.44,
+  "end": 192.62,
+  "text": "Leon checks their numbers, votes for the bigger one, and gets longer recess for the whole school."
+ },
+ {
+  "i": 52,
+  "start": 193.32,
+  "end": 194.56,
+  "text": "Nobody knows who to thank."
+ },
+ {
+  "i": 53,
+  "start": 195.3,
+  "end": 197.6,
+  "text": "But this is money, not magic."
+ },
+ {
+  "i": 54,
+  "start": 198.28,
+  "end": 200.72,
+  "text": "Leon still fails the history quiz."
+ },
+ {
+  "i": 55,
+  "start": 201.24,
+  "end": 203.66,
+  "text": "But then you start noticing the problems."
+ },
+ {
+  "i": 56,
+  "start": 204.86,
+  "end": 205.22,
+  "text": "Problem one."
+ },
+ {
+  "i": 57,
+  "start": 205.56,
+  "end": 210.48,
+  "text": "The number is the end of a very long road, and you only see the finish line."
+ },
+ {
+  "i": 58,
+  "start": 211.2,
+  "end": 218.5,
+  "text": "Warren Buffett built about ninety-nine percent of his fortune after his fiftieth birthday, according to the writer Morgan Housel."
+ },
+ {
+  "i": 59,
+  "start": 218.5,
+  "end": 227.76,
+  "text": "So Leon watches an old man feeding pigeons and sees nine million, then a girl on a skateboard and sees two thousand."
+ },
+ {
+  "i": 60,
+  "start": 227.76,
+  "end": 230.5,
+  "text": "The mailman has eight hundred thousand."
+ },
+ {
+  "i": 61,
+  "start": 230.5,
+  "end": 234.3,
+  "text": "The crossing guard has forty dollars and a very good whistle."
+ },
+ {
+  "i": 62,
+  "start": 235.58,
+  "end": 237.44,
+  "text": "Is the skateboard girl doomed?"
+ },
+ {
+  "i": 63,
+  "start": 237.9,
+  "end": 239.62,
+  "text": "Or is she just at the start?"
+ },
+ {
+  "i": 64,
+  "start": 240.38,
+  "end": 243.36,
+  "text": "The number never says where anyone is on the road."
+ },
+ {
+  "i": 65,
+  "start": 243.88,
+  "end": 247.2,
+  "text": "Only where it ends, if nobody gets in the way."
+ },
+ {
+  "i": 66,
+  "start": 248.96,
+  "end": 249.6,
+  "text": "Problem two."
+ },
+ {
+  "i": 67,
+  "start": 250.66,
+  "end": 254.56,
+  "text": "Secrets are heavy, and Leon is terrible at carrying them."
+ },
+ {
+  "i": 68,
+  "start": 255.38,
+  "end": 256.84,
+  "text": "On Thursday, he tells Owen."
+ },
+ {
+  "i": 69,
+  "start": 257.54,
+  "end": 258.76,
+  "text": "\"You're going to be rich."
+ },
+ {
+  "i": 70,
+  "start": 258.76,
+  "end": 260.72,
+  "text": "Eighteen million.\""
+ },
+ {
+  "i": 71,
+  "start": 261.82,
+  "end": 263.42,
+  "text": "Owen puts down his screwdriver."
+ },
+ {
+  "i": 72,
+  "start": 264.14,
+  "end": 265.56,
+  "text": "\"So it's already decided?"
+ },
+ {
+  "i": 73,
+  "start": 266.12,
+  "end": 267.7,
+  "text": "Then why am I building this?\""
+ },
+ {
+  "i": 74,
+  "start": 268.46,
+  "end": 269.3,
+  "text": "He walks home."
+ },
+ {
+  "i": 75,
+  "start": 269.78,
+  "end": 274.14,
+  "text": "The robot stays on the table, and above Owen's head, the number drops."
+ },
+ {
+  "i": 76,
+  "start": 274.14,
+  "end": 276.14,
+  "text": "Eighteen million."
+ },
+ {
+  "i": 77,
+  "start": 276.14,
+  "end": 277.6,
+  "text": "Six million."
+ },
+ {
+  "i": 78,
+  "start": 277.6,
+  "end": 280.58,
+  "text": "Nine hundred thousand."
+ },
+ {
+  "i": 79,
+  "start": 280.58,
+  "end": 282.04,
+  "text": "And this part is real."
+ },
+ {
+  "i": 80,
+  "start": 282.82,
+  "end": 291.0,
+  "text": "In nineteen ninety-eight, psychologists Claudia Mueller and Carol Dweck gave fifth graders puzzles and praised some of them for being smart."
+ },
+ {
+  "i": 81,
+  "start": 291.72,
+  "end": 296.4,
+  "text": "Those kids did worse on the next round than kids praised for working hard."
+ },
+ {
+  "i": 82,
+  "start": 297.36,
+  "end": 301.32,
+  "text": "Tell somebody they've already won, and they stop playing."
+ },
+ {
+  "i": 83,
+  "start": 302.72,
+  "end": 304.72,
+  "text": "Leon fixes it the only way he can."
+ },
+ {
+  "i": 84,
+  "start": 305.02,
+  "end": 305.84,
+  "text": "\"I made it up, Owen."
+ },
+ {
+  "i": 85,
+  "start": 306.04,
+  "end": 306.58,
+  "text": "Forget it.\""
+ },
+ {
+  "i": 86,
+  "start": 307.24,
+  "end": 313.22,
+  "text": "Then he spends two days handing him screws, until the number crawls back to fourteen million."
+ },
+ {
+  "i": 87,
+  "start": 314.04,
+  "end": 315.12,
+  "text": "Not all the way."
+ },
+ {
+  "i": 88,
+  "start": 315.72,
+  "end": 319.36,
+  "text": "Some things you can't un-say, even with a screwdriver."
+ },
+ {
+  "i": 89,
+  "start": 320.88,
+  "end": 323.88,
+  "text": "Problem three is the one that keeps Leon awake."
+ },
+ {
+  "i": 90,
+  "start": 324.7,
+  "end": 326.22,
+  "text": "The man by the hardware store."
+ },
+ {
+  "i": 91,
+  "start": 327.12,
+  "end": 332.26,
+  "text": "All week, his number never moves, and everyone walks around him like he's a mailbox."
+ },
+ {
+  "i": 92,
+  "start": 332.96,
+  "end": 340.48,
+  "text": "On one night in January twenty twenty-four, about seven hundred and seventy thousand people in America had no home."
+ },
+ {
+  "i": 93,
+  "start": 341.46,
+  "end": 344.06,
+  "text": "On Friday, Leon sits down next to him."
+ },
+ {
+  "i": 94,
+  "start": 344.4,
+  "end": 345.12,
+  "text": "His name is Walt."
+ },
+ {
+  "i": 95,
+  "start": 345.76,
+  "end": 351.52,
+  "text": "He used to repair elevators, until his back gave out, then his job, then his apartment."
+ },
+ {
+  "i": 96,
+  "start": 352.44,
+  "end": 355.9,
+  "text": "From his jacket, Walt pulls a wet notebook full of drawings."
+ },
+ {
+  "i": 97,
+  "start": 356.56,
+  "end": 360.98,
+  "text": "A machine that cleans dirty water with a bucket, sand, and a car part."
+ },
+ {
+  "i": 98,
+  "start": 361.54,
+  "end": 363.4,
+  "text": "\"Works on paper,\" Walt says."
+ },
+ {
+  "i": 99,
+  "start": 364.3,
+  "end": 366.14,
+  "text": "\"Nobody ever read past page two.\""
+ },
+ {
+  "i": 100,
+  "start": 367.34,
+  "end": 369.16,
+  "text": "Leon asks why he never built it."
+ },
+ {
+  "i": 101,
+  "start": 369.76,
+  "end": 370.38,
+  "text": "Walt laughs."
+ },
+ {
+  "i": 102,
+  "start": 370.9,
+  "end": 374.22,
+  "text": "\"Nobody gives a workshop to a man with a cardboard sign.\""
+ },
+ {
+  "i": 103,
+  "start": 375.46,
+  "end": 376.96,
+  "text": "Leon looks up at the number."
+ },
+ {
+  "i": 104,
+  "start": 377.96,
+  "end": 379.32,
+  "text": "It was never about Walt."
+ },
+ {
+  "i": 105,
+  "start": 379.76,
+  "end": 381.12,
+  "text": "It's about the notebook."
+ },
+ {
+  "i": 106,
+  "start": 382.06,
+  "end": 383.38,
+  "text": "Saturday morning, it rains."
+ },
+ {
+  "i": 107,
+  "start": 384.18,
+  "end": 393.88,
+  "text": "Leon is carrying a pitcher to the park to open the biggest lemonade stand in town, when he spots Walt behind the hardware store, holding the notebook over the dumpster."
+ },
+ {
+  "i": 108,
+  "start": 395.0,
+  "end": 397.98,
+  "text": "Above Walt's head, the number starts to fall."
+ },
+ {
+  "i": 109,
+  "start": 399.04,
+  "end": 399.54,
+  "text": "Six billion."
+ },
+ {
+  "i": 110,
+  "start": 400.46,
+  "end": 401.38,
+  "text": "Four billion."
+ },
+ {
+  "i": 111,
+  "start": 402.18,
+  "end": 403.4,
+  "text": "Nine hundred million."
+ },
+ {
+  "i": 112,
+  "start": 404.1,
+  "end": 407.56,
+  "text": "Every step toward the bin, a zero disappears."
+ },
+ {
+  "i": 113,
+  "start": 408.64,
+  "end": 416.42,
+  "text": "Leon drops the pitcher and runs, sneakers sliding, rain in his eyes, the notebook the only thing on the street he can see."
+ },
+ {
+  "i": 114,
+  "start": 417.3,
+  "end": 417.92,
+  "text": "\"Walt, wait!"
+ },
+ {
+  "i": 115,
+  "start": 418.44,
+  "end": 419.6,
+  "text": "Give me one day!\""
+ },
+ {
+  "i": 116,
+  "start": 420.2,
+  "end": 423.68,
+  "text": "He snatches the notebook one second before it hits the trash."
+ },
+ {
+  "i": 117,
+  "start": 424.24,
+  "end": 426.6,
+  "text": "The number stops at three hundred million."
+ },
+ {
+  "i": 118,
+  "start": 427.88,
+  "end": 431.04,
+  "text": "Then Leon sees his own reflection in a puddle."
+ },
+ {
+  "i": 119,
+  "start": 431.04,
+  "end": 433.38,
+  "text": "Fifty-two thousand."
+ },
+ {
+  "i": 120,
+  "start": 434.3,
+  "end": 439.32,
+  "text": "The future where he sold lemonade all Saturday was a little richer than this one."
+ },
+ {
+  "i": 121,
+  "start": 440.6,
+  "end": 442.42,
+  "text": "Leon decides it's a fair price."
+ },
+ {
+  "i": 122,
+  "start": 443.56,
+  "end": 447.82,
+  "text": "The only open door on a rainy Saturday is the school gym, where Ms."
+ },
+ {
+  "i": 123,
+  "start": 448.14,
+  "end": 449.68,
+  "text": "Park runs the robotics club."
+ },
+ {
+  "i": 124,
+  "start": 450.74,
+  "end": 454.04,
+  "text": "Owen is there, because Owen is always there."
+ },
+ {
+  "i": 125,
+  "start": 454.4,
+  "end": 454.5,
+  "text": "Ms."
+ },
+ {
+  "i": 126,
+  "start": 454.84,
+  "end": 456.04,
+  "text": "Park flips to page three."
+ },
+ {
+  "i": 127,
+  "start": 456.6,
+  "end": 457.58,
+  "text": "Then page four."
+ },
+ {
+  "i": 128,
+  "start": 458.44,
+  "end": 460.78,
+  "text": "Then she sits down, which Ms."
+ },
+ {
+  "i": 129,
+  "start": 461.08,
+  "end": 461.86,
+  "text": "Park never does."
+ },
+ {
+  "i": 130,
+  "start": 462.6,
+  "end": 463.78,
+  "text": "She stops talking."
+ },
+ {
+  "i": 131,
+  "start": 464.7,
+  "end": 470.72,
+  "text": "\"Page nine is wrong,\" she says finally, \"but it's the best wrong I've seen in years.\""
+ },
+ {
+  "i": 132,
+  "start": 472.14,
+  "end": 475.56,
+  "text": "Owen finds a bottle, a bucket, sand, and a coffee filter."
+ },
+ {
+  "i": 133,
+  "start": 476.38,
+  "end": 478.84,
+  "text": "Walt pours in muddy water from the parking lot."
+ },
+ {
+  "i": 134,
+  "start": 479.62,
+  "end": 483.68,
+  "text": "Out comes water so clear that Owen forgets to breathe."
+ },
+ {
+  "i": 135,
+  "start": 484.94,
+  "end": 487.16,
+  "text": "Walt stares at it for a long time."
+ },
+ {
+  "i": 136,
+  "start": 488.18,
+  "end": 491.76,
+  "text": "\"Eleven years I carried that notebook,\" he says."
+ },
+ {
+  "i": 137,
+  "start": 492.74,
+  "end": 494.22,
+  "text": "Leon doesn't tell him the number."
+ },
+ {
+  "i": 138,
+  "start": 494.64,
+  "end": 496.0,
+  "text": "He's learned that lesson."
+ },
+ {
+  "i": 139,
+  "start": 496.54,
+  "end": 499.78,
+  "text": "He just says, \"So, what's on page ten?\""
+ },
+ {
+  "i": 140,
+  "start": 500.76,
+  "end": 503.32,
+  "text": "And above Walt's head, the number climbs."
+ },
+ {
+  "i": 141,
+  "start": 504.66,
+  "end": 508.3,
+  "text": "Six billion, three hundred and ten million dollars."
+ },
+ {
+  "i": 142,
+  "start": 508.9,
+  "end": 510.48,
+  "text": "Exactly the same number."
+ },
+ {
+  "i": 143,
+  "start": 511.04,
+  "end": 516.0,
+  "text": "The only thing that changed was somebody reading past page two."
+ },
+ {
+  "i": 144,
+  "start": 517.34,
+  "end": 519.96,
+  "text": "Leon finally understands what the numbers are."
+ },
+ {
+  "i": 145,
+  "start": 520.66,
+  "end": 521.22,
+  "text": "Not a promise."
+ },
+ {
+  "i": 146,
+  "start": 521.86,
+  "end": 528.06,
+  "text": "A road nobody has walked yet, and it only stays open if somebody walks it with you."
+ },
+ {
+  "i": 147,
+  "start": 528.48,
+  "end": 531.64,
+  "text": "Walt gets a table in the robotics room and a hot lunch from Ms."
+ },
+ {
+  "i": 148,
+  "start": 531.98,
+  "end": 535.02,
+  "text": "Park, who says it's not charity, it's an investment."
+ },
+ {
+  "i": 149,
+  "start": 536.32,
+  "end": 541.06,
+  "text": "Owen's number is twenty-one million, and he hasn't put the screwdriver down all day."
+ },
+ {
+  "i": 150,
+  "start": 541.96,
+  "end": 544.3,
+  "text": "Biscuit's number, by the way, is eight dollars."
+ },
+ {
+  "i": 151,
+  "start": 545.38,
+  "end": 546.98,
+  "text": "Somebody dropped a second sausage."
+ },
+ {
+  "i": 152,
+  "start": 548.44,
+  "end": 551.96,
+  "text": "Leon's own number is still fifty-two thousand."
+ },
+ {
+  "i": 153,
+  "start": 551.96,
+  "end": 557.18,
+  "text": "It's the worst week of his financial life, and he has never been happier."
+ },
+ {
+  "i": 154,
+  "start": 558.76,
+  "end": 562.86,
+  "text": "Sunday morning, at the bus stop, a girl is staring at the air above his head."
+ },
+ {
+  "i": 155,
+  "start": 563.52,
+  "end": 568.14,
+  "text": "She takes out a pen, writes a number on her hand, then looks straight at Leon."
+ },
+ {
+  "i": 156,
+  "start": 569.18,
+  "end": 571.84,
+  "text": "\"You can see them too,\" she whispers."
+ },
+ {
+  "i": 157,
+  "start": 572.76,
+  "end": 573.16,
+  "text": "\"Can't you?\""
+ },
+ {
+  "i": 158,
+  "start": 574.3,
+  "end": 575.86,
+  "text": "So, what would you do?"
+ },
+ {
+  "i": 159,
+  "start": 576.54,
+  "end": 580.42,
+  "text": "If you saw a number like Walt's above a stranger, would you walk past?"
+ },
+ {
+  "i": 160,
+  "start": 581.22,
+  "end": 582.16,
+  "text": "Tell us in the comments."
+ },
+ {
+  "i": 161,
+  "start": 582.16,
+  "end": 589.96,
+  "text": "And subscribe for part two, because that girl knows something about Leon's number that Leon doesn't."
+ }
+]
