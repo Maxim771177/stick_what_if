@@ -22,7 +22,7 @@ export const poseHand = (o, name, k = 'F') => { const h = POSES[name][k === 'B' 
 // ===== ролик 06 =====
 import { who } from '../lib.js';
 export { who };
-export const WALT_SIT = { head: [4, -118], sh: [1, -84], hip: [0, -16], eF: [20, -52], hF: [44, -34], eB: [12, -52], hB: [36, -30], kF: [52, -54], fF: [86, 0], kB: [46, -50], fB: [76, 0] };
+export const WALT_SIT = { head: [4, -108], sh: [1, -74], hip: [0, -4], eF: [20, -42], hF: [44, -24], eB: [12, -42], hB: [36, -20], kF: [52, -48], fF: [86, 0], kB: [46, -44], fB: [76, 0] };
 export const WALT_SIT_CUP = { ...WALT_SIT, eF: [26, -64], hF: [56, -74] };
 export const WALT_SIT_UP = { ...WALT_SIT, eF: [30, -84], hF: [44, -122] };
 // Walt: сидит на земле (по умолчанию), tag WALT
