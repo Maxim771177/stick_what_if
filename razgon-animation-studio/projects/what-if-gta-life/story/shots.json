@@ -1,0 +1,1822 @@
+{
+ "title": "What If Your Life Was Like GTA 6",
+ "duration": 535.423,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.717,
+   "line": "Monday, eight ten in the morning, room one-fourteen. Leon walks in late, and something is wrong with the floor.",
+   "scene": "Класс 114, утро. Leon входит с рюкзаком, табличка «ROOM 114» у двери, другие дети за партами.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon идёт слева направо",
+   "assets": "BG classroom; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 5.717,
+   "end": 10.942,
+   "line": "A yellow circle glows beside his desk, and above it, floating in the air, white letters.",
+   "scene": "Жёлтый светящийся круг на полу у парты Leon; Leon замер и смотрит на него.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "круг пульсирует",
+   "assets": "BG classroom; LEON; ring",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 10.942,
+   "end": 16.817,
+   "line": "Mission. Pass the math test. Reward, twenty thousand dollars.",
+   "scene": "Над кругом в воздухе белая надпись: MISSION · PASS THE MATH TEST · REWARD $20,000 (надпись кодом, выше головы Leon, глаза не закрыты).",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "буквы появляются построчно",
+   "assets": "BG classroom; LEON; ring; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 16.817,
+   "end": 19.458,
+   "line": "Leon looks around. Nobody else sees it.",
+   "scene": "Leon оглядывается; дети за партами пишут и не видят метки.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon крутит головой",
+   "assets": "BG classroom; LEON; KIDS×3; ring",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 19.458,
+   "end": 21.267,
+   "line": "Ms. Park hands out the papers.",
+   "scene": "Ms. Park раздаёт листы с тестом, бумага летит на парты.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "листы на парты",
+   "assets": "BG classroom; PARK; LEON; KIDS; papers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 21.267,
+   "end": 25.217,
+   "line": "Leon writes his name, and for the first time in his life, he knows every answer.",
+   "scene": "Leon за партой пишет с уверенным лицом, лампочка над головой.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon пишет, лампочка",
+   "assets": "BG classroom; LEON; desk; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 25.217,
+   "end": 31.833,
+   "line": "Forty-five minutes later, a green number pops up over his head. Plus twenty thousand dollars.",
+   "scene": "Часы показывают 8:55 → над головой Leon зелёный «+$20,000» всплывает вверх.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "зелёное число всплывает",
+   "assets": "BG classroom; LEON; wallClock; plus",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 31.833,
+   "end": 34.25,
+   "line": "His phone buzzes. Bank alert.",
+   "scene": "Телефон крупно: банк «ALERT +$20,000».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "телефон вибрирует",
+   "assets": "phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 34.25,
+   "end": 38.333,
+   "line": "That's almost four months of a normal paycheck, for one test.",
+   "scene": "Телефон слева, справа кубики «4 MONTHS OF PAY» (4 зарплатных конверта), стрелка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "конверты по одному",
+   "assets": "phone; envelopes",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 38.333,
+   "end": 41.717,
+   "line": "Chase leans over. \"Did you just win the lottery?\"",
+   "scene": "Chase перегнулся через проход к Leon, говорит шёпотом.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Chase наклоняется",
+   "assets": "BG classroom; CHASE; LEON; desks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 41.717,
+   "end": 45.45,
+   "line": "Leon is ten years old, and he has no idea what is happening.",
+   "scene": "Leon растерянно смотрит на зрителя, плечи вверх, вопросительный знак.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon пожимает плечами",
+   "assets": "BG classroom; LEON; qmark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 45.45,
+   "end": 51.092,
+   "line": "But by Friday, he'll own a garage, a helicopter, and the whole school's respect.",
+   "scene": "Три значка один за другим: гараж, вертолёт, толпа детей с сердечками.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки по очереди",
+   "assets": "icons: garage, helicopter, crowd",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 51.092,
+   "end": 55.017,
+   "line": "So, what if your life was like GTA 6?",
+   "scene": "Leon радуется, над ним название ролика.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "название, искры",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 55.017,
+   "end": 56.625,
+   "line": "Here's how it works.",
+   "scene": "Доска, Leon показывает указкой; на доске «HOW IT WORKS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon у доски",
+   "assets": "LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 56.625,
+   "end": 62.383,
+   "line": "Rule one. Every task in your day is a mission, and every mission pays real money.",
+   "scene": "Доска «RULE 1»: жёлтый круг с монетой и «MISSION = REAL MONEY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "круг, монеты",
+   "assets": "LEON; board; ring; coins",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 62.383,
+   "end": 67.317,
+   "line": "Rule two. Whatever you buy shows up in seconds, delivered straight to your garage.",
+   "scene": "Доска «RULE 2»: корзина и стрелка в гараж; из гаража выкатываются машина, лодка, вертолёт значками.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки выезжают",
+   "assets": "LEON; board; icons car/boat/heli",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 67.317,
+   "end": 70.925,
+   "line": "Cars, boats, helicopters, anything.",
+   "scene": "Три значка крупнее: машина, катер, вертолёт.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки подпрыгивают",
+   "assets": "icons",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 70.925,
+   "end": 75.392,
+   "line": "Rule three. Break the rules, and the police show up.",
+   "scene": "Доска «RULE 3»: полицейская мигалка и звезда.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "мигалка",
+   "assets": "LEON; board; siren; star",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 75.392,
+   "end": 80.158,
+   "line": "Stars appear in the corner of your eye, one for small trouble, more for big trouble.",
+   "scene": "Leon смотрит в угол, в правом верхнем углу кадра загораются звёзды (1, потом 3).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "звёзды загораются",
+   "assets": "LEON; HUD stars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 80.158,
+   "end": 82.533,
+   "line": "But you can always lose them.",
+   "scene": "Звёзды гаснут по одной, Leon показывает «ok».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "звёзды гаснут",
+   "assets": "LEON; HUD stars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 82.533,
+   "end": 86.008,
+   "line": "Rule four. A health bar floats over your head.",
+   "scene": "Доска «RULE 4»: сердце и полоска здоровья над головой человечка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "полоска",
+   "assets": "LEON; board; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 86.008,
+   "end": 91.017,
+   "line": "Drop to zero, and you wake up in a hospital, fully healed, a few minutes later.",
+   "scene": "Полоска падает до нуля, человечек падает; стрелка к больничной кровати, потом кровать с зелёным «100%».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "полоска вниз, кровать",
+   "assets": "bar; bed",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 91.017,
+   "end": 93.492,
+   "line": "Only Leon sees any of it.",
+   "scene": "Leon с HUD (мини-карта в углу, полоска над головой), позади дети ничего не видят.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon оглядывает HUD",
+   "assets": "BG classroom; LEON; KIDS; HUD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 93.492,
+   "end": 97.792,
+   "line": "Everyone else just sees a kid who suddenly never loses.",
+   "scene": "Дети смотрят на Leon, над ними облачко-мысль «HE NEVER LOSES».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "мысли над детьми",
+   "assets": "BG classroom; KIDS×3; LEON; clouds",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 97.792,
+   "end": 101.983,
+   "line": "Day one is done. Let's see how fast he gets rich.",
+   "scene": "Leon складывает руки на затылок, довольный, плашка DAY ONE: DONE.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon откидывается",
+   "assets": "BG classroom; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 101.983,
+   "end": 106.058,
+   "line": "Monday night, Leon has twenty thousand dollars and a problem.",
+   "scene": "Комната ночью: Leon сидит на кровати с телефоном, на экране $20,000.",
+   "set": "NIGHT",
+   "hud": "—",
+   "notes": "Leon с телефоном",
+   "assets": "BG kitchenNight; LEON; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 106.058,
+   "end": 108.567,
+   "line": "The markers don't stop.",
+   "scene": "Мини-карта города: десятки жёлтых кружков вспыхивают один за другим.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кружки на карте",
+   "assets": "minimap; markers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 108.567,
+   "end": 114.633,
+   "line": "Tuesday, a yellow circle appears on the neighbor's lawn. Mow it, fifty thousand.",
+   "scene": "Газон соседа: жёлтый круг на траве, над ним «MOW IT · $50,000», у Leon газонокосилка.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon косит, плюс над головой",
+   "assets": "BG yard; LEON; mower; ring; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 114.633,
+   "end": 119.933,
+   "line": "Wednesday, a package for a man across town. Deliver it, one hundred and twenty thousand.",
+   "scene": "Улица: Leon на велосипеде с коробкой в руках на багажнике; «DELIVER · $120,000» над дорогой впереди.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "велосипед едет слева направо",
+   "assets": "BG street; LEON; bike; box; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 119.933,
+   "end": 125.333,
+   "line": "Thursday, a stranger's yacht needs washing. Three hundred thousand.",
+   "scene": "Причал, большая белая яхта у борта; Leon со шваброй на палубе; метка «WASH · $300,000».",
+   "set": "DOCK",
+   "hud": "—",
+   "notes": "Leon моет борт",
+   "assets": "BG dock (код); LEON; yacht; mop; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 125.333,
+   "end": 131.2,
+   "line": "And Friday, a marker over a neighbor's dog. Walk it for ten minutes, and the number says six hundred thousand.",
+   "scene": "Leon держит поводок; рядом Biscuit; над собакой жёлтый круг с «WALK · 10 MIN · $600,000».",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon и Biscuit идут",
+   "assets": "BG yard; LEON; BISCUIT; leash; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 131.2,
+   "end": 132.342,
+   "line": "Nobody asks why.",
+   "scene": "Прохожие кивают, у владельцев довольные лица, никто не удивляется.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "прохожие машут",
+   "assets": "BG street; P1; P2; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 132.342,
+   "end": 136.967,
+   "line": "By Friday night, Leon's bank app shows one million and ninety thousand dollars.",
+   "scene": "Телефон: приложение банка, цифры бегут до $1,090,000; confetti.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "счёт растёт",
+   "assets": "phone; confetti",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 136.967,
+   "end": 142.042,
+   "line": "A typical full-time worker in America would need about seventeen years of paychecks to get there.",
+   "scene": "Шкала: 1 рабочий человечек с чеками, рядом цифра «≈ 17 YEARS OF PAYCHECKS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "календарные листы летят",
+   "assets": "worker; calendar pages",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 142.042,
+   "end": 145.983,
+   "line": "Leon needed five days and one very good dog.",
+   "scene": "Leon и Biscuit рядом, оба довольные; плашка «5 DAYS».",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon гладит Biscuit",
+   "assets": "BG yard; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 145.983,
+   "end": 151.308,
+   "line": "He pays off Mom's mortgage. Mom sits down on the kitchen floor and cries into a dish towel.",
+   "scene": "Кухня: Mom сидит на полу с полотенцем, плачет; на столе бумага «MORTGAGE PAID».",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom вытирает слёзы",
+   "assets": "BG kitchen; MOM; LEON; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 151.308,
+   "end": 154.9,
+   "line": "Dad gets the pickup truck he's been staring at for six years.",
+   "scene": "Перед домом новый пикап, Dad рядом с ключами, сияет.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Dad крутит ключи",
+   "assets": "BG yard; DAD; truck; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 154.9,
+   "end": 161.308,
+   "line": "Biscuit gets a golden bowl. Biscuit does not understand the bowl, but he is extremely loyal to it.",
+   "scene": "Гостиная: золотая миска с едой; Biscuit смотрит на неё, наклонив голову.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "Biscuit наклоняет голову",
+   "assets": "BG livingRoom; BISCUIT; gold bowl",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 161.308,
+   "end": 166.317,
+   "line": "Owen asks if he can borrow a hundred dollars. Leon sends him ten thousand by mistake.",
+   "scene": "Owen просит у Leon, Leon достаёт телефон.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon жмёт на телефоне",
+   "assets": "BG yard; OWEN; LEON; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 166.317,
+   "end": 169.3,
+   "line": "Owen doesn't speak for a full minute.",
+   "scene": "Owen застыл с телефоном, над ним «+$10,000»; глаза огромные.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Owen замирает",
+   "assets": "BG yard; OWEN; LEON; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 169.3,
+   "end": 170.9,
+   "line": "Money is nice.",
+   "scene": "Leon с чемоданом денег пожимает плечами.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon пожимает плечами",
+   "assets": "LEON; cash",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 170.9,
+   "end": 174.133,
+   "line": "But money isn't why the whole school stops at the fence.",
+   "scene": "Забор школы; за забором ребята прижались к сетке и смотрят в сторону дома Leon.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "дети у забора",
+   "assets": "BG yard; KIDS×6; fence",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 174.133,
+   "end": 175.875,
+   "line": "The garage is.",
+   "scene": "Гараж Leon: ворота открыты, внутри силуэты машин, свет изнутри.",
+   "set": "GARAGE",
+   "hud": "—",
+   "notes": "свет из ворот",
+   "assets": "BG garage; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 175.875,
+   "end": 183.708,
+   "line": "Saturday morning, Leon hears a hiss of air, and a matte-black hypercar appears in the driveway, still warm, with a bow on the roof.",
+   "scene": "Подъездная дорожка: утро; Leon у дома; облачко воздуха «PSSSH», появляется матово-чёрный гиперкар с бантом на крыше.",
+   "set": "DRIVE",
+   "hud": "—",
+   "notes": "гиперкар появляется со вспышкой",
+   "assets": "BG driveway; hypercar; LEON; bow",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 183.708,
+   "end": 187.417,
+   "line": "Leon doesn't read the manual, because the game already told him how to drive it.",
+   "scene": "Leon бросает инструкцию через плечо и садится в машину.",
+   "set": "DRIVE",
+   "hud": "—",
+   "notes": "бумага летит",
+   "assets": "BG driveway; hypercar; LEON; manual",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 187.417,
+   "end": 194.7,
+   "line": "For scale, in two thousand nineteen, a modified Bugatti Chiron hit three hundred and four miles per hour on a German test track.",
+   "scene": "Спидометр до отметки 304 MPH; подпись «BUGATTI CHIRON · 2019 · 304 MPH».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелка спидометра идёт",
+   "assets": "gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 194.7,
+   "end": 199.575,
+   "line": "Leon's is not that one. It's close enough, and it's his.",
+   "scene": "Leon хлопает по капоту, с улыбкой смотрит на камеру.",
+   "set": "DRIVE",
+   "hud": "—",
+   "notes": "Leon гладит капот",
+   "assets": "BG driveway; hypercar; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 199.575,
+   "end": 205.663,
+   "line": "By Sunday, the driveway also holds a speedboat on a trailer and a red helicopter on the lawn.",
+   "scene": "Дорожка: гиперкар, катер на прицепе рядом, красный вертолёт на лужайке; Leon стоит перед всем.",
+   "set": "DRIVE",
+   "hud": "—",
+   "notes": "камера отъезжает",
+   "assets": "BG driveway; hypercar; speedboat+trailer; helicopter; LEON; house",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 205.663,
+   "end": 208.642,
+   "line": "Monday, Leon pulls up to school with the windows down.",
+   "scene": "Школьный двор: гиперкар подъезжает слева направо, Leon в окне с рукой, ребята оборачиваются.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "машина въезжает в кадр",
+   "assets": "BG yard school; hypercar; LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 208.642,
+   "end": 211.7,
+   "line": "Owen drops his backpack. Chase drops his sandwich.",
+   "scene": "Owen роняет рюкзак, Chase роняет бутерброд; оба смотрят на машину.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "рюкзак и бутерброд падают",
+   "assets": "BG yard school; OWEN; CHASE; backpack; sandwich; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 211.7,
+   "end": 216.758,
+   "line": "Zoe walks over, looks at the car, then at Leon. \"Is that a Bugatti?\"",
+   "scene": "Zoe подходит к машине, смотрит на неё, потом на Leon; говорит.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Zoe подходит",
+   "assets": "BG yard school; ZOE; LEON; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 216.758,
+   "end": 219.992,
+   "line": "\"It's a gift,\" Leon says. \"From me.\"",
+   "scene": "Leon у двери машины говорит, Zoe моргает.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon жестикулирует",
+   "assets": "BG yard school; LEON; ZOE; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 219.992,
+   "end": 223.617,
+   "line": "Ms. Park takes a photo. The principal asks for a ride.",
+   "scene": "Ms. Park снимает машину на телефон; рядом директор в галстуке показывает пальцем на пассажирское сиденье.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Ms. Park фотографирует",
+   "assets": "BG yard school; PARK; PRINCIPAL; hypercar; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 223.617,
+   "end": 226.242,
+   "line": "And then Leon makes one mistake.",
+   "scene": "Leon за рулём, косой взгляд, брови вверх; кадр на ногу не нужен.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon хитро улыбается",
+   "assets": "BG yard school; LEON; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 226.242,
+   "end": 229.483,
+   "line": "He presses the gas a little too hard.",
+   "scene": "Машина срывается с места вправо, дым из-под колёс, ребята отшатываются.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "машина уезжает вправо",
+   "assets": "BG yard school; hypercar; KIDS; smoke",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 229.483,
+   "end": 234.292,
+   "line": "Sirens. One star lights up in the corner of Leon's eye. He ignores it.",
+   "scene": "Школьный двор; слева въезжает патрульная машина с мигалками; в углу кадра загорается 1 звезда.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "патруль въезжает, звезда",
+   "assets": "BG yard school; police car; HUD stars=1; hypercar; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 234.292,
+   "end": 237.342,
+   "line": "Two stars. A second patrol car joins in.",
+   "scene": "Вторая патрульная машина присоединяется, 2 звезды.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "вторая машина",
+   "assets": "BG yard school; 2 police cars; HUD stars=2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 237.342,
+   "end": 243.133,
+   "line": "Three stars, and now there's a police helicopter circling the school, and every kid in the yard is filming.",
+   "scene": "Над школой кружит полицейский вертолёт; 3 звезды; ребята на крыльце снимают на телефоны.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "вертолёт кружит",
+   "assets": "BG yard school; police helicopter; KIDS×5; phones; HUD stars=3",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 243.133,
+   "end": 247.975,
+   "line": "Leon grins. Rule three. You can always lose them.",
+   "scene": "Leon в машине ухмыляется, в углу 3 звезды.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon ухмыляется",
+   "assets": "BG yard school; hypercar; LEON; HUD stars=3",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 247.975,
+   "end": 252.292,
+   "line": "He cuts through the car wash, comes out the other side, and puts on a different cap.",
+   "scene": "Автомойка: туннель с щётками и пеной; гиперкар заезжает слева и выезжает справа в пене.",
+   "set": "WASH",
+   "hud": "—",
+   "notes": "машина проезжает сквозь щётки",
+   "assets": "BG car wash (код); hypercar; LEON; foam; HUD stars=3",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 252.292,
+   "end": 255.133,
+   "line": "The stars blink. Then they vanish.",
+   "scene": "Leon в машине надевает синюю кепку (вместо бирюзовой), звёзды мигают.",
+   "set": "WASH",
+   "hud": "—",
+   "notes": "кепка меняется",
+   "assets": "BG car wash; LEON; blue cap; HUD stars blink",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 255.133,
+   "end": 259.317,
+   "line": "The cops drive past him, slowly, looking for a boy in a blue cap.",
+   "scene": "Патрульная машина медленно едет мимо гиперкара; полицейский смотрит в сторону, Leon в синей кепке смотрит прямо перед собой.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "полиция проезжает",
+   "assets": "BG street; police car; hypercar; LEON blue cap; POLICE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 259.317,
+   "end": 263.292,
+   "line": "The whole playground erupts. Leon takes a bow.",
+   "scene": "Весь двор ликует: ребята прыгают, руки вверх; Leon кланяется на капоте.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "толпа ликует",
+   "assets": "BG yard school; KIDS×8; LEON; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 263.292,
+   "end": 267.175,
+   "line": "And that's when his phone rings. Mom.",
+   "scene": "Leon достаёт звонящий телефон; на экране «MOM».",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "телефон звонит",
+   "assets": "BG yard school; LEON; phone MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 267.175,
+   "end": 272.275,
+   "line": "\"Leon. Why is there a police helicopter on our street, and where is Dad's other car?\"",
+   "scene": "Крупно Leon с телефоном у уха, глаза огромные; над ним пузырь с репликой Mom.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon морщится",
+   "assets": "BG yard school; LEON; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 272.275,
+   "end": 277.967,
+   "line": "One more star lights up. It's the only one he can't lose.",
+   "scene": "В углу загорается ещё одна звезда, гирлянда из 4 (последняя пульсирует красным).",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "четвёртая звезда",
+   "assets": "BG yard school; LEON; HUD stars=4 pulse",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 277.967,
+   "end": 281.875,
+   "line": "Quick note, this is a cartoon. Don't try any of this at home.",
+   "scene": "Карточка «THIS IS A CARTOON. DON’T TRY THIS AT HOME.» на жёлтом фоне.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка",
+   "assets": "card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 281.875,
+   "end": 287.017,
+   "line": "But Leon feels unstoppable. And he hasn't even found out about rule four.",
+   "scene": "Leon на крыше машины, руки в стороны, ветер; в углу 4 звезды.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon красуется",
+   "assets": "BG yard school; LEON; hypercar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 287.017,
+   "end": 289.292,
+   "line": "Tuesday, the school roof.",
+   "scene": "Школьная крыша, утро; Leon и Owen стоят у парапета.",
+   "set": "ROOF",
+   "hud": "—",
+   "notes": "камера панорамой",
+   "assets": "BG roof; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 289.292,
+   "end": 292.625,
+   "line": "Owen leans over the edge. \"Bet you won't jump.\"",
+   "scene": "Owen перегнулся через парапет спиной к камере говорит Leon.",
+   "set": "ROOF",
+   "hud": "—",
+   "notes": "Owen наклоняется",
+   "assets": "BG roof; OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 292.625,
+   "end": 295.908,
+   "line": "Leon looks down at the pool. It's drained for repairs.",
+   "scene": "Вид сверху: пустой осушенный бассейн в голубом кафеле, на дне стрелка вниз.",
+   "set": "POOL",
+   "hud": "—",
+   "notes": "камера вниз",
+   "assets": "top view pool (код)",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 295.908,
+   "end": 297.842,
+   "line": "He jumps anyway.",
+   "scene": "Leon прыгает с парапета, Owen охает.",
+   "set": "ROOF",
+   "hud": "—",
+   "notes": "Leon прыгает",
+   "assets": "BG roof; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 297.842,
+   "end": 302.942,
+   "line": "A bar floats over his head and drops fast, ninety, forty, three percent.",
+   "scene": "Leon падает в пустой бассейн на фоне неба; над головой полоска здоровья падает 90 → 40 → 3%.",
+   "set": "SKYFALL",
+   "hud": "—",
+   "notes": "полоска падает",
+   "assets": "BG sky; LEON; HUD bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 302.942,
+   "end": 306.433,
+   "line": "Then gray letters across the whole sky. Wasted.",
+   "scene": "Серыми буквами на всё небо: WASTED; экран обесцвечен.",
+   "set": "SKYFALL",
+   "hud": "—",
+   "notes": "WASTED наезжает",
+   "assets": "BG sky; WASTED",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 306.433,
+   "end": 312.208,
+   "line": "And then, a beeping machine, a white ceiling, a nurse with a cup of hot chocolate.",
+   "scene": "Палата: белый потолок, кровать, монитор пикает; Leon лежит под одеялом.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "монитор пикает",
+   "assets": "BG ward; LEON; bed; monitor",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 312.208,
+   "end": 315.258,
+   "line": "His bar is back at one hundred percent.",
+   "scene": "Над головой Leon полоска снова 100%, зелёная; он садится.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "полоска заполняется",
+   "assets": "BG ward; LEON; bed; HUD bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 315.258,
+   "end": 320.908,
+   "line": "The doctor flips through the chart. \"Zero broken bones. Zero. I checked twice.\"",
+   "scene": "Врач листает карту; говорит.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "врач листает",
+   "assets": "BG ward; DOCTOR; LEON; bed; chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 320.908,
+   "end": 323.883,
+   "line": "Four minutes. That's all it cost him.",
+   "scene": "Таймер 4:00 на стене; Leon показывает палец вверх.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "таймер",
+   "assets": "BG ward; LEON; wallClock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 323.883,
+   "end": 327.408,
+   "line": "The bill goes to Dad, eighteen thousand dollars.",
+   "scene": "Dad держит счёт на $18,000 за столом, Mom смотрит из-за спины.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Dad разворачивает счёт",
+   "assets": "BG kitchen; DAD; MOM; bill",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 327.408,
+   "end": 333.008,
+   "line": "Dad stares at it, then looks out the window at his new truck, and says, \"Worth it.\"",
+   "scene": "Dad смотрит на счёт, потом в окно на новый пикап; говорит.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Dad смотрит в окно",
+   "assets": "BG kitchen; DAD; window; truck",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 333.008,
+   "end": 337.233,
+   "line": "By evening, the video of the jump has seven million views.",
+   "scene": "Экран телефона с видео прыжка и счётчиком «7,000,000 VIEWS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "счётчик растёт",
+   "assets": "phone; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 337.233,
+   "end": 340.892,
+   "line": "Leon is the most wanted kid in town, and in a good way.",
+   "scene": "Leon идёт по двору, ребята расступаются и хлопают.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "Leon шагает, ребята хлопают",
+   "assets": "BG yard school; LEON; KIDS×6",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 340.892,
+   "end": 343.148,
+   "line": "Everybody wants to be him.",
+   "scene": "Вокруг Leon дети с блокнотами, некоторые копируют его позу.",
+   "set": "SCHOOL",
+   "hud": "—",
+   "notes": "дети копируют позу",
+   "assets": "BG yard school; LEON; KIDS×5; notebooks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 343.148,
+   "end": 348.638,
+   "line": "Wednesday morning, Biscuit's golden bowl is full. Biscuit is gone.",
+   "scene": "Гостиная: золотая миска полная; рядом пусто; Leon входит.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "Leon оглядывается",
+   "assets": "BG livingRoom; gold bowl; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 348.638,
+   "end": 351.963,
+   "line": "The back door is open, and the leash is still on its hook.",
+   "scene": "Задняя дверь приоткрыта, на крючке висит поводок.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "дверь скрипит",
+   "assets": "BG kitchen; door; leash hook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 351.963,
+   "end": 357.938,
+   "line": "Mom is in the kitchen, calling the neighbors, her voice shaking. Dad is searching the garage.",
+   "scene": "Mom с телефоном у уха, Dad за ней с фонариком ищет по углам.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom звонит, Dad ищет",
+   "assets": "BG kitchen; MOM; DAD; phone; flashlight",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 357.938,
+   "end": 364.671,
+   "line": "Leon looks at his bank app, more than a million dollars, and understands that none of it can find one small dog.",
+   "scene": "Leon смотрит на телефон с суммой, потом на пустую миску; над ним облачко «$$$ ≠ BISCUIT».",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Leon сникает",
+   "assets": "BG kitchen; LEON; phone; bowl",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 364.671,
+   "end": 371.213,
+   "line": "And on Leon's map, a red marker pulses, far outside town, at the old amusement park.",
+   "scene": "Мини-карта на весь кадр: красная метка пульсирует далеко за городом.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "метка пульсирует",
+   "assets": "minimap big; red marker",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 371.213,
+   "end": 375.988,
+   "line": "Mission. Rescue Biscuit. Reward, none.",
+   "scene": "Белая надпись: MISSION · RESCUE BISCUIT · REWARD: NONE, красная метка рядом.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "буквы по строкам",
+   "assets": "label; red marker",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 375.988,
+   "end": 384.087,
+   "line": "Leon reads that twice. It's the first mission in his life that pays nothing, and the only one he has ever wanted this much.",
+   "scene": "Leon читает метку над миской, брови вверх.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Leon читает",
+   "assets": "BG kitchen; LEON; label",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 384.087,
+   "end": 387.988,
+   "line": "Under the marker, one more word. Rival.",
+   "scene": "Под красной меткой слово «RIVAL» красным; метка вздрагивает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "RIVAL мигает",
+   "assets": "red marker; label rival",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 387.988,
+   "end": 394.463,
+   "line": "Leon doesn't say a word. He grabs his cap and walks out onto the lawn, where the red helicopter is waiting.",
+   "scene": "Leon без слов хватает кепку с крючка.",
+   "set": "LIVING",
+   "hud": "—",
+   "notes": "Leon хватает кепку",
+   "assets": "BG livingRoom; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 394.463,
+   "end": 397.754,
+   "line": "\"Leon, where are you going?\" Mom calls from the porch.",
+   "scene": "Mom на крыльце машет, Leon идёт по газону к красному вертолёту.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon идёт к вертолёту",
+   "assets": "BG yard; MOM; LEON; helicopter; porch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 397.754,
+   "end": 402.296,
+   "line": "\"To work,\" he says, and for once, it isn't about the money.",
+   "scene": "Leon на ходу оборачивается, говорит; вертолёт позади.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon оборачивается",
+   "assets": "BG yard; LEON; helicopter; MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 402.296,
+   "end": 408.646,
+   "line": "A vest of body armor appears in his hands out of thin air, and a second bar slides in above his health bar.",
+   "scene": "В руках Leon появляется бронежилет со вспышкой; над полоской здоровья вторая синяя полоска.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "броня появляется",
+   "assets": "BG yard; LEON; vest; HUD armor",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 408.646,
+   "end": 412.521,
+   "line": "The helicopter lifts off, and the whole street watches it climb.",
+   "scene": "Вертолёт поднимается над газоном, Leon в кабине, Mom и Dad на крыльце смотрят вверх.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "вертолёт набирает высоту",
+   "assets": "BG yard; helicopter; MOM; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 412.521,
+   "end": 417.963,
+   "line": "The amusement park is a gray skeleton in the evening light, with one wheel still lit.",
+   "scene": "Заброшенный парк вечером: колесо обозрения с одним горящим фонарём, ржавые горки; вертолёт Leon подлетает слева.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "камера по парку, вертолёт въезжает",
+   "assets": "BG park evening; helicopter; Ferris wheel; coaster",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 417.963,
+   "end": 423.363,
+   "line": "At the very top of the Ferris wheel, a boy in a gold jacket sits with Biscuit on his lap.",
+   "scene": "Крупно колесо: наверху кабинка, в ней мальчик в золотой куртке с Biscuit на коленях.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "камера поднимается к верху колеса",
+   "assets": "BG park; wheel; RIVAL; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 423.363,
+   "end": 427.079,
+   "line": "He has his own helicopter. He has his own health bar.",
+   "scene": "Рядом с колесом висит золотой вертолёт соперника, над ним полоска здоровья.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "вертолёт качается",
+   "assets": "BG park; RIVAL; golden helicopter; HUD bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 427.079,
+   "end": 428.938,
+   "line": "And he waves.",
+   "scene": "RIVAL машет рукой Leon.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "машет",
+   "assets": "BG park; RIVAL; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 428.938,
+   "end": 431.488,
+   "line": "The chase takes the roller coaster.",
+   "scene": "Горки: вертолёты (красный и золотой) летят между рельсами, золотой впереди.",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "погоня между рельсами",
+   "assets": "BG coaster; helicopter red; helicopter gold; rails",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 431.488,
+   "end": 435.954,
+   "line": "Leon dodges the rails at full speed, clips a tower, and falls.",
+   "scene": "Красный вертолёт уворачивается от рельсов, зацепляет башню и падает.",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "вертолёт цепляет и падает",
+   "assets": "BG coaster; helicopter red; tower",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 435.954,
+   "end": 440.004,
+   "line": "Wasted. A white ceiling. Four minutes.",
+   "scene": "WASTED серым на кадре, потом белый потолок палаты и таймер 4:00.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "WASTED → палата",
+   "assets": "BG ward; WASTED; LEON; bed",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 440.004,
+   "end": 442.504,
+   "line": "He's back, in the air, behind the boy.",
+   "scene": "Leon снова в вертолёте позади мальчика, тот смотрит назад через плечо.",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "Leon догоняет",
+   "assets": "BG coaster; helicopter red; helicopter gold",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 442.504,
+   "end": 451.562,
+   "line": "A second hit, and again, wasted, again white ceiling, again four minutes, and Biscuit is a little farther away every time.",
+   "scene": "Золотой вертолёт сбивает красный; тот падает; потом снова палата и потолок; Biscuit на заднем плане всё дальше.",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "удар, падение, палата",
+   "assets": "BG coaster; ward; WASTED",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 451.562,
+   "end": 454.463,
+   "line": "On the third try, Leon doesn't dodge.",
+   "scene": "Leon летит прямо, не уклоняясь, глаза решительные.",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "прямой полёт",
+   "assets": "BG coaster; helicopter red; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 454.463,
+   "end": 457.821,
+   "line": "He hovers over the wheel, grabs the ladder, and jumps.",
+   "scene": "Красный вертолёт зависает над колесом, Leon хватает лестницу.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "Leon хватает лестницу",
+   "assets": "BG park; helicopter red; ladder; wheel",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 457.821,
+   "end": 464.404,
+   "line": "He lands in the car, grabs Biscuit, and stares at the boy in the gold jacket, who just smiles.",
+   "scene": "Leon прыгает в кабинку, забирает Biscuit; соперник сидит напротив и смотрит.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "Leon хватает Biscuit",
+   "assets": "BG park; wheel car; LEON; BISCUIT; RIVAL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 464.404,
+   "end": 468.462,
+   "line": "\"Nice run,\" the rival says. \"See you on the next map.\"",
+   "scene": "RIVAL улыбается и говорит; Leon держит Biscuit.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "RIVAL подмигивает",
+   "assets": "BG park; wheel car; RIVAL; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 468.462,
+   "end": 475.188,
+   "line": "Then his bar drops to zero, he disappears in a burst of gray, and the wheel goes quiet.",
+   "scene": "Полоска RIVAL падает в ноль, он рассыпается серыми частицами; колесо замирает.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "RIVAL исчезает",
+   "assets": "BG park; RIVAL; particles; wheel",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 475.188,
+   "end": 480.888,
+   "line": "Green letters across the sky. Mission passed. Respect, plus one.",
+   "scene": "Зелёные буквы на всё небо: MISSION PASSED · RESPECT +1; Leon держит Biscuit.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "буквы, искры",
+   "assets": "BG park; LEON; BISCUIT; label passed",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 480.888,
+   "end": 483.688,
+   "line": "Biscuit licks Leon's face for about a minute.",
+   "scene": "Biscuit лижет Leon в лицо, Leon жмурится от смеха.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "Biscuit лижет",
+   "assets": "BG park; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 483.688,
+   "end": 487.662,
+   "line": "Owen asks if the helicopter has a snack drawer. It does.",
+   "scene": "В кабине вертолёта Owen открывает ящик со снеками, у него глаза-звёзды.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "ящик открывается",
+   "assets": "BG yard; helicopter; OWEN; snacks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 487.662,
+   "end": 491.921,
+   "line": "The helicopter lands on the front lawn, and Mom stands there with her arms crossed.",
+   "scene": "Вертолёт садится на газон; на крыльце Mom со скрещёнными руками.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "вертолёт садится",
+   "assets": "BG yard; helicopter; MOM; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 491.921,
+   "end": 494.137,
+   "line": "\"Where did you get a helicopter?\"",
+   "scene": "Mom говорит, Leon держит Biscuit.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Mom хмурится",
+   "assets": "BG yard; MOM; LEON; BISCUIT",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 494.137,
+   "end": 495.996,
+   "line": "\"A mission, Mom.\"",
+   "scene": "Leon пожимает плечами.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon пожимает плечами",
+   "assets": "BG yard; LEON; MOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 495.996,
+   "end": 501.421,
+   "line": "Dad checks the new bill and sighs. \"Next time, use the stairs.\"",
+   "scene": "Dad смотрит на новый счёт на телефоне, вздыхает.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Dad вздыхает",
+   "assets": "BG yard; DAD; phone; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 501.421,
+   "end": 505.621,
+   "line": "Leon laughs, and for a second, the whole map seems to hold its breath.",
+   "scene": "Leon смеётся; вокруг семья, Biscuit, Owen.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon смеётся",
+   "assets": "BG yard; LEON; MOM; DAD; BISCUIT; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 505.621,
+   "end": 515.312,
+   "line": "Then the minimap zooms out, slowly, and Leon sees how small his town really is, just one tiny corner of something huge.",
+   "scene": "Мини-карта в круге отъезжает: дом Leon всё меньше, видны другие кварталы.",
+   "set": "MAPZOOM",
+   "hud": "—",
+   "notes": "карта отъезжает",
+   "assets": "minimap zoom out",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 515.312,
+   "end": 524.421,
+   "line": "And far away, past the hills and the ocean, one new marker is blinking. Mission. Three question marks.",
+   "scene": "Далеко за горами и океаном мигает новая метка с «???».",
+   "set": "MAPZOOM",
+   "hud": "—",
+   "notes": "метка мигает",
+   "assets": "minimap; marker ???",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 524.421,
+   "end": 535.416,
+   "line": "So, what would you do with a life like this? Tell us in the comments, and subscribe, because part two is already on the map.",
+   "scene": "Leon смотрит на зрителя, рядом кнопка SUBSCRIBE и колокольчик; на заднем плане метка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon показывает вниз",
+   "assets": "LEON; subscribe; bell",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

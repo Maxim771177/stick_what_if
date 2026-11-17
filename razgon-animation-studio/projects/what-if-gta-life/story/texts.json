@@ -1,0 +1,505 @@
+[
+ {
+  "t": 0.0,
+  "s": "MONDAY · 8:10 AM",
+  "sc": 1,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 6.35,
+  "s": "yellow",
+  "sc": 2,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 11.317,
+  "s": "label",
+  "sc": 3,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 29.867,
+  "s": "plus",
+  "sc": 7,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 33.55,
+  "s": "BANK ALERT",
+  "sc": 8,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 34.983,
+  "s": "≈ 4 MONTHS OF A NORMAL PAYCHECK",
+  "sc": 9,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 40.233,
+  "s": "DID YOU JUST WIN THE LOTTERY?",
+  "sc": 10,
+  "k": "say",
+  "raw": "say",
+  "who": "CHASE"
+ },
+ {
+  "t": 46.083,
+  "s": "BY FRIDAY",
+  "sc": 12,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 51.683,
+  "s": "WHAT IF YOUR LIFE WAS LIKE GTA 6?",
+  "sc": 13,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 57.117,
+  "s": "RULE 1 · EVERY TASK PAYS",
+  "sc": 15,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 63.133,
+  "s": "RULE 2 · BUY IT, GARAGE GETS IT",
+  "sc": 16,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 71.733,
+  "s": "RULE 3 · BREAK THE RULES, GET STARS",
+  "sc": 18,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 77.4,
+  "s": "stars1",
+  "sc": 19,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 78.667,
+  "s": "stars3",
+  "sc": 19,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 83.283,
+  "s": "RULE 4 · HEALTH BAR",
+  "sc": 21,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 96.7,
+  "s": "HE NEVER LOSES",
+  "sc": 24,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 98.45,
+  "s": "DAY ONE · DONE",
+  "sc": 25,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 102.617,
+  "s": "MONDAY NIGHT",
+  "sc": 26,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 109.2,
+  "s": "TUESDAY",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 112.4,
+  "s": "$50,000",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 114.633,
+  "s": "WEDNESDAY",
+  "sc": 29,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 118.027,
+  "s": "$120,000",
+  "sc": 29,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 119.933,
+  "s": "THURSDAY",
+  "sc": 30,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 122.683,
+  "s": "$300,000",
+  "sc": 30,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 125.583,
+  "s": "FRIDAY",
+  "sc": 31,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 129.6,
+  "s": "$600,000",
+  "sc": 31,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 135.05,
+  "s": "$1,090,000",
+  "sc": 33,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 139.367,
+  "s": "≈ 17 YEARS OF PAYCHECKS",
+  "sc": 34,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 143.017,
+  "s": "5 DAYS · 1 VERY GOOD DOG",
+  "sc": 35,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 163.0,
+  "s": "$100?",
+  "sc": 39,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 168.217,
+  "s": "+$10,000",
+  "sc": 40,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 176.283,
+  "s": "SATURDAY · 7:00 AM",
+  "sc": 44,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 191.183,
+  "s": "2019 · MODIFIED BUGATTI CHIRON · 304 MPH",
+  "sc": 46,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 200.25,
+  "s": "SUNDAY",
+  "sc": 48,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 206.175,
+  "s": "MONDAY",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 214.975,
+  "s": "IS THAT A BUGATTI?",
+  "sc": 51,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 217.242,
+  "s": "IT’S A GIFT. FROM ME.",
+  "sc": 52,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 230.525,
+  "s": "stars1",
+  "sc": 56,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 234.558,
+  "s": "stars2",
+  "sc": 57,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 237.425,
+  "s": "stars3",
+  "sc": 58,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 267.708,
+  "s": "WHY IS THERE A POLICE HELICOPTER ON OUR STREET, AND WHERE IS DAD’S OTHER CAR?",
+  "sc": 65,
+  "k": "say",
+  "raw": "say",
+  "who": "MOM"
+ },
+ {
+  "t": 273.408,
+  "s": "stars4",
+  "sc": 66,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 278.692,
+  "s": "THIS IS A CARTOON · DON’T TRY THIS AT HOME",
+  "sc": 67,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 287.758,
+  "s": "TUESDAY · THE ROOF",
+  "sc": 69,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 291.542,
+  "s": "BET YOU WON’T JUMP.",
+  "sc": 70,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 300.508,
+  "s": "hp90",
+  "sc": 73,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 301.117,
+  "s": "hp40",
+  "sc": 73,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 301.725,
+  "s": "hp3",
+  "sc": 73,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 305.775,
+  "s": "wasted",
+  "sc": 74,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 317.858,
+  "s": "ZERO BROKEN BONES. ZERO. I CHECKED TWICE.",
+  "sc": 77,
+  "k": "say",
+  "raw": "say",
+  "who": "DOCTOR"
+ },
+ {
+  "t": 321.325,
+  "s": "4 MINUTES",
+  "sc": 78,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 325.158,
+  "s": "$18,000",
+  "sc": 79,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 332.075,
+  "s": "WORTH IT.",
+  "sc": 80,
+  "k": "say",
+  "raw": "say",
+  "who": "DAD"
+ },
+ {
+  "t": 335.892,
+  "s": "7,000,000 VIEWS",
+  "sc": 81,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 343.771,
+  "s": "WEDNESDAY MORNING",
+  "sc": 84,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 363.821,
+  "s": "NONE OF IT CAN FIND ONE SMALL DOG",
+  "sc": 87,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 371.488,
+  "s": "label2",
+  "sc": 89,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 387.271,
+  "s": "RIVAL",
+  "sc": 91,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 394.938,
+  "s": "LEON, WHERE ARE YOU GOING?",
+  "sc": 93,
+  "k": "say",
+  "raw": "say",
+  "who": "MOM"
+ },
+ {
+  "t": 398.021,
+  "s": "TO WORK.",
+  "sc": 94,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 436.488,
+  "s": "wasted",
+  "sc": 103,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 444.371,
+  "s": "wasted",
+  "sc": 105,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 465.021,
+  "s": "NICE RUN. SEE YOU ON THE NEXT MAP.",
+  "sc": 109,
+  "k": "say",
+  "raw": "say",
+  "who": "RIVAL"
+ },
+ {
+  "t": 475.704,
+  "s": "passed",
+  "sc": 111,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 492.271,
+  "s": "WHERE DID YOU GET A HELICOPTER?",
+  "sc": 115,
+  "k": "say",
+  "raw": "say",
+  "who": "MOM"
+ },
+ {
+  "t": 494.504,
+  "s": "A MISSION, MOM.",
+  "sc": 116,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 499.254,
+  "s": "NEXT TIME, USE THE STAIRS.",
+  "sc": 117,
+  "k": "say",
+  "raw": "say",
+  "who": "DAD"
+ },
+ {
+  "t": 522.904,
+  "s": "MISSION · ???",
+  "sc": 120,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 528.688,
+  "s": "COMMENT BELOW",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 529.604,
+  "s": "PART 2 IS ON THE MAP",
+  "sc": 121,
+  "k": "plate",
+  "raw": "plate"
+ }
+]
