@@ -53,10 +53,10 @@ export { X2 };
 export const ev = (info, name) => { const r = texts(info, 'ev').find((q) => q.s === name); return r ? r.lt : null; };
 export const evs = (info, name) => texts(info, 'ev').filter((q) => q.s === name).map((q) => q.lt);
 // HUD поверх сцены: o.stars {n,t0,pulse,blink}, o.mini {zoom,marks}, o.hp (число или функция t), o.armor
-export function hud(g, t, o) { if (!o) return; if (o.stars) X2.hudStars(g, o.stars.n, t, o.stars); if (o.mini) { const m = o.mini === true ? {} : o.mini; X2.minimap(g, 150, E.H - 150, 108, t, { marks: [[0.5, -0.4, '#ffd23a'], [-0.6, 0.2, '#ffd23a'], [0.2, 0.6, '#ffd23a']], ...m }); } }
+export function hud(g, t, info, o, spec) { if (spec.nogta) { if (o && o.stars) X2.hudStars(g, o.stars.n, t, o.stars); return; } X2.gtaHud(g, t, info, { ...(o || {}), nomini: spec.nomini }); }
 const _def = def;
 // def7: как def, плюс spec.hud (рисуется поверх) и spec.tops
-export const def7 = (id, spec) => _def(id, { ...spec, top: (g, t, info, ctx) => { if (spec.top) spec.top(g, t, info, ctx); const h = typeof spec.hud === 'function' ? spec.hud(t, info) : spec.hud; hud(g, t, h); } });
+export const def7 = (id, spec) => _def(id, { ...spec, top: (g, t, info, ctx) => { if (spec.top) spec.top(g, t, info, ctx); const h = typeof spec.hud === 'function' ? spec.hud(t, info) : spec.hud; hud(g, t, info, h, spec); } });
 export const GYF = (k = 0.86) => E.H * k;
 // пилот/водитель: персонаж сидит за стеклом; машина рисуется в mid поверх (окно с вырезом)
 export const DRV = (who, x, hy, o = {}) => c(who, x, { pose: 'sit', f: 1, ...o });

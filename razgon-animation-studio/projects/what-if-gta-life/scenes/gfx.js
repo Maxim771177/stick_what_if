@@ -1,5 +1,5 @@
 // gfx.js ролика 04: Biscuit (картинки OpenAI), значки и предметы кодом (ink-линии, плоские цвета).
-import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, PIM, NOW } from './lib.js';
+import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, prop, PIM, NOW, gtaText, gtaMeasure } from './lib.js';
 import { loadImages, project } from '/engine/assets.js';
 const FXI = await loadImages(Object.fromEntries(['fly', 'hand', 'wings', 'squirrel'].map((n) => [n, project(`assets/fx/${n}.png`)])));
 const AN = await loadImages(Object.fromEntries(['dog_sit', 'dog_lie', 'dog_stand', 'dog_tilt', 'dog_wag', 'dog_tired', 'dog_beg', 'dog_sniff'].map((n) => [n, project(`assets/animals/${n}.png`)])));
@@ -94,13 +94,12 @@ export const money = (n) => '$' + Math.round(n).toLocaleString('en-US');
 const NUMC = { green: ['#42ff8c', '#0a5a2e'], blue: ['#59c2ff', '#0a3a70'], gold: ['#ffd23a', '#6b4a00'], red: ['#ff6a5a', '#6b100b'] };
 // светящееся число: центр (x,y), size px. o: {a, k (масштаб), shake, glow (0..2)}
 export function numText(g, str, x, y, size, col = 'green', o = {}) {
-  const [c, glow] = NUMC[col] || NUMC.green; const a = o.a ?? 1; if (a <= 0.01) return;
-  g.save(); const k = o.k ?? 1; let w = measure(g, str, size) * k; const lim = E.W - 36;
-  let sz = size * k; if (w > lim) { sz *= lim / w; w = lim; }
+  const [c] = NUMC[col] || NUMC.green; const a = o.a ?? 1; if (a <= 0.01) return;
+  g.save(); const k = o.k ?? 1; const lim = E.W - 36; let sz = size * 0.86 * k; let w = gtaMeasure(g, str, sz) + 40; if (w > lim) { sz *= lim / w; w = lim; }
   const xx = Math.max(w / 2 + 18, Math.min(E.W - w / 2 - 18, x)) + (o.shake ? Math.sin(NOWT() * 60) * o.shake : 0), yy = Math.max(sz * 0.62 + 6, y);
-  g.globalAlpha = a; g.shadowColor = c; g.shadowBlur = 7 * (o.glow ?? 1);
-  text(g, str, xx, yy, { size: sz, font: FONTS.ui, weight: 900, color: c, stroke: sz * 0.2, strokeColor: '#10182a' });
-  g.shadowBlur = 0; text(g, str, xx, yy, { size: sz, font: FONTS.ui, weight: 900, color: c, stroke: 0 });
+  g.globalAlpha = a;
+  g.fillStyle = 'rgba(8,10,16,.62)'; g.beginPath(); g.roundRect(xx - w / 2, yy - sz * 0.62, w, sz * 1.24, sz * 0.3); g.fill();
+  gtaText(g, str, xx, yy + sz * 0.02, { size: sz, col: c, sw: 0.16, shadow: false });
   g.restore();
 }
 const NOWT = () => NOW;

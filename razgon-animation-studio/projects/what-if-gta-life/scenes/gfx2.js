@@ -1,5 +1,5 @@
 // gfx2.js ролика 07 (GTA-жизнь): HUD, транспорт, парк аттракционов. Всё кодом (ink-стиль).
-import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha } from './lib.js';
+import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, gtaText, gtaMeasure, isMoney } from './lib.js';
 const INK = () => S().ink;
 const P = (pts, x, y, w, f = 1) => pts.map(([a, b]) => [x + f * a * w, y + b * w]);
 // ---------- HUD ----------
@@ -8,14 +8,16 @@ export function ring(g, x, y, rx, t, col = '#ffd23a') { // жёлтый круг
   g.save(); g.globalAlpha = 0.28 + 0.18 * pu; g.fillStyle = col; g.beginPath(); g.ellipse(x, y, rx * (1.1 + 0.05 * pu), ry * (1.1 + 0.05 * pu), 0, 0, 7); g.fill(); g.globalAlpha = 1;
   g.strokeStyle = '#fff6c4'; g.lineWidth = 12; g.beginPath(); g.ellipse(x, y, rx, ry, 0, 0, 7); g.stroke(); g.strokeStyle = col; g.lineWidth = 6; g.stroke();
   g.globalAlpha = 0.5 * (1 - pu); g.strokeStyle = col; g.lineWidth = 5; g.beginPath(); g.ellipse(x, y - 4 - 40 * pu, rx * 0.9, ry * 0.9, 0, 0, 7); g.stroke(); g.restore(); }
-export function label(g, x, y, lines, a = 1, size = 54, o = {}) { // белая надпись в воздухе
-  g.save(); g.globalAlpha = a; const col = o.col || '#ffffff';
-  lines.forEach((l, i) => { const big = i === 0; text(g, l, x, y + i * size * 1.05, { size: big ? size * 1.2 : size, font: FONTS.title, weight: 400, color: i === lines.length - 1 && o.last ? o.last : col, stroke: size * 0.14, strokeColor: '#10182a' }); });
+export function label(g, x, y, lines, a = 1, size = 54, o = {}) { // подпись в воздухе в стиле GTA: тёмная панель, жирный курсив с чёрным контуром
+  if (a <= 0.01) return; g.save(); g.globalAlpha = a; const col = o.col || '#ffffff', sizes = lines.map((l, i) => (i === 0 ? size * 1.0 : size * 0.9));
+  const ws = lines.map((l, i) => gtaMeasure(g, l, sizes[i])), w = Math.max(...ws) + size * 0.9, h = sizes.reduce((q, z) => q + z * 1.05, 0) + size * 0.5;
+  g.fillStyle = 'rgba(8,10,18,.6)'; g.beginPath(); g.roundRect(x - w / 2, y - sizes[0] * 0.75, w, h, size * 0.22); g.fill(); g.fillStyle = '#ffd23a'; g.fillRect(x - w / 2, y - sizes[0] * 0.75, size * 0.14, h);
+  let yy = y; lines.forEach((l, i) => { gtaText(g, l, x + size * 0.05, yy, { size: sizes[i], col: i === lines.length - 1 && o.last ? o.last : (isMoney(l) ? '#6fe28a' : col), sw: 0.13, shadow: false }); yy += sizes[i] * 1.05; });
   g.restore(); }
-export function plusPop(g, x, y, str, t, t0, col = '#42ff8c') { const u = prog(t, t0, t0 + 1.8); if (u <= 0 || u >= 1) return; const a = u < 0.15 ? u / 0.15 : 1 - Math.pow((u - 0.15) / 0.85, 2); g.save(); g.globalAlpha = clamp(a); text(g, str, x, y - 120 * ease.out(u), { size: 96, font: FONTS.title, weight: 400, color: col, stroke: 12, strokeColor: '#10321c' }); g.restore(); }
+export function plusPop(g, x, y, str, t, t0, col = '#6fe28a') { const u = prog(t, t0, t0 + 1.8); if (u <= 0 || u >= 1) return; const a = u < 0.15 ? u / 0.15 : 1 - Math.pow((u - 0.15) / 0.85, 2); g.save(); g.globalAlpha = clamp(a); const yy = y - 120 * ease.out(u), w = gtaMeasure(g, str, 96) + 50; g.fillStyle = 'rgba(8,10,18,.6)'; g.beginPath(); g.roundRect(x - w / 2, yy - 62, w, 124, 30); g.fill(); gtaText(g, str, x, yy, { size: 96, col, sw: 0.14, shadow: false }); g.restore(); }
 export function hudStars(g, n, t, o = {}) { // звёзды в правом верхнем углу
-  const x0 = E.W - 60, y0 = 70, sz = 28; g.save();
-  for (let i = 0; i < 5; i++) { const on = i < n, x = x0 - i * 74; let k = 1, col = on ? '#ffd23a' : 'rgba(255,255,255,.28)';
+  const x0 = E.W - 62, y0 = o.y ?? 140, sz = 26; g.save();
+  for (let i = 0; i < 5; i++) { const on = i < n, x = x0 - i * 66; let k = 1, col = on ? '#ffd23a' : 'rgba(255,255,255,.34)';
     if (on && i === n - 1) k = 1 + 0.3 * Math.max(0, 1 - ((t - (o.t0 ?? 0)) * 2.5)) * (t > (o.t0 ?? 0) ? 1 : 0);
     if (on && o.pulse && i === n - 1) col = Math.sin(t * 9) > 0 ? '#ff5a4a' : '#ffd23a';
     if (on && o.blink && Math.sin(t * 14) > 0) col = 'rgba(255,255,255,.2)';
@@ -37,8 +39,29 @@ export function hpBar(g, x, y, w, pct, o = {}) { // полоска здоров�
   if (o.armor != null) { inkRect(g, 0, -h * 0.9, w, h * 0.7, { fill: '#2a2f3d', r: 8, w: 4 }); inkRect(g, 3, -h * 0.9 + 3, (w - 6) * clamp(o.armor), h * 0.7 - 6, { fill: '#4aa8ff', r: 5, w: 0, stroke: false }); }
   if (o.label !== false) text(g, Math.round(pct * 100) + '%', w + 52, h * 0.75, { size: 34, font: FONTS.title, weight: 400, color: '#fff', stroke: 6, strokeColor: '#10182a' });
   g.restore(); }
-export function wasted(g, t, t0, o = {}) { const u = ease.out(prog(t, t0, t0 + 0.5)) * (o.end != null ? 1 - ease.out(prog(t, o.end, o.end + 0.4)) : 1); if (u <= 0.01) return; g.save(); g.fillStyle = `rgba(30,30,34,${0.55 * u})`; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); const k = 1.5 - 0.5 * u; g.translate(E.W / 2, E.H * 0.26); g.scale(k, k); g.globalAlpha = u; text(g, 'WASTED', 0, 0, { size: 240, font: FONTS.title, weight: 400, color: '#c9c9cf', stroke: 20, strokeColor: '#18181c' }); g.restore(); }
-export function passed(g, t, t0, lines = ['MISSION PASSED', 'RESPECT +1']) { const u = ease.outBack(prog(t, t0, t0 + 0.6)); if (u <= 0.01) return; g.save(); g.translate(E.W / 2, E.H * 0.2); g.scale(u, u); text(g, lines[0], 0, 0, { size: 150, font: FONTS.title, weight: 400, color: '#42ff8c', stroke: 16, strokeColor: '#0c3a1c' }); text(g, lines[1], 0, 120, { size: 84, font: FONTS.title, weight: 400, color: '#ffffff', stroke: 12, strokeColor: '#0c3a1c' }); g.restore(); }
+
+// ---------- сквозной GTA-HUD (ролик 07): деньги, звёзды, радар со здоровьем и бронёй, задача ----------
+const MONEY = [[1, 0, 0], [7, 20000, 1.0], [28, 70000, 2.4], [29, 190000, 2.4], [30, 490000, 2.4], [31, 1090000, 2.4], [40, 1080000, 2.0], [79, 1062000, 2.0]];
+export function moneyAt(n, t) { let prev = 0, val = 0; for (const [sn, v, d] of MONEY) { if (n > sn) { prev = v; val = v; } else if (n === sn) return Math.round(lerp(prev, v, ease.out(prog(t, d, d + 1.3)))); else break; } return val; }
+const OBJ = [[1, 'Get to class'], [2, 'Step into the marker'], [3, 'Pass the math test'], [8, 'Check your bank app'], [10, 'Act normal'], [14, 'Learn the rules'], [23, 'Stay on the map'], [26, 'Earn $1,000,000'], [28, 'Mow the lawn'], [29, 'Deliver the package'], [30, 'Wash the yacht'], [31, 'Walk the dog'], [33, 'Check your balance'], [36, 'Treat the family'], [41, 'Open the garage'], [44, 'Drive the hypercar'], [49, 'Park at school'], [56, 'Lose the cops'], [60, 'Hide in the car wash'], [63, 'Stay low'], [69, 'Go to the roof'], [71, 'Take the jump'], [75, 'Recover'], [79, 'Pay the hospital bill'], [81, 'Enjoy the fame'], [85, 'Find Biscuit'], [89, 'Rescue Biscuit'], [95, 'Take off'], [97, 'Reach the amusement park'], [98, 'Save Biscuit'], [101, 'Catch the rival'], [103, 'Try again'], [107, 'Reach the Ferris wheel'], [109, 'Grab the ladder'], [113, 'Mission complete'], [115, 'Fly home'], [121, 'Zoom out'], [123, 'Subscribe']];
+const objAt = (n) => { let r = ''; for (const [sn, q] of OBJ) if (n >= sn) r = q; return r; };
+export function gtaHud(g, t, info, o = {}) {
+  const n = +info.shot.id.slice(1); g.save();
+  const m = moneyAt(n, t); gtaText(g, '$' + m.toLocaleString('en-US'), E.W - 52, 62, { size: 62, align: 'right', col: '#6fe28a', sw: 0.2, skew: -0.12 });
+  hudStars(g, o.stars ? o.stars.n : 0, t, o.stars || {});
+  if (!o.nomini) {
+    const mx = 150, my = E.H - 150, r = 96, hp = clamp(o.hp ?? 1), ar = clamp(o.armor ?? (n >= 95 ? 1 : 0)), a0 = Math.PI * 0.56, a1 = Math.PI * 1.44;
+    const arc = (rr, col, v) => { g.lineCap = 'round'; g.strokeStyle = '#0a0c12'; g.lineWidth = 17; g.beginPath(); g.arc(mx, my, rr, a0, a1); g.stroke(); if (v > 0.01) { g.strokeStyle = col; g.lineWidth = 10; g.beginPath(); g.arc(mx, my, rr, a1 - (a1 - a0) * v, a1); g.stroke(); } };
+    arc(r + 20, hp > 0.5 ? '#4ee36a' : hp > 0.2 ? '#ffb02e' : '#ff4a3d', hp); if (ar > 0.01) arc(r + 38, '#4aa8ff', ar);
+    const mm = o.mini === true || !o.mini ? {} : o.mini; minimap(g, mx, my, r, t, { marks: [[0.5, -0.4, '#ffd23a'], [-0.6, 0.2, '#ffd23a'], [0.2, 0.6, '#ffd23a']], ...mm });
+    gtaText(g, 'N', mx, my - r + 20, { size: 22, col: '#fff', sw: 0.2, shadow: false, skew: 0 });
+  }
+  const ob = o.obj ?? objAt(n); if (ob) { const k = ease.out(prog(t, 0.2, 0.7)); g.globalAlpha = k; const w = gtaMeasure(g, 'OBJECTIVE', 26) + 36, x0 = 330, y0 = E.H - 74; g.fillStyle = '#ffd23a'; g.beginPath(); g.roundRect(x0, y0 - 22, w, 42, 8); g.fill(); gtaText(g, 'OBJECTIVE', x0 + 18, y0 - 1, { size: 26, align: 'left', col: '#10182a', sw: 0.0001, shadow: false, skew: -0.1 }); gtaText(g, ob, x0 + w + 16, y0 - 1, { size: 44, align: 'left', sw: 0.16 }); }
+  if (n <= 2) { const T = t + (n === 2 ? 5.7 : 0), k = ease.out(prog(T, 0.15, 0.7)) * (1 - ease.out(prog(T, 4.6, 5.2))); if (k > 0.01) { g.save(); g.translate(-620 * (1 - k), E.H - 214); g.fillStyle = 'rgba(8,10,18,.88)'; g.beginPath(); g.roundRect(330, 0, 520, 88, 12); g.fill(); g.fillStyle = '#ffd23a'; g.fillRect(330, 0, 16, 88); gtaText(g, 'GTA 6 MODE: ON', 362, 28, { size: 40, align: 'left', col: '#ffd23a', sw: 0.1, shadow: false, skew: -0.12 }); gtaText(g, 'Every task is a mission', 362, 66, { size: 26, align: 'left', col: '#fff', sw: 0.1, shadow: false, skew: -0.1 }); g.restore(); } }
+  g.restore();
+}
+export function wasted(g, t, t0, o = {}) { const u = ease.out(prog(t, t0, t0 + 0.5)) * (o.end != null ? 1 - ease.out(prog(t, o.end, o.end + 0.4)) : 1); if (u <= 0.01) return; g.save(); g.fillStyle = `rgba(20,20,24,${0.6 * u})`; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); const k = 1.5 - 0.5 * u; g.translate(E.W / 2, E.H * 0.26); g.scale(k, k); g.globalAlpha = u; gtaText(g, 'WASTED', 0, 0, { size: 260, col: '#e0262c', sw: 0.12, skew: -0.05 }); g.restore(); }
+export function passed(g, t, t0, lines = ['MISSION PASSED', 'RESPECT +1']) { const u = ease.outBack(prog(t, t0, t0 + 0.6)); if (u <= 0.01) return; g.save(); g.translate(E.W / 2, E.H * 0.2); g.scale(u, u); gtaText(g, lines[0] + '!', 0, 0, { size: 150, col: '#f2d27a', sw: 0.12, skew: -0.08 }); gtaText(g, lines[1], 0, 125, { size: 84, col: '#ffffff', sw: 0.14, skew: -0.08 }); g.restore(); }
 // ---------- транспорт ----------
 export function hypercar(g, x, gy, w, o = {}) { // вид сбоку, нос вправо при f=1; открытая кабина: водитель (рисуется до машины) виден по грудь
   const f = o.f ?? 1, T = (pts) => P(pts, x, gy, w, f), col = o.col || '#2c2d33';
@@ -53,11 +76,16 @@ export function hypercar(g, x, gy, w, o = {}) { // вид сбоку, нос в�
   if (o.bow) { const bx = x + f * -0.2 * w, by = gy - w * 0.255; inkShape(g, [[bx, by], [bx - 46, by - 30], [bx - 46, by + 4]], { fill: '#e5383b', w: 4 }); inkShape(g, [[bx, by], [bx + 46, by - 30], [bx + 46, by + 4]], { fill: '#e5383b', w: 4 }); inkCircle(g, bx, by - 6, 11, { fill: '#b01e26', w: 4 }); }
   return { hx: x + f * -0.02 * w, feetY: gy - w * 0.045 }; }
 export function policeCar(g, x, gy, w, t, f = 1) { const T = (p) => P(p, x, gy, w, f);
-  inkShape(g, T([[0.5, -0.1], [0.5, -0.17], [0.34, -0.2], [0.2, -0.215], [0.1, -0.31], [-0.22, -0.31], [-0.3, -0.22], [-0.5, -0.2], [-0.5, -0.08], [0.44, -0.06]]), { fill: '#f4f6f8', w: 6 });
-  inkShape(g, T([[0.18, -0.225], [0.1, -0.295], [-0.04, -0.295], [-0.04, -0.225]]), { fill: '#bfe3f5', w: 4 }); inkShape(g, T([[-0.08, -0.225], [-0.08, -0.295], [-0.2, -0.295], [-0.26, -0.225]]), { fill: '#bfe3f5', w: 4 });
+  // кузов с «дырами» под окна: водитель, нарисованный до машины, виден сквозь стекло
+  const body = T([[0.5, -0.1], [0.5, -0.17], [0.34, -0.2], [0.22, -0.215], [0.12, -0.37], [-0.2, -0.37], [-0.3, -0.22], [-0.5, -0.2], [-0.5, -0.08], [0.44, -0.06]]);
+  const win1 = T([[0.2, -0.235], [0.125, -0.35], [0.0, -0.35], [0.0, -0.235]]), win2 = T([[-0.035, -0.235], [-0.035, -0.35], [-0.185, -0.35], [-0.255, -0.235]]);
+  g.save(); g.lineJoin = 'round'; const path = (pts) => { pts.forEach(([a, b], i) => i ? g.lineTo(a, b) : g.moveTo(a, b)); g.closePath(); };
+  g.beginPath(); path(body); path(win1); path(win2); g.fillStyle = '#f4f6f8'; g.fill('evenodd');
+  g.strokeStyle = INK(); g.lineWidth = 6; g.beginPath(); path(body); g.stroke(); g.lineWidth = 4; g.beginPath(); path(win1); g.stroke(); g.beginPath(); path(win2); g.stroke();
+  g.fillStyle = 'rgba(160,210,240,.2)'; g.beginPath(); path(win1); g.fill(); g.beginPath(); path(win2); g.fill(); g.restore();
   inkRect(g, Math.min(x - 0.5 * w, x + 0.5 * w), gy - w * 0.15, w, w * 0.04, { fill: '#2f5d8a', r: 2, w: 0, stroke: false });
-  const on = Math.floor(t * 6) % 2; inkRect(g, x + f * -0.13 * w - w * 0.07, gy - w * 0.345, w * 0.07, w * 0.04, { fill: on ? '#ff3b3b' : '#7a2020', r: 3, w: 3 }); inkRect(g, x + f * -0.13 * w, gy - w * 0.345, w * 0.07, w * 0.04, { fill: on ? '#2b3a8a' : '#4aa8ff', r: 3, w: 3 });
-  if (on) { g.save(); g.globalAlpha = 0.28; g.fillStyle = '#ff3b3b'; g.beginPath(); g.arc(x + f * -0.1 * w, gy - w * 0.33, w * 0.2, 0, 7); g.fill(); g.restore(); }
+  const on = Math.floor(t * 6) % 2; inkRect(g, x + f * -0.13 * w - w * 0.07, gy - w * 0.405, w * 0.07, w * 0.04, { fill: on ? '#ff3b3b' : '#7a2020', r: 3, w: 3 }); inkRect(g, x + f * -0.13 * w, gy - w * 0.405, w * 0.07, w * 0.04, { fill: on ? '#2b3a8a' : '#4aa8ff', r: 3, w: 3 });
+  if (on) { g.save(); g.globalAlpha = 0.28; g.fillStyle = '#ff3b3b'; g.beginPath(); g.arc(x + f * -0.1 * w, gy - w * 0.39, w * 0.2, 0, 7); g.fill(); g.restore(); }
   for (const a of [0.29, -0.3]) { const cx = x + f * a * w, cy = gy - w * 0.075; inkCircle(g, cx, cy, w * 0.078, { fill: '#222', w: 5 }); inkCircle(g, cx, cy, w * 0.035, { fill: '#bbb', w: 3 }); }
   inkShape(g, T([[0.5, -0.15], [0.45, -0.165], [0.45, -0.13], [0.5, -0.125]]), { fill: '#ffe66b', w: 3 }); }
 export function speedboat(g, x, gy, w, o = {}) { const f = o.f ?? 1, T = (p) => P(p, x, gy, w, f);
@@ -66,7 +94,7 @@ export function speedboat(g, x, gy, w, o = {}) { const f = o.f ?? 1, T = (p) => 
   inkShape(g, T([[-0.45, -0.25], [0.46, -0.27], [0.5, -0.2], [0.2, -0.1], [-0.4, -0.1]]), { fill: '#e8eef5', w: 6 });
   inkShape(g, T([[-0.44, -0.21], [0.48, -0.225], [0.46, -0.2], [-0.43, -0.19]]), { fill: '#d8232a', w: 3 });
   inkShape(g, T([[0.05, -0.27], [0.22, -0.27], [0.12, -0.36]]), { fill: '#bfe3f5', w: 5 }); }
-export function helicopter(g, x, y, w, t, o = {}) { // y = полозья на земле; нос вправо при f=1; пилот (рисуется до вертолёта) виден через стеклянный колпак
+export function helicopter(g, x, y, w0, t, o = {}) { const w = w0 * 1.16; // y = полозья на земле; нос вправо при f=1; пилот (рисуется до вертолёта) виден через стеклянный колпак
   const f = o.f ?? 1, col = o.col || '#d8232a', T = (p) => P(p, x, y, w, f), sp = o.spin ?? 1;
   inkLine(g, T([[-0.2, -0.26], [-0.62, -0.31]]), { w: 12, stroke: col }); inkShape(g, T([[-0.58, -0.3], [-0.64, -0.4], [-0.6, -0.4], [-0.54, -0.3]]), { fill: col, w: 4 });
   const ta = t * 30 * sp; inkLine(g, [[x + f * -0.62 * w, y - 0.33 * w + Math.sin(ta) * 0.07 * w], [x + f * -0.62 * w, y - 0.33 * w - Math.sin(ta) * 0.07 * w]], { w: 5 });
@@ -84,13 +112,22 @@ export function ferris(g, x, y, r, t, o = {}) { // колесо: центр (x,y
   inkCircle(g, x, y, r, { fill: 'rgba(0,0,0,0)', w: 10 }); inkCircle(g, x, y, r * 0.62, { fill: 'rgba(0,0,0,0)', w: 6 });
   for (let i = 0; i < 12; i++) { const a = rot + (i / 12) * Math.PI * 2; inkLine(g, [[x, y], [x + Math.cos(a) * r, y + Math.sin(a) * r]], { w: 5 }); }
   const cabs = []; for (let i = 0; i < 12; i++) { const a = -Math.PI / 2 + rot + (i / 12) * Math.PI * 2, cx = x + Math.cos(a) * r, cy = y + Math.sin(a) * r; cabs.push([cx, cy]); const top = i === 0 && o.openTop; const kk = i === 0 ? k : (o.k2 ?? k); const col = ['#a85a4a', '#7a8a9a', '#9a8a5a', '#6a8a7a'][i % 4];
-    inkRect(g, cx - 38 * kk, cy, 76 * kk, 62 * kk, { fill: top ? '#4a4252' : col, r: 10 * kk, w: 5 });
-    if (!top) inkRect(g, cx - 30 * kk, cy + 8 * kk, 60 * kk, 28 * kk, { fill: '#cfd8e0', r: 6 * kk, w: 3 });
-    else { inkLine(g, [[cx - 38 * kk, cy], [cx + 38 * kk, cy]], { w: 8 }); } }
+    if (top) { // гондола висит на оси обода: крыша-колпак под осью, открытые стойки, передняя стенка — cabFront поверх героев
+      const cyc = cy + 44 * kk;
+      g.save(); g.globalAlpha = 0.3; inkRect(g, cx - 38 * kk, cyc - 24 * kk, 76 * kk, 86 * kk, { fill: '#efe3cb', r: 8 * kk, w: 0, stroke: false }); g.restore();
+      for (const sx of [-1, 1]) inkLine(g, [[cx + sx * 36 * kk, cyc - 22 * kk], [cx + sx * 36 * kk, cyc + 60 * kk]], { w: 12, stroke: '#7a4a3a' });
+      inkLine(g, [[cx - 44 * kk, cyc - 22 * kk], [cx - 6 * kk, cy + 4]], { w: 8, stroke: '#7a4a3a' }); inkLine(g, [[cx + 44 * kk, cyc - 22 * kk], [cx + 6 * kk, cy + 4]], { w: 8, stroke: '#7a4a3a' });
+      inkShape(g, [[cx - 50 * kk, cyc - 20 * kk], [cx - 34 * kk, cyc - 40 * kk], [cx + 34 * kk, cyc - 40 * kk], [cx + 50 * kk, cyc - 20 * kk]], { fill: '#c0463a', w: 6 });
+      inkCircle(g, cx, cy, 16 * Math.max(1, kk * 0.5), { fill: '#6a5a4a', w: 5 });
+    } else {
+      inkRect(g, cx - 38 * kk, cy, 76 * kk, 62 * kk, { fill: col, r: 10 * kk, w: 5 });
+      inkRect(g, cx - 30 * kk, cy + 8 * kk, 60 * kk, 28 * kk, { fill: '#cfd8e0', r: 6 * kk, w: 3 });
+      inkShape(g, [[cx - 44 * kk, cy + 2 * kk], [cx - 26 * kk, cy - 16 * kk], [cx + 26 * kk, cy - 16 * kk], [cx + 44 * kk, cy + 2 * kk]], { fill: '#7a3a2a', w: 4 });
+    } }
   inkCircle(g, x, y, 22, { fill: '#6a5a4a', w: 6 });
   if (o.lamp) { const a = 0.5 + 0.5 * Math.sin(t * 5); g.save(); g.globalAlpha = 0.4 + 0.3 * a; g.fillStyle = '#ffe28a'; g.beginPath(); g.arc(x, y - r - 20, 46, 0, 7); g.fill(); g.restore(); inkCircle(g, x, y - r - 20, 12, { fill: '#fff2b0', w: 4 }); }
   return { top: cabs[0], cabs }; }
-export function cabFront(g, pos, k = 1, wallTop) { const [cx, cy] = pos, y0 = wallTop ?? cy + 22 * k, h = cy + 62 * k - y0; inkRect(g, cx - 38 * k, y0, 76 * k, h, { fill: '#a85a4a', r: 8 * k, w: 5 }); inkLine(g, [[cx - 34 * k, y0 + 10], [cx + 34 * k, y0 + 10]], { w: 4, stroke: '#7a3a2a' }); }
+export function cabFront(g, pos, k = 1, wallTop) { const [cx, cy] = pos, y0 = wallTop ?? cy + 22 * k, h = cy + 62 * k - y0; inkRect(g, cx - 38 * k, y0, 76 * k, h, { fill: '#b8604c', r: 8 * k, w: 5 }); inkLine(g, [[cx - 34 * k, y0 + 12], [cx + 34 * k, y0 + 12]], { w: 5, stroke: '#7a3a2a' }); for (const dx of [-24, -8, 8, 24]) inkLine(g, [[cx + dx * k, y0 + 16], [cx + dx * k, y0 + h - 14]], { w: 3, stroke: '#8a4636' }); }
 export function coaster(g, x0, x1, gy, t, o = {}) { // рельсы-горки и башня
   const pts = []; for (let i = 0; i <= 40; i++) { const u = i / 40, px = lerp(x0, x1, u); pts.push([px, gy - 260 - 190 * Math.sin(u * Math.PI * 3.2) * (0.5 + 0.5 * Math.sin(u * 5))]); }
   for (let i = 1; i < pts.length; i += 2) inkLine(g, [[pts[i][0], pts[i][1]], [pts[i][0] - 10, gy]], { w: 6, stroke: '#7a4a3a' });
@@ -103,8 +140,22 @@ import { inkTube } from './lib.js';
 export function phoneBig(g, cx, cy, h, t, o = {}) { const w = h * 0.52; phoneScreen(g, cx, cy, w, h, { bg: o.bg }); if (o.draw) o.draw(g, cx, cy, w, h); }
 export function envelope(g, x, y, w, rot = 0, a = 1) { g.save(); g.translate(x, y); g.rotate(rot); g.globalAlpha *= a; inkRect(g, -w / 2, -w * 0.32, w, w * 0.64, { fill: '#fffdf6', r: 6, w: 5 }); inkLine(g, [[-w / 2, -w * 0.3], [0, w * 0.06], [w / 2, -w * 0.3]], { w: 4 }); inkCircle(g, 0, w * 0.1, w * 0.1, { fill: '#7dc47a', w: 3 }); g.restore(); }
 export function mower(g, x, gy, s = 1, f = 1) { g.save(); g.translate(x, gy); g.scale(f * s, s); inkShape(g, [[-70, -50], [70, -50], [60, -110], [-40, -118]], { fill: '#d8232a', w: 6 }); inkLine(g, [[-60, -100], [-150, -190]], { w: 9 }); inkLine(g, [[-150, -190], [-190, -190]], { w: 9 }); inkCircle(g, -50, -26, 28, { fill: '#2b2b33', w: 5 }); inkCircle(g, 56, -26, 24, { fill: '#2b2b33', w: 5 }); inkCircle(g, -50, -26, 10, { fill: '#bbb', w: 3 }); g.restore(); }
+// велосипед: рама, колёса, сиденье НИЖЕ таза, педали крутятся. Всадник (poseObj BP) ставится функцией bikePose.
+export const BP = { head: [0, 0], sh: [0, 0], hip: [0, 0], eF: [0, 0], hF: [0, 0], eB: [0, 0], hB: [0, 0], kF: [0, 0], fF: [0, 0], kB: [0, 0], fB: [0, 0] };
+export function bikePose(t, e, kb) { // e = реальный масштаб героя, kb = масштаб велосипеда; координаты в единицах героя от (x, земля), f=1
+  const u = ([a, b]) => [a / e, b / e], th = t * 7, R = 22 * kb, BB = [-20 * kb, -66 * kb], pF = [BB[0] + R * Math.cos(th), BB[1] + R * Math.sin(th)], pB = [BB[0] - R * Math.cos(th), BB[1] - R * Math.sin(th)];
+  const hip = [-10 * kb, -150 * kb - 12], sh = [hip[0] + 0.3 * 115 * 1.0 + 8, hip[1] - 108], hd = [sh[0] + 14, sh[1] - 52], grip = [70 * kb, -154 * kb];
+  const L = 50 * e, ik = (h, ft, sg) => { let dx = ft[0] - h[0], dy = ft[1] - h[1], d = Math.hypot(dx, dy); const Lq = L; if (d > 2 * Lq - 1) { d = 2 * Lq - 1; } const hh = Math.sqrt(Math.max(0, Lq * Lq - d * d / 4)), nx = dx / Math.hypot(dx, dy), ny = dy / Math.hypot(dx, dy); return [(h[0] + ft[0]) / 2 + sg * ny * hh, (h[1] + ft[1]) / 2 - sg * nx * hh]; };
+  const aik = (h, ft) => { const La = 42 * e, d = Math.min(Math.hypot(ft[0] - h[0], ft[1] - h[1]), 2 * La - 1), hh = Math.sqrt(Math.max(0, La * La - d * d / 4)), dd = Math.hypot(ft[0] - h[0], ft[1] - h[1]), nx = (ft[0] - h[0]) / dd, ny = (ft[1] - h[1]) / dd; return [(h[0] + ft[0]) / 2 - ny * hh, (h[1] + ft[1]) / 2 + nx * hh]; };
+  const fF = [pF[0] + 8, pF[1] - 6], fB = [pB[0] + 8, pB[1] - 6];
+  const set = { head: hd, sh, hip, hF: grip, hB: [grip[0] - 4, grip[1] + 2], kF: ik(hip, fF, 1), fF, kB: ik(hip, fB, 1), fB };
+  set.eF = aik(sh, set.hF); set.eB = aik(sh, set.hB);
+  for (const k of Object.keys(set)) BP[k] = u(set[k]); return BP; }
 export function bike(g, x, gy, s = 1, f = 1, t = 0) { g.save(); g.translate(x, gy); g.scale(f * s, s); const sp = t * 8; for (const wx of [-90, 90]) { inkCircle(g, wx, -62, 62, { fill: 'rgba(0,0,0,0)', w: 8 }); for (let i = 0; i < 4; i++) { const a = sp + i * Math.PI / 4; inkLine(g, [[wx - Math.cos(a) * 58, -62 - Math.sin(a) * 58], [wx + Math.cos(a) * 58, -62 + Math.sin(a) * 58]], { w: 2, stroke: '#888' }); } }
-  inkLine(g, [[-90, -62], [-20, -66], [60, -130], [90, -62]], { w: 9, stroke: '#2f6dd8' }); inkLine(g, [[-20, -66], [-10, -140]], { w: 9, stroke: '#2f6dd8' }); inkLine(g, [[60, -130], [74, -150]], { w: 9 }); inkLine(g, [[74, -150], [50, -158]], { w: 8 }); inkRect(g, -34, -150, 56, 12, { fill: '#2b2b33', r: 5, w: 4 }); g.restore(); }
+  inkLine(g, [[-90, -62], [-20, -66], [60, -130], [90, -62]], { w: 9, stroke: '#2f6dd8' }); inkLine(g, [[-20, -66], [-10, -142]], { w: 9, stroke: '#2f6dd8' }); inkLine(g, [[-90, -62], [-10, -142]], { w: 7, stroke: '#2f6dd8' }); inkLine(g, [[60, -130], [74, -152]], { w: 9 }); inkLine(g, [[74, -152], [56, -160]], { w: 8 });
+  inkRect(g, -34, -156, 52, 12, { fill: '#2b2b33', r: 5, w: 4 });
+  const th = t * 7, R = 22; for (const a of [th, th + Math.PI]) { inkLine(g, [[-20, -66], [-20 + R * Math.cos(a), -66 + R * Math.sin(a)]], { w: 6, stroke: '#555' }); inkRect(g, -20 + R * Math.cos(a) - 9, -66 + R * Math.sin(a) - 3, 18, 6, { fill: '#2b2b33', r: 2, w: 3 }); }
+  g.restore(); }
 export function boxP(g, x, y, w, rot = 0) { g.save(); g.translate(x, y); g.rotate(rot); inkRect(g, -w / 2, -w * 0.4, w, w * 0.8, { fill: '#c9a46a', r: 5, w: 5 }); inkLine(g, [[0, -w * 0.4], [0, w * 0.4]], { w: 8, stroke: '#a67c43' }); inkLine(g, [[-w / 2, -w * 0.08], [w / 2, -w * 0.08]], { w: 4, stroke: '#a67c43' }); g.restore(); }
 export function yacht(g, x, gy, w, f = 1, t = 0) { const T = (p) => P(p, x, gy, w, f);
   inkShape(g, T([[-0.5, -0.17], [0.5, -0.2], [0.42, -0.04], [-0.42, -0.04]]), { fill: '#f4f6f8', w: 7 }); inkLine(g, T([[-0.48, -0.12], [0.46, -0.14]]), { w: 5, stroke: '#2f6dd8' });
@@ -126,3 +177,6 @@ export function vest(g, x, y, k = 1) { g.save(); g.translate(x, y); g.scale(k, k
 export function sprinkler(g, x, gy, t, tx, ty) { inkRect(g, x - 8, gy - 30, 16, 30, { fill: '#6a6a72', r: 3, w: 4 }); g.save(); g.strokeStyle = 'rgba(120,200,255,.9)'; g.lineWidth = 7; g.lineCap = 'round'; for (let i = 0; i < 3; i++) { const ph = (t * 1.8 + i * 0.33) % 1; g.beginPath(); g.moveTo(x, gy - 30); g.quadraticCurveTo((x + tx) / 2, Math.min(gy, ty) - 140, lerp(x, tx, 0.9 + 0.1 * i), lerp(gy - 30, ty, 0.9 + 0.1 * i)); g.globalAlpha = 0.7; g.setLineDash([22, 30]); g.lineDashOffset = -ph * 52; g.stroke(); } g.restore(); }
 export function particles(g, t, x, y, t0, col = '#bfc3c9', n = 26, spread = 260) { const d = t - t0; if (d < 0 || d > 1.6) return; g.save(); for (let i = 0; i < n; i++) { const a = (i / n) * Math.PI * 2 + i, sp = spread * (0.4 + 0.6 * ((i * 37) % 10) / 10); const px = x + Math.cos(a) * sp * d, py = y + Math.sin(a) * sp * d + 120 * d * d; g.globalAlpha = Math.max(0, 1 - d / 1.6); g.fillStyle = col; g.fillRect(px - 8, py - 8, 16, 16); } g.restore(); }
 export function thoughtCloud(g, x, y, w, str, a = 1) { g.save(); g.globalAlpha = a; inkEllipse(g, x, y, w / 2, w * 0.18, { fill: '#fff', w: 5 }); inkCircle(g, x - w * 0.18, y + w * 0.22, 10, { fill: '#fff', w: 4 }); inkCircle(g, x - w * 0.24, y + w * 0.3, 6, { fill: '#fff', w: 3 }); text(g, str, x, y + 9, { size: w * 0.115, font: FONTS.title, weight: 400, color: S().ink }); g.restore(); }
+
+export function blanketTo(g, x0, x1, topY, botY) { inkRect(g, x0, topY, x1 - x0, botY - topY, { fill: '#7ab8e0', r: 22, w: 6 }); inkLine(g, [[x0 + 24, topY + 26], [x1 - 24, topY + 26]], { w: 4, stroke: '#cfe6f5' }); inkLine(g, [[x0 + 24, topY + 54], [x1 - 24, topY + 54]], { w: 3, stroke: '#a6d0ec' }); }
+export function phoneSmall(g, x, y, e, txt = '$', col = '#2a9a5a') { inkRect(g, x - 15 * e, y - 48 * e, 30 * e, 54 * e, { fill: '#10182a', r: 5 * e, w: 4 }); inkRect(g, x - 12 * e, y - 44 * e, 24 * e, 44 * e, { fill: '#dff3ff', r: 3 * e, w: 0, stroke: false }); text(g, txt, x, y - 22 * e, { size: 24 * e, font: FONTS.title, weight: 400, color: col }); }
