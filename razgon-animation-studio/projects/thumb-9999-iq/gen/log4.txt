@@ -1,0 +1,1 @@
+OK razgon-animation-studio/projects/thumb-9999-iq/gen/bg4.png {'input_tokens': 1680, 'input_tokens_details': {'image_tokens': 1536, 'text_tokens': 144}, 'output_tokens': 343, 'output_tokens_details': {'image_tokens': 343, 'text_tokens': 0}, 'total_tokens': 2023}

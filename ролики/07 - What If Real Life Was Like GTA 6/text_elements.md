@@ -65,11 +65,11 @@
 | S094 | 06:38.0 | TO WORK. | say | LEON |
 | S103 | 07:16.5 | wasted | ev | — |
 | S105 | 07:24.4 | wasted | ev | — |
-| S109 | 07:45.0 | NICE RUN. SEE YOU ON THE NEXT MAP. | say | RIVAL |
-| S111 | 07:55.7 | passed | ev | — |
-| S115 | 08:12.3 | WHERE DID YOU GET A HELICOPTER? | say | MOM |
-| S116 | 08:14.5 | A MISSION, MOM. | say | LEON |
-| S117 | 08:19.3 | NEXT TIME, USE THE STAIRS. | say | DAD |
-| S120 | 08:42.9 | MISSION · ??? | plate | — |
-| S121 | 08:48.7 | COMMENT BELOW | cap | — |
-| S121 | 08:49.6 | PART 2 IS ON THE MAP | plate | — |
+| S111 | 07:45.0 | NICE RUN. SEE YOU ON THE NEXT MAP. | say | RIVAL |
+| S113 | 07:55.7 | passed | ev | — |
+| S117 | 08:12.3 | WHERE DID YOU GET A HELICOPTER? | say | MOM |
+| S118 | 08:14.5 | A MISSION, MOM. | say | LEON |
+| S119 | 08:19.3 | NEXT TIME, USE THE STAIRS. | say | DAD |
+| S122 | 08:42.9 | MISSION · ??? | plate | — |
+| S123 | 08:48.7 | COMMENT BELOW | cap | — |
+| S123 | 08:49.6 | PART 2 IS ON THE MAP | plate | — |

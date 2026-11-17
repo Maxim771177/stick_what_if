@@ -44,7 +44,7 @@ async function openPlayer(browser, style) {
   let pk = args.pack, st = style || args.style; if (st && String(st).includes(':')) [pk, st] = String(st).split(':'); if (pk) qs.set('pack', pk); if (st) qs.set('style', st);
   const page = await browser.newPage({ viewport: { width: 640, height: 360 } });
   page.on('pageerror', e => console.log('[pageerror]', e.message));
-  page.on('console', m => { const t = m.text(); if (/ERROR|missing/i.test(t)) console.log('[page]', t); });
+  page.on('console', m => { const t = m.text(); if (process.env.DBG || /ERROR|missing/i.test(t)) console.log('[page]', t); });
   await page.goto(`http://localhost:${PORT}/player.html?${qs}`);
   await page.waitForFunction('window.READY === true || !!window.BOOT_ERROR', null, { timeout: 120000 });
   const boot = await page.evaluate('window.BOOT_ERROR'); if (boot) throw new Error('Player failed to boot: ' + boot);
@@ -98,7 +98,7 @@ async function renderStills() {
   for (const st of styles) {
     const page = await openPlayer(browser, st); const fps = FPS;
     let targets;
-    if (args.sheet) { const ph = args.phases && args.phases !== true ? String(args.phases).split(',').map(Number) : [0.45]; targets = (await page.evaluate('window.SHOT_LIST')).flatMap(s => ph.map(p => ({ t: s.start + (s.end - s.start) * p, label: `${s.id}  ${s.start.toFixed(1)}s${ph.length > 1 ? ` @${Math.round(p * 100)}%` : ''}${s.ok ? '' : '  (MISSING)'}` }))); }
+    if (args.sheet) { const ph = args.phases && args.phases !== true ? String(args.phases).split(',').map(Number) : [0.45]; targets = (await page.evaluate('window.SHOT_LIST')).filter(s => { if (!args.range) return true; const [a, b] = String(args.range).split('-').map(Number); const n = +s.id.slice(1); return n >= a && n <= b; }).flatMap(s => ph.map(p => ({ t: s.start + (s.end - s.start) * p, label: `${s.id}  ${s.start.toFixed(1)}s${ph.length > 1 ? ` @${Math.round(p * 100)}%` : ''}${s.ok ? '' : '  (MISSING)'}` }))); }
     else targets = String(args.stills || args.at || '1').split(',').map(Number).map(t => ({ t, label: `${t}s` }));
     for (const tg of targets) { const img = await shot(page, Math.round(tg.t * fps)); const name = `${st ? st + '_' : ''}${tg.label.split(' ')[0].replace(/[^\w.]/g, '')}_${tg.t.toFixed(2)}.${FORMAT}`; fs.writeFileSync(path.join(dir, name), img); all.push({ img, label: `${st ? `[${st}] ` : ''}${tg.label}`, st }); }
     (await page.evaluate('window.ERRORS')).forEach(e => console.log('  shot error:', e)); await page.close();

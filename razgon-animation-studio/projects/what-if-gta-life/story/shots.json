@@ -967,11 +967,11 @@
    "start": 267.175,
    "end": 272.275,
    "line": "\"Leon. Why is there a police helicopter on our street, and where is Dad's other car?\"",
-   "scene": "Крупно Leon с телефоном у уха, глаза огромные; над ним пузырь с репликой Mom.",
-   "set": "SCHOOL",
+   "scene": "Кухня: Mom с телефоном у уха, злая, говорит Leon в трубку.",
+   "set": "KITCHEN",
    "hud": "—",
    "notes": "Leon морщится",
-   "assets": "BG yard school; LEON; phone",
+   "assets": "BG kitchen; MOM; phone",
    "in": {
     "type": "cut"
    },
@@ -1565,13 +1565,13 @@
   {
    "id": "s105",
    "start": 442.504,
-   "end": 451.562,
-   "line": "A second hit, and again, wasted, again white ceiling, again four minutes, and Biscuit is a little farther away every time.",
-   "scene": "Золотой вертолёт сбивает красный; тот падает; потом снова палата и потолок; Biscuit на заднем плане всё дальше.",
+   "end": 445.021,
+   "line": "A second hit, and again, wasted,",
+   "scene": "Золотой вертолёт сбивает красный второй раз; красный падает; WASTED серым.",
    "set": "COASTER",
    "hud": "—",
-   "notes": "удар, падение, палата",
-   "assets": "BG coaster; ward; WASTED",
+   "notes": "удар, падение, WASTED",
+   "assets": "BG coaster; helicopters; WASTED",
    "in": {
     "type": "cut"
    },
@@ -1579,6 +1579,36 @@
   },
   {
    "id": "s106",
+   "start": 445.021,
+   "end": 448.188,
+   "line": "again white ceiling, again four minutes,",
+   "scene": "Снова палата, белый потолок, Leon на кровати, таймер 4:00.",
+   "set": "WARD",
+   "hud": "—",
+   "notes": "монитор пикает",
+   "assets": "BG ward; LEON; bed; clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 448.188,
+   "end": 451.562,
+   "line": "and Biscuit is a little farther away every time.",
+   "scene": "Золотой вертолёт и колесо вдали; Biscuit в кабинке на вершине всё мельче (камера отъезжает).",
+   "set": "COASTER",
+   "hud": "—",
+   "notes": "камера отъезжает от колеса",
+   "assets": "BG park; wheel far; BISCUIT small; helicopter gold",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
    "start": 451.562,
    "end": 454.463,
    "line": "On the third try, Leon doesn't dodge.",
@@ -1593,7 +1623,7 @@
    "sfx": []
   },
   {
-   "id": "s107",
+   "id": "s109",
    "start": 454.463,
    "end": 457.821,
    "line": "He hovers over the wheel, grabs the ladder, and jumps.",
@@ -1608,7 +1638,7 @@
    "sfx": []
   },
   {
-   "id": "s108",
+   "id": "s110",
    "start": 457.821,
    "end": 464.404,
    "line": "He lands in the car, grabs Biscuit, and stares at the boy in the gold jacket, who just smiles.",
@@ -1623,7 +1653,7 @@
    "sfx": []
   },
   {
-   "id": "s109",
+   "id": "s111",
    "start": 464.404,
    "end": 468.462,
    "line": "\"Nice run,\" the rival says. \"See you on the next map.\"",
@@ -1638,7 +1668,7 @@
    "sfx": []
   },
   {
-   "id": "s110",
+   "id": "s112",
    "start": 468.462,
    "end": 475.188,
    "line": "Then his bar drops to zero, he disappears in a burst of gray, and the wheel goes quiet.",
@@ -1653,7 +1683,7 @@
    "sfx": []
   },
   {
-   "id": "s111",
+   "id": "s113",
    "start": 475.188,
    "end": 480.888,
    "line": "Green letters across the sky. Mission passed. Respect, plus one.",
@@ -1668,7 +1698,7 @@
    "sfx": []
   },
   {
-   "id": "s112",
+   "id": "s114",
    "start": 480.888,
    "end": 483.688,
    "line": "Biscuit licks Leon's face for about a minute.",
@@ -1683,7 +1713,7 @@
    "sfx": []
   },
   {
-   "id": "s113",
+   "id": "s115",
    "start": 483.688,
    "end": 487.662,
    "line": "Owen asks if the helicopter has a snack drawer. It does.",
@@ -1698,7 +1728,7 @@
    "sfx": []
   },
   {
-   "id": "s114",
+   "id": "s116",
    "start": 487.662,
    "end": 491.921,
    "line": "The helicopter lands on the front lawn, and Mom stands there with her arms crossed.",
@@ -1713,7 +1743,7 @@
    "sfx": []
   },
   {
-   "id": "s115",
+   "id": "s117",
    "start": 491.921,
    "end": 494.137,
    "line": "\"Where did you get a helicopter?\"",
@@ -1728,7 +1758,7 @@
    "sfx": []
   },
   {
-   "id": "s116",
+   "id": "s118",
    "start": 494.137,
    "end": 495.996,
    "line": "\"A mission, Mom.\"",
@@ -1743,7 +1773,7 @@
    "sfx": []
   },
   {
-   "id": "s117",
+   "id": "s119",
    "start": 495.996,
    "end": 501.421,
    "line": "Dad checks the new bill and sighs. \"Next time, use the stairs.\"",
@@ -1758,7 +1788,7 @@
    "sfx": []
   },
   {
-   "id": "s118",
+   "id": "s120",
    "start": 501.421,
    "end": 505.621,
    "line": "Leon laughs, and for a second, the whole map seems to hold its breath.",
@@ -1773,7 +1803,7 @@
    "sfx": []
   },
   {
-   "id": "s119",
+   "id": "s121",
    "start": 505.621,
    "end": 515.312,
    "line": "Then the minimap zooms out, slowly, and Leon sees how small his town really is, just one tiny corner of something huge.",
@@ -1788,7 +1818,7 @@
    "sfx": []
   },
   {
-   "id": "s120",
+   "id": "s122",
    "start": 515.312,
    "end": 524.421,
    "line": "And far away, past the hills and the ocean, one new marker is blinking. Mission. Three question marks.",
@@ -1803,7 +1833,7 @@
    "sfx": []
   },
   {
-   "id": "s121",
+   "id": "s123",
    "start": 524.421,
    "end": 535.416,
    "line": "So, what would you do with a life like this? Tell us in the comments, and subscribe, because part two is already on the map.",

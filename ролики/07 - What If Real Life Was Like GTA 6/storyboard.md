@@ -27,7 +27,7 @@
 |---|---|---|
 | CLASS | класс 114 (фон OpenAI из ролика 01) | 12 |
 | VOID | абстрактный фон: HUD, доски, телефон, карточки | 24 |
-| KITCHEN | кухня | 7 |
+| KITCHEN | кухня | 8 |
 | LIVING | гостиная | 3 |
 | NIGHT | комната ночью | 1 |
 | YARD | двор дома (код) | 17 |
@@ -35,14 +35,14 @@
 | DOCK | причал (код) | 1 |
 | GARAGE | гараж с машинами (OpenAI) | 1 |
 | DRIVE | подъездная дорожка (код) | 4 |
-| SCHOOL | школьный двор (код) | 18 |
+| SCHOOL | школьный двор (код) | 17 |
 | WASH | автомойка (код) | 2 |
 | ROOF | крыша школы (OpenAI) | 3 |
 | POOL | бассейн сверху (код) | 1 |
 | SKYFALL | небо при падении (код) | 2 |
-| WARD | палата (OpenAI) | 5 |
+| WARD | палата (OpenAI) | 6 |
 | PARK | заброшенный парк вечером (OpenAI) | 10 |
-| COASTER | горки в парке вечером (тот же фон) | 5 |
+| COASTER | горки в парке вечером (тот же фон) | 6 |
 | MAPZOOM | мини-карта отъезжает (код) | 2 |
 
 ## Сцены
@@ -113,7 +113,7 @@
 | S062 | 04:15.1–04:19.3 | The cops drive past him, slowly, looking for a boy in a blue cap. | STREET | Патрульная машина медленно едет мимо гиперкара; полицейский смотрит в сторону, Leon в синей кепке смотрит прямо перед собой. | — | полиция проезжает | BG street; police car; hypercar; LEON blue cap; POLICE |
 | S063 | 04:19.3–04:23.3 | The whole playground erupts. Leon takes a bow. | SCHOOL | Весь двор ликует: ребята прыгают, руки вверх; Leon кланяется на капоте. | — | толпа ликует | BG yard school; KIDS×8; LEON; hypercar |
 | S064 | 04:23.3–04:27.2 | And that's when his phone rings. Mom. | SCHOOL | Leon достаёт звонящий телефон; на экране «MOM». | — | телефон звонит | BG yard school; LEON; phone MOM |
-| S065 | 04:27.2–04:32.3 | "Leon. Why is there a police helicopter on our street, and where is Dad's other car?" | SCHOOL | Крупно Leon с телефоном у уха, глаза огромные; над ним пузырь с репликой Mom. | `04:27.7` WHY IS THERE A POLICE HELICOPTER ON OUR STREET, AND WHERE IS DAD’S OTHER CAR? | Leon морщится | BG yard school; LEON; phone |
+| S065 | 04:27.2–04:32.3 | "Leon. Why is there a police helicopter on our street, and where is Dad's other car?" | KITCHEN | Кухня: Mom с телефоном у уха, злая, говорит Leon в трубку. | `04:27.7` WHY IS THERE A POLICE HELICOPTER ON OUR STREET, AND WHERE IS DAD’S OTHER CAR? | Leon морщится | BG kitchen; MOM; phone |
 | S066 | 04:32.3–04:38.0 | One more star lights up. It's the only one he can't lose. | SCHOOL | В углу загорается ещё одна звезда, гирлянда из 4 (последняя пульсирует красным). | `04:33.4` stars4 | четвёртая звезда | BG yard school; LEON; HUD stars=4 pulse |
 | S067 | 04:38.0–04:41.9 | Quick note, this is a cartoon. Don't try any of this at home. | VOID | Карточка «THIS IS A CARTOON. DON’T TRY THIS AT HOME.» на жёлтом фоне. | `04:38.7` THIS IS A CARTOON · DON’T TRY THIS AT HOME | карточка | card |
 | S068 | 04:41.9–04:47.0 | But Leon feels unstoppable. And he hasn't even found out about rule four. | SCHOOL | Leon на крыше машины, руки в стороны, ветер; в углу 4 звезды. | — | Leon красуется | BG yard school; LEON; hypercar |
@@ -153,26 +153,28 @@
 | S102 | 07:11.5–07:16.0 | Leon dodges the rails at full speed, clips a tower, and falls. | COASTER | Красный вертолёт уворачивается от рельсов, зацепляет башню и падает. | — | вертолёт цепляет и падает | BG coaster; helicopter red; tower |
 | S103 | 07:16.0–07:20.0 | Wasted. A white ceiling. Four minutes. | WARD | WASTED серым на кадре, потом белый потолок палаты и таймер 4:00. | `07:16.5` wasted | WASTED → палата | BG ward; WASTED; LEON; bed |
 | S104 | 07:20.0–07:22.5 | He's back, in the air, behind the boy. | COASTER | Leon снова в вертолёте позади мальчика, тот смотрит назад через плечо. | — | Leon догоняет | BG coaster; helicopter red; helicopter gold |
-| S105 | 07:22.5–07:31.6 | A second hit, and again, wasted, again white ceiling, again four minutes, and Biscuit is a little farther away every time. | COASTER | Золотой вертолёт сбивает красный; тот падает; потом снова палата и потолок; Biscuit на заднем плане всё дальше. | `07:24.4` wasted | удар, падение, палата | BG coaster; ward; WASTED |
-| S106 | 07:31.6–07:34.5 | On the third try, Leon doesn't dodge. | COASTER | Leon летит прямо, не уклоняясь, глаза решительные. | — | прямой полёт | BG coaster; helicopter red; LEON |
-| S107 | 07:34.5–07:37.8 | He hovers over the wheel, grabs the ladder, and jumps. | PARK | Красный вертолёт зависает над колесом, Leon хватает лестницу. | — | Leon хватает лестницу | BG park; helicopter red; ladder; wheel |
-| S108 | 07:37.8–07:44.4 | He lands in the car, grabs Biscuit, and stares at the boy in the gold jacket, who just smiles. | PARK | Leon прыгает в кабинку, забирает Biscuit; соперник сидит напротив и смотрит. | — | Leon хватает Biscuit | BG park; wheel car; LEON; BISCUIT; RIVAL |
-| S109 | 07:44.4–07:48.5 | "Nice run," the rival says. "See you on the next map." | PARK | RIVAL улыбается и говорит; Leon держит Biscuit. | `07:45.0` NICE RUN. SEE YOU ON THE NEXT MAP. | RIVAL подмигивает | BG park; wheel car; RIVAL; LEON; BISCUIT |
-| S110 | 07:48.5–07:55.2 | Then his bar drops to zero, he disappears in a burst of gray, and the wheel goes quiet. | PARK | Полоска RIVAL падает в ноль, он рассыпается серыми частицами; колесо замирает. | — | RIVAL исчезает | BG park; RIVAL; particles; wheel |
-| S111 | 07:55.2–08:00.9 | Green letters across the sky. Mission passed. Respect, plus one. | PARK | Зелёные буквы на всё небо: MISSION PASSED · RESPECT +1; Leon держит Biscuit. | `07:55.7` passed | буквы, искры | BG park; LEON; BISCUIT; label passed |
-| S112 | 08:00.9–08:03.7 | Biscuit licks Leon's face for about a minute. | PARK | Biscuit лижет Leon в лицо, Leon жмурится от смеха. | — | Biscuit лижет | BG park; LEON; BISCUIT |
-| S113 | 08:03.7–08:07.7 | Owen asks if the helicopter has a snack drawer. It does. | YARD | В кабине вертолёта Owen открывает ящик со снеками, у него глаза-звёзды. | — | ящик открывается | BG yard; helicopter; OWEN; snacks |
-| S114 | 08:07.7–08:11.9 | The helicopter lands on the front lawn, and Mom stands there with her arms crossed. | YARD | Вертолёт садится на газон; на крыльце Mom со скрещёнными руками. | — | вертолёт садится | BG yard; helicopter; MOM; LEON; BISCUIT |
-| S115 | 08:11.9–08:14.1 | "Where did you get a helicopter?" | YARD | Mom говорит, Leon держит Biscuit. | `08:12.3` WHERE DID YOU GET A HELICOPTER? | Mom хмурится | BG yard; MOM; LEON; BISCUIT |
-| S116 | 08:14.1–08:16.0 | "A mission, Mom." | YARD | Leon пожимает плечами. | `08:14.5` A MISSION, MOM. | Leon пожимает плечами | BG yard; LEON; MOM |
-| S117 | 08:16.0–08:21.4 | Dad checks the new bill and sighs. "Next time, use the stairs." | YARD | Dad смотрит на новый счёт на телефоне, вздыхает. | `08:19.3` NEXT TIME, USE THE STAIRS. | Dad вздыхает | BG yard; DAD; phone; LEON |
-| S118 | 08:21.4–08:25.6 | Leon laughs, and for a second, the whole map seems to hold its breath. | YARD | Leon смеётся; вокруг семья, Biscuit, Owen. | — | Leon смеётся | BG yard; LEON; MOM; DAD; BISCUIT; OWEN |
-| S119 | 08:25.6–08:35.3 | Then the minimap zooms out, slowly, and Leon sees how small his town really is, just one tiny corner of something huge. | MAPZOOM | Мини-карта в круге отъезжает: дом Leon всё меньше, видны другие кварталы. | — | карта отъезжает | minimap zoom out |
-| S120 | 08:35.3–08:44.4 | And far away, past the hills and the ocean, one new marker is blinking. Mission. Three question marks. | MAPZOOM | Далеко за горами и океаном мигает новая метка с «???». | `08:42.9` MISSION · ??? | метка мигает | minimap; marker ??? |
-| S121 | 08:44.4–08:55.4 | So, what would you do with a life like this? Tell us in the comments, and subscribe, because part two is already on the map. | VOID | Leon смотрит на зрителя, рядом кнопка SUBSCRIBE и колокольчик; на заднем плане метка. | `08:48.7` COMMENT BELOW; `08:49.6` PART 2 IS ON THE MAP | Leon показывает вниз | LEON; subscribe; bell |
+| S105 | 07:22.5–07:25.0 | A second hit, and again, wasted, | COASTER | Золотой вертолёт сбивает красный второй раз; красный падает; WASTED серым. | `07:24.4` wasted | удар, падение, WASTED | BG coaster; helicopters; WASTED |
+| S106 | 07:25.0–07:28.2 | again white ceiling, again four minutes, | WARD | Снова палата, белый потолок, Leon на кровати, таймер 4:00. | — | монитор пикает | BG ward; LEON; bed; clock |
+| S107 | 07:28.2–07:31.6 | and Biscuit is a little farther away every time. | COASTER | Золотой вертолёт и колесо вдали; Biscuit в кабинке на вершине всё мельче (камера отъезжает). | — | камера отъезжает от колеса | BG park; wheel far; BISCUIT small; helicopter gold |
+| S108 | 07:31.6–07:34.5 | On the third try, Leon doesn't dodge. | COASTER | Leon летит прямо, не уклоняясь, глаза решительные. | — | прямой полёт | BG coaster; helicopter red; LEON |
+| S109 | 07:34.5–07:37.8 | He hovers over the wheel, grabs the ladder, and jumps. | PARK | Красный вертолёт зависает над колесом, Leon хватает лестницу. | — | Leon хватает лестницу | BG park; helicopter red; ladder; wheel |
+| S110 | 07:37.8–07:44.4 | He lands in the car, grabs Biscuit, and stares at the boy in the gold jacket, who just smiles. | PARK | Leon прыгает в кабинку, забирает Biscuit; соперник сидит напротив и смотрит. | — | Leon хватает Biscuit | BG park; wheel car; LEON; BISCUIT; RIVAL |
+| S111 | 07:44.4–07:48.5 | "Nice run," the rival says. "See you on the next map." | PARK | RIVAL улыбается и говорит; Leon держит Biscuit. | `07:45.0` NICE RUN. SEE YOU ON THE NEXT MAP. | RIVAL подмигивает | BG park; wheel car; RIVAL; LEON; BISCUIT |
+| S112 | 07:48.5–07:55.2 | Then his bar drops to zero, he disappears in a burst of gray, and the wheel goes quiet. | PARK | Полоска RIVAL падает в ноль, он рассыпается серыми частицами; колесо замирает. | — | RIVAL исчезает | BG park; RIVAL; particles; wheel |
+| S113 | 07:55.2–08:00.9 | Green letters across the sky. Mission passed. Respect, plus one. | PARK | Зелёные буквы на всё небо: MISSION PASSED · RESPECT +1; Leon держит Biscuit. | `07:55.7` passed | буквы, искры | BG park; LEON; BISCUIT; label passed |
+| S114 | 08:00.9–08:03.7 | Biscuit licks Leon's face for about a minute. | PARK | Biscuit лижет Leon в лицо, Leon жмурится от смеха. | — | Biscuit лижет | BG park; LEON; BISCUIT |
+| S115 | 08:03.7–08:07.7 | Owen asks if the helicopter has a snack drawer. It does. | YARD | В кабине вертолёта Owen открывает ящик со снеками, у него глаза-звёзды. | — | ящик открывается | BG yard; helicopter; OWEN; snacks |
+| S116 | 08:07.7–08:11.9 | The helicopter lands on the front lawn, and Mom stands there with her arms crossed. | YARD | Вертолёт садится на газон; на крыльце Mom со скрещёнными руками. | — | вертолёт садится | BG yard; helicopter; MOM; LEON; BISCUIT |
+| S117 | 08:11.9–08:14.1 | "Where did you get a helicopter?" | YARD | Mom говорит, Leon держит Biscuit. | `08:12.3` WHERE DID YOU GET A HELICOPTER? | Mom хмурится | BG yard; MOM; LEON; BISCUIT |
+| S118 | 08:14.1–08:16.0 | "A mission, Mom." | YARD | Leon пожимает плечами. | `08:14.5` A MISSION, MOM. | Leon пожимает плечами | BG yard; LEON; MOM |
+| S119 | 08:16.0–08:21.4 | Dad checks the new bill and sighs. "Next time, use the stairs." | YARD | Dad смотрит на новый счёт на телефоне, вздыхает. | `08:19.3` NEXT TIME, USE THE STAIRS. | Dad вздыхает | BG yard; DAD; phone; LEON |
+| S120 | 08:21.4–08:25.6 | Leon laughs, and for a second, the whole map seems to hold its breath. | YARD | Leon смеётся; вокруг семья, Biscuit, Owen. | — | Leon смеётся | BG yard; LEON; MOM; DAD; BISCUIT; OWEN |
+| S121 | 08:25.6–08:35.3 | Then the minimap zooms out, slowly, and Leon sees how small his town really is, just one tiny corner of something huge. | MAPZOOM | Мини-карта в круге отъезжает: дом Leon всё меньше, видны другие кварталы. | — | карта отъезжает | minimap zoom out |
+| S122 | 08:35.3–08:44.4 | And far away, past the hills and the ocean, one new marker is blinking. Mission. Three question marks. | MAPZOOM | Далеко за горами и океаном мигает новая метка с «???». | `08:42.9` MISSION · ??? | метка мигает | minimap; marker ??? |
+| S123 | 08:44.4–08:55.4 | So, what would you do with a life like this? Tell us in the comments, and subscribe, because part two is already on the map. | VOID | Leon смотрит на зрителя, рядом кнопка SUBSCRIBE и колокольчик; на заднем плане метка. | `08:48.7` COMMENT BELOW; `08:49.6` PART 2 IS ON THE MAP | Leon показывает вниз | LEON; subscribe; bell |
 
 ## Итоги
-- Сцен: 121. Средняя длина 4.4 с, самая длинная 11.0 с (S121), самая короткая 1.1 с (S032). Итог 08:55.4.
+- Сцен: 123. Средняя длина 4.4 с, самая длинная 11.0 с (S123), самая короткая 1.1 с (S032). Итог 08:55.4.
 - Строк текста на экране: 70.
 - Гэги без звука: жёлтый круг и «+$20,000», 4 месяца зарплаты конвертами, 17 лет чеков, золотая миска и Biscuit, Owen замер с $10,000, звёзды в углу 1→2→3→4, смена кепки в мойке, полоска здоровья 90→40→3 % и WASTED, какао в палате, Dad: «Worth it», красная метка без награды, Biscuit на колесе, лестница с вертолёта, мини-карта отъезжает.
 - Логика: понедельник (тест +$20 тыс.) → неделя денег до $1 090 000 (пятница) → суббота машина → воскресенье катер и вертолёт → понедельник школа и погоня (4 звезды) → вторник крыша и палата → среда Biscuit пропал, большая миссия → финал. Деньги Leon: 20 тыс. → 1,09 млн; звёзды: 1, 2, 3, 4 (последнюю не потерять).

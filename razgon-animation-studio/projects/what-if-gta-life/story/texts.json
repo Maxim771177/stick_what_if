@@ -445,7 +445,7 @@
  {
   "t": 465.021,
   "s": "NICE RUN. SEE YOU ON THE NEXT MAP.",
-  "sc": 109,
+  "sc": 111,
   "k": "say",
   "raw": "say",
   "who": "RIVAL"
@@ -453,14 +453,14 @@
  {
   "t": 475.704,
   "s": "passed",
-  "sc": 111,
+  "sc": 113,
   "k": "ev",
   "raw": "ev"
  },
  {
   "t": 492.271,
   "s": "WHERE DID YOU GET A HELICOPTER?",
-  "sc": 115,
+  "sc": 117,
   "k": "say",
   "raw": "say",
   "who": "MOM"
@@ -468,7 +468,7 @@
  {
   "t": 494.504,
   "s": "A MISSION, MOM.",
-  "sc": 116,
+  "sc": 118,
   "k": "say",
   "raw": "say",
   "who": "LEON"
@@ -476,7 +476,7 @@
  {
   "t": 499.254,
   "s": "NEXT TIME, USE THE STAIRS.",
-  "sc": 117,
+  "sc": 119,
   "k": "say",
   "raw": "say",
   "who": "DAD"
@@ -484,21 +484,21 @@
  {
   "t": 522.904,
   "s": "MISSION · ???",
-  "sc": 120,
+  "sc": 122,
   "k": "plate",
   "raw": "plate"
  },
  {
   "t": 528.688,
   "s": "COMMENT BELOW",
-  "sc": 121,
+  "sc": 123,
   "k": "cap",
   "raw": "cap"
  },
  {
   "t": 529.604,
   "s": "PART 2 IS ON THE MAP",
-  "sc": 121,
+  "sc": 123,
   "k": "plate",
   "raw": "plate"
  }

@@ -46,9 +46,8 @@ export const all = (...fs) => (g, o, t) => fs.forEach((f) => f(g, o, t));
 export const roadFlag = (g, t, o = {}) => { const hy = H() * 0.44; inkShape(g, [[W() * 0.3, H()], [W() * 0.7, H()], [W() * 0.53, hy], [W() * 0.47, hy]], { fill: '#8c8c93', w: 6 }); for (let i = 0; i < 6; i++) { const u0 = i / 6 + 0.04, u1 = u0 + 0.06; const y0 = lerp(H(), hy, u0), y1 = lerp(H(), hy, u1); inkLine(g, [[W() * 0.5, y0], [W() * 0.5, y1]], { w: lerp(8, 3, u0), stroke: '#f6e27a' }); } X.flag(g, W() * 0.5, hy, 130, t); };
 
 // ===== ролик 07 (GTA-жизнь) =====
-import './sets2.js';
+import '../sets2.js';
 import * as X2 from '../gfx2.js';
-import { texts } from '../lib.js';
 export { X2 };
 // события из раскадровки: ev(info,'yellow') -> локальное время или null
 export const ev = (info, name) => { const r = texts(info, 'ev').find((q) => q.s === name); return r ? r.lt : null; };
