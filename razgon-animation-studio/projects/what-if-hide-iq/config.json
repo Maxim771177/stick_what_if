@@ -7,7 +7,7 @@
  "style": "clean",
  "voiceover": "input/voiceover.mp3",
  "script": "input/script.txt",
- "duration": 661.577,
+ "duration": 532.0,
  "captions": false,
  "bars": null,
  "fadeIn": 0.5,

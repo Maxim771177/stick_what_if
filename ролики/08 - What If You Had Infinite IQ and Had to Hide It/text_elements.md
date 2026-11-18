@@ -94,8 +94,8 @@
 | S120 | 07:13.0 | DAY 5 | day | — |
 | S120 | 07:13.0 | FRIDAY MORNING | cap | — |
 | S121 | 07:17.1 | 1989 | cap | — |
-| S123 | 07:21.6 | To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out. | card | — |
-| S124 | 07:36.1 | Hale | cap | — |
+| S123 | 07:21.6 | letter1 | ev | — |
+| S124 | 07:36.1 | letter2 | ev | — |
 | S127 | 07:42.9 | Thirty-seven years. | say | HALE |
 | S128 | 07:46.2 | I've waited thirty-seven years for someone to open that door. | say | HALE |
 | S131 | 08:01.2 | I carved that door myself, one summer, with a hammer and a lot of guilt. | say | HALE |
@@ -104,9 +104,9 @@
 | S135 | 08:19.3 | YOU'RE JUST EARLY | cap | — |
 | S136 | 08:23.7 | CALL | cap | — |
 | S139 | 08:28.8 | Rule two, broken, but I'm keeping the secret. | say | ZOE |
-| S140 | 08:34.1 | RULE 1 ✗ | plate | — |
-| S140 | 08:35.6 | RULE 2 ✗ | plate | — |
-| S140 | 08:37.2 | RULE 3 ? | plate | — |
+| S140 | 08:34.1 | r1 | ev | — |
+| S140 | 08:35.6 | r2 | ev | — |
+| S140 | 08:37.2 | r3 | ev | — |
 | S142 | 08:43.6 | GHOST? | cap | — |
 | S143 | 08:45.1 | COMMENTS | cap | — |
 | S144 | 08:48.0 | LIKE | cap | — |

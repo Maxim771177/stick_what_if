@@ -658,17 +658,17 @@
  },
  {
   "t": 441.55,
-  "s": "To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out.",
+  "s": "letter1",
   "sc": 123,
-  "k": "card",
-  "raw": "card"
+  "k": "ev",
+  "raw": "ev"
  },
  {
   "t": 456.133,
-  "s": "Hale",
+  "s": "letter2",
   "sc": 124,
-  "k": "cap",
-  "raw": "cap"
+  "k": "ev",
+  "raw": "ev"
  },
  {
   "t": 462.95,
@@ -733,24 +733,24 @@
  },
  {
   "t": 514.1,
-  "s": "RULE 1 ✗",
+  "s": "r1",
   "sc": 140,
-  "k": "plate",
-  "raw": "plate"
+  "k": "ev",
+  "raw": "ev"
  },
  {
   "t": 515.6,
-  "s": "RULE 2 ✗",
+  "s": "r2",
   "sc": 140,
-  "k": "plate",
-  "raw": "plate"
+  "k": "ev",
+  "raw": "ev"
  },
  {
   "t": 517.2,
-  "s": "RULE 3 ?",
+  "s": "r3",
   "sc": 140,
-  "k": "plate",
-  "raw": "plate"
+  "k": "ev",
+  "raw": "ev"
  },
  {
   "t": 523.633,
