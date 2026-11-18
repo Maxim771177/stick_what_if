@@ -1,0 +1,194 @@
+# Раскадровка: ролик 08, «What If You Had Infinite IQ and Had to Hide It?»
+Основа: `озвучка.mp3` (635.4 с = 10:35.4, ElevenLabs 1.2) и тайминги слов (`тайминги-слов.json`: Whisper small, выровнено по `сценарий.txt`, 97% слов совпало). Ролик ускоряется ещё ×1,2.
+
+## Хронометраж (лимит владельца: итог 8:00–8:20)
+- Озвучка целиком 10:35.4, после ×1,2: **08:49.5**: на 00:00.0 короче 8:00. Сокращать не нужно, наоборот: в конец добавлено 2.5 с тишины (финальный кадр держится), **итог 08:52.0**, в окне 8:00–8:20: да. Исходный `озвучка.mp3` не тронут; проектный `input/voiceover.mp3` = озвучка ×1,2 + хвост.
+- Времена `мм:сс.с` от начала итогового ролика; конец сцены = начало следующей.
+
+## Герои
+Все герои кодовые куклы Razgon, внешность одинаковая во всех сценах. Новые: Walt (бездомный) и девочка из крючка (GIRL); остальные из роликов 02–05.
+
+| Герой | Как выглядит | Откуда |
+|---|---|---|
+| LEON | эталон канала (кепка capBack, красная футболка с молнией, серые шорты, оранжевые кроссовки) | ролики 01–07 |
+| OWEN, ZOE, MS. PARK, DAD | как в роликах 02–07 (Owen в очках и зелёной толстовке, Zoe в жёлтом свитере, Park в фиолетовом костюме, Dad в синей футболке) | ролики 02–07 |
+| MR. HALE | инспектор бюро тестов: коричневый твидовый пиджак, седые короткие волосы, очки, планшет с зажимом в руке | новый, кодом |
+| COACH BURKE | учитель физкультуры: зелёная футболка, кепка capBack, свисток | новый, кодом |
+| MR. PIKE | ночной охранник: серо-синяя форма, кепка capBack, фонарик, связка ключей | новый, кодом |
+| MAYOR | мэр: бордовый костюм, седые волосы | новый, кодом |
+| ENGINEER, PRINCIPAL, GIRL (Britney), ПРОФЕССОРА | второстепенные, глаза видны | кодом |
+
+## Места
+Фоны столовой, спортзала, класса, кухни, улицы, автобуса, коридора из роликов 01–07. Новые места (OpenAI, одним фоном на место, ≈ 9 центов за 4 картинки): часовая башня ночью, механизм часов внутри, комната наверху башни, кабинет директора. Абстрактные места, схемы, врезки кодом.
+
+| Код | Место | Сцен |
+|---|---|---|
+| CAFE | столовая (OpenAI, ролик 01) | 17 |
+| VOID | абстрактный фон: схемы, плашки, письмо | 30 |
+| VOIDD | тёмный абстрактный фон | 3 |
+| OFFICE | кабинет директора (OpenAI, новый) | 7 |
+| CLASS | класс | 12 |
+| GYM | спортзал | 15 |
+| HALL | коридор/библиотека | 7 |
+| STREET | улица | 8 |
+| STREETN | ночная улица | 1 |
+| BUS | автобус внутри | 2 |
+| KITCHEN | кухня | 1 |
+| TOWERN | часовая башня снаружи ночью (OpenAI, новый) | 3 |
+| CLOCK | механизм часов (OpenAI, новый) | 3 |
+| TROOM | комната наверху башни (OpenAI, новый) | 35 |
+
+## Сцены
+
+| № | Время | Озвучка | Место | Кадр | Текст на экране | Анимация | Ассеты |
+|---|---|---|---|---|---|---|---|
+| S001 | 00:00.0–00:02.5 | Monday, lunch, the school cafeteria. | CAFE | Столовая в обед: столы, дети с подносами, мусорные баки у стены, над ними полка. Над кадром надпись дня. | `00:00.0` DAY 1; `00:01.6` MONDAY · LUNCH | дети ходят, камера чуть наезжает | BG cafeteria; KIDS×5; trash cans |
+| S002 | 00:02.5–00:10.0 | On a shelf above the trash cans sits a Rubik's Cube scrambled so badly that the cube club has stared at it for a whole semester. | CAFE | Крупно полка над баками: перемешанный кубик Рубика, три члена клуба смотрят на него снизу. | `00:04.8` CUBE CLUB | кубик качается и блестит | BG cafeteria; shelf; cube scrambled; KIDS×3 |
+| S003 | 00:10.0–00:14.6 | Owen, the club president, sighs at it every day like it owes him money. | CAFE | Owen в очках смотрит на полку и вздыхает облачком; рядом стол клуба. | — | Owen вздыхает, облачко | BG cafeteria; OWEN; shelf; cube |
+| S004 | 00:14.6–00:19.5 | Two tables away, Leon eats tater tots and glances at the cube once. | CAFE | Leon за столом с подносом: ест тайеры-тоты, бросает один взгляд на кубик и снова на поднос. | — | Leon ест, глаза вбок | BG cafeteria; LEON; tray; tots; table |
+| S005 | 00:19.5–00:21.7 | He solved it before he sat down. | CAFE | Облачко-мысль над Leon: собранный кубик с галочкой; Leon смотрит в сторону с невинным лицом. | — | облачко с кубиком | BG cafeteria; LEON; cloud solved cube |
+| S006 | 00:21.7–00:24.6 | But he can't touch it, not yet. | CAFE | Leon тянется к кубику рукой по столу и убирает руку: Owen идёт мимо. | — | рука тянется и прячется | BG cafeteria; LEON; OWEN; tray |
+| S007 | 00:24.6–00:30.6 | "Waiting," Leon whispers to his tater tots, "is the hardest part of being a genius." | CAFE | Крупно Leon с одним тайер-тотом у лица, шепчет ему. | `00:25.3` Waiting is the hardest part of being a genius. | шепчет тоту | BG cafeteria; LEON; tater tot |
+| S008 | 00:30.6–00:35.0 | And by Friday, a man with a clipboard will be hunting for him. | VOIDD | Тёмный фон, на стене тень мужчины с планшетом; красная плашка FRIDAY; Leon снизу замер. | `00:31.4` FRIDAY | тень растёт | BG dark; HALE shadow; LEON |
+| S009 | 00:35.0–00:40.1 | So, what if you had an infinite IQ, and had to hide it? | VOID | Leon по центру, над ним светящаяся бесконечность ∞ с надписью IQ. | `00:37.1` INFINITE IQ | ∞ вращается над головой | BG void; LEON; infinity |
+| S010 | 00:40.1–00:48.6 | Quick reality check. Real IQ tests stop around one hundred and sixty, and one hundred and thirty already puts you in the top two percent. | VOID | Шкала IQ как линейка: от 70 до 160 и красный обрыв; отметка 130 и «TOP 2%». | `00:40.4` QUICK REALITY CHECK; `00:44.5` REAL TESTS END ≈ 160; `00:45.9` 130 = TOP 2 % | маркер ползёт по шкале | BG void; IQ ruler |
+| S011 | 00:48.6–00:50.9 | Infinite isn't a score. | VOID | Знак ∞ вылезает за обрыв шкалы и ломает её; Leon смотрит снизу. | — | ∞ пробивает шкалу | BG void; IQ ruler broken; infinity; LEON |
+| S012 | 00:50.9–00:52.6 | It's a problem. | VOID | Leon нервничает, ∞ тяжело висит над головой, пот. | `00:51.6` IT'S A PROBLEM | капля пота | BG void; LEON; infinity |
+| S013 | 00:52.6–00:54.0 | Here's how it works. | CLASS | Класс: Leon у парты, перед ним лист, сверху плашка HOW IT WORKS. | `00:53.5` HOW IT WORKS |  | BG classroom; LEON; desk; paper |
+| S014 | 00:54.0–00:56.6 | Rule one. Never sign anything. | CLASS | Leon зачёркивает свою подпись внизу листа, плашка RULE 1. | `00:54.3` RULE 1 · NEVER SIGN ANYTHING | ручка зачёркивает подпись | BG classroom; LEON; paper; pen |
+| S015 | 00:56.6–00:59.6 | Rule two. Nobody can ever watch you solve it. | CLASS | Leon прикрывает лист рукой и локтем, трое ребят вытягивают шеи, плашка RULE 2. | `00:57.0` RULE 2 · NOBODY WATCHES YOU SOLVE | дети косятся | BG classroom; LEON; KIDS×3; paper |
+| S016 | 00:59.6–01:02.1 | Rule three. Solve it ugly. | CLASS | Лист в каракулях и зачёркнутых цифрах; Leon нарочно мажет; плашка RULE 3. | `01:00.3` RULE 3 · SOLVE IT UGLY | каракули растут | BG classroom; LEON; paper scribbles |
+| S017 | 01:02.1–01:05.7 | Take the long way, add extra steps, cross out a few things. | VOID | Схема: прямая линия против кривой зигзага; прямая зачёркнута, зигзаг подписан «LONG WAY». | `01:02.7` LONG WAY | зигзаг рисуется | BG void; zigzag path |
+| S018 | 01:05.7–01:10.6 | That last rule sounds easy, until you notice that your brain has no ugly mode. | VOID | Голова Leon сбоку с мозгом; у мозга рычаг «UGLY MODE» стоит на нуле, Leon дёргает безрезультатно. | `01:09.7` UGLY MODE: NONE | рычаг не двигается | BG void; LEON; brain; lever |
+| S019 | 01:10.6–01:15.4 | It finds the shortest path every single time, like water finding a drain. | VOID | Лабиринт: шарик катится по кратчайшей прямой, как вода в слив; сток в конце. | — | шарик летит по прямой | BG void; maze; ball; drain |
+| S020 | 01:15.4–01:19.0 | That's your one flaw, and it's going to cost you. | VOID | Leon смотрит с грустью, над ним табличка «ONE FLAW». | `01:16.8` ONE FLAW |  | BG void; LEON |
+| S021 | 01:19.0–01:22.7 | Plus, you know what every teacher will say about three words early. | CLASS | Ms. Park у доски; Leon шевелит губами заранее, Park говорит те же слова позже. | `01:19.3` PLUS; `01:22.0` Open your books. | Leon опережает на три слова | BG classroom; PARK; LEON; board |
+| S022 | 01:22.7–01:26.4 | You win every argument and lose on purpose. | CLASS | Leon и Owen спорят, Leon держит кубок «победитель спора», потом молча отдаёт кубок Owen. | — | кубок переходит из рук в руки | BG classroom; LEON; OWEN; trophy |
+| S023 | 01:26.4–01:29.5 | Homework takes exactly as long as tying a shoe. | CLASS | Leon за партой одним росчерком закрыл тетрадь; рядом он же завязывает шнурок; плашка «2 SEC». | `01:26.9` HOMEWORK: 2 SEC | тетрадь закрывается | BG classroom; LEON; desk; notebook |
+| S024 | 01:29.5–01:35.3 | Minus, this semester, three things that nobody could fix got fixed overnight. | VOID | Три карточки FIXED вылетают друг за другом: таблица, шифр, задача; плашка MINUS. | `01:29.8` MINUS | карточки вылетают | BG void; 3 cards |
+| S025 | 01:35.3–01:38.5 | A broken spreadsheet that ate the whole school fundraiser. | HALL | Таблица на экране с красными ячейками; копилка школьного сбора плачет. | `01:36.1` FUNDRAISER | ячейки краснеют, потом зеленеют | BG hall; spreadsheet; jar |
+| S026 | 01:38.5–01:40.6 | A cipher hidden in the library. | HALL | Библиотечная полка; из книги торчит карточка с шифром; Leon издалека. | `01:39.0` LIBRARY |  | BG hall; shelf; cipher card |
+| S027 | 01:40.6–01:43.3 | A math puzzle that stumped the teachers. | CLASS | Доска с огромной задачей; три учителя чешут головы; ответ написан кем-то под ней. | — | учителя чешут головы | BG classroom; board; PARK; teachers |
+| S028 | 01:43.3–01:44.9 | No signatures. | VOID | Три листа в ряд, подписи внизу пустые, над каждым зелёная галочка. | `01:44.0` NO SIGNATURES | листы по очереди | BG void; 3 papers |
+| S029 | 01:44.9–01:50.6 | The school paper gave the mystery solver a name, and a reporter named Zoe put it on the front page. | HALL | Zoe с блокнотом ставит на стенд газету с большим заголовком и призраком. | `01:48.7` ZOE · SCHOOL PAPER | газета приклеивается | BG hall; ZOE; newspaper stand |
+| S030 | 01:50.6–01:52.7 | Who is the Ghost? | HALL | Крупно заголовок газеты «WHO IS THE GHOST?»; Leon у края кадра читает и тихо уходит. | `01:51.9` WHO IS THE GHOST? | газета трясётся | BG hall; newspaper; LEON |
+| S031 | 01:52.7–01:57.0 | Then this morning, a man in a tweed jacket walked into the principal's office. | OFFICE | Кабинет директора: за столом директор, в дверь входит Hale в твидовом пиджаке с планшетом. | `01:53.6` THIS MORNING | Hale входит | BG principal; PRINCIPAL; HALE; clipboard |
+| S032 | 01:57.0–01:59.3 | Mr. Hale, from the state testing bureau. | OFFICE | Hale показывает значок; карточка с его именем. | `01:57.8` MR. HALE · STATE TESTING BUREAU |  | BG principal; HALE; badge |
+| S033 | 01:59.3–02:06.6 | He laid three solutions on the desk and said, "Whoever did this found the shortest possible way every time. Humans never do." | OFFICE | Hale кладёт три листа на стол директора и говорит. | `02:00.9` Whoever did this found the shortest possible way every time. Humans never do. | листы ложатся | BG principal; HALE; PRINCIPAL; 3 papers |
+| S034 | 02:06.6–02:14.9 | He turned to the principal. "Nobody gets that clean by accident. It takes either a machine, or a kid who has spent years hiding." | OFFICE | Hale поворачивается к директору; директор сглатывает; над Hale два значка-облака: робот и мальчик-прячущийся. | `02:11.4` It takes either a machine, or a kid who has spent years hiding. | директор сглатывает | BG principal; HALE; PRINCIPAL; robot; hiding kid |
+| S035 | 02:14.9–02:17.7 | He stared at his clipboard for a long moment. | OFFICE | Hale крупно смотрит на планшет. | — | планшет подрагивает | BG principal; HALE; clipboard |
+| S036 | 02:17.7–02:21.4 | "I only know one person who solves like that." | OFFICE | Hale поднимает глаза и смотрит прямо вперёд. | `02:18.0` I only know one person who solves like that. | взгляд на зрителя | BG principal; HALE |
+| S037 | 02:21.4–02:22.9 | Five days. | VOID | Календарь на пять дней, пятница обведена красным. | `02:22.3` FIVE DAYS | числа зачёркиваются | BG void; calendar |
+| S038 | 02:22.9–02:26.2 | And he's not leaving until he finds out who. | OFFICE | Hale садится на стул, ставит планшет на колени; директор вздыхает. | — | Hale садится | BG principal; HALE; PRINCIPAL; chair |
+| S039 | 02:26.2–02:28.0 | Back to lunch. | CAFE | Столовая, Leon с подносом идёт к столу. | `02:27.5` BACK TO LUNCH | Leon идёт | BG cafeteria; LEON; tray |
+| S040 | 02:28.0–02:30.0 | The cube isn't just scrambled. | VOID | Кубик на весь кадр, поворачивается; цветные грани перемешаны. | — | кубик вращается | BG void; cube big |
+| S041 | 02:30.0–02:34.1 | It's the superflip, the one position that needs every single move. | VOID | Кубик с развёрткой: все рёбра перевёрнуты стрелками; плашка SUPERFLIP. | `02:30.6` SUPERFLIP; `02:33.4` EVERY SINGLE MOVE | стрелки на рёбрах | BG void; cube; arrows |
+| S042 | 02:34.1–02:39.2 | In twenty ten, researchers proved that any cube can be solved in twenty moves or fewer, | VOID | Календарь 2010 и цифра 20 на фоне кубика; три исследователя с ноутбуком. | `02:35.0` 2010; `02:34.6` 20 MOVES OR FEWER | цифра 20 вырастает | BG void; 20; researchers |
+| S043 | 02:39.2–02:43.0 | and Google gave them about thirty-five years of computer time to do it. | VOID | Календарь-лист страниц летит, как лента: годы пролетают; плашка ≈ 35 YEARS OF COMPUTER TIME. | `02:40.7` ≈ 35 YEARS OF COMPUTER TIME | листы календаря летят | BG void; calendar; computer |
+| S044 | 02:43.0–02:46.6 | The superflip needs all twenty. | VOID | Счётчик 20/20 на кубике, замок защёлкивается. | `02:45.0` 20 / 20 |  | BG void; cube; counter |
+| S045 | 02:46.6–02:47.9 | The cafeteria empties. | CAFE | Столовая пустеет: дети с подносами уходят вправо, остаются Leon и кубик на полке. | — | толпа уходит | BG cafeteria; KIDS×6; LEON; shelf; cube |
+| S046 | 02:47.9–02:52.2 | Leon picks up a lunch tray, hides the cube behind it, and his fingers fly. | CAFE | Leon держит поднос перед грудью как щит; кубик спрятан за подносом; справа круглая врезка: пальцы крутят грани. | `02:51.6` TWENTY TURNS | грани мелькают во врезке | BG cafeteria; LEON; tray; cube; inset |
+| S047 | 02:52.2–02:56.8 | Twenty turns, in under ten seconds, not one wasted. | VOID | Двойной счётчик: ходы 0→20 и секундомер 0→9,9; плашка. | `02:52.2` 20 TURNS · 9.9 SEC | счётчики бегут | BG void; counter; stopwatch |
+| S048 | 02:56.8–03:01.8 | He sets the solved cube on Owen's seat and leaves a single tater tot on top. | CAFE | Leon кладёт собранный кубик на стул Owen и ставит сверху одного тайер-тота; быстро уходит. | — | кубик и тот | BG cafeteria; LEON; OWEN chair; cube solved; tot |
+| S049 | 03:01.8–03:03.7 | Owen comes back and stares. | CAFE | Owen возвращается, видит кубик, замирает. | — | Owen замирает | BG cafeteria; OWEN; chair; cube |
+| S050 | 03:03.7–03:06.0 | He picks it up like it might explode. | CAFE | Owen берёт кубик двумя руками на вытянутых, отклонившись назад, как бомбу. | — | Owen отклоняется | BG cafeteria; OWEN; cube |
+| S051 | 03:06.0–03:09.8 | "Somebody solved the superflip. We tried for four months!" | CAFE | Owen кричит шёпотом, поднимая кубик над головой. | `03:06.4` Somebody solved the superflip. We tried for four months! | кубик над головой | BG cafeteria; OWEN; cube |
+| S052 | 03:09.8–03:13.7 | Then he screams, and half the cafeteria screams with him. | CAFE | Owen орёт; за ним половина столовой тоже орёт, рты открыты. | — | крик, камера трясётся | BG cafeteria; OWEN; KIDS×6 |
+| S053 | 03:13.7–03:15.9 | Everyone is looking at the cube. | CAFE | Все смотрят на кубик в руке Owen: толпа лицом к нему, глаза направлены. | — | взгляды на кубик | BG cafeteria; OWEN; KIDS×5; cube |
+| S054 | 03:15.9–03:18.8 | Zoe is looking at the empty chair. | CAFE | Zoe одна смотрит на пустой стул Leon с оставленным подносом; все остальные заняты кубиком. | — | Zoe поворачивает голову | BG cafeteria; ZOE; Leon chair; tray; KIDS far |
+| S055 | 03:18.8–03:20.3 | Tuesday, the gym. | GYM | Спортзал, класс в ряд, Coach Burke перед ними. | `03:19.4` DAY 2; `03:19.7` TUESDAY · GYM |  | BG gym; BURKE; KIDS×5; LEON |
+| S056 | 03:20.3–03:26.4 | Coach Burke holds up one sheet of paper. "Nobody can fold this more than seven times. Go ahead, try." | GYM | Burke поднимает над головой один лист бумаги. | `03:20.7` Nobody can fold this more than seven times. Go ahead, try. | лист в поднятой руке | BG gym; BURKE; paper |
+| S057 | 03:26.4–03:28.3 | The whole class tries. | GYM | Класс мнёт и складывает бумагу, листы летят, дети пыхтят. | — | складывают | BG gym; KIDS×5; LEON; papers |
+| S058 | 03:28.3–03:34.8 | Fold, fold, fold, and by the seventh fold the stack is a brick that won't bend. | VOID | Стопка бумаги: счётчик сгибов 1…7, на седьмом она становится кирпичом и не гнётся. | `03:28.7` FOLD 1; `03:31.1` FOLD 7 | стопка растёт в толщину | BG void; paper stack; counter |
+| S059 | 03:34.8–03:35.9 | "Told you." | GYM | Burke скрестил руки, самодовольно. | `03:35.4` Told you. | качает головой | BG gym; BURKE; KIDS |
+| S060 | 03:35.9–03:39.1 | That's what everyone believed for a long time. | GYM | Все кивают; над классом табличка «7 MAX». | `03:37.3` "7 MAX" | кивают хором | BG gym; KIDS×6; BURKE |
+| S061 | 03:39.1–03:47.9 | Until two thousand two, when a high school student named Britney Gallivan did the math first, and folded a single piece of paper in half twelve times. | VOID | Девочка-школьница с листом бумаги в руках; рядом календарь 2002 и счётчик сгибов до 12. | `03:40.1` 2002; `03:42.5` BRITNEY GALLIVAN; `03:46.4` 12 FOLDS | девочка складывает лист | BG void; GIRL; paper; counter |
+| S062 | 03:47.9–03:54.2 | Her answer was that you need about one point two kilometres of paper, three quarters of a mile. | STREET | Бумажная лента уходит по дороге к горизонту; надпись 1.2 KM; рядом три четверти мили. | `03:50.6` 1.2 KM · ¾ MILE | лента разворачивается | BG street; paper ribbon; GIRL |
+| S063 | 03:54.2–03:56.0 | Leon doesn't say a word. | GYM | Leon прикладывает палец к губам: молчит, остальные у мяча. | — | палец к губам | BG gym; LEON; KIDS far |
+| S064 | 03:56.0–03:58.2 | He just slips a note into Owen's gym bag. | GYM | Leon засовывает записку в спортивную сумку Owen; Owen стоит спиной. | — | записка в сумку | BG gym; LEON; OWEN; bag; note |
+| S065 | 03:58.2–04:02.3 | "One point two kilometres. One direction only." | VOID | Крупно записка карандашом: ONE POINT TWO KILOMETRES. ONE DIRECTION ONLY. | `03:58.2` 1.2 KM · ONE DIRECTION ONLY | записка | BG void; note |
+| S066 | 04:02.3–04:05.2 | Owen reads it twice and yells, "Toilet paper!" | GYM | Owen читает записку, перечитывает и вопит с запиской над головой. | `04:04.2` Toilet paper! | Owen вопит | BG gym; OWEN; note |
+| S067 | 04:05.2–04:09.3 | By lunch the class has taped together every roll in the building. | GYM | Дети тащат рулоны туалетной бумаги, клеят скотчем в длинную полосу вдоль зала. | `04:05.8` BY LUNCH | полоса клеится | BG gym; KIDS×5; rolls; tape |
+| S068 | 04:09.3–04:13.8 | The whole school runs out for a week, and nobody dares ask why. | HALL | Школьный туалет: пустой диспенсер, ребёнок у двери в панике. | — | ребёнок мнётся | BG hall; KID; dispenser |
+| S069 | 04:13.8–04:18.6 | Three hours later, twelve folds. Twelve. | GYM | В центре зала огромный бумажный кирпич от рулонов, на нём цифра 12; класс стоит вокруг. | `04:15.2` 12 FOLDS | кирпич | BG gym; KIDS×6; giant brick; LEON |
+| S070 | 04:18.6–04:19.8 | The gym erupts. | GYM | Зал ликует: руки вверх, конфетти. | — | ликование | BG gym; KIDS×6; confetti |
+| S071 | 04:19.8–04:21.0 | Someone hugs the paper. | GYM | Ребёнок обнимает бумажный кирпич, остальные хлопают. | — | объятия | BG gym; KID; brick |
+| S072 | 04:21.0–04:23.0 | Coach Burke sits down on the floor. | GYM | Burke садится прямо на пол и качает головой. | — | Burke садится | BG gym; BURKE sit; brick |
+| S073 | 04:23.0–04:28.8 | The note falls out of Owen's pocket, and Mr. Hale picks it up with two fingers. | GYM | Из кармана Owen выпадает записка; Hale поднимает её двумя пальцами. | — | записка падает, Hale поднимает | BG gym; OWEN; HALE; note |
+| S074 | 04:28.8–04:35.2 | Pencil, no mistakes, no crossed-out numbers, not one extra step. | VOID | Записка крупно: чистые цифры карандашом; на семёрке перекладинка; ни зачёркнутого. | `04:30.3` NO MISTAKES | цифры загораются по очереди | BG void; note |
+| S075 | 04:35.2–04:41.8 | "Whoever wrote this," he says quietly, "didn't try things. They knew." | GYM | Hale тихо говорит, смотрит на записку; сзади класс ликует вдали. | `04:36.0` Whoever wrote this didn't try things. They knew. | тихо | BG gym; HALE; note; KIDS far |
+| S076 | 04:41.8–04:44.0 | Wednesday, the town. | STREET | Утренняя улица у школы, школа вдали. | `04:42.6` DAY 3; `04:43.1` WEDNESDAY · THE TOWN |  | BG street |
+| S077 | 04:44.0–04:47.8 | For ten years, the road outside your school has been a parking lot every morning. | STREET | Пробка: десятки машин в ряд, водители жмут на гудки. | `04:44.8` 10 YEARS | гудки, машины дёргаются | BG street; cars×6; DRIVERs |
+| S078 | 04:47.8–04:52.2 | Four hundred cars, one road, and traffic lights that argue with each other. | STREET | Два светофора лицом к лицу «спорят»: нахмуренные лица и красные огни; плашка 400 CARS. | `04:47.8` 400 CARS | огни мигают в спор | BG street; traffic lights×2; cars |
+| S079 | 04:52.2–04:55.3 | City engineers tried three times and gave up. | VOID | Три чертежа с красными крестами; два инженера в касках пожимают плечами. | `04:53.0` TRY 1  TRY 2  TRY 3 | кресты ставятся | BG void; ENG×2; blueprints |
+| S080 | 04:55.3–04:58.8 | Leon's bus sits in it for twenty minutes, again. | BUS | Автобус внутри: Leon у окна, за окном стоит пробка; часы показывают +20 MIN. | `04:57.0` +20 MIN | часы тикают | BG bus; LEON; clock; window cars |
+| S081 | 04:58.8–05:01.7 | So he takes a napkin and fixes it right there. | BUS | Leon достаёт салфетку и рисует на ней карандашом; лицо сосредоточено. | — | карандаш бегает | BG bus; LEON; napkin; pencil |
+| S082 | 05:01.7–05:10.6 | Every light is timed to turn green a few seconds after the one before it, so a car at the speed limit never stops. Engineers call it a green wave. | VOID | Вид сверху на дорогу: пять светофоров загораются зелёным по очереди, и точка-машина проезжает без остановок. | `05:03.3` GREEN WAVE | зелёная волна бежит | BG void; road top; lights×5; car dot |
+| S083 | 05:10.6–05:14.7 | He folds the napkin and drops it in the mayor's suggestion box at the library. | HALL | Библиотека: Leon опускает сложенную салфетку в ящик с надписью «MAYOR · SUGGESTIONS», оглядывается. | — | салфетка в ящик | BG hall; LEON; box; napkin |
+| S084 | 05:14.7–05:16.5 | The mayor reads it over breakfast. | KITCHEN | Мэр за столом на кухне читает салфетку, чашка в руке, брови вверх. | — | брови, кофе | BG kitchen; MAYOR; napkin; coffee |
+| S085 | 05:16.5–05:18.4 | An engineer checks it by lunch. | VOID | Инженер у доски с формулами: большая зелёная галочка. | — | галочка | BG void; ENG; board; check |
+| S086 | 05:18.4–05:21.6 | The city reprograms the lights overnight. | STREETN | Ночью рабочий на лестнице у столба с коробкой светофора; огни последовательно переключаются на зелёный. | — | огни бегут | BG street night; ENG; ladder; pole; lights |
+| S087 | 05:21.6–05:26.0 | Thursday morning, Dad drives Leon to school and doesn't stop once. | STREET | Машина Dad едет по дороге: в переднем окне Dad, в заднем Leon; на каждом перекрёстке загорается зелёный. | `05:22.3` DAY 4; `05:22.4` THURSDAY MORNING | машина едет вправо | BG street; car; DAD; LEON; lights |
+| S088 | 05:26.0–05:29.0 | Not once, in ten years. | STREET | Над машиной счётчик STOPS: 0; перекрёсток с зелёным огнём. | `05:26.4` STOPS: 0 | счётчик | BG street; car; counter |
+| S089 | 05:29.0–05:31.4 | "It's a miracle," Dad whispers. | STREET | Крупно окно машины: Dad с руками на руле и широко открытыми глазами шепчет. | `05:29.4` It's a miracle. | Dad шепчет | BG street; car; DAD |
+| S090 | 05:31.4–05:35.2 | In the back seat, Leon looks out the window and says nothing. | STREET | Заднее окно: Leon смотрит в сторону с каменным лицом. | — | Leon смотрит в окно | BG street; car; LEON |
+| S091 | 05:35.2–05:40.4 | By noon, the mayor gives a speech that thanks "an anonymous citizen with a pencil." | HALL | Мэр за трибуной перед людьми; над ним баннер; он говорит в микрофон. | `05:38.6` an anonymous citizen with a pencil | аплодисменты | BG hall; MAYOR; podium; crowd |
+| S092 | 05:40.4–05:44.3 | Meanwhile, Zoe lays a photo of the napkin next to a photo of the note. | CLASS | У Zoe в школьной редакции стол: она кладёт рядом два фото, салфетка и записка. | — | фото ложатся | BG classroom; ZOE; desk; photos×2 |
+| S093 | 05:44.3–05:46.4 | "Same pencil," she mutters. | CLASS | Zoe щурится на оба фото и бормочет. | `05:44.6` Same pencil. |  | BG classroom; ZOE; photos |
+| S094 | 05:46.4–05:48.4 | "Same crossed seven." | CLASS | Zoe тычет пальцем в семёрку на обоих фото; над семёрками светится одинаковая перекладинка. | `05:46.8` Same crossed seven. | перекладинки светятся | BG classroom; ZOE; photos; crossed 7×2 |
+| S095 | 05:48.4–05:51.4 | Rule one was never sign anything. | CLASS | Слева в углу плашка «RULE 1: NEVER SIGN» с галочкой; Zoe в центре. | `05:48.9` RULE 1: NEVER SIGN |  | BG classroom; ZOE; photos |
+| S096 | 05:51.4–05:56.5 | But a crossed seven isn't a signature. It's a fingerprint. | VOIDD | Zoe рядом, справа крупная врезка: отпечаток пальца, вместо завитков перечёркнутая семёрка. | `05:54.9` A FINGERPRINT | отпечаток светится | BG dark; ZOE; fingerprint inset; crossed 7 |
+| S097 | 05:56.5–05:60.0 | Thursday, midnight, the old clock tower. | TOWERN | Старая часовая башня ночью, стрелки на двенадцати, луна. Leon снизу идёт к двери башни. | `05:57.8` THURSDAY · MIDNIGHT | Leon идёт к башне | BG tower night; LEON |
+| S098 | 05:60.0–06:06.9 | At the top is a door that nobody has opened since nineteen eighty-nine, locked with a cipher carved into the frame. | TROOM | Дверь наверху башни: на раме вырезаны символы шифра; Leon смотрит снизу. | `06:05.4` CIPHER | символы мерцают | BG tower room; door; cipher frame |
+| S099 | 06:06.9–06:08.6 | Thirty-seven years. | TROOM | Календарь 1989 переходит в 2026; над ним «37 YEARS». | `06:06.9` 37 YEARS | календарь листается | BG tower room; calendar |
+| S100 | 06:08.6–06:11.0 | A university team gave up on it. | TOWERN | Три профессора с чемоданами уходят от башни, один роняет блокнот. | — | профессоры уходят | BG tower night; P1; P3; CTRL; notebook |
+| S101 | 06:11.0–06:13.6 | Leon knows the night guard's route to the second. | VOIDD | План башни сверху: пунктирный маршрут сторожа по кругу и секундомер. | — | маршрут рисуется | BG dark; tower plan; route; stopwatch |
+| S102 | 06:13.6–06:17.0 | Mr. Pike walks the loop in three minutes and forty seconds. | TOWERN | Pike с фонариком идёт вдоль стены башни; секундомер 3:40 над ним. | `06:15.9` 3:40 | Pike идёт, таймер | BG tower night; PIKE; flashlight; timer |
+| S103 | 06:17.0–06:22.5 | Leon slips through the janitor's closet, up the spiral stairs, and across the beams above the clock room. | CLOCK | Leon идёт по балке над часовым залом, руки в стороны; внизу шестерни. | — | идёт по балке | BG clock inside; LEON; beam |
+| S104 | 06:22.5–06:25.7 | He reaches the door, and a flashlight clicks on. | TROOM | Leon у двери; слева щёлкает фонарик, луч падает на него. | `06:24.6` CLICK | луч попадает на Leon | BG tower room; LEON; flashlight beam |
+| S105 | 06:25.7–06:28.2 | "Took you long enough," whispers Zoe. | TROOM | Zoe выходит из темноты с фонариком и шепчет. | `06:26.1` Took you long enough. |  | BG tower room; ZOE; flashlight; LEON |
+| S106 | 06:28.2–06:30.4 | "I figured the Ghost wouldn't miss this." | TROOM | Zoe продолжает с улыбкой; Leon молчит с вытаращенными глазами. | `06:28.4` I figured the Ghost wouldn't miss this. |  | BG tower room; ZOE; LEON |
+| S107 | 06:30.4–06:31.8 | "How did you find me?" | TROOM | Leon спрашивает шёпотом. | `06:30.8` How did you find me? |  | BG tower room; ZOE; LEON |
+| S108 | 06:31.8–06:33.8 | "You cross your sevens." | TROOM | Zoe самодовольно; над ней светится перечёркнутая семёрка. | `06:32.0` You cross your sevens. |  | BG tower room; ZOE; LEON; crossed 7 |
+| S109 | 06:33.8–06:35.8 | Below them, keys jingle. | TROOM | Zoe и Leon прислушиваются, ладонь к уху; внизу слабый звон ключей и тень. | — | звон, тени | BG tower room; ZOE; LEON |
+| S110 | 06:35.8–06:39.2 | Mr. Pike is early, and Zoe's flashlight is still on. | TROOM | Луч фонарика Zoe выбивается в проём лестницы; снизу светит луч Pike. | — | лучи тянутся | BG tower room; ZOE; LEON; beams |
+| S111 | 06:39.2–06:41.5 | She clicks it off with a shaking thumb. | TROOM | Крупно фонарик в руке Zoe: дрожит; палец щёлкает; свет гаснет. | — | дрожь, гаснет | BG tower room; flashlight; hand; ZOE |
+| S112 | 06:41.5–06:50.2 | They dive into the clock's machinery, gears the size of cars, and squeeze between two of them just as the bell hits midnight right over their heads. | CLOCK | Leon и Zoe втискиваются между двумя огромными шестернями; над ними колокол бьёт, звуковые кольца и тряска; они зажимают уши. | `06:47.3` BONG | колокол бьёт, кольца, тряска | BG clock inside; LEON; ZOE; gears×2; bell rings |
+| S113 | 06:50.2–06:52.7 | Their ears ring for a full minute. | CLOCK | Герои стоят, у ушей волнистые линии звона; лица обескуражены. | — | линии звона | BG clock inside; LEON; ZOE; ringing |
+| S114 | 06:52.7–07:00.2 | When the guard leaves, Leon crawls out, studies the cipher for forty seconds, and whispers the whole thing out loud. | TROOM | Leon выползает из-за угла, подходит к шифру на раме, считает секунды: 40. | `06:56.6` 40 SEC | таймер 0→40 | BG tower room; LEON; cipher; timer |
+| S115 | 07:00.2–07:02.2 | Zoe writes it down with shaking hands. | TROOM | Zoe записывает в блокнот, руки трясутся; Leon шепчет рядом. | — | ручка дрожит | BG tower room; ZOE; LEON; notebook |
+| S116 | 07:02.2–07:04.0 | The door swings open. | TROOM | Дверь открывается наружу с щелчком; свет льётся на героев. | — | дверь открывается | BG tower room; door; light beam; ZOE; LEON |
+| S117 | 07:04.0–07:05.9 | She turns around. | TROOM | Zoe поворачивается к Leon, прищурившись. | — |  | BG tower room; ZOE; LEON |
+| S118 | 07:05.9–07:07.7 | "You're the Ghost." | TROOM | Zoe указывает на Leon. | `07:06.4` You're the Ghost. | палец вперёд | BG tower room; ZOE; LEON |
+| S119 | 07:07.7–07:12.2 | Leon sighs. "I prefer guy who really likes puzzles." | TROOM | Leon вздыхает, пожимает плечами. | `07:09.2` I prefer guy who really likes puzzles. | плечи вверх | BG tower room; LEON; ZOE |
+| S120 | 07:12.2–07:14.7 | Friday morning, inside the tower room. | TROOM | Комната в башне утром: лучи в окне; Leon и Zoe стоят у стола. | `07:13.0` DAY 5; `07:13.0` FRIDAY MORNING |  | BG tower room; LEON; ZOE |
+| S121 | 07:14.7–07:19.9 | A small desk, a dusty lamp, one envelope, dated nineteen eighty-nine. | TROOM | Крупно стол: пыльная лампа, конверт с надписью 1989. | `07:17.1` 1989 | пыль в луче | BG tower room; desk; lamp; envelope |
+| S122 | 07:19.9–07:21.2 | Zoe reads it out loud. | TROOM | Zoe держит открытое письмо двумя руками перед собой, Leon заглядывает. | — |  | BG tower room; ZOE; LEON; letter |
+| S123 | 07:21.2–07:30.7 | "To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out. | VOID | Письмо крупно: строки печатаются по очереди. | `07:21.6` To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out. | строки печатаются | BG void; letter |
+| S124 | 07:30.7–07:36.5 | I figured the right person would solve it. Don't hide as long as I did. Hale." | VOID | Продолжение письма; внизу подпись «Hale». | `07:36.1` Hale | подпись | BG void; letter |
+| S125 | 07:36.5–07:38.8 | Behind them, the door creaks. | TROOM | Дверь скрипит; в проёме тёмный силуэт. | — | дверь скрипит | BG tower room; door; HALE shadow; ZOE; LEON |
+| S126 | 07:38.8–07:42.9 | Mr. Hale stands there, holding his clipboard like he forgot what it was for. | TROOM | Hale стоит в проёме, держит планшет, будто забыл, зачем он. | — |  | BG tower room; HALE; clipboard; ZOE; LEON |
+| S127 | 07:42.9–07:45.9 | "Thirty-seven years," he says. | TROOM | Hale говорит тихо. | `07:42.9` Thirty-seven years. |  | BG tower room; HALE |
+| S128 | 07:45.9–07:50.1 | "I've waited thirty-seven years for someone to open that door." | TROOM | Hale делает шаг; глаза влажные. | `07:46.2` I've waited thirty-seven years for someone to open that door. | шаг вперёд | BG tower room; HALE; ZOE; LEON |
+| S129 | 07:50.1–07:53.8 | Leon doesn't move. Zoe doesn't breathe. | TROOM | Leon и Zoe замерли столбом, глаза широко. | — |  | BG tower room; ZOE; LEON; HALE |
+| S130 | 07:53.8–08:00.7 | Hale looks at the letter, then at Leon, then he smiles and tears the top page off his clipboard. | TROOM | Hale смотрит на письмо, на Leon; улыбается и рвёт верхний лист планшета. | — | лист рвётся | BG tower room; HALE; clipboard; page |
+| S131 | 08:00.7–08:06.1 | "I carved that door myself, one summer, with a hammer and a lot of guilt." | TROOM | Hale с мягкой улыбкой; в облаке над ним молоток и дверь. | `08:01.2` I carved that door myself, one summer, with a hammer and a lot of guilt. |  | BG tower room; HALE; cloud hammer |
+| S132 | 08:06.1–08:12.1 | "Case closed. I'll report that there is no Ghost, only a very tired inspector." | TROOM | Hale комкает лист и убирает в карман, говорит. | `08:06.4` Case closed. I'll report that there is no Ghost, only a very tired inspector. | комок в карман | BG tower room; HALE; page crumple |
+| S133 | 08:12.1–08:14.9 | He hands Leon a card with a phone number. | TROOM | Hale протягивает Leon визитку; Leon берёт двумя руками. | — | визитка | BG tower room; HALE; LEON; card |
+| S134 | 08:14.9–08:18.8 | "Studies of gifted teenagers show that many of them hide it to fit in. | VOID | Диаграмма: ряд подростков, у многих над головой маска «FIT IN». | `08:15.3` MANY GIFTED TEENS HIDE IT TO FIT IN | маски появляются | BG void; teens; masks |
+| S135 | 08:18.8–08:21.5 | You're not strange. You're just early. | TROOM | Hale тепло говорит Leon; Leon выпрямляется. | `08:19.3` YOU'RE JUST EARLY |  | BG tower room; HALE; LEON; ZOE |
+| S136 | 08:21.5–08:24.3 | When you're ready to stop hiding, call." | TROOM | Hale показывает на визитку в руке Leon; в углу плашка CALL. | `08:23.7` CALL |  | BG tower room; HALE; LEON; card |
+| S137 | 08:24.3–08:26.1 | He walks down the stairs. | TROOM | Hale уходит к лестнице за дверью и исчезает; Leon смотрит ему вслед. | — | Hale уходит | BG tower room; HALE; LEON; ZOE |
+| S138 | 08:26.1–08:28.5 | Zoe gives Leon two thumbs up. | TROOM | Zoe показывает Leon два больших пальца. | — | пальцы вверх | BG tower room; ZOE; LEON |
+| S139 | 08:28.5–08:33.5 | "Rule two, broken," she whispers, "but I'm keeping the secret." | TROOM | Zoe шепчет с улыбкой, приложив палец к губам. | `08:28.8` Rule two, broken, but I'm keeping the secret. | палец к губам | BG tower room; ZOE; LEON |
+| S140 | 08:33.5–08:39.7 | Rule one, broken. Rule two, broken. Rule three, you never got right. | VOID | Три плашки правил вычёркиваются по очереди; третья остаётся, как «NEVER GOT IT RIGHT». | `08:34.1` RULE 1 ✗; `08:35.6` RULE 2 ✗; `08:37.2` RULE 3 ? | вычёркивания | BG void; 3 rule plates |
+| S141 | 08:39.7–08:42.2 | So, would you call the number? | TROOM | Leon с визиткой, телефон в другой руке, палец над кнопкой. | — | палец над кнопкой | BG tower room; LEON; card; phone |
+| S142 | 08:42.2–08:44.3 | Or would you stay the Ghost? | TROOM | Leon в простыне-призраке с прорезями для глаз (глаза видны), визитка в руке. | `08:43.6` GHOST? | простыня колышется | BG tower room; LEON ghost sheet; card |
+| S143 | 08:44.3–08:45.5 | Tell us in the comments. | VOID | Облачко комментария с пустым текстом растёт, в углу значок «COMMENTS». | `08:45.1` COMMENTS |  | BG void; comment bubble |
+| S144 | 08:45.5–08:52.0 | And if you want to hear that phone ring, hit like and subscribe. | VOID | Звонящий телефон качается; пальцы-палец лайк и колокольчик подписки. | `08:48.0` LIKE; `08:48.8` SUBSCRIBE | телефон звонит | BG void; phone ring; like; bell |
+
+## Итоги
+- Сцен: 144. Средняя длина 3.7 с, самая длинная 9.5 с (S123), самая короткая 1.1 с (S059). Итог 08:52.0.
+- Строк текста на экране: 108.
+- Гэги без звука: ∞ ломает шкалу IQ, рычаг UGLY MODE на нуле, кубик под подносом и счётчик 20/20, Owen держит кубик как бомбу, Zoe смотрит на пустой стул, кирпич бумаги на седьмом сгибе, лента туалетной бумаги через зал, пустой диспенсер, зелёная волна из пяти светофоров, STOPS: 0, перечёркнутая семёрка как отпечаток, шестерни и колокол над ухом, Hale рвёт лист, три вычеркнутых правила.
+- Логика: понедельник (кубик, Hale приходит, DAY 1) → вторник (спортзал, DAY 2) → среда (город, DAY 3) → четверг утром (Dad, DAY 4) → четверг полночь (башня) → пятница (письмо, DAY 5). Счётчик DAY слева сверху.

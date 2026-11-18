@@ -1,0 +1,2167 @@
+{
+ "title": "What If You Had Infinite IQ and Had to Hide It",
+ "duration": 531.999,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.483,
+   "line": "Monday, lunch, the school cafeteria.",
+   "scene": "Столовая в обед: столы, дети с подносами, мусорные баки у стены, над ними полка. Над кадром надпись дня.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "дети ходят, камера чуть наезжает",
+   "assets": "BG cafeteria; KIDS×5; trash cans",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 2.483,
+   "end": 10.042,
+   "line": "On a shelf above the trash cans sits a Rubik's Cube scrambled so badly that the cube club has stared at it for a whole semester.",
+   "scene": "Крупно полка над баками: перемешанный кубик Рубика, три члена клуба смотрят на него снизу.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "кубик качается и блестит",
+   "assets": "BG cafeteria; shelf; cube scrambled; KIDS×3",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 10.042,
+   "end": 14.592,
+   "line": "Owen, the club president, sighs at it every day like it owes him money.",
+   "scene": "Owen в очках смотрит на полку и вздыхает облачком; рядом стол клуба.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Owen вздыхает, облачко",
+   "assets": "BG cafeteria; OWEN; shelf; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 14.592,
+   "end": 19.483,
+   "line": "Two tables away, Leon eats tater tots and glances at the cube once.",
+   "scene": "Leon за столом с подносом: ест тайеры-тоты, бросает один взгляд на кубик и снова на поднос.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon ест, глаза вбок",
+   "assets": "BG cafeteria; LEON; tray; tots; table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 19.483,
+   "end": 21.692,
+   "line": "He solved it before he sat down.",
+   "scene": "Облачко-мысль над Leon: собранный кубик с галочкой; Leon смотрит в сторону с невинным лицом.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "облачко с кубиком",
+   "assets": "BG cafeteria; LEON; cloud solved cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 21.692,
+   "end": 24.567,
+   "line": "But he can't touch it, not yet.",
+   "scene": "Leon тянется к кубику рукой по столу и убирает руку: Owen идёт мимо.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "рука тянется и прячется",
+   "assets": "BG cafeteria; LEON; OWEN; tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 24.567,
+   "end": 30.608,
+   "line": "\"Waiting,\" Leon whispers to his tater tots, \"is the hardest part of being a genius.\"",
+   "scene": "Крупно Leon с одним тайер-тотом у лица, шепчет ему.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "шепчет тоту",
+   "assets": "BG cafeteria; LEON; tater tot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 30.608,
+   "end": 35.042,
+   "line": "And by Friday, a man with a clipboard will be hunting for him.",
+   "scene": "Тёмный фон, на стене тень мужчины с планшетом; красная плашка FRIDAY; Leon снизу замер.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "тень растёт",
+   "assets": "BG dark; HALE shadow; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 35.042,
+   "end": 40.133,
+   "line": "So, what if you had an infinite IQ, and had to hide it?",
+   "scene": "Leon по центру, над ним светящаяся бесконечность ∞ с надписью IQ.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "∞ вращается над головой",
+   "assets": "BG void; LEON; infinity",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 40.133,
+   "end": 48.617,
+   "line": "Quick reality check. Real IQ tests stop around one hundred and sixty, and one hundred and thirty already puts you in the top two percent.",
+   "scene": "Шкала IQ как линейка: от 70 до 160 и красный обрыв; отметка 130 и «TOP 2%».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "маркер ползёт по шкале",
+   "assets": "BG void; IQ ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 48.617,
+   "end": 50.942,
+   "line": "Infinite isn't a score.",
+   "scene": "Знак ∞ вылезает за обрыв шкалы и ломает её; Leon смотрит снизу.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "∞ пробивает шкалу",
+   "assets": "BG void; IQ ruler broken; infinity; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 50.942,
+   "end": 52.6,
+   "line": "It's a problem.",
+   "scene": "Leon нервничает, ∞ тяжело висит над головой, пот.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "капля пота",
+   "assets": "BG void; LEON; infinity",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 52.6,
+   "end": 53.983,
+   "line": "Here's how it works.",
+   "scene": "Класс: Leon у парты, перед ним лист, сверху плашка HOW IT WORKS.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG classroom; LEON; desk; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 53.983,
+   "end": 56.608,
+   "line": "Rule one. Never sign anything.",
+   "scene": "Leon зачёркивает свою подпись внизу листа, плашка RULE 1.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "ручка зачёркивает подпись",
+   "assets": "BG classroom; LEON; paper; pen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 56.608,
+   "end": 59.633,
+   "line": "Rule two. Nobody can ever watch you solve it.",
+   "scene": "Leon прикрывает лист рукой и локтем, трое ребят вытягивают шеи, плашка RULE 2.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "дети косятся",
+   "assets": "BG classroom; LEON; KIDS×3; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 59.633,
+   "end": 62.133,
+   "line": "Rule three. Solve it ugly.",
+   "scene": "Лист в каракулях и зачёркнутых цифрах; Leon нарочно мажет; плашка RULE 3.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "каракули растут",
+   "assets": "BG classroom; LEON; paper scribbles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 62.133,
+   "end": 65.667,
+   "line": "Take the long way, add extra steps, cross out a few things.",
+   "scene": "Схема: прямая линия против кривой зигзага; прямая зачёркнута, зигзаг подписан «LONG WAY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "зигзаг рисуется",
+   "assets": "BG void; zigzag path",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 65.667,
+   "end": 70.633,
+   "line": "That last rule sounds easy, until you notice that your brain has no ugly mode.",
+   "scene": "Голова Leon сбоку с мозгом; у мозга рычаг «UGLY MODE» стоит на нуле, Leon дёргает безрезультатно.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "рычаг не двигается",
+   "assets": "BG void; LEON; brain; lever",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 70.633,
+   "end": 75.425,
+   "line": "It finds the shortest path every single time, like water finding a drain.",
+   "scene": "Лабиринт: шарик катится по кратчайшей прямой, как вода в слив; сток в конце.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "шарик летит по прямой",
+   "assets": "BG void; maze; ball; drain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 75.425,
+   "end": 79.0,
+   "line": "That's your one flaw, and it's going to cost you.",
+   "scene": "Leon смотрит с грустью, над ним табличка «ONE FLAW».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG void; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 79.0,
+   "end": 82.675,
+   "line": "Plus, you know what every teacher will say about three words early.",
+   "scene": "Ms. Park у доски; Leon шевелит губами заранее, Park говорит те же слова позже.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon опережает на три слова",
+   "assets": "BG classroom; PARK; LEON; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 82.675,
+   "end": 86.433,
+   "line": "You win every argument and lose on purpose.",
+   "scene": "Leon и Owen спорят, Leon держит кубок «победитель спора», потом молча отдаёт кубок Owen.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "кубок переходит из рук в руки",
+   "assets": "BG classroom; LEON; OWEN; trophy",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 86.433,
+   "end": 89.471,
+   "line": "Homework takes exactly as long as tying a shoe.",
+   "scene": "Leon за партой одним росчерком закрыл тетрадь; рядом он же завязывает шнурок; плашка «2 SEC».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "тетрадь закрывается",
+   "assets": "BG classroom; LEON; desk; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 89.471,
+   "end": 95.283,
+   "line": "Minus, this semester, three things that nobody could fix got fixed overnight.",
+   "scene": "Три карточки FIXED вылетают друг за другом: таблица, шифр, задача; плашка MINUS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточки вылетают",
+   "assets": "BG void; 3 cards",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 95.283,
+   "end": 98.483,
+   "line": "A broken spreadsheet that ate the whole school fundraiser.",
+   "scene": "Таблица на экране с красными ячейками; копилка школьного сбора плачет.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "ячейки краснеют, потом зеленеют",
+   "assets": "BG hall; spreadsheet; jar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 98.483,
+   "end": 100.625,
+   "line": "A cipher hidden in the library.",
+   "scene": "Библиотечная полка; из книги торчит карточка с шифром; Leon издалека.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG hall; shelf; cipher card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 100.625,
+   "end": 103.292,
+   "line": "A math puzzle that stumped the teachers.",
+   "scene": "Доска с огромной задачей; три учителя чешут головы; ответ написан кем-то под ней.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "учителя чешут головы",
+   "assets": "BG classroom; board; PARK; teachers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 103.292,
+   "end": 104.925,
+   "line": "No signatures.",
+   "scene": "Три листа в ряд, подписи внизу пустые, над каждым зелёная галочка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "листы по очереди",
+   "assets": "BG void; 3 papers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 104.925,
+   "end": 110.625,
+   "line": "The school paper gave the mystery solver a name, and a reporter named Zoe put it on the front page.",
+   "scene": "Zoe с блокнотом ставит на стенд газету с большим заголовком и призраком.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "газета приклеивается",
+   "assets": "BG hall; ZOE; newspaper stand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 110.625,
+   "end": 112.725,
+   "line": "Who is the Ghost?",
+   "scene": "Крупно заголовок газеты «WHO IS THE GHOST?»; Leon у края кадра читает и тихо уходит.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "газета трясётся",
+   "assets": "BG hall; newspaper; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 112.725,
+   "end": 116.983,
+   "line": "Then this morning, a man in a tweed jacket walked into the principal's office.",
+   "scene": "Кабинет директора: за столом директор, в дверь входит Hale в твидовом пиджаке с планшетом.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "Hale входит",
+   "assets": "BG principal; PRINCIPAL; HALE; clipboard",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 116.983,
+   "end": 119.275,
+   "line": "Mr. Hale, from the state testing bureau.",
+   "scene": "Hale показывает значок; карточка с его именем.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG principal; HALE; badge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 119.275,
+   "end": 126.567,
+   "line": "He laid three solutions on the desk and said, \"Whoever did this found the shortest possible way every time. Humans never do.\"",
+   "scene": "Hale кладёт три листа на стол директора и говорит.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "листы ложатся",
+   "assets": "BG principal; HALE; PRINCIPAL; 3 papers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 126.567,
+   "end": 134.858,
+   "line": "He turned to the principal. \"Nobody gets that clean by accident. It takes either a machine, or a kid who has spent years hiding.\"",
+   "scene": "Hale поворачивается к директору; директор сглатывает; над Hale два значка-облака: робот и мальчик-прячущийся.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "директор сглатывает",
+   "assets": "BG principal; HALE; PRINCIPAL; robot; hiding kid",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 134.858,
+   "end": 137.675,
+   "line": "He stared at his clipboard for a long moment.",
+   "scene": "Hale крупно смотрит на планшет.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "планшет подрагивает",
+   "assets": "BG principal; HALE; clipboard",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 137.675,
+   "end": 141.367,
+   "line": "\"I only know one person who solves like that.\"",
+   "scene": "Hale поднимает глаза и смотрит прямо вперёд.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "взгляд на зрителя",
+   "assets": "BG principal; HALE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 141.367,
+   "end": 142.883,
+   "line": "Five days.",
+   "scene": "Календарь на пять дней, пятница обведена красным.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "числа зачёркиваются",
+   "assets": "BG void; calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 142.883,
+   "end": 146.15,
+   "line": "And he's not leaving until he finds out who.",
+   "scene": "Hale садится на стул, ставит планшет на колени; директор вздыхает.",
+   "set": "OFFICE",
+   "hud": "—",
+   "notes": "Hale садится",
+   "assets": "BG principal; HALE; PRINCIPAL; chair",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 146.15,
+   "end": 148.033,
+   "line": "Back to lunch.",
+   "scene": "Столовая, Leon с подносом идёт к столу.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon идёт",
+   "assets": "BG cafeteria; LEON; tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 148.033,
+   "end": 149.975,
+   "line": "The cube isn't just scrambled.",
+   "scene": "Кубик на весь кадр, поворачивается; цветные грани перемешаны.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кубик вращается",
+   "assets": "BG void; cube big",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 149.975,
+   "end": 154.142,
+   "line": "It's the superflip, the one position that needs every single move.",
+   "scene": "Кубик с развёрткой: все рёбра перевёрнуты стрелками; плашка SUPERFLIP.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелки на рёбрах",
+   "assets": "BG void; cube; arrows",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 154.142,
+   "end": 159.233,
+   "line": "In twenty ten, researchers proved that any cube can be solved in twenty moves or fewer,",
+   "scene": "Календарь 2010 и цифра 20 на фоне кубика; три исследователя с ноутбуком.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "цифра 20 вырастает",
+   "assets": "BG void; 20; researchers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 159.233,
+   "end": 163.033,
+   "line": "and Google gave them about thirty-five years of computer time to do it.",
+   "scene": "Календарь-лист страниц летит, как лента: годы пролетают; плашка ≈ 35 YEARS OF COMPUTER TIME.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "листы календаря летят",
+   "assets": "BG void; calendar; computer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 163.033,
+   "end": 166.592,
+   "line": "The superflip needs all twenty.",
+   "scene": "Счётчик 20/20 на кубике, замок защёлкивается.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG void; cube; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 166.592,
+   "end": 167.858,
+   "line": "The cafeteria empties.",
+   "scene": "Столовая пустеет: дети с подносами уходят вправо, остаются Leon и кубик на полке.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "толпа уходит",
+   "assets": "BG cafeteria; KIDS×6; LEON; shelf; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 167.858,
+   "end": 172.242,
+   "line": "Leon picks up a lunch tray, hides the cube behind it, and his fingers fly.",
+   "scene": "Leon держит поднос перед грудью как щит; кубик спрятан за подносом; справа круглая врезка: пальцы крутят грани.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "грани мелькают во врезке",
+   "assets": "BG cafeteria; LEON; tray; cube; inset",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 172.242,
+   "end": 176.767,
+   "line": "Twenty turns, in under ten seconds, not one wasted.",
+   "scene": "Двойной счётчик: ходы 0→20 и секундомер 0→9,9; плашка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "счётчики бегут",
+   "assets": "BG void; counter; stopwatch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 176.767,
+   "end": 181.75,
+   "line": "He sets the solved cube on Owen's seat and leaves a single tater tot on top.",
+   "scene": "Leon кладёт собранный кубик на стул Owen и ставит сверху одного тайер-тота; быстро уходит.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "кубик и тот",
+   "assets": "BG cafeteria; LEON; OWEN chair; cube solved; tot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 181.75,
+   "end": 183.65,
+   "line": "Owen comes back and stares.",
+   "scene": "Owen возвращается, видит кубик, замирает.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Owen замирает",
+   "assets": "BG cafeteria; OWEN; chair; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 183.65,
+   "end": 185.992,
+   "line": "He picks it up like it might explode.",
+   "scene": "Owen берёт кубик двумя руками на вытянутых, отклонившись назад, как бомбу.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Owen отклоняется",
+   "assets": "BG cafeteria; OWEN; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 185.992,
+   "end": 189.75,
+   "line": "\"Somebody solved the superflip. We tried for four months!\"",
+   "scene": "Owen кричит шёпотом, поднимая кубик над головой.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "кубик над головой",
+   "assets": "BG cafeteria; OWEN; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 189.75,
+   "end": 193.717,
+   "line": "Then he screams, and half the cafeteria screams with him.",
+   "scene": "Owen орёт; за ним половина столовой тоже орёт, рты открыты.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "крик, камера трясётся",
+   "assets": "BG cafeteria; OWEN; KIDS×6",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 193.717,
+   "end": 195.942,
+   "line": "Everyone is looking at the cube.",
+   "scene": "Все смотрят на кубик в руке Owen: толпа лицом к нему, глаза направлены.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "взгляды на кубик",
+   "assets": "BG cafeteria; OWEN; KIDS×5; cube",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 195.942,
+   "end": 198.792,
+   "line": "Zoe is looking at the empty chair.",
+   "scene": "Zoe одна смотрит на пустой стул Leon с оставленным подносом; все остальные заняты кубиком.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Zoe поворачивает голову",
+   "assets": "BG cafeteria; ZOE; Leon chair; tray; KIDS far",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 198.792,
+   "end": 200.3,
+   "line": "Tuesday, the gym.",
+   "scene": "Спортзал, класс в ряд, Coach Burke перед ними.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG gym; BURKE; KIDS×5; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 200.3,
+   "end": 206.375,
+   "line": "Coach Burke holds up one sheet of paper. \"Nobody can fold this more than seven times. Go ahead, try.\"",
+   "scene": "Burke поднимает над головой один лист бумаги.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "лист в поднятой руке",
+   "assets": "BG gym; BURKE; paper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 206.375,
+   "end": 208.287,
+   "line": "The whole class tries.",
+   "scene": "Класс мнёт и складывает бумагу, листы летят, дети пыхтят.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "складывают",
+   "assets": "BG gym; KIDS×5; LEON; papers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 208.287,
+   "end": 214.833,
+   "line": "Fold, fold, fold, and by the seventh fold the stack is a brick that won't bend.",
+   "scene": "Стопка бумаги: счётчик сгибов 1…7, на седьмом она становится кирпичом и не гнётся.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стопка растёт в толщину",
+   "assets": "BG void; paper stack; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 214.833,
+   "end": 215.892,
+   "line": "\"Told you.\"",
+   "scene": "Burke скрестил руки, самодовольно.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "качает головой",
+   "assets": "BG gym; BURKE; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 215.892,
+   "end": 219.075,
+   "line": "That's what everyone believed for a long time.",
+   "scene": "Все кивают; над классом табличка «7 MAX».",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "кивают хором",
+   "assets": "BG gym; KIDS×6; BURKE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 219.075,
+   "end": 227.883,
+   "line": "Until two thousand two, when a high school student named Britney Gallivan did the math first, and folded a single piece of paper in half twelve times.",
+   "scene": "Девочка-школьница с листом бумаги в руках; рядом календарь 2002 и счётчик сгибов до 12.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "девочка складывает лист",
+   "assets": "BG void; GIRL; paper; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 227.883,
+   "end": 234.217,
+   "line": "Her answer was that you need about one point two kilometres of paper, three quarters of a mile.",
+   "scene": "Бумажная лента уходит по дороге к горизонту; надпись 1.2 KM; рядом три четверти мили.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "лента разворачивается",
+   "assets": "BG street; paper ribbon; GIRL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 234.217,
+   "end": 235.983,
+   "line": "Leon doesn't say a word.",
+   "scene": "Leon прикладывает палец к губам: молчит, остальные у мяча.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "палец к губам",
+   "assets": "BG gym; LEON; KIDS far",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 235.983,
+   "end": 238.2,
+   "line": "He just slips a note into Owen's gym bag.",
+   "scene": "Leon засовывает записку в спортивную сумку Owen; Owen стоит спиной.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "записка в сумку",
+   "assets": "BG gym; LEON; OWEN; bag; note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 238.2,
+   "end": 242.283,
+   "line": "\"One point two kilometres. One direction only.\"",
+   "scene": "Крупно записка карандашом: ONE POINT TWO KILOMETRES. ONE DIRECTION ONLY.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "записка",
+   "assets": "BG void; note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 242.283,
+   "end": 245.2,
+   "line": "Owen reads it twice and yells, \"Toilet paper!\"",
+   "scene": "Owen читает записку, перечитывает и вопит с запиской над головой.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Owen вопит",
+   "assets": "BG gym; OWEN; note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 245.2,
+   "end": 249.292,
+   "line": "By lunch the class has taped together every roll in the building.",
+   "scene": "Дети тащат рулоны туалетной бумаги, клеят скотчем в длинную полосу вдоль зала.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "полоса клеится",
+   "assets": "BG gym; KIDS×5; rolls; tape",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 249.292,
+   "end": 253.792,
+   "line": "The whole school runs out for a week, and nobody dares ask why.",
+   "scene": "Школьный туалет: пустой диспенсер, ребёнок у двери в панике.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "ребёнок мнётся",
+   "assets": "BG hall; KID; dispenser",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 253.792,
+   "end": 258.55,
+   "line": "Three hours later, twelve folds. Twelve.",
+   "scene": "В центре зала огромный бумажный кирпич от рулонов, на нём цифра 12; класс стоит вокруг.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "кирпич",
+   "assets": "BG gym; KIDS×6; giant brick; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 258.55,
+   "end": 259.833,
+   "line": "The gym erupts.",
+   "scene": "Зал ликует: руки вверх, конфетти.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "ликование",
+   "assets": "BG gym; KIDS×6; confetti",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 259.833,
+   "end": 261.042,
+   "line": "Someone hugs the paper.",
+   "scene": "Ребёнок обнимает бумажный кирпич, остальные хлопают.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "объятия",
+   "assets": "BG gym; KID; brick",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 261.042,
+   "end": 262.975,
+   "line": "Coach Burke sits down on the floor.",
+   "scene": "Burke садится прямо на пол и качает головой.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Burke садится",
+   "assets": "BG gym; BURKE sit; brick",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 262.975,
+   "end": 268.783,
+   "line": "The note falls out of Owen's pocket, and Mr. Hale picks it up with two fingers.",
+   "scene": "Из кармана Owen выпадает записка; Hale поднимает её двумя пальцами.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "записка падает, Hale поднимает",
+   "assets": "BG gym; OWEN; HALE; note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 268.783,
+   "end": 275.25,
+   "line": "Pencil, no mistakes, no crossed-out numbers, not one extra step.",
+   "scene": "Записка крупно: чистые цифры карандашом; на семёрке перекладинка; ни зачёркнутого.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "цифры загораются по очереди",
+   "assets": "BG void; note",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 275.25,
+   "end": 281.842,
+   "line": "\"Whoever wrote this,\" he says quietly, \"didn't try things. They knew.\"",
+   "scene": "Hale тихо говорит, смотрит на записку; сзади класс ликует вдали.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "тихо",
+   "assets": "BG gym; HALE; note; KIDS far",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 281.842,
+   "end": 283.967,
+   "line": "Wednesday, the town.",
+   "scene": "Утренняя улица у школы, школа вдали.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG street",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 283.967,
+   "end": 287.817,
+   "line": "For ten years, the road outside your school has been a parking lot every morning.",
+   "scene": "Пробка: десятки машин в ряд, водители жмут на гудки.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "гудки, машины дёргаются",
+   "assets": "BG street; cars×6; DRIVERs",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 287.817,
+   "end": 292.158,
+   "line": "Four hundred cars, one road, and traffic lights that argue with each other.",
+   "scene": "Два светофора лицом к лицу «спорят»: нахмуренные лица и красные огни; плашка 400 CARS.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "огни мигают в спор",
+   "assets": "BG street; traffic lights×2; cars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 292.158,
+   "end": 295.346,
+   "line": "City engineers tried three times and gave up.",
+   "scene": "Три чертежа с красными крестами; два инженера в касках пожимают плечами.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кресты ставятся",
+   "assets": "BG void; ENG×2; blueprints",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 295.346,
+   "end": 298.792,
+   "line": "Leon's bus sits in it for twenty minutes, again.",
+   "scene": "Автобус внутри: Leon у окна, за окном стоит пробка; часы показывают +20 MIN.",
+   "set": "BUS",
+   "hud": "—",
+   "notes": "часы тикают",
+   "assets": "BG bus; LEON; clock; window cars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 298.792,
+   "end": 301.692,
+   "line": "So he takes a napkin and fixes it right there.",
+   "scene": "Leon достаёт салфетку и рисует на ней карандашом; лицо сосредоточено.",
+   "set": "BUS",
+   "hud": "—",
+   "notes": "карандаш бегает",
+   "assets": "BG bus; LEON; napkin; pencil",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 301.692,
+   "end": 310.65,
+   "line": "Every light is timed to turn green a few seconds after the one before it, so a car at the speed limit never stops. Engineers call it a green wave.",
+   "scene": "Вид сверху на дорогу: пять светофоров загораются зелёным по очереди, и точка-машина проезжает без остановок.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "зелёная волна бежит",
+   "assets": "BG void; road top; lights×5; car dot",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 310.65,
+   "end": 314.708,
+   "line": "He folds the napkin and drops it in the mayor's suggestion box at the library.",
+   "scene": "Библиотека: Leon опускает сложенную салфетку в ящик с надписью «MAYOR · SUGGESTIONS», оглядывается.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "салфетка в ящик",
+   "assets": "BG hall; LEON; box; napkin",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 314.708,
+   "end": 316.458,
+   "line": "The mayor reads it over breakfast.",
+   "scene": "Мэр за столом на кухне читает салфетку, чашка в руке, брови вверх.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "брови, кофе",
+   "assets": "BG kitchen; MAYOR; napkin; coffee",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 316.458,
+   "end": 318.45,
+   "line": "An engineer checks it by lunch.",
+   "scene": "Инженер у доски с формулами: большая зелёная галочка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "галочка",
+   "assets": "BG void; ENG; board; check",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 318.45,
+   "end": 321.625,
+   "line": "The city reprograms the lights overnight.",
+   "scene": "Ночью рабочий на лестнице у столба с коробкой светофора; огни последовательно переключаются на зелёный.",
+   "set": "STREETN",
+   "hud": "—",
+   "notes": "огни бегут",
+   "assets": "BG street night; ENG; ladder; pole; lights",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 321.625,
+   "end": 326.025,
+   "line": "Thursday morning, Dad drives Leon to school and doesn't stop once.",
+   "scene": "Машина Dad едет по дороге: в переднем окне Dad, в заднем Leon; на каждом перекрёстке загорается зелёный.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "машина едет вправо",
+   "assets": "BG street; car; DAD; LEON; lights",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 326.025,
+   "end": 328.967,
+   "line": "Not once, in ten years.",
+   "scene": "Над машиной счётчик STOPS: 0; перекрёсток с зелёным огнём.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "счётчик",
+   "assets": "BG street; car; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 328.967,
+   "end": 331.408,
+   "line": "\"It's a miracle,\" Dad whispers.",
+   "scene": "Крупно окно машины: Dad с руками на руле и широко открытыми глазами шепчет.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Dad шепчет",
+   "assets": "BG street; car; DAD",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 331.408,
+   "end": 335.225,
+   "line": "In the back seat, Leon looks out the window and says nothing.",
+   "scene": "Заднее окно: Leon смотрит в сторону с каменным лицом.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Leon смотрит в окно",
+   "assets": "BG street; car; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 335.225,
+   "end": 340.4,
+   "line": "By noon, the mayor gives a speech that thanks \"an anonymous citizen with a pencil.\"",
+   "scene": "Мэр за трибуной перед людьми; над ним баннер; он говорит в микрофон.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "аплодисменты",
+   "assets": "BG hall; MAYOR; podium; crowd",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 340.4,
+   "end": 344.25,
+   "line": "Meanwhile, Zoe lays a photo of the napkin next to a photo of the note.",
+   "scene": "У Zoe в школьной редакции стол: она кладёт рядом два фото, салфетка и записка.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "фото ложатся",
+   "assets": "BG classroom; ZOE; desk; photos×2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 344.25,
+   "end": 346.417,
+   "line": "\"Same pencil,\" she mutters.",
+   "scene": "Zoe щурится на оба фото и бормочет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG classroom; ZOE; photos",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 346.417,
+   "end": 348.433,
+   "line": "\"Same crossed seven.\"",
+   "scene": "Zoe тычет пальцем в семёрку на обоих фото; над семёрками светится одинаковая перекладинка.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "перекладинки светятся",
+   "assets": "BG classroom; ZOE; photos; crossed 7×2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 348.433,
+   "end": 351.425,
+   "line": "Rule one was never sign anything.",
+   "scene": "Слева в углу плашка «RULE 1: NEVER SIGN» с галочкой; Zoe в центре.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG classroom; ZOE; photos",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 351.425,
+   "end": 356.492,
+   "line": "But a crossed seven isn't a signature. It's a fingerprint.",
+   "scene": "Zoe рядом, справа крупная врезка: отпечаток пальца, вместо завитков перечёркнутая семёрка.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "отпечаток светится",
+   "assets": "BG dark; ZOE; fingerprint inset; crossed 7",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 356.492,
+   "end": 359.958,
+   "line": "Thursday, midnight, the old clock tower.",
+   "scene": "Старая часовая башня ночью, стрелки на двенадцати, луна. Leon снизу идёт к двери башни.",
+   "set": "TOWERN",
+   "hud": "—",
+   "notes": "Leon идёт к башне",
+   "assets": "BG tower night; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 359.958,
+   "end": 366.858,
+   "line": "At the top is a door that nobody has opened since nineteen eighty-nine, locked with a cipher carved into the frame.",
+   "scene": "Дверь наверху башни: на раме вырезаны символы шифра; Leon смотрит снизу.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "символы мерцают",
+   "assets": "BG tower room; door; cipher frame",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 366.858,
+   "end": 368.617,
+   "line": "Thirty-seven years.",
+   "scene": "Календарь 1989 переходит в 2026; над ним «37 YEARS».",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "календарь листается",
+   "assets": "BG tower room; calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 368.617,
+   "end": 370.996,
+   "line": "A university team gave up on it.",
+   "scene": "Три профессора с чемоданами уходят от башни, один роняет блокнот.",
+   "set": "TOWERN",
+   "hud": "—",
+   "notes": "профессоры уходят",
+   "assets": "BG tower night; P1; P3; CTRL; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 370.996,
+   "end": 373.642,
+   "line": "Leon knows the night guard's route to the second.",
+   "scene": "План башни сверху: пунктирный маршрут сторожа по кругу и секундомер.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "маршрут рисуется",
+   "assets": "BG dark; tower plan; route; stopwatch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 373.642,
+   "end": 376.958,
+   "line": "Mr. Pike walks the loop in three minutes and forty seconds.",
+   "scene": "Pike с фонариком идёт вдоль стены башни; секундомер 3:40 над ним.",
+   "set": "TOWERN",
+   "hud": "—",
+   "notes": "Pike идёт, таймер",
+   "assets": "BG tower night; PIKE; flashlight; timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 376.958,
+   "end": 382.517,
+   "line": "Leon slips through the janitor's closet, up the spiral stairs, and across the beams above the clock room.",
+   "scene": "Leon идёт по балке над часовым залом, руки в стороны; внизу шестерни.",
+   "set": "CLOCK",
+   "hud": "—",
+   "notes": "идёт по балке",
+   "assets": "BG clock inside; LEON; beam",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 382.517,
+   "end": 385.7,
+   "line": "He reaches the door, and a flashlight clicks on.",
+   "scene": "Leon у двери; слева щёлкает фонарик, луч падает на него.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "луч попадает на Leon",
+   "assets": "BG tower room; LEON; flashlight beam",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 385.7,
+   "end": 388.158,
+   "line": "\"Took you long enough,\" whispers Zoe.",
+   "scene": "Zoe выходит из темноты с фонариком и шепчет.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; flashlight; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 388.158,
+   "end": 390.425,
+   "line": "\"I figured the Ghost wouldn't miss this.\"",
+   "scene": "Zoe продолжает с улыбкой; Leon молчит с вытаращенными глазами.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 390.425,
+   "end": 391.775,
+   "line": "\"How did you find me?\"",
+   "scene": "Leon спрашивает шёпотом.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 391.775,
+   "end": 393.75,
+   "line": "\"You cross your sevens.\"",
+   "scene": "Zoe самодовольно; над ней светится перечёркнутая семёрка.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON; crossed 7",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 393.75,
+   "end": 395.833,
+   "line": "Below them, keys jingle.",
+   "scene": "Zoe и Leon прислушиваются, ладонь к уху; внизу слабый звон ключей и тень.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "звон, тени",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 395.833,
+   "end": 399.158,
+   "line": "Mr. Pike is early, and Zoe's flashlight is still on.",
+   "scene": "Луч фонарика Zoe выбивается в проём лестницы; снизу светит луч Pike.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "лучи тянутся",
+   "assets": "BG tower room; ZOE; LEON; beams",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 399.158,
+   "end": 401.483,
+   "line": "She clicks it off with a shaking thumb.",
+   "scene": "Крупно фонарик в руке Zoe: дрожит; палец щёлкает; свет гаснет.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "дрожь, гаснет",
+   "assets": "BG tower room; flashlight; hand; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 401.483,
+   "end": 410.175,
+   "line": "They dive into the clock's machinery, gears the size of cars, and squeeze between two of them just as the bell hits midnight right over their heads.",
+   "scene": "Leon и Zoe втискиваются между двумя огромными шестернями; над ними колокол бьёт, звуковые кольца и тряска; они зажимают уши.",
+   "set": "CLOCK",
+   "hud": "—",
+   "notes": "колокол бьёт, кольца, тряска",
+   "assets": "BG clock inside; LEON; ZOE; gears×2; bell rings",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 410.175,
+   "end": 412.7,
+   "line": "Their ears ring for a full minute.",
+   "scene": "Герои стоят, у ушей волнистые линии звона; лица обескуражены.",
+   "set": "CLOCK",
+   "hud": "—",
+   "notes": "линии звона",
+   "assets": "BG clock inside; LEON; ZOE; ringing",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 412.7,
+   "end": 420.183,
+   "line": "When the guard leaves, Leon crawls out, studies the cipher for forty seconds, and whispers the whole thing out loud.",
+   "scene": "Leon выползает из-за угла, подходит к шифру на раме, считает секунды: 40.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "таймер 0→40",
+   "assets": "BG tower room; LEON; cipher; timer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 420.183,
+   "end": 422.25,
+   "line": "Zoe writes it down with shaking hands.",
+   "scene": "Zoe записывает в блокнот, руки трясутся; Leon шепчет рядом.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "ручка дрожит",
+   "assets": "BG tower room; ZOE; LEON; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 422.25,
+   "end": 424.033,
+   "line": "The door swings open.",
+   "scene": "Дверь открывается наружу с щелчком; свет льётся на героев.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "дверь открывается",
+   "assets": "BG tower room; door; light beam; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 424.033,
+   "end": 425.933,
+   "line": "She turns around.",
+   "scene": "Zoe поворачивается к Leon, прищурившись.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 425.933,
+   "end": 427.692,
+   "line": "\"You're the Ghost.\"",
+   "scene": "Zoe указывает на Leon.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "палец вперёд",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 427.692,
+   "end": 432.208,
+   "line": "Leon sighs. \"I prefer guy who really likes puzzles.\"",
+   "scene": "Leon вздыхает, пожимает плечами.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "плечи вверх",
+   "assets": "BG tower room; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 432.208,
+   "end": 434.717,
+   "line": "Friday morning, inside the tower room.",
+   "scene": "Комната в башне утром: лучи в окне; Leon и Zoe стоят у стола.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 434.717,
+   "end": 439.883,
+   "line": "A small desk, a dusty lamp, one envelope, dated nineteen eighty-nine.",
+   "scene": "Крупно стол: пыльная лампа, конверт с надписью 1989.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "пыль в луче",
+   "assets": "BG tower room; desk; lamp; envelope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 439.883,
+   "end": 441.2,
+   "line": "Zoe reads it out loud.",
+   "scene": "Zoe держит открытое письмо двумя руками перед собой, Leon заглядывает.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON; letter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 441.2,
+   "end": 450.683,
+   "line": "\"To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out.",
+   "scene": "Письмо крупно: строки печатаются по очереди.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "строки печатаются",
+   "assets": "BG void; letter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 450.683,
+   "end": 456.517,
+   "line": "I figured the right person would solve it. Don't hide as long as I did. Hale.\"",
+   "scene": "Продолжение письма; внизу подпись «Hale».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "подпись",
+   "assets": "BG void; letter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 456.517,
+   "end": 458.817,
+   "line": "Behind them, the door creaks.",
+   "scene": "Дверь скрипит; в проёме тёмный силуэт.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "дверь скрипит",
+   "assets": "BG tower room; door; HALE shadow; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 458.817,
+   "end": 462.95,
+   "line": "Mr. Hale stands there, holding his clipboard like he forgot what it was for.",
+   "scene": "Hale стоит в проёме, держит планшет, будто забыл, зачем он.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; HALE; clipboard; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 462.95,
+   "end": 465.933,
+   "line": "\"Thirty-seven years,\" he says.",
+   "scene": "Hale говорит тихо.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; HALE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s128",
+   "start": 465.933,
+   "end": 470.125,
+   "line": "\"I've waited thirty-seven years for someone to open that door.\"",
+   "scene": "Hale делает шаг; глаза влажные.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "шаг вперёд",
+   "assets": "BG tower room; HALE; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s129",
+   "start": 470.125,
+   "end": 473.775,
+   "line": "Leon doesn't move. Zoe doesn't breathe.",
+   "scene": "Leon и Zoe замерли столбом, глаза широко.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; ZOE; LEON; HALE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s130",
+   "start": 473.775,
+   "end": 480.733,
+   "line": "Hale looks at the letter, then at Leon, then he smiles and tears the top page off his clipboard.",
+   "scene": "Hale смотрит на письмо, на Leon; улыбается и рвёт верхний лист планшета.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "лист рвётся",
+   "assets": "BG tower room; HALE; clipboard; page",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s131",
+   "start": 480.733,
+   "end": 486.108,
+   "line": "\"I carved that door myself, one summer, with a hammer and a lot of guilt.\"",
+   "scene": "Hale с мягкой улыбкой; в облаке над ним молоток и дверь.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; HALE; cloud hammer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s132",
+   "start": 486.108,
+   "end": 492.067,
+   "line": "\"Case closed. I'll report that there is no Ghost, only a very tired inspector.\"",
+   "scene": "Hale комкает лист и убирает в карман, говорит.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "комок в карман",
+   "assets": "BG tower room; HALE; page crumple",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s133",
+   "start": 492.067,
+   "end": 494.875,
+   "line": "He hands Leon a card with a phone number.",
+   "scene": "Hale протягивает Leon визитку; Leon берёт двумя руками.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "визитка",
+   "assets": "BG tower room; HALE; LEON; card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s134",
+   "start": 494.875,
+   "end": 498.825,
+   "line": "\"Studies of gifted teenagers show that many of them hide it to fit in.",
+   "scene": "Диаграмма: ряд подростков, у многих над головой маска «FIT IN».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "маски появляются",
+   "assets": "BG void; teens; masks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s135",
+   "start": 498.825,
+   "end": 501.533,
+   "line": "You're not strange. You're just early.",
+   "scene": "Hale тепло говорит Leon; Leon выпрямляется.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; HALE; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s136",
+   "start": 501.533,
+   "end": 504.267,
+   "line": "When you're ready to stop hiding, call.\"",
+   "scene": "Hale показывает на визитку в руке Leon; в углу плашка CALL.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG tower room; HALE; LEON; card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s137",
+   "start": 504.267,
+   "end": 506.067,
+   "line": "He walks down the stairs.",
+   "scene": "Hale уходит к лестнице за дверью и исчезает; Leon смотрит ему вслед.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "Hale уходит",
+   "assets": "BG tower room; HALE; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s138",
+   "start": 506.067,
+   "end": 508.462,
+   "line": "Zoe gives Leon two thumbs up.",
+   "scene": "Zoe показывает Leon два больших пальца.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "пальцы вверх",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s139",
+   "start": 508.462,
+   "end": 513.45,
+   "line": "\"Rule two, broken,\" she whispers, \"but I'm keeping the secret.\"",
+   "scene": "Zoe шепчет с улыбкой, приложив палец к губам.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "палец к губам",
+   "assets": "BG tower room; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s140",
+   "start": 513.45,
+   "end": 519.692,
+   "line": "Rule one, broken. Rule two, broken. Rule three, you never got right.",
+   "scene": "Три плашки правил вычёркиваются по очереди; третья остаётся, как «NEVER GOT IT RIGHT».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "вычёркивания",
+   "assets": "BG void; 3 rule plates",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s141",
+   "start": 519.692,
+   "end": 522.2,
+   "line": "So, would you call the number?",
+   "scene": "Leon с визиткой, телефон в другой руке, палец над кнопкой.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "палец над кнопкой",
+   "assets": "BG tower room; LEON; card; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s142",
+   "start": 522.2,
+   "end": 524.292,
+   "line": "Or would you stay the Ghost?",
+   "scene": "Leon в простыне-призраке с прорезями для глаз (глаза видны), визитка в руке.",
+   "set": "TROOM",
+   "hud": "—",
+   "notes": "простыня колышется",
+   "assets": "BG tower room; LEON ghost sheet; card",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s143",
+   "start": 524.292,
+   "end": 525.467,
+   "line": "Tell us in the comments.",
+   "scene": "Облачко комментария с пустым текстом растёт, в углу значок «COMMENTS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG void; comment bubble",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s144",
+   "start": 525.467,
+   "end": 531.998,
+   "line": "And if you want to hear that phone ring, hit like and subscribe.",
+   "scene": "Звонящий телефон качается; пальцы-палец лайк и колокольчик подписки.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "телефон звонит",
+   "assets": "BG void; phone ring; like; bell",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

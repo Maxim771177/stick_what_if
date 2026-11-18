@@ -1,0 +1,783 @@
+[
+ {
+  "t": 0.0,
+  "s": "DAY 1",
+  "sc": 1,
+  "k": "day",
+  "raw": "day"
+ },
+ {
+  "t": 1.617,
+  "s": "MONDAY · LUNCH",
+  "sc": 1,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 4.8,
+  "s": "CUBE CLUB",
+  "sc": 2,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 25.267,
+  "s": "Waiting is the hardest part of being a genius.",
+  "sc": 7,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 31.4,
+  "s": "FRIDAY",
+  "sc": 8,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 37.133,
+  "s": "INFINITE IQ",
+  "sc": 9,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 40.417,
+  "s": "QUICK REALITY CHECK",
+  "sc": 10,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 44.533,
+  "s": "REAL TESTS END ≈ 160",
+  "sc": 10,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 45.944,
+  "s": "130 = TOP 2 %",
+  "sc": 10,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 51.65,
+  "s": "IT'S A PROBLEM",
+  "sc": 12,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 53.533,
+  "s": "HOW IT WORKS",
+  "sc": 13,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 54.267,
+  "s": "RULE 1 · NEVER SIGN ANYTHING",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 56.983,
+  "s": "RULE 2 · NOBODY WATCHES YOU SOLVE",
+  "sc": 15,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 60.283,
+  "s": "RULE 3 · SOLVE IT UGLY",
+  "sc": 16,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 62.683,
+  "s": "LONG WAY",
+  "sc": 17,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 69.717,
+  "s": "UGLY MODE: NONE",
+  "sc": 18,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 76.8,
+  "s": "ONE FLAW",
+  "sc": 20,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 79.317,
+  "s": "PLUS",
+  "sc": 21,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 82.05,
+  "s": "Open your books.",
+  "sc": 21,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 86.867,
+  "s": "HOMEWORK: 2 SEC",
+  "sc": 23,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 89.775,
+  "s": "MINUS",
+  "sc": 24,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 96.108,
+  "s": "FUNDRAISER",
+  "sc": 25,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 98.975,
+  "s": "LIBRARY",
+  "sc": 26,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 103.975,
+  "s": "NO SIGNATURES",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 108.692,
+  "s": "ZOE · SCHOOL PAPER",
+  "sc": 29,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 111.942,
+  "s": "WHO IS THE GHOST?",
+  "sc": 30,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 113.642,
+  "s": "THIS MORNING",
+  "sc": 31,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 117.775,
+  "s": "MR. HALE · STATE TESTING BUREAU",
+  "sc": 32,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 120.908,
+  "s": "Whoever did this found the shortest possible way every time. Humans never do.",
+  "sc": 33,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 131.392,
+  "s": "It takes either a machine, or a kid who has spent years hiding.",
+  "sc": 34,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 138.008,
+  "s": "I only know one person who solves like that.",
+  "sc": 36,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 142.342,
+  "s": "FIVE DAYS",
+  "sc": 37,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 147.475,
+  "s": "BACK TO LUNCH",
+  "sc": 39,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 150.608,
+  "s": "SUPERFLIP",
+  "sc": 41,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 153.425,
+  "s": "EVERY SINGLE MOVE",
+  "sc": 41,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 154.592,
+  "s": "20 MOVES OR FEWER",
+  "sc": 42,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 155.042,
+  "s": "2010",
+  "sc": 42,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 160.675,
+  "s": "≈ 35 YEARS OF COMPUTER TIME",
+  "sc": 43,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 165.008,
+  "s": "20 / 20",
+  "sc": 44,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 171.625,
+  "s": "TWENTY TURNS",
+  "sc": 46,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 172.242,
+  "s": "20 TURNS · 9.9 SEC",
+  "sc": 47,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 186.392,
+  "s": "Somebody solved the superflip. We tried for four months!",
+  "sc": 51,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 199.392,
+  "s": "DAY 2",
+  "sc": 55,
+  "k": "day",
+  "raw": "day"
+ },
+ {
+  "t": 199.725,
+  "s": "TUESDAY · GYM",
+  "sc": 55,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 200.725,
+  "s": "Nobody can fold this more than seven times. Go ahead, try.",
+  "sc": 56,
+  "k": "say",
+  "raw": "say",
+  "who": "BURKE"
+ },
+ {
+  "t": 208.683,
+  "s": "FOLD 1",
+  "sc": 58,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 211.117,
+  "s": "FOLD 7",
+  "sc": 58,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 215.367,
+  "s": "Told you.",
+  "sc": 59,
+  "k": "say",
+  "raw": "say",
+  "who": "BURKE"
+ },
+ {
+  "t": 217.283,
+  "s": "\"7 MAX\"",
+  "sc": 60,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 220.056,
+  "s": "2002",
+  "sc": 61,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 222.517,
+  "s": "BRITNEY GALLIVAN",
+  "sc": 61,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 226.367,
+  "s": "12 FOLDS",
+  "sc": 61,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 230.646,
+  "s": "1.2 KM · ¾ MILE",
+  "sc": 62,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 238.2,
+  "s": "1.2 KM · ONE DIRECTION ONLY",
+  "sc": 65,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 244.183,
+  "s": "Toilet paper!",
+  "sc": 66,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 245.8,
+  "s": "BY LUNCH",
+  "sc": 67,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 255.183,
+  "s": "12 FOLDS",
+  "sc": 69,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 270.3,
+  "s": "NO MISTAKES",
+  "sc": 74,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 276.017,
+  "s": "Whoever wrote this didn't try things. They knew.",
+  "sc": 75,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 282.6,
+  "s": "DAY 3",
+  "sc": 76,
+  "k": "day",
+  "raw": "day"
+ },
+ {
+  "t": 283.1,
+  "s": "WEDNESDAY · THE TOWN",
+  "sc": 76,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 284.783,
+  "s": "10 YEARS",
+  "sc": 77,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 287.817,
+  "s": "400 CARS",
+  "sc": 78,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 292.967,
+  "s": "TRY 1  TRY 2  TRY 3",
+  "sc": 79,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 296.992,
+  "s": "+20 MIN",
+  "sc": 80,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 303.325,
+  "s": "GREEN WAVE",
+  "sc": 82,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 322.275,
+  "s": "DAY 4",
+  "sc": 87,
+  "k": "day",
+  "raw": "day"
+ },
+ {
+  "t": 322.425,
+  "s": "THURSDAY MORNING",
+  "sc": 87,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 326.375,
+  "s": "STOPS: 0",
+  "sc": 88,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 329.375,
+  "s": "It's a miracle.",
+  "sc": 89,
+  "k": "say",
+  "raw": "say",
+  "who": "DAD"
+ },
+ {
+  "t": 338.642,
+  "s": "an anonymous citizen with a pencil",
+  "sc": 91,
+  "k": "say",
+  "raw": "say",
+  "who": "MAYOR"
+ },
+ {
+  "t": 344.558,
+  "s": "Same pencil.",
+  "sc": 93,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 346.792,
+  "s": "Same crossed seven.",
+  "sc": 94,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 348.908,
+  "s": "RULE 1: NEVER SIGN",
+  "sc": 95,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 354.908,
+  "s": "A FINGERPRINT",
+  "sc": 96,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 357.825,
+  "s": "THURSDAY · MIDNIGHT",
+  "sc": 97,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 365.425,
+  "s": "CIPHER",
+  "sc": 98,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 366.858,
+  "s": "37 YEARS",
+  "sc": 99,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 375.933,
+  "s": "3:40",
+  "sc": 102,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 384.65,
+  "s": "CLICK",
+  "sc": 104,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 386.05,
+  "s": "Took you long enough.",
+  "sc": 105,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 388.417,
+  "s": "I figured the Ghost wouldn't miss this.",
+  "sc": 106,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 390.783,
+  "s": "How did you find me?",
+  "sc": 107,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 392.017,
+  "s": "You cross your sevens.",
+  "sc": 108,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 407.317,
+  "s": "BONG",
+  "sc": 112,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 416.583,
+  "s": "40 SEC",
+  "sc": 114,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 426.35,
+  "s": "You're the Ghost.",
+  "sc": 118,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 429.233,
+  "s": "I prefer guy who really likes puzzles.",
+  "sc": 119,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 433.033,
+  "s": "DAY 5",
+  "sc": 120,
+  "k": "day",
+  "raw": "day"
+ },
+ {
+  "t": 433.033,
+  "s": "FRIDAY MORNING",
+  "sc": 120,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 437.083,
+  "s": "1989",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 441.55,
+  "s": "To whoever opens this door. I built this lock when I was fourteen, because I was the smartest kid in town, and I was terrified of anyone finding out.",
+  "sc": 123,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 456.133,
+  "s": "Hale",
+  "sc": 124,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 462.95,
+  "s": "Thirty-seven years.",
+  "sc": 127,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 466.233,
+  "s": "I've waited thirty-seven years for someone to open that door.",
+  "sc": 128,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 481.2,
+  "s": "I carved that door myself, one summer, with a hammer and a lot of guilt.",
+  "sc": 131,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 486.433,
+  "s": "Case closed. I'll report that there is no Ghost, only a very tired inspector.",
+  "sc": 132,
+  "k": "say",
+  "raw": "say",
+  "who": "HALE"
+ },
+ {
+  "t": 495.267,
+  "s": "MANY GIFTED TEENS HIDE IT TO FIT IN",
+  "sc": 134,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 499.333,
+  "s": "YOU'RE JUST EARLY",
+  "sc": 135,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 503.65,
+  "s": "CALL",
+  "sc": 136,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 508.792,
+  "s": "Rule two, broken, but I'm keeping the secret.",
+  "sc": 139,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 514.1,
+  "s": "RULE 1 ✗",
+  "sc": 140,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 515.6,
+  "s": "RULE 2 ✗",
+  "sc": 140,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 517.2,
+  "s": "RULE 3 ?",
+  "sc": 140,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 523.633,
+  "s": "GHOST?",
+  "sc": 142,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 525.15,
+  "s": "COMMENTS",
+  "sc": 143,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 528.0,
+  "s": "LIKE",
+  "sc": 144,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 528.767,
+  "s": "SUBSCRIBE",
+  "sc": 144,
+  "k": "cap",
+  "raw": "cap"
+ }
+]
