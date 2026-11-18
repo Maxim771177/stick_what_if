@@ -64,7 +64,7 @@ export const OUT = {
   HALE: { top: 'suit', color: '#8b6b43', face: 'glasses', hair: 'short', hairColor: '#b8b8b8', legs: '#4a3f33' },
   BURKE: { top: 'tshirt', color: '#2f7d4f', hat: 'capBack', hatColor: '#2f7d4f', hair: 'none', hairColor: '#2b2420', legs: '#2b2b33' },
   PIKE: { top: 'suit', color: '#5a6470', hat: 'capBack', hatColor: '#3a4450', hair: 'short', hairColor: '#2b2420', legs: '#3a4450' },
-  MAYOR: { top: 'suit', color: '#7a2e3a', hair: 'short', hairColor: '#c8c8c8', legs: '#3a2a2e' },
+  MAYOR: { top: 'suit', color: '#7a2e3a', hair: 'curly', hairColor: '#5a3a22', legs: '#3a2a2e' },
   ENG: { top: 'jersey', color: '#f28a1e', hat: 'capBack', hatColor: '#f2c21a', hair: 'short', hairColor: '#3a2a1e', legs: '#4a5a78' },
   ENG2: { top: 'jersey', color: '#f2c21a', hat: 'capBack', hatColor: '#f28a1e', hair: 'bun', hairColor: '#2b2420', legs: '#3a4a6b' },
   KID: { top: 'hoodie', color: '#3fb950', hair: 'short', kid: true },
@@ -142,9 +142,9 @@ export function drawHud(g, t, info) {
   const k = ease.outBack(prog(T, cur.t, cur.t + 0.45)); if (k <= 0.01) return;
   const flash = T - cur.t < 0.9 ? 1 + 0.1 * Math.sin(prog(T, cur.t, cur.t + 0.9) * Math.PI * 3) : 1;
   g.save(); g.translate(28, 26); g.scale(k * flash, k * flash);
-  inkRect(g, 0, 0, 300, 96, { fill: '#1b2230', r: 26, w: 5 });
+  inkRect(g, 0, 0, 230, 96, { fill: '#1b2230', r: 26, w: 5 });
   text(g, 'DAY', 22, 52, { size: 40, color: '#fff', font: FONTS.title, weight: 400, align: 'left' });
-  text(g, String(cur.n), 232, 54, { size: 74, color: '#ffd23a', font: FONTS.title, weight: 400, stroke: 6, strokeColor: '#1b2230' });
+  text(g, String(cur.n), 180, 54, { size: 74, color: '#ffd23a', font: FONTS.title, weight: 400, stroke: 6, strokeColor: '#1b2230' });
   g.restore();
 }
 export const dayAt = (T) => { let c = null; for (const d of DAYS) if (T >= d.t - 0.001) c = d.n; return c; };
