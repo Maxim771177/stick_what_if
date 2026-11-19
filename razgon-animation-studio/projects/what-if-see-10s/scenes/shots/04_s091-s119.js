@@ -1,7 +1,7 @@
 import { def, E, C, D, ease, prog, clamp, lerp, text, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, kf, X, Y, Z, W, H, UP, c, LEON, kids, seat, deskAt, heldTray, inHand, hand, joint, sc, L, P, sitters, tableAt, merge, hold, mini, vis, vfloor, FZ, soupTray, POSES, ROAD, prop, texts } from './_common.js';
 const think = (g, x, y, w, h, fn, k = 1, tail) => Y.thought(g, x, y, w, h, fn, { k, tail: tail || [-w * 0.3, h * 0.9] });
 const bub = (g, x, y, s, k = 1) => { g.save(); g.translate(x, y); g.scale(k, k); const w = Math.max(180, s.length * 27 + 50); inkRect(g, -w / 2, -44, w, 88, { fill: '#fffdf6', r: 28, w: 5 }); text(g, s, 0, 14, { size: 44, font: FONTS.title, weight: 400, color: '#2b2f36' }); g.restore(); };
-const stageY = () => H() * 0.64, onStage = () => -(H() * 0.9 - H() * 0.64);
+const stageY = () => H() * 0.55, onStage = () => -(H() * 0.9 - H() * 0.55);
 const chairs = (g, ctx, rows = 1) => { for (let r = 0; r < rows; r++) for (let x = 0.04; x < 1; x += 0.11) { const y = ctx.GY + 20; inkRect(g, x * W(), y - 80 - r * 40, 70, 20, { fill: '#8a949f', r: 4, w: 4 }); inkRect(g, x * W() + 6, y - 150 - r * 40, 58, 74, { fill: '#6b7682', r: 8, w: 4 }); } };
 const aud = (xs, o = {}) => xs.map((x, i) => c(['KID', 'KID2', 'KID3', 'FAN1', 'FAN2', 'KID4', 'KID5', 'KID6'][i % 8], x, { f: 1, s: o.s || 1.4, pose: o.pose || 'sit', tag: 'AUD' + i, expr: o.expr || 'smile', ...(o.each ? o.each(i) : {}) }));
 const stageBase = (o = {}) => (g, t, i, ctx) => { if (o.frame !== false) Z.frame(g, W() * 0.5, (o.fy ?? H() * 0.2) + Math.sin(t * 1.5) * 4, W() * 0.4, { on: true, ...(o.fo || {}) }); o.pre && o.pre(g, t, i, ctx); };
