@@ -1,0 +1,1792 @@
+{
+ "title": "What If You Could See 10 Seconds Into the Future",
+ "duration": 528.099,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.467,
+   "line": "Lunch line, Tuesday, twelve-oh-five.",
+   "scene": "Очередь за обедом: дети с подносами, Leon и Owen стоят вместе; плашка TUESDAY 12:05.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "очередь двигается, камера наезжает",
+   "assets": "BG cafeteria; LEON; OWEN; KIDS×4; trays",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 2.467,
+   "end": 5.433,
+   "line": "Leon is holding a tray of tomato soup when he just stops.",
+   "scene": "Leon с подносом томатного супа у раздачи; вдруг замирает (поза держит поднос, не двигается).",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon идёт и вдруг останавливается",
+   "assets": "BG cafeteria; LEON; tray+soup",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 5.433,
+   "end": 8.883,
+   "line": "His eyes go glassy. His mouth hangs open.",
+   "scene": "Общий план: Leon замер с подносом; рядом врезка-круг крупно: лицо с широкими глазами-кольцами, рот открыт (глаза видны, взгляд пустой).",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "врезка появляется, рябь у глаз",
+   "assets": "BG cafeteria; LEON; inset face glassy",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 8.883,
+   "end": 12.767,
+   "line": "Owen waves a hand in front of his face. \"Dude? Hello?\"",
+   "scene": "Owen машет рукой перед лицом Leon; Leon не реагирует.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "рука Owen перед глазами",
+   "assets": "BG cafeteria; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 12.767,
+   "end": 18.125,
+   "line": "Three seconds later, Owen's tray slides toward the edge of the table, heading straight for his lap.",
+   "scene": "Стол: поднос Owen с мисками скользит к краю стола, прямо к его коленям; Owen сидит, не видит.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "поднос ползёт к краю",
+   "assets": "BG cafeteria; table; OWEN seated; tray slides",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 18.125,
+   "end": 21.742,
+   "line": "Leon's hand is already there. The soup stays in the bowl.",
+   "scene": "Рука Leon ловит поднос у самого края; суп в миске не пролился; Owen в шоке.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "рука ловит, суп качается",
+   "assets": "BG cafeteria; LEON; OWEN; tray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 21.742,
+   "end": 23.542,
+   "line": "\"How did you do that?\"",
+   "scene": "Owen в очках поворачивается к Leon, недоумение.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG cafeteria; OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 23.542,
+   "end": 27.292,
+   "line": "Leon doesn't answer, because something stranger just happened.",
+   "scene": "Leon смотрит в сторону, облачко-мысль со знаком вопроса.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "облачко с ?",
+   "assets": "BG cafeteria; LEON; cloud ?",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 27.292,
+   "end": 33.025,
+   "line": "Ten seconds ago, he heard Owen say that exact sentence. Before Owen said it.",
+   "scene": "Врезка-видение: тёмное поле, кольцо-таймер 10, внутри Owen открывает рот и говорит те же слова.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "кольцо тикает 10→0",
+   "assets": "BG voidDark; ring 10; OWEN mini",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 33.025,
+   "end": 37.0,
+   "line": "So, what if you could see exactly ten seconds into the future?",
+   "scene": "Leon по центру, над ним светящееся кольцо-часы «10s»; плашка названия.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кольцо вращается",
+   "assets": "BG void; LEON; ring 10s",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 37.0,
+   "end": 43.367,
+   "line": "And what happens when you see something you can't let happen, and you only have ten seconds to stop it?",
+   "scene": "Leon смотрит вверх на обратный отсчёт 10…1; рядом силуэт беды (знак «!»).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "отсчёт бежит",
+   "assets": "BG void; LEON; countdown; !",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 43.367,
+   "end": 44.892,
+   "line": "Here's how it works.",
+   "scene": "Класс Ms. Park: Leon за партой, плашка HOW IT WORKS.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG classroom; LEON; desk",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 44.892,
+   "end": 51.625,
+   "line": "Rule one. You see exactly ten seconds ahead, like a short movie in your head, and then you snap back.",
+   "scene": "Leon сидит, над ним облачко: короткий фильм (кадр с отсчётом 10), стрелка «назад».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "облачко-кино и стрелка снап-бэк",
+   "assets": "BG classroom; LEON; cloud movie",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 51.625,
+   "end": 57.225,
+   "line": "Rule two. Your body stays normal. You know what's coming, but you are not any faster.",
+   "scene": "Leon за партой тянется к ручке, медленно; рядом спидометр на «normal».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "стрелка спидометра на NORMAL",
+   "assets": "BG classroom; LEON; gauge normal",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 57.225,
+   "end": 63.342,
+   "line": "Rule three. The future isn't written. Change one thing, and the whole movie updates.",
+   "scene": "Схема: лента-фильм, одна картинка меняется, остальные кадры перерисовываются.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "кадры ленты мигают и меняются",
+   "assets": "BG void; film strip",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 63.342,
+   "end": 69.808,
+   "line": "Rule four, the one Leon finds out in math class. Looking costs time.",
+   "scene": "Leon за партой; перед ним на часах стрелка уходит, плашка RULE 4: LOOKING COSTS TIME.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "часы щёлкают",
+   "assets": "BG classroom; LEON; wall clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 69.808,
+   "end": 74.908,
+   "line": "Every glimpse freezes him for about three seconds, and those seconds come out of the ten.",
+   "scene": "Таймер-кольцо из десяти делений: три деления закрашиваются красным «3 SEC», остаются семь.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "три сектора краснеют",
+   "assets": "BG void; ring 10 split",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 74.908,
+   "end": 77.775,
+   "line": "\"Leon,\" says Ms. Park, \"are you asleep?\"",
+   "scene": "Ms. Park у доски с маркером, Leon за партой с застывшим лицом (зависание).",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon замер, Park смотрит на него",
+   "assets": "BG classroom; PARK; LEON; board; marker",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 77.775,
+   "end": 80.658,
+   "line": "\"No, ma'am. Your marker is about to die.\"",
+   "scene": "Leon очнулся, показывает на маркер; у Ms. Park маркер в руке, кончик чернил бледнеет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon указывает",
+   "assets": "BG classroom; PARK; LEON; marker",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 80.658,
+   "end": 82.046,
+   "line": "The marker dies.",
+   "scene": "Маркер чертит и гаснет, Ms. Park смотрит на маркер, потом на Leon, класс смотрит.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "линия на доске бледнеет и кончается",
+   "assets": "BG classroom; PARK; LEON; KIDS×3; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 82.046,
+   "end": 88.5,
+   "line": "So Leon has a choice. Look a lot and live in a daze, or look rarely and stay blind.",
+   "scene": "Две двери: слева «LOOK A LOT» (человек в тумане), справа «LOOK RARELY» (человек с завязанными глазами).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon выбирает, обе двери зачёркнуты",
+   "assets": "BG void; two doors; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 88.5,
+   "end": 93.892,
+   "line": "And being ten years old, he picks a third option. He goes for the money.",
+   "scene": "Leon поднимает палец, над ним мешок с долларами.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "мешок покачивается",
+   "assets": "BG void; LEON; money sack",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 93.892,
+   "end": 95.658,
+   "line": "Saturday, Hat Trick Sports.",
+   "scene": "Спортивный магазин Hat Trick Sports снаружи: вход, витрина, ворота у двери; плашка SATURDAY.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "камера наезжает",
+   "assets": "BG sportStore; LEON small; sign",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 95.658,
+   "end": 102.558,
+   "line": "A sign by the door says kids penalty challenge, stop four of five shots, win ten thousand dollars.",
+   "scene": "Плакат у двери: KIDS PENALTY CHALLENGE, 4 из 5, $10 000; Leon читает, глаза вверх.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "плакат трясётся",
+   "assets": "BG sportStore; LEON; poster",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 102.558,
+   "end": 106.742,
+   "line": "Leon pulls on gloves two sizes too big and walks into the goal.",
+   "scene": "Leon натягивает огромные перчатки, пальцы болтаются; на заднем плане ворота с сеткой.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "пальцы перчаток болтаются",
+   "assets": "BG sportStore; LEON; gloves; goal",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 106.742,
+   "end": 113.4,
+   "line": "Here's the problem with penalty kicks. From eleven meters, a hard shot reaches the net in about half a second.",
+   "scene": "Схема сверху: точка пенальти и ворота, линия 11 m; мяч едет.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "мяч летит по линии, таймер ≈0.5",
+   "assets": "BG void; penalty diagram; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 113.4,
+   "end": 118.967,
+   "line": "A goalkeeper needs about that long just to react, so real keepers don't react.",
+   "scene": "Вратарь-манекен в воротах, мяч уже в сетке; облачко с часами 0.5 s.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "мяч в сетке, манекен стоит",
+   "assets": "BG sportStore; goal; keeper dummy; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 118.967,
+   "end": 121.117,
+   "line": "They guess, and jump early.",
+   "scene": "Вратарь-манекен прыгает влево заранее, мяч летит вправо в сетку; надпись GUESS.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "манекен прыгает не туда",
+   "assets": "BG sportStore; goal; keeper dummy; ball",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 121.117,
+   "end": 122.525,
+   "line": "Leon doesn't have to guess.",
+   "scene": "Leon стоит в воротах, перчатки до колен, самодовольно улыбается; перед ним судья со свистком.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG sportStore; LEON; goal; REF",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 122.525,
+   "end": 127.092,
+   "line": "Shot one. He looks, freezes, and the referee mutters, \"Is he okay?\"",
+   "scene": "Общий план: Leon в воротах замирает на три секунды (3 SEC), судья с нахмуренным лицом, толпа (FAN1/FAN2, дети).",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "Leon стоит без движения, судья наклоняется",
+   "assets": "BG sportStore; LEON; REF; KIDS×4; goal",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 127.092,
+   "end": 131.592,
+   "line": "Then Leon dives left a full second before the kick. Save.",
+   "scene": "Leon ныряет влево в прыжке (поза dive), мяч летит от кикера по дуге; судья, толпа реагируют.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "прыжок и мяч по траектории",
+   "assets": "BG sportStore; LEON dive; ball path; goal; KICKER",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 131.592,
+   "end": 134.208,
+   "line": "Shot two, right. Save.",
+   "scene": "Прыжок вправо, мяч пойман, толпа радуется.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "прыжок вправо",
+   "assets": "BG sportStore; LEON dive; ball; KIDS×4",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 134.208,
+   "end": 137.658,
+   "line": "Shot three, left again, and the crowd starts chanting.",
+   "scene": "Leon влево снова, мяч на перчатках; толпа скандирует, у них флаги/руки вверх.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "толпа прыгает",
+   "assets": "BG sportStore; LEON; ball; KIDS×5; FAN1; FAN2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 137.658,
+   "end": 143.758,
+   "line": "Shot four. Leon sees the ball heading for the top corner, a rocket from a boy twice his size.",
+   "scene": "Здоровенный кикер (вдвое больше Leon) бьёт; мяч летит к верхнему углу ворот; Leon смотрит на него.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "мяч-ракета летит в угол",
+   "assets": "BG sportStore; LEON; BIG KICKER; ball; goal",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 143.758,
+   "end": 150.95,
+   "line": "He knows exactly where it's going. He dives with everything he has. His fingertips miss it by an inch.",
+   "scene": "Leon в прыжке (dive) тянет перчатку к мячу, пальцы в дюйме от мяча; крупная врезка «1 INCH» рядом.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "мяч пролетает над перчаткой",
+   "assets": "BG sportStore; LEON dive; ball; goal; inset glove",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 150.95,
+   "end": 156.242,
+   "line": "Knowing where a ball goes doesn't make your arms any longer. One miss is allowed.",
+   "scene": "Leon лежит на земле, смотрит на свои руки, рядом короткая линейка «ARMS: SAME LENGTH».",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "Leon смотрит на руки",
+   "assets": "BG sportStore; LEON lying; goal; ruler",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 156.242,
+   "end": 160.292,
+   "line": "Shot five. Look, freeze, dive, save.",
+   "scene": "Пятый удар: Leon замер (3 SEC), потом ныряет, перчатки ловят мяч.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "замер, прыжок, ловит",
+   "assets": "BG sportStore; LEON; ball; REF; goal",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 160.292,
+   "end": 164.142,
+   "line": "Four out of five. Ten thousand dollars!",
+   "scene": "Leon на плечах у толпы, поднимает гигантский чек $10 000; судья вручает.",
+   "set": "STORE",
+   "hud": "—",
+   "notes": "подбрасывают, конфетти",
+   "assets": "BG sportStore; LEON; KIDS×4; REF; big check; confetti",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 164.142,
+   "end": 169.742,
+   "line": "That night, Mom holds the envelope and asks one question. \"Where did you get this?\"",
+   "scene": "Кухня вечером: Mom держит конверт с купюрами, Leon за столом; Mom спрашивает.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom трясёт конвертом",
+   "assets": "BG kitchen; MOM; LEON; table; envelope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 169.742,
+   "end": 174.096,
+   "line": "\"Luck,\" says Leon. She looks at him for a long time.",
+   "scene": "Leon пожимает плечами, Mom щурится, смотрит на него долго.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom скрестила руки",
+   "assets": "BG kitchen; MOM; LEON; envelope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 174.096,
+   "end": 177.375,
+   "line": "But money was never the thing Leon wanted most.",
+   "scene": "Leon один у окна, держит конверт не глядя, думает о другом; над ним сердце.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "сердце проявляется",
+   "assets": "BG void; LEON; envelope; heart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 177.375,
+   "end": 181.925,
+   "line": "Monday after school, Leon walks twenty steps behind Zoe, which is totally normal.",
+   "scene": "Улица после школы: Zoe идёт по тротуару впереди, Leon сзади; плашка MONDAY, подпись «20 STEPS».",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "идут по тротуару",
+   "assets": "BG street; ZOE; LEON; sidewalk; garden gate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 181.925,
+   "end": 184.621,
+   "line": "She has headphones on and her bag over one shoulder.",
+   "scene": "Крупно (общим планом) Zoe: наушники на голове, сумка через плечо с ремнём.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Zoe покачивает головой под музыку",
+   "assets": "BG street; ZOE; headphones; bag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 184.621,
+   "end": 188.742,
+   "line": "Then he looks ahead. A scooter. A boy in a gray hood.",
+   "scene": "Врезка-видение: обратный отсчёт 10; в облачке скутер с мальчиком в сером капюшоне, рука тянется к ремню сумки.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "облачко-видение, отсчёт",
+   "assets": "BG voidDark; vision cloud; scooter; ring 10",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 188.742,
+   "end": 192.267,
+   "line": "A hand grabbing the strap, and Zoe hitting the pavement.",
+   "scene": "Врезка-видение: рука хватает ремень, Zoe падает на тротуар (кадр в облачке мерцает красным).",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "облачко мигает",
+   "assets": "BG voidDark; vision cloud; ZOE falling",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 192.267,
+   "end": 196.25,
+   "line": "Leon freezes for three seconds, and seven are left.",
+   "scene": "Leon застыл с остекленевшими глазами (3 SEC), Zoe продолжает идти; на заднем плане вдали едет скутер.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "таймер показывает 7",
+   "assets": "BG street; LEON; ZOE; ring 7; scooter far",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 196.25,
+   "end": 199.15,
+   "line": "He sprints. Six seconds. Five.",
+   "scene": "Leon бежит к Zoe по тротуару; скутер приближается слева по дороге; плашки 6, 5.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "бег, отсчёт 6→5",
+   "assets": "BG street; LEON run; ZOE; scooter; ring 5",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 199.15,
+   "end": 202.475,
+   "line": "He grabs her sleeve and pulls her backward through an open garden gate.",
+   "scene": "Leon хватает рукав Zoe и тянет её назад в открытую садовую калитку; она удивлена, наушники слетают.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Zoe втянута в калитку",
+   "assets": "BG street; LEON; ZOE; garden gate; fence",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 202.475,
+   "end": 205.225,
+   "line": "The scooter shoots past, empty-handed.",
+   "scene": "Скутер с мальчиком в сером капюшоне проносится по дороге мимо калитки, рука пустая; сумка висит у Zoe на плече.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "скутер проезжает слева направо",
+   "assets": "BG street; SCOOTER BOY; scooter; ZOE; LEON; gate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 205.225,
+   "end": 208.142,
+   "line": "Zoe pulls out one headphone. \"What was that?\"",
+   "scene": "Zoe в калитке снимает один наушник, удивлена; Leon рядом запыхался.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "",
+   "assets": "BG street; ZOE; LEON; gate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 208.142,
+   "end": 213.1,
+   "line": "\"You looked like you were about to trip,\" says Leon, which is the worst lie of his life.",
+   "scene": "Leon разводит руками, пот на лбу; Zoe смотрит на него.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "капля пота",
+   "assets": "BG street; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 213.1,
+   "end": 214.612,
+   "line": "She laughs anyway.",
+   "scene": "Zoe смеётся, у Leon краснеют щёки, сердечко над ним.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "сердце",
+   "assets": "BG street; ZOE; LEON; heart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 214.612,
+   "end": 218.908,
+   "line": "From that day on, Leon and Zoe walk home together. Every day.",
+   "scene": "Закатное небо, Leon и Zoe идут вместе по тротуару; дни: вторая пара ног-тень.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "идут медленно вправо",
+   "assets": "BG street; LEON; ZOE; walking",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 218.908,
+   "end": 223.517,
+   "line": "He is the happiest kid in the state, and he has no idea what's coming.",
+   "scene": "Leon подпрыгивает от радости; над ним тень вопроса, чёрное облачко вдали.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "подпрыгивает, тучка вдали",
+   "assets": "BG street; LEON; cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 223.517,
+   "end": 230.312,
+   "line": "Then school gets easy. For the science presentation, Leon checks ten seconds ahead on every slide.",
+   "scene": "Класс: Leon у экрана с презентацией, над слайдами ряд маленьких «10s».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "слайды листаются",
+   "assets": "BG classroom; LEON; screen slides",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 230.312,
+   "end": 236.342,
+   "line": "A fact that makes Ms. Park nod, he says twice. She gives him the highest score of the year.",
+   "scene": "Ms. Park кивает, Leon повторяет жест, большой палец вверх на экране «A+».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "A+ вспыхивает",
+   "assets": "BG classroom; PARK; LEON; screen A+",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 236.342,
+   "end": 243.058,
+   "line": "In gym class, he plays dodgeball, looks, steps left, ducks right, and nine balls miss him in a row.",
+   "scene": "Спортзал: Leon посреди площадки, вокруг ряд ребят кидает мячи, Leon уворачивается; мячи пролетают мимо.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "уклоняется, мячи летят мимо",
+   "assets": "BG gym; LEON; KIDS×6; dodgeballs",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 243.058,
+   "end": 247.267,
+   "line": "Coach Burke calls him the first kid in school history nobody can hit.",
+   "scene": "Coach Burke со свистком показывает на Leon большим пальцем, руки на бёдрах; Leon смущён.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Burke свистит",
+   "assets": "BG gym; BURKE; LEON; whistle",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 247.267,
+   "end": 254.8,
+   "line": "By Friday, half the school calls him Lucky Leon. Nobody says smart. Everybody says lucky.",
+   "scene": "Коридор: толпа детей показывает на Leon, над ними пузыри «LUCKY LEON»; Leon идёт, неловко.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "толпа скандирует",
+   "assets": "BG hall; LEON; KIDS×6; bubbles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 254.8,
+   "end": 258.667,
+   "line": "And lucky people are not allowed to have a bad day.",
+   "scene": "Leon один у шкафчиков, над ним табличка «NO BAD DAYS ALLOWED».",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "табличка падает вниз",
+   "assets": "BG hall; LEON; lockers; sign",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 258.667,
+   "end": 266.017,
+   "line": "Then comes the big question. The Friday dance. Leon wants to ask Zoe, but first, he looks.",
+   "scene": "Коридор: на стене афиша FRIDAY DANCE; Leon смотрит на Zoe вдали у шкафчика и поднимает глаза вверх.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "афиша колышется",
+   "assets": "BG hall; LEON; ZOE far; poster",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 266.017,
+   "end": 272.45,
+   "line": "In the vision, he says, \"Do you want to go with me?\" and she says, \"Sorry, I'm going with my cousin.\"",
+   "scene": "Врезка-видение: ring 10; Leon и Zoe у шкафчика; Leon говорит, Zoe качает головой.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "отсчёт, Zoe качает головой",
+   "assets": "BG voidDark; vision cloud; LEON mini; ZOE mini",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 272.45,
+   "end": 274.05,
+   "line": "Leon changes it.",
+   "scene": "Врезка-видение: Leon стирает фразу и переписывает; ластик и новый пузырь.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "ластик стирает фразу",
+   "assets": "BG voidDark; LEON; eraser; bubble",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 274.05,
+   "end": 276.283,
+   "line": "Look, freeze, three seconds.",
+   "scene": "Leon замирает (3 SEC), Zoe ждёт, чуть наклонив голову.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon застыл",
+   "assets": "BG hall; LEON; ZOE; ring 3",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 276.283,
+   "end": 280.292,
+   "line": "\"Would you like to go to the dance?\" \"Sorry, I have a thing.\"",
+   "scene": "Leon задаёт новую фразу, Zoe виновато качает головой.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Zoe отводит взгляд",
+   "assets": "BG hall; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 280.292,
+   "end": 285.65,
+   "line": "Look, freeze. Zoe waves a hand at him. \"Leon? Are you okay?\"",
+   "scene": "Leon снова замер, Zoe машет рукой у него перед лицом.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "рука Zoe",
+   "assets": "BG hall; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 285.65,
+   "end": 292.883,
+   "line": "Third try. He phrases it a completely new way, and in the vision, Zoe smiles and says yes.",
+   "scene": "Врезка-видение: Zoe улыбается и кивает, над ней галочка YES.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "галочка вспыхивает",
+   "assets": "BG voidDark; vision cloud; ZOE; YES tick",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 292.883,
+   "end": 298.617,
+   "line": "So he says exactly those words. And Zoe says, \"Yes.\"",
+   "scene": "Leon произносит фразу, Zoe улыбается; над ними сердце.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "сердце",
+   "assets": "BG hall; LEON; ZOE; heart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 298.617,
+   "end": 305.925,
+   "line": "But on the walk home, she stops. \"That was weird. You said the one sentence that works on me. Like you'd already heard my answer.\"",
+   "scene": "Дорога домой: Zoe останавливается и поворачивается к Leon, сдвинув бровь.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "Zoe останавливается",
+   "assets": "BG street; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 305.925,
+   "end": 311.717,
+   "line": "Leon opens his mouth. Nothing comes out. Because she's right.",
+   "scene": "Leon открывает рот и ничего не выходит, над ним троеточие.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "троеточие",
+   "assets": "BG street; LEON; ZOE; dots",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 311.717,
+   "end": 317.508,
+   "line": "He never heard what Zoe really wanted to say. He only heard what she'd say to a script.",
+   "scene": "Схема: два облачка: «WHAT SHE WANTED» (пустое с ?) и «WHAT SHE'D SAY TO A SCRIPT» (заполнено).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "левое пустое, правое заполняется",
+   "assets": "BG void; two clouds",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 317.508,
+   "end": 319.65,
+   "line": "And here's the real part.",
+   "scene": "Leon с лупой и плашкой THE REAL PART, над ним облачко с вопросом.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "лупа качается",
+   "assets": "BG void; LEON; magnifier",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 319.65,
+   "end": 325.758,
+   "line": "In nineteen eighty-three, the neuroscientist Benjamin Libet and his team published a famous study in the journal Brain.",
+   "scene": "Календарь 1983, значок мозга и журнал BRAIN; рядом силуэт учёного с лупой.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "книга листается",
+   "assets": "BG void; brain; journal; scientist",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 325.758,
+   "end": 332.35,
+   "line": "They found that brain activity began about half a second before people said they had decided to move.",
+   "scene": "Шкала времени: сигнал мозга вспыхивает, через полсекунды рука нажимает кнопку.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "сигнал на шкале и затем кнопка",
+   "assets": "BG void; timeline; brain; button",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 332.35,
+   "end": 335.092,
+   "line": "Scientists still argue about what that means.",
+   "scene": "Двое учёных спорят, над ними знаки ? и !, между ними мозг.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "знаки вопроса прыгают",
+   "assets": "BG void; scientists×2; brain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 335.092,
+   "end": 340.85,
+   "line": "But if brains decide before we notice, what is Leon reading ten seconds ahead?",
+   "scene": "Leon смотрит вперёд, перед ним мозг и ряд будущих кадров; надпись «BEFORE WE NOTICE».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кадры будущего пробегают",
+   "assets": "BG void; LEON; brain; film",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 340.85,
+   "end": 344.067,
+   "line": "Their choice, or his own script?",
+   "scene": "Leon с вопросом над головой и двумя вариантами: THEIR CHOICE / HIS SCRIPT.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "варианты мигают",
+   "assets": "BG void; LEON; two options",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 344.067,
+   "end": 346.867,
+   "line": "And that was the easy problem.",
+   "scene": "Leon вздыхает, над ним табличка «EASY PROBLEM»; вдали проступает большой часовой циферблат.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "циферблат растёт вдали",
+   "assets": "BG void; LEON; big clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 346.867,
+   "end": 349.6,
+   "line": "The hard problem is time.",
+   "scene": "Часы на стене, Leon за партой замирает; над ним значок песочных часов.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "часы тикают",
+   "assets": "BG classroom; LEON; wall clock; hourglass",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 349.6,
+   "end": 355.95,
+   "line": "Leon's day now has forty glimpses, and every one is three seconds of staring at nothing.",
+   "scene": "Leon замирает снова и снова; над ним счётчик 40 GLIMPSES растёт.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "счётчик растёт",
+   "assets": "BG classroom; LEON; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 355.95,
+   "end": 358.258,
+   "line": "The school nurse takes his temperature twice.",
+   "scene": "Школьная медсестра ставит Leon градусник, термометр уже второй; Leon покорно.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "градусник пищит",
+   "assets": "BG hall; NURSE; LEON; thermometer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 358.258,
+   "end": 365.458,
+   "line": "In the cafeteria, he freezes in the middle of telling Owen a joke, and Owen says, \"That's the third time today. Just finish it.\"",
+   "scene": "Столовая: Leon и Owen за столом; Leon замер на полуслове; Owen просит закончить.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon замирает, Owen жестикулирует",
+   "assets": "BG cafeteria; LEON; OWEN; table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 365.458,
+   "end": 371.208,
+   "line": "Worst of all, he stops hearing people, because he's too busy listening to what they're about to say.",
+   "scene": "Owen и Zoe говорят, из их ртов линии слов; Leon смотрит поверх них вперёд, уши зажаты ладонями.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "слова пролетают мимо Leon",
+   "assets": "BG cafeteria; LEON; OWEN; ZOE; word bubbles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 371.208,
+   "end": 374.45,
+   "line": "The more he looks, the less he lives.",
+   "scene": "Весы: на одной чаше глаз LOOK, на другой тонкая полоска LIFE и она взлетает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "весы перевешивают",
+   "assets": "BG void; scales; eye; life bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 374.45,
+   "end": 377.05,
+   "line": "A week later, it's the winter concert.",
+   "scene": "Календарь: страница переворачивается, плашка WINTER CONCERT.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "листок переворачивается",
+   "assets": "BG void; calendar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 377.05,
+   "end": 379.775,
+   "line": "Friday, the school gym, seven o'clock.",
+   "scene": "Зал концерта: ряды стульев, сцена с занавесом; плашка FRIDAY · 7 PM; общий план.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "камера наезжает на сцену",
+   "assets": "BG stage; chairs; curtain",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 379.775,
+   "end": 383.925,
+   "line": "Above the stage, a steel frame full of spotlights hangs from four cables.",
+   "scene": "Над сценой стальная рама с четырьмя прожекторами на четырёх тросах; тросы натянуты к потолку.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "рама слегка покачивается",
+   "assets": "BG stage; steel frame; 4 cables; spotlights",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 383.925,
+   "end": 388.708,
+   "line": "Owen stands right under it with his robot, and Zoe stands next to him, holding the plug.",
+   "scene": "Owen с роботом-самоделкой стоит на краю сцены прямо под рамой; рядом Zoe держит вилку шнура.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "Owen поправляет робота",
+   "assets": "BG stage; OWEN; ZOE; robot; plug; frame above",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 388.708,
+   "end": 391.567,
+   "line": "Leon sits in the third row with a bag of popcorn.",
+   "scene": "Leon в третьем ряду среди зрителей, в руках ведёрко попкорна, смотрит на сцену.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "ест попкорн",
+   "assets": "BG stage; chairs; LEON seated; popcorn; AUDIENCE×5",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 391.567,
+   "end": 395.175,
+   "line": "Out of habit, he glances ahead. Three seconds.",
+   "scene": "Врезка-видение: ring 10; сцена, рама, мигание красным; в уголке Leon замирает (3 SEC).",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "облачко-видение",
+   "assets": "BG voidDark; vision cloud; frame; ring 10",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 395.175,
+   "end": 400.133,
+   "line": "Then he sees it. One cable snaps. The frame swings.",
+   "scene": "Врезка-видение: один трос рвётся, рама наклоняется.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "трос рвётся",
+   "assets": "BG voidDark; vision cloud; frame; broken cable",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 400.133,
+   "end": 402.767,
+   "line": "It falls straight onto Owen and Zoe.",
+   "scene": "Врезка-видение: рама падает на Owen и Zoe, кадр краснеет.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "рама падает",
+   "assets": "BG voidDark; vision cloud; frame; Owen; Zoe",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 402.767,
+   "end": 406.025,
+   "line": "Leon snaps back. Seven seconds left.",
+   "scene": "Leon вскочил, глаза широкие; над ним огромная цифра 7 в кольце.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "цифра 7 пульсирует",
+   "assets": "BG stage; LEON; ring 7; frame",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 406.025,
+   "end": 413.192,
+   "line": "Now he has a choice. Run blind and hope, or look again and lose three more seconds.",
+   "scene": "Развилка: две стрелки RUN BLIND (остаётся 7) и LOOK AGAIN (остаётся 4), у второй три красных деления.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелки мигают",
+   "assets": "BG void; fork; ring",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 413.192,
+   "end": 418.25,
+   "line": "Leon does the math out loud. \"Seven. If I run, I get there at three.\"",
+   "scene": "Leon с попкорном считает на пальцах вслух; над ним формула 7 − 4 = 3.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "пальцы",
+   "assets": "BG stage; LEON; math cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 418.25,
+   "end": 421.892,
+   "line": "He runs. Two seconds pass, five left.",
+   "scene": "Leon бежит по проходу между рядами к сцене, стаканчик попкорна летит в воздухе; цифры 7→5.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "бег по проходу, стаканчик в воздухе",
+   "assets": "BG stage; LEON run; aisle; chairs; frame",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 421.892,
+   "end": 428.008,
+   "line": "He looks once, only once, because he has to know who to push. Three seconds gone. Two left.",
+   "scene": "Врезка-видение: Owen и Zoe под рамой; две стрелки толчка: влево (Zoe под рамой) и вправо (Leon под рамой).",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "оба варианта мигают",
+   "assets": "BG voidDark; vision cloud; OWEN; ZOE; LEON; frame",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 428.008,
+   "end": 433.325,
+   "line": "Shove Owen left, and Zoe is under the frame. Shove right, and Leon is.",
+   "scene": "Схема сверху: сцена, три фигурки, рама-прямоугольник; при толчке влево рама накрывает Zoe, вправо накрывает Leon.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "рама-тень двигается",
+   "assets": "BG void; diagram top view; frame",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 433.325,
+   "end": 439.908,
+   "line": "So he doesn't choose. He jumps onto the stage, yells \"Everybody move!\", throws his arms around both of them,",
+   "scene": "Leon прыгает на сцену, раскинув руки, и обхватывает Owen и Zoe; выкрик «Everybody move!»; зал оборачивается.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "прыжок на сцену, объятие",
+   "assets": "BG stage; LEON; OWEN; ZOE; frame; AUDIENCE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 439.908,
+   "end": 441.858,
+   "line": "and drags them into the aisle.",
+   "scene": "Трое катятся с края сцены в проход; у них в руках робот и вилка; зрители шарахаются.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "трое падают в проход",
+   "assets": "BG stage; LEON; OWEN; ZOE; AUDIENCE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 441.858,
+   "end": 446.4,
+   "line": "The frame hits an empty stage with a bang that rattles the windows.",
+   "scene": "Рама падает на пустую сцену с грохотом, пыль и искры, прожекторы разлетаются; сцена пуста.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "удар, тряска камеры, пыль",
+   "assets": "BG stage; frame crash; dust; sparks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 446.4,
+   "end": 447.575,
+   "line": "Silence.",
+   "scene": "Зал в тишине, трое в проходе на полу, рама лежит на сцене.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "пыль оседает",
+   "assets": "BG stage; AUDIENCE×8; LEON; OWEN; ZOE; frame wreck",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 447.575,
+   "end": 455.392,
+   "line": "Then somebody laughs, then somebody claps, and the whole gym stands up, because they think it's part of the show.",
+   "scene": "Один хлопает, затем весь зал встаёт и аплодирует; трое в проходе удивлённо озираются.",
+   "set": "STAGE",
+   "hud": "—",
+   "notes": "аплодисменты нарастают",
+   "assets": "BG stage; AUDIENCE×8 standing; LEON; OWEN; ZOE; frame wreck",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 455.392,
+   "end": 458.767,
+   "line": "Afterward, Zoe holds his sleeve, still shaking.",
+   "scene": "Zoe держит Leon за рукав в коридоре, дрожит; у Leon виноватое лицо.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Zoe дрожит",
+   "assets": "BG hall; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 458.767,
+   "end": 463.95,
+   "line": "\"You froze right before it happened. You always do that. What do you see?\"",
+   "scene": "Zoe смотрит Leon в глаза и спрашивает.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Zoe наклоняется к Leon",
+   "assets": "BG hall; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 463.95,
+   "end": 468.679,
+   "line": "Leon thinks about lying. Instead, he tells her the truth. All of it.",
+   "scene": "Leon за секунду думает: облачко с ложью зачёркнуто; затем рассказывает, жестикулируя.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облачко зачёркивается",
+   "assets": "BG hall; LEON; ZOE; cloud crossed",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 468.679,
+   "end": 474.867,
+   "line": "Zoe is quiet for a long time. Then she says, \"So ask me something else. Without looking.\"",
+   "scene": "Zoe молчит, потом улыбается и поднимает палец.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "пауза, улыбка",
+   "assets": "BG hall; ZOE; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 474.867,
+   "end": 477.475,
+   "line": "Leon swallows. He doesn't look.",
+   "scene": "Leon сглатывает, закрывает глаза ладонью (глаза видны между пальцами), потом открывает.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon не смотрит вперёд",
+   "assets": "BG hall; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 477.475,
+   "end": 482.325,
+   "line": "He says something clumsy that makes no sense, and Zoe laughs and says something just as clumsy back,",
+   "scene": "Leon бормочет, над ним пузырь с каракулями; Zoe хохочет и отвечает такими же.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "пузыри «blah» от обоих",
+   "assets": "BG hall; LEON; ZOE; bubbles",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 482.325,
+   "end": 484.417,
+   "line": "and neither of them knows what comes next.",
+   "scene": "Leon и Zoe смотрят друг на друга и вдаль; над ними пустое облачко со знаком вопроса.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "облачко пустеет",
+   "assets": "BG hall; LEON; ZOE; empty cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 484.417,
+   "end": 488.192,
+   "line": "A plan is only worth the seconds you have left to use it.",
+   "scene": "Крупно плашка: «A PLAN IS ONLY WORTH THE SECONDS YOU HAVE LEFT TO USE IT»; снизу кольцо-таймер.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "таймер тикает",
+   "assets": "BG void; ring; plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 488.192,
+   "end": 495.254,
+   "line": "And these are the best ten seconds of his life, because he didn't see a single one coming.",
+   "scene": "Закат: Leon и Zoe идут рядом, держась за руки, вдали сцена школы; над ними нет никакого облачка.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "идут вправо в закат",
+   "assets": "BG street; LEON; ZOE",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 495.254,
+   "end": 499.808,
+   "line": "Spring comes. Leon still looks, but he has learned to count.",
+   "scene": "Весна: цветущее дерево, Leon идёт с Zoe, на ходу считает пальцами.",
+   "set": "STREET",
+   "hud": "—",
+   "notes": "лепестки",
+   "assets": "BG street; LEON; ZOE; blossoms",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 499.808,
+   "end": 503.533,
+   "line": "Then one night in bed, the vision runs a little longer than usual.",
+   "scene": "Ночью Leon лежит в кровати (поза lie, голова на подушке, одеяло), над ним облачко-видение с отсчётом.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "отсчёт идёт",
+   "assets": "BG livingRoom dark; LEON in bed; vision cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 503.533,
+   "end": 509.775,
+   "line": "He counts. Eight. Nine. Ten. Eleven.",
+   "scene": "Кольцо-таймер: цифры 8, 9, 10, затем кольцо раскрывается до 11, красная цифра 11.",
+   "set": "VOIDD",
+   "hud": "—",
+   "notes": "цифры загораются по очереди",
+   "assets": "BG voidDark; ring 11",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 509.775,
+   "end": 514.783,
+   "line": "The vision is growing, and Leon has no idea what the extra second costs.",
+   "scene": "Leon сидит в кровати, широко раскрыв глаза; над ним кольцо 11 с вопросительным знаком.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "кольцо с ? пульсирует",
+   "assets": "BG livingRoom dark; LEON; ring 11; ?",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 514.783,
+   "end": 520.125,
+   "line": "So, what would you do? Use it for money, for love, or to save a friend?",
+   "scene": "Три плашки-иконки: MONEY (мешок), LOVE (сердце), A FRIEND (рука); Leon смотрит на них.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "иконки подпрыгивают по очереди",
+   "assets": "BG void; LEON; money; heart; hand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 520.125,
+   "end": 521.292,
+   "line": "Tell us in the comments,",
+   "scene": "Плашка COMMENTS с пузырями-ответами; Leon показывает вниз.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "пузыри всплывают",
+   "assets": "BG void; LEON; comments",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 521.292,
+   "end": 528.091,
+   "line": "and subscribe, because the eleventh second is only getting started.",
+   "scene": "Плашка SUBSCRIBE с колокольчиком, над ней кольцо с цифрой 11.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "колокольчик звенит",
+   "assets": "BG void; subscribe; bell; ring 11",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

@@ -1,0 +1,750 @@
+[
+ {
+  "t": 0.0,
+  "s": "TUESDAY · 12:05",
+  "sc": 1,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 11.55,
+  "s": "Dude? Hello?",
+  "sc": 4,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 13.183,
+  "s": "3 SEC",
+  "sc": 5,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 22.067,
+  "s": "How did you do that?",
+  "sc": 7,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 27.6,
+  "s": "10",
+  "sc": 9,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 34.817,
+  "s": "WHAT IF YOU COULD SEE 10 SECONDS AHEAD",
+  "sc": 10,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 44.267,
+  "s": "HOW IT WORKS",
+  "sc": 12,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 45.25,
+  "s": "RULE 1 · TEN SECONDS AHEAD",
+  "sc": 13,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 52.083,
+  "s": "RULE 2 · BODY STAYS NORMAL",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 57.817,
+  "s": "RULE 3 · THE FUTURE ISN'T WRITTEN",
+  "sc": 15,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 64.433,
+  "s": "RULE 4 · LOOKING COSTS TIME",
+  "sc": 16,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 71.883,
+  "s": "3 SEC",
+  "sc": 17,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 74.2,
+  "s": "10 − 3 = 7",
+  "sc": 17,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 75.383,
+  "s": "Leon, are you asleep?",
+  "sc": 18,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 78.15,
+  "s": "Your marker is about to die.",
+  "sc": 19,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 85.142,
+  "s": "LIVE IN A DAZE",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 87.692,
+  "s": "STAY BLIND",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 92.975,
+  "s": "THE MONEY",
+  "sc": 22,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 94.508,
+  "s": "SATURDAY",
+  "sc": 23,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 94.825,
+  "s": "HAT TRICK SPORTS",
+  "sc": 23,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 95.967,
+  "s": "KIDS PENALTY CHALLENGE",
+  "sc": 24,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 100.342,
+  "s": "STOP 4 OF 5 → $10,000",
+  "sc": 24,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 109.692,
+  "s": "11 m",
+  "sc": 26,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 112.375,
+  "s": "≈ 0.5 s",
+  "sc": 26,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 119.442,
+  "s": "THEY GUESS",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 122.825,
+  "s": "SHOT 1",
+  "sc": 30,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 126.492,
+  "s": "Is he okay?",
+  "sc": 30,
+  "k": "say",
+  "raw": "say",
+  "who": "REF"
+ },
+ {
+  "t": 132.042,
+  "s": "SHOT 2",
+  "sc": 32,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 134.608,
+  "s": "SHOT 3",
+  "sc": 33,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 136.958,
+  "s": "LE-ON! LE-ON!",
+  "sc": 33,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 137.975,
+  "s": "SHOT 4",
+  "sc": 34,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 149.975,
+  "s": "1 INCH",
+  "sc": 35,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 153.858,
+  "s": "ARMS: SAME LENGTH",
+  "sc": 36,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 156.592,
+  "s": "SHOT 5",
+  "sc": 37,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 162.492,
+  "s": "$10,000",
+  "sc": 38,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 168.425,
+  "s": "Where did you get this?",
+  "sc": 39,
+  "k": "say",
+  "raw": "say",
+  "who": "MOM"
+ },
+ {
+  "t": 170.108,
+  "s": "Luck.",
+  "sc": 40,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 177.883,
+  "s": "MONDAY · AFTER SCHOOL",
+  "sc": 42,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 179.25,
+  "s": "20 STEPS BEHIND",
+  "sc": 42,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 185.508,
+  "s": "10",
+  "sc": 44,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 193.442,
+  "s": "3 SEC",
+  "sc": 46,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 194.825,
+  "s": "7",
+  "sc": 46,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 197.658,
+  "s": "6",
+  "sc": 47,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 198.608,
+  "s": "5",
+  "sc": 47,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 203.908,
+  "s": "EMPTY-HANDED",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 207.042,
+  "s": "What was that?",
+  "sc": 50,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 208.508,
+  "s": "You looked like you were about to trip.",
+  "sc": 51,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 218.133,
+  "s": "EVERY DAY",
+  "sc": 53,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 226.6,
+  "s": "SCIENCE PRESENTATION",
+  "sc": 55,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 234.525,
+  "s": "HIGHEST SCORE OF THE YEAR",
+  "sc": 56,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 237.075,
+  "s": "GYM CLASS · DODGEBALL",
+  "sc": 57,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 241.208,
+  "s": "9 MISSES",
+  "sc": 57,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 246.658,
+  "s": "NOBODY CAN HIT HIM",
+  "sc": 58,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 249.742,
+  "s": "LUCKY LEON",
+  "sc": 59,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 257.392,
+  "s": "NO BAD DAYS ALLOWED",
+  "sc": 60,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 261.658,
+  "s": "FRIDAY DANCE",
+  "sc": 61,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 268.125,
+  "s": "Do you want to go with me?",
+  "sc": 62,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 276.708,
+  "s": "Would you like to go to the dance?",
+  "sc": 65,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 279.558,
+  "s": "Sorry, I have a thing.",
+  "sc": 65,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 284.358,
+  "s": "Leon? Are you okay?",
+  "sc": 66,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 297.692,
+  "s": "Yes.",
+  "sc": 68,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 301.242,
+  "s": "That was weird.",
+  "sc": 69,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 316.558,
+  "s": "SCRIPT",
+  "sc": 71,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 318.942,
+  "s": "THE REAL PART",
+  "sc": 72,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 320.6,
+  "s": "1983",
+  "sc": 73,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 322.292,
+  "s": "BENJAMIN LIBET",
+  "sc": 73,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 325.042,
+  "s": "JOURNAL: BRAIN",
+  "sc": 73,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 328.475,
+  "s": "≈ 0.5 s EARLIER",
+  "sc": 74,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 333.525,
+  "s": "SCIENTISTS STILL ARGUE",
+  "sc": 75,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 337.225,
+  "s": "BEFORE WE NOTICE",
+  "sc": 76,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 341.508,
+  "s": "THEIR CHOICE?",
+  "sc": 77,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 343.092,
+  "s": "HIS OWN SCRIPT?",
+  "sc": 77,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 345.825,
+  "s": "THE EASY PROBLEM",
+  "sc": 78,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 351.375,
+  "s": "40 GLIMPSES / DAY",
+  "sc": 80,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 357.892,
+  "s": "TEMPERATURE: TWICE",
+  "sc": 81,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 362.792,
+  "s": "That's the third time today. Just finish it.",
+  "sc": 82,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 372.008,
+  "s": "THE MORE HE LOOKS, THE LESS HE LIVES",
+  "sc": 84,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 376.275,
+  "s": "WINTER CONCERT",
+  "sc": 85,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 377.392,
+  "s": "FRIDAY · 7 PM",
+  "sc": 86,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 382.825,
+  "s": "4 CABLES",
+  "sc": 87,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 394.275,
+  "s": "3 SEC",
+  "sc": 90,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 404.892,
+  "s": "7",
+  "sc": 93,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 408.442,
+  "s": "RUN BLIND: 7 LEFT",
+  "sc": 94,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 410.325,
+  "s": "LOOK AGAIN: 4 LEFT",
+  "sc": 94,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 415.742,
+  "s": "Seven. If I run, I get there at three.",
+  "sc": 95,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 421.242,
+  "s": "5",
+  "sc": 96,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 426.175,
+  "s": "3 SEC",
+  "sc": 97,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 427.342,
+  "s": "2",
+  "sc": 97,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 428.908,
+  "s": "LEFT: ZOE",
+  "sc": 98,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 431.442,
+  "s": "RIGHT: LEON",
+  "sc": 98,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 437.542,
+  "s": "Everybody move!",
+  "sc": 99,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 444.125,
+  "s": "BANG!",
+  "sc": 101,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 459.175,
+  "s": "You froze right before it happened. What do you see?",
+  "sc": 105,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 472.383,
+  "s": "So ask me something else. Without looking.",
+  "sc": 107,
+  "k": "say",
+  "raw": "say",
+  "who": "ZOE"
+ },
+ {
+  "t": 484.967,
+  "s": "A PLAN IS ONLY WORTH THE SECONDS YOU HAVE LEFT",
+  "sc": 111,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 496.075,
+  "s": "SPRING",
+  "sc": 113,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 504.342,
+  "s": "8",
+  "sc": 115,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 508.417,
+  "s": "11",
+  "sc": 115,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 513.408,
+  "s": "+1",
+  "sc": 116,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 517.608,
+  "s": "MONEY",
+  "sc": 117,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 518.342,
+  "s": "LOVE",
+  "sc": 117,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 519.558,
+  "s": "A FRIEND",
+  "sc": 117,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 521.042,
+  "s": "TELL US IN THE COMMENTS",
+  "sc": 118,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 521.775,
+  "s": "SUBSCRIBE",
+  "sc": 119,
+  "k": "plate",
+  "raw": "plate"
+ }
+]
