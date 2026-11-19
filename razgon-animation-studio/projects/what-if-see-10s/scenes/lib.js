@@ -1,4 +1,4 @@
-// lib.js: общий каркас кадров ролика 06 «What If You Could See How Rich Everyone Will Become?» (пак doodle:clean, как ролики 01 и 02).
+// lib.js (ролик 09 «What If You Could See 10 Seconds Into the Future?», копия каркаса роликов 06–08) (пак doodle:clean, как ролики 01 и 02).
 // Кадр = def('s001', {...}). Поля: set, cam, chars[], kids{}, fx(g,t,info,c) (поверх людей), pre(g,t,info,c) (до людей), close{...}, ty.
 // Тексты на экране: story/texts.json (из text_elements.md; k = cap | plate | say | hud | hudtick | lbl). HUD (время и рост) рисует lib по полю hud раскадровки.
 import { E, V, S, registerShot, mood, layer, blurLayer, ease, prog, lerp, clamp, FONTS, text, measure, shade, alpha } from '/engine/core.js';
@@ -7,6 +7,9 @@ import { camPath, drift, camAdd } from '/engine/motion.js';
 import * as D from '/engine/doodle.js';
 import { inkShape, inkCircle, inkRect, inkLine, inkTube, inkEllipse, inkBlob } from '/engine/ink.js';
 import { loadImages, img, loadJSON, project } from '/engine/assets.js';
+import { EXPR } from '/engine/rig2d.js';
+// стеклянный взгляд (Leon «зависает» на 3 секунды): кольца вместо зрачков, рот «о»; глаза видны
+EXPR.glassy = { eyes: 'ring', brows: null, mouth: 'o', look: [0, 0] };
 
 export { E, V, S, mood, layer, ease, prog, lerp, clamp, FONTS, text, measure, shade, alpha, D, inkShape, inkCircle, inkRect, inkLine, inkTube, inkEllipse, inkBlob, POSES, walkPose, posesAt, breathe, drawCharacter, characterHead, characterCloseUp };
 
@@ -73,12 +76,19 @@ export const OUT = {
   KID4: { top: 'hoodie', color: '#c9c3b4', hair: 'messy', hairColor: '#8a5a2e', kid: true },
   KID5: { top: 'tshirt', color: '#8a6ab0', hair: 'short', hairColor: '#2b2420', kid: true },
   KID6: { top: 'tshirt', color: '#f2a03a', hair: 'long', hairColor: '#2b2420', kid: true },
+  REF: { top: 'tshirt', color: '#222831', hat: 'capBack', hatColor: '#222831', hair: 'none', hairColor: '#2b2420', legs: '#222831' },
+  KICK: { top: 'jersey', color: '#3a6ea5', hair: 'short', hairColor: '#2b2420', kid: true, legs: '#f4f6f8' },
+  BKICK: { top: 'jersey', color: '#c0504d', hair: 'messy', hairColor: '#2b2420', kid: true, legs: '#f4f6f8' },
+  FAN1: { top: 'tshirt', color: '#17a2b8', hat: 'capBack', hatColor: '#e4872b', hair: 'none', hairColor: '#2b2420', legs: '#4a5a78' },
+  FAN2: { top: 'dress', color: '#8a6ab0', hair: 'ponytail', hairColor: '#8a5a2e' },
+  SCOOT: { top: 'hoodie', color: '#7d848c', hat: 'beanie', hatColor: '#7d848c', hair: 'none', hairColor: '#2b2420', kid: true, legs: '#2b2b33' },
+  NURSE: { top: 'dress', color: '#f4f6f8', hair: 'bun', hairColor: '#6b3a1e', headband: true },
 };
 Object.values(OUT).forEach((o) => { o.whiteHands = true; });
 for (const k of ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6']) OUT[k].legs = OUT[k].legs || '#3a4a6b';
 const KIDS = ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6', 'TODD'];
 const FIXED = (id) => ['TODD'].includes(id);
-const SM = { PRINCIPAL: 1.22, HALE: 1.2, BURKE: 1.22, PIKE: 1.2, MAYOR: 1.16, ENG: 1.2, ENG2: 1.14, WALT: 1.2, GIRL: 1.12, OLDMAN: 1.12, MAILMAN: 1.2, SKATER: 1.1, P1: 1.2, P2: 1.14, P3: 1.18, P4: 1.2, DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
+const SM = { REF: 1.2, BKICK: 1.55, KICK: 1.1, FAN1: 1.18, FAN2: 1.14, NURSE: 1.2, SCOOT: 1.1, PRINCIPAL: 1.22, HALE: 1.2, BURKE: 1.22, PIKE: 1.2, MAYOR: 1.16, ENG: 1.2, ENG2: 1.14, WALT: 1.2, GIRL: 1.12, OLDMAN: 1.12, MAILMAN: 1.2, SKATER: 1.1, P1: 1.2, P2: 1.14, P3: 1.18, P4: 1.2, DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
 
 const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt, x]) => (t >= tt ? x : a), v[0][1]) : v);
 const kf = (v, t, d = 0) => { if (v == null) return d; if (!Array.isArray(v)) return v; if (t <= v[0][0]) return v[0][1]; for (let i = 1; i < v.length; i++) if (t <= v[i][0]) { const [a, x] = v[i - 1], [b, y] = v[i]; return lerp(x, y, ease.inOut(prog(t, a, b))); } return v[v.length - 1][1]; };
@@ -260,6 +270,22 @@ SETS.busstop = (g) => { const GY = E.H * 0.84; const gr = g.createLinearGradient
   const sx = E.W * 0.5; inkLine(g, [[sx, GY - 8], [sx, GY - 440]], { w: 9 }); inkRect(g, sx - 70, GY - 560, 140, 130, { fill: '#2f5d8a', r: 18, w: 6 }); text(g, 'BUS', sx, GY - 495, { size: 64, font: FONTS.title, weight: 400, color: '#fff' });
   inkRect(g, E.W * 0.58, GY - 92, 340, 18, { fill: '#9a6a3a', r: 6, w: 5 }); inkLine(g, [[E.W * 0.58 + 30, GY - 74], [E.W * 0.58 + 30, GY - 8]], { w: 6 }); inkLine(g, [[E.W * 0.58 + 310, GY - 74], [E.W * 0.58 + 310, GY - 8]], { w: 6 });
   return { GY: GY, benchY: GY - 150, benchX: E.W * 0.58 }; };
+
+// ---- новые места ролика 09 (кодом; OpenAI-фоны sportStore/stage подключаются через BG_SETS после генерации) ----
+SETS.sportStore = (g) => { const GY = E.H * 0.84; D.plain(g, '#9bd7f5'); D.cloud(g, 300, 150, 1.3); D.cloud(g, 1500, 200, 1.1);
+  g.fillStyle = '#c9553a'; g.fillRect(-E.W, E.H * 0.2, E.W * 3, GY - E.H * 0.2 - 40);
+  inkRect(g, E.W * 0.06, E.H * 0.26, E.W * 0.34, E.H * 0.34, { fill: '#cfe6f5', r: 8, w: 6 }); inkRect(g, E.W * 0.1, E.H * 0.1, E.W * 0.26, 90, { fill: '#2f5d8a', r: 10, w: 6 });
+  text(g, 'HAT TRICK SPORTS', E.W * 0.23, E.H * 0.1 + 46, { size: 54, font: FONTS.title, weight: 400, color: '#fff' });
+  inkRect(g, E.W * 0.47, E.H * 0.3, E.W * 0.1, GY - E.H * 0.3 - 40, { fill: '#6e4a2c', r: 10, w: 6 });
+  g.fillStyle = '#7bc04a'; g.fillRect(-E.W, GY - 40, E.W * 3, E.H); inkLine(g, [[-E.W, GY - 40], [E.W * 2, GY - 40]], { w: 6 });
+  for (let x = 0; x < E.W; x += 140) inkLine(g, [[x, GY + 20], [x + 70, GY + 20]], { w: 3, stroke: 'rgba(255,255,255,.4)' });
+  return { GY: E.H * 0.9 }; };
+SETS.stage = (g) => { const GY = E.H * 0.9; D.plain(g, '#3a2f48'); g.fillStyle = '#4a3f58'; g.fillRect(-E.W, GY - 60, E.W * 3, E.H);
+  g.fillStyle = '#2a2236'; g.fillRect(-E.W, 0, E.W * 3, E.H * 0.1);
+  inkRect(g, E.W * 0.06, E.H * 0.1, E.W * 0.88, E.H * 0.5, { fill: '#a62b3a', r: 0, w: 6 }); for (let x = E.W * 0.08; x < E.W * 0.94; x += 70) inkLine(g, [[x, E.H * 0.11], [x - 10, E.H * 0.6]], { w: 4, stroke: 'rgba(0,0,0,.28)' });
+  inkRect(g, E.W * 0.04, E.H * 0.6, E.W * 0.92, 30, { fill: '#b57a3d', r: 4, w: 6 }); inkRect(g, E.W * 0.06, E.H * 0.6 + 30, E.W * 0.88, E.H * 0.12, { fill: '#8a5a2e', r: 0, w: 5 });
+  return { GY }; };
+SETS.roomNight = (g, o) => { const r = SETS.livingRoom(g, o); g.save(); g.fillStyle = 'rgba(16,20,48,.7)'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore(); return r; };
 export { SETS };
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
