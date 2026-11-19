@@ -1,5 +1,5 @@
 {
- "title": "What If You Had Infinite IQ and Had to Hide It",
+ "title": "What If You Could See 10 Seconds Into the Future",
  "aspect": "16:9",
  "resolution": "1080p",
  "fps": 24,
@@ -7,7 +7,7 @@
  "style": "clean",
  "voiceover": "input/voiceover.mp3",
  "script": "input/script.txt",
- "duration": 532.0,
+ "duration": 528.1,
  "captions": false,
  "bars": null,
  "fadeIn": 0.5,

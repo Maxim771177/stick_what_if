@@ -2,7 +2,7 @@ import { def, E, C, D, ease, prog, clamp, lerp, text, FONTS, S, inkLine, inkRect
 const think = (g, x, y, w, h, fn, k = 1, tail) => Y.thought(g, x, y, w, h, fn, { k, tail: tail || [-w * 0.3, h * 0.9] });
 const SITW = { head: [8, -178], sh: [3, -146], hip: [0, -72], eF: [22, -122], hF: [50, -114], eB: [12, -118], hB: [34, -110], kF: [44, -74], fF: [46, 0], kB: [40, -72], fB: [38, 0] };
 const desker = (x, o = {}) => merge(sitters([['LEON', x, 1, { poseObj: SITW, s: 1.5, expr: 'neutral', ...o }]]), { mid: (g, t, i, ctx) => { deskAt(g, x * W(), ctx.GY, 'LEON', 1, 1.5, 300); } });
-const bub = (g, x, y, s, k = 1) => { g.save(); g.translate(x, y); g.scale(k, k); const w = Math.max(140, s.length * 21 + 40); inkRect(g, -w / 2, -34, w, 68, { fill: '#fffdf6', r: 24, w: 5 }); text(g, s, 0, 12, { size: 34, font: FONTS.title, weight: 400, color: '#2b2f36' }); g.restore(); };
+const bub = (g, x, y, s, k = 1) => { g.save(); g.translate(x, y); g.scale(k, k); const w = Math.max(180, s.length * 27 + 50); inkRect(g, -w / 2, -44, w, 88, { fill: '#fffdf6', r: 28, w: 5 }); text(g, s, 0, 14, { size: 44, font: FONTS.title, weight: 400, color: '#2b2f36' }); g.restore(); };
 const hallBG = (g, t, i, ctx) => X.poster(g, 0.55 * W(), H() * 0.3, 260, 200, 'D', '#8a4fff');
 // ===== блок 6: танцы =====
 def('s061', { set: 'hall', cam: 'push', chars: [L(0.3, { f: 1, s: 1.5, expr: 'surprised', look: UP, pose: 'relaxed' }), c('ZOE', 0.82, { f: -1, s: 1.2, tag: 'ZOE', expr: 'smile' })], pre: hallBG });
