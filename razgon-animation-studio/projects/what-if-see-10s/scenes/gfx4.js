@@ -80,7 +80,7 @@ export function fence(g, x0, x1, GY, gate = null, open = 1) {
 export function frame(g, cx, y, w = 640, o = {}) {
   const ang = o.ang ?? 0, h = 46, top = o.top ?? -60, snap = o.snap ?? 0, cabs = [-0.46, -0.16, 0.16, 0.46];
   g.save(); g.translate(cx, y); g.rotate(ang);
-  cabs.forEach((u, i) => { const x = u * w, last = i === 3; const ty = (top - y); if (last && snap > 0) { inkLine(g, [[x, -h / 2], [x + 14 * snap, -h / 2 - (y - top) * 0.2]], { w: 5, stroke: '#9aa3ad' }); } else inkLine(g, [[x, -h / 2], [x * Math.cos(-ang) - 0, ty - 0]], { w: 5, stroke: '#9aa3ad' }); });
+  cabs.forEach((u, i) => { const x = u * w, last = i === 3; const ty = (top - y); if (last && snap > 0) { inkLine(g, [[x, -h / 2], [x + 14 * snap, -h / 2 - (y - top) * 0.2]], { w: 5, stroke: '#9aa3ad' }); } else inkLine(g, [[x, -h / 2], [x * Math.cos(-ang) - 0, ty - 0]], { w: 6, stroke: '#e9edf2' }); });
   inkRect(g, -w / 2, -h / 2, w, h, { fill: '#8a949f', r: 6, w: 6 });
   for (let xx = -w / 2 + 20; xx < w / 2 - 10; xx += 40) inkLine(g, [[xx, -h / 2 + 4], [xx + 20, h / 2 - 4], [xx + 40, -h / 2 + 4]], { w: 3, stroke: '#5b6670' });
   for (let i = 0; i < 4; i++) { const lx = (-0.36 + i * 0.24) * w; inkRect(g, lx - 20, h / 2, 40, 34, { fill: '#2b2f36', r: 6, w: 4 }); inkCircle(g, lx, h / 2 + 40, 11, { fill: o.on ? '#fff59d' : '#f2f2f2', w: 3 }); }
