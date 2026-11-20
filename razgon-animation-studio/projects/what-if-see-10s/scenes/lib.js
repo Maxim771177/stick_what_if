@@ -198,7 +198,7 @@ const SETS = {
 };
 // Фоны от OpenAI (assets/bg/<файл>.png, 1536x1024, в кадре обрезаются до 16:9). BG_IMG=false вернёт кодовые заглушки.
 const BG_IMG = true;
-export const BG_SETS = { sportStore: 'sportStore', stage: 'stage', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
+export const BG_SETS = { sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
 const BGIM = await loadImages(Object.fromEntries(Object.entries(BG_SETS).map(([n, f]) => [n, project(`assets/bg/${f}.png`)])));
 const PNAMES = ['school/tray', 'school/dodgeball'];
 export const PIM = await loadImages(Object.fromEntries(PNAMES.map((n) => [n.split('/')[1], project(`assets/props/${n}.png`)])));
@@ -286,7 +286,7 @@ SETS.stage = (g) => { const GY = E.H * 0.9; D.plain(g, '#3a2f48'); g.fillStyle =
   inkRect(g, E.W * 0.04, E.H * 0.6, E.W * 0.92, 30, { fill: '#b57a3d', r: 4, w: 6 }); inkRect(g, E.W * 0.06, E.H * 0.6 + 30, E.W * 0.88, E.H * 0.12, { fill: '#8a5a2e', r: 0, w: 5 });
   return { GY }; };
 SETS.roomNight = (g, o) => { const r = SETS.livingRoom(g, o); g.save(); g.fillStyle = 'rgba(16,20,48,.7)'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore(); return r; };
-if (BG_IMG) for (const n of Object.keys(BG_SETS)) { const orig = SETS[n]; SETS[n] = (g, o) => { const r = orig(g, o), im = BGIM[n]; if (!(o && o.noimg)) g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return r; }; }
+if (BG_IMG) for (const n of Object.keys(BG_SETS)) { const orig = SETS[n]; SETS[n] = (g, o) => { const r = orig(g, o), im = BGIM[n]; if (!(o && o.noimg)) if (n === 'stage') g.drawImage(im, 0, 0, im.width, im.height, -E.W * 0.05, E.H * 0.9 - 915 * 1.325, E.W * 1.1, im.height * 1.325); else g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return r; }; }
 export { SETS };
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
 
@@ -409,3 +409,5 @@ export function def(id, spec) {
     if (!spec.nohud) drawHud(g, t, info);
   } });
 }
+
+export const SMX = SM;

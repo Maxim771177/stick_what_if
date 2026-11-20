@@ -55,4 +55,9 @@ export const audChairs = (g, ctx, chars = []) => {
   for (let x = 0.05; x < 1; x += 0.1) { if (occ.some((o) => Math.abs(o - x) < 0.075)) continue; seat(g, x * W(), GY, 'KID', x < 0.5 ? 1 : -1, 1.5); }
   for (const ch of seatsAt) seat(g, ch.x * W(), GY + (ch.dy || 0), ch.w, ch.f ?? 1, ch.s);
 };
-export const defS = (id, spec) => { const p0 = spec.pre; spec.pre = (g, t, i, ctx) => { audChairs(g, ctx, spec.chars); p0 && p0(g, t, i, ctx); }; def(id, spec); };
+export const defS = (id, spec) => def(id, spec);
+import { SMX } from '../lib.js';
+// зал: стулья нарисованы в фоне stage2.png (8 профильных стульев, лицом вправо); SLOT(i) = x таза сидящего на стуле i (0..7)
+export const SLOT = (i, dx = 0) => 0.0517 + 0.1272 * i + dx;
+export const bigS = (w) => 2.1 / ((SMX[w] ?? 1) * (OUT[w]?.kid ? 0.72 : 1));
+export const ONSTAGE = () => (E.H * 0.444 - E.H * 0.9);
