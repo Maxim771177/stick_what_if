@@ -77,6 +77,7 @@ export const OUT = {
   KID5: { top: 'tshirt', color: '#8a6ab0', hair: 'short', hairColor: '#2b2420', kid: true },
   KID6: { top: 'tshirt', color: '#f2a03a', hair: 'long', hairColor: '#2b2420', kid: true },
   REF: { top: 'tshirt', color: '#222831', hat: 'capBack', hatColor: '#222831', hair: 'none', hairColor: '#2b2420', legs: '#222831' },
+  KEEP: { top: 'jersey', color: '#f2c200', hair: 'short', hairColor: '#6b3a1e', kid: true, legs: '#222831' },
   KICK: { top: 'jersey', color: '#3a6ea5', hair: 'short', hairColor: '#2b2420', kid: true, legs: '#f4f6f8' },
   BKICK: { top: 'jersey', color: '#c0504d', hair: 'messy', hairColor: '#2b2420', kid: true, legs: '#f4f6f8' },
   FAN1: { top: 'tshirt', color: '#17a2b8', hat: 'capBack', hatColor: '#e4872b', hair: 'none', hairColor: '#2b2420', legs: '#4a5a78' },
@@ -88,7 +89,7 @@ Object.values(OUT).forEach((o) => { o.whiteHands = true; });
 for (const k of ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6']) OUT[k].legs = OUT[k].legs || '#3a4a6b';
 const KIDS = ['KID', 'KID2', 'KID3', 'KID4', 'KID5', 'KID6', 'TODD'];
 const FIXED = (id) => ['TODD'].includes(id);
-const SM = { REF: 1.2, BKICK: 1.55, KICK: 1.1, FAN1: 1.18, FAN2: 1.14, NURSE: 1.2, SCOOT: 1.1, PRINCIPAL: 1.22, HALE: 1.2, BURKE: 1.22, PIKE: 1.2, MAYOR: 1.16, ENG: 1.2, ENG2: 1.14, WALT: 1.2, GIRL: 1.12, OLDMAN: 1.12, MAILMAN: 1.2, SKATER: 1.1, P1: 1.2, P2: 1.14, P3: 1.18, P4: 1.2, DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
+const SM = { KEEP: 1.55, REF: 1.2, BKICK: 1.55, KICK: 1.1, FAN1: 1.18, FAN2: 1.14, NURSE: 1.2, SCOOT: 1.1, PRINCIPAL: 1.22, HALE: 1.2, BURKE: 1.22, PIKE: 1.2, MAYOR: 1.16, ENG: 1.2, ENG2: 1.14, WALT: 1.2, GIRL: 1.12, OLDMAN: 1.12, MAILMAN: 1.2, SKATER: 1.1, P1: 1.2, P2: 1.14, P3: 1.18, P4: 1.2, DUNN: 1.22, DOCTOR: 1.22, ATTEND: 1.2, DRIVER: 1.2, PARK: 1.2, DAD: 1.22, MOM: 1.14, LEON: 0.86, ZOE: 1.15, ROCCO: 1.42, CHASE: 1.2, OWEN: 1.12, LEO: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, NORA: 0.78, BULLY: 1.5, TODD: 1.1, BABY: 0.8, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 };
 
 const tl = (v, t) => (Array.isArray(v) && Array.isArray(v[0]) ? v.reduce((a, [tt, x]) => (t >= tt ? x : a), v[0][1]) : v);
 const kf = (v, t, d = 0) => { if (v == null) return d; if (!Array.isArray(v)) return v; if (t <= v[0][0]) return v[0][1]; for (let i = 1; i < v.length; i++) if (t <= v[i][0]) { const [a, x] = v[i - 1], [b, y] = v[i]; return lerp(x, y, ease.inOut(prog(t, a, b))); } return v[v.length - 1][1]; };
@@ -109,7 +110,7 @@ const inWin = (w, t) => (w || []).some(([a, b]) => t >= a && t <= b);
 export function who(g, c, t, info, GY, wins) {
   const id = c.w || 'KID', f = c.f ?? 1, x = (c.x ?? 0.5) * E.W, y = GY + (c.dy ?? 0) + kf(c.dyK, t, 0);
   let cx = x; let walking = false;
-  if (c.walk) { const [x0, x1, t0, t1] = c.walk; const u = clamp((t - t0) / (t1 - t0)); cx = lerp(x0, x1, ease.inOut(u)) * E.W; walking = u > 0 && u < 1; }
+  if (c.walk) { const [x0, x1, t0, t1] = c.walk; const u = clamp((t - t0) / (t1 - t0)); cx = lerp(x0, x1, c.lin ? u : ease.inOut(u)) * E.W; walking = c.lin ? (t >= t0 && t <= t1) : (u > 0 && u < 1); }
   if (c.xK) cx = kf(c.xK, t, 0.5) * E.W;
   const pn = tl(c.pose || 'stand', t), expr = tl(c.expr || 'neutral', t);
   const s = kf(c.s, t, 1.55) * (SM[id] ?? 1);

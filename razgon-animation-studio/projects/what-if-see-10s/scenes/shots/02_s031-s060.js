@@ -2,20 +2,42 @@ import { def, E, C, D, ease, prog, clamp, lerp, text, FONTS, S, inkLine, inkRect
 const GL = 860, GH = 450;
 const goalBG = (x = 0.5) => (g, t, i, ctx) => Z.goal(g, x * W(), ctx.GY, GL, GH);
 const rp = (o, p) => { const r = o.rot || 0, dx = p[0] - o.x, dy = p[1] - o.y; return [o.x + dx * Math.cos(r) - dy * Math.sin(r), o.y + dx * Math.sin(r) + dy * Math.cos(r)]; };
-const gloves = (o, g, k = 1.9) => { if (Math.abs(o.rot || 0) > 0.3) return; const a = rp(o, hand(o, 'F')), b = rp(o, hand(o, 'B')); Z.glove(g, a[0], a[1] - 6, k * o.s / 1.5, o.rot || 0); Z.glove(g, b[0], b[1] - 6, k * o.s / 1.5, o.rot || 0); };
+const gloves = (o, g) => { Z.gloveOn(g, o, 'B'); Z.gloveOn(g, o, 'F'); };
 const think = (g, x, y, w, h, fn, k = 1, tail) => Y.thought(g, x, y, w, h, fn, { k, tail: tail || [-w * 0.3, h * 0.9] });
 // вратарь в прыжке: dir -1 влево, 1 вправо, t0 время начала прыжка; xK/dyK/rotK по времени
-const diveK = (x0, dir, t0) => ({ pose: [[0, 'stand'], [t0, 'dive']], xK: [[0, x0], [t0, x0], [t0 + 0.45, x0 + dir * 0.07], [t0 + 1.4, x0 + dir * 0.08]], dyK: [[0, 0], [t0, 0], [t0 + 0.3, -210], [t0 + 0.7, -190], [t0 + 1.0, -120], [t0 + 1.35, -40]], rotK: [[0, 0], [t0, 0], [t0 + 0.4, dir * 1.2], [t0 + 1.2, dir * 1.3]] });
+// вратарь прыгает: оттолкнулся, в прыжке рукой отбил (save) или не достал на дюйм (miss), упал на землю; dir -1 влево, 1 вправо; t0 начало прыжка
+const keeperDive = (x0, dir, t0, o = {}) => {
+  const tc = t0 + 0.35, mode = o.mode || 'save', from = o.from ?? 0.22, G = 78;
+  return {
+    pose: [[0, 'keeper'], [t0 - 0.05, 'keeper'], [t0 + 0.12, 'dive']],
+    xK: [[0, x0], [t0, x0], [tc, x0 + dir * 0.09], [t0 + 0.85, x0 + dir * 0.13], [99, x0 + dir * 0.14]],
+    dyK: [[0, 0], [t0, 0], [t0 + 0.14, -75], [tc, -150], [t0 + 0.62, -70], [t0 + 0.82, G], [99, G]],
+    rotK: [[0, 0], [t0, 0], [t0 + 0.16, dir * 0.55], [tc, dir * 1.15], [t0 + 0.62, dir * 1.4], [t0 + 0.82, dir * 1.52], [99, dir * 1.52]],
+    after: (g, o2, t) => {
+      gloves(o2, g);
+      if (o.ball === false) return;
+      const GY = o2.y - kf(o2.dyKref || [[0, 0], [t0, 0], [t0 + 0.14, -75], [tc, -150], [t0 + 0.62, -70], [t0 + 0.82, G], [99, G]], t, 0);
+      const oc = { x: kf([[0, x0], [t0, x0], [tc, x0 + dir * 0.09]], tc, 0.5) * W(), y: GY - 150, s: o2.s, outfit: o2.outfit, facing: o2.facing, pose: POSES.dive, rot: dir * 1.15 };
+      const a = Z.jointW(oc, 'hF'), b = Z.jointW(oc, 'hB'), Hc = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], S0 = [from * W(), GY - 24], tb = tc - 0.45;
+      let bx, by, rot = t * 14;
+      const u = clamp((t - tb) / 0.45);
+      if (t <= tc) { bx = lerp(S0[0], Hc[0], ease.in(u)); by = lerp(S0[1], Hc[1], ease.in(u)) - Math.sin(u * Math.PI) * 50; }
+      else if (mode === 'save') { const d = t - tc; bx = Hc[0] + dir * 560 * d; by = Hc[1] - 430 * d + 520 * d * d; }
+      else { const d = clamp((t - tc) / 0.12); bx = Hc[0] + dir * lerp(0, 150, d); by = Hc[1] + lerp(0, -70, d); }
+      Z.ball(g, bx, by, 28, rot);
+    },
+  };
+};
 const ballTo = (from, to, t0, dur = 0.5, hi = 120, r = 28) => (g, t, i, ctx) => { const u = clamp((t - t0) / dur); const x = lerp(from[0], to[0], ease.in(u)) * W(), y = lerp(ctx.GY - from[1], ctx.GY - to[1], ease.in(u)) - Math.sin(u * Math.PI) * hi; Z.ball(g, x, y, r, t * 14); };
 const crowd = (o = {}) => [...kids([0.84, 0.9], { f: -1, expr: o.expr || 'neutral', look: o.look }), c('FAN1', 0.06, { f: 1, s: 1.5, pose: o.pose || 'stand', expr: o.expr || 'neutral' }), c('FAN2', 0.97, { f: -1, s: 1.5, pose: o.pose || 'stand', expr: o.expr || 'neutral' })];
-const saved = (dir, extra = {}) => ({ set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...diveK(0.5, dir, 0.6), after: (g, o) => gloves(o, g), ...extra }), P('REF', 0.77, { f: -1, pose: 'stand' }), ...crowd({ expr: 'surprised' })], pre: goalBG(0.5), mid: ballTo([0.22, 24], [0.5 + dir * 0.2, 190], 0.5, 0.45) });
+const saved = (dir, extra = {}) => ({ set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...keeperDive(0.5, dir, 0.6), ...extra }), P('REF', 0.77, { f: -1, pose: 'stand' }), ...crowd({ expr: 'surprised' })], pre: goalBG(0.5) });
 def('s031', saved(-1));
-def('s032', { ...saved(1), chars: [L(0.5, { s: 1.5, f: 1, ...diveK(0.5, 1, 0.5), after: (g, o) => gloves(o, g) }), P('REF', 0.77, { f: -1 }), ...crowd({ expr: 'joy' })] });
-def('s033', { set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...diveK(0.5, -1, 0.3), after: (g, o) => gloves(o, g) }), P('REF', 0.77, { f: -1 }), ...crowd({ expr: 'joy', pose: 'cheer' })], pre: goalBG(0.5), mid: (g, t, i, ctx) => { ballTo([0.22, 24], [0.31, 190], 0.3, 0.45)(g, t, i, ctx); } });
-def('s034', { set: 'sportStore', cam: 'push', chars: [L(0.5, { s: 1.5, f: 1, expr: 'surprised', after: (g, o) => gloves(o, g) }), c('BKICK', 0.24, { f: 1, s: 1.5, pose: [[0, 'stand'], [1.6, 'kick']], expr: 'determined', tag: 'BKICK' }), P('REF', 0.82, { f: -1 }), c('FAN1', 0.92, { f: -1, s: 1.5, expr: 'neutral' })], pre: goalBG(0.5), mid: (g, t, i, ctx) => { const u = clamp((t - 2.2) / 0.55); const x = lerp(0.3, 0.6, ease.in(u)) * W(), y = ctx.GY - 40 - ease.out(u) * 330; Z.ball(g, x, y, 28, t * 16); } });
-def('s035', { set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...diveK(0.5, 1, 0.8), after: (g, o) => gloves(o, g) }), c('BKICK', 0.24, { f: 1, s: 1.5, pose: 'stand', expr: 'smirk', tag: 'BKICK' }), P('REF', 0.82, { f: -1 })], pre: goalBG(0.5), mid: (g, t, i, ctx) => { const u = clamp((t - 0.4) / 0.9); const x = lerp(0.3, 0.74, ease.out(u)) * W(), y = ctx.GY - 40 - Math.min(1, ease.out(u)) * 340; Z.ball(g, x, y, 28, t * 16); if (t > 2.6) { const k = ease.outBack(prog(t, 2.6, 3.1)); Z.vision(g, t, W() * 0.83, H() * 0.2, W() * 0.32, H() * 0.34, (g2, cx, cy, w, h) => { Z.glove(g2, -w * 0.18, -h * 0.12, 1.5, 0.4); Z.ball(g2, w * 0.14, -h * 0.16, 30); text(g2, '1 INCH', 0, h * 0.22, { size: 84, font: FONTS.title, weight: 400, color: '#fff', stroke: 8, strokeColor: '#10182b' }); }, { k, tail: [-W() * 0.16, H() * 0.2] }); } } });
+def('s032', { ...saved(1), chars: [L(0.5, { s: 1.5, f: 1, ...keeperDive(0.5, 1, 0.5) }), P('REF', 0.77, { f: -1 }), ...crowd({ expr: 'joy' })] });
+def('s033', { set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...keeperDive(0.5, -1, 0.3) }), P('REF', 0.77, { f: -1 }), ...crowd({ expr: 'joy', pose: 'cheer' })], pre: goalBG(0.5) });
+def('s034', { set: 'sportStore', cam: 'push', chars: [L(0.5, { s: 1.5, f: 1, expr: 'surprised', pose: 'keeper', after: (g, o) => gloves(o, g) }), c('BKICK', 0.24, { f: 1, s: 1.5, pose: [[0, 'stand'], [1.6, 'kick']], expr: 'determined', tag: 'BKICK' }), P('REF', 0.82, { f: -1 }), c('FAN1', 0.92, { f: -1, s: 1.5, expr: 'neutral' })], pre: goalBG(0.5), mid: (g, t, i, ctx) => { const u = clamp((t - 2.2) / 0.55); const x = lerp(0.3, 0.6, ease.in(u)) * W(), y = ctx.GY - 40 - ease.out(u) * 330; Z.ball(g, x, y, 28, t * 16); } });
+def('s035', { set: 'sportStore', cam: 'still', chars: [L(0.5, { s: 1.5, f: 1, ...keeperDive(0.5, 1, 0.8, { mode: 'miss', from: 0.3 }) }), c('BKICK', 0.24, { f: 1, s: 1.5, pose: 'stand', expr: 'smirk', tag: 'BKICK' }), P('REF', 0.82, { f: -1 })], pre: goalBG(0.5), mid: (g, t, i, ctx) => { if (t > 2.6) { const k = ease.outBack(prog(t, 2.6, 3.1)); Z.vision(g, t, W() * 0.83, H() * 0.2, W() * 0.32, H() * 0.34, (g2, cx, cy, w, h) => { Z.glove(g2, -w * 0.18, -h * 0.12, 1.5, 0.4); Z.ball(g2, w * 0.14, -h * 0.16, 30); text(g2, '1 INCH', 0, h * 0.22, { size: 84, font: FONTS.title, weight: 400, color: '#fff', stroke: 8, strokeColor: '#10182b' }); }, { k, tail: [-W() * 0.16, H() * 0.2] }); } } });
 def('s036', { set: 'sportStore', cam: 'push', chars: [L(0.4, { s: 1.5, f: 1, pose: 'sad', expr: 'sad', look: [0.2, 0.8], after: (g, o) => gloves(o, g) }), P('REF', 0.8, { f: -1 })], pre: goalBG(0.62), mid: (g, t, i, ctx) => { Z.ball(g, 0.64 * W(), ctx.GY - 24, 28); } });
-def('s037', { set: 'sportStore', cam: 'push', chars: [L(0.5, { s: 1.5, f: 1, expr: [[0, 'glassy'], [1.4, 'determined']], pose: [[0, 'stand'], [1.9, 'dive']], xK: [[0, 0.5], [1.9, 0.5], [2.5, 0.61], [4, 0.63]], dyK: [[0, 0], [1.9, 0], [2.2, -200], [2.7, -180], [3.2, -100], [3.8, -30]], rotK: [[0, 0], [1.9, 0], [2.4, 1.2], [3.1, 1.3]], after: (g, o) => gloves(o, g) }), P('REF', 0.82, { f: -1 }), ...crowd({ expr: 'surprised' })], pre: goalBG(0.5), mid: ballTo([0.22, 24], [0.68, 190], 1.9, 0.45) });
+def('s037', { set: 'sportStore', cam: 'push', chars: [L(0.5, { s: 1.5, f: 1, expr: [[0, 'glassy'], [1.4, 'determined']], ...keeperDive(0.5, 1, 1.9, { from: 0.22 }) }), P('REF', 0.82, { f: -1 }), ...crowd({ expr: 'surprised' })], pre: goalBG(0.5) });
 def('s038', { set: 'sportStore', cam: 'push', chars: [...kids([0.3, 0.42], { f: 1, expr: 'joy', pose: 'cheer' }), P('REF', 0.7, { f: -1, pose: 'point', expr: 'joy' }), L(0.5, { s: 1.5, f: 1, expr: 'joy', pose: 'cheer', dy: 0 })], mid: (g, t, i, ctx) => { Z.bigCheck(g, 0.5 * W(), H() * 0.3, 460, -0.06 + Math.sin(t * 3) * 0.02); X.sparks(g, t, 0.5 * W(), H() * 0.24, 240, 14); } });
 // ===== дома: Mom =====
 def('s039', { set: 'kitchen', cam: 'push', ...merge(sitters([['LEON', 0.7, -1, { expr: 'neutral', s: 1.5 }]]), { chars: [P('MOM', 0.34, { f: 1, pose: 'talk', expr: 'confused', after: (g, o) => inHand(g, o, 'F', (x, y, e) => Y.envelope(g, x + 20 * e, y - 24 * e, 80 * e)) })], mid: (g, t, i, ctx) => { tableAt(g, 0.6 * W(), ctx.GY, 360, 150); } }) });
@@ -24,8 +46,8 @@ def('s041', { set: 'void', cam: 'push', chars: [L(0.4, { s: 1.5, f: 1, expr: 'sa
 // ===== блок 4: скутер, улица (вид сбоку) =====
 const gateX = 0.7;
 const streetBG = (open = 0) => (g, t, i, ctx) => { Z.fence(g, W() * 0.52, W() * 0.98, H() * 0.66, gateX * W(), open); };
-def('s042', { set: 'streetWalk', cam: 'push', chars: [c('ZOE', 0.4, { f: 1, s: 1.5, tag: 'ZOE', walk: [0.4, 0.6, 0, 4.4] }), L(0.12, { f: 1, s: 1.5, walk: [0.12, 0.3, 0, 4.4] })], pre: streetBG(0.2) });
-def('s043', { set: 'streetWalk', cam: 'push', chars: [c('ZOE', 0.4, { f: 1, s: 1.8, tag: 'ZOE', pose: 'relaxed', expr: 'smile', after: (g, o) => { Z.bagOn(g, o); Z.headphones(g, o); } })], pre: streetBG(0.2) });
+def('s042', { set: 'streetWalk', cam: 'push', chars: [c('ZOE', 0.3, { f: 1, s: 1.5, tag: 'ZOE', lin: 1, walk: [0.3, 0.64, 0, 4.6] }), L(0.05, { f: 1, s: 1.5, lin: 1, walk: [0.05, 0.38, 0, 4.6] })], pre: streetBG(0.2) });
+def('s043', { set: 'streetWalk', cam: 'push', chars: [c('ZOE', 0.4, { f: 1, s: 1.8, tag: 'ZOE', lin: 1, walk: [0.3, 0.57, 0, 2.7], expr: 'smile', after: (g, o) => { Z.bagOn(g, o); Z.headphones(g, o); } })], pre: streetBG(0.2) });
 // видение со скутером: внутри мини-улица
 const miniStreet = (g, cx, cy, w, h) => { g.fillStyle = '#586070'; g.fillRect(cx - w / 2, cy + h * 0.28, w, h * 0.3); g.fillStyle = '#9aa3ad'; g.fillRect(cx - w / 2, cy + h * 0.12, w, h * 0.16); };
 def('s044', vis((g, cx, cy, w, h, t) => { miniStreet(g, cx, cy, w, h); mini(g, 'ZOE', cx + w * 0.14, cy + h * 0.3, 1.6, 1, 'stand', 'smile'); const x = lerp(cx - w * 0.42, cx + w * 0.1, ease.in(prog(t, 0.6, 3.6))); Z.scooter(g, x, cy + h * 0.56, 1.0, 1); mini(g, 'SCOOT', x - 10, cy + h * 0.56 - 90, 1.15, 1, 'stand', 'determined'); }, { rate: 1.4 }));

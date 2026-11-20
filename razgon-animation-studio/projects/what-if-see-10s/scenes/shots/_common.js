@@ -46,3 +46,13 @@ SETS.streetWalk = (g) => { const GY = E.H * 0.78; const gr = g.createLinearGradi
   g.fillStyle = '#585d66'; g.fillRect(-E.W, E.H * 0.82, E.W * 3, E.H); for (let x = 0; x < E.W; x += 260) inkLine(g, [[x, E.H * 0.935], [x + 130, E.H * 0.935]], { w: 8, stroke: '#f1ead9' });
   return { GY }; };
 export const ROAD = () => H() * 0.94;  // колёса скутера на проезжей части
+
+// ---- зал (с 20.11.2026): стулья профильные, под каждым зрителем, ряд пустых стульев между ними; зрители смотрят к центру ----
+export const audChairs = (g, ctx, chars = []) => {
+  const GY = ctx.GY, seatsAt = [];
+  for (const ch of chars) { if (ch.xK || ch.walk) continue; if (ch.pose === 'sit' || String(ch.tag || '').startsWith('AUD') || ch.seat) seatsAt.push(ch); }
+  const occ = seatsAt.map((ch) => ch.x);
+  for (let x = 0.05; x < 1; x += 0.1) { if (occ.some((o) => Math.abs(o - x) < 0.075)) continue; seat(g, x * W(), GY, 'KID', x < 0.5 ? 1 : -1, 1.5); }
+  for (const ch of seatsAt) seat(g, ch.x * W(), GY + (ch.dy || 0), ch.w, ch.f ?? 1, ch.s);
+};
+export const defS = (id, spec) => { const p0 = spec.pre; spec.pre = (g, t, i, ctx) => { audChairs(g, ctx, spec.chars); p0 && p0(g, t, i, ctx); }; def(id, spec); };

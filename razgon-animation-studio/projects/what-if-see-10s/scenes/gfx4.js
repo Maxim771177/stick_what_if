@@ -51,12 +51,24 @@ export function goal(g, x, GY, w = 640, h = 300, o = {}) {
 export const ball = (g, x, y, r, rot = 0) => { g.save(); g.translate(x, y); g.rotate(rot); X.soccer(g, 0, 0, r); g.restore(); };
 // ---- перчатка вратаря на руке: x,y центр ладони, k масштаб, rot
 export function glove(g, x, y, k = 1, rot = 0) {
+  // вратарская перчатка: запястье в (0,0), пальцы вверх (-y); k = масштаб ≈ ед. позы
   g.save(); g.translate(x, y); g.rotate(rot); g.scale(k, k);
-  inkRect(g, -20, 10, 40, 22, { fill: '#2f6dd8', r: 6, w: 4 });
-  inkRect(g, -28, -34, 56, 50, { fill: '#9be564', r: 14, w: 5 });
-  for (let i = 0; i < 4; i++) inkRect(g, -26 + i * 14, -62 + (i % 2 ? 6 : 0), 12, 36, { fill: '#9be564', r: 6, w: 4 });
-  inkRect(g, 22, -22, 14, 30, { fill: '#9be564', r: 6, w: 4 });
+  const G = '#7ed321', D = '#1f4aa8';
+  inkRect(g, -14, 2, 28, 15, { fill: D, r: 5, w: 3.5 });                       // манжета
+  inkRect(g, -17, -26, 34, 32, { fill: G, r: 11, w: 4 });                       // ладонь
+  [[-12, 25], [-4, 30], [4, 30], [12, 26]].forEach(([fx, fl]) => inkRect(g, fx - 4.2, -26 - fl, 8.4, fl + 4, { fill: G, r: 4.2, w: 3.2 }));
+  inkRect(g, -26, -22, 11, 22, { fill: G, r: 5, w: 3.2 });                      // большой палец
+  inkLine(g, [[-12, -10], [12, -10]], { w: 3, stroke: '#ffffff' });             // белая полоса
   g.restore();
+}
+// перчатки строго на кистях куклы o (после drawCharacter: x,y,s,facing,pose,rot,outfit): направлены вдоль предплечья
+export function gloveOn(g, o, which = 'F', k = 0.95) {
+  const p = o.pose, e = o.s * (o.outfit?.kid ? 0.72 : 1), f = o.facing ?? 1, r = o.rot || 0, [hx, hy] = p.hip, c = Math.cos(r), sn = Math.sin(r);
+  const W = (q) => { const dx = q[0] - hx, dy = q[1] - hy; return [o.x + f * e * (hx + dx * c - dy * sn), o.y + e * (hy + dx * sn + dy * c)]; };
+  const el = W(which === 'B' ? p.eB : p.eF), ha = W(which === 'B' ? p.hB : p.hF);
+  const ang = Math.atan2(ha[0] - el[0], -(ha[1] - el[1])), L = Math.hypot(ha[0] - el[0], ha[1] - el[1]) || 1;
+  const px = ha[0] + (ha[0] - el[0]) / L * 6 * e, py = ha[1] + (ha[1] - el[1]) / L * 6 * e;
+  glove(g, px, py, k * e / 1.08 * 0.8, ang);
 }
 // ---- скутер сбоку: x центр, GY земля, k масштаб, f направление (1 вправо)
 export function scooter(g, x, GY, k = 1, f = 1, t = 0) {
@@ -108,8 +120,13 @@ export function scales(g, x, y, k = 1, tilt = 0) { inkLine(g, [[x, y + 120 * k],
 export function filmStrip(g, x, y, w, h, n = 5, t = 0, hi = -1) { inkRect(g, x - w / 2, y - h / 2, w, h, { fill: '#2b2f36', r: 8, w: 5 }); const cw = (w - 20) / n; for (let i = 0; i < n; i++) { inkRect(g, x - w / 2 + 10 + i * cw + 4, y - h / 2 + 12, cw - 8, h - 24, { fill: i === hi ? '#ffd23a' : (i % 2 ? '#cfe6f5' : '#fffdf6'), r: 4, w: 3 }); } }
 export function helmetDummy(g, x, GY, k = 1) { inkRect(g, x - 28 * k, GY - 190 * k, 56 * k, 190 * k, { fill: '#8a949f', r: 14, w: 5 }); inkCircle(g, x, GY - 210 * k, 28 * k, { fill: '#cfd6dd', w: 5 }); inkLine(g, [[x - 28 * k, GY - 130 * k], [x - 80 * k, GY - 90 * k]], { w: 9 }); inkLine(g, [[x + 28 * k, GY - 130 * k], [x + 80 * k, GY - 90 * k]], { w: 9 }); }
 // наушники на голове куклы o (после drawCharacter)
-export function headphones(g, o) { const h = characterHead(o); const hx = h[0], hy = h[1], R = 44 * o.s * (o.outfit?.kid ? 0.72 * 1.12 : 1), f = o.facing ?? 1; g.save(); g.strokeStyle = '#2b2f36'; g.lineWidth = 10; g.beginPath(); g.arc(hx - f * R * 0.08, hy, R * 1.06, Math.PI * 1.02, Math.PI * 1.98); g.stroke(); inkRect(g, hx - f * R * 0.08 - R * 0.2, hy - R * 0.28, R * 0.4, R * 0.56, { fill: '#e5383b', r: 8, w: 4 }); g.restore(); }
+export function headphones(g, o) { const h = characterHead(o), hx = h[0], hy = h[1], Rh = 44 * o.s * (o.outfit?.kid ? 0.72 * 1.12 : 1) * 1.5, f = o.facing ?? 1; g.save(); g.lineCap = 'round'; g.strokeStyle = '#2b2f36'; g.lineWidth = Rh * 0.11; g.beginPath(); g.moveTo(hx - f * Rh * 0.42, hy - Rh * 0.12); g.quadraticCurveTo(hx - f * Rh * 0.2, hy - Rh * 1.55, hx + f * Rh * 0.72, hy - Rh * 0.5); g.stroke(); inkRect(g, hx - f * Rh * 0.42 - Rh * 0.16, hy - Rh * 0.2, Rh * 0.32, Rh * 0.5, { fill: '#e5383b', r: 8, w: 4 }); g.restore(); }
 export function bagOn(g, o) { const f = o.facing ?? 1, e = o.s * (o.outfit?.kid ? 0.72 : 1); inkLine(g, [[o.x - f * 6 * e, o.y - 170 * e], [o.x - f * 30 * e, o.y - 98 * e]], { w: 7, stroke: '#6b3a1e' }); inkRect(g, o.x - f * 30 * e - 28 * e, o.y - 100 * e, 56 * e, 62 * e, { fill: '#8a5a2e', r: 8, w: 4 }); }
 export const sign = (g, x, y, w, h, lines, col = '#fffdf6') => { inkRect(g, x - w / 2, y - h / 2, w, h, { fill: col, r: 10, w: 6 }); lines.forEach(([s, sz, c], i) => text(g, s, x, y - h / 2 + h * (0.22 + 0.3 * i), { size: sz, font: FONTS.title, weight: 400, color: c || ink() })); };
 export function bed(g, x, gy, w = 640, f = 1) { inkLine(g, [[x - w / 2, gy], [x - w / 2, gy - 150]], { w: 9 }); inkLine(g, [[x + w / 2, gy], [x + w / 2, gy - 90]], { w: 9 }); inkRect(g, x - w / 2, gy - 120, w, 40, { fill: '#e8f4f2', r: 10, w: 6 }); inkRect(g, x - w / 2 - 10, gy - 200, 24, 120, { fill: '#9aa8b0', r: 6, w: 5 }); inkRect(g, x - w / 2 + 14, gy - 150, 150, 40, { fill: '#fff', r: 18, w: 5 }); }
 export function blanketTo(g, x0, x1, topY, botY) { inkRect(g, x0, topY, x1 - x0, botY - topY, { fill: '#7ab8e0', r: 22, w: 6 }); inkLine(g, [[x0 + 24, topY + 26], [x1 - 24, topY + 26]], { w: 4, stroke: '#cfe6f5' }); inkLine(g, [[x0 + 24, topY + 54], [x1 - 24, topY + 54]], { w: 3, stroke: '#a6d0ec' }); }
+// мировая позиция сустава куклы o (с учётом поворота вокруг бёдер)
+export function jointW(o, name) {
+  const p = o.pose, e = o.s * (o.outfit?.kid ? 0.72 : 1), f = o.facing ?? 1, r = o.rot || 0, [hx, hy] = p.hip, c = Math.cos(r), sn = Math.sin(r), q = p[name], dx = q[0] - hx, dy = q[1] - hy;
+  return [o.x + f * e * (hx + dx * c - dy * sn), o.y + e * (hy + dx * sn + dy * c)];
+}

@@ -58,3 +58,5 @@ export const ballHeld = (g, o, r = 23) => { const a = hand(o, 'F'), b = hand(o, 
 export const inHand = (g, o, k, fn) => { const h = hand(o, k), e = sc(o); fn(h[0], h[1], e); dot(g, h, e); };
 // поднос на ладонях (под подносом), items = [[вид, dx, dy]] в единицах e; only: 'B' | 'F' — держать одной рукой
 export const heldTray = (g, o, items = [], only = null, k = 1) => { const e = sc(o), a = hand(o, 'F'), b = hand(o, 'B'), h = only === 'B' ? b : only === 'F' ? a : [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], cx = h[0] + o.facing * 4 * e, cy = h[1] - 15 * e * k; g.save(); g.translate(cx, cy); g.scale(1, 0.62); prop(g, 'tray', 0, 0, 76 * e * k); g.restore(); items.forEach(([n, dx, dy]) => X.food(g, n, cx + dx * e, cy + dy * e, 0.7 * e)); dot(g, a, e); dot(g, b, e); return [cx, cy, e]; };
+
+POSES.keeper = { ...POSES.stand, eF: [28, -138], hF: [44, -186], eB: [12, -134], hB: [22, -188] };
