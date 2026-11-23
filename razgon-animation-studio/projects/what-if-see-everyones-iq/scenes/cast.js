@@ -8,7 +8,7 @@ export const NUMS = { LEON: '160', CALEB: '70', OWEN: '97', PARK: '118', MOM: '1
 export const numOf = (w, x) => NUMS[w] ?? String(82 + Math.floor(Math.abs(x || 0.5) * 977 + w.length * 7) % 32);
 export const c = (w, x, o = {}) => {
   const n = o.num === false ? null : (o.num ?? numOf(w, x)), prev = o.after;
-  return { w, x, noin: 1, ...o, after: (g, oo, t) => { if (prev) prev(g, oo, t); const T0 = w === 'LEON' ? LEONON : NUMON; if (n != null && NOW >= T0 - 0.02 && !oo.hidden) { const a = (o.numA ? kf(o.numA, t, 1) : 1) * prog(NOW, T0, T0 + 0.5); X.numTag(g, oo, String(n), w === 'CALEB' ? 'red' : 'green', { size: o.numSize ?? 70, a, dy: o.numDy ?? 0, dx: (o.numDx ?? 0) + (oo.rot ? characterHead(oo)[0] - oo.x : 0) }); } } };
+  return { w, x, noin: 1, ...o, after: (g, oo, t) => { if (prev) prev(g, oo, t); const T0 = w === 'LEON' ? LEONON : NUMON; if (n != null && NOW >= T0 - 0.02 && !oo.hidden) { const a = (o.numA ? kf(o.numA, t, 1) : 1) * prog(NOW, T0, T0 + 0.5); X.numTag(g, oo, String(n), w === 'CALEB' ? 'red' : 'green', { size: o.numSize ?? 70, a, dy: o.numDy ?? -12, dx: (o.numDx ?? 0) + (oo.rot ? characterHead(oo)[0] - oo.x : 0) }); } } };
 };
 export const LEON = (x, o) => c('LEON', x, { tag: 'LEON', ...o });
 export const hair = (h, col) => ({ hair: h, hairColor: col });

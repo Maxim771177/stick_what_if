@@ -32,10 +32,7 @@
 | S032 | 02:37.5 | HIGHEST: 131 | cap | — |
 | S034 | 02:44.1 | Hey, the test covers chapter seven. | say | OWEN |
 | S035 | 02:49.9 | I'll be fine. | say | LEON |
-| S035 | 02:48.2 | 97 | cap | — |
 | S038 | 02:58.9 | TWO WEEKS LATER | plate | — |
-| S038 | 03:01.6 | 160 · F | cap | — |
-| S039 | 03:05.8 | EVERY WEEK · A+ | cap | — |
 | S040 | 03:13.1 | UNLESS CALEB IS CHEATING | cap | — |
 | S041 | 03:14.8 | PROBLEM 2 · THE NOTEBOOK | plate | — |
 | S042 | 03:17.9 | MONDAY · 6:40 AM | plate | — |
@@ -43,20 +40,16 @@
 | S045 | 03:32.3 | I'm not. And I know my number. | say | CALEB |
 | S045 | 03:34.4 | They tested me in third grade. Seventy. | say | CALEB |
 | S047 | 03:40.7 | 2 IN 100 | plate | — |
-| S049 | 03:52.3 | DATE | cap | — |
-| S049 | 03:52.9 | WRONG | cap | — |
-| S049 | 03:53.8 | RIGHT | cap | — |
-| S049 | 03:55.9 | WHY | cap | — |
+| S049 | 03:52.3 | DATE | ev | — |
+| S049 | 03:52.9 | WRONG | ev | — |
+| S049 | 03:53.8 | RIGHT | ev | — |
+| S049 | 03:55.9 | WHY | ev | — |
 | S050 | 03:57.1 | Everybody thinks I'm gifted. I'm not. | say | CALEB |
 | S050 | 03:59.3 | I just leave earlier. | say | CALEB |
-| S051 | 04:02.6 | 2005 | plate | — |
-| S051 | 04:07.4 | 140 EIGHTH GRADERS | cap | — |
 | S052 | 04:11.1 | 2× | plate | — |
 | S053 | 04:14.1 | PROBLEM 3 · SKIPPED STEPS | plate | — |
-| S053 | 04:18.9 | TEACHERS GRADE STEPS | cap | — |
 | S055 | 04:24.7 | ONE PAGE | cap | — |
 | S056 | 04:28.7 | C | plate | — |
-| S057 | 04:34.4 | SHOW WORK. | plate | — |
 | S058 | 04:35.9 | It's obvious. | say | LEON |
 | S058 | 04:36.1 | Obvious is not a step. | say | PARK |
 | S060 | 04:47.5 | ✓ ✓ | cap | — |
@@ -91,7 +84,6 @@
 | S089 | 06:39.9 | UNTESTED | plate | — |
 | S090 | 06:44.2 | NOBODY TESTED THE GYM | plate | — |
 | S091 | 06:44.7 | FRIDAY | plate | — |
-| S091 | 06:46.3 | 900 | cap | — |
 | S092 | 06:51.6 | Begin. | say | PARK |
 | S094 | 06:57.3 | 11 STEPS ✓ | plate | — |
 | S096 | 07:05.1 | STEP 12 | plate | — |

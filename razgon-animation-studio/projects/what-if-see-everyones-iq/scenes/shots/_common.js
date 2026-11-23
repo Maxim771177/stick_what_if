@@ -124,7 +124,7 @@ export const bookcase = (g, x, GY, w = 380, h = 620) => { inkRect(g, x - w / 2, 
 // дверь библиотеки с тёплым светом (коридор)
 export const libDoor = (g, x, GY, a = 1) => { const w = 200, h = 430; inkRect(g, x - w / 2 - 12, GY - h - 12, w + 24, h + 12, { fill: '#6b4a2a', r: 6, w: 6 }); g.save(); const gr = g.createLinearGradient(0, GY - h, 0, GY); gr.addColorStop(0, '#fff2b0'); gr.addColorStop(1, '#ffd76a'); g.fillStyle = gr; g.fillRect(x - w / 2, GY - h, w, h); g.restore(); g.save(); g.globalAlpha = 0.28 * a; g.fillStyle = '#ffe48a'; g.beginPath(); g.moveTo(x - w / 2, GY); g.lineTo(x + w / 2, GY); g.lineTo(x + w / 2 + 220, GY + 90); g.lineTo(x - w / 2 - 220, GY + 90); g.closePath(); g.fill(); g.restore(); inkRect(g, x - 120, GY - h - 80, 240, 56, { fill: '#2f5d8a', r: 8, w: 5 }); text(g, 'LIBRARY', x, GY - h - 50, { size: 36, font: FONTS.title, weight: 400, color: '#fff' }); };
 // подсветка колонки тетради по времени подписей cap: hi
-export const capIdx = (info, t) => { let hi = -1; texts(info, 'cap').forEach((r, i) => { if (t >= r.lt) hi = i; }); return hi; };
+export const capIdx = (info, t, k = 'cap') => { let hi = -1; texts(info, k).forEach((r, i) => { if (t >= r.lt) hi = i; }); return hi; };
 
 // ================= ролик 10: стол с машиной и зал на складных стульях =================
 export const BENCH_TOP = 135;
@@ -140,7 +140,7 @@ export const gymCrowd = (o = {}) => (g, t, info, ctx) => {
     foldChair(g, x * W(), GYb, e, x < 0.5 ? 1 : -1);
     if (o.chairsOnly) return;
     const stood = up > 0.01;
-    who(g, c(w, x, { f: x < 0.5 ? 1 : -1, pose: stood ? 'cheer' : 'sit', poseObj: stood ? null : SITW, s, dy, noin: 1, of: { hair: BACK_HAIR[j % 8][0], hairColor: BACK_HAIR[j % 8][1], color: BACK_COL[j % 10] }, expr: stood ? 'joy' : ((o.expr && o.expr(i, t)) || 'neutral'), look: o.look, bob: stood ? 8 + (i % 3) : 0, numSize: o.numSize ?? 40 }), t, info, ctx.GY, undefined);
+    who(g, c(w, x, { f: x < 0.5 ? 1 : -1, pose: stood ? 'cheer' : 'sit', poseObj: stood ? null : SITW, s, dy, noin: 1, of: { hair: BACK_HAIR[j % 8][0], hairColor: BACK_HAIR[j % 8][1], color: BACK_COL[j % 10] }, expr: stood ? 'joy' : ((o.expr && o.expr(i, t)) || 'neutral'), look: o.look, bob: stood ? 8 + (i % 3) : 0, numSize: o.numSize ?? 34, num: dy < -220 ? false : undefined }), t, info, ctx.GY, undefined);
   });
 };
 const Q_effS = (w, s = 1.5) => s * ({ KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 }[w] ?? 1);

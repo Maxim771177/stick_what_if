@@ -44,7 +44,7 @@ function hairTop(g, of, c, r, front = false) {
   if (['short', 'long', 'ponytail', 'bun'].includes(h)) cap(0);
   else if (h === 'messy') cap(0.13, front ? 0.86 : 0.82, front ? 2.14 : 1.95, 1.08, 0.84, 18);
   else if (h === 'spiky') cap(0.3, A[0], A[1], 1.05, 0.88, 10);
-  else if (h === 'curly') for (let i = 0; i < 7; i++) { const a = Math.PI * ((front ? 1.05 : 1.02) + i * (front ? 0.15 : 0.15)); inkCircle(g, c[0] + Math.cos(a) * r * 0.9, c[1] + Math.sin(a) * r * 0.9, r * 0.3, { fill: col, seed: 47 + i }); }
+  else if (h === 'curly') for (let i = 0; i < 7; i++) { const a = Math.PI * ((front ? 1.2 : 1.04) + i * (front ? 0.1 : 0.14)); inkCircle(g, c[0] + Math.cos(a) * r * 0.92, c[1] + Math.sin(a) * r * 0.92, r * 0.3, { fill: col, seed: 47 + i }); }
 }
 function beard(g, of, c, r) {
   if (!of.beard) return;
@@ -122,6 +122,7 @@ function drawTorso(g, of, p) {
   if (top === 'labcoat') inkLine(g, [add(p.sh, mul(n, 2)), add(bot, mul(n, 3))], { w });
   if (top === 'suit') inkShape(g, [add(p.sh, mul(u, 2)), add(add(p.sh, mul(u, 6)), mul(n, 4)), add(at(p.sh, p.hip, 0.7), mul(n, 1)), add(add(p.sh, mul(u, 6)), mul(n, -2))], { fill: of.color2 || '#d9483b', w });
   if (of.emblem === 'bolt') { const c0 = at(p.sh, p.hip, 0.5), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); circle(g, 0, 0, 0, 'transparent'); g.beginPath(); [[-15, 3], [-2, 3], [-12, 14], [14, -3], [2, -3], [10, -15]].forEach(([a, b], i) => { const P = q(a * -0.6 - 4, b * 0.5); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = of.color2 || '#fff'; g.fill(); }
+  if (top === 'suit' && of.shirtV) { const v0 = add(p.sh, mul(u, -1)), v1 = at(p.sh, p.hip, 0.62); inkShape(g, [add(v0, mul(n, -13)), add(v0, mul(n, 13)), add(v1, mul(n, 1))], { fill: '#ffffff', w }); inkLine(g, [add(at(p.sh, p.hip, 0.12), mul(n, 0)), v1], { w: w * 0.9, stroke: '#d8232a' }); }
   if (of.emblem === 'crest') { const c0 = add(at(p.sh, p.hip, 0.36), mul(n, 7)), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); g.beginPath(); [[-6, -5], [-6, 5], [1, 5], [8, 0], [1, -5]].forEach(([a, b], i) => { const P = q(a * 0.9, b * 0.9); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = '#f6b93b'; g.fill(); g.lineWidth = 1.6; g.strokeStyle = '#1b2230'; g.stroke(); }
   if (top === 'hoodie') inkLine(g, [add(at(p.sh, p.hip, 0.72), mul(n, -10)), add(at(p.sh, p.hip, 0.72), mul(n, 10))], { w });
 }

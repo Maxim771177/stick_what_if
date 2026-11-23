@@ -165,8 +165,8 @@ export function machine(g, x0, yb, w, st = {}) {
   const on = (i) => lit > i;
   for (let i = 0; i < 20; i++) {
     const cx = x0 + (i + 0.5) * cw, kind = STEPS[i];
-    if (on(i)) { g.save(); g.globalAlpha = 0.28; g.fillStyle = '#42ff8c'; g.fillRect(x0 + i * cw + 2, yb - 118 * k, cw - 4, 118 * k); g.restore(); }
-    if (st.fail === i + 1) { g.save(); g.globalAlpha = 0.35; g.fillStyle = '#e5383b'; g.fillRect(x0 + i * cw + 2, yb - 118 * k, cw - 4, 118 * k); g.restore(); }
+    if (on(i)) { g.save(); g.globalAlpha = 0.3; g.fillStyle = '#42ff8c'; g.fillRect(x0 + i * cw + 2, yb - 16 * k, cw - 4, 16 * k); g.restore(); }
+    if (st.fail === i + 1) { g.save(); g.globalAlpha = 0.45; g.fillStyle = '#e5383b'; g.fillRect(x0 + i * cw + 2, yb - 16 * k, cw - 4, 16 * k); g.restore(); }
     g.save(); g.translate(cx, yb);
     const s = k;
     if (kind === 'domino') { const fall = on(i) ? 1 : 0; g.save(); g.translate(cw * 0.3, 0); g.rotate(fall * 1.1); inkRect(g, -9 * s, -60 * s, 18 * s, 60 * s, { fill: '#fffdf6', r: 3, w: 3 }); inkCircle(g, 0, -42 * s, 4 * s, { fill: ink(), w: 0 }); inkCircle(g, 0, -22 * s, 4 * s, { fill: ink(), w: 0 }); g.restore(); }

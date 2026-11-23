@@ -1,5 +1,5 @@
 {
- "title": "What If You Could See 10 Seconds Into the Future",
+ "title": "What If You Could See Everyone's IQ",
  "aspect": "16:9",
  "resolution": "1080p",
  "fps": 24,
@@ -7,7 +7,7 @@
  "style": "clean",
  "voiceover": "input/voiceover.mp3",
  "script": "input/script.txt",
- "duration": 528.1,
+ "duration": 535.4,
  "captions": false,
  "bars": null,
  "fadeIn": 0.5,

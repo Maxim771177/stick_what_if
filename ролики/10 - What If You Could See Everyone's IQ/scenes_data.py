@@ -49,11 +49,11 @@ S('Problem one.', 'CAFE', 'Столовая: Leon задрал нос, руки 
 S('At lunch, he', 'CAFE', 'Столовая заполнена: много учеников, у каждого число; один из них выделен кольцом «131»; Leon осматривает зал.', [('Nine', '900 STUDENTS', 'cap', None), ('thirty-one.', 'HIGHEST: 131', 'cap', None)], 'камера плывёт по залу', 'BG cafeteria; KIDS×14; LEON; numbers; ring 131')
 S('He is the', 'CAFE', 'Leon шагает с гордо поднятой головой, дети расступаются и смотрят на него.', [], 'шаг с важным видом', 'BG cafeteria; LEON; KIDS×5')
 S('Owen says', 'CAFE', 'Owen с учебником показывает на страницу: глава седьмая; Leon на него не смотрит.', [('"Hey,', 'Hey, the test covers chapter seven.', 'say', 'OWEN')], 'Owen тычет в книгу', 'BG cafeteria; OWEN; LEON; book')
-S('Leon checks the', 'CAFE', 'Leon поднимает взгляд на число Owen: 97; пренебрежительно отмахивается.', [('"I\'ll', 'I\'ll be fine.', 'say', 'LEON'), ('Ninety-seven.', '97', 'cap', None)], 'взгляд вверх, отмашка', 'BG cafeteria; OWEN; LEON; numbers')
+S('Leon checks the', 'CAFE', 'Leon поднимает взгляд на число Owen: 97; пренебрежительно отмахивается.', [('"I\'ll', 'I\'ll be fine.', 'say', 'LEON')], 'взгляд вверх, отмашка', 'BG cafeteria; OWEN; LEON; numbers')
 S('A girl asks', 'HALL', 'Коридор: девочка с листом дробей просит помощи; Leon сначала смотрит на её число, потом медленно и покровительственно объясняет, жестикулируя.', [], 'Leon объясняет жестами', 'BG hall; FRACGIRL; LEON; fraction sheet; numbers')
 S('Owen notices.', 'HALL', 'Owen стоит сбоку и хмурится, Leon ничего не замечает.', [], 'Owen хмурится', 'BG hall; OWEN; LEON; FRACGIRL')
-S('Two weeks later', 'CLASS', 'Leon держит тест с красной F; над ним 160, рядом F; плашка TWO WEEKS LATER.', [('weeks', 'TWO WEEKS LATER', 'plate', None), ('perfect,', '160 · F', 'cap', None)], 'лист дрожит в руках', 'BG classroom; LEON; sheet F; numbers')
-S('Meanwhile, every single', 'CLASS', 'Caleb с листом A+ и числом 70; на заднем плане календарь недель, каждая отмечена A+.', [('week,', 'EVERY WEEK · A+', 'cap', None)], 'недели листаются, A+ повторяется', 'BG classroom; CALEB; calendar; numbers')
+S('Two weeks later', 'CLASS', 'Leon держит тест с красной F; над ним 160, рядом F; плашка TWO WEEKS LATER.', [('weeks', 'TWO WEEKS LATER', 'plate', None)], 'лист дрожит в руках', 'BG classroom; LEON; sheet F; numbers')
+S('Meanwhile, every single', 'CLASS', 'Caleb с листом A+ и числом 70; на заднем плане календарь недель, каждая отмечена A+.', [], 'недели листаются, A+ повторяется', 'BG classroom; CALEB; calendar; numbers')
 S("That isn't possible.", 'CLASS', 'Leon щурится на Caleb с лупой-прищуром; облако мысли «CHEATING?».', [('cheating.', 'UNLESS CALEB IS CHEATING', 'cap', None)], 'лупа качается, облако растёт', 'BG classroom; LEON; CALEB; magnifier; cloud')
 
 # ===== проблема 2: тетрадь =====
@@ -66,17 +66,17 @@ S("Caleb doesn't even", 'LIB', 'Caleb спокойно смотрит на Leon,
 S('Leon opens his', 'LIB', 'Leon открывает рот, из него ничего не выходит: пустой пузырь с точками.', [], 'рот открыт, пузырь «…»', 'BG library; LEON; CALEB; bubble ...')
 S('"About two kids', 'VOID', 'Сто точек-детей: две красным, подпись ABOUT 2 IN 100.', [('two', '2 IN 100', 'plate', None)], 'сетка и две красные точки', 'BG void; personDots 100; red 2')
 S('"Mom sat quiet', 'LIB', 'Caleb говорит; над ним облако-воспоминание: Mom вручает мальчику зелёную тетрадь.', [], 'облако с Mom и тетрадью', 'BG library; CALEB; cloud MOM notebook')
-S('He opens it.', 'VOID', 'Раскрытая зелёная тетрадь крупно: строки с датой, WRONG, RIGHT и WHY; строки подсвечиваются по очереди.', [('date,', 'DATE', 'cap', None), ('wrong', 'WRONG', 'cap', None), ('right', 'RIGHT', 'cap', None), ('why.', 'WHY', 'cap', None)], 'страница листается, строки загораются', 'BG void; notebook open')
+S('He opens it.', 'VOID', 'Раскрытая зелёная тетрадь крупно: строки с датой, WRONG, RIGHT и WHY; строки подсвечиваются по очереди.', [('date,', 'DATE', 'ev', None), ('wrong', 'WRONG', 'ev', None), ('right', 'RIGHT', 'ev', None), ('why.', 'WHY', 'ev', None)], 'страница листается, строки загораются', 'BG void; notebook open')
 S('"Everybody thinks I\'m', 'LIB', 'Caleb говорит; за ним на стене часы 6:40; он уже в школе раньше всех.', [('"Everybody', 'Everybody thinks I\'m gifted. I\'m not.', 'say', 'CALEB'), ('I', 'I just leave earlier.', 'say', 'CALEB')], 'Caleb пожимает плечами', 'BG library; CALEB; clock 6:40; LEON')
-S("And here's the", 'VOID', 'Карточка-исследование: 2005, DUCKWORTH & SELIGMAN, 140 восьмиклассников (точки).', [('two', '2005', 'plate', None), ('eighth', '140 EIGHTH GRADERS', 'cap', None)], 'точки заполняют экран', 'BG void; card; personDots 140')
+S("And here's the", 'VOID', 'Карточка-исследование: 2005, DUCKWORTH & SELIGMAN, 140 восьмиклассников (точки).', [], 'точки заполняют экран', 'BG void; card; personDots 140')
 S('Self-discipline predicted', 'VOID', 'Столбчатая диаграмма: высокий столбец SELF-DISCIPLINE, низкий IQ; «>2×».', [('twice', '2×', 'plate', None)], 'столбцы растут', 'BG void; bar chart')
 
 # ===== проблема 3 =====
-S('Problem three', 'VOID', 'Лестница: часть ступеней нарисована, остальные пропущены; Leon перепрыгивает через пропуски; плашка PROBLEM 3 · SKIPPED STEPS.', [('three,', 'PROBLEM 3 · SKIPPED STEPS', 'plate', None), ('grade', 'TEACHERS GRADE STEPS', 'cap', None)], 'Leon прыгает через пустые ступени', 'BG void; stairs; LEON; numbers')
+S('Problem three', 'VOID', 'Лестница: часть ступеней нарисована, остальные пропущены; Leon перепрыгивает через пропуски; плашка PROBLEM 3 · SKIPPED STEPS.', [('three,', 'PROBLEM 3 · SKIPPED STEPS', 'plate', None)], 'Leon прыгает через пустые ступени', 'BG void; stairs; LEON; numbers')
 S('Leon starts copying', 'CLASS', 'Leon за партой переписывает карточки, как Caleb; рядом стопка.', [], 'рука пишет карточку', 'BG classroom; LEON; cards')
 S('A notebook of', 'CLASS', 'Leon открывает тонкую тетрадь: в ней единственная страница с одной строкой.', [('page.', 'ONE PAGE', 'cap', None)], 'тетрадь листается пустыми листами', 'BG classroom; LEON; notebook thin')
 S('On the next', 'CLASS', 'Тест крупно: все ответы зелёными галочками, но сверху красная C; Leon сияет, затем замирает.', [('paper', 'C', 'plate', None)], 'галочки вспыхивают, C шлёпается', 'BG classroom; LEON; test sheet C')
-S('Park has circled', 'CLASS', 'Крупно лист: «Show work.» обведено красным; Park стоит рядом с красным маркером.', [('"Show', 'SHOW WORK.', 'plate', None)], 'красный круг обводит надпись', 'BG classroom; sheet; PARK; LEON')
+S('Park has circled', 'CLASS', 'Крупно лист: «Show work.» обведено красным; Park стоит рядом с красным маркером.', [], 'красный круг обводит надпись', 'BG classroom; sheet; PARK; LEON')
 S('"It\'s obvious," says', 'CLASS', 'Leon разводит руками: очевидно; Park спокойно отвечает.', [('"It\'s', 'It\'s obvious.', 'say', 'LEON'), ('"Obvious', 'Obvious is not a step.', 'say', 'PARK')], 'Leon разводит руками', 'BG classroom; LEON; PARK')
 S('Half credit.', 'CLASS', 'Печать HALF CREDIT на листе Leon.', [], 'печать бьёт по листу', 'BG classroom; sheet; stamp')
 S('Across the aisle,', 'CLASS', 'Caleb выписывает каждую строку, затем проверяет страницу дважды: две галочки.', [('twice.', '✓ ✓', 'cap', None)], 'ручка бежит, две галочки', 'BG classroom; CALEB; LEON; sheet')
@@ -115,7 +115,7 @@ S('Leon grins.', 'CLASS', 'Leon ухмыляется; над ним мысль: 
 S('The show is', 'GYM', 'Пустой спортзал: дверь у стены, к двери подходит облако вопроса; плашка NOBODY TESTED THE GYM.', [('gym.', 'NOBODY TESTED THE GYM', 'plate', None)], 'камера к двери, ветер шевелит флаги', 'BG gym; door; ?')
 
 # ===== кульминация: спортзал =====
-S('Friday, the school', 'GYM', 'Спортзал: девятьсот зрителей на складных стульях рядами; на переднем плане стол; плашка FRIDAY.', [('Friday,', 'FRIDAY', 'plate', None), ('hundred', '900', 'cap', None)], 'камера плывёт над рядами', 'BG gym; folding chairs; KIDS×20',
+S('Friday, the school', 'GYM', 'Спортзал: девятьсот зрителей на складных стульях рядами; на переднем плане стол; плашка FRIDAY.', [('Friday,', 'FRIDAY', 'plate', None)], 'камера плывёт над рядами', 'BG gym; folding chairs; KIDS×20',
   passport='складные стулья | на полу зала рядами, лицом к столу | вправо к столу | зрители сидят | зрители смотрят на стол | сиденье на 65 ед. от пола\nзрители | на стульях, таз над сиденьем | к столу | смотрят | на машину | рост ≈ 0,72 Leon')
 S('Owen holds the', 'GYM', 'Длинный стол с машиной (20 шагов) и шариком на дальнем конце; Owen с секундомером, Ms. Park говорит Begin.', [('"Begin."', 'Begin.', 'say', 'PARK')], 'Park поднимает руку', 'BG gym; table; machine; OWEN; PARK; LEON; CALEB; stopwatch',
   passport='стол | на полу, длинный, вдоль кадра | — | на нём машина | зал | ≈ 5 ростов Leon\nмашина | на столе, шаги 1–20 слева направо | вправо | работает | зал, Leon, Caleb | высота ≈ 1/2 роста Leon\nсекундомер | в руке Owen | к Owen | Owen смотрит на него | — | 1/6 роста')
