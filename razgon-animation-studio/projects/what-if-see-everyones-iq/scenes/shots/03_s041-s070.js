@@ -6,7 +6,7 @@ const deskCx = (x, w, s = 1.5) => x * W() + 80 * s * ({ LEON: 0.86, CALEB: 1.2, 
 // ===== проблема 2: тетрадь =====
 def('s041', { set: 'hall', cam: 'push', chars: [L(0.7, { f: 1, expr: 'determined', walk: [0.1, 0.7, 0, 3.2], lin: true })] });
 def('s042', { set: 'hall', cam: 'push', plateY: 0.1, chars: [], pre: (g, t, i, ctx) => { libDoor(g, 0.78 * W(), ctx.GY - 6, 1); X.wallClock(g, 0.56 * W(), H() * 0.34, 110, 6, 40, 0); } });
-const LIBROW = (extra = {}, ...more) => merge(row([['CALEB', 0.34, { f: 1, expr: 'neutral', ...extra }]], 460), { mid: (g, t, i, ctx) => { const top = deskTop(ctx, 'CALEB'), cx = deskCx(0.34, 'CALEB'); G.cardsStack(g, cx - 120, top + 2, 6, 110); greenBook(g, cx + 70, top, 190); } }, ...more);
+const LIBROW = (extra = {}, ...more) => merge(row([['CALEB', 0.34, { f: 1, expr: 'neutral', ...extra }]], 460), { mid: (g, t, i, ctx) => { const top = deskTop(ctx, 'CALEB'), cx = deskCx(0.34, 'CALEB'); G.cardsStack(g, cx + 70, top + 2, 3, 100); greenBook(g, cx + 175, top, 170); } }, ...more);
 def('s043', { set: 'library', cam: 'push', ...LIBROW() });
 def('s044', { set: 'library', cam: 'still', ...LIBROW({ look: [1.4, 0] }, { chars: [L(0.9, { f: -1, expr: 'determined', pose: 'point', walk: [0.9, 0.68, 0.4, 2.0] })], mid: (g, t, i, ctx) => { bookcase(g, 0.9 * W(), ctx.GY, 400, 640); } }) });
 def('s045', { set: 'library', cam: 'still', ...LIBROW({ f: 1, expr: 'smile', look: [1.4, 0] }, { chars: [L(0.7, { f: -1, expr: 'angry' })] }) });
