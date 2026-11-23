@@ -206,7 +206,7 @@ const SETS = {
 };
 // Фоны от OpenAI (assets/bg/<файл>.png, 1536x1024, в кадре обрезаются до 16:9). BG_IMG=false вернёт кодовые заглушки.
 const BG_IMG = true;
-export const BG_SETS = { sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
+export const BG_SETS = { sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', library: 'library', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
 const BGIM = await loadImages(Object.fromEntries(Object.entries(BG_SETS).map(([n, f]) => [n, project(`assets/bg/${f}.png`)])));
 const PNAMES = ['school/tray', 'school/dodgeball'];
 export const PIM = await loadImages(Object.fromEntries(PNAMES.map((n) => [n.split('/')[1], project(`assets/props/${n}.png`)])));

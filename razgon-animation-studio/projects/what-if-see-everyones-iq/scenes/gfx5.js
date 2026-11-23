@@ -1,5 +1,5 @@
 // gfx5.js ролика 10: листы с оценками, колокол IQ, машина Руба Голдберга (20 шагов), тетради, окно с отражением, складные стулья, диван, автобус, карта, точки-люди и мелочи.
-import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, SETS } from './lib.js';
+import { E, S, C, D, ease, prog, clamp, lerp, text, measure, FONTS, inkLine, inkRect, inkCircle, inkShape, inkEllipse, alpha, SETS, bgImg } from './lib.js';
 import * as X from './gfx.js';
 import * as Y from './gfx3.js';
 const ink = () => S().ink;
@@ -215,6 +215,7 @@ SETS.library = (g) => {
   inkRect(g, E.W * 0.34, E.H * 0.16, E.W * 0.2, E.H * 0.34, { fill: '#cfe6f5', r: 8, w: 7 }); inkLine(g, [[E.W * 0.44, E.H * 0.16], [E.W * 0.44, E.H * 0.5]], { w: 6 });
   return { GY };
 };
+{ const codeLib = SETS.library; SETS.library = (g, o) => { const r = codeLib(g, o); if (!(o && o.noimg)) bgImg(g, 'library'); return r; }; }
 
 // ---- газетная вырезка: заголовок, подзаголовок, ряд маленьких детей ----
 export function newsClip(g, x, y, w, h, head = 'GENIUS STUDY', sub = 'THE DAILY TIMES') {
