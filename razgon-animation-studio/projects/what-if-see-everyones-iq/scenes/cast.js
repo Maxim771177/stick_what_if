@@ -32,8 +32,8 @@ export const pic = {
 export const pics = (...n) => n.map((k) => pic[k]);
 // ---- сидящие: стул под бёдрами (s = эффективный масштаб героя), парта впереди ----
 export const effS = (w, s = 1.55) => s * ({ LEON: 0.86, OWEN: 1.12, KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15, CHASE: 1.2, ZOE: 1.15, COOL1: 1.18, COOL2: 1.15, COOL3: 1.18, COOL4: 1.15, ROCCO: 1.42, LEO: 1.15, DAD: 1.22, MOM: 1.14, PARK: 1.2, CALEB: 1.2, FRACGIRL: 1.15, PIZZA: 1.2, MAGICIAN: 1.22, MAPMAN: 1.2, JANITOR: 1.2, DRIVER: 1.2 }[w] ?? 1);
-export const seat = (g, x, GY, w, f = 1, s) => chair(g, x, GY, effS(w, s), f);
-export const deskAt = (g, x, GY, w, f = 1, s, wd = 200) => { const e = effS(w, s), top = GY - 112 * e, cx = x + f * 80 * e; inkRect(g, cx - wd / 2, top, wd, 16, { fill: '#c98b4a', r: 5, w: 5 }); inkLine(g, [[cx - wd / 2 + 14, top + 16], [cx - wd / 2 + 14, GY]], { w: 6 }); inkLine(g, [[cx + wd / 2 - 14, top + 16], [cx + wd / 2 - 14, GY]], { w: 6 }); };
+export const seat = (g, x, GY, w, f = 1, s) => chair(g, x, GY, effS(w, s) * (OUT[w]?.kid ? 0.72 : 1), f);
+export const deskAt = (g, x, GY, w, f = 1, s, wd = 200) => { const e = effS(w, s) * (OUT[w]?.kid ? 0.72 : 1), top = GY - 112 * e, cx = x + f * 80 * e; inkRect(g, cx - wd / 2, top, wd, 16, { fill: '#c98b4a', r: 5, w: 5 }); inkLine(g, [[cx - wd / 2 + 14, top + 16], [cx - wd / 2 + 14, GY]], { w: 6 }); inkLine(g, [[cx + wd / 2 - 14, top + 16], [cx + wd / 2 - 14, GY]], { w: 6 }); };
 // реальный масштаб героя (детские куклы ×0.72): по нему ставим предметы в руки
 export const hs = (w, s) => effS(w, s) * (OUT[w]?.kid ? 0.72 : 1);
 // поднос в руках: руки (holdTray) снизу под подносом, поднос смотрит сверху (сплюснут по высоте)

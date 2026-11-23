@@ -143,5 +143,11 @@ export const gymCrowd = (o = {}) => (g, t, info, ctx) => {
     who(g, c(w, x, { f: x < 0.5 ? 1 : -1, pose: stood ? 'cheer' : 'sit', poseObj: stood ? null : SITW, s, dy, noin: 1, of: { hair: BACK_HAIR[j % 8][0], hairColor: BACK_HAIR[j % 8][1], color: BACK_COL[j % 10] }, expr: stood ? 'joy' : ((o.expr && o.expr(i, t)) || 'neutral'), look: o.look, bob: stood ? 8 + (i % 3) : 0, numSize: o.numSize ?? 34, num: dy < -220 ? false : undefined }), t, info, ctx.GY, undefined);
   });
 };
-const Q_effS = (w, s = 1.5) => s * ({ KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 }[w] ?? 1);
+const Q_effS = (w, s = 1.5) => s * 0.72 * ({ KID: 1.15, KID2: 1.15, KID3: 1.15, KID4: 1.15, KID5: 1.15, KID6: 1.15 }[w] ?? 1);
 const foldChair = (g, x, GY, e, f) => G.foldChair(g, x, GY, e, f);
+
+// коридор: пересчёт координат картинки hall.png (1536x1024, кроп 80..-80 на кадр) в экранные
+export const hx = (ix) => -0.05 * W() + (ix / 1536) * 1.1 * W();
+export const hy = (iy) => ((iy - 80) / 864) * 1.06 * H() - 0.03 * H();
+// правая дверь коридора = дверь библиотеки: тёплый свет в стекле и на полу, вывеска над дверью
+export const libraryDoorHall = (g) => { const x0 = hx(1245), x1 = hx(1352), y0 = hy(250), y1 = hy(385); g.save(); g.fillStyle = '#ffe48a'; g.fillRect(x0, y0, x1 - x0, y1 - y0); g.globalAlpha = 0.3; g.beginPath(); g.moveTo(hx(1215), hy(565)); g.lineTo(hx(1380), hy(565)); g.lineTo(hx(1480), hy(700)); g.lineTo(hx(1130), hy(700)); g.closePath(); g.fill(); g.restore(); const cx = (hx(1205) + hx(1390)) / 2, cy = hy(170); inkRect(g, cx - 110, cy - 28, 220, 56, { fill: '#2f5d8a', r: 8, w: 5 }); text(g, 'LIBRARY', cx, cy + 12, { size: 34, font: FONTS.title, weight: 400, color: '#fff' }); };

@@ -1,11 +1,12 @@
 import * as Q from './_common.js';
 const { CLS, FR, hold2, def, E, ease, prog, clamp, lerp, text, FONTS, S, inkLine, inkRect, inkCircle, inkShape, inkEllipse, kf, X, Y, Z, G, W, H, UP, c, L, P, kids, merge, mini, ev, row, parkWith, gradeHand, puzzle, SITW, SITUP, sitAt, inHand, hand, deskAt, hs, texts, speech, openBook, numRing, greenBook, bookcase, libDoor, capIdx } = Q;
-const deskTop = (ctx, w, s = 1.5) => ctx.GY - 112 * s * ({ LEON: 0.86, CALEB: 1.2, OWEN: 1.12 }[w] ?? 1.15);
-const deskCx = (x, w, s = 1.5) => x * W() + 80 * s * ({ LEON: 0.86, CALEB: 1.2, OWEN: 1.12 }[w] ?? 1.15);
+const KS = { LEON: 0.86, CALEB: 0.864, OWEN: 0.806 };
+const deskTop = (ctx, w, s = 1.5) => ctx.GY - 112 * s * (KS[w] ?? 0.828);
+const deskCx = (x, w, s = 1.5) => x * W() + 80 * s * (KS[w] ?? 0.828);
 
 // ===== проблема 2: тетрадь =====
 def('s041', { set: 'hall', cam: 'push', chars: [L(0.7, { f: 1, expr: 'determined', walk: [0.1, 0.7, 0, 3.2], lin: true })] });
-def('s042', { set: 'hall', cam: 'push', plateY: 0.1, chars: [], pre: (g, t, i, ctx) => { libDoor(g, 0.78 * W(), ctx.GY - 6, 1); X.wallClock(g, 0.56 * W(), H() * 0.34, 110, 6, 40, 0); } });
+def('s042', { set: 'hall', cam: 'push', plateY: 0.62, chars: [], pre: (g, t, i, ctx) => { Q.libraryDoorHall(g); X.wallClock(g, Q.hx(712), Q.hy(160), 44, 6, 40, 0); } });
 const LIBROW = (extra = {}, ...more) => merge(row([['CALEB', 0.34, { f: 1, expr: 'neutral', ...extra }]], 460), { mid: (g, t, i, ctx) => { const top = deskTop(ctx, 'CALEB'), cx = deskCx(0.34, 'CALEB'); G.cardsStack(g, cx + 70, top + 2, 3, 100); greenBook(g, cx + 175, top, 170); } }, ...more);
 def('s043', { set: 'library', cam: 'push', ...LIBROW() });
 def('s044', { set: 'library', cam: 'still', ...LIBROW({ look: [1.4, 0] }, { chars: [L(0.9, { f: -1, expr: 'determined', pose: 'point', walk: [0.9, 0.68, 0.4, 2.0] })], mid: (g, t, i, ctx) => { bookcase(g, 0.9 * W(), ctx.GY, 400, 640); } }) });
