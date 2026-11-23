@@ -85,6 +85,8 @@ function hat(g, of, c, r, front = false) {
     case 'cap': inkShape(g, [...arcPts(c[0], c[1] - r * 0.1, r * 1.04, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.6, c[1] - r * 0.12], [c[0] + r * 1.55, c[1] + r * 0.02], [c[0] - r * 1.04, c[1] - r * 0.02]], { fill: col, seed: 51 }); break;
     case 'hardhat': inkShape(g, [...arcPts(c[0], c[1] - r * 0.15, r * 1.02, Math.PI, Math.PI * 2, 12), [c[0] + r * 1.3, c[1] - r * 0.12], [c[0] + r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] + r * 0.02], [c[0] - r * 1.3, c[1] - r * 0.12]], { fill: of.hatColor || '#f2c21a', seed: 52 }); break;
     case 'beanie': inkShape(g, [...arcPts(c[0], c[1] - r * 0.36, r * 1.08, Math.PI, Math.PI * 2, 12)], { fill: col, seed: 53 }); inkRect(g, c[0] - r * 1.1, c[1] - r * 0.46, r * 2.2, r * 0.16, { fill: shade(col, -0.1), r: 3, seed: 54 }); inkCircle(g, c[0], c[1] - r * 1.5, r * 0.24, { fill: shade(col, 0.3), seed: 54 }); break;
+    case 'chef': { const w2 = LINE().width * 0.5; inkRect(g, c[0] - r * 0.95, c[1] - r * 0.7, r * 1.9, r * 0.3, { fill: '#f4f6f8', r: 4, seed: 56 }); for (const [dx, dy, rr] of [[-0.62, -1.02, 0.52], [0, -1.28, 0.62], [0.62, -1.02, 0.52]]) inkCircle(g, c[0] + dx * r, c[1] + dy * r, rr * r, { fill: '#f4f6f8', seed: 57 }); inkRect(g, c[0] - r * 0.9, c[1] - r * 0.98, r * 1.8, r * 0.4, { fill: '#f4f6f8', r: 2, w: 0, seed: 58 }); break; }
+    case 'tophat': { inkRect(g, c[0] - r * 0.72, c[1] - r * 1.62, r * 1.44, r * 1.12, { fill: col, r: 4, seed: 56 }); inkRect(g, c[0] - r * 0.72, c[1] - r * 0.78, r * 1.44, r * 0.18, { fill: '#d8232a', r: 2, seed: 57 }); inkRect(g, c[0] - r * 1.2, c[1] - r * 0.52, r * 2.4, r * 0.18, { fill: col, r: 6, seed: 58 }); break; }
     case 'headband': inkShape(g, [[c[0] - r * 1.02, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.28], [c[0] - r * 1.02, c[1] - r * 0.28]], { fill: col, seed: 55 }); break;
   }
 }
@@ -120,6 +122,7 @@ function drawTorso(g, of, p) {
   if (top === 'labcoat') inkLine(g, [add(p.sh, mul(n, 2)), add(bot, mul(n, 3))], { w });
   if (top === 'suit') inkShape(g, [add(p.sh, mul(u, 2)), add(add(p.sh, mul(u, 6)), mul(n, 4)), add(at(p.sh, p.hip, 0.7), mul(n, 1)), add(add(p.sh, mul(u, 6)), mul(n, -2))], { fill: of.color2 || '#d9483b', w });
   if (of.emblem === 'bolt') { const c0 = at(p.sh, p.hip, 0.5), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); circle(g, 0, 0, 0, 'transparent'); g.beginPath(); [[-15, 3], [-2, 3], [-12, 14], [14, -3], [2, -3], [10, -15]].forEach(([a, b], i) => { const P = q(a * -0.6 - 4, b * 0.5); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = of.color2 || '#fff'; g.fill(); }
+  if (of.emblem === 'crest') { const c0 = add(at(p.sh, p.hip, 0.36), mul(n, 7)), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); g.beginPath(); [[-6, -5], [-6, 5], [1, 5], [8, 0], [1, -5]].forEach(([a, b], i) => { const P = q(a * 0.9, b * 0.9); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = '#f6b93b'; g.fill(); g.lineWidth = 1.6; g.strokeStyle = '#1b2230'; g.stroke(); }
   if (top === 'hoodie') inkLine(g, [add(at(p.sh, p.hip, 0.72), mul(n, -10)), add(at(p.sh, p.hip, 0.72), mul(n, 10))], { w });
 }
 const sleeveOf = (of) => (['shirt', 'hoodie', 'labcoat', 'suit', 'robe'].includes(of.top) ? 'long' : ['tshirt', 'dress'].includes(of.top) ? 'short' : null);

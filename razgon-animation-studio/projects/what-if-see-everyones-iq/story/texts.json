@@ -1,0 +1,854 @@
+[
+ {
+  "t": 0.0,
+  "s": "TUESDAY · 2ND PERIOD",
+  "sc": 1,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 7.517,
+  "s": "Perfect again, Caleb.",
+  "sc": 2,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 9.2,
+  "s": "Everyone, this is what talent looks like.",
+  "sc": 2,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 23.767,
+  "s": "Ouch.",
+  "sc": 6,
+  "k": "say",
+  "raw": "say",
+  "who": "KID2"
+ },
+ {
+  "t": 26.75,
+  "s": "",
+  "sc": 7,
+  "k": "numon",
+  "raw": "numon"
+ },
+ {
+  "t": 35.883,
+  "s": "",
+  "sc": 9,
+  "k": "leonon",
+  "raw": "leonon"
+ },
+ {
+  "t": 39.467,
+  "s": "Why are you staring at the window?",
+  "sc": 10,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 41.6,
+  "s": "Owen, I'm a genius.",
+  "sc": 11,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 47.233,
+  "s": "Sure you are.",
+  "sc": 12,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 50.6,
+  "s": "WHAT IF YOU COULD SEE EVERYONE'S IQ?",
+  "sc": 13,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 53.683,
+  "s": "DON'T AGREE",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 57.533,
+  "s": "RULE 1 · ONLY YOU CAN SEE IT",
+  "sc": 15,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 62.967,
+  "s": "RULE 2 · A REAL IQ SCORE",
+  "sc": 16,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 66.792,
+  "s": "AVERAGE = 100",
+  "sc": 16,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 69.067,
+  "s": "85–115 · MOST PEOPLE",
+  "sc": 16,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 72.283,
+  "s": "RULE 3 · ONE THING ONLY",
+  "sc": 17,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 78.583,
+  "s": "BRAND-NEW PUZZLES",
+  "sc": 17,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 81.167,
+  "s": "EFFORT",
+  "sc": 18,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 82.55,
+  "s": "HOMEWORK",
+  "sc": 18,
+  "k": "card",
+  "raw": "card"
+ },
+ {
+  "t": 95.667,
+  "s": "1 IN 30,000",
+  "sc": 20,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 98.325,
+  "s": "THAT MORNING",
+  "sc": 22,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 118.642,
+  "s": "THE MAP WINS",
+  "sc": 25,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 135.792,
+  "s": "KEEPING SCORE",
+  "sc": 28,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 145.092,
+  "s": "NUMBERS DON'T TAKE TESTS",
+  "sc": 30,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 146.675,
+  "s": "PROBLEM 1 · THE SNOB",
+  "sc": 31,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 152.558,
+  "s": "900 STUDENTS",
+  "sc": 32,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 157.525,
+  "s": "HIGHEST: 131",
+  "sc": 32,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 164.058,
+  "s": "Hey, the test covers chapter seven.",
+  "sc": 34,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 168.192,
+  "s": "97",
+  "sc": 35,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 169.875,
+  "s": "I'll be fine.",
+  "sc": 35,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 178.858,
+  "s": "TWO WEEKS LATER",
+  "sc": 38,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 181.592,
+  "s": "160 · F",
+  "sc": 38,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 185.808,
+  "s": "EVERY WEEK · A+",
+  "sc": 39,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 193.125,
+  "s": "UNLESS CALEB IS CHEATING",
+  "sc": 40,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 194.758,
+  "s": "PROBLEM 2 · THE NOTEBOOK",
+  "sc": 41,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 197.942,
+  "s": "MONDAY · 6:40 AM",
+  "sc": 42,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 208.408,
+  "s": "Okay. How are you cheating?",
+  "sc": 44,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 212.292,
+  "s": "I'm not. And I know my number.",
+  "sc": 45,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 214.425,
+  "s": "They tested me in third grade. Seventy.",
+  "sc": 45,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 220.725,
+  "s": "2 IN 100",
+  "sc": 47,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 232.292,
+  "s": "DATE",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 232.925,
+  "s": "WRONG",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 233.808,
+  "s": "RIGHT",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 235.858,
+  "s": "WHY",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 237.092,
+  "s": "Everybody thinks I'm gifted. I'm not.",
+  "sc": 50,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 239.342,
+  "s": "I just leave earlier.",
+  "sc": 50,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 242.558,
+  "s": "2005",
+  "sc": 51,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 247.392,
+  "s": "140 EIGHTH GRADERS",
+  "sc": 51,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 251.075,
+  "s": "2×",
+  "sc": 52,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 254.142,
+  "s": "PROBLEM 3 · SKIPPED STEPS",
+  "sc": 53,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 258.942,
+  "s": "TEACHERS GRADE STEPS",
+  "sc": 53,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 264.658,
+  "s": "ONE PAGE",
+  "sc": 55,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 268.675,
+  "s": "C",
+  "sc": 56,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 274.358,
+  "s": "SHOW WORK.",
+  "sc": 57,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 275.925,
+  "s": "It's obvious.",
+  "sc": 58,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 276.108,
+  "s": "Obvious is not a step.",
+  "sc": 58,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 287.458,
+  "s": "✓ ✓",
+  "sc": 60,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 290.958,
+  "s": "",
+  "sc": 61,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 295.175,
+  "s": "THE TERMAN STUDY",
+  "sc": 63,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 297.708,
+  "s": "1921",
+  "sc": 64,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 301.342,
+  "s": "1,500 KIDS",
+  "sc": 64,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 307.125,
+  "s": "NOT SELECTED",
+  "sc": 65,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 314.592,
+  "s": "NOBEL PRIZE · PHYSICS",
+  "sc": 66,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 317.142,
+  "s": "0 / 1,500",
+  "sc": 67,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 321.975,
+  "s": "?",
+  "sc": 68,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 328.358,
+  "s": "WHAT MATTERS",
+  "sc": 69,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 332.45,
+  "s": "THE SCIENCE FAIR",
+  "sc": 71,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 335.517,
+  "s": "20 STEPS",
+  "sc": 72,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 337.383,
+  "s": "1 BALLOON",
+  "sc": 72,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 340.717,
+  "s": "ONE THIRD OF THE GRADE",
+  "sc": 73,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 346.233,
+  "s": "Leon and Caleb.",
+  "sc": 74,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 349.083,
+  "s": "What could go wrong?",
+  "sc": 74,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 353.0,
+  "s": "10 MIN",
+  "sc": 75,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 354.067,
+  "s": "DOMINOES",
+  "sc": 76,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 361.883,
+  "s": "STEP 6 ✗",
+  "sc": 78,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 364.9,
+  "s": "STEP 6 ✗",
+  "sc": 80,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 369.017,
+  "s": "STEP 9 ✗",
+  "sc": 81,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 370.2,
+  "s": "This is a waste of time.",
+  "sc": 82,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 374.35,
+  "s": "41 / 41 FAILED",
+  "sc": 83,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 377.667,
+  "s": "30 DIFFERENT WAYS",
+  "sc": 83,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 382.067,
+  "s": "You're not even fixing it.",
+  "sc": 84,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 384.667,
+  "s": "I'm finding where it breaks.",
+  "sc": 85,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 387.067,
+  "s": "You can't fix what you haven't found.",
+  "sc": 85,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 389.983,
+  "s": "RUN 42",
+  "sc": 86,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 392.267,
+  "s": "POP!",
+  "sc": 87,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 399.85,
+  "s": "UNTESTED",
+  "sc": 89,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 404.15,
+  "s": "NOBODY TESTED THE GYM",
+  "sc": 90,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 404.7,
+  "s": "FRIDAY",
+  "sc": 91,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 406.267,
+  "s": "900",
+  "sc": 91,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 411.642,
+  "s": "Begin.",
+  "sc": 92,
+  "k": "say",
+  "raw": "say",
+  "who": "PARK"
+ },
+ {
+  "t": 417.258,
+  "s": "11 STEPS ✓",
+  "sc": 94,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 425.142,
+  "s": "STEP 12",
+  "sc": 96,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 433.475,
+  "s": "MISS",
+  "sc": 98,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 434.467,
+  "s": "Caleb! The notebook! Draft!",
+  "sc": 99,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 439.783,
+  "s": "Run nineteen. Door open, step twelve fails.",
+  "sc": 101,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 442.733,
+  "s": "Fix: a coin on the ramp.",
+  "sc": 101,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 443.283,
+  "s": "A coin?",
+  "sc": 102,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 444.95,
+  "s": "A coin!",
+  "sc": 102,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 456.033,
+  "s": "14",
+  "sc": 105,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 458.9,
+  "s": "19",
+  "sc": 105,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 463.317,
+  "s": "",
+  "sc": 106,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 468.2,
+  "s": "What are you writing?",
+  "sc": 108,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 469.5,
+  "s": "Run forty-three. It worked.",
+  "sc": 108,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 472.167,
+  "s": "A",
+  "sc": 109,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 477.067,
+  "s": "",
+  "sc": 110,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 482.8,
+  "s": "I'm sorry I called you a cheater.",
+  "sc": 111,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 484.725,
+  "s": "You were wrong. But you checked. That's a start.",
+  "sc": 112,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 492.658,
+  "s": "70 → A+",
+  "sc": 114,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 495.392,
+  "s": "160 → C",
+  "sc": 114,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 497.783,
+  "s": "A number tells you where you start.",
+  "sc": 115,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 500.117,
+  "s": "And the notebook tells you where you end up.",
+  "sc": 115,
+  "k": "say",
+  "raw": "say",
+  "who": "CALEB"
+ },
+ {
+  "t": 506.383,
+  "s": "MONDAY MORNING",
+  "sc": 116,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 513.4,
+  "s": "",
+  "sc": 118,
+  "k": "ev",
+  "raw": "ev"
+ },
+ {
+  "t": 517.733,
+  "s": "NUMBERS MOVE",
+  "sc": 119,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 524.05,
+  "s": "WHOSE WOULD YOU CHECK FIRST?",
+  "sc": 120,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 528.383,
+  "s": "COMMENT",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 529.217,
+  "s": "SUBSCRIBE",
+  "sc": 121,
+  "k": "cap",
+  "raw": "cap"
+ }
+]

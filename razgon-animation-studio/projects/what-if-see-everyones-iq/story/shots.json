@@ -1,0 +1,1822 @@
+{
+ "title": "What If You Could See Everyone's IQ?",
+ "duration": 535.393,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.967,
+   "line": "Tuesday, second period, room fourteen. Ms. Park walks down the rows handing back math tests.",
+   "scene": "Класс Ms. Park: ряды парт, Ms. Park идёт между рядами с пачкой тестов; плашка TUESDAY · 2ND PERIOD. Чисел над головами пока нет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Park идёт, раздаёт листы",
+   "assets": "BG classroom; PARK; CALEB; LEON; OWEN; KIDS×4; desks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 4.967,
+   "end": 11.95,
+   "line": "She stops at Caleb's desk and smiles. \"Perfect again, Caleb. Everyone, this is what talent looks like.\"",
+   "scene": "Park стоит у парты Caleb и улыбается; Caleb сидит ровно, ученики оборачиваются.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Park жестом хвалит",
+   "assets": "BG classroom; PARK; CALEB; desks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 11.95,
+   "end": 15.85,
+   "line": "Caleb holds up his paper, a giant red A-plus.",
+   "scene": "Caleb поднимает лист с огромной красной A+; рядом врезка-лист крупно: A+ красным.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лист поднимается",
+   "assets": "BG classroom; CALEB; sheet A+",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 15.85,
+   "end": 19.325,
+   "line": "Then she reaches Leon and drops his test on the desk without a word.",
+   "scene": "Park молча кладёт лист перед Leon, Leon смотрит на него.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лист падает на парту",
+   "assets": "BG classroom; PARK; LEON; sheet",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 19.325,
+   "end": 21.725,
+   "line": "A giant red F.",
+   "scene": "Leon смотрит вниз: на листе огромная красная F; врезка-лист крупно.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лист F, Leon мрачнеет",
+   "assets": "BG classroom; LEON; sheet F",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 21.725,
+   "end": 24.542,
+   "line": "Somebody in the back whispers, \"Ouch.\"",
+   "scene": "Задняя парта: ученик шепчет, остальные оборачиваются на Leon.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "шёпот",
+   "assets": "BG classroom; KIDS×3; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 24.542,
+   "end": 32.242,
+   "line": "Leon looks at Caleb. Floating above Caleb's head, glowing like a neon sign, is a number. Seventy.",
+   "scene": "Leon поворачивает голову к Caleb; над Caleb загорается красное «70», как неоновая вывеска; числа появляются над всеми.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "число 70 вспыхивает",
+   "assets": "BG classroom; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 32.242,
+   "end": 35.442,
+   "line": "Leon turns to the window and sees his own reflection.",
+   "scene": "Leon подходит к окну класса; в стекле его отражение, над отражением зелёное «160» (читается не зеркально).",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon поворачивается к окну",
+   "assets": "BG classroom; window pane; LEON; reflection",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 35.442,
+   "end": 37.517,
+   "line": "One hundred and sixty.",
+   "scene": "Крупно окно: отражение Leon и большое зелёное «160».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "число пульсирует",
+   "assets": "BG classroom; window reflection; numText 160",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 37.517,
+   "end": 41.142,
+   "line": "Owen leans over. \"Why are you staring at the window?\"",
+   "scene": "Owen наклоняется к Leon, Leon стоит у окна и смотрит в стекло.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Owen наклоняется",
+   "assets": "BG classroom; OWEN; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 41.142,
+   "end": 44.933,
+   "line": "\"Owen,\" says Leon, \"I'm a genius.\"",
+   "scene": "Leon поворачивается к Owen и говорит с важным видом.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon выпрямляется",
+   "assets": "BG classroom; OWEN; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 44.933,
+   "end": 48.317,
+   "line": "Owen glances at the F. \"Sure you are.\"",
+   "scene": "Owen смотрит на лист с F на парте Leon, скептически.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "взгляд на лист F",
+   "assets": "BG classroom; OWEN; LEON; sheet F",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 48.317,
+   "end": 51.258,
+   "line": "So, what if you could see everyone's IQ?",
+   "scene": "Класс целиком: у каждого над головой число; плашка WHAT IF YOU COULD SEE EVERYONE'S IQ?",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "камера отъезжает, числа мерцают",
+   "assets": "BG classroom; KIDS×8; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 51.258,
+   "end": 55.492,
+   "line": "And what happens when the numbers and the grades refuse to agree?",
+   "scene": "Схема «против»: слева Leon, над ним 160 (зелёное) и красная F; справа Caleb, над ним 70 (красное) и красная A+; между ними VS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "листы и числа въезжают",
+   "assets": "BG void; LEON; CALEB; sheets; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 55.492,
+   "end": 62.6,
+   "line": "Here's how it works. Rule one. Every person has a glowing number above their head, and you're the only one who can see it.",
+   "scene": "Класс: Leon сидит за партой, вокруг у всех числа; плашка RULE 1.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon оглядывается, числа вокруг",
+   "assets": "BG classroom; LEON; KIDS×4; numbers; eye",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 62.6,
+   "end": 71.65,
+   "line": "Rule two. It's a real IQ score on the standard scale, where one hundred is average and most people land between eighty-five and one hundred and fifteen.",
+   "scene": "Колокол нормального распределения: центр 100, закрашена полоса 85–115; подпись AVERAGE = 100.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кривая рисуется, полоса заливается",
+   "assets": "BG void; bell curve",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 71.65,
+   "end": 80.0,
+   "line": "Rule three. The number is honest, but it only measures one thing, how fast a brain handles brand-new puzzles.",
+   "scene": "Мозг, секундомер и головоломка-пазл: измеряется только скорость на новой головоломке.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "пазл вставляется, секундомер тикает",
+   "assets": "BG void; brain; stopwatch; puzzle",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 80.0,
+   "end": 83.367,
+   "line": "It doesn't measure effort. It doesn't measure homework.",
+   "scene": "Две карточки: EFFORT и HOMEWORK, поверх каждой красный крест.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "крест перечёркивает карточку",
+   "assets": "BG void; cards; red X",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 83.367,
+   "end": 87.792,
+   "line": "And Leon, who has never read a manual in his life, skips that part.",
+   "scene": "Leon за партой смахивает толстый «MANUAL» в мусорную корзину, довольный.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "книга летит в корзину",
+   "assets": "BG classroom; LEON; manual; bin",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 87.792,
+   "end": 96.593,
+   "line": "All he hears is this. Only about one person in thirty thousand scores a hundred and sixty.",
+   "scene": "Сетка из тысяч точек-людей: одна светится зелёным «160»; подпись 1 IN 30,000.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "сетка заполняется, одна точка загорается",
+   "assets": "BG void; personDots; numText 160",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 96.593,
+   "end": 98.188,
+   "line": "Finally, an explanation for why the teachers keep sighing at him.",
+   "scene": "Park вздыхает над стопкой тестов, Leon за партой самодовольно кивает.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Park вздыхает",
+   "assets": "BG classroom; PARK; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 98.188,
+   "end": 101.067,
+   "line": "Mom is flipping pancakes, one hundred and four.",
+   "scene": "Кухня: Mom у плиты подбрасывает блин, над ней 104; Leon за столом; плашка THAT MORNING.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "блин взлетает и падает в сковороду",
+   "assets": "BG kitchen; MOM; LEON; pancake; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 101.067,
+   "end": 105.108,
+   "line": "Dad is asleep on the couch under a newspaper, one hundred and nine.",
+   "scene": "Гостиная: Dad спит на диване под газетой, над ним 109.",
+   "set": "HOME",
+   "hud": "—",
+   "notes": "газета поднимается от дыхания",
+   "assets": "BG livingRoom; DAD; sofa; newspaper; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 105.108,
+   "end": 111.742,
+   "line": "The bus driver is a hundred and one, and he takes the first corner so fast that three kids scream.",
+   "scene": "Салон автобуса: водитель 101 резко поворачивает, три ребёнка кричат и наклоняются, Leon держится за поручень.",
+   "set": "BUS",
+   "hud": "—",
+   "notes": "автобус качается, дети кричат",
+   "assets": "BG bus; DRIVER; KIDS×3; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 111.742,
+   "end": 119.192,
+   "line": "In the park, a man spends ten minutes fighting a paper map. One hundred and thirty-three. The map wins.",
+   "scene": "Парк: мужчина воюет с огромной бумажной картой, над ним 133; карта побеждает и накрывает его.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "карта складывается и накрывает голову",
+   "assets": "BG park; MAPMAN; map; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 119.192,
+   "end": 125.483,
+   "line": "A street magician pulls a coin from a kid's ear, one hundred and fifty-two, then drops his whole deck of cards.",
+   "scene": "Фокусник достаёт монету из уха мальчика, над ним 152, затем роняет колоду, карты разлетаются.",
+   "set": "PARK",
+   "hud": "—",
+   "notes": "монета в руке, карты сыплются",
+   "assets": "BG park; MAGICIAN; KID; coin; cards; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 125.483,
+   "end": 134.175,
+   "line": "And the pizza guy on Maple Street, eighty-seven, is hanging his sign for the day, and he makes the best pizza Leon has ever eaten.",
+   "scene": "Улица: пиццмейкер вешает вывеску, над ним 87; Leon с куском пиццы, довольный.",
+   "set": "SHOP",
+   "hud": "—",
+   "notes": "вывеска вешается, Leon жуёт",
+   "assets": "BG street; PIZZA; LEON; sign; slice; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 134.175,
+   "end": 136.354,
+   "line": "So Leon starts keeping score.",
+   "scene": "Табло очков: BUS DRIVER 101, DAD 109, PIZZA GUY 87 против LEON 160; галочки.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "строки табло появляются, Leon выигрывает",
+   "assets": "BG void; scoreboard",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 136.354,
+   "end": 141.004,
+   "line": "Smarter than the pizza guy, but definitely not smarter than the pizza.",
+   "scene": "Leon стоит над куском пиццы и качает пальцем: умнее парня, но не умнее пиццы.",
+   "set": "SHOP",
+   "hud": "—",
+   "notes": "палец качается, пицца сияет",
+   "assets": "BG street; LEON; PIZZA; pizza",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 141.004,
+   "end": 146.025,
+   "line": "Then the bus reaches school, and numbers turn out not to take tests.",
+   "scene": "Жёлтый автобус подъезжает к школе, Leon выходит; плашка NUMBERS DON'T TAKE TESTS.",
+   "set": "SHOP",
+   "hud": "—",
+   "notes": "автобус подъезжает, двери",
+   "assets": "BG street; bus; LEON; school",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 146.025,
+   "end": 149.858,
+   "line": "Problem one. The number turns Leon into a snob.",
+   "scene": "Столовая: Leon задрал нос, руки скрещены, вокруг дети с числами.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Leon выпячивает грудь",
+   "assets": "BG cafeteria; LEON; KIDS×4; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 149.858,
+   "end": 158.908,
+   "line": "At lunch, he scans the cafeteria. Nine hundred students, and the highest number in the whole building, besides his own, is one hundred and thirty-one.",
+   "scene": "Столовая заполнена: много учеников, у каждого число; один из них выделен кольцом «131»; Leon осматривает зал.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "камера плывёт по залу",
+   "assets": "BG cafeteria; KIDS×14; LEON; numbers; ring 131",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 158.908,
+   "end": 163.033,
+   "line": "He is the smartest kid in school, and he starts acting like it.",
+   "scene": "Leon шагает с гордо поднятой головой, дети расступаются и смотрят на него.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "шаг с важным видом",
+   "assets": "BG cafeteria; LEON; KIDS×5",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 163.033,
+   "end": 166.017,
+   "line": "Owen says, \"Hey, the test covers chapter seven.\"",
+   "scene": "Owen с учебником показывает на страницу: глава седьмая; Leon на него не смотрит.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "Owen тычет в книгу",
+   "assets": "BG cafeteria; OWEN; LEON; book",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 166.017,
+   "end": 170.558,
+   "line": "Leon checks the number above Owen's head. Ninety-seven. \"I'll be fine.\"",
+   "scene": "Leon поднимает взгляд на число Owen: 97; пренебрежительно отмахивается.",
+   "set": "CAFE",
+   "hud": "—",
+   "notes": "взгляд вверх, отмашка",
+   "assets": "BG cafeteria; OWEN; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 170.558,
+   "end": 176.217,
+   "line": "A girl asks him for help with fractions, and he checks her number first, then explains it very slowly.",
+   "scene": "Коридор: девочка с листом дробей просит помощи; Leon сначала смотрит на её число, потом медленно и покровительственно объясняет, жестикулируя.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon объясняет жестами",
+   "assets": "BG hall; FRACGIRL; LEON; fraction sheet; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 176.217,
+   "end": 178.508,
+   "line": "Owen notices. Leon doesn't.",
+   "scene": "Owen стоит сбоку и хмурится, Leon ничего не замечает.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Owen хмурится",
+   "assets": "BG hall; OWEN; LEON; FRACGIRL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 178.508,
+   "end": 184.358,
+   "line": "Two weeks later, he fails again. His number is perfect, and his grades are a disaster.",
+   "scene": "Leon держит тест с красной F; над ним 160, рядом F; плашка TWO WEEKS LATER.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лист дрожит в руках",
+   "assets": "BG classroom; LEON; sheet F; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 184.358,
+   "end": 190.017,
+   "line": "Meanwhile, every single week, Caleb gets an A-plus with seventy glowing over his head.",
+   "scene": "Caleb с листом A+ и числом 70; на заднем плане календарь недель, каждая отмечена A+.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "недели листаются, A+ повторяется",
+   "assets": "BG classroom; CALEB; calendar; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 190.017,
+   "end": 194.033,
+   "line": "That isn't possible. Unless Caleb is cheating.",
+   "scene": "Leon щурится на Caleb с лупой-прищуром; облако мысли «CHEATING?».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лупа качается, облако растёт",
+   "assets": "BG classroom; LEON; CALEB; magnifier; cloud",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 194.033,
+   "end": 197.517,
+   "line": "Problem two. Leon decides to catch him.",
+   "scene": "Коридор: Leon решительно шагает, плашка PROBLEM 2 · THE NOTEBOOK.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon идёт решительно",
+   "assets": "BG hall; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 197.517,
+   "end": 201.958,
+   "line": "Monday, six-forty in the morning, the school is empty, but the library light is already on.",
+   "scene": "Пустой коридор школы: часы показывают 6:40, из двери библиотеки льётся свет; плашка MONDAY · 6:40 AM.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "камера к двери библиотеки",
+   "assets": "BG hall; wall clock 6:40; door light",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 201.958,
+   "end": 205.883,
+   "line": "Caleb sits alone with a stack of index cards and a thick green notebook.",
+   "scene": "Библиотека: Caleb один за столом, стопка карточек и толстая зелёная тетрадь, над ним 70.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "Caleb пишет карточку",
+   "assets": "BG library; CALEB; cards; green notebook; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 205.883,
+   "end": 210.133,
+   "line": "Leon steps out from behind a bookshelf. \"Okay. How are you cheating?\"",
+   "scene": "Leon выходит из-за книжной полки и показывает пальцем на Caleb.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "Leon выходит из-за полки",
+   "assets": "BG library; shelf; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 210.133,
+   "end": 217.108,
+   "line": "Caleb doesn't even look surprised. \"I'm not. And I know my number. They tested me in third grade. Seventy.\"",
+   "scene": "Caleb спокойно смотрит на Leon, не удивлён, говорит ровно.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "Caleb спокойно разводит руками",
+   "assets": "BG library; CALEB; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 217.108,
+   "end": 220.192,
+   "line": "Leon opens his mouth. Nothing comes out.",
+   "scene": "Leon открывает рот, из него ничего не выходит: пустой пузырь с точками.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "рот открыт, пузырь «…»",
+   "assets": "BG library; LEON; CALEB; bubble ...",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 220.192,
+   "end": 223.842,
+   "line": "\"About two kids in every hundred score that low or lower,\" says Caleb.",
+   "scene": "Сто точек-детей: две красным, подпись ABOUT 2 IN 100.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "сетка и две красные точки",
+   "assets": "BG void; personDots 100; red 2",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 223.842,
+   "end": 227.383,
+   "line": "\"Mom sat quiet for a minute. Then she bought me a notebook.\"",
+   "scene": "Caleb говорит; над ним облако-воспоминание: Mom вручает мальчику зелёную тетрадь.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "облако с Mom и тетрадью",
+   "assets": "BG library; CALEB; cloud MOM notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 227.383,
+   "end": 236.667,
+   "line": "He opens it. Every mistake he made all year is written inside, with the date, the wrong answer, the right one, and one more line that says why.",
+   "scene": "Раскрытая зелёная тетрадь крупно: строки с датой, WRONG, RIGHT и WHY; строки подсвечиваются по очереди.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "страница листается, строки загораются",
+   "assets": "BG void; notebook open",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 236.667,
+   "end": 240.658,
+   "line": "\"Everybody thinks I'm gifted. I'm not. I just leave earlier.\"",
+   "scene": "Caleb говорит; за ним на стене часы 6:40; он уже в школе раньше всех.",
+   "set": "LIB",
+   "hud": "—",
+   "notes": "Caleb пожимает плечами",
+   "assets": "BG library; CALEB; clock 6:40; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 240.658,
+   "end": 248.142,
+   "line": "And here's the real part. In two thousand and five, the psychologists Angela Duckworth and Martin Seligman followed one hundred and forty eighth graders.",
+   "scene": "Карточка-исследование: 2005, DUCKWORTH & SELIGMAN, 140 восьмиклассников (точки).",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "точки заполняют экран",
+   "assets": "BG void; card; personDots 140",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 248.142,
+   "end": 253.442,
+   "line": "Self-discipline predicted final grades more than twice as well as IQ did.",
+   "scene": "Столбчатая диаграмма: высокий столбец SELF-DISCIPLINE, низкий IQ; «>2×».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "столбцы растут",
+   "assets": "BG void; bar chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 253.442,
+   "end": 260.667,
+   "line": "Problem three, and it's the big one. A huge brain skips steps, and teachers grade steps.",
+   "scene": "Лестница: часть ступеней нарисована, остальные пропущены; Leon перепрыгивает через пропуски; плашка PROBLEM 3 · SKIPPED STEPS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "Leon прыгает через пустые ступени",
+   "assets": "BG void; stairs; LEON; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 260.667,
+   "end": 262.917,
+   "line": "Leon starts copying Caleb.",
+   "scene": "Leon за партой переписывает карточки, как Caleb; рядом стопка.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "рука пишет карточку",
+   "assets": "BG classroom; LEON; cards",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 262.917,
+   "end": 265.55,
+   "line": "A notebook of his own, with one page in it.",
+   "scene": "Leon открывает тонкую тетрадь: в ней единственная страница с одной строкой.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "тетрадь листается пустыми листами",
+   "assets": "BG classroom; LEON; notebook thin",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 265.55,
+   "end": 271.55,
+   "line": "On the next test, he gets every answer right, and the paper still comes back with a C. Ms.",
+   "scene": "Тест крупно: все ответы зелёными галочками, но сверху красная C; Leon сияет, затем замирает.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "галочки вспыхивают, C шлёпается",
+   "assets": "BG classroom; LEON; test sheet C",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 271.55,
+   "end": 275.492,
+   "line": "Park has circled two words in red. \"Show work.\"",
+   "scene": "Крупно лист: «Show work.» обведено красным; Park стоит рядом с красным маркером.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "красный круг обводит надпись",
+   "assets": "BG classroom; sheet; PARK; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 275.492,
+   "end": 280.542,
+   "line": "\"It's obvious,\" says Leon. \"Obvious is not a step,\" says Ms. Park.",
+   "scene": "Leon разводит руками: очевидно; Park спокойно отвечает.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon разводит руками",
+   "assets": "BG classroom; LEON; PARK",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 280.542,
+   "end": 281.775,
+   "line": "Half credit.",
+   "scene": "Печать HALF CREDIT на листе Leon.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "печать бьёт по листу",
+   "assets": "BG classroom; sheet; stamp",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 281.775,
+   "end": 288.008,
+   "line": "Across the aisle, Caleb writes out every line, even the ones he could skip, then checks the whole page twice.",
+   "scene": "Caleb выписывает каждую строку, затем проверяет страницу дважды: две галочки.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "ручка бежит, две галочки",
+   "assets": "BG classroom; CALEB; LEON; sheet",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 288.008,
+   "end": 291.75,
+   "line": "Leon watches him, and for a second, he doesn't see the number at all.",
+   "scene": "Leon смотрит на Caleb; число 70 над Caleb гаснет и исчезает.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "число тускнеет и исчезает",
+   "assets": "BG classroom; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 291.75,
+   "end": 294.767,
+   "line": "He sees a kid in the front row who got there early.",
+   "scene": "Caleb сидит один за первой партой, над ним нет числа; часы на стене 6:40.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "часы тикают",
+   "assets": "BG classroom; CALEB; wall clock; desk",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 294.767,
+   "end": 297.217,
+   "line": "Then comes the part nobody expects.",
+   "scene": "Плашка THE TERMAN STUDY; на тёмном фоне старая газета «GENIUS STUDY».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "газета въезжает",
+   "assets": "BG void; newspaper",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 297.217,
+   "end": 306.8,
+   "line": "In nineteen twenty-one, the psychologist Lewis Terman began following more than fifteen hundred children with enormous IQs, hoping to find the next generation of geniuses.",
+   "scene": "Полторы тысячи точек-детей; подпись 1921 · 1,500 CHILDREN WITH HUGE IQS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "точки заполняют экран",
+   "assets": "BG void; personDots 1500",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 306.8,
+   "end": 312.992,
+   "line": "Two kids were tested and didn't make the cut. Their names were William Shockley and Luis Alvarez.",
+   "scene": "Два портрета-стикмена: WILLIAM SHOCKLEY и LUIS ALVAREZ; печать NOT SELECTED.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "печать на портретах",
+   "assets": "BG void; 2 portraits; stamp",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 312.992,
+   "end": 316.342,
+   "line": "Both of them later won the Nobel Prize in Physics.",
+   "scene": "Две золотые медали NOBEL PRIZE · PHYSICS у тех же портретов.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "медали сияют",
+   "assets": "BG void; 2 portraits; medals",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 316.342,
+   "end": 319.6,
+   "line": "Not one of the fifteen hundred did.",
+   "scene": "Полторы тысячи точек без медали, надпись 0 / 1,500.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "точки гаснут",
+   "assets": "BG void; personDots 1500; 0",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 319.6,
+   "end": 324.575,
+   "line": "Scientists still argue about what that proves, but it proves at least this.",
+   "scene": "Два стик-учёных спорят у доски со знаком вопроса.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "руки спорят",
+   "assets": "BG void; board; 2 scientists",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 324.575,
+   "end": 329.179,
+   "line": "A number can predict a lot and still miss the thing that matters.",
+   "scene": "IQ-линейка, которая не достаёт до сердца: число предсказывает многое, но не главное.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "линейка не достаёт",
+   "assets": "BG void; iqRuler; heart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 329.179,
+   "end": 331.825,
+   "line": "And that's when Ms. Park makes an announcement.",
+   "scene": "Park встаёт у доски и звонит в колокольчик: объявление; Leon и Caleb поднимают головы.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "колокольчик звенит",
+   "assets": "BG classroom; PARK; LEON; CALEB; bell",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 331.825,
+   "end": 333.075,
+   "line": "The science fair.",
+   "scene": "Park пишет на доске SCIENCE FAIR; плашка.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "мел бежит по доске",
+   "assets": "BG classroom; PARK; board",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 333.075,
+   "end": 339.825,
+   "line": "Every team builds a Rube Goldberg machine, twenty steps of junk that must pop one balloon at the end, live, in front of the whole school.",
+   "scene": "Схема машины Руба Голдберга слева направо: 20 шагов, на конце воздушный шар; подписи 20 STEPS и 1 BALLOON.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "схема рисуется слева направо",
+   "assets": "BG void; machine 20 steps",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 339.825,
+   "end": 343.933,
+   "line": "It counts for a third of the grade, and Leon is currently failing.",
+   "scene": "Круговая диаграмма: 1/3 закрашена, подпись ONE THIRD OF THE GRADE; Leon с листом F потеет.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "сектор заливается",
+   "assets": "BG classroom; LEON; pie",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 343.933,
+   "end": 350.875,
+   "line": "Ms. Park reads the teams. \"Leon and Caleb. The highest number and the highest grade. What could go wrong?\"",
+   "scene": "Park читает список, Leon и Caleb стоят рядом, переглядываются; над ними числа 160 и 70.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Park читает вслух",
+   "assets": "BG classroom; PARK; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 350.875,
+   "end": 353.808,
+   "line": "Leon sketches a beautiful machine in ten minutes.",
+   "scene": "Leon лихорадочно рисует эскиз; на часах бегут 10 минут.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "карандаш рисует, стрелки бегут",
+   "assets": "BG classroom; LEON; desk; sketch; clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 353.808,
+   "end": 357.725,
+   "line": "Dominoes, a toy train, a mousetrap, a bucket, a fan.",
+   "scene": "Эскиз: пять значков появляются по очереди: домино, поезд, мышеловка, ведро, вентилятор.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "значки по очереди",
+   "assets": "BG void; sketch; icons×5",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 357.725,
+   "end": 359.433,
+   "line": "\"Perfect,\" he says.",
+   "scene": "Leon любуется эскизом, большой палец вверх; Caleb держит блокнот.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon показывает большой палец",
+   "assets": "BG classroom; LEON; CALEB; sketch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 359.433,
+   "end": 362.683,
+   "line": "They test it. It fails at step six.",
+   "scene": "Машина на парте: домино падают, поезд идёт; на шаге 6 всё встаёт; метка STEP 6.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "домино падают, мышеловка не срабатывает",
+   "assets": "BG classroom; machine; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 362.683,
+   "end": 364.142,
+   "line": "Caleb writes it down.",
+   "scene": "Caleb записывает в зелёную тетрадь RUN 1 · STEP 6.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "ручка пишет строку",
+   "assets": "BG classroom; CALEB; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 364.142,
+   "end": 367.525,
+   "line": "They test it again. Step six again.",
+   "scene": "Второй запуск: снова шаг 6; Leon закатывает глаза.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "домино падают, снова стоп",
+   "assets": "BG classroom; machine; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 367.525,
+   "end": 369.792,
+   "line": "Third time, step nine.",
+   "scene": "Третий запуск: теперь ломается шаг 9; Leon хватается за голову.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "вентилятор не крутится",
+   "assets": "BG classroom; machine; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 369.792,
+   "end": 372.417,
+   "line": "\"This is a waste of time,\" says Leon.",
+   "scene": "Leon раздражённо отмахивается: пустая трата времени.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon всплёскивает руками",
+   "assets": "BG classroom; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 372.417,
+   "end": 381.683,
+   "line": "By Thursday, they have run it forty-one times, and it has failed forty-one times in thirty different ways, and Caleb has written down every one.",
+   "scene": "Счётчик запусков растёт до 41, все красные; календарь до четверга; стопка исписанных страниц; подпись 30 DIFFERENT WAYS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "счётчик бежит, стопка растёт",
+   "assets": "BG void; counter; notebook pile",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 381.683,
+   "end": 384.258,
+   "line": "\"You're not even fixing it,\" says Leon.",
+   "scene": "Leon возмущённо показывает на машину: вы даже не чините.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon жестикулирует",
+   "assets": "BG classroom; LEON; CALEB; machine",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 384.258,
+   "end": 389.125,
+   "line": "\"I'm finding where it breaks,\" says Caleb. \"You can't fix what you haven't found.\"",
+   "scene": "Caleb спокойно показывает в тетради: находит, где ломается.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Caleb листает тетрадь",
+   "assets": "BG classroom; CALEB; LEON; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 389.125,
+   "end": 391.217,
+   "line": "Run forty-two.",
+   "scene": "Табло RUN 42; машина готова к запуску.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "табло загорается",
+   "assets": "BG void; machine; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 391.217,
+   "end": 392.833,
+   "line": "Twenty steps, one pop.",
+   "scene": "Машина работает целиком: все 20 ячеек по очереди зажигаются, шарик лопается.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "ячейки загораются слева направо, шарик лопается",
+   "assets": "BG classroom; machine; balloon pop",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 392.833,
+   "end": 395.875,
+   "line": "Owen cheers so loud that the janitor looks in.",
+   "scene": "Owen радостно вопит; в дверях класса появляется уборщик со шваброй.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Owen прыгает, уборщик заглядывает",
+   "assets": "BG classroom; OWEN; JANITOR; door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 395.875,
+   "end": 400.983,
+   "line": "Leon grins. His design was never bad. It was just untested.",
+   "scene": "Leon ухмыляется; над ним мысль: «NEVER BAD · UNTESTED».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon ухмыляется",
+   "assets": "BG classroom; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 400.983,
+   "end": 404.517,
+   "line": "The show is tomorrow, and nobody has tested the gym.",
+   "scene": "Пустой спортзал: дверь у стены, к двери подходит облако вопроса; плашка NOBODY TESTED THE GYM.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "камера к двери, ветер шевелит флаги",
+   "assets": "BG gym; door; ?",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 404.517,
+   "end": 407.904,
+   "line": "Friday, the school gym, nine hundred students on folding chairs.",
+   "scene": "Спортзал: девятьсот зрителей на складных стульях рядами; на переднем плане стол; плашка FRIDAY.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "камера плывёт над рядами",
+   "assets": "BG gym; folding chairs; KIDS×20",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 407.904,
+   "end": 411.675,
+   "line": "Owen holds the stopwatch. Ms. Park says, \"Begin.\"",
+   "scene": "Длинный стол с машиной (20 шагов) и шариком на дальнем конце; Owen с секундомером, Ms. Park говорит Begin.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Park поднимает руку",
+   "assets": "BG gym; table; machine; OWEN; PARK; LEON; CALEB; stopwatch",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 411.675,
+   "end": 414.342,
+   "line": "Dominoes fall. The train rolls.",
+   "scene": "Машина: домино падают, поезд катится (шаги 1–5 загораются).",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "шаги 1–5 по очереди",
+   "assets": "BG gym; table; machine; LEON; CALEB; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 414.342,
+   "end": 419.417,
+   "line": "The mousetrap snaps, the bucket tips, and eleven steps go perfectly.",
+   "scene": "Мышеловка щёлкает, ведро опрокидывается, вентилятор крутится: шаги 6–11; счётчик 11 OK.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "шаги 6–11",
+   "assets": "BG gym; table; machine; LEON; CALEB; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 419.417,
+   "end": 421.775,
+   "line": "Then someone opens the gym door.",
+   "scene": "Боковая дверь зала открывается, в проёме силуэт опоздавшего.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "дверь распахивается",
+   "assets": "BG gym; door open; silhouette",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 421.775,
+   "end": 427.5,
+   "line": "A draft rolls across the table, and the paper sail at step twelve starts to turn the wrong way.",
+   "scene": "Линии сквозняка идут от двери через стол; бумажный парус на шаге 12 разворачивается не в ту сторону (красная стрелка).",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "стрелки сквозняка, парус поворачивается",
+   "assets": "BG gym; table; machine; draft; sail",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 427.5,
+   "end": 431.6,
+   "line": "Leon sees it in half a second, the way a hundred and sixty sees things.",
+   "scene": "Leon в центре кадра, глаза широко; над ним светится зелёное 160; пунктир траектории шарика уходит мимо горки (красный).",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "пунктир рисуется мимо горки",
+   "assets": "BG gym; LEON; dotted path miss; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 431.6,
+   "end": 434.104,
+   "line": "The marble is going to miss the ramp.",
+   "scene": "Крупно машина: шарик скатывается по пунктиру мимо горки; в углу кольцо-таймер 10.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "таймер 10 бежит",
+   "assets": "BG gym; machine; marble; ring 10",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 434.104,
+   "end": 436.2,
+   "line": "\"Caleb! The notebook! Draft!\"",
+   "scene": "Leon кричит Caleb, показывая на тетрадь; Caleb хватает её.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Leon тычет в тетрадь",
+   "assets": "BG gym; LEON; CALEB; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 436.2,
+   "end": 439.508,
+   "line": "Caleb flips pages so fast he nearly rips one.",
+   "scene": "Caleb лихорадочно листает зелёную тетрадь, страницы летят.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "страницы мелькают",
+   "assets": "BG gym; CALEB; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 439.508,
+   "end": 443.075,
+   "line": "\"Run nineteen. Door open, step twelve fails. Fix,",
+   "scene": "Caleb показывает Leon страницу; врезка-страница: RUN 19 · DOOR OPEN · STEP 12 FAILS · FIX: COIN ON RAMP.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "страница крупно",
+   "assets": "BG gym; CALEB; LEON; notebook page",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 443.075,
+   "end": 446.833,
+   "line": "a coin on the ramp.\" \"A coin?\" \"A coin!\"",
+   "scene": "Leon недоумевает, Caleb настаивает: монета!",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Leon и Caleb жестикулируют",
+   "assets": "BG gym; LEON; CALEB",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 446.833,
+   "end": 449.933,
+   "line": "Owen digs in his pocket and throws a quarter across the table.",
+   "scene": "Owen достаёт четвертак из кармана и бросает через стол; монета летит дугой к Leon.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "монета летит по дуге",
+   "assets": "BG gym; OWEN; LEON; coin arc",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 449.933,
+   "end": 455.75,
+   "line": "Leon catches it, slaps it onto the ramp, and the marble rolls over it and into step thirteen.",
+   "scene": "Leon ловит монету и кладёт её на горку; шарик перекатывается через неё в шаг 13.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "монета ложится, шарик катится",
+   "assets": "BG gym; LEON; machine; coin; marble",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 455.75,
+   "end": 460.442,
+   "line": "Fourteen. Fifteen. Seventeen. Nineteen. Twenty.",
+   "scene": "Шаги 14, 15, 17, 19, 20 загораются один за другим; шарик подбегает к иголке.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "ячейки загораются",
+   "assets": "BG gym; machine; counter",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 460.442,
+   "end": 464.433,
+   "line": "The balloon explodes, and the whole gym erupts.",
+   "scene": "Шарик лопается; весь зал вскакивает со стульев, конфетти и крики.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "шарик лопается, зал вскакивает",
+   "assets": "BG gym; balloon pop; KIDS×20; confetti",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 464.433,
+   "end": 467.883,
+   "line": "Leon turns to Caleb, and Caleb is already writing in his notebook.",
+   "scene": "Leon поворачивается к Caleb: тот уже пишет в тетради, зал ликует.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Caleb пишет посреди толпы",
+   "assets": "BG gym; LEON; CALEB; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 467.883,
+   "end": 471.283,
+   "line": "\"What are you writing?\" \"Run forty-three. It worked.\"",
+   "scene": "Leon спрашивает; Caleb отвечает, не поднимая глаз.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Caleb пишет",
+   "assets": "BG gym; LEON; CALEB; notebook",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 471.283,
+   "end": 476.225,
+   "line": "Ms. Park gives them an A. Not an A-plus, because Leon's sketch had no labels.",
+   "scene": "Park вручает Leon и Caleb лист с оценкой A (не A+); на схеме Leon нет подписей.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "лист передаётся",
+   "assets": "BG classroom; PARK; LEON; CALEB; sheet A; sketch no labels",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 476.225,
+   "end": 480.075,
+   "line": "He says it's obvious what the parts are, and then he hears himself.",
+   "scene": "Leon говорит «очевидно», затем осознаёт, закрывает рот рукой, глаза видны.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon замирает, понимает",
+   "assets": "BG classroom; LEON; PARK",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 480.075,
+   "end": 484.463,
+   "line": "Afterward, he finds Caleb in the hallway. \"I'm sorry I called you a cheater.\"",
+   "scene": "Коридор: Leon подходит к Caleb, смущённо.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon подходит",
+   "assets": "BG hall; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 484.463,
+   "end": 487.942,
+   "line": "\"You were wrong. But you checked. That's a start.\"",
+   "scene": "Caleb пожимает плечами, говорит спокойно.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Caleb спокойно говорит",
+   "assets": "BG hall; CALEB; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 487.942,
+   "end": 492.225,
+   "line": "Leon looks up at the seventy, then at the A in his hand.",
+   "scene": "Leon смотрит на 70 над Caleb, затем на лист A в своей руке.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "взгляд вверх и вниз",
+   "assets": "BG hall; LEON; CALEB; sheet A; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 492.225,
+   "end": 497.463,
+   "line": "\"Seventy and an A-plus. A hundred and sixty and a C.\"",
+   "scene": "Leon говорит; над схемой две пары: 70 + A+, 160 + C.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "пары чисел и оценок",
+   "assets": "BG hall; LEON; CALEB; tags",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 497.463,
+   "end": 503.483,
+   "line": "\"A number tells you where you start.\" \"And the notebook tells you where you end up,\" says Caleb.",
+   "scene": "Leon и Caleb: линия старта и линия «куда придёшь»; Caleb отвечает.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "линия старта, линия финиша",
+   "assets": "BG hall; LEON; CALEB; lines",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 503.483,
+   "end": 510.583,
+   "line": "Then something strange happens. On Monday morning, Leon walks into class, glances up at Caleb, and freezes.",
+   "scene": "Утро понедельника: Leon входит в класс, смотрит на Caleb и замирает; плашка MONDAY.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon входит и замирает",
+   "assets": "BG classroom; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 510.583,
+   "end": 511.833,
+   "line": "Seventy-one.",
+   "scene": "Крупно над Caleb красное «71», мигает; Leon в шоке.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "число 70 меняется на 71",
+   "assets": "BG classroom; LEON; CALEB; numText 71",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 511.833,
+   "end": 516.167,
+   "line": "He checks the window. One hundred and fifty-nine.",
+   "scene": "Leon смотрит в окно: отражение с зелёным «159».",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "число в отражении меняется на 159",
+   "assets": "BG classroom; window reflection; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 516.167,
+   "end": 518.508,
+   "line": "Numbers are not supposed to move.",
+   "scene": "Leon в шоке между окном и Caleb; числа над обоими дрожат.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "числа дрожат",
+   "assets": "BG classroom; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 518.508,
+   "end": 527.483,
+   "line": "So, what would you do? If a number hung over every head, whose would you check first, and whose would you be afraid to check?",
+   "scene": "Вопрос зрителю: толпа точек с числами, плашка WHOSE NUMBER WOULD YOU CHECK FIRST?",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "числа мерцают над толпой",
+   "assets": "BG void; crowd; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 527.483,
+   "end": 535.386,
+   "line": "Tell us in the comments, and subscribe, because these numbers have just started to move.",
+   "scene": "Leon и Caleb машут зрителю, над обоими числа; подписи COMMENT и SUBSCRIBE.",
+   "set": "CLASS",
+   "hud": "—",
+   "notes": "Leon и Caleb машут",
+   "assets": "BG classroom; LEON; CALEB; numbers",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

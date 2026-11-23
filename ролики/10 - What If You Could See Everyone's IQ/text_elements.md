@@ -8,6 +8,7 @@
 | S002 | 00:09.2 | Everyone, this is what talent looks like. | say | PARK |
 | S006 | 00:23.8 | Ouch. | say | KID2 |
 | S007 | 00:26.8 |  | numon | — |
+| S009 | 00:35.9 |  | leonon | — |
 | S010 | 00:39.5 | Why are you staring at the window? | say | OWEN |
 | S011 | 00:41.6 | Owen, I'm a genius. | say | LEON |
 | S012 | 00:47.2 | Sure you are. | say | OWEN |
@@ -58,7 +59,6 @@
 | S057 | 04:34.4 | SHOW WORK. | plate | — |
 | S058 | 04:35.9 | It's obvious. | say | LEON |
 | S058 | 04:36.1 | Obvious is not a step. | say | PARK |
-| S059 | 04:40.9 | HALF CREDIT | plate | — |
 | S060 | 04:47.5 | ✓ ✓ | cap | — |
 | S061 | 04:51.0 |  | ev | — |
 | S063 | 04:55.2 | THE TERMAN STUDY | plate | — |

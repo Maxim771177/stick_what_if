@@ -17,7 +17,7 @@ S('Leon looks at', 'CLASS', 'Leon поворачивает голову к Caleb
   passport='число над Caleb | над макушкой, центр над головой, не закрывает глаза | к зрителю | светится красным | Leon смотрит | ≈ 1/3 роста человека')
 S('Leon turns to', 'CLASS', 'Leon подходит к окну класса; в стекле его отражение, над отражением зелёное «160» (читается не зеркально).', [], 'Leon поворачивается к окну', 'BG classroom; window pane; LEON; reflection',
   passport='окно | стеклянная панель в классе, Leon стоит у окна лицом к стеклу | к зрителю | отражение Leon с числом | Owen смотрит | выше головы Leon\nотражение | в стекле, число не отзеркалено | к зрителю | — | зритель | 1:1 с Leon')
-S('One hundred and', 'CLASS', 'Крупно окно: отражение Leon и большое зелёное «160».', [], 'число пульсирует', 'BG classroom; window reflection; numText 160')
+S('One hundred and', 'CLASS', 'Крупно окно: отражение Leon и большое зелёное «160».', [('One', '', 'leonon', None)], 'число пульсирует', 'BG classroom; window reflection; numText 160')
 S('Owen leans over', 'CLASS', 'Owen наклоняется к Leon, Leon стоит у окна и смотрит в стекло.', [('"Why', 'Why are you staring at the window?', 'say', 'OWEN')], 'Owen наклоняется', 'BG classroom; OWEN; LEON; numbers')
 S('"Owen," says Leon', 'CLASS', 'Leon поворачивается к Owen и говорит с важным видом.', [('"Owen,"', 'Owen, I\'m a genius.', 'say', 'LEON')], 'Leon выпрямляется', 'BG classroom; OWEN; LEON; numbers')
 S('Owen glances at', 'CLASS', 'Owen смотрит на лист с F на парте Leon, скептически.', [('"Sure', 'Sure you are.', 'say', 'OWEN')], 'взгляд на лист F', 'BG classroom; OWEN; LEON; sheet F')
@@ -78,7 +78,7 @@ S('A notebook of', 'CLASS', 'Leon открывает тонкую тетрадь
 S('On the next', 'CLASS', 'Тест крупно: все ответы зелёными галочками, но сверху красная C; Leon сияет, затем замирает.', [('paper', 'C', 'plate', None)], 'галочки вспыхивают, C шлёпается', 'BG classroom; LEON; test sheet C')
 S('Park has circled', 'CLASS', 'Крупно лист: «Show work.» обведено красным; Park стоит рядом с красным маркером.', [('"Show', 'SHOW WORK.', 'plate', None)], 'красный круг обводит надпись', 'BG classroom; sheet; PARK; LEON')
 S('"It\'s obvious," says', 'CLASS', 'Leon разводит руками: очевидно; Park спокойно отвечает.', [('"It\'s', 'It\'s obvious.', 'say', 'LEON'), ('"Obvious', 'Obvious is not a step.', 'say', 'PARK')], 'Leon разводит руками', 'BG classroom; LEON; PARK')
-S('Half credit.', 'CLASS', 'Печать HALF CREDIT на листе Leon.', [('Half', 'HALF CREDIT', 'plate', None)], 'печать бьёт по листу', 'BG classroom; sheet; stamp')
+S('Half credit.', 'CLASS', 'Печать HALF CREDIT на листе Leon.', [], 'печать бьёт по листу', 'BG classroom; sheet; stamp')
 S('Across the aisle,', 'CLASS', 'Caleb выписывает каждую строку, затем проверяет страницу дважды: две галочки.', [('twice.', '✓ ✓', 'cap', None)], 'ручка бежит, две галочки', 'BG classroom; CALEB; LEON; sheet')
 S('Leon watches him', 'CLASS', 'Leon смотрит на Caleb; число 70 над Caleb гаснет и исчезает.', [('number', '', 'ev', None)], 'число тускнеет и исчезает', 'BG classroom; LEON; CALEB')
 S('He sees a', 'CLASS', 'Caleb сидит один за первой партой, над ним нет числа; часы на стене 6:40.', [], 'часы тикают', 'BG classroom; CALEB; wall clock; desk')
