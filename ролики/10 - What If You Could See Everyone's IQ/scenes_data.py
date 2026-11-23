@@ -22,7 +22,7 @@ S('Owen leans over', 'CLASS', 'Owen наклоняется к Leon, Leon сто�
 S('"Owen," says Leon', 'CLASS', 'Leon поворачивается к Owen и говорит с важным видом.', [('"Owen,"', 'Owen, I\'m a genius.', 'say', 'LEON')], 'Leon выпрямляется', 'BG classroom; OWEN; LEON; numbers')
 S('Owen glances at', 'CLASS', 'Owen смотрит на лист с F на парте Leon, скептически.', [('"Sure', 'Sure you are.', 'say', 'OWEN')], 'взгляд на лист F', 'BG classroom; OWEN; LEON; sheet F')
 S('So, what if', 'CLASS', 'Класс целиком: у каждого над головой число; плашка WHAT IF YOU COULD SEE EVERYONE\'S IQ?', [('IQ?', 'WHAT IF YOU COULD SEE EVERYONE\'S IQ?', 'plate', None)], 'камера отъезжает, числа мерцают', 'BG classroom; KIDS×8; LEON; numbers')
-S('And what happens', 'VOID', 'Схема «против»: слева Leon, над ним 160 (зелёное) и красная F; справа Caleb, над ним 70 (красное) и красная A+; между ними VS.', [('refuse', 'DON\'T AGREE', 'plate', None)], 'листы и числа въезжают', 'BG void; LEON; CALEB; sheets; numbers')
+S('And what happens', 'VOID', 'Схема «против»: слева Leon, над ним 160 (зелёное) и красная F; справа Caleb, над ним 70 (красное) и красная A+; между ними VS.', [('refuse', 'DISAGREE', 'plate', None)], 'листы и числа въезжают', 'BG void; LEON; CALEB; sheets; numbers')
 
 # ===== правила =====
 S("Here's how it", 'CLASS', 'Класс: Leon сидит за партой, вокруг у всех числа; плашка RULE 1.', [('one.', 'RULE 1 · ONLY YOU CAN SEE IT', 'plate', None)], 'Leon оглядывается, числа вокруг', 'BG classroom; LEON; KIDS×4; numbers; eye')

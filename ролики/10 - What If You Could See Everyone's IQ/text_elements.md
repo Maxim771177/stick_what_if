@@ -13,7 +13,7 @@
 | S011 | 00:41.6 | Owen, I'm a genius. | say | LEON |
 | S012 | 00:47.2 | Sure you are. | say | OWEN |
 | S013 | 00:50.6 | WHAT IF YOU COULD SEE EVERYONE'S IQ? | plate | — |
-| S014 | 00:53.7 | DON'T AGREE | plate | — |
+| S014 | 00:53.7 | DISAGREE | plate | — |
 | S015 | 00:57.5 | RULE 1 · ONLY YOU CAN SEE IT | plate | — |
 | S016 | 01:03.0 | RULE 2 · A REAL IQ SCORE | plate | — |
 | S016 | 01:06.8 | AVERAGE = 100 | cap | — |
