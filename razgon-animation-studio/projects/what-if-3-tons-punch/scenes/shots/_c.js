@@ -15,7 +15,7 @@ POSES.fistUp = { ...POSES.stand, eF: [24, -190], hF: [30, -236], eB: [-7, -136],
 POSES.windBack = { ...POSES.stand, head: [2, -208], sh: [-2, -174], eF: [-34, -168], hF: [-62, -158], eB: [-20, -152], hB: [-4, -140] };
 export const SEC = E;
 export const FW = () => E.W;
-export const TX = () => 0.40 * E.W, LX = () => 0.64 * E.W, DX = () => 0.89 * E.W, HX0 = () => 0.155 * E.W;
+export const TX = () => 0.40 * E.W, LX = () => 0.64 * E.W, DX = () => 0.89 * E.W, HX0 = () => 0.185 * E.W;
 export const sw = (t, t0, A = 1, k = 3.2, f = 10) => (t < t0 ? 0 : A * Math.exp(-(t - t0) * k) * Math.cos((t - t0) * f));
 export const hit = (t, t0, d = 0.12) => ease.out(prog(t, t0, t0 + d));
 export const cnt = (t, t0, t1, v) => String(Math.round(v * ease.out(prog(t, t0, t1))));
