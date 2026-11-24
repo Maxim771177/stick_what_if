@@ -349,12 +349,6 @@
      "pitch": 1.0
     },
     {
-     "at": 2.87,
-     "name": "pop",
-     "gain": -16,
-     "pitch": 1.0
-    },
-    {
      "at": 3.2,
      "name": "buzz",
      "gain": -12,
@@ -1934,12 +1928,6 @@
     "type": "cut"
    },
    "sfx": [
-    {
-     "at": 0.52,
-     "name": "pop",
-     "gain": -16,
-     "pitch": 1.0
-    },
     {
      "at": 3.41,
      "name": "blip",
@@ -3606,12 +3594,6 @@
     "type": "cut"
    },
    "sfx": [
-    {
-     "at": 0.0,
-     "name": "pop",
-     "gain": -16,
-     "pitch": 1.0
-    },
     {
      "at": 0.1,
      "name": "counter",

@@ -49,7 +49,7 @@
 | S009 | 00:34.5–00:35.8 | It leaves. | FAIR | Груша срывается с пружины и улетает вправо; у пружины остаётся обрывок. | — | груша летит вправо | силомер; LEON; bag |
 | S010 | 00:35.8–00:37.8 | It clears the lemonade stand and | FAIR | Общий план слева направо: Leon, силомер, лимонадная палатка, аквагорка; груша перелетает палатку. | — | груша летит над палаткой | fair wide; lemonade stand; dunk tank; Park; bag |
 | S011 | 00:37.8–00:42.9 | slams into the dunk tank target, and Ms. Park drops into the water in her best sweater. | FAIR | Крупно аквагорка: груша бьёт в красную мишень, сиденье складывается, Ms. Park падает в воду, брызги. | — | удар, падение, брызги | dunk tank; PARK; bag |
-| S012 | 00:42.9–00:49.8 | The screen counts past two thousand, flashes E, R, R, and goes dark. | FAIR | Экран силомера: цифры бегут за 2000, гаснет, мигает E R R, тёмный экран; Dunn смотрит на экран. | `00:45.8` E  R  R | число бежит, ERR, чёрный экран | силомер; screen; DUNN |
+| S012 | 00:42.9–00:49.8 | The screen counts past two thousand, flashes E, R, R, and goes dark. | FAIR | Экран силомера: цифры бегут за 2000, гаснет, мигает E R R, тёмный экран; Dunn смотрит на экран. | — | число бежит, ERR, чёрный экран | силомер; screen; DUNN |
 | S013 | 00:49.8–00:52.7 | "Dude," says Owen, "you broke it." | FAIR | Owen смотрит на Leon, Leon смотрит на кулак; на заднем плане Ms. Park мокрая в баке. | `00:50.2` Dude, you broke it. | Owen показывает на силомер | OWEN; LEON; dunk tank; PARK |
 | S014 | 00:52.7–00:56.3 | So, what if your punch hit with three tons of force? | VOID | Плашка названия: Leon с кулаком крупно, над кулаком 3 TONS. | `00:53.2` WHAT IF YOUR PUNCH HIT WITH 3 TONS OF FORCE? | кулак пульсирует | LEON; fist; plate |
 | S015 | 00:56.3–00:59.8 | And what happens when nothing around you is built for it? | FAIR | Ярмарка с хрупкими вещами: шарики, стаканы, торт, стекло; камера панорамирует; все хрупкое. | — | панорама | fair; balloons; cups; cake |
@@ -108,7 +108,7 @@
 | S068 | 03:50.5–03:53.9 | Out of six thousand, that's about one part in a thousand. | VOID | 6000 LBS: одна точка из тысячи выделена; «1 / 1,000». | `03:51.4` 1 / 1000 | точки | dots grid |
 | S069 | 03:53.9–03:56.1 | His first punch makes an omelet. | KITCHEN | Leon бьёт яйцо на столе: омлет на сковороде и стол. | — | удар, омлет | LEON; egg; pan |
 | S070 | 03:56.1–03:57.2 | So does the second. | KITCHEN | Второй омлет, брызги. | — | удар | LEON; eggs |
-| S071 | 03:57.2–04:01.8 | By the twelfth, Mom stares into the pan. "Eggs again?" | KITCHEN | Mom смотрит на сковороду, рядом 12 омлетов; Leon виновато. | `03:57.7` ×12; `04:00.6` Eggs again? | Mom смотрит | MOM; LEON; pan; omelets |
+| S071 | 03:57.2–04:01.8 | By the twelfth, Mom stares into the pan. "Eggs again?" | KITCHEN | Mom смотрит на сковороду, рядом 12 омлетов; Leon виновато. | `04:00.6` Eggs again? | Mom смотрит | MOM; LEON; pan; omelets |
 | S072 | 04:01.8–04:08.1 | Every night after that, Leon practices tapping with just his wrist, like flicking a crumb off the table. | ROOM | Ночь, Leon у стола, одним запястьем касается яйца; календарь. | `04:02.4` EVERY NIGHT | касание запястьем | LEON; egg; night |
 | S073 | 04:08.1–04:12.0 | By Thursday, he can tap an egg, and the egg only wobbles. | ROOM | Яйцо только покачивается; Leon улыбается. | `04:08.4` THURSDAY | яйцо качается | LEON; egg |
 | S074 | 04:12.0–04:17.8 | It's the hardest thing he's ever learned, and nobody will ever see him do it. | ROOM | Leon один у окна, ночь; никто не видит; крупный план Leon, уставший и гордый. | — | камера отъезжает | LEON; window |
@@ -179,7 +179,7 @@
 | S139 | 08:00.8–08:05.7 | Coach Dunn wheels the old strength tester out from behind the booth and plugs it back in. | FAIR | Dunn выкатывает старый силомер из-за палатки, включает в розетку. | — | Dunn катит силомер | DUNN; tester; Leon |
 | S140 | 08:05.7–08:08.0 | "I think it saved your last number." | FAIR | Dunn говорит, Leon подходит к силомеру. | `08:06.4` I think it saved your last number. | реплика | DUNN; LEON; tester |
 | S141 | 08:08.0–08:09.5 | The screen glows. | FAIR | Экран силомера загорается. | — | экран загорается | tester screen |
-| S142 | 08:09.5–08:11.8 | Six thousand. | FAIR | Экран показывает 6000, Leon и Dunn смотрят. | `08:09.5` 6000 | число | tester screen |
+| S142 | 08:09.5–08:11.8 | Six thousand. | FAIR | Экран показывает 6000, Leon и Dunn смотрят. | — | число | tester screen |
 | S143 | 08:11.8–08:13.5 | Then Coach Dunn smiles. | FAIR | Dunn улыбается Leon. | — | улыбка | DUNN; LEON |
 | S144 | 08:13.5–08:16.9 | "Now try it again, nice and gently." | FAIR | Dunn: «Now try it again, nice and gently». | `08:13.8` Now try it again, nice and gently. | реплика | DUNN; LEON |
 | S145 | 08:16.9–08:19.5 | Leon taps the bag with one finger. | FAIR | Leon касается груши пальцем, груша качнулась чуть-чуть. | — | касание | LEON; tester |
@@ -197,6 +197,6 @@
 
 ## Итоги
 - Сцен: 156. Средняя длина 3.4 с, самая длинная 8.6 с (S138), самая короткая 1.0 с (S124). Итог 08:55.5.
-- Строк текста на экране: 85.
+- Строк текста на экране: 82.
 - Гэги без звука: груша улетает слева направо и сбивает Ms. Park в бак, ERR на экране, шкафчик «как крышка от коробки», Leon в изгороди ногами вверх, омлеты, дверь с вмятиной с монету, четыре болта, Poppy на куче акул, трещина по столу.
 - Логика: силомер (ERR) → правила → плюсы → проблема 1 (отдача, столб) → проблема 2 (яйца, касание) → проблема 3 (давление, стальная дверь) → контейнер (три урока в кульминации) → тап 2 фунта и трещина на столе. Порядок слева направо у силомера один во всех кадрах.

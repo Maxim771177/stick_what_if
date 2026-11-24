@@ -9,7 +9,6 @@
 | S005 | 00:18.9 | 640 | cap | — |
 | S006 | 00:23.6 | 90 LBS | cap | — |
 | S006 | 00:26.6 | I've got this. | say | LEON |
-| S012 | 00:45.8 | E  R  R | cap | — |
 | S013 | 00:50.2 | Dude, you broke it. | say | OWEN |
 | S014 | 00:53.2 | WHAT IF YOUR PUNCH HIT WITH 3 TONS OF FORCE? | plate | — |
 | S016 | 01:00.3 | HOW IT WORKS | plate | — |
@@ -47,7 +46,6 @@
 | S062 | 03:33.5 | I'm fine. | say | OWEN |
 | S067 | 03:49.0 | A FEW POUNDS | cap | — |
 | S068 | 03:51.4 | 1 / 1000 | cap | — |
-| S071 | 03:57.7 | ×12 | cap | — |
 | S071 | 04:00.6 | Eggs again? | say | MOM |
 | S072 | 04:02.4 | EVERY NIGHT | cap | — |
 | S073 | 04:08.4 | THURSDAY | plate | — |
@@ -79,7 +77,6 @@
 | S135 | 07:42.5 | NO PAIN ✓ | cap | — |
 | S137 | 07:49.0 | 6 MIN LATER | cap | — |
 | S140 | 08:06.4 | I think it saved your last number. | say | DUNN |
-| S142 | 08:09.5 | 6000 | cap | — |
 | S144 | 08:13.8 | Now try it again, nice and gently. | say | DUNN |
 | S146 | 08:20.6 | 2 | cap | — |
 | S147 | 08:22.2 | Two pounds. Perfect. | say | DUNN |
