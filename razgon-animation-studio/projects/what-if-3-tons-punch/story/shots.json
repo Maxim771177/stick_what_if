@@ -1,0 +1,2347 @@
+{
+ "title": "What If Your Punch Hit With 3 Tons of Force?",
+ "duration": 535.511,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.183,
+   "line": "Saturday afternoon, the spring fair.",
+   "scene": "Ярмарка: колесо обозрения, гирлянды, палатки, люди гуляют; плашка SATURDAY · SPRING FAIR.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "камера медленно наезжает",
+   "assets": "BG fair; палатки; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s002",
+   "start": 2.183,
+   "end": 8.0,
+   "line": "A red strength tester stands behind the cotton candy stand: a leather bag on a spring, a glowing screen,",
+   "scene": "Красный силомер за палаткой сладкой ваты: стойка, кожаная груша на пружине, экран слева-сверху от груши.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "пружина качается",
+   "assets": "силомер; cotton candy stand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s003",
+   "start": 8.0,
+   "end": 12.25,
+   "line": "and a sign that says, \"Scale tops out at two thousand pounds.\"",
+   "scene": "Табличка рядом с силомером крупно: SCALE TOPS OUT AT 2000 LBS; экран светится 0.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "табличка и экран",
+   "assets": "силомер; табличка",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 12.25,
+   "end": 17.483,
+   "line": "Owen goes first. He swings, and the screen says three hundred and ten.",
+   "scene": "Owen бьёт по груше, груша качнулась, экран показывает 310.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "удар, качание, число бежит",
+   "assets": "силомер; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s005",
+   "start": 17.483,
+   "end": 22.083,
+   "line": "A dad in a bandana hits six hundred and forty and wins a plush shark.",
+   "scene": "Папа в бандане бьёт, экран 640, Coach Dunn вручает плюшевую акулу.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "удар, число, акула",
+   "assets": "силомер; DADFAIR; DUNN; plush shark",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s006",
+   "start": 22.083,
+   "end": 27.808,
+   "line": "Then Leon walks up. Ninety pounds, backwards cap. \"I've got this.\"",
+   "scene": "Leon подходит к силомеру слева, Owen и толпа смотрят; Leon в эталонной кепке; плашка 90 LBS.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Leon идёт, поднимает кулак",
+   "assets": "силомер; LEON; OWEN; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s007",
+   "start": 27.808,
+   "end": 31.217,
+   "line": "Coach Dunn, who runs the booth, doesn't even look up.",
+   "scene": "Dunn за стойкой читает газету и не смотрит на Leon.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Dunn листает газету",
+   "assets": "DUNN; stand",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s008",
+   "start": 31.217,
+   "end": 34.533,
+   "line": "Leon punches. The bag doesn't swing.",
+   "scene": "Leon бьёт кулаком по груше; груша на мгновение остаётся на месте, пружина сжата, экран мигает.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "удар, пауза",
+   "assets": "силомер; LEON; DUNN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s009",
+   "start": 34.533,
+   "end": 35.792,
+   "line": "It leaves.",
+   "scene": "Груша срывается с пружины и улетает вправо; у пружины остаётся обрывок.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "груша летит вправо",
+   "assets": "силомер; LEON; bag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s010",
+   "start": 35.792,
+   "end": 37.75,
+   "line": "It clears the lemonade stand and",
+   "scene": "Общий план слева направо: Leon, силомер, лимонадная палатка, аквагорка; груша перелетает палатку.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "груша летит над палаткой",
+   "assets": "fair wide; lemonade stand; dunk tank; Park; bag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s011",
+   "start": 37.75,
+   "end": 42.917,
+   "line": "slams into the dunk tank target, and Ms. Park drops into the water in her best sweater.",
+   "scene": "Крупно аквагорка: груша бьёт в красную мишень, сиденье складывается, Ms. Park падает в воду, брызги.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "удар, падение, брызги",
+   "assets": "dunk tank; PARK; bag",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 42.917,
+   "end": 49.8,
+   "line": "The screen counts past two thousand, flashes E, R, R, and goes dark.",
+   "scene": "Экран силомера: цифры бегут за 2000, гаснет, мигает E R R, тёмный экран; Dunn смотрит на экран.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "число бежит, ERR, чёрный экран",
+   "assets": "силомер; screen; DUNN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s013",
+   "start": 49.8,
+   "end": 52.7,
+   "line": "\"Dude,\" says Owen, \"you broke it.\"",
+   "scene": "Owen смотрит на Leon, Leon смотрит на кулак; на заднем плане Ms. Park мокрая в баке.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Owen показывает на силомер",
+   "assets": "OWEN; LEON; dunk tank; PARK",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s014",
+   "start": 52.7,
+   "end": 56.333,
+   "line": "So, what if your punch hit with three tons of force?",
+   "scene": "Плашка названия: Leon с кулаком крупно, над кулаком 3 TONS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кулак пульсирует",
+   "assets": "LEON; fist; plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 56.333,
+   "end": 59.842,
+   "line": "And what happens when nothing around you is built for it?",
+   "scene": "Ярмарка с хрупкими вещами: шарики, стаканы, торт, стекло; камера панорамирует; все хрупкое.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "панорама",
+   "assets": "fair; balloons; cups; cake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s016",
+   "start": 59.842,
+   "end": 61.417,
+   "line": "Here's how it works.",
+   "scene": "Плашка HOW IT WORKS на фоне; три карточки правил.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточки появляются",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s017",
+   "start": 61.417,
+   "end": 64.45,
+   "line": "Rule one. It only works when you throw a punch.",
+   "scene": "Карточка RULE 1: ONLY WHEN YOU THROW A PUNCH; Leon с кулаком.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка и кулак",
+   "assets": "plate; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s018",
+   "start": 64.45,
+   "end": 68.533,
+   "line": "Handshakes, high fives and holding a fork are totally normal.",
+   "scene": "Leon жмёт руку Owen, даёт пять, держит вилку: всё нормально, галочки.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "три мини-картинки с галочками",
+   "assets": "LEON; OWEN; fork",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s019",
+   "start": 68.533,
+   "end": 69.758,
+   "line": "Rule two.",
+   "scene": "Карточка RULE 2: A FULL SWING = 3 TONS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s020",
+   "start": 69.758,
+   "end": 72.783,
+   "line": "A full swing hits with three tons of force.",
+   "scene": "Кулак Leon со стрелкой удара и надписью 3 TONS; рядом гиря «3 TONS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кулак бьёт вперёд",
+   "assets": "LEON; fist; weight",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s021",
+   "start": 72.783,
+   "end": 78.392,
+   "line": "That's six thousand pounds, about two small cars standing on a spot the size of your knuckles.",
+   "scene": "6000 LBS: на кулак Leon сверху опускаются два маленьких автомобиля; кулак упирается в пятно размером с костяшки.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "машины опускаются на кулак",
+   "assets": "fist; 2 cars",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s022",
+   "start": 78.392,
+   "end": 84.758,
+   "line": "For scale, in a study published in two thousand and five, seven Olympic boxers punched a crash test dummy.",
+   "scene": "Лаборатория: олимпийский боксёр бьёт манекен для краш-теста, на манекене датчик; плашка STUDY · 2005.",
+   "set": "LAB",
+   "hud": "—",
+   "notes": "удар по манекену",
+   "assets": "boxer; dummy; sensor",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 84.758,
+   "end": 88.483,
+   "line": "The average punch landed with about seven hundred and seventy pounds.",
+   "scene": "Столбик «Olympic boxers 770 LBS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "столбик растёт",
+   "assets": "bar chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s024",
+   "start": 88.483,
+   "end": 91.85,
+   "line": "Leon hits eight times harder.",
+   "scene": "Два столбика: Olympic boxer 770 и Leon 6000, надпись 8×.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "второй столбик выстреливает",
+   "assets": "bar chart; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s025",
+   "start": 91.85,
+   "end": 93.225,
+   "line": "Rule three.",
+   "scene": "Карточка RULE 3: FORCE FOLLOWS EFFORT.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "карточка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s026",
+   "start": 93.225,
+   "end": 95.45,
+   "line": "The force follows effort.",
+   "scene": "Рычажок усилия 0–100% и шкала силы 0–6000.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "ползунок двигается",
+   "assets": "slider",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s027",
+   "start": 95.45,
+   "end": 99.842,
+   "line": "Even a tap at a tenth of your strength lands with six hundred pounds.",
+   "scene": "Leon слегка касается кулаком: ползунок на 10%, 600 LBS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "касание, число",
+   "assets": "LEON; slider",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s028",
+   "start": 99.842,
+   "end": 102.85,
+   "line": "Your bones and your skin can take all of it.",
+   "scene": "Кулак Leon в рентгене: кости целы, кожа цела, зелёная галочка.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "рентген мигает",
+   "assets": "fist xray",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s029",
+   "start": 102.85,
+   "end": 107.083,
+   "line": "The rest of you stays exactly as big and as heavy as yesterday.",
+   "scene": "Leon на весах: 90 LBS, рост тот же; надпись «SAME SIZE · SAME WEIGHT».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "весы показывают 90",
+   "assets": "LEON; scales",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s030",
+   "start": 107.083,
+   "end": 109.492,
+   "line": "That last part is going to matter.",
+   "scene": "Leon с вопросительным лицом, плашка REMEMBER THIS.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 109.492,
+   "end": 111.033,
+   "line": "But first, the fun part.",
+   "scene": "Плашка THE FUN PART, Leon подпрыгивает.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s032",
+   "start": 111.033,
+   "end": 115.242,
+   "line": "Dad spends ten minutes fighting a tent stake in rock hard ground.",
+   "scene": "Лагерь на траве: Dad с киянкой сидит на корточках над колышком палатки, пот, колышек торчит.",
+   "set": "CAMP",
+   "hud": "—",
+   "notes": "Dad бьёт, колышек не лезет",
+   "assets": "DAD; tent stake; mallet; tent",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s033",
+   "start": 115.242,
+   "end": 118.958,
+   "line": "Leon taps it once, and it disappears up to the cap.",
+   "scene": "Leon касается колышка кулаком: колышек уходит в землю по шляпку, остаётся шляпка на траве.",
+   "set": "CAMP",
+   "hud": "—",
+   "notes": "тап, колышек исчезает",
+   "assets": "LEON; DAD; stake",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s034",
+   "start": 118.958,
+   "end": 121.942,
+   "line": "Owen's locker has been stuck since October.",
+   "scene": "Коридор школы: Owen дёргает дверцу шкафчика, не открывается.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Owen тянет",
+   "assets": "OWEN; locker; HALL",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s035",
+   "start": 121.942,
+   "end": 126.442,
+   "line": "Leon taps it, and the door comes off in Owen's hands like a pizza box lid.",
+   "scene": "Leon касается шкафчика, дверца отлетает и остаётся в руках Owen, как крышка от коробки.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "тап, дверца в руках Owen",
+   "assets": "LEON; OWEN; locker door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s036",
+   "start": 126.442,
+   "end": 129.033,
+   "line": "The vending machine that swallowed Owen's dollar gives it back,",
+   "scene": "Автомат: Owen смотрит, Leon касается стекла, автомат отдаёт доллар.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "тап, доллар выпадает",
+   "assets": "vending machine; LEON; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s037",
+   "start": 129.033,
+   "end": 132.588,
+   "line": "plus nine bags of chips and a very confused look.",
+   "scene": "Из автомата сыплются пачки чипсов, Owen стоит по колено в чипсах с растерянным лицом.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "чипсы сыплются",
+   "assets": "chips; OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s038",
+   "start": 132.588,
+   "end": 139.2,
+   "line": "At the arcade, Leon hits the sledgehammer game so hard the bell flies off and rings in the parking lot.",
+   "scene": "Аркада: Leon бьёт кулаком по игре с кувалдой, звонок вылетает вверх, в окне парковка.",
+   "set": "ARCADE",
+   "hud": "—",
+   "notes": "удар, звонок летит",
+   "assets": "arcade game; bell; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s039",
+   "start": 139.2,
+   "end": 143.617,
+   "line": "In gym class, he gets picked first for the first time in his life.",
+   "scene": "Спортзал: капитаны выбирают игроков, Leon первый, все смотрят на Leon.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "выбор",
+   "assets": "LEON; KIDS; CAPTAIN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s040",
+   "start": 143.617,
+   "end": 147.392,
+   "line": "By Wednesday, kids are lining up to ask him for favors.",
+   "scene": "Очередь детей к Leon, у каждого бумажка «favor».",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "очередь растёт",
+   "assets": "LEON; KIDS×6",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s041",
+   "start": 147.392,
+   "end": 149.95,
+   "line": "Leon has never been this popular.",
+   "scene": "Leon доволен, руки на поясе, дети толпятся.",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "Leon красуется",
+   "assets": "LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 149.95,
+   "end": 153.442,
+   "line": "Then he tries to punch something that doesn't move.",
+   "scene": "Leon смотрит на стену, прищурился; плашка «something that doesn't move».",
+   "set": "HALL",
+   "hud": "—",
+   "notes": "взгляд на стену",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s043",
+   "start": 153.442,
+   "end": 154.675,
+   "line": "Problem one.",
+   "scene": "Плашка PROBLEM 1: RECOIL.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s044",
+   "start": 154.675,
+   "end": 157.383,
+   "line": "Isaac Newton wrote it down in sixteen eighty-seven.",
+   "scene": "Портрет Ньютона, год 1687.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "портрет",
+   "assets": "portrait Newton",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s045",
+   "start": 157.383,
+   "end": 160.192,
+   "line": "Every push comes with an equal push back.",
+   "scene": "Две руки толкают друг друга, две равные стрелки.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "стрелки",
+   "assets": "arrows",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s046",
+   "start": 160.192,
+   "end": 163.617,
+   "line": "In the backyard, Leon throws a punch at the garage wall.",
+   "scene": "Двор: гараж справа (стена с воротами), Leon слева лицом вправо готовится ударить по стене гаража.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "замах",
+   "assets": "LEON; garage; hedge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s047",
+   "start": 163.617,
+   "end": 165.55,
+   "line": "Three tons go into the wall.",
+   "scene": "Кулак в стене: стрелка 3 TONS вправо, трещины.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "удар по стене",
+   "assets": "LEON; wall",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s048",
+   "start": 165.55,
+   "end": 167.867,
+   "line": "Three tons also go into Leon.",
+   "scene": "Стрелка 3 TONS влево в Leon; Leon вздрагивает.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "стрелка в Leon",
+   "assets": "LEON; arrow",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s049",
+   "start": 167.867,
+   "end": 173.45,
+   "line": "He lifts off the grass and flies backward across the yard, about as fast as a kid on a bike.",
+   "scene": "Leon отрывается от травы и летит влево горизонтально, линии скорости; в кадре целиком.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "полёт влево",
+   "assets": "LEON; speed lines",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s050",
+   "start": 173.45,
+   "end": 176.792,
+   "line": "He lands in the neighbor's hedge, upside down.",
+   "scene": "Изгородь слева: из неё торчат ноги Leon вверх, листья сыплются.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "приземление",
+   "assets": "hedge; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s051",
+   "start": 176.792,
+   "end": 179.683,
+   "line": "The wall has a fist-sized hole in it.",
+   "scene": "Стена гаража с дырой размером с кулак, кирпичная пыль.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "пыль оседает",
+   "assets": "garage wall hole",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s052",
+   "start": 179.683,
+   "end": 182.642,
+   "line": "The hedge has a Leon-sized one.",
+   "scene": "Изгородь с дырой по силуэту Leon, ноги торчат.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "листья",
+   "assets": "hedge hole; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s053",
+   "start": 182.642,
+   "end": 185.492,
+   "line": "At practice, Coach Dunn just shrugs.",
+   "scene": "Тренировка: Dunn пожимает плечами, Leon растерянно стоит рядом.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Dunn пожимает плечами",
+   "assets": "DUNN; LEON; gym",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s054",
+   "start": 185.492,
+   "end": 187.067,
+   "line": "\"Boxers punch with their legs.",
+   "scene": "Dunn показывает на ноги, рядом боксёр бьёт мешок; плашка.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "Dunn показывает",
+   "assets": "DUNN; bag; boxer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s055",
+   "start": 187.067,
+   "end": 190.842,
+   "line": "The force goes into the floor, and the floor pushes back.\"",
+   "scene": "Боксёр бьёт мешок: стрелка от кулака, стрелка вниз в пол, стрелка пола обратно вверх в ноги.",
+   "set": "GYM",
+   "hud": "—",
+   "notes": "стрелки по цепочке",
+   "assets": "boxer; arrows",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s056",
+   "start": 190.842,
+   "end": 193.625,
+   "line": "So Leon finds a post at the end of the yard.",
+   "scene": "Leon идёт по двору вправо к бетонному столбу в конце двора.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon идёт",
+   "assets": "LEON; post",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s057",
+   "start": 193.625,
+   "end": 196.05,
+   "line": "He puts his back against it and tries again.",
+   "scene": "Leon спиной к столбу, лицом влево, поднимает кулак, мишень слева: ящик.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Leon встаёт, замах",
+   "assets": "LEON; post; box",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s058",
+   "start": 196.05,
+   "end": 202.125,
+   "line": "The punch goes forward, the shove goes into the post, and Leon doesn't move an inch.",
+   "scene": "Удар влево: ящик разлетается, стрелка в столб, Leon не двигается, столб держится.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "удар, Leon на месте",
+   "assets": "LEON; post; box",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s059",
+   "start": 202.125,
+   "end": 203.992,
+   "line": "Problem two.",
+   "scene": "Плашка PROBLEM 2: TOUCH.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s060",
+   "start": 203.992,
+   "end": 206.167,
+   "line": "Owen offers a fist bump.",
+   "scene": "Owen протягивает кулак для приветствия, Leon улыбается.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "Owen тянет кулак",
+   "assets": "OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s061",
+   "start": 206.167,
+   "end": 208.3,
+   "line": "Leon thinks he's barely touching it.",
+   "scene": "Лёгкий кулак Leon касается кулака Owen.",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "касание",
+   "assets": "OWEN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s062",
+   "start": 208.3,
+   "end": 214.342,
+   "line": "Owen's arm swings back like a gate in the wind, and he says, in a very small voice, that he's fine.",
+   "scene": "Рука Owen болтается как калитка; Owen с бледной улыбкой «I'm fine».",
+   "set": "YARD",
+   "hud": "—",
+   "notes": "рука качается",
+   "assets": "OWEN arm; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s063",
+   "start": 214.342,
+   "end": 217.342,
+   "line": "Leon realizes he can't touch anything.",
+   "scene": "Leon смотрит на свои руки, комната, кровать.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "Leon смотрит на руки",
+   "assets": "LEON; ROOM",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s064",
+   "start": 217.342,
+   "end": 222.633,
+   "line": "He tries a pillow, and the pillow explodes into a cloud of feathers while the cat leaves the house.",
+   "scene": "Leon касается подушки: она взрывается облаком перьев; кошка убегает.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "взрыв перьев, кошка",
+   "assets": "pillow; feathers; cat; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s065",
+   "start": 222.633,
+   "end": 224.817,
+   "line": "So he does what any kid would do.",
+   "scene": "Leon идёт по комнате решительно.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "Leon идёт",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s066",
+   "start": 224.817,
+   "end": 227.083,
+   "line": "He borrows a carton of eggs.",
+   "scene": "Кухня: Leon берёт упаковку яиц у Mom.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "берёт яйца",
+   "assets": "LEON; MOM; egg carton",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s067",
+   "start": 227.083,
+   "end": 230.467,
+   "line": "An egg can crack with just a few pounds if you hit it right.",
+   "scene": "Яйцо: стрелка лёгкого касания, надпись «A FEW POUNDS».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "яйцо трескается",
+   "assets": "egg",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s068",
+   "start": 230.467,
+   "end": 233.917,
+   "line": "Out of six thousand, that's about one part in a thousand.",
+   "scene": "6000 LBS: одна точка из тысячи выделена; «1 / 1,000».",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "точки",
+   "assets": "dots grid",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s069",
+   "start": 233.917,
+   "end": 236.058,
+   "line": "His first punch makes an omelet.",
+   "scene": "Leon бьёт яйцо на столе: омлет на сковороде и стол.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "удар, омлет",
+   "assets": "LEON; egg; pan",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s070",
+   "start": 236.058,
+   "end": 237.175,
+   "line": "So does the second.",
+   "scene": "Второй омлет, брызги.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "удар",
+   "assets": "LEON; eggs",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s071",
+   "start": 237.175,
+   "end": 241.817,
+   "line": "By the twelfth, Mom stares into the pan. \"Eggs again?\"",
+   "scene": "Mom смотрит на сковороду, рядом 12 омлетов; Leon виновато.",
+   "set": "KITCHEN",
+   "hud": "—",
+   "notes": "Mom смотрит",
+   "assets": "MOM; LEON; pan; omelets",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s072",
+   "start": 241.817,
+   "end": 248.117,
+   "line": "Every night after that, Leon practices tapping with just his wrist, like flicking a crumb off the table.",
+   "scene": "Ночь, Leon у стола, одним запястьем касается яйца; календарь.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "касание запястьем",
+   "assets": "LEON; egg; night",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s073",
+   "start": 248.117,
+   "end": 252.008,
+   "line": "By Thursday, he can tap an egg, and the egg only wobbles.",
+   "scene": "Яйцо только покачивается; Leon улыбается.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "яйцо качается",
+   "assets": "LEON; egg",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s074",
+   "start": 252.008,
+   "end": 257.783,
+   "line": "It's the hardest thing he's ever learned, and nobody will ever see him do it.",
+   "scene": "Leon один у окна, ночь; никто не видит; крупный план Leon, уставший и гордый.",
+   "set": "ROOM",
+   "hud": "—",
+   "notes": "камера отъезжает",
+   "assets": "LEON; window",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s075",
+   "start": 257.783,
+   "end": 258.992,
+   "line": "Problem three.",
+   "scene": "Плашка PROBLEM 3: PRESSURE.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s076",
+   "start": 258.992,
+   "end": 261.742,
+   "line": "Three tons sounds unstoppable.",
+   "scene": "Leon с гордой позой, кулак вверх.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Leon красуется",
+   "assets": "LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s077",
+   "start": 261.742,
+   "end": 263.017,
+   "line": "It isn't.",
+   "scene": "Крупно стальная дверь сарая; «It isn't».",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "дверь",
+   "assets": "steel door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s078",
+   "start": 263.017,
+   "end": 269.317,
+   "line": "On Monday, Leon is mad about a bad quiz grade, and he walks past the steel door of the equipment shed behind the gym.",
+   "scene": "За спортзалом: Leon идёт мрачный с листом теста D, справа стена спортзала и стальная дверь сарая.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Leon идёт к двери",
+   "assets": "LEON; shed door; quiz",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s079",
+   "start": 269.317,
+   "end": 270.567,
+   "line": "He punches it.",
+   "scene": "Leon бьёт стальную дверь.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "удар",
+   "assets": "LEON; steel door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s080",
+   "start": 270.567,
+   "end": 272.533,
+   "line": "The door rings like a bell.",
+   "scene": "Дверь дрожит, кольца звука.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "звон",
+   "assets": "steel door; rings",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s081",
+   "start": 272.533,
+   "end": 277.858,
+   "line": "Leon yelps and shakes his hand, and the door has a dent no bigger than a coin.",
+   "scene": "Leon трясёт рукой, на двери вмятина с монету.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Leon трясёт рукой",
+   "assets": "LEON; dent",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s082",
+   "start": 277.858,
+   "end": 279.125,
+   "line": "Here's why.",
+   "scene": "Плашка HERE'S WHY.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s083",
+   "start": 279.125,
+   "end": 284.417,
+   "line": "What matters is how much force you use, and also how small a spot it lands on.",
+   "scene": "Формула: FORCE ÷ AREA = PRESSURE; кулак и острие.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "формула",
+   "assets": "formula",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s084",
+   "start": 284.417,
+   "end": 292.475,
+   "line": "Six thousand pounds on a fist-sized spot, about three square inches, is roughly two thousand pounds on every square inch.",
+   "scene": "6000 LBS ÷ 3 SQ IN = 2000 PSI.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "цифры",
+   "assets": "formula",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s085",
+   "start": 292.475,
+   "end": 295.442,
+   "line": "A wooden door gives up long before that.",
+   "scene": "Деревянная дверь ломается под шкалой 2000 PSI.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "дверь ломается",
+   "assets": "wood door; gauge",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s086",
+   "start": 295.442,
+   "end": 304.0,
+   "line": "Ordinary structural steel doesn't start to bend until about thirty-six thousand pounds on every square inch, eighteen times more.",
+   "scene": "Два столбика: 2000 PSI и 36,000 PSI стали, 18×.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "столбик стали",
+   "assets": "bar chart",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s087",
+   "start": 304.0,
+   "end": 310.292,
+   "line": "So Leon can wreck a fence, a dumpster and a brick mailbox, but a steel door just laughs at him.",
+   "scene": "Четыре картинки: забор, мусорный бак, кирпичный почтовый ящик сломаны; стальная дверь цела и смеётся.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "картинки",
+   "assets": "fence; dumpster; mailbox; door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s088",
+   "start": 310.292,
+   "end": 317.117,
+   "line": "A kid who felt like a god for one weekend now has a sore hand and a dent he'll have to explain to the custodian.",
+   "scene": "Leon сидит у двери, рука в повязке, рядом уборщик.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Leon вздыхает",
+   "assets": "LEON; JANITOR; dent",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s089",
+   "start": 317.117,
+   "end": 320.7,
+   "line": "Coach Dunn looks at the door and tells him something that sticks.",
+   "scene": "Dunn стоит у двери, смотрит на вмятину, Leon рядом.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Dunn показывает",
+   "assets": "DUNN; LEON; door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s090",
+   "start": 320.7,
+   "end": 324.275,
+   "line": "\"Never fight the whole door. Find what's holding it.",
+   "scene": "Dunn поднимает палец; Leon слушает.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Dunn говорит",
+   "assets": "DUNN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s091",
+   "start": 324.275,
+   "end": 326.1,
+   "line": "A latch, a hinge, a bolt.",
+   "scene": "Dunn показывает на петлю, засов и болты двери.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "Dunn показывает",
+   "assets": "DUNN; hinge; bolt",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s092",
+   "start": 326.1,
+   "end": 330.5,
+   "line": "Something small is always weaker than the whole.\"",
+   "scene": "Маленький болт на большой двери, подсветка.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "подсветка болта",
+   "assets": "bolt",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s093",
+   "start": 330.5,
+   "end": 334.867,
+   "line": "Leon nods. He doesn't know yet how soon he'll need it.",
+   "scene": "Leon кивает.",
+   "set": "SHED",
+   "hud": "—",
+   "notes": "кивок",
+   "assets": "LEON; DUNN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s094",
+   "start": 334.867,
+   "end": 338.808,
+   "line": "The next Saturday is the fair again, and it's ninety degrees.",
+   "scene": "Ярмарка в жару: термометр 90°, солнце, дети с мороженым; плашка NEXT SATURDAY.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "солнце, термометр",
+   "assets": "fair; thermometer; sun",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s095",
+   "start": 338.808,
+   "end": 343.325,
+   "line": "Owen's little cousin Poppy, six years old, is playing hide-and-seek behind the booths.",
+   "scene": "Poppy (6 лет, жёлтое платье) бежит за палатками, Owen считает вслух, закрыв глаза.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Poppy бежит",
+   "assets": "POPPY; OWEN; fair",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s096",
+   "start": 343.325,
+   "end": 346.025,
+   "line": "She finds the best hiding spot of all.",
+   "scene": "Poppy останавливается у большого стального контейнера с призами за палатками.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Poppy замечает",
+   "assets": "POPPY; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s097",
+   "start": 346.025,
+   "end": 351.625,
+   "line": "It's the big steel storage container where the fair keeps its prizes, and she climbs inside.",
+   "scene": "Poppy залезает в контейнер: открытая дверь, внутри плюшевые акулы; она пролезает внутрь.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Poppy залезает",
+   "assets": "POPPY; container; sharks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s098",
+   "start": 351.625,
+   "end": 353.45,
+   "line": "The heavy door swings shut.",
+   "scene": "Дверь контейнера захлопывается.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "дверь захлопывается",
+   "assets": "container door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s099",
+   "start": 353.45,
+   "end": 355.9,
+   "line": "The latch drops with a clunk.",
+   "scene": "Крупно: планка замка падает в кронштейн, звук, ЩЁЛК.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "планка падает",
+   "assets": "bracket; bar; padlock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s100",
+   "start": 355.9,
+   "end": 358.533,
+   "line": "Owen knocks. \"Poppy?\"",
+   "scene": "Owen стучит в дверь контейнера, зовёт.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Owen стучит",
+   "assets": "OWEN; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s101",
+   "start": 358.533,
+   "end": 362.55,
+   "line": "A tiny voice says, \"It's really hot in here.\"",
+   "scene": "Из контейнера тонкая реплика; Owen замирает; пузырь из контейнера.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "реплика из контейнера",
+   "assets": "container; OWEN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s102",
+   "start": 362.55,
+   "end": 365.517,
+   "line": "The container has baked in the sun since morning.",
+   "scene": "Контейнер на солнце: волны жара, термометр растёт до 110°.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "жара растёт",
+   "assets": "container; sun; thermometer",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s103",
+   "start": 365.517,
+   "end": 369.433,
+   "line": "The manager has the only key, and he's an hour away.",
+   "scene": "Управляющий далеко: телефон, иконка «1 HOUR»; Owen и Dunn смотрят на часы.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "часы",
+   "assets": "phone; map; clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s104",
+   "start": 369.433,
+   "end": 371.417,
+   "line": "Coach Dunn calls the fire department.",
+   "scene": "Dunn прижимает телефон к уху.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Dunn звонит",
+   "assets": "DUNN; phone",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s105",
+   "start": 371.417,
+   "end": 375.15,
+   "line": "\"Twenty minutes,\" he says, and everyone knows that's too long.",
+   "scene": "Dunn говорит «Twenty minutes»; толпа переглядывается; часы.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "тревога",
+   "assets": "DUNN; KIDS; clock",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s106",
+   "start": 375.15,
+   "end": 381.058,
+   "line": "The lock is a thick old padlock on a rusty bar, and the bolt cutters are in a van across town.",
+   "scene": "Крупно замок на ржавой планке и болторез в машине вдали (картинка вдали).",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "замок, фургон вдали",
+   "assets": "padlock; bar; van",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s107",
+   "start": 381.058,
+   "end": 383.383,
+   "line": "People start to turn and look at Leon.",
+   "scene": "Все поворачиваются на Leon; Leon смотрит на кулак.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "головы поворачиваются",
+   "assets": "LEON; KIDS; OWEN; DUNN",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s108",
+   "start": 383.383,
+   "end": 384.833,
+   "line": "A steel door.",
+   "scene": "Крупно стальная дверь контейнера.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "дверь",
+   "assets": "container door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s109",
+   "start": 384.833,
+   "end": 386.95,
+   "line": "Three tons in his fist.",
+   "scene": "Кулак Leon, рядом цифра 3 TONS.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "кулак",
+   "assets": "LEON; fist",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s110",
+   "start": 386.95,
+   "end": 390.092,
+   "line": "And exactly one chance to get it right.",
+   "scene": "Leon с серьёзным лицом, у него одна попытка; плашка ONE CHANCE.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Leon смотрит на контейнер",
+   "assets": "LEON; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s111",
+   "start": 390.092,
+   "end": 392.35,
+   "line": "Leon walks around the container.",
+   "scene": "Leon обходит контейнер, вид сверху на кольцо вокруг контейнера.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Leon обходит",
+   "assets": "LEON; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s112",
+   "start": 392.35,
+   "end": 393.758,
+   "line": "He doesn't look at the door.",
+   "scene": "Leon пропускает взглядом дверь.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "взгляд мимо",
+   "assets": "LEON; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s113",
+   "start": 393.758,
+   "end": 396.258,
+   "line": "He looks at the thing holding it shut.",
+   "scene": "Leon смотрит на кронштейн; кронштейн подсвечен.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "подсветка",
+   "assets": "LEON; bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s114",
+   "start": 396.258,
+   "end": 402.617,
+   "line": "The padlock bar sits in an old iron bracket, and the bracket is held to the door by four rusty bolts.",
+   "scene": "Крупно кронштейн с четырьмя ржавыми болтами и планкой замка.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "болты пронумерованы",
+   "assets": "bracket; 4 bolts; bar",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s115",
+   "start": 402.617,
+   "end": 406.083,
+   "line": "Something small, holding something huge.",
+   "scene": "Маленький кронштейн на огромной двери, камера отъезжает.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "камера отъезжает",
+   "assets": "bracket; container door",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s116",
+   "start": 406.083,
+   "end": 410.342,
+   "line": "He backs up against the concrete post of the ticket booth, the way he practiced.",
+   "scene": "Leon встаёт спиной к бетонному столбу билетной кассы рядом с контейнером.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Leon встаёт спиной",
+   "assets": "LEON; post; ticket booth; container",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s117",
+   "start": 410.342,
+   "end": 412.308,
+   "line": "Coach Dunn kneels beside him.",
+   "scene": "Dunn присаживается рядом на колено, шепчет.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Dunn присел",
+   "assets": "DUNN; LEON; post",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s118",
+   "start": 412.308,
+   "end": 413.633,
+   "line": "\"Not full power.",
+   "scene": "Dunn поднимает ладонь «стоп»; пузырь.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "ладонь",
+   "assets": "DUNN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s119",
+   "start": 413.633,
+   "end": 417.658,
+   "line": "Hit that bracket with three tons, and the whole door could buckle inward.",
+   "scene": "Врезка-фантазия: дверь выгибается внутрь, Poppy внутри испугана.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "дверь выгибается",
+   "assets": "container; bubble",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s120",
+   "start": 417.658,
+   "end": 420.3,
+   "line": "Give it a tenth.\" Leon nods.",
+   "scene": "Dunn показывает 10%; Leon кивает; ползунок на 10%.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "ползунок",
+   "assets": "DUNN; LEON; slider",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s121",
+   "start": 420.3,
+   "end": 422.833,
+   "line": "A tenth, just like the eggs.",
+   "scene": "Leon вспоминает яйцо: облачко с яйцом.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "облако-яйцо",
+   "assets": "LEON; cloud egg",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s122",
+   "start": 422.833,
+   "end": 424.458,
+   "line": "He taps the first bolt.",
+   "scene": "Leon касается первого болта.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "тап",
+   "assets": "LEON; bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s123",
+   "start": 424.458,
+   "end": 425.575,
+   "line": "It rings.",
+   "scene": "Болт звенит, не двигается; лупа на болте.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "звон",
+   "assets": "bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 425.575,
+   "end": 426.6,
+   "line": "Nothing.",
+   "scene": "Ничего: все смотрят, тишина.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "тишина",
+   "assets": "LEON; bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s125",
+   "start": 426.6,
+   "end": 430.967,
+   "line": "He taps again, and the bolt pops off and pings against a crate.",
+   "scene": "Второй тап: болт вылетает и звенит о ящик.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "болт летит",
+   "assets": "LEON; bolt; crate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s126",
+   "start": 430.967,
+   "end": 432.967,
+   "line": "Poppy coughs inside.",
+   "scene": "Кашель Poppy: пузырь из контейнера, Leon оборачивается.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "кашель",
+   "assets": "container; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s127",
+   "start": 432.967,
+   "end": 435.6,
+   "line": "Leon taps the second bolt, then the third.",
+   "scene": "Leon касается второго и третьего болтов; спиной в столб.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "тап, тап",
+   "assets": "LEON; post; bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s128",
+   "start": 435.6,
+   "end": 442.017,
+   "line": "His back hits the post every time, and the post holds, just like Isaac Newton said it would.",
+   "scene": "Спина Leon бьёт в столб, столб держится; стрелки; Dunn кивает.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "столб держится",
+   "assets": "LEON; post; arrows",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s129",
+   "start": 442.017,
+   "end": 443.775,
+   "line": "The fourth bolt flies.",
+   "scene": "Четвёртый болт вылетает.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "болт летит",
+   "assets": "LEON; bolt",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s130",
+   "start": 443.775,
+   "end": 445.475,
+   "line": "The bracket drops off the door.",
+   "scene": "Кронштейн падает с двери.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "кронштейн падает",
+   "assets": "bracket",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s131",
+   "start": 445.475,
+   "end": 452.108,
+   "line": "The bar slides out, the door swings open, and heat rolls out like the breath of an oven.",
+   "scene": "Планка выскальзывает, дверь открывается, жар вылетает облаком.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "дверь открывается, жар",
+   "assets": "container; heat",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s132",
+   "start": 452.108,
+   "end": 456.75,
+   "line": "Poppy is sitting on a pile of plush sharks, hugging the biggest one.",
+   "scene": "Poppy сидит на куче плюшевых акул, обнимает самую большую.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Poppy обнимает акулу",
+   "assets": "POPPY; sharks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s133",
+   "start": 456.75,
+   "end": 459.2,
+   "line": "\"I found the best spot,\" she says.",
+   "scene": "Poppy довольно: «I found the best spot».",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "реплика",
+   "assets": "POPPY; sharks",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s134",
+   "start": 459.2,
+   "end": 460.917,
+   "line": "Leon sits down in the dirt.",
+   "scene": "Leon садится в пыль, выдыхает.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Leon садится",
+   "assets": "LEON; post",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s135",
+   "start": 460.917,
+   "end": 463.242,
+   "line": "His hand doesn't even hurt.",
+   "scene": "Рука Leon: ни царапины, зелёная галочка.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "рука",
+   "assets": "LEON; fist",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s136",
+   "start": 463.242,
+   "end": 467.725,
+   "line": "Ms. Park, still damp from the dunk tank, wraps Poppy in a towel.",
+   "scene": "Ms. Park мокрая оборачивает Poppy полотенцем; Owen рядом.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Park накрывает",
+   "assets": "PARK; POPPY; OWEN; towel",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s137",
+   "start": 467.725,
+   "end": 472.15,
+   "line": "The fire truck arrives six minutes later and finds the whole thing finished.",
+   "scene": "Пожарная машина подъезжает к закрытой работе: всё готово.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "машина подъезжает",
+   "assets": "fire truck; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s138",
+   "start": 472.15,
+   "end": 480.783,
+   "line": "Nobody asks Leon how he did it, because nobody saw a punch, just a kid tapping bolts like he was knocking on doors.",
+   "scene": "Leon тихо стоит, все заняты Poppy; он как стучащий в дверь.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "взгляд Leon",
+   "assets": "LEON; KIDS",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s139",
+   "start": 480.783,
+   "end": 485.742,
+   "line": "Coach Dunn wheels the old strength tester out from behind the booth and plugs it back in.",
+   "scene": "Dunn выкатывает старый силомер из-за палатки, включает в розетку.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "Dunn катит силомер",
+   "assets": "DUNN; tester; Leon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s140",
+   "start": 485.742,
+   "end": 487.958,
+   "line": "\"I think it saved your last number.\"",
+   "scene": "Dunn говорит, Leon подходит к силомеру.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "реплика",
+   "assets": "DUNN; LEON; tester",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s141",
+   "start": 487.958,
+   "end": 489.467,
+   "line": "The screen glows.",
+   "scene": "Экран силомера загорается.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "экран загорается",
+   "assets": "tester screen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s142",
+   "start": 489.467,
+   "end": 491.833,
+   "line": "Six thousand.",
+   "scene": "Экран показывает 6000, Leon и Dunn смотрят.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "число",
+   "assets": "tester screen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s143",
+   "start": 491.833,
+   "end": 493.475,
+   "line": "Then Coach Dunn smiles.",
+   "scene": "Dunn улыбается Leon.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "улыбка",
+   "assets": "DUNN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s144",
+   "start": 493.475,
+   "end": 496.933,
+   "line": "\"Now try it again, nice and gently.\"",
+   "scene": "Dunn: «Now try it again, nice and gently».",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "реплика",
+   "assets": "DUNN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s145",
+   "start": 496.933,
+   "end": 499.492,
+   "line": "Leon taps the bag with one finger.",
+   "scene": "Leon касается груши пальцем, груша качнулась чуть-чуть.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "касание",
+   "assets": "LEON; tester",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s146",
+   "start": 499.492,
+   "end": 501.742,
+   "line": "The screen says two.",
+   "scene": "Экран показывает 2.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "число",
+   "assets": "tester screen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s147",
+   "start": 501.742,
+   "end": 504.2,
+   "line": "\"Two pounds. Perfect.\"",
+   "scene": "Dunn показывает большой палец, Leon улыбается.",
+   "set": "FAIR",
+   "hud": "—",
+   "notes": "реплика",
+   "assets": "DUNN; LEON",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s148",
+   "start": 504.2,
+   "end": 509.117,
+   "line": "That night, Leon sits at the kitchen table, tapping an egg with his wrist the way he always does.",
+   "scene": "Ночная кухня: Leon за столом, касается яйца запястьем.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "касание",
+   "assets": "LEON; egg; kitchen",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s149",
+   "start": 509.117,
+   "end": 510.267,
+   "line": "The egg wobbles.",
+   "scene": "Яйцо покачивается.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "яйцо",
+   "assets": "egg",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s150",
+   "start": 510.267,
+   "end": 513.342,
+   "line": "Then a thin crack runs across the table.",
+   "scene": "По столу бежит тонкая трещина.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "трещина",
+   "assets": "table crack",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s151",
+   "start": 513.342,
+   "end": 515.067,
+   "line": "He looks at his fist.",
+   "scene": "Leon смотрит на кулак.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "взгляд",
+   "assets": "LEON; fist",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s152",
+   "start": 515.067,
+   "end": 517.775,
+   "line": "Same tap. Same egg.",
+   "scene": "Leon и трещина на столе.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "трещина шире",
+   "assets": "LEON; table",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s153",
+   "start": 517.775,
+   "end": 520.442,
+   "line": "Something is still growing.",
+   "scene": "Кулак Leon крупно, вокруг лёгкое свечение; плашка STILL GROWING.",
+   "set": "KITCHEN_N",
+   "hud": "—",
+   "notes": "свечение",
+   "assets": "LEON; fist",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s154",
+   "start": 520.442,
+   "end": 526.267,
+   "line": "So, what would you hit first with three tons of force, and would you ever dare to use it?",
+   "scene": "Leon с кулаком и вопросительный знак: что бы вы ударили первым.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "плашка",
+   "assets": "LEON; plate",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s155",
+   "start": 526.267,
+   "end": 527.583,
+   "line": "Tell us in the comments.",
+   "scene": "Иконка комментариев.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "иконка",
+   "assets": "comment icon",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s156",
+   "start": 527.583,
+   "end": 535.507,
+   "line": "And if you want to see how big it can get, subscribe, because part two is next.",
+   "scene": "Кнопка Subscribe, PART 2 NEXT.",
+   "set": "VOID",
+   "hud": "—",
+   "notes": "кнопка",
+   "assets": "subscribe button",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

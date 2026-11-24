@@ -1,0 +1,638 @@
+[
+ {
+  "t": 0.0,
+  "s": "SATURDAY · SPRING FAIR",
+  "sc": 1,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 8.467,
+  "s": "SCALE TOPS OUT AT 2000 LBS",
+  "sc": 3,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 15.617,
+  "s": "310",
+  "sc": 4,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 18.933,
+  "s": "640",
+  "sc": 5,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 23.6,
+  "s": "90 LBS",
+  "sc": 6,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 26.617,
+  "s": "I've got this.",
+  "sc": 6,
+  "k": "say",
+  "raw": "say",
+  "who": "LEON"
+ },
+ {
+  "t": 45.783,
+  "s": "E  R  R",
+  "sc": 12,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 50.217,
+  "s": "Dude, you broke it.",
+  "sc": 13,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 53.167,
+  "s": "WHAT IF YOUR PUNCH HIT WITH 3 TONS OF FORCE?",
+  "sc": 14,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 60.3,
+  "s": "HOW IT WORKS",
+  "sc": 16,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 61.817,
+  "s": "RULE 1: ONLY A PUNCH",
+  "sc": 17,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 64.45,
+  "s": "HANDSHAKE ✓",
+  "sc": 18,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 65.55,
+  "s": "HIGH FIVE ✓",
+  "sc": 18,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 66.55,
+  "s": "FORK ✓",
+  "sc": 18,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 69.183,
+  "s": "RULE 2: FULL SWING",
+  "sc": 19,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 71.367,
+  "s": "3 TONS",
+  "sc": 20,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 73.4,
+  "s": "6,000 LBS",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 74.983,
+  "s": "2 SMALL CARS",
+  "sc": 21,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 79.75,
+  "s": "STUDY · 2005",
+  "sc": 22,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 86.7,
+  "s": "770 LBS",
+  "sc": 23,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 89.617,
+  "s": "8×",
+  "sc": 24,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 92.45,
+  "s": "RULE 3: EFFORT",
+  "sc": 25,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 96.95,
+  "s": "10% = 600 LBS",
+  "sc": 27,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 100.3,
+  "s": "BONES OK ✓",
+  "sc": 28,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 103.15,
+  "s": "SAME SIZE · SAME WEIGHT",
+  "sc": 29,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 108.983,
+  "s": "REMEMBER THIS",
+  "sc": 30,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 110.517,
+  "s": "THE FUN PART",
+  "sc": 31,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 111.983,
+  "s": "10 MIN",
+  "sc": 32,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 121.167,
+  "s": "STUCK SINCE OCTOBER",
+  "sc": 34,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 128.117,
+  "s": "$1",
+  "sc": 36,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 129.383,
+  "s": "9 BAGS",
+  "sc": 37,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 140.767,
+  "s": "PICKED FIRST",
+  "sc": 39,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 144.283,
+  "s": "WEDNESDAY",
+  "sc": 40,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 154.017,
+  "s": "PROBLEM 1: RECOIL",
+  "sc": 43,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 156.15,
+  "s": "1687",
+  "sc": 44,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 157.383,
+  "s": "EVERY PUSH = EQUAL PUSH BACK",
+  "sc": 45,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 163.883,
+  "s": "3 TONS →",
+  "sc": 47,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 166.283,
+  "s": "← 3 TONS",
+  "sc": 48,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 172.917,
+  "s": "LIKE A KID ON A BIKE",
+  "sc": 49,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 185.767,
+  "s": "Boxers punch with their legs.",
+  "sc": 54,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 188.583,
+  "s": "FLOOR PUSHES BACK",
+  "sc": 55,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 203.1,
+  "s": "PROBLEM 2: TOUCH",
+  "sc": 59,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 213.467,
+  "s": "I'm fine.",
+  "sc": 62,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 229.017,
+  "s": "A FEW POUNDS",
+  "sc": 67,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 231.4,
+  "s": "1 / 1000",
+  "sc": 68,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 237.7,
+  "s": "×12",
+  "sc": 71,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 240.583,
+  "s": "Eggs again?",
+  "sc": 71,
+  "k": "say",
+  "raw": "say",
+  "who": "MOM"
+ },
+ {
+  "t": 242.417,
+  "s": "EVERY NIGHT",
+  "sc": 72,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 248.4,
+  "s": "THURSDAY",
+  "sc": 73,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 258.133,
+  "s": "PROBLEM 3: PRESSURE",
+  "sc": 75,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 263.317,
+  "s": "MONDAY",
+  "sc": 78,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 277.05,
+  "s": "DENT: SIZE OF A COIN",
+  "sc": 81,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 278.267,
+  "s": "HERE'S WHY",
+  "sc": 82,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 280.767,
+  "s": "FORCE ÷ AREA",
+  "sc": 83,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 287.933,
+  "s": "6000 ÷ 3 = 2000 PSI",
+  "sc": 84,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 298.583,
+  "s": "36,000 PSI",
+  "sc": 86,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 301.467,
+  "s": "18×",
+  "sc": 86,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 321.217,
+  "s": "Never fight the whole door.",
+  "sc": 90,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 324.45,
+  "s": "LATCH · HINGE · BOLT",
+  "sc": 91,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 326.7,
+  "s": "SMALL < WHOLE",
+  "sc": 92,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 335.783,
+  "s": "NEXT SATURDAY · 90°",
+  "sc": 94,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 354.983,
+  "s": "CLUNK",
+  "sc": 99,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 357.8,
+  "s": "Poppy?",
+  "sc": 100,
+  "k": "say",
+  "raw": "say",
+  "who": "OWEN"
+ },
+ {
+  "t": 361.317,
+  "s": "It's really hot in here.",
+  "sc": 101,
+  "k": "say",
+  "raw": "say",
+  "who": "POPPY"
+ },
+ {
+  "t": 363.75,
+  "s": "110°",
+  "sc": 102,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 368.117,
+  "s": "1 HOUR AWAY",
+  "sc": 103,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 371.417,
+  "s": "20 MIN",
+  "sc": 105,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 387.95,
+  "s": "ONE CHANCE",
+  "sc": 110,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 400.967,
+  "s": "4 BOLTS",
+  "sc": 114,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 412.617,
+  "s": "Not full power.",
+  "sc": 118,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 418.283,
+  "s": "GIVE IT 10%",
+  "sc": 120,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 424.9,
+  "s": "DING",
+  "sc": 123,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 431.55,
+  "s": "cough cough",
+  "sc": 126,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 434.15,
+  "s": "2",
+  "sc": 127,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 435.2,
+  "s": "3",
+  "sc": 127,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 442.5,
+  "s": "4",
+  "sc": 129,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 457.167,
+  "s": "I found the best spot.",
+  "sc": 133,
+  "k": "say",
+  "raw": "say",
+  "who": "POPPY"
+ },
+ {
+  "t": 462.45,
+  "s": "NO PAIN ✓",
+  "sc": 135,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 469.017,
+  "s": "6 MIN LATER",
+  "sc": 137,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 486.383,
+  "s": "I think it saved your last number.",
+  "sc": 140,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 489.467,
+  "s": "6000",
+  "sc": 142,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 493.783,
+  "s": "Now try it again, nice and gently.",
+  "sc": 144,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 500.617,
+  "s": "2",
+  "sc": 146,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 502.2,
+  "s": "Two pounds. Perfect.",
+  "sc": 147,
+  "k": "say",
+  "raw": "say",
+  "who": "DUNN"
+ },
+ {
+  "t": 504.6,
+  "s": "THAT NIGHT",
+  "sc": 148,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 519.367,
+  "s": "STILL GROWING…",
+  "sc": 153,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 520.883,
+  "s": "WHAT WOULD YOU HIT FIRST?",
+  "sc": 154,
+  "k": "plate",
+  "raw": "plate"
+ },
+ {
+  "t": 527.017,
+  "s": "COMMENT BELOW",
+  "sc": 155,
+  "k": "cap",
+  "raw": "cap"
+ },
+ {
+  "t": 529.9,
+  "s": "SUBSCRIBE · PART 2",
+  "sc": 156,
+  "k": "plate",
+  "raw": "plate"
+ }
+]
