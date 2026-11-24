@@ -208,7 +208,7 @@ const SETS = {
 const BG_IMG = true;
 export const BG_SETS = { fair: 'fair', frontYard: 'front_yard', shedYard: 'schoolyard', sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', library: 'library', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
 const BGIM = await loadImages(Object.fromEntries(Object.entries(BG_SETS).map(([n, f]) => [n, project(`assets/bg/${f}.png`)])));
-const PNAMES = ['school/tray', 'school/dodgeball'];
+const PNAMES = ['school/tray', 'school/dodgeball', 'animals/cat_stand', 'animals/cat_run'];
 export const PIM = await loadImages(Object.fromEntries(PNAMES.map((n) => [n.split('/')[1], project(`assets/props/${n}.png`)])));
 // картинка-предмет: prop(g,'bus',x,y,h,{rot,flip,a,k}) — h = высота в пикселях кадра, x,y = центр; o.base = true: y = низ предмета
 export function prop(g, name, x, y, h, o = {}) { const im = PIM[name]; if (!im) return; const sc = h / im.height, k = o.k ?? 1; g.save(); g.translate(x, y); if (o.rot) g.rotate(o.rot); g.scale((o.flip ?? 1) * sc * k, sc * k); if (o.a != null) g.globalAlpha *= o.a; if (o.base) g.translate(0, -im.height / 2); if (o.shadow) { g.fillStyle = 'rgba(0,0,0,.15)'; g.beginPath(); g.ellipse(0, im.height * 0.5, im.width * 0.4, im.height * 0.05, 0, 0, 7); g.fill(); } g.drawImage(im, -im.width / 2, -im.height / 2); g.restore(); }
