@@ -15,16 +15,16 @@ POSES.fistUp = { ...POSES.stand, eF: [24, -190], hF: [30, -236], eB: [-7, -136],
 POSES.windBack = { ...POSES.stand, head: [2, -208], sh: [-2, -174], eF: [-34, -168], hF: [-62, -158], eB: [-20, -152], hB: [-4, -140] };
 export const SEC = E;
 export const FW = () => E.W;
-export const TX = () => 0.40 * E.W, LX = () => 0.64 * E.W, DX = () => 0.89 * E.W, HX0 = () => 0.133 * E.W;
+export const TX = () => 0.40 * E.W, LX = () => 0.64 * E.W, DX = () => 0.89 * E.W, HX0 = () => 0.155 * E.W;
 export const sw = (t, t0, A = 1, k = 3.2, f = 10) => (t < t0 ? 0 : A * Math.exp(-(t - t0) * k) * Math.cos((t - t0) * f));
 export const hit = (t, t0, d = 0.12) => ease.out(prog(t, t0, t0 + d));
 export const cnt = (t, t0, t1, v) => String(Math.round(v * ease.out(prog(t, t0, t1))));
 // траектория груши силомера (общая для сцен 009-011): u 0..1 от покоя до мишени аквагорки
-export const BAG_U = (GY, x0 = 0.40 * 1920 - 130 - 170 - 62, y0 = GY - 165) => (u) => K.flight(x0, y0, 0.89 * 1920 - 260, GY - 430, 520, u);
+export const BAG_U = (GY, x0 = 0.40 * 1920 - K.TB_DX, y0 = GY - K.TB_Y) => (u) => K.flight(x0, y0, 0.89 * 1920 - 260, GY - 430, 520, u);
 // палатки ярмарки позади героев: o.tester, o.tank, o.lemon, o.candy
 export const fairPre = (o = {}) => (g, t, i, ctx) => {
   const GY = ctx.GY;
-  if (o.candy !== false) K.candyStand(g, 0.105 * E.W, GY - 8, 0.8);
+  if (o.candy !== false) K.candyStand(g, 0.078 * E.W, GY - 8, 0.8);
   if (o.lemon !== false) K.lemonade(g, LX(), GY, 0.95);
   if (o.tank !== false) K.dunkTank(g, DX(), GY, { hit: o.hit ? o.hit(t) : 0 });
   if (o.tester !== false) K.tester(g, TX(), GY, o.tst ? o.tst(t) : { comp: 0.05 * Math.sin(t * 4) });
