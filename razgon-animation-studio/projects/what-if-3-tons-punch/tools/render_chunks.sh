@@ -1,8 +1,8 @@
 #!/bin/bash
 # ВАЖНО: только один поток (lanes=1): параллельные процессы пишут в общую build/parts и портят куски.
 # Рендер ролика кусками по 15 с (на этом Mac многопоточный прогон зависает). Запуск из razgon-animation-studio:
-#   bash projects/what-if-see-everyones-iq/tools/render_chunks.sh <lane 0|1> <lanes> [scale]
-D=${OUTD:-full}; P=projects/what-if-see-everyones-iq; LANE=$1; LANES=${2:-1}; SCALE=${3:-0.5}
+#   bash projects/what-if-3-tons-punch/tools/render_chunks.sh <lane 0|1> <lanes> [scale]
+D=${OUTD:-full}; P=projects/what-if-3-tons-punch; LANE=$1; LANES=${2:-1}; SCALE=${3:-0.5}
 CH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 mkdir -p $P/out/$D
 i=0

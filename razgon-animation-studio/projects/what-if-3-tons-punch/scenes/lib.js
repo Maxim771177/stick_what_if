@@ -206,7 +206,7 @@ const SETS = {
 };
 // Фоны от OpenAI (assets/bg/<файл>.png, 1536x1024, в кадре обрезаются до 16:9). BG_IMG=false вернёт кодовые заглушки.
 const BG_IMG = true;
-export const BG_SETS = { sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', library: 'library', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
+export const BG_SETS = { fair: 'fair', frontYard: 'front_yard', shedYard: 'schoolyard', sportStore: 'sportStore', stage: 'stage2', gym: 'gym', classroom: 'classroom', kitchen: 'kitchen', livingRoom: 'livingRoom', cafeteria: 'cafeteria', street: 'street', hall: 'hall', streetNight: 'street_night', bus: 'bus', principal: 'principal', library: 'library', towerNight: 'towerNight', clockInside: 'clockInside', towerRoom: 'towerRoom' };
 const BGIM = await loadImages(Object.fromEntries(Object.entries(BG_SETS).map(([n, f]) => [n, project(`assets/bg/${f}.png`)])));
 const PNAMES = ['school/tray', 'school/dodgeball'];
 export const PIM = await loadImages(Object.fromEntries(PNAMES.map((n) => [n.split('/')[1], project(`assets/props/${n}.png`)])));
@@ -294,6 +294,13 @@ SETS.stage = (g) => { const GY = E.H * 0.9; D.plain(g, '#3a2f48'); g.fillStyle =
   inkRect(g, E.W * 0.04, E.H * 0.6, E.W * 0.92, 30, { fill: '#b57a3d', r: 4, w: 6 }); inkRect(g, E.W * 0.06, E.H * 0.6 + 30, E.W * 0.88, E.H * 0.12, { fill: '#8a5a2e', r: 0, w: 5 });
   return { GY }; };
 SETS.roomNight = (g, o) => { const r = SETS.livingRoom(g, o); g.save(); g.fillStyle = 'rgba(16,20,48,.7)'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); g.restore(); return r; };
+
+// ---- новые места ролика 11 (кодом): комната Leon, лагерь, аркада, лаборатория, двор за спортзалом ----
+SETS.shedYard = (g) => { const GY = E.H * 0.84; D.plain(g, '#e8b88a'); return { GY }; };
+SETS.room = (g) => { const GY = E.H * 0.84; D.plain(g, '#cdd8ee'); g.fillStyle = '#b08a5c'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); win(g, 1300, 180, 380, 340, '#243a6a'); stars(g, 24, 5, 0.9); inkRect(g, 90, 200, 300, 380, { fill: '#e9e2d0', r: 6, w: 6 }); return { GY }; };
+SETS.camp = (g) => { const GY = E.H * 0.84; D.plain(g, '#9bd7f5'); D.cloud(g, 400, 200, 1.5); D.cloud(g, 1400, 260, 1.2); g.fillStyle = '#7bb04a'; g.fillRect(-E.W, E.H * 0.55, E.W * 3, E.H); inkLine(g, [[-E.W, E.H * 0.55], [E.W * 2, E.H * 0.55]], { w: 5, step: 40 }); tree(g, E.W * 0.08, E.H * 0.58, 1.5); tree(g, E.W * 0.93, E.H * 0.57, 1.3); return { GY }; };
+SETS.arcade = (g) => { const GY = E.H * 0.84; D.plain(g, '#2a2346'); g.fillStyle = '#3a2f5e'; g.fillRect(-E.W, GY, E.W * 3, E.H); inkRect(g, E.W * 0.08, E.H * 0.12, 340, 360, { fill: '#cfe6f5', r: 10, w: 8 }); g.save(); g.fillStyle = '#7a7f92'; g.fillRect(E.W * 0.08 + 14, E.H * 0.12 + 200, 312, 140); g.restore(); inkRect(g, E.W * 0.08 + 40, E.H * 0.12 + 240, 260, 90, { fill: '#8a8f9a', r: 6, w: 4 }); inkRect(g, E.W * 0.08 + 60, E.H * 0.12 + 260, 90, 50, { fill: '#555a66', r: 4, w: 3 }); return { GY }; };
+SETS.lab = (g) => { const GY = E.H * 0.84; D.plain(g, '#e4eef2'); g.fillStyle = '#b9cdd2'; g.fillRect(-E.W, GY, E.W * 3, E.H); floorLine(g, GY); inkRect(g, E.W * 0.55, E.H * 0.18, 520, 300, { fill: '#0f2b2a', r: 10, w: 8 }); return { GY }; };
 if (BG_IMG) for (const n of Object.keys(BG_SETS)) { const orig = SETS[n]; SETS[n] = (g, o) => { const r = orig(g, o), im = BGIM[n]; if (!(o && o.noimg)) if (n === 'stage') g.drawImage(im, 0, 0, im.width, im.height, -E.W * 0.05, E.H * 0.9 - 915 * 1.325, E.W * 1.1, im.height * 1.325); else g.drawImage(im, 0, 80, im.width, im.height - 160, -E.W * 0.05, -E.H * 0.03, E.W * 1.1, E.H * 1.06); return r; }; }
 export { SETS };
 export const set = (name, g, o) => (SETS[name] || SETS.void)(g, o);
