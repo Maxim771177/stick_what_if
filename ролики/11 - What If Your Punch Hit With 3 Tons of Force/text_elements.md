@@ -22,7 +22,6 @@
 | S021 | 01:13.4 | 6,000 LBS | cap | — |
 | S021 | 01:15.0 | 2 SMALL CARS | cap | — |
 | S022 | 01:19.8 | STUDY · 2005 | plate | — |
-| S023 | 01:26.7 | 770 LBS | cap | — |
 | S024 | 01:29.6 | 8× | cap | — |
 | S025 | 01:32.5 | RULE 3: EFFORT | plate | — |
 | S027 | 01:37.0 | 10% = 600 LBS | cap | — |
@@ -56,9 +55,6 @@
 | S078 | 04:23.3 | MONDAY | plate | — |
 | S081 | 04:37.1 | DENT: SIZE OF A COIN | cap | — |
 | S082 | 04:38.3 | HERE'S WHY | plate | — |
-| S083 | 04:40.8 | FORCE ÷ AREA | cap | — |
-| S084 | 04:47.9 | 6000 ÷ 3 = 2000 PSI | cap | — |
-| S086 | 04:58.6 | 36,000 PSI | cap | — |
 | S086 | 05:01.5 | 18× | cap | — |
 | S090 | 05:21.2 | Never fight the whole door. | say | DUNN |
 | S091 | 05:24.4 | LATCH · HINGE · BOLT | cap | — |

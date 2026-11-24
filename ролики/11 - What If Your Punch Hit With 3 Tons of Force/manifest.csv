@@ -21,7 +21,7 @@ S019,01:08.5,01:09.8,1.2,Rule two.,VOID,Карточка RULE 2: A FULL SWING = 
 S020,01:09.8,01:12.8,3.0,A full swing hits with three tons of force.,VOID,Кулак Leon со стрелкой удара и надписью 3 TONS; рядом гиря «3 TONS».,01:11.4 3 TONS,кулак бьёт вперёд,LEON; fist; weight
 S021,01:12.8,01:18.4,5.6,"That's six thousand pounds, about two small cars standing on a spot the size of your knuckles.",VOID,6000 LBS: на кулак Leon сверху опускаются два маленьких автомобиля; кулак упирается в пятно размером с костяшки.,"01:13.4 6,000 LBS; 01:15.0 2 SMALL CARS",машины опускаются на кулак,fist; 2 cars
 S022,01:18.4,01:24.8,6.4,"For scale, in a study published in two thousand and five, seven Olympic boxers punched a crash test dummy.",LAB,"Лаборатория: олимпийский боксёр бьёт манекен для краш-теста, на манекене датчик; плашка STUDY · 2005.",01:19.8 STUDY · 2005,удар по манекену,boxer; dummy; sensor
-S023,01:24.8,01:28.5,3.7,The average punch landed with about seven hundred and seventy pounds.,VOID,Столбик «Olympic boxers 770 LBS».,01:26.7 770 LBS,столбик растёт,bar chart
+S023,01:24.8,01:28.5,3.7,The average punch landed with about seven hundred and seventy pounds.,VOID,Столбик «Olympic boxers 770 LBS».,,столбик растёт,bar chart
 S024,01:28.5,01:31.9,3.4,Leon hits eight times harder.,VOID,"Два столбика: Olympic boxer 770 и Leon 6000, надпись 8×.",01:29.6 8×,второй столбик выстреливает,bar chart; LEON
 S025,01:31.9,01:33.2,1.4,Rule three.,VOID,Карточка RULE 3: FORCE FOLLOWS EFFORT.,01:32.5 RULE 3: EFFORT,карточка,plate
 S026,01:33.2,01:35.5,2.2,The force follows effort.,VOID,Рычажок усилия 0–100% и шкала силы 0–6000.,,ползунок двигается,slider
@@ -81,10 +81,10 @@ S079,04:29.3,04:30.6,1.2,He punches it.,SHED,Leon бьёт стальную дв
 S080,04:30.6,04:32.5,2.0,The door rings like a bell.,SHED,"Дверь дрожит, кольца звука.",,звон,steel door; rings
 S081,04:32.5,04:37.9,5.3,"Leon yelps and shakes his hand, and the door has a dent no bigger than a coin.",SHED,"Leon трясёт рукой, на двери вмятина с монету.",04:37.1 DENT: SIZE OF A COIN,Leon трясёт рукой,LEON; dent
 S082,04:37.9,04:39.1,1.3,Here's why.,VOID,Плашка HERE'S WHY.,04:38.3 HERE'S WHY,плашка,plate
-S083,04:39.1,04:44.4,5.3,"What matters is how much force you use, and also how small a spot it lands on.",VOID,Формула: FORCE ÷ AREA = PRESSURE; кулак и острие.,04:40.8 FORCE ÷ AREA,формула,formula
-S084,04:44.4,04:52.5,8.1,"Six thousand pounds on a fist-sized spot, about three square inches, is roughly two thousand pounds on every square inch.",VOID,6000 LBS ÷ 3 SQ IN = 2000 PSI.,04:47.9 6000 ÷ 3 = 2000 PSI,цифры,formula
+S083,04:39.1,04:44.4,5.3,"What matters is how much force you use, and also how small a spot it lands on.",VOID,Формула: FORCE ÷ AREA = PRESSURE; кулак и острие.,,формула,formula
+S084,04:44.4,04:52.5,8.1,"Six thousand pounds on a fist-sized spot, about three square inches, is roughly two thousand pounds on every square inch.",VOID,6000 LBS ÷ 3 SQ IN = 2000 PSI.,,цифры,formula
 S085,04:52.5,04:55.4,3.0,A wooden door gives up long before that.,VOID,Деревянная дверь ломается под шкалой 2000 PSI.,,дверь ломается,wood door; gauge
-S086,04:55.4,05:04.0,8.6,"Ordinary structural steel doesn't start to bend until about thirty-six thousand pounds on every square inch, eighteen times more.",VOID,"Два столбика: 2000 PSI и 36,000 PSI стали, 18×.","04:58.6 36,000 PSI; 05:01.5 18×",столбик стали,bar chart
+S086,04:55.4,05:04.0,8.6,"Ordinary structural steel doesn't start to bend until about thirty-six thousand pounds on every square inch, eighteen times more.",VOID,"Два столбика: 2000 PSI и 36,000 PSI стали, 18×.",05:01.5 18×,столбик стали,bar chart
 S087,05:04.0,05:10.3,6.3,"So Leon can wreck a fence, a dumpster and a brick mailbox, but a steel door just laughs at him.",VOID,"Четыре картинки: забор, мусорный бак, кирпичный почтовый ящик сломаны; стальная дверь цела и смеётся.",,картинки,fence; dumpster; mailbox; door
 S088,05:10.3,05:17.1,6.8,A kid who felt like a god for one weekend now has a sore hand and a dent he'll have to explain to the custodian.,SHED,"Leon сидит у двери, рука в повязке, рядом уборщик.",,Leon вздыхает,LEON; JANITOR; dent
 S089,05:17.1,05:20.7,3.6,Coach Dunn looks at the door and tells him something that sticks.,SHED,"Dunn стоит у двери, смотрит на вмятину, Leon рядом.",,Dunn показывает,DUNN; LEON; door
