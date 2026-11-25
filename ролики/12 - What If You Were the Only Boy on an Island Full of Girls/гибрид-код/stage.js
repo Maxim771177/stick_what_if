@@ -55,7 +55,7 @@ function renderScene(t) {
   if (S.icon && ICON[S.icon]) ICON[S.icon](c, u, S, sd);
   // лодка/катер
   const bt = S.boat ? { x: K(S.boat.x, u), y: K(S.boat.y, u, -120), s: K(S.boat.s, u, 1), tilt: K(S.boat.tilt, u, 0), smoke: S.boat.smoke, rail: S.boat.rail } : null;
-  const drawProps = (fr, glow, under) => props.forEach(p => { if (!!p.fr !== fr || !!p.glow !== glow || !!p.under !== !!under) return; const q = evalProp(p, u); if (p.att && (p.at0 === undefined || u >= p.at0)) { const [id, j] = p.att.split('.'), st = ST[id]; if (st) { const jp = st.pose[j]; q.x = st.x + st.face * jp[0] * st.scale + (q.dx || 0); q.y = st.y + jp[1] * st.scale + (q.dy || 0); } }
+  const drawProps = (fr, glow, under) => props.forEach(p => { if (!!p.fr !== fr || !!p.glow !== glow || !!p.under !== !!under) return; const q = evalProp(p, u); if (p.att && (p.at0 === undefined || u >= p.at0)) { const [id, j] = p.att.split('.'), st = ST[id]; if (st) { const jp = st.pose[j]; q.x = st.x + st.face * jp[0] * st.scale + (q.dx || 0) + (p.k === 'bag' ? 18 * st.face : 0); q.y = st.y + jp[1] * st.scale + (q.dy || 0) + (p.k === 'bag' ? 60 : 0); } }
     const g = () => PR[p.k] && PR[p.k](c, q, u); if (p.ob && bt) { c.save(); c.translate(bt.x, bt.y); c.scale(bt.s, bt.s); c.rotate(bt.tilt); g(); c.restore(); } else g(); });
   drawProps(false, false);
   if (bt) { boat(c, bt, u); }
@@ -63,9 +63,10 @@ function renderScene(t) {
   const acts = (S.act || []).flat().filter(a => a && (a.a0 === undefined || u >= a.a0) && (a.a1 === undefined || u < a.a1));
   const sts = acts.map((a, k) => ({ a, st: actState(a, u, t, k), k })); sts.forEach(o => ST[o.a.oid] = o.st);
   sts.sort((p, q) => (!!p.a.ob - !!q.a.ob) || ((p.a.z ?? K(p.a.y, u, 0)) - (q.a.z ?? K(q.a.y, u, 0))) || p.k - q.k).forEach(({ a, st, k }) => {
-    const draw = () => { const look = a.lk ? K(a.lk, u, [0, 0]) : [st.face * .6, 0]; drawFig(c, { oid: a.oid, x: st.x, y: st.y, s: st.scale, face: st.face, pose: st.pose, expr: K(a.e, u, 'neutral'), blink: blinkAt(t, k * 1.3 + 1), look, rot: K(a.rot, u, 0), alpha: K(a.al, u, 1), prop: a.pr, ol: a.ol, talk: (a.tk && u >= a.tk[0] && u <= a.tk[1]) ? (Math.sin(t * 14) * .5 + .5) : 0 });
+    const draw = () => { const look = a.lk ? K(a.lk, u, [0, 0]) : [st.face * .6, 0]; drawFig(c, { oid: a.oid, x: st.x, y: st.y, s: st.scale, face: st.face, pose: st.pose, expr: ({ happy: 'smile', joy: 'smile', cry: 'sad' })[K(a.e, u, 'neutral')] || K(a.e, u, 'neutral'), blink: blinkAt(t, k * 1.3 + 1), look, rot: K(a.rot, u, 0), alpha: K(a.al, u, 1), prop: a.pr, ol: a.ol, talk: (a.tk && u >= a.tk[0] && u <= a.tk[1]) ? (Math.sin(t * 14) * .5 + .5) : 0 });
       const hd = st.pose.head, h = scr(c, st.x + st.face * hd[0] * st.scale, st.y + hd[1] * st.scale), ft = scr(c, st.x, st.y); HEADS.push({ oid: a.oid, hx: h[0], hy: h[1], r: 40 * st.scale * h[2], fx: ft[0], fy: ft[1], z: h[2], lying: /lie|sleep/.test(String(a.p)) || !!a.rot, ob: !!a.ob }); };
     if (a.ob && bt) { c.save(); c.translate(bt.x, bt.y); c.scale(bt.s, bt.s); c.rotate(bt.tilt); draw(); c.restore(); } else draw(); });
+  if (((n >= 25 && n <= 81) || (n >= 94 && n <= 126)) && !S.nobag && !props.some(p => p.k === 'bag') && (ST.LEON_NC || ST.LEON_NCW) && (S.pl || sd.place) !== 'VOID') props.push({ k: 'bag', att: (ST.LEON_NC ? 'LEON_NC' : 'LEON_NCW') + '.hB', fr: true, glow: false, s: 1.1, dx: -10 });
   drawProps(true, false);
   if (S.fgx) S.fgx(c, u, ST);
   // стикеры мира (вода у кормы и т. п.)
@@ -87,7 +88,7 @@ function wrap(c, txt, maxW) { const w = txt.split(' '), L = []; let cur = ''; fo
 const hit = (a, b) => !(a.x1 < b.x0 || a.x0 > b.x1 || a.y1 < b.y0 || a.y0 > b.y1);
 function overlays(c, t) {
   const { sd, S, n } = CURSC, u = t - sd.start; c.setTransform(1, 0, 0, 1, 0, 0);
-  const avoid = HEADS.map(h => ({ x0: h.hx - h.r * 1.5, x1: h.hx + h.r * 1.5, y0: h.hy - h.r * 1.5, y1: h.hy + h.r * 1.5 }));
+  const avoid = HEADS.map(h => ({ x0: h.hx - h.r * 1.4, x1: h.hx + h.r * 1.4, y0: h.hy - h.r * 1.5, y1: Math.max(h.hy + h.r * 1.5, Math.min(h.fy, h.hy + h.r * 7)) }));
   const isVoid = (S.pl || sd.place) === 'VOID';
   // HUD
   const hv = [...HUDEV].filter(x => x.t <= t).pop(); let hudR = null;
@@ -108,11 +109,11 @@ function overlays(c, t) {
       const [cx, cy] = place(w, h, [[cx0, cy0], [W / 2, cy0], [W / 2, cy0 < H / 2 ? H - 120 : 120]]); c.translate(cx, cy); c.scale(k, k); c.beginPath(); rr(c, -w / 2, -h / 2, w, h, 40); c.lineWidth = 20; c.strokeStyle = '#fff'; c.stroke(); outline(c, '#fff', 9);
       if (sp) { const tx = clamp((sp.hx - cx) / k, -w / 2 + 60, w / 2 - 60), up = cy > sp.hy ? -1 : 1; c.beginPath(); c.moveTo(tx - 28, up * (h / 2 - 3)); c.lineTo(clamp((sp.hx - cx), -w / 2 + 40, w / 2 - 40) * .5 + tx * .5, up * (h / 2 + 46)); c.lineTo(tx + 28, up * (h / 2 - 3)); c.fillStyle = '#fff'; c.fill(); c.lineWidth = 9; c.strokeStyle = INK; c.stroke(); c.beginPath(); c.moveTo(tx - 24, up * (h / 2 - 4)); c.lineTo(tx + 24, up * (h / 2 - 4)); c.lineWidth = 14; c.strokeStyle = '#fff'; c.stroke(); }
       c.fillStyle = INK; c.font = FNT(58); c.textAlign = 'center'; c.textBaseline = 'middle'; lines.forEach((l, q) => c.fillText(l, 0, (q - (lines.length - 1) / 2) * 64 + 4)); }
-    else if (x.k === 'boom') { if (d > 1.2) { c.restore(); continue; } const kk = k * (1 - sm(prog(d, .9, 1.2))); const px = [W * .5, W * .36, W * .64, W * .5][bi % 4] , py = [330, 400, 360, 460][bi % 4]; bi++; const big = x.s.length < 4 ? 190 : 100; const [cx, cy] = [px, py]; c.translate(cx, cy); c.rotate(-.12 + d * .08); burst(c, 0, 0, (x.s.length < 4 ? 190 : 250), 11, ['#ff6b3d', '#ffd23f', '#ff5fa2'][bi % 3], 0, kk); stext(c, x.s, 0, 0, big, '#fff', -.06, kk); }
+    else if (x.k === 'boom') { if (d > 1.2) { c.restore(); continue; } const kk = k * (1 - sm(prog(d, .9, 1.2))); const big = x.s.length < 4 ? 190 : 100, rad = x.s.length < 4 ? 190 : 250; bi++; const [cx, cy] = place(rad * 2.2, rad * 1.6, [[W * .5, 230], [W * .3, 230], [W * .7, 260], [W * .5, 700], [W * .25, 700], [W * .75, 700], [W * .5, 330]]); c.translate(cx, cy); c.rotate(-.12 + d * .08); burst(c, 0, 0, (x.s.length < 4 ? 190 : 250), 11, ['#ff6b3d', '#ffd23f', '#ff5fa2'][bi % 3], 0, kk); stext(c, x.s, 0, 0, big, '#fff', -.06, kk); }
     c.restore(); }
 }
 function approval(c, x, u, tt, place, avoid) {
-  const v1 = num(x.s), prev = [...APPR].filter(a => a.t < x.t).pop(), v0 = prev ? prev.v : 0, vv = lerp(v0, v1, sm(prog(u, tt + .2, tt + 1.4))); const w = 620, h = 150, cx = 60 + w / 2, cy = H - 70 - h / 2;
+  const v1 = num(x.s), prev = [...APPR].filter(a => a.t < x.t).pop(), v0 = prev ? prev.v : 0, vv = lerp(v0, v1, sm(prog(u, tt + .1, tt + .7))); const w = 620, h = 150, cx = 60 + w / 2, cy = H - 70 - h / 2;
   c.translate(cx, cy); c.beginPath(); rr(c, -w / 2, -h / 2, w, h, 24); c.lineWidth = 18; c.strokeStyle = '#fff'; c.stroke(); outline(c, '#1b2b4b', 9); c.fillStyle = '#fff'; c.font = FNT(40); c.textAlign = 'left'; c.textBaseline = 'middle'; c.fillText('APPROVAL', -w / 2 + 28, -h / 2 + 34);
   c.textAlign = 'right'; c.font = FNT(66); c.fillStyle = vv > 50 ? '#6bffb4' : vv > 10 ? '#ffd23f' : '#ff7b6b'; c.fillText(Math.round(vv) + ' %', w / 2 - 28, -h / 2 + 40); c.beginPath(); rr(c, -w / 2 + 28, 14, w - 56, 36, 12); c.fillStyle = '#0d1b17'; c.fill(); c.lineWidth = 5; c.strokeStyle = '#fff'; c.stroke(); if (vv > 0.5) { c.beginPath(); rr(c, -w / 2 + 28, 14, Math.max(14, (w - 56) * vv / 100), 36, 12); c.fillStyle = vv > 50 ? '#38ff9c' : vv > 10 ? '#ffd23f' : '#ff5a4a'; c.fill(); }
 }

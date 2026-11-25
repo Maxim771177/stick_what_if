@@ -22,7 +22,7 @@ const beachWorld = (S, T) => ({
   far(c, u) { sky(c, T); clouds(c, u, T); if (T !== TONES.night && T !== TONES.storm) { c.beginPath(); c.moveTo(900, -330); c.quadraticCurveTo(1200, -520, 1500, -330); c.closePath(); outline(c, '#4aa56a', 9); PR.palm(c, { x: 1190, y: -420, s: .35 }, u); } },
   mid(c, u) { const edge = K_(S.tide, u, -900); sandG(c, -4200, 4200, T); waterG(c, u, -4200, edge, T, -4); PR.foam(c, { x: edge + 30, y: 4, w: 220 }, u);
     jungle(c, u, 1900, 4000, T); if (!S.nowrack) PR.seaweed(c, { x: -560, y: 0 }); if (!S.nologs) { PR.log(c, { x: 1350, y: 0 }); PR.log(c, { x: 1700, y: 6, len: 380 }); PR.log(c, { x: 1000, y: 4, len: 300 }); }
-    if (!S.notents) { PR.tent(c, { x: 120, y: 0, col: '#e8a23a' }); PR.tent(c, { x: 360, y: 0, col: '#4aa6d8', flag: '#ffd23f' }); PR.tent(c, { x: 600, y: 0, col: '#e87aa8' }); PR.tent(c, { x: 840, y: 0, col: '#7ac85a' }); } },
+    if (!S.notents) { PR.tent(c, { x: 120, y: 0, s: 1.25, col: '#e8a23a' }); PR.tent(c, { x: 400, y: 0, s: 1.25, col: '#4aa6d8', flag: '#ffd23f' }); PR.tent(c, { x: 680, y: 0, s: 1.25, col: '#e87aa8' }); PR.tent(c, { x: 960, y: 0, s: 1.25, col: '#7ac85a' }); } },
   near(c, u) { for (let i = 0; i < 4; i++) { const x = -1500 + i * 1100 + wob(u, 20, .2, i); c.save(); c.translate(x, 0); for (let k = 0; k < 5; k++) { c.save(); c.rotate(-1.35 + k * .35 + wob(u, .04, .3, k)); c.beginPath(); c.moveTo(0, 0); c.quadraticCurveTo(80, -50, 210, 10); c.quadraticCurveTo(100, -10, 0, 12); c.closePath(); outline(c, '#2f8a45', 8); c.restore(); } c.restore(); } },
 });
 import { K } from "/hybrid12/kit.js"; const K_ = (v, u, d) => K(v, u, d);
@@ -69,7 +69,7 @@ const chanWorld = (S, T) => ({
 const boatWorld = (S, T) => ({
   far(c, u) { sky(c, T, -300); clouds(c, u, T, -900); // причал вдали справа
     c.fillStyle = '#8a6a44'; c.fillRect(700, -330, 2000, 50); for (let x = 740; x < 2600; x += 160) line(c, [[x, -280], [x, -180]], 10, '#5e3b1c');
-    for (let i = 0; i < 12; i++) { const x = 900 + i * 70; ell(c, x, -420, 17, 17, '#2a2a33', 0); poly(c, [[x - 20, -400], [x + 20, -400], [x + 16, -330], [x - 16, -330]], '#2a2a33', 0); } },
+    for (let i = 0; i < 12; i++) { const x = 760 + i * 85; ell(c, x, -430, 24, 24, '#2a2a33', 0); poly(c, [[x - 30, -404], [x + 30, -404], [x + 24, -310], [x - 24, -310]], '#2a2a33', 0); } },
   mid: seaWorld(S, T).mid, near: seaWorld(S, T).near,
 });
 export function placeOf(name, S) {
