@@ -1,0 +1,10 @@
+import { createRequire } from 'module'; import http from 'http'; import fs from 'fs'; import path from 'path'; import { fileURLToPath } from 'url';
+const ROOT=process.env.RAZGON_ROOT||'/Users/maksim/stick_what_if/razgon-animation-studio'; const require=createRequire(ROOT+'/package.json'); const { chromium }=require('playwright');
+const here=path.dirname(fileURLToPath(import.meta.url)); const OUT=process.argv[2]||path.join(here,'герои-сравнение.png');
+const T={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.json':'application/json','.woff2':'font/woff2','.woff':'font/woff','.png':'image/png'};
+const srv=http.createServer((q,r)=>{const u=decodeURIComponent(q.url.split('?')[0]);const p=u.startsWith('/hybrid12/')?path.join(here,u.slice(10)):path.join(ROOT,u);
+ if(!fs.existsSync(p)||fs.statSync(p).isDirectory()){r.writeHead(404);return r.end()}r.writeHead(200,{'Content-Type':T[path.extname(p)]||'application/octet-stream'});fs.createReadStream(p).pipe(r)}).listen(0);
+const b=await chromium.launch({executablePath:process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const pg=await b.newPage({viewport:{width:1920,height:1080}});
+pg.on('pageerror',e=>console.log('PAGEERROR',e.message));pg.on('console',m=>{if(m.type()==='error')console.log('CONSOLE',m.text())});
+await pg.goto(`http://localhost:${srv.address().port}/hybrid12/compare.html`);await pg.evaluate(()=>window.ready);await pg.waitForTimeout(300);
+await pg.locator('#c').screenshot({path:OUT});await b.close();srv.close();console.log('saved',OUT);

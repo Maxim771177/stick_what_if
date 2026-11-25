@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import {drawCharacter,POSES} from "/engine/characters.js";
+import {E,setStyle} from "/engine/core.js";
+import {loadPack} from "/engine/stylepack.js";
+import {LEON,HAZEL,IVY,POPPY,GIRLS} from "/hybrid12/heroes.js";
+let _r;window.ready=new Promise(r=>_r=r);
+Object.assign(E,{W:1920,H:1080,PX:1,fps:60,cfg:{},words:[],shots:[]});await loadPack("doodle");setStyle("clean");
+const c=document.getElementById('c').getContext('2d');
+const FONT='Impact,"Arial Black",sans-serif';
+function label(t,x,y,sz=44,col='#fff'){c.save();c.font=`${sz}px ${FONT}`;c.textAlign='center';c.textBaseline='middle';c.lineJoin='round';c.lineWidth=sz*.3;c.strokeStyle='#111';c.strokeText(t,x,y);c.fillStyle=col;c.fillText(t,x,y);c.restore()}
+// фон: песок и небо
+const g=c.createLinearGradient(0,0,0,1080);g.addColorStop(0,'#8fd6f0');g.addColorStop(0.41,'#d6f0f4');g.addColorStop(0.41,'#f2dca4');g.addColorStop(1,'#e8c887');c.fillStyle=g;c.fillRect(0,0,1920,1080);
+c.fillStyle='rgba(20,110,150,.35)';c.fillRect(0,440,1920,22);
+const S=POSES;
+const draw=(o,outfit,x,y,s,pose,expr,face=1)=>drawCharacter(c,{x,y,s:s*(outfit.s||1),facing:face,pose,outfit,expr,blink:false,talk:0,look:[0.5*face,0]});
+// верх: Leon + 3 героини
+const y1=435,K=1.1;
+draw(0,LEON,300,y1,K,S.stand,'neutral');
+draw(0,HAZEL,720,y1,K,S.stand,'determined');
+draw(0,IVY,1140,y1,K,S.stand,'smile');
+draw(0,POPPY,1560,y1,K,{...S.stand,eF:[40,-150],hF:[62,-176]},'happy');
+label('LEON',300,y1+40,36,'#ffd23f');label('HAZEL',720,y1+40,36,'#ffd23f');label('IVY',1140,y1+40,36,'#ffd23f');label('POPPY',1560,y1+40,36,'#ffd23f');
+// Poppy с печеньем в руке
+c.save();
+drawCharacter(c,{x:1560,y:y1,s:K*0.95,facing:1,pose:{...S.stand,eF:[40,-150],hF:[62,-176]},outfit:POPPY,expr:'happy',blink:false,talk:0,look:[.5,0],prop:'cracker'});
+c.restore();
+// низ: 16 девочек команды, 2 ряда по 8
+label('TEAM x16',960,500,36,'#fff');
+GIRLS.forEach((o,i)=>{const row=Math.floor(i/8),col=i%8,x=190+col*220+(row?60:0),y=815+row*235;
+ const ex=['neutral','smile','happy','surprised'][i%4];const UP={...S.stand,eB:[-24,-204],hB:[-28,-298]};const pz=[S.stand,UP,S.stand,UP][i%4];
+ draw(0,o,x,y,0.8,pz,ex,i%2?-1:1)});
+window.done=true;_r();
+</script></body></html>

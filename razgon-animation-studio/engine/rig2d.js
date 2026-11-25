@@ -32,7 +32,7 @@ export function face(g, hx, hy, r, o = {}) {
       case 'happy': g.strokeStyle = col; g.lineWidth = r * 0.09; g.beginPath(); g.arc(x, ey + r * 0.05, r * 0.13 * s, Math.PI * 1.1, Math.PI * 1.9); g.stroke(); break;
       case 'ring': ring(g, x, ey, r * 0.2 * s, r * 0.085, col); circle(g, x + look[0] * r * 0.06, ey + look[1] * r * 0.06, r * 0.075 * s, col); break;
       case 'wide': circle(g, x, ey, r * 0.2 * s, col); circle(g, x + look[0] * r * 0.08, ey + look[1] * r * 0.08, r * 0.085 * s, ink); break;
-      default: circle(g, x + look[0] * r * 0.05, ey + look[1] * r * 0.05, r * 0.125 * s, col);
+      default: circle(g, x + look[0] * r * 0.05, ey + look[1] * r * 0.05, r * 0.125 * (o.eyeK || 1) * s, col);
     }
   });
   const by = ey - r * 0.3 + r * (o.browDrop || 0), bw = r * 0.15;

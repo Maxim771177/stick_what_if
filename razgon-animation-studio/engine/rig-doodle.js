@@ -34,14 +34,20 @@ function hairBack(g, of, c, r) {
   if (of.hair === 'long') inkShape(g, [...arcPts(c[0] - r * 0.05, c[1], r * 1.08, Math.PI * 0.95, Math.PI * 2.05, 14), [c[0] + r * 0.2, c[1] + r * 1.15], [c[0] - r * 1.05, c[1] + r * 1.2]], { fill: col, smooth: true, seed: 41 });
   if (of.hair === 'ponytail') inkTube(g, [[c[0] - r * 0.8, c[1] - r * 0.45], [c[0] - r * 1.5, c[1] - r * 0.1], [c[0] - r * 1.35, c[1] + r * 0.7]], r * 0.36, col, { seed: 42 });
   if (of.hair === 'bun') inkCircle(g, c[0] - r * 0.55, c[1] - r * 0.95, r * 0.36, { fill: col, seed: 43 });
+  if (of.hair === 'afro') inkCircle(g, c[0] - r * 0.12, c[1] - r * 0.12, r * 1.42, { fill: col, seed: 140 });
+  if (of.hair === 'bigCurly') { for (let i = 0; i < 11; i++) { const a = Math.PI * (0.55 + i * 0.19), rr_ = r * (1.12 + 0.1 * (i % 2)); inkCircle(g, c[0] - r * 0.1 + Math.cos(a) * rr_, c[1] - r * 0.05 + Math.sin(a) * rr_, r * 0.46, { fill: col, seed: 150 + i }); } }
+  if (of.hair === 'bob') inkShape(g, [...arcPts(c[0] - r * 0.05, c[1], r * 1.1, Math.PI * 0.9, Math.PI * 2.1, 14), [c[0] + r * 0.95, c[1] + r * 0.75], [c[0] - r * 0.95, c[1] + r * 0.8]], { fill: col, smooth: true, seed: 141 });
+  if (of.hair === 'braids') { inkTube(g, [[c[0] - r * 0.75, c[1] - r * 0.1], [c[0] - r * 1.05, c[1] + r * 0.6], [c[0] - r * 0.9, c[1] + r * 1.3]], r * 0.28, col, { seed: 142 }); inkTube(g, [[c[0] - r * 0.4, c[1] - r * 0.1], [c[0] - r * 0.55, c[1] + r * 0.7], [c[0] - r * 0.4, c[1] + r * 1.35]], r * 0.28, col, { seed: 143 }); }
+  if (of.hair === 'buns2') { inkCircle(g, c[0] - r * 0.7, c[1] - r * 0.95, r * 0.34, { fill: col, seed: 144 }); inkCircle(g, c[0] + r * 0.35, c[1] - r * 1.15, r * 0.34, { fill: col, seed: 145 }); }
 }
 function hairTop(g, of, c, r, front = false) {
   const col = of.hairColor || HAIR, h = of.hair;
   if (!h || h === 'none') return;
   // side view: hairline high at the front (+x), low at the back; front view: symmetric
-  const A = front ? [0.94, 2.06] : [1.02, 1.92], Ai = front ? [2.0, 1.0] : [1.9, 1.05], off = front ? [0, r * 0.14] : [-r * 0.12, r * 0.16];
+  const he = of.hairEnd, A = front ? [0.94, 2.06] : [1.02, he ?? 1.92], Ai = front ? [2.0, 1.0] : [(he ?? 1.9) - (he ? 0.02 : 0), 1.05], off = front ? [0, r * 0.14] : [-r * 0.12, r * 0.16];
   const cap = (jag, a0 = A[0], a1 = A[1], ro = 1.06, ri = 0.86, n = 12) => inkShape(g, [...arcPts(c[0], c[1], r * ro, Math.PI * a0, Math.PI * a1, n, jag), ...arcPts(c[0] + off[0], c[1] + off[1], r * ri, Math.PI * Ai[0], Math.PI * Ai[1], 10)], { fill: col, seed: 44 });
-  if (['short', 'long', 'ponytail', 'bun'].includes(h)) cap(0);
+  if (['short', 'long', 'ponytail', 'bun', 'bob', 'braids', 'buns2', 'afro'].includes(h)) cap(0);
+  else if (h === 'bigCurly') { cap(0, A[0], A[1], 1.1, 0.8); for (let i = 0; i < 5; i++) { const a = Math.PI * ((front ? 1.15 : 1.0) + i * (front ? 0.17 : 0.14)); inkCircle(g, c[0] + Math.cos(a) * r * 1.0, c[1] + Math.sin(a) * r * 1.0, r * 0.26, { fill: col, seed: 160 + i }); } }
   else if (h === 'messy') cap(0.13, front ? 0.86 : 0.82, front ? 2.14 : 1.95, 1.08, 0.84, 18);
   else if (h === 'spiky') cap(0.3, A[0], A[1], 1.05, 0.88, 10);
   else if (h === 'curly') for (let i = 0; i < 7; i++) { const a = Math.PI * ((front ? 1.2 : 1.04) + i * (front ? 0.1 : 0.14)); inkCircle(g, c[0] + Math.cos(a) * r * 0.92, c[1] + Math.sin(a) * r * 0.92, r * 0.3, { fill: col, seed: 47 + i }); }
@@ -87,7 +93,7 @@ function hat(g, of, c, r, front = false) {
     case 'beanie': inkShape(g, [...arcPts(c[0], c[1] - r * 0.36, r * 1.08, Math.PI, Math.PI * 2, 12)], { fill: col, seed: 53 }); inkRect(g, c[0] - r * 1.1, c[1] - r * 0.46, r * 2.2, r * 0.16, { fill: shade(col, -0.1), r: 3, seed: 54 }); inkCircle(g, c[0], c[1] - r * 1.5, r * 0.24, { fill: shade(col, 0.3), seed: 54 }); break;
     case 'chef': { const w2 = LINE().width * 0.5; inkRect(g, c[0] - r * 0.95, c[1] - r * 0.7, r * 1.9, r * 0.3, { fill: '#f4f6f8', r: 4, seed: 56 }); for (const [dx, dy, rr] of [[-0.62, -1.02, 0.52], [0, -1.28, 0.62], [0.62, -1.02, 0.52]]) inkCircle(g, c[0] + dx * r, c[1] + dy * r, rr * r, { fill: '#f4f6f8', seed: 57 }); inkRect(g, c[0] - r * 0.9, c[1] - r * 0.98, r * 1.8, r * 0.4, { fill: '#f4f6f8', r: 2, w: 0, seed: 58 }); break; }
     case 'tophat': { inkRect(g, c[0] - r * 0.72, c[1] - r * 1.62, r * 1.44, r * 1.12, { fill: col, r: 4, seed: 56 }); inkRect(g, c[0] - r * 0.72, c[1] - r * 0.78, r * 1.44, r * 0.18, { fill: '#d8232a', r: 2, seed: 57 }); inkRect(g, c[0] - r * 1.2, c[1] - r * 0.52, r * 2.4, r * 0.18, { fill: col, r: 6, seed: 58 }); break; }
-    case 'headband': inkShape(g, [[c[0] - r * 1.02, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.5], [c[0] + r * 1.0, c[1] - r * 0.28], [c[0] - r * 1.02, c[1] - r * 0.28]], { fill: col, seed: 55 }); break;
+    case 'headband': { const L = (of.hatLift || 0) * r; inkShape(g, [[c[0] - r * 1.02, c[1] - r * 0.5 - L], [c[0] + r * 1.0, c[1] - r * 0.5 - L], [c[0] + r * 1.0, c[1] - r * 0.28 - L], [c[0] - r * 1.02, c[1] - r * 0.28 - L]], { fill: col, seed: 55 }); break; }
   }
 }
 const seg2 = (g, pts) => inkLine(g, pts, { w: LINE().width * 0.45, smooth: false });
@@ -100,10 +106,10 @@ function glasses(g, of, c, r, front) {
 }
 
 // ---------- clothes ----------
-function torsoShape(p, top) {
+function torsoShape(p, top, hk = 1) {
   const u = norm(sub(p.hip, p.sh)), n = [-u[1], u[0]];
   const W = { tshirt: [17, 16, 8], shirt: [17, 16, 8], hoodie: [19, 18, 10], suit: [18, 16, 10], dress: [16, 36, 50], fur: [16, 22, 24], labcoat: [18, 26, 48], robe: [17, 30, 70] }[top] || [17, 16, 8];
-  const [sw, hw, hem] = W, top0 = add(p.sh, mul(u, -4)), bot = add(p.hip, mul(u, hem));
+  const [sw, hw0, hem] = W, hw = hw0 * hk, top0 = add(p.sh, mul(u, -4)), bot = add(p.hip, mul(u, hem));
   const pts = [];
   for (let i = 0; i <= 6; i++) { const a = Math.PI + (i / 6) * Math.PI; pts.push(add(top0, add(mul(n, Math.cos(a) * -sw), mul(u, Math.sin(a) * 5)))); }  // rounded shoulders
   pts.push(add(bot, mul(n, -hw)));
@@ -111,11 +117,12 @@ function torsoShape(p, top) {
   pts.push(add(bot, mul(n, hw)));
   return { pts: pts.reverse(), u, n, bot };
 }
+const sw0 = (top) => ({ hoodie: 17, tshirt: 15, dress: 15 }[top] || 15);
 function drawTorso(g, of, p) {
   const top = of.top;
   if (!top || top === 'none') { inkLine(g, [p.sh, p.hip], { w: LINE().width * 1.15 * CH().limb }); return; }
   const col = of.color || { labcoat: '#f4f3ee', fur: '#a9733f', suit: '#2f3340' }[top] || '#4a90d9';
-  const { pts, u, n, bot } = torsoShape(p, top);
+  const { pts, u, n, bot } = torsoShape(p, top, of.hips || 1);
   inkShape(g, pts, { fill: col, seed: 70 });
   const w = LINE().width * 0.5;
   if (top === 'fur') { for (let i = 0; i < 4; i++) { const q = add(at(p.sh, p.hip, 0.3 + i * 0.18), mul(n, (i % 2 ? 6 : -7))); circle(g, q[0], q[1], 3.2, shade(col, -0.35)); } }
@@ -124,6 +131,9 @@ function drawTorso(g, of, p) {
   if (of.emblem === 'bolt') { const c0 = at(p.sh, p.hip, 0.5), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); circle(g, 0, 0, 0, 'transparent'); g.beginPath(); [[-15, 3], [-2, 3], [-12, 14], [14, -3], [2, -3], [10, -15]].forEach(([a, b], i) => { const P = q(a * -0.6 - 4, b * 0.5); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = of.color2 || '#fff'; g.fill(); }
   if (top === 'suit' && of.shirtV) { const v0 = add(p.sh, mul(u, -1)), v1 = at(p.sh, p.hip, 0.62); inkShape(g, [add(v0, mul(n, -13)), add(v0, mul(n, 13)), add(v1, mul(n, 1))], { fill: '#ffffff', w }); inkLine(g, [add(at(p.sh, p.hip, 0.12), mul(n, 0)), v1], { w: w * 0.9, stroke: '#d8232a' }); }
   if (of.emblem === 'crest') { const c0 = add(at(p.sh, p.hip, 0.36), mul(n, 7)), q = (a, b) => add(add(c0, mul(u, a)), mul(n, b)); g.beginPath(); [[-6, -5], [-6, 5], [1, 5], [8, 0], [1, -5]].forEach(([a, b], i) => { const P = q(a * 0.9, b * 0.9); i ? g.lineTo(P[0], P[1]) : g.moveTo(P[0], P[1]); }); g.closePath(); g.fillStyle = '#f6b93b'; g.fill(); g.lineWidth = 1.6; g.strokeStyle = '#1b2230'; g.stroke(); }
+  if (of.stripe) { const a0 = at(p.sh, p.hip, 0.22), a1 = at(p.sh, p.hip, 0.38); inkShape(g, [add(a0, mul(n, -sw0(top))), add(a0, mul(n, sw0(top))), add(a1, mul(n, sw0(top))), add(a1, mul(n, -sw0(top)))], { fill: of.stripe, w, seed: 75 }); }
+  if (of.emblem === 'pineapple') { const c0 = add(at(p.sh, p.hip, 0.5), mul(n, 5)); inkEllipse(g, c0[0], c0[1], 8, 11, { fill: '#f6c21a', seed: 76, w }); for (const [dx, dy] of [[-8, -12], [0, -16], [8, -12]]) inkLine(g, [c0, [c0[0] + dx * 0.9, c0[1] + dy - 6]], { w: w * 1.2, stroke: '#3fa34d' }); }
+  if (of.whistle) { const c0 = at(p.sh, p.hip, 0.42); inkLine(g, [add(p.sh, mul(n, -6)), add(c0, mul(n, -1)), add(p.sh, mul(n, 6))], { w: w * 0.8, stroke: '#ffffff' }); inkRect(g, c0[0] - 8, c0[1] - 2, 18, 11, { fill: '#2f6fd6', r: 4, seed: 77, w }); inkRect(g, c0[0] - 8, c0[1] + 1, 7, 5, { fill: '#ffffff', r: 2, w: 0, seed: 78 }); }
   if (top === 'hoodie') inkLine(g, [add(at(p.sh, p.hip, 0.72), mul(n, -10)), add(at(p.sh, p.hip, 0.72), mul(n, 10))], { w });
 }
 const sleeveOf = (of) => (['shirt', 'hoodie', 'labcoat', 'suit', 'robe'].includes(of.top) ? 'long' : ['tshirt', 'dress'].includes(of.top) ? 'short' : null);
@@ -139,8 +149,9 @@ function arm(g, of, sh, e, h, far) {
   if (of.whiteHands) inkCircle(g, h[0], h[1], w * 1.5, { fill: of.skin || SKIN(), w: LINE().width * 0.7, seed: 90 }); else circle(g, h[0], h[1], w * 0.9, S().ink);
 }
 function leg(g, of, hip, k, f, far) {
+  const hk = of.hips || 1;
   const w = LINE().width * 1.15 * CH().limb;
-  if (of.shorts) { limb(g, hip, k, f, w); inkTube(g, [at(hip, k, -0.05), at(hip, k, 0.62)], 21, far ? shade(of.shorts, -0.12) : of.shorts, { smooth: false }); }
+  if (of.shorts) { limb(g, hip, k, f, w); inkTube(g, [at(hip, k, -0.05), at(hip, k, 0.62)], 21 * hk, far ? shade(of.shorts, -0.12) : of.shorts, { smooth: false }); }
   else if (of.legs) inkTube(g, [hip, k, at(k, f, 0.85)], 12, far ? shade(of.legs, -0.12) : of.legs, { smooth: false });
   else limb(g, hip, k, f, w);
   if (of.sneakers) { const sc = far ? shade(of.shoes, -0.12) : of.shoes; inkEllipse(g, f[0] + 8, f[1] - 9, 15, 10, { fill: sc, seed: far ? 81 : 82, w: LINE().width * 0.6 }); inkShape(g, [[f[0] - 8, f[1] - 3], [f[0] + 26, f[1] - 3], [f[0] + 26, f[1] + 3], [f[0] - 8, f[1] + 3]], { fill: '#ffffff', seed: far ? 83 : 84, w: LINE().width * 0.5 }); }
@@ -158,6 +169,7 @@ function prop(g, pr, p, t) {
     case 'book': inkShape(g, [[h[0] - 4, h[1] - 30], [h[0] + 30, h[1] - 34], [h[0] + 30, h[1] + 4], [h[0] - 4, h[1] + 8]], { fill: o.color || '#d9483b', w }); break;
     case 'cup': inkShape(g, [[h[0] - 2, h[1] - 20], [h[0] + 14, h[1] - 20], [h[0] + 12, h[1] + 2], [h[0], h[1] + 2]], { fill: '#f4f3ee', w }); break;
     case 'pointer': inkLine(g, [h, [h[0] + 80, h[1] - 54]], { w, stroke: '#7a5230' }); break;
+    case 'cracker': inkRect(g, h[0] - 2, h[1] - 14, 22, 22, { fill: '#e0a64a', r: 3, seed: 91, w }); for (const [dx, dy] of [[5, -6], [13, -6], [5, 2], [13, 2]]) circle(g, h[0] + dx, h[1] + dy, 1.6, '#8a5a1e'); break;
     case 'sign': inkLine(g, [h, [h[0] + 4, h[1] - 90]], { w: w * 1.3, stroke: '#7a5230' }); inkShape(g, [[h[0] - 46, h[1] - 150], [h[0] + 54, h[1] - 150], [h[0] + 54, h[1] - 86], [h[0] - 46, h[1] - 86]], { fill: o.color || '#f4f3ee', w }); break;
   }
 }
@@ -183,7 +195,9 @@ export function drawDoodle(g, o) {
   inkCircle(g, H.c[0], H.c[1], H.r, { fill: skin, w: LINE().width * 1.1, seed: 33 });
   beard(g, of, H.c, H.r);
   hairTop(g, of, H.c, H.r);
-  face(g, H.c[0], H.c[1], H.r, { arcBrows: of.arcBrows, browDrop: of.browDrop, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, override: o.face, color: S().ink });
+  const calm = !o.expr || o.expr === 'neutral' || o.expr === 'smile';
+  face(g, H.c[0], H.c[1], H.r, { arcBrows: of.arcBrows, browDrop: of.browDrop, eyeK: of.eyeK, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, override: { ...(of.brows && calm ? { brows: of.brows } : {}), ...(o.face || {}) }, color: S().ink });
+  if (of.cheeks) { const cr = H.r * 0.2; inkCircle(g, H.c[0] + H.r * 0.8, H.c[1] + H.r * 0.12, cr * 0.85, { fill: of.cheeks, w: 0, seed: 170 }); inkCircle(g, H.c[0] - H.r * 0.28, H.c[1] + H.r * 0.16, cr * 0.8, { fill: of.cheeks, w: 0, seed: 171 }); }
   glasses(g, of, H.c, H.r, false);
   hat(g, of, H.c, H.r, false);
   // near arm on top
@@ -210,7 +224,9 @@ export function doodleCloseUp(g, cx, cy, r, o = {}) {
   inkCircle(g, 0, 0, R, { fill: skin, w: LINE().width * 1.1, seed: 34 });
   beard(g, of, [0, 0], R);
   hairTop(g, of, [0, 0], R, true);
-  face(g, 0, 0, R, { arcBrows: of.arcBrows, browDrop: of.browDrop, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, front: true, override: o.face, color: S().ink });
+  const calm = !o.expr || o.expr === 'neutral' || o.expr === 'smile';
+  face(g, 0, 0, R, { arcBrows: of.arcBrows, browDrop: of.browDrop, eyeK: of.eyeK, expr: o.expr, talk: o.talk, blink: o.blink, look: o.look, front: true, override: { ...(of.brows && calm ? { brows: of.brows } : {}), ...(o.face || {}) }, color: S().ink });
+  if (of.cheeks) { const cr = R * 0.2; inkCircle(g, -R * 0.64, R * 0.2, cr, { fill: of.cheeks, w: 0, seed: 172 }); inkCircle(g, R * 0.64, R * 0.2, cr, { fill: of.cheeks, w: 0, seed: 173 }); }
   glasses(g, of, [0, 0], R, true);
   hat(g, of, [0, 0], R, true);
   g.restore();
