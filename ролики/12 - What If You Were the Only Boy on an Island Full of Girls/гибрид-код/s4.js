@@ -1,0 +1,40 @@
+// Сцены 123–152
+import { sosDraw } from "/hybrid12/kit.js";
+import { S, L, LC, LW, Hz, Iv, Pp, Dn, G, GS, hang } from "/hybrid12/sckit.js";
+const V = (col, icon, act = [], c = [100, -330, 1.0], extra = {}) => ({ pl: 'VOID', col, icon, act, c, ...extra });
+const dw = (o = {}) => ({ pl: 'DAWN', ...o });                    // скала слева, море справа (x > 760), надпись на стене слева
+const girlsUp = (o = {}) => GS(14, -900, 380, { f: 1, ...o });
+S(123, dw({ c: [-100, -250, 1.3], pr: [{ k: 'rock', x: -100, y: 0, s: .5, col: '#6a6a76' }], act: [Pp(-20, { f: -1, p: 'hug', e: 'happy' }), L(250, { f: -1, p: 'stand', e: 'nervous' })] }));
+S(124, dw({ c: [-250, -250, 1.0], pr: [{ k: 'sonic', x: 1500, y: -220, dir: -1 }], act: [...GS(14, -800, 300, { f: 1, lk: [[0, [-.6, 0]], [1.3, [.9, -.1]]], e: [[0, 'neutral'], [1.3, 'surprised']] }), L(380, { f: 1, e: 'worried' })] }));
+S(125, dw({ c: [-250, -220, 1.2], pr: [{ k: 'stickbunch', x: -280, y: -30, n: 3, g: 0 }], act: [...GS(8, -600, 200, { f: 1, p: 'sit', e: 'sad' }), L(380, { f: 1, e: 'worried' })] }));
+S(126, dw({ c: [150, -310, 1.4], pr: [{ k: 'bag', att: 'LEON_NC.hF', glow: [[0, .3], [1.5, 1]], fr: true, s: 1.5, dy: -20 }, { k: 'rays', att: 'LEON_NC.hF', a0: 1.2 }], act: [L(150, { f: 1, p: [[0, 'stand'], [.9, 'cheer']], e: [[0, 'worried'], [1.2, 'joy']] })] }));
+S(127, dw({ c: [100, -250, 1.1], sp: 'LEON_NC', act: [L(250, { f: -1, p: 'reach', e: 'determined', tk: [0, 3.2] }), ...GS(10, -600, 100, { f: 1, p: 'reach', e: 'happy' })] }));
+S(128, dw({ c: [-100, -230, 1.45], act: [L(250, { f: -1, p: 'reach', e: 'determined' }), ...GS(8, -500, 100, { f: 1, p: 'reach', e: 'happy' })] }));
+const sosOn = [[.2, 0], [1.2, .34], [2.4, .67], [4.2, 1]];
+S(129, dw({ c: [-480, -330, .95], sos: (c, u) => sosDraw(c, [-900, -460, -20], -150, 520, sosOn, u), act: [...GS(14, -1100, 200, { f: 1, p: 'cheer', e: 'joy', lk: [.3, -.8] }), L(300, { f: -1, p: 'cheer', e: 'joy' })] }));
+S(130, V('#17171d', 'sosTop', [], [0, -300, 1.0]));
+S(131, dw({ c: [[500, -250, .9], [-100, -250, .9]], pr: [{ k: 'boat', x: [[0, 2000], [3.8, 1250]], y: -130, s: .9, flip: 1, rail: false }], sos: (c, u) => sosDraw(c, [-900, -460, -20], -150, 520, [[0, 1]], 9), act: [...GS(8, -700, 150, { f: 1, p: 'cheer', e: 'joy' }), L(300, { f: 1, p: 'cheer', e: 'joy' })] }));
+S(132, dw({ c: [350, -250, .88], sp: 'D', boat: { x: 1350, y: -130, s: .9, tilt: 0, flip: 1 }, act: [Dn(480, { ob: true, f: 1, p: [[0, 'wave'], [1, 'point'], [2, 'wave']], e: 'joy', tk: [0, 3.2] }), ...GS(8, -500, 400, { f: 1, p: 'wave', e: 'joy' }), L(500, { f: 1, p: 'wave', e: 'joy' })] }));
+S(133, dw({ c: [-100, -250, 1.0], sp: 'H', pr: [{ k: 'log', x: 480, y: 0, len: 260 }], act: [Hz(480, { f: -1, y: -64, p: 'talk', e: 'determined', tk: [2.4, 4.6] }), ...GS(14, -700, 220, { f: 1, e: 'neutral' }), L(-900, { f: 1, e: 'worried' })] }));
+S(134, dw({ c: [-100, -250, 1.0], pr: [{ k: 'log', x: 480, y: 0, len: 260 }], act: [Hz(480, { f: -1, y: -64, p: [[0, 'stand'], [2.5, 'vote']], e: 'neutral' }), ...GS(14, -700, 220, { f: 1, rx: .5 }), Pp(-780, { f: 1, p: [[0, 'stand'], [.7, 'vote']], e: 'surprised' }), Iv(-650, { f: 1, p: [[0, 'stand'], [1.2, 'vote']], e: 'smile' }), L(-900, { f: 1, e: 'worried' })] }));
+S(135, dw({ c: [250, -250, 1.5], sp: 'H', act: [Hz(100, { f: 1, p: [[0, 'stand'], [.8, 'reach']], e: 'neutral', lk: [[0, [.8, 0]], [2, [-.6, -.2]]], tk: [0, 2.2] }), L(330, { f: -1, p: [[0, 'stand'], [.9, 'reach']], e: 'smile', lk: [-.9, 0] })] }));
+S(136, dw({ c: [-250, -260, 1.0], pr: [{ k: 'confetti', x: -250, y: -600 }], act: [L(200, { f: -1, p: 'cheer', e: 'joy' }), Hz(60, { f: 1, p: 'cheer', e: 'joy' }), ...GS(10, -800, -100, { f: 1, p: 'cheer', e: 'joy' })] }));
+S(137, dw({ c: [60, -260, 1.5], act: [Iv(-120, { go: [[0, 1.5, 70]], f: 1, p: 'stand', e: 'smile' }), L(300, { f: -1, p: 'stand', e: 'worried', lk: [-.9, 0] }), ...GS(5, -800, -400, { f: 1 })] }));
+S(138, dw({ c: [150, -260, 1.5], pr: [{ k: 'cap', att: 'I.hF', fr: true, a1: 1.4, s: 1.2 }], act: [Iv(130, { f: 1, p: [[0, 'stand'], [.4, 'reach']], e: 'smile' }), L(330, { f: -1, p: [[0, 'stand'], [.5, 'sad'], [1.6, 'stand']], e: 'neutral', a1: 1.4 }), LC(330, { f: -1, p: [[0, 'stand'], [.5, 'sad'], [1.6, 'stand']], e: 'smile', a0: 1.4 })] }));
+S(139, dw({ c: [200, -260, 1.5], sp: 'I', act: [Iv(120, { f: 1, p: 'talk', e: 'smile', tk: [.4, 4.3] }), LC(340, { f: -1, p: 'stand', e: 'happy', lk: [-.9, 0] })] }));
+S(140, dw({ c: [350, -300, 1.1], pr: [{ k: 'cloud', x: [[0, 330], [4, 1700]], y: [[0, -330], [4, -700]], s: .5, a0: .6 }], act: [LC(330, { f: 1, p: [[0, 'stand'], [.8, 'think']], e: 'smile', lk: [[0, [.9, 0]], [1.5, [.9, -.4]]] })] }));
+S(141, dw({ c: [200, -300, 1.0], act: [LC(340, { f: -1, p: 'stand', e: 'smile' }), Iv(120, { f: 1, p: 'stand', e: 'smile' })], fgx: (c, u) => { const w = 'Next time you want to prove something, ask me first'.split(' '); c.save(); c.font = '56px Impact'; c.textAlign = 'center'; c.textBaseline = 'middle'; w.forEach((t, i) => { const k = Math.max(0, Math.min(1, (u - .2 - i * .4) / .22)); if (k <= 0) return; const kk = 1 + 2.2 * Math.pow(k - 1, 3) + 2.2 * Math.pow(k - 1, 2), x = -140 + (i % 5) * 190 + 20, y = -620 - Math.floor(i / 5) * 90; c.save(); c.translate(x + 150, y); c.scale(kk, kk); const wd = c.measureText(t).width + 30; c.beginPath(); c.roundRect(-wd / 2, -38, wd, 76, 12); c.fillStyle = '#fff4c8'; c.fill(); c.lineWidth = 7; c.strokeStyle = '#111'; c.stroke(); c.fillStyle = '#111'; c.fillText(t, 0, 4); c.restore(); }); c.restore(); } }));
+// ---- катер домой ----
+const bt = (o = {}) => ({ pl: 'BOAT', boat: { x: 0, y: -120, s: 1, tilt: [[0, -.01], [2, .01], [4, -.01]], rail: true }, ...o });
+const deck = (o = {}) => GS(14, -1000, -500, { ob: true, f: 1, ...o });
+S(142, bt({ c: [-250, -280, .9], sp: 'P', pr: [{ k: 'crackers', ob: true, att: 'P.hF', fr: true, s: 1.1 }], act: [deck({ e: 'happy', p: 'wave' }), Pp(-380, { ob: true, f: 1, p: 'holdFront', e: 'happy', tk: [.3, 2.5] }), Dn(260, { ob: true, f: 1, e: 'smirk' }), LC(-200, { ob: true, f: 1, e: 'happy' })] }));
+S(143, bt({ c: [-250, -190, 1.5], pr: [{ k: 'log', ob: true, x: -250, y: 0, len: 340 }, { k: 'stick', ob: true, att: 'I.hF', glow: true, fr: true, rot: .3 }], act: [Iv(-310, { ob: true, f: 1, y: -64, p: 'sit', e: 'smile', lk: [.9, 0] }), LC(-190, { ob: true, f: -1, y: -64, p: 'sit', e: 'smile', lk: [-.9, 0] })] }));
+S(144, bt({ c: [-200, -150, 2.6], pr: [{ k: 'stick', ob: true, x: -200, y: -140, rot: .3, s: 3, glow: true }], act: [] }));
+S(145, bt({ c: [350, -250, 1.6], act: [Dn(380, { ob: true, f: 1, p: 'stand', e: 'smirk', lk: [[0, [.9, 0]], [1.2, [-.9, 0]]] })] }));
+S(146, bt({ c: [350, -250, 1.5], sp: 'D', act: [Dn(380, { ob: true, f: 1, p: 'talk', e: 'joy', tk: [.2, 3.3] })] }));
+S(147, bt({ c: [[0, -300, .9], [350, -300, .9]], act: [deck({ e: 'neutral' }), Hz(-420, { ob: true, f: 1 }), Pp(-340, { ob: true, f: 1 }), Iv(-260, { ob: true, f: 1 }), LC(-150, { ob: true, f: 1, e: 'worried' }), Dn(300, { ob: true, f: 1 })] }));
+S(148, bt({ c: [-250, -250, 1.7], act: [LC(-250, { ob: true, f: 1, p: 'stand', e: 'nervous', s: 1 }), Iv(-370, { ob: true, f: 1, e: 'smile' })] }));
+S(149, bt({ c: [-250, -300, .85], act: [deck({ e: 'angry', lk: [.9, 0] }), Hz(-420, { ob: true, f: 1, e: 'angry' }), Pp(-340, { ob: true, f: 1, e: 'angry' }), Iv(-260, { ob: true, f: 1, e: 'angry' }), LC(-150, { ob: true, f: 1, e: 'nervous' })] }));
+S(150, bt({ c: [-250, -250, 1.4], sp: 'H', act: [Hz(-360, { ob: true, f: 1, p: 'hug', e: 'determined', tk: [.2, 1.5] }), LC(-250, { ob: true, f: 1, p: 'stand', e: 'worried' }), Iv(-130, { ob: true, f: -1, e: 'smile' })] }));
+S(151, V('#ffe9b8', 'question', [LC(-440, { s: 1.35, f: 1, e: 'smile', p: 'stand' })], [150, -330, 1.0]));
+S(152, V('#ffd9d9', 'end', [LC(-520, { s: 1.35, f: 1, p: [[0, 'stand'], [.8, 'wave']], e: 'happy' })], [100, -330, 1.0]));
