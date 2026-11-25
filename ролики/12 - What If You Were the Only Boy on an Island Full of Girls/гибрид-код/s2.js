@@ -1,7 +1,7 @@
 // Сцены 40–78
 import { S, L, LC, LW, Hz, Iv, Pp, Dn, G, GS, hang } from "/hybrid12/sckit.js";
 const V = (col, icon, act = [], c = [100, -330, 1.0], extra = {}) => ({ pl: 'VOID', col, icon, act, c, ...extra });
-const lieL = (x, o = {}) => L(x + 125, { f: 1, y: -46, p: 'lie', rot: -1.5708, ...o });
+const lieL = (x, o = {}) => L(x + 125, { f: 1, y: -68, p: 'lie', rot: -1.5708, ...o });
 const far = (o = {}) => GS(6, -1700, -1250, { s: .42, f: 1, ...o });
 // ---- лагерь Leon (за камнем) ----
 S(40, { pl: 'BOYCAMP', c: [-80, -250, 1.0], pr: [{ k: 'bag', att: 'LEON_NC.hF', glow: .3, fr: true, dy: -20 }], act: [L(-650, { go: [[0, 2.6, 60]], p: 'pull', e: 'worried' }), far()] });
@@ -12,8 +12,8 @@ S(44, { pl: 'BOYCAMP', c: [300, -240, 1.1], pr: [{ k: 'crackers', att: 'P.hB', f
 S(45, { pl: 'BOYCAMP', c: [900, -340, 0.98], pr: [{ k: 'sign', x: 1180, y: 0, t: 'MINE' }], act: [L(780, { f: 1, p: 'pointUpF', e: 'joy', lk: [.5, -.9] })] });
 S(46, { pl: 'BOYCAMP', c: [950, -300, 1.1], pr: [{ k: 'coconut', x: 1048, y: [[0, -650], [1.9, -650], [2.15, -300], [2.3, -250], [2.55, -20]], s: 1.6 }, { k: 'stars', att: 'LEON_NC.head', fr: true, a0: 2.2, dy: -60 }, { k: 'sign', x: 1200, y: 0, t: 'MINE' }],
   act: [L(1020, { f: 1, p: [[0, 'pointUpF'], [2.0, 'stand'], [2.3, 'fall']], rot: [[0, 0], [2.3, 0], [2.9, -1.3]], e: [[0, 'joy'], [2.2, 'shocked']], lk: [.5, -.9] })] });
-S(47, { pl: 'BOYCAMP', tone: 'night', c: [-120, -230, 1.3], tide: [[0, -1300], [2.6, -60]], pr: [{ k: 'bed', x: -120, y: 0 }, { k: 'moon', x: 100, y: -700, glow: true }, { k: 'zzz', att: 'LEON_NC.head', fr: true, a1: 1.5, dy: -40 }], act: [lieL(-120, { e: [[0, 'sleepy'], [1.6, 'shocked']], p: [[0, 'lie'], [1.6, 'lie']] })] });
-S(48, { pl: 'BOYCAMP', tone: 'night', c: [-40, -230, 1.2], tide: 700, pr: [{ k: 'bed', under: true, x: -120, y: 16, rot: [[0, -.03], [1, .03], [2, -.03]] }, { k: 'moon', x: 100, y: -700, glow: true }, { k: 'foam', x: -330, y: 6, w: 240 }], act: [L(-120, { f: 1, y: -72, p: 'sitG', e: 'shocked', z: 99 })] });
+S(47, { pl: 'BOYCAMP', tone: 'night', c: [-120, -230, 1.3], tide: [[0, -1300], [2.6, -60]], pr: [{ k: 'bed', x: -120, y: 0, s: 1.5 }, { k: 'moon', x: 100, y: -700, glow: true }, { k: 'zzz', att: 'LEON_NC.head', fr: true, a1: 1.5, dy: -40 }], act: [lieL(-120, { e: [[0, 'sleepy'], [1.6, 'shocked']], p: [[0, 'lie'], [1.6, 'lie']] })] });
+S(48, { pl: 'BOYCAMP', tone: 'night', c: [-40, -230, 1.2], tide: 700, pr: [{ k: 'bed', under: true, x: -120, y: 16, rot: [[0, -.03], [1, .03], [2, -.03]] }, { k: 'moon', x: 100, y: -700, glow: true }, { k: 'foam', x: -330, y: 6, w: 240 }], act: [L(-120, { f: 1, y: -88, p: 'sitG', e: 'shocked', z: 99 })] });
 S(49, V('#9fd8ff', 'waves', [], [0, -300, 1.0]));
 S(50, { pl: 'BOYCAMP', c: [-420, -230, 1.2], tide: -650, pr: [{ k: 'bed', x: -700, y: -10 }, { k: 'wave', x: [[0, -830], [2.0, -560]], y: 6, s: .9, eyes: 1, a0: .4 }], act: [L(-450, { f: -1, p: 'stand', e: 'confused', lk: [-.9, .3] })] });
 S(51, V('#fff0b8', 'real', [], [0, -300, 1.0]));

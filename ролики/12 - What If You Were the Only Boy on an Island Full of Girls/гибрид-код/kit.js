@@ -24,8 +24,8 @@ PR.bag = (c, p, u) => { // прозрачный пакет с зелёными �
 PR.cap = (c, p) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); c.rotate(p.rot || 0);
   c.beginPath(); c.arc(0, 0, 36, Math.PI, 0); c.closePath(); outline(c, '#17c3b2', 7); c.beginPath(); c.moveTo(-34, 0); c.quadraticCurveTo(-72, 2, -66, 12); c.lineTo(-30, 8); c.closePath(); outline(c, '#17c3b2', 7); c.restore(); };
 PR.bed = (c, p, u) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); c.rotate(p.rot || 0);
-  for (const x of [-100, 100]) line(c, [[x, 0], [x, 52]], 12, '#5e3b1c'); poly(c, [[-130, -24], [130, -24], [130, 4], [-130, 4]], '#9a6a38', 8);
-  for (let i = 0; i < 6; i++) { ell(c, -100 + i * 40, -34 - (i % 2) * 6, 26, 12, ['#4fb860', '#3fa04e'][i % 2], 6, (i - 3) * 0.12); }
+  for (const x of [-100, 100]) line(c, [[x, -48], [x, 0]], 12, '#5e3b1c'); poly(c, [[-130, -76], [130, -76], [130, -48], [-130, -48]], '#9a6a38', 8);
+  for (let i = 0; i < 6; i++) { ell(c, -100 + i * 40, -88 - (i % 2) * 6, 26, 12, ['#4fb860', '#3fa04e'][i % 2], 6, (i - 3) * 0.12); }
   c.restore(); };
 PR.tent = (c, p, u) => { c.save(); c.translate(p.x, p.y); const s = p.s || 1; c.scale(s, s);
   poly(c, [[-170, 0], [0, -330], [170, 0]], p.col || '#e8a23a', 9); poly(c, [[-50, 0], [0, -150], [50, 0]], '#3a2a1e', 7);
