@@ -1,0 +1,10023 @@
+{
+ "title": "What If You Were the Only Boy on an Island Full of Girls?",
+ "speed": 1.2,
+ "duration": 535.529,
+ "scenes": [
+  {
+   "id": "S001",
+   "start": 0.0,
+   "end": 2.925,
+   "place": "DECK",
+   "line": "The ferry's engine coughs twice and dies in the fog.",
+   "visual": "Туман, школьный катер на воде, дым из мотора, мотор дёргается и глохнет, 19 девочек и Leon на палубе; плашка таймера.",
+   "motion": "мотор чихает, дым, дёрг",
+   "camera": "дальний, медленный наезд в туман; тряска на втором чихе",
+   "assets": "катер; туман; GIRLS; LEON",
+   "texts": [
+    {
+     "t": 1.2,
+     "s": "ENGINE: OFF",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S002",
+   "start": 2.925,
+   "end": 7.017,
+   "place": "DECK",
+   "line": "Then a reef slides under the hull, and the whole boat tips sideways.",
+   "visual": "Из воды под корпусом выезжает риф, катер накреняется на борт, все хватаются за поручень.",
+   "motion": "удар о риф, крен",
+   "camera": "средний, крен камеры, тряска на ударе",
+   "assets": "катер; риф; GIRLS; LEON",
+   "texts": [
+    {
+     "t": 3.45,
+     "s": "REEF!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S003",
+   "start": 7.017,
+   "end": 10.617,
+   "place": "DECK",
+   "line": "Nineteen girls from the school sailing team are hanging off the rail.",
+   "visual": "Крупно поручень: 19 девочек висят цепочкой на высоком борту; плашка 19.",
+   "motion": "ноги болтаются, девочки висят",
+   "camera": "ближний пролёт вдоль борта справа налево",
+   "assets": "катер; GIRLS",
+   "texts": [
+    {
+     "t": 7.467,
+     "s": "19 GIRLS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S004",
+   "start": 10.617,
+   "end": 16.317,
+   "place": "DECK",
+   "line": "And you, the only boy, who took the last seat because the boys' team got cancelled.",
+   "visual": "Leon среди девочек, выделен кружком-стикером: единственный мальчик; над ним ONLY BOY; в руке билет «LAST SEAT».",
+   "motion": "Leon растерянно машет, девочки смотрят",
+   "camera": "средний, наезд на Leon, вырубка-стикер вокруг",
+   "assets": "LEON; GIRLS; билет",
+   "texts": [
+    {
+     "t": 11.65,
+     "s": "THE ONLY BOY",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S005",
+   "start": 16.317,
+   "end": 18.075,
+   "place": "DECK",
+   "line": "Coach Dunn drops into the lifeboat.",
+   "visual": "Dunn перелезает через борт и прыгает в шлюпку, шлюпка качается на воде справа.",
+   "motion": "прыжок, шлюпка качается",
+   "camera": "средний, пролёт вправо",
+   "assets": "DUNN; шлюпка; катер",
+   "texts": []
+  },
+  {
+   "id": "S006",
+   "start": 18.075,
+   "end": 21.717,
+   "place": "SEA",
+   "line": "\"I'm rowing for help! Back in three days! Keep everybody alive!\"",
+   "visual": "Dunn гребёт вправо, кричит в ладони; девочки машут с борта, Leon с поднятой рукой.",
+   "motion": "вёсла, шлюпка уменьшается",
+   "camera": "дальний, отъезд, шлюпка уходит в туман",
+   "assets": "DUNN; шлюпка; GIRLS; LEON",
+   "texts": [
+    {
+     "t": 18.283,
+     "s": "I'm rowing for help!",
+     "k": "say",
+     "who": "DUNN"
+    },
+    {
+     "t": 19.567,
+     "s": "BACK IN 3 DAYS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S007",
+   "start": 21.717,
+   "end": 26.225,
+   "place": "DECK",
+   "line": "You grab the one thing within reach, a bag of party glow sticks.",
+   "visual": "Leon хватает с палубы прозрачный пакет с зелёными светящимися палочками; крупно пакет (светятся слабо); плашка GLOW STICKS.",
+   "motion": "Leon хватает пакет, палочки светятся",
+   "camera": "ближний, наезд на пакет, потом отъезд на Leon",
+   "assets": "LEON; пакет glow sticks",
+   "texts": [
+    {
+     "t": 25.333,
+     "s": "GLOW STICKS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S008",
+   "start": 26.225,
+   "end": 28.592,
+   "place": "DECK",
+   "line": "Your cap flies off and floats away.",
+   "visual": "Ветер срывает кепку с Leon, кепка летит и падает на воду, плывёт слева внизу.",
+   "motion": "кепка летит, падает, плывёт",
+   "camera": "средний, панорама вниз за кепкой",
+   "assets": "LEON; кепка; вода",
+   "texts": []
+  },
+  {
+   "id": "S009",
+   "start": 28.592,
+   "end": 30.858,
+   "place": "DECK",
+   "line": "Somebody fishes it out of the water with a paddle.",
+   "visual": "Из-за борта слева появляется весло и подцепляет кепку, кепка поднимается из воды.",
+   "motion": "весло цепляет кепку, брызги",
+   "camera": "ближний, следим за веслом",
+   "assets": "кепка; весло; вода",
+   "texts": []
+  },
+  {
+   "id": "S010",
+   "start": 30.858,
+   "end": 36.508,
+   "place": "DECK",
+   "line": "It's Ivy, who sits in front of you in science and has never heard you say one single word.",
+   "visual": "Ivy у борта с веслом и кепкой в руках; рядом Leon смотрит на неё; плашка IVY, подпись «sits in front of you in science».",
+   "motion": "Ivy поднимает кепку, Leon краснеет",
+   "camera": "средний, наезд на Ivy и Leon",
+   "assets": "IVY; LEON; кепка",
+   "texts": [
+    {
+     "t": 31.517,
+     "s": "IVY",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S011",
+   "start": 36.508,
+   "end": 39.3,
+   "place": "DECK",
+   "line": "She holds your cap and says nothing.",
+   "visual": "Крупно Ivy держит кепку обеими руками, молчит; Leon смотрит на кепку; тишина.",
+   "motion": "Ivy держит кепку, пауза",
+   "camera": "ближний, медленный наезд",
+   "assets": "IVY; LEON; кепка",
+   "texts": []
+  },
+  {
+   "id": "S012",
+   "start": 39.3,
+   "end": 44.0,
+   "place": "VOID",
+   "line": "So, what if you were the only boy on an island full of girls?",
+   "visual": "Плашка названия: остров с пальмой на горизонте, 19 силуэтов девочек и Leon крупно; заголовок.",
+   "motion": "плашка выскакивает по словам",
+   "camera": "средний, наезд, лёгкий крен",
+   "assets": "LEON; GIRLS; остров; plate",
+   "texts": [
+    {
+     "t": 40.0,
+     "s": "WHAT IF YOU WERE THE ONLY BOY ON AN ISLAND FULL OF GIRLS?",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S013",
+   "start": 44.0,
+   "end": 47.233,
+   "place": "VOID",
+   "line": "Day one. Seventy-two hours to go.",
+   "visual": "Таймер 72:00:00 на песочных часах, Leon на берегу; цифры начинают уходить.",
+   "motion": "таймер тикает",
+   "camera": "ближний, наезд на таймер",
+   "assets": "таймер; LEON",
+   "texts": [
+    {
+     "t": 45.575,
+     "s": "72:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S014",
+   "start": 47.233,
+   "end": 48.842,
+   "place": "VOID",
+   "line": "Here's how it works.",
+   "visual": "Плашка HOW IT WORKS на песочном фоне; три карточки правил с островом.",
+   "motion": "карточки появляются",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 47.583,
+     "s": "HOW IT WORKS",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S015",
+   "start": 48.842,
+   "end": 52.567,
+   "place": "BEACH",
+   "line": "Rule one. Nobody is coming for seventy-two hours.",
+   "visual": "Пляж: Leon один смотрит на пустое море; карточка RULE 1: NOBODY COMES FOR 72 HOURS.",
+   "motion": "карточка, Leon смотрит на море",
+   "camera": "средний, медленный отъезд",
+   "assets": "plate; LEON; BEACH",
+   "texts": [
+    {
+     "t": 49.167,
+     "s": "RULE 1: 72 HOURS ALONE",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S016",
+   "start": 52.567,
+   "end": 57.142,
+   "place": "BEACH",
+   "line": "The radio sank with the ferry, and the nearest phone signal is somewhere in the next century.",
+   "visual": "Рация погружается в воду с затонувшего катера; рядом плашка «NO SIGNAL» с перечёркнутыми полосками, дата далеко.",
+   "motion": "рация тонет, полоски пропадают",
+   "camera": "ближний, наезд на экран, отъезд на пляж",
+   "assets": "рация; вода; значок сигнала",
+   "texts": [
+    {
+     "t": 53.017,
+     "s": "RADIO: SUNK",
+     "k": "cap"
+    },
+    {
+     "t": 56.417,
+     "s": "NO SIGNAL",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S017",
+   "start": 57.142,
+   "end": 59.15,
+   "place": "BEACH",
+   "line": "So you survive on your own.",
+   "visual": "Leon один на песке, руки в боки; за ним 19 девочек вдалеке.",
+   "motion": "Leon оглядывается",
+   "camera": "дальний, девочки далеко, Leon впереди",
+   "assets": "LEON; GIRLS",
+   "texts": []
+  },
+  {
+   "id": "S018",
+   "start": 59.15,
+   "end": 63.55,
+   "place": "VOID",
+   "line": "Rule two. Survival has an order, and it's called the rule of threes.",
+   "visual": "Карточка RULE 2: THE RULE OF THREES; три цифры 3 над пустым фоном.",
+   "motion": "карточка, тройки выскакивают",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 59.4,
+     "s": "RULE 2: RULE OF THREES",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S019",
+   "start": 63.55,
+   "end": 65.433,
+   "place": "VOID",
+   "line": "About three minutes without air.",
+   "visual": "Лёгкие/воздушный шарик: Leon задерживает дыхание, шарик надувается, табличка 3 MIN.",
+   "motion": "Leon надувает щёки, красные",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON; шарик; plate",
+   "texts": [
+    {
+     "t": 64.4,
+     "s": "3 MIN · AIR",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S020",
+   "start": 65.433,
+   "end": 66.917,
+   "place": "VOID",
+   "line": "Three days without water.",
+   "visual": "Пустая бутылка с песочными часами, Leon смотрит; табличка 3 DAYS · WATER.",
+   "motion": "бутылка пустая, песок идёт",
+   "camera": "средний, наезд на бутылку",
+   "assets": "бутылка; LEON; plate",
+   "texts": [
+    {
+     "t": 65.883,
+     "s": "3 DAYS · WATER",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S021",
+   "start": 66.917,
+   "end": 69.092,
+   "place": "VOID",
+   "line": "Three weeks without food.",
+   "visual": "Пустая тарелка и вилка, живот Leon урчит; табличка 3 WEEKS · FOOD.",
+   "motion": "живот урчит, тарелка пуста",
+   "camera": "ближний, лёгкий отъезд",
+   "assets": "тарелка; LEON; plate",
+   "texts": [
+    {
+     "t": 67.583,
+     "s": "3 WEEKS · FOOD",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S022",
+   "start": 69.092,
+   "end": 72.658,
+   "place": "VOID",
+   "line": "And in harsh weather, about three hours without shelter.",
+   "visual": "Leon под дождём без крыши, молния; табличка 3 HOURS · SHELTER (в суровую погоду).",
+   "motion": "дождь, молния, Leon мокнет",
+   "camera": "средний, тряска на молнии",
+   "assets": "LEON; дождь; plate",
+   "texts": [
+    {
+     "t": 71.05,
+     "s": "3 HOURS · SHELTER",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S023",
+   "start": 72.658,
+   "end": 76.617,
+   "place": "VOID",
+   "line": "It's a rule of thumb, not a law, but it tells you what comes first.",
+   "visual": "Большой палец Leon (thumb) подчёркивает правило; надпись RULE OF THUMB ≠ LAW.",
+   "motion": "палец вверх",
+   "camera": "ближний, наезд на палец",
+   "assets": "LEON; рука; plate",
+   "texts": [
+    {
+     "t": 73.65,
+     "s": "RULE OF THUMB, NOT A LAW",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S024",
+   "start": 76.617,
+   "end": 78.608,
+   "place": "VOID",
+   "line": "Shelter, then water.",
+   "visual": "Два значка по порядку: 1 SHELTER, 2 WATER, стрелка.",
+   "motion": "значки выскакивают в ритм слов",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 76.9,
+     "s": "1 SHELTER → 2 WATER",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S025",
+   "start": 78.608,
+   "end": 84.267,
+   "place": "BEACH",
+   "line": "So while the girls drag branches into a shelter, you stand there holding a bag of party supplies.",
+   "visual": "Девочки тащат ветки к шалашу и строят его; Leon стоит с пакетом, смотрит; пакет смешно болтается.",
+   "motion": "девочки таскают, Leon стоит",
+   "camera": "дальний пролёт слева направо, потом средний на Leon",
+   "assets": "GIRLS; LEON; ветки; пакет",
+   "texts": []
+  },
+  {
+   "id": "S026",
+   "start": 84.267,
+   "end": 87.008,
+   "place": "VOID",
+   "line": "Rule three. Hazel's rules.",
+   "visual": "Карточка RULE 3: HAZEL'S RULES.",
+   "motion": "карточка",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 85.05,
+     "s": "RULE 3: HAZEL'S RULES",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S027",
+   "start": 87.008,
+   "end": 91.642,
+   "place": "BEACH",
+   "line": "She's the team captain, with big curly hair and an even bigger voice.",
+   "visual": "Hazel крупно: огромные кудри, руки в боки, рот кричит; пузырь BIG VOICE; рядом Leon мелко.",
+   "motion": "кудри колышутся, голос звуковой волной",
+   "camera": "ближний, наезд на кудри, звуковая волна толкает камеру",
+   "assets": "HAZEL; LEON",
+   "texts": [
+    {
+     "t": 89.15,
+     "s": "HAZEL",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S028",
+   "start": 91.642,
+   "end": 93.658,
+   "place": "BEACH",
+   "line": "Nobody leaves camp alone.",
+   "visual": "Hazel показывает на лагерь, карточка NOBODY LEAVES CAMP ALONE; Leon кивает.",
+   "motion": "карточка, палец Hazel",
+   "camera": "средний, жёсткий наезд",
+   "assets": "HAZEL; LEON; card",
+   "texts": [
+    {
+     "t": 91.917,
+     "s": "NOBODY LEAVES CAMP ALONE",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S029",
+   "start": 93.658,
+   "end": 96.1,
+   "place": "BEACH",
+   "line": "Everybody builds above the tide.",
+   "visual": "Карточка EVERYBODY BUILDS ABOVE THE TIDE; на пляже линия воды, палатки выше.",
+   "motion": "карточка, линия воды",
+   "camera": "средний, панорама вверх по пляжу",
+   "assets": "HAZEL; card; лагерь",
+   "texts": [
+    {
+     "t": 94.683,
+     "s": "BUILD ABOVE THE TIDE",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S030",
+   "start": 96.1,
+   "end": 98.617,
+   "place": "BEACH",
+   "line": "She says it twice, the way captains do.",
+   "visual": "Hazel повторяет, поднимая два пальца; на плечах девочек кивают две головы как эхо.",
+   "motion": "два пальца, эхо звука",
+   "camera": "ближний, двойной наезд",
+   "assets": "HAZEL; GIRLS",
+   "texts": [
+    {
+     "t": 96.883,
+     "s": "x2",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S031",
+   "start": 98.617,
+   "end": 100.408,
+   "place": "BEACH",
+   "line": "Then she looks at your bag.",
+   "visual": "Hazel переводит взгляд на пакет в руке Leon; пакет в центре; Leon прячет его за спину.",
+   "motion": "взгляд, Leon прячет пакет",
+   "camera": "средний, быстрый пролёт на пакет",
+   "assets": "HAZEL; LEON; пакет",
+   "texts": []
+  },
+  {
+   "id": "S032",
+   "start": 100.408,
+   "end": 104.217,
+   "place": "BEACH",
+   "line": "\"Glow sticks? Extra weight. Just like the boy.\"",
+   "visual": "Hazel брезгливо тычет пальцем в пакет: «EXTRA WEIGHT»; за ней смеётся Poppy с крекером.",
+   "motion": "палец, смех, Poppy жуёт",
+   "camera": "ближний, тряска на «Just like the boy»",
+   "assets": "HAZEL; LEON; POPPY; пакет",
+   "texts": [
+    {
+     "t": 100.833,
+     "s": "Glow sticks? Extra weight. Just like the boy.",
+     "k": "say",
+     "who": "HAZEL"
+    },
+    {
+     "t": 102.05,
+     "s": "DEAD WEIGHT",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S033",
+   "start": 104.217,
+   "end": 107.242,
+   "place": "BEACH",
+   "line": "And at noon, she's holding a vote about you.",
+   "visual": "Hazel показывает на солнце в зените; на песке рисуется плашка VOTE AT NOON; Leon сглатывает.",
+   "motion": "тень сокращается, Leon сглатывает",
+   "camera": "средний, наезд на Leon, солнце вверху",
+   "assets": "HAZEL; LEON; солнце",
+   "texts": [
+    {
+     "t": 104.9,
+     "s": "VOTE AT NOON",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S034",
+   "start": 107.242,
+   "end": 111.283,
+   "place": "BEACH",
+   "line": "Noon, the beach. Hazel climbs onto a log like it's a stage.",
+   "visual": "Полдень: Hazel залезает на бревно, как на сцену; девочки полукругом, Leon с краю; таймер 69:00:00.",
+   "motion": "Hazel запрыгивает на бревно",
+   "camera": "дальний, панорама слева направо к Hazel",
+   "assets": "HAZEL; GIRLS; LEON; бревно",
+   "texts": [
+    {
+     "t": 107.617,
+     "s": "69:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S035",
+   "start": 111.283,
+   "end": 114.242,
+   "place": "BEACH",
+   "line": "\"All in favor of the boy getting his own camp?\"",
+   "visual": "Hazel вытягивает руку; над ней плашка VOTE; девочки готовятся голосовать.",
+   "motion": "рука Hazel",
+   "camera": "средний, наезд на Hazel",
+   "assets": "HAZEL; GIRLS",
+   "texts": [
+    {
+     "t": 112.05,
+     "s": "ALL IN FAVOR?",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S036",
+   "start": 114.242,
+   "end": 116.25,
+   "place": "BEACH",
+   "line": "Seventeen hands shoot up.",
+   "visual": "Семнадцать рук взлетают вверх; плашка 17; Leon в углу поникает.",
+   "motion": "руки вверх волной, счёт 17",
+   "camera": "ближний, пролёт вдоль строя, счёт по рукам",
+   "assets": "GIRLS; LEON",
+   "texts": [
+    {
+     "t": 114.6,
+     "s": "17 HANDS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S037",
+   "start": 116.25,
+   "end": 119.35,
+   "place": "BEACH",
+   "line": "Poppy doesn't vote, because her mouth is full of crackers.",
+   "visual": "Poppy держит печенье в обеих руках, рот набит, руки заняты — не голосует; крошки; лицо довольное.",
+   "motion": "Poppy жуёт, крошки",
+   "camera": "ближний, наезд на Poppy",
+   "assets": "POPPY; крекеры",
+   "texts": [
+    {
+     "t": 118.85,
+     "s": "POPPY: NO VOTE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S038",
+   "start": 119.35,
+   "end": 123.308,
+   "place": "BEACH",
+   "line": "Ivy's hand goes up last, slowly, while she studies her shoes.",
+   "visual": "Ivy смотрит на свои ботинки; рука медленно поднимается последней; Leon смотрит на неё.",
+   "motion": "рука Ivy медленно вверх",
+   "camera": "ближний, медленный наезд на руку, затем на Leon",
+   "assets": "IVY; LEON",
+   "texts": [
+    {
+     "t": 120.383,
+     "s": "IVY: LAST",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S039",
+   "start": 123.308,
+   "end": 126.8,
+   "place": "BEACH",
+   "line": "The camp's approval of you, zero percent.",
+   "visual": "Табло одобрения: большой счётчик APPROVAL 0 %, красная полоска пуста; над Leon тучка.",
+   "motion": "полоска пуста, тучка",
+   "camera": "ближний на табло, отъезд на Leon",
+   "assets": "табло; LEON",
+   "texts": [
+    {
+     "t": 125.633,
+     "s": "APPROVAL 0 %",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S040",
+   "start": 126.8,
+   "end": 129.775,
+   "place": "BOYCAMP",
+   "line": "So you move behind a big rock to boy camp.",
+   "visual": "Leon тащит пакет и вещи за большой камень; камень за пляжем, у кромки пальм; девочки в дальнем плане.",
+   "motion": "Leon идёт за скалу, табличка",
+   "camera": "дальний, панорама за Leon влево",
+   "assets": "LEON; скала; GIRLS вдали",
+   "texts": [
+    {
+     "t": 128.983,
+     "s": "BOY CAMP",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S041",
+   "start": 129.775,
+   "end": 131.75,
+   "place": "BOYCAMP",
+   "line": "And honestly, there are perks.",
+   "visual": "Leon у лагеря: большой камень, одна кровать, палка с флажком; Leon делает вид, что всё отлично; плашка PERKS.",
+   "motion": "Leon улыбается через силу",
+   "camera": "средний, наезд, лёгкий крен",
+   "assets": "LEON; кровать; камень",
+   "texts": [
+    {
+     "t": 131.2,
+     "s": "PERKS",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S042",
+   "start": 131.75,
+   "end": 134.183,
+   "place": "BOYCAMP",
+   "line": "One bed, entirely yours.",
+   "visual": "Кровать из веток и листьев, одна, Leon лежит поверх; плашка 1 BED.",
+   "motion": "Leon раскидывается",
+   "camera": "ближний, лёгкий пролёт над кроватью",
+   "assets": "LEON; кровать",
+   "texts": [
+    {
+     "t": 132.317,
+     "s": "1 BED · ALL YOURS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S043",
+   "start": 134.183,
+   "end": 135.858,
+   "place": "BOYCAMP",
+   "line": "Nobody asks you to clean up.",
+   "visual": "Вокруг Leon бардак, разбросанные вещи, и никто не ругает; плашка NO CHORES.",
+   "motion": "Leon разбрасывает ещё",
+   "camera": "средний, быстрый наезд",
+   "assets": "LEON; вещи",
+   "texts": [
+    {
+     "t": 135.25,
+     "s": "NO CHORES",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S044",
+   "start": 135.858,
+   "end": 140.767,
+   "place": "BOYCAMP",
+   "line": "Nobody asks you to share the crackers either, which is fine, because Poppy has them all.",
+   "visual": "Poppy вдали у лагеря обнимает целую коробку крекеров и жуёт; Leon смотрит с завистью; плашка ALL POPPY'S.",
+   "motion": "Poppy жуёт, крекеры",
+   "camera": "дальний на Poppy, отъезд на Leon",
+   "assets": "POPPY; LEON; крекеры",
+   "texts": [
+    {
+     "t": 137.35,
+     "s": "POPPY HAS THEM ALL",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S045",
+   "start": 140.767,
+   "end": 144.917,
+   "place": "BOYCAMP",
+   "line": "And you own a whole palm tree, with a view.",
+   "visual": "Высокая пальма с табличкой MINE, Leon стоит под ней, гордо смотрит вверх; вид на море между листьями.",
+   "motion": "Leon показывает на пальму",
+   "camera": "средний, снизу вверх по стволу, потом отъезд",
+   "assets": "LEON; пальма; табличка",
+   "texts": [
+    {
+     "t": 142.683,
+     "s": "YOUR PALM TREE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S046",
+   "start": 144.917,
+   "end": 148.542,
+   "place": "BOYCAMP",
+   "line": "Then the palm tree drops a coconut on your head.",
+   "visual": "Кокос падает с пальмы на голову Leon, звёздочки над головой без кепки; Leon падает набок.",
+   "motion": "падает кокос, звёздочки",
+   "camera": "средний, жёсткая тряска на ударе",
+   "assets": "LEON; кокос; пальма",
+   "texts": [
+    {
+     "t": 147.067,
+     "s": "BONK!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S047",
+   "start": 148.542,
+   "end": 151.058,
+   "place": "BOYCAMP",
+   "line": "That night, something wakes you up.",
+   "visual": "Ночь, луна, Leon спит на кровати, одна нога дёргается; плашка THAT NIGHT; таймер 60:00:00; вода тихо подползает.",
+   "motion": "Leon просыпается, вода у ног",
+   "camera": "ближний, наезд на лицо Leon; медленный отъезд",
+   "assets": "LEON; кровать; луна",
+   "texts": [
+    {
+     "t": 149.333,
+     "s": "60:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S048",
+   "start": 151.058,
+   "end": 153.458,
+   "place": "BOYCAMP",
+   "line": "Your bed is floating.",
+   "visual": "Кровать плывёт по воде как лодка, Leon сидит на ней в шоке, вокруг вода; плашка FLOATING.",
+   "motion": "кровать качается на воде",
+   "camera": "дальний, отъезд, показывает масштаб воды",
+   "assets": "LEON; кровать; вода",
+   "texts": [
+    {
+     "t": 152.4,
+     "s": "YOUR BED IS FLOATING",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S049",
+   "start": 153.458,
+   "end": 155.667,
+   "place": "VOID",
+   "line": "Problem one, the tide.",
+   "visual": "Плашка PROBLEM 1 · THE TIDE; волны накатывают на песок.",
+   "motion": "волны накатывают",
+   "camera": "",
+   "assets": "plate; волны",
+   "texts": [
+    {
+     "t": 154.217,
+     "s": "PROBLEM 1 · THE TIDE",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S050",
+   "start": 155.667,
+   "end": 159.342,
+   "place": "BOYCAMP",
+   "line": "You built right next to the water, and the water noticed.",
+   "visual": "Leon у воды с кроватью на мелководье, у кромки сами бегут волны; вода как лицо с глазками «noticed» (юмор).",
+   "motion": "волна подбегает, глазки в воде",
+   "camera": "средний, медленный наезд",
+   "assets": "LEON; кровать; вода",
+   "texts": []
+  },
+  {
+   "id": "S051",
+   "start": 159.342,
+   "end": 160.992,
+   "place": "VOID",
+   "line": "Here's the real part.",
+   "visual": "Плашка THE REAL PART на фоне песка и волн.",
+   "motion": "плашка",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 160.233,
+     "s": "THE REAL PART",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S052",
+   "start": 160.992,
+   "end": 168.617,
+   "place": "TIDEL",
+   "line": "Every beach has a line of dried seaweed and driftwood, called the wrack line, and it shows how high a recent high tide reached.",
+   "visual": "Пляж сверху: полоса сухих водорослей и дрифтвуда дугой; подпись WRACK LINE и стрелка «recent high tide».",
+   "motion": "линия подсвечивается, подпись",
+   "camera": "дальний, пролёт сверху вдоль линии",
+   "assets": "пляж; водоросли; дрифтвуд",
+   "texts": [
+    {
+     "t": 164.85,
+     "s": "WRACK LINE = RECENT HIGH TIDE",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S053",
+   "start": 168.617,
+   "end": 173.167,
+   "place": "TIDEL",
+   "line": "You drag your bed up the rocks, and that's when you spot a second line.",
+   "visual": "Leon тащит кровать вверх по скалам; кровать цепляется за камень; он замечает слева вторую линию и замирает; знак «!».",
+   "motion": "Leon тащит, замирает",
+   "camera": "средний, пролёт вверх за Leon",
+   "assets": "LEON; кровать; скалы",
+   "texts": [
+    {
+     "t": 172.35,
+     "s": "!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S054",
+   "start": 173.167,
+   "end": 176.817,
+   "place": "TIDEL",
+   "line": "Way above the girls' camp, there's a row of whole logs.",
+   "visual": "Пан вверх над лагерем: ряд целых брёвен у кромки джунглей, высоко над палатками девочек.",
+   "motion": "камера вверх, брёвна",
+   "camera": "дальний, панорама вверх по склону",
+   "assets": "брёвна; палатки; пляж",
+   "texts": [
+    {
+     "t": 176.117,
+     "s": "ROW OF LOGS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S055",
+   "start": 176.817,
+   "end": 181.817,
+   "place": "TIDEL",
+   "line": "Those are leftovers from an old storm, and they show how high the sea can really climb.",
+   "visual": "Схема: старая штормовая волна доходит до брёвен: стрелка-волна от моря до логов, шкала HIGH; подпись OLD STORM.",
+   "motion": "волна-стрелка вверх до логов",
+   "camera": "средний, пролёт по схеме снизу вверх",
+   "assets": "схема; брёвна; волна",
+   "texts": [
+    {
+     "t": 178.367,
+     "s": "OLD STORM LINE",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S056",
+   "start": 181.817,
+   "end": 184.433,
+   "place": "BEACH",
+   "line": "You run over, soaking wet and out of breath.",
+   "visual": "Leon мокрый, задыхается, бежит к лагерю; за ним капли; девочки у палаток поднимают глаза.",
+   "motion": "Leon бежит, капли",
+   "camera": "средний, пролёт за Leon, тряска шагов",
+   "assets": "LEON; GIRLS; лагерь",
+   "texts": []
+  },
+  {
+   "id": "S057",
+   "start": 184.433,
+   "end": 187.667,
+   "place": "BEACH",
+   "line": "\"Hazel, your tents are too low. The ocean has been up here before.\"",
+   "visual": "Leon, запыхавшийся, указывает на брёвна выше; девочки сзади переглядываются.",
+   "motion": "Leon показывает рукой вверх",
+   "camera": "средний, наезд, потом крен вверх на брёвна",
+   "assets": "LEON; HAZEL; GIRLS",
+   "texts": [
+    {
+     "t": 184.633,
+     "s": "Hazel, your tents are too low. The ocean has been up here before.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S058",
+   "start": 187.667,
+   "end": 192.775,
+   "place": "BEACH",
+   "line": "Hazel is busy drawing a map of the camp on a flat stone, and she doesn't even look up.",
+   "visual": "Hazel сидит и рисует карту лагеря на плоском камне палочкой; не смотрит на Leon; на карте палатки и значки.",
+   "motion": "палочка рисует",
+   "camera": "ближний, наезд на карту, на Leon на заднем плане",
+   "assets": "HAZEL; плоский камень; карта",
+   "texts": [
+    {
+     "t": 189.317,
+     "s": "CAMP MAP",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S059",
+   "start": 192.775,
+   "end": 195.342,
+   "place": "BEACH",
+   "line": "\"Boy camp isn't on the map.\"",
+   "visual": "Крупно карта: девочки на карте, а Leon — отдельный маленький крестик с подписью «?»; Hazel не поднимает головы.",
+   "motion": "палочка стирает Leon",
+   "camera": "ближний, наезд на карту, отъезд на Hazel",
+   "assets": "HAZEL; карта; LEON",
+   "texts": [
+    {
+     "t": 193.167,
+     "s": "Boy camp isn't on the map.",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S060",
+   "start": 195.342,
+   "end": 197.275,
+   "place": "BEACH",
+   "line": "Approval, five percent.",
+   "visual": "Табло одобрения: 5 %, полоска чуть заполнена; Leon уходит.",
+   "motion": "полоска чуть заполняется",
+   "camera": "ближний на табло",
+   "assets": "табло; LEON",
+   "texts": [
+    {
+     "t": 196.233,
+     "s": "APPROVAL 5 %",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S061",
+   "start": 197.275,
+   "end": 202.3,
+   "place": "BEACH",
+   "line": "You look at the horizon, and the horizon looks back at you, slightly darker than before.",
+   "visual": "Leon смотрит на горизонт: небо чуть темнее, у горизонта тонкая тёмная полоса; плашка слегка потемнела.",
+   "motion": "небо темнеет",
+   "camera": "дальний, медленный наезд на горизонт",
+   "assets": "LEON; горизонт; небо",
+   "texts": []
+  },
+  {
+   "id": "S062",
+   "start": 202.3,
+   "end": 205.433,
+   "place": "BEACH",
+   "line": "Nobody believes the weather until it's wet.",
+   "visual": "Девочки загорают, смеются; Leon стоит в стороне с поднятым пальцем; над головами одинокая туча.",
+   "motion": "Leon поднимает палец, туча",
+   "camera": "средний, пролёт по девочкам",
+   "assets": "LEON; GIRLS; туча",
+   "texts": []
+  },
+  {
+   "id": "S063",
+   "start": 205.433,
+   "end": 209.708,
+   "place": "TIDEL",
+   "line": "By night three, the ocean will be exactly where you pointed.",
+   "visual": "Leon указывает на линию брёвен; над линией пишется WILL BE HERE — NIGHT 3; волна рисуется до самых палаток.",
+   "motion": "волна рисуется до палаток",
+   "camera": "дальний, отъезд, брёвна и палатки в кадре",
+   "assets": "LEON; линия; палатки",
+   "texts": [
+    {
+     "t": 206.333,
+     "s": "NIGHT 3",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S064",
+   "start": 209.708,
+   "end": 211.842,
+   "place": "VOID",
+   "line": "Problem two, water.",
+   "visual": "Плашка PROBLEM 2 · WATER; капля.",
+   "motion": "капля падает",
+   "camera": "",
+   "assets": "plate; капля",
+   "texts": [
+    {
+     "t": 210.433,
+     "s": "PROBLEM 2 · WATER",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S065",
+   "start": 211.842,
+   "end": 214.175,
+   "place": "BEACH",
+   "line": "Poppy proudly holds up a bottle.",
+   "visual": "Poppy гордо поднимает бутылку с морской водой; Leon слева видит бутылку; таймер 56:00:00.",
+   "motion": "бутылка поднимается",
+   "camera": "средний, наезд на Poppy",
+   "assets": "POPPY; бутылка; LEON",
+   "texts": [
+    {
+     "t": 212.7,
+     "s": "56:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S066",
+   "start": 214.175,
+   "end": 216.458,
+   "place": "BEACH",
+   "line": "\"Look! The ocean is full of it!\"",
+   "visual": "Poppy показывает на море: «full of it»; рядом море во всю ширину.",
+   "motion": "Poppy показывает на море",
+   "camera": "дальний, отъезд на море",
+   "assets": "POPPY; море",
+   "texts": [
+    {
+     "t": 214.367,
+     "s": "Look! The ocean is full of it!",
+     "k": "say",
+     "who": "POPPY"
+    }
+   ]
+  },
+  {
+   "id": "S067",
+   "start": 216.458,
+   "end": 219.75,
+   "place": "BEACH",
+   "line": "She lifts it to her mouth, and you smack it out of her hand.",
+   "visual": "Бутылка у рта Poppy; Leon бросается и выбивает её рукой; бутылка летит влево.",
+   "motion": "выбивание, бутылка летит",
+   "camera": "средний, быстрый наезд, тряска на ударе",
+   "assets": "POPPY; LEON; бутылка",
+   "texts": [
+    {
+     "t": 218.283,
+     "s": "SMACK!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S068",
+   "start": 219.75,
+   "end": 220.95,
+   "place": "VOID",
+   "line": "Here's why.",
+   "visual": "Плашка HERE'S WHY на песке, у ног лужа.",
+   "motion": "плашка",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 220.033,
+     "s": "HERE'S WHY",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S069",
+   "start": 220.95,
+   "end": 224.95,
+   "place": "VOID",
+   "line": "Human kidneys can only make urine that is less salty than seawater.",
+   "visual": "Схема: почка и надпись «urine 2% salt» против «seawater 3.5% salt» (почка меньше по солёности); почка делает мочу менее солёной.",
+   "motion": "почки, шкала солёности",
+   "camera": "средний, пролёт по схеме",
+   "assets": "схема почки; шкала",
+   "texts": [
+    {
+     "t": 221.383,
+     "s": "KIDNEYS < SEAWATER",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S070",
+   "start": 224.95,
+   "end": 228.492,
+   "place": "VOID",
+   "line": "To flush the salt, you'd lose more water than you drank.",
+   "visual": "Стакан морской воды заливается в Leon, а из него выливается больше воды (две лужи); минус.",
+   "motion": "вода вливается, больше выливается",
+   "camera": "ближний, наезд на стакан",
+   "assets": "стакан; лужа; plate",
+   "texts": [
+    {
+     "t": 226.75,
+     "s": "LOSE > DRINK",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S071",
+   "start": 228.492,
+   "end": 231.275,
+   "place": "VOID",
+   "line": "Seawater makes you thirstier, not less.",
+   "visual": "Poppy с высунутым языком, на коже сухие трещины; надпись THIRSTIER.",
+   "motion": "язык, сухость",
+   "camera": "ближний, наезд на лицо Poppy",
+   "assets": "POPPY; plate",
+   "texts": [
+    {
+     "t": 229.6,
+     "s": "THIRSTIER",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S072",
+   "start": 231.275,
+   "end": 233.95,
+   "place": "BEACH",
+   "line": "\"Who made you the expert?\" says Hazel.",
+   "visual": "Hazel подходит, руки в боки; Leon объясняет жестами; Poppy прячет бутылку.",
+   "motion": "руки в боки, взгляд сверху вниз",
+   "camera": "средний, наезд на Hazel",
+   "assets": "HAZEL; LEON; POPPY",
+   "texts": [
+    {
+     "t": 231.683,
+     "s": "Who made you the expert?",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S073",
+   "start": 233.95,
+   "end": 238.308,
+   "place": "CAMPN",
+   "line": "That night you stretch a tarp into a funnel and let the rain do the work.",
+   "visual": "Ночь, дождь; Leon растягивает брезент в воронку над бутылками между палками; таймер 46:00:00.",
+   "motion": "Leon натягивает брезент, капли",
+   "camera": "средний, наезд, тряска от грома",
+   "assets": "LEON; брезент; бутылки; дождь",
+   "texts": [
+    {
+     "t": 234.55,
+     "s": "46:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S074",
+   "start": 238.308,
+   "end": 241.367,
+   "place": "CAMPN",
+   "line": "By morning, six bottles of fresh water.",
+   "visual": "Утро: шесть полных бутылок в ряд, солнце; плашка 6 BOTTLES.",
+   "motion": "бутылки блестят",
+   "camera": "ближний, пролёт вдоль ряда бутылок",
+   "assets": "бутылки; солнце; брезент",
+   "texts": [
+    {
+     "t": 239.417,
+     "s": "6 BOTTLES",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S075",
+   "start": 241.367,
+   "end": 243.742,
+   "place": "CAMPN",
+   "line": "Hazel drinks first and says nothing.",
+   "visual": "Hazel пьёт из бутылки, не смотрит на Leon, молчит; Leon ждёт «спасибо».",
+   "motion": "Hazel пьёт",
+   "camera": "средний, наезд на Hazel",
+   "assets": "HAZEL; LEON; бутылка",
+   "texts": []
+  },
+  {
+   "id": "S076",
+   "start": 243.742,
+   "end": 247.617,
+   "place": "CAMPN",
+   "line": "Poppy drinks second and says, \"This tastes like victory.\"",
+   "visual": "Poppy пьёт и поднимает кулак: «victory».",
+   "motion": "Poppy пьёт, кулак вверх",
+   "camera": "ближний, наезд на Poppy",
+   "assets": "POPPY; бутылка",
+   "texts": [
+    {
+     "t": 245.433,
+     "s": "This tastes like victory.",
+     "k": "say",
+     "who": "POPPY"
+    }
+   ]
+  },
+  {
+   "id": "S077",
+   "start": 247.617,
+   "end": 252.825,
+   "place": "CAMPN",
+   "line": "Ivy drinks third and gives you the smallest smile in the history of smiles.",
+   "visual": "Ivy пьёт, смотрит на Leon, на лице маленькая улыбка; Leon тает.",
+   "motion": "улыбка, Leon краснеет",
+   "camera": "ближний, медленный наезд на лицо Ivy, на Leon",
+   "assets": "IVY; LEON; бутылка",
+   "texts": [
+    {
+     "t": 250.133,
+     "s": "SMALLEST SMILE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S078",
+   "start": 252.825,
+   "end": 258.342,
+   "place": "CAMPN",
+   "line": "Approval, fifteen percent, and you can't stop thinking about that smile.",
+   "visual": "Табло одобрения: 15 %; Leon мечтательно смотрит на Ivy; в мыслях улыбка.",
+   "motion": "полоска растёт, мысли-сердечко",
+   "camera": "средний, отъезд",
+   "assets": "табло; LEON; IVY",
+   "texts": [
+    {
+     "t": 253.733,
+     "s": "APPROVAL 15 %",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S079",
+   "start": 258.342,
+   "end": 261.992,
+   "place": "VOID",
+   "line": "Problem three, and this one is all yours.",
+   "visual": "Плашка PROBLEM 3 · ALL YOURS; плот-значок.",
+   "motion": "плашка",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 259.45,
+     "s": "PROBLEM 3 · ALL YOURS",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S080",
+   "start": 261.992,
+   "end": 266.008,
+   "place": "BEACH",
+   "line": "On day two, you spot a waterfall on the little island across the channel.",
+   "visual": "Day two: Leon на скале смотрит через пролив на маленький остров с водопадом справа; таймер 34:00:00.",
+   "motion": "Leon смотрит, водопад блестит",
+   "camera": "дальний, панорама слева направо на остров",
+   "assets": "LEON; остров; водопад; пролив",
+   "texts": [
+    {
+     "t": 262.75,
+     "s": "34:00:00",
+     "k": "hud"
+    },
+    {
+     "t": 263.717,
+     "s": "WATERFALL",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S081",
+   "start": 266.008,
+   "end": 268.325,
+   "place": "BEACH",
+   "line": "You don't ask. You'll prove it.",
+   "visual": "Leon косится на Hazel, потом качает головой и сжимает кулак; над ним лампочка «PROVE IT».",
+   "motion": "Leon качает головой, кулак",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON; HAZEL вдали",
+   "texts": [
+    {
+     "t": 267.55,
+     "s": "YOU'LL PROVE IT",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S082",
+   "start": 268.325,
+   "end": 273.467,
+   "place": "CHAN",
+   "line": "You tie three barrels, two ropes and one very optimistic plank into a raft,",
+   "visual": "Leon вяжет плот: три бочки, две верёвки и одна кривая доска; плашка списка.",
+   "motion": "Leon вяжет узлы, плашки выскакивают",
+   "camera": "средний, пролёт по предметам, ближний на доску",
+   "assets": "LEON; бочки; верёвки; доска",
+   "texts": [
+    {
+     "t": 268.967,
+     "s": "3 BARRELS",
+     "k": "cap"
+    },
+    {
+     "t": 269.833,
+     "s": "2 ROPES",
+     "k": "cap"
+    },
+    {
+     "t": 271.967,
+     "s": "1 PLANK",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S083",
+   "start": 273.467,
+   "end": 278.25,
+   "place": "CHAN",
+   "line": "and you push off alone, breaking Hazel's first rule in about nine seconds.",
+   "visual": "Leon отталкивается шестом от берега; плот уходит вправо; на берегу никого; плашка RULE 1 BROKEN ×9s.",
+   "motion": "толчок, плот отходит",
+   "camera": "дальний, отъезд, плот мелкий на воде",
+   "assets": "LEON; плот; берег",
+   "texts": [
+    {
+     "t": 274.35,
+     "s": "RULE 1 BROKEN",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S084",
+   "start": 278.25,
+   "end": 281.092,
+   "place": "CHAN",
+   "line": "Halfway across, the raft turns sideways.",
+   "visual": "Плот на середине пролива, поворачивается боком; Leon удивлённо упирается шестом.",
+   "motion": "плот разворачивается, шест",
+   "camera": "средний, крен камеры, вода вокруг",
+   "assets": "LEON; плот; пролив",
+   "texts": []
+  },
+  {
+   "id": "S085",
+   "start": 281.092,
+   "end": 283.525,
+   "place": "CHAN",
+   "line": "Then it starts sliding out to sea.",
+   "visual": "Плот скользит вправо в открытое море, по воде идёт полоса бурунов; берег становится меньше.",
+   "motion": "плот несёт",
+   "camera": "дальний, отъезд, берег уходит влево",
+   "assets": "LEON; плот; бурун",
+   "texts": []
+  },
+  {
+   "id": "S086",
+   "start": 283.525,
+   "end": 285.425,
+   "place": "VOID",
+   "line": "A rip current.",
+   "visual": "Плашка RIP CURRENT; на схеме стрелки от берега в море.",
+   "motion": "стрелки пульсируют",
+   "camera": "",
+   "assets": "схема; стрелки",
+   "texts": [
+    {
+     "t": 284.35,
+     "s": "RIP CURRENT",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S087",
+   "start": 285.425,
+   "end": 287.1,
+   "place": "VOID",
+   "line": "Here's the real part.",
+   "visual": "Плашка THE REAL PART.",
+   "motion": "плашка",
+   "camera": "",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 286.2,
+     "s": "THE REAL PART",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S088",
+   "start": 287.1,
+   "end": 291.417,
+   "place": "VOID",
+   "line": "Rip currents cause more than eighty percent of the rescues made by beach lifeguards.",
+   "visual": "Спасатель и столбик 80 %: «more than 80% of lifeguard rescues»; круговая диаграмма.",
+   "motion": "диаграмма заполняется",
+   "camera": "",
+   "assets": "спасатель; диаграмма",
+   "texts": [
+    {
+     "t": 288.617,
+     "s": "80 %+ OF RESCUES",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S089",
+   "start": 291.417,
+   "end": 295.133,
+   "place": "VOID",
+   "line": "They don't pull you under. They pull you away from shore.",
+   "visual": "Схема: стрелка вниз зачёркнута (UNDER ✗), стрелка в море вправо подчёркнута (AWAY FROM SHORE ✓).",
+   "motion": "крестик, галочка",
+   "camera": "",
+   "assets": "схема; стрелки",
+   "texts": [
+    {
+     "t": 292.433,
+     "s": "UNDER ✗",
+     "k": "cap"
+    },
+    {
+     "t": 293.767,
+     "s": "AWAY FROM SHORE ✓",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S090",
+   "start": 295.133,
+   "end": 300.017,
+   "place": "CHAN",
+   "line": "So you paddle against it, harder and harder, and the raft only goes faster.",
+   "visual": "Leon гребёт шестом против течения влево к берегу, бурун пенится, плот летит быстрее вправо; стрелки показывают противоречие.",
+   "motion": "гребёт, но плот быстрее",
+   "camera": "средний, тряска, пена по краям",
+   "assets": "LEON; плот; течение",
+   "texts": []
+  },
+  {
+   "id": "S091",
+   "start": 300.017,
+   "end": 304.567,
+   "place": "CHAN",
+   "line": "Then you remember something. Don't fight it. Swim sideways.",
+   "visual": "Leon замирает, над головой лампочка; в мыслях стрелка вбок; плашка DON'T FIGHT IT: SWIM SIDEWAYS.",
+   "motion": "лампочка, мысль-стрелка",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON; плот; лампочка",
+   "texts": [
+    {
+     "t": 303.683,
+     "s": "DON'T FIGHT IT · SWIM SIDEWAYS",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S092",
+   "start": 304.567,
+   "end": 309.367,
+   "place": "CHAN",
+   "line": "You slide off the raft, swim along the shore, and the current finally lets go.",
+   "visual": "Leon спрыгивает с плота и плывёт вдоль берега по дуге влево; бурун остаётся справа; стрелка по боковой дорожке.",
+   "motion": "прыжок, плывёт вдоль берега",
+   "camera": "средний, пролёт за Leon вдоль берега",
+   "assets": "LEON; плот; вода",
+   "texts": []
+  },
+  {
+   "id": "S093",
+   "start": 309.367,
+   "end": 314.15,
+   "place": "CHAN",
+   "line": "The raft keeps drifting without you, and honestly, it was a terrible raft.",
+   "visual": "Плот уплывает в море, разваливается на бочки; Leon смотрит с берега; плашка «terrible raft».",
+   "motion": "плот разваливается",
+   "camera": "дальний, отъезд, плот мелкий",
+   "assets": "плот; бочки; LEON",
+   "texts": [
+    {
+     "t": 312.767,
+     "s": "TERRIBLE RAFT",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S094",
+   "start": 314.15,
+   "end": 319.4,
+   "place": "BEACH",
+   "line": "Four hours later, you crawl onto the beach, and Ivy is sitting there holding your cap.",
+   "visual": "Leon выползает на пляж; на песке сидит Ivy с его кепкой; плашка 4 HOURS LATER; таймер 30:00:00.",
+   "motion": "Leon ползёт, Ivy встаёт",
+   "camera": "средний, наезд на Ivy с кепкой",
+   "assets": "LEON; IVY; кепка; пляж",
+   "texts": [
+    {
+     "t": 314.65,
+     "s": "4 HOURS LATER",
+     "k": "plate"
+    },
+    {
+     "t": 315.217,
+     "s": "30:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S095",
+   "start": 319.4,
+   "end": 323.075,
+   "place": "BEACH",
+   "line": "\"You were gone for hours. We thought...\" She stops.",
+   "visual": "Ivy со слезами в глазах, замолкает, прикусывает губу; Leon на песке.",
+   "motion": "Ivy осекается",
+   "camera": "ближний, наезд на Ivy",
+   "assets": "IVY; LEON; кепка",
+   "texts": [
+    {
+     "t": 319.883,
+     "s": "You were gone for hours. We thought...",
+     "k": "say",
+     "who": "IVY"
+    }
+   ]
+  },
+  {
+   "id": "S096",
+   "start": 323.075,
+   "end": 326.817,
+   "place": "BEACH",
+   "line": "Then Hazel marches up. \"You broke the first rule.\"",
+   "visual": "Hazel шагает к ним, руки в боки; Leon сжимается; девочки сзади.",
+   "motion": "Hazel шагает, девочки сзади",
+   "camera": "средний, наезд на Hazel сзади Ivy",
+   "assets": "HAZEL; LEON; IVY",
+   "texts": [
+    {
+     "t": 326.067,
+     "s": "You broke the first rule.",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S097",
+   "start": 326.817,
+   "end": 333.067,
+   "place": "BEACH",
+   "line": "Ivy quietly hands you her water bottle, then remembers she's not supposed to talk to the boy, and takes it back.",
+   "visual": "Ivy тихо протягивает Leon бутылку; замечает Hazel и забирает обратно; Leon тянется за пустым воздухом.",
+   "motion": "бутылка туда-обратно",
+   "camera": "ближний, наезд на бутылку",
+   "assets": "IVY; LEON; бутылка; HAZEL",
+   "texts": []
+  },
+  {
+   "id": "S098",
+   "start": 333.067,
+   "end": 336.125,
+   "place": "BEACH",
+   "line": "Zero percent. Thirty hours left.",
+   "visual": "Табло падает до 0 %, таймер 30:00:00; Leon сидит на песке.",
+   "motion": "полоска падает, таймер мигает",
+   "camera": "ближний на табло",
+   "assets": "табло; таймер; LEON",
+   "texts": [
+    {
+     "t": 333.483,
+     "s": "APPROVAL 0 %",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S099",
+   "start": 336.125,
+   "end": 341.375,
+   "place": "VOID",
+   "line": "You've tried to be a hero three times, and every time you did it alone.",
+   "visual": "Три кадра-значка: плот, стол, кровать с надписями; над каждым ALONE; плашка 3 × ALONE.",
+   "motion": "три значка выскакивают",
+   "camera": "",
+   "assets": "plate; значки",
+   "texts": [
+    {
+     "t": 337.667,
+     "s": "3 TIMES · ALONE",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "start": 341.375,
+   "end": 344.425,
+   "place": "BEACH",
+   "line": "That night the wind changes direction.",
+   "visual": "Вечер, пальмы наклоняются в другую сторону, флажок на палатке разворачивается; Leon смотрит.",
+   "motion": "флажок разворачивается, ветер",
+   "camera": "средний, крен камеры, ветер толкает",
+   "assets": "LEON; пальмы; флажок",
+   "texts": []
+  },
+  {
+   "id": "S101",
+   "start": 344.425,
+   "end": 348.817,
+   "place": "ROCKS_N",
+   "line": "Night three. Three in the morning, four hours to go.",
+   "visual": "Ночь третья: скалы, ливень; плашка 03:00 и таймер 04:00:00.",
+   "motion": "ливень, ночь",
+   "camera": "дальний, медленный наезд, тряска от грома",
+   "assets": "скалы; дождь; плашка",
+   "texts": [
+    {
+     "t": 344.9,
+     "s": "04:00:00",
+     "k": "hud"
+    },
+    {
+     "t": 344.95,
+     "s": "NIGHT 3 · 03:00",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S102",
+   "start": 348.817,
+   "end": 351.158,
+   "place": "ROCKS_N",
+   "line": "Rain hits the tarp like gravel.",
+   "visual": "Ливень лупит по брезенту, капли как камешки.",
+   "motion": "капли-камни по брезенту",
+   "camera": "ближний, тряска",
+   "assets": "брезент; дождь",
+   "texts": []
+  },
+  {
+   "id": "S103",
+   "start": 351.158,
+   "end": 355.083,
+   "place": "ROCKS_N",
+   "line": "You're dragging the glow sticks up to the high rocks, because that's the plan.",
+   "visual": "Leon с трудом тащит мешок с палочками вверх по скалам; согнутая спина; пакет светится слабо.",
+   "motion": "Leon тащит, поза тяжести",
+   "camera": "средний, пролёт за Leon вверх по скале",
+   "assets": "LEON; пакет; скалы",
+   "texts": []
+  },
+  {
+   "id": "S104",
+   "start": 355.083,
+   "end": 359.508,
+   "place": "ROCKS_N",
+   "line": "A giant message in light, a signal no rescue boat can miss.",
+   "visual": "Воображение: на скале три гигантские буквы из света; пунктир (идея).",
+   "motion": "мысленный пузырь с буквами",
+   "camera": "средний, наезд на пузырь",
+   "assets": "LEON; пузырь; буквы",
+   "texts": [
+    {
+     "t": 355.983,
+     "s": "THE PLAN: GIANT SIGNAL",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "start": 359.508,
+   "end": 363.517,
+   "place": "ROCKS_N",
+   "line": "They shine brightest in their first hours, so you can't crack them early.",
+   "visual": "Палочка, яркость падает по часам; график HOURS → BRIGHTNESS; подпись DON'T CRACK EARLY.",
+   "motion": "график падает",
+   "camera": "ближний, пролёт по графику",
+   "assets": "палочка; график",
+   "texts": [
+    {
+     "t": 361.017,
+     "s": "BRIGHTEST IN THE FIRST HOURS",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "start": 363.517,
+   "end": 365.783,
+   "place": "ROCKS_N",
+   "line": "You have to wait until the last minute.",
+   "visual": "Leon прижимает пакет к груди, смотрит на часы-таймер: 04:00:00; плашка WAIT.",
+   "motion": "Leon прижимает пакет",
+   "camera": "средний, наезд",
+   "assets": "LEON; пакет; таймер",
+   "texts": [
+    {
+     "t": 364.25,
+     "s": "WAIT",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "start": 365.783,
+   "end": 369.608,
+   "place": "ROCKS_N",
+   "line": "You lift the bag, glance back at the beach, and freeze.",
+   "visual": "Leon оглядывается: внизу пляж и лагерь; он замирает; над головой «!!».",
+   "motion": "Leon замирает",
+   "camera": "средний, резкий наезд и тряска",
+   "assets": "LEON; лагерь вдали",
+   "texts": [
+    {
+     "t": 368.733,
+     "s": "!!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "start": 369.608,
+   "end": 372.958,
+   "place": "TIDEL",
+   "line": "White foam is already past the seaweed line.",
+   "visual": "Белая пена за линией водорослей, идёт к брёвнам; лагерь и палатки видны.",
+   "motion": "пена ползёт вверх",
+   "camera": "дальний, отъезд, волна идёт к лагерю",
+   "assets": "пена; палатки; брёвна",
+   "texts": [
+    {
+     "t": 370.367,
+     "s": "FOAM PAST THE LINE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S109",
+   "start": 372.958,
+   "end": 374.558,
+   "place": "TIDEL",
+   "line": "It's rolling toward the logs.",
+   "visual": "Пена катится к брёвнам; камера идёт с ней; палатки между пеной и брёвнами.",
+   "motion": "пена катится",
+   "camera": "средний, пролёт с пеной",
+   "assets": "пена; брёвна; палатки",
+   "texts": []
+  },
+  {
+   "id": "S110",
+   "start": 374.558,
+   "end": 378.717,
+   "place": "TIDEL",
+   "line": "And right in front of it, nineteen girls are asleep in their tents.",
+   "visual": "Палатки с 19 девочками-силуэтами, спящими; Zzz; перед ними пена.",
+   "motion": "девочки спят, Zzz",
+   "camera": "средний, медленный наезд, пена сзади",
+   "assets": "палатки; GIRLS; пена",
+   "texts": [
+    {
+     "t": 376.45,
+     "s": "19 ASLEEP",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "start": 378.717,
+   "end": 384.133,
+   "place": "ROCKS_N",
+   "line": "If you stop, you lose your signal. If you don't, the ocean takes the camp.",
+   "visual": "Leon делит экран: слева сигнал-буквы, справа лагерь; он смотрит то туда, то сюда; плашка CHOICE.",
+   "motion": "Leon смотрит то на пакет, то на лагерь",
+   "camera": "средний, пролёт между пакетом и лагерем",
+   "assets": "LEON; пакет; лагерь",
+   "texts": [
+    {
+     "t": 379.433,
+     "s": "SIGNAL",
+     "k": "cap"
+    },
+    {
+     "t": 381.7,
+     "s": "CAMP",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "start": 384.133,
+   "end": 387.017,
+   "place": "CAMP_N",
+   "line": "You run. You pound on Hazel's tent.",
+   "visual": "Leon бежит вниз и стучит в палатку Hazel обоими кулаками; палатка трясётся; ливень.",
+   "motion": "Leon бьёт в палатку",
+   "camera": "средний, тряска на каждом ударе",
+   "assets": "LEON; палатка Hazel",
+   "texts": [
+    {
+     "t": 385.717,
+     "s": "KNOCK KNOCK KNOCK",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "start": 387.017,
+   "end": 389.525,
+   "place": "CAMP_N",
+   "line": "Nothing, because she sleeps with earplugs.",
+   "visual": "Внутри палатки Hazel спит, в ушах беруши; Zzz; плашка EARPLUGS.",
+   "motion": "Hazel храпит, беруши",
+   "camera": "ближний, срез палатки, наезд на беруши",
+   "assets": "HAZEL; палатка; беруши",
+   "texts": [
+    {
+     "t": 388.75,
+     "s": "EARPLUGS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S114",
+   "start": 389.525,
+   "end": 393.658,
+   "place": "CAMP_N",
+   "line": "\"Hazel! The water's coming!\" \"Go back to boy camp!\"",
+   "visual": "Leon кричит, Hazel высовывает голову из палатки в одеяле.",
+   "motion": "Leon кричит, Hazel машет рукой",
+   "camera": "средний, наезд, тряска",
+   "assets": "LEON; HAZEL; палатка",
+   "texts": [
+    {
+     "t": 389.867,
+     "s": "Hazel! The water's coming!",
+     "k": "say",
+     "who": "LEON"
+    },
+    {
+     "t": 391.767,
+     "s": "Go back to boy camp!",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S115",
+   "start": 393.658,
+   "end": 397.417,
+   "place": "CAMP_N",
+   "line": "And then you say the thing you've never said on this island.",
+   "visual": "Leon замирает, ливень по лицу; крупно его лицо; плашка «NEVER SAID THIS».",
+   "motion": "пауза, дождь по лицу",
+   "camera": "ближний, медленный наезд на лицо Leon",
+   "assets": "LEON",
+   "texts": []
+  },
+  {
+   "id": "S116",
+   "start": 397.417,
+   "end": 400.617,
+   "place": "CAMP_N",
+   "line": "\"I can't do this alone. Please.\"",
+   "visual": "Leon тихо: рука вытянута к лагерю; все девочки в палатках просыпаются.",
+   "motion": "Leon протягивает руку",
+   "camera": "ближний, наезд, звук глохнет",
+   "assets": "LEON",
+   "texts": [
+    {
+     "t": 397.85,
+     "s": "I can't do this alone. Please.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S117",
+   "start": 400.617,
+   "end": 403.092,
+   "place": "CAMP_N",
+   "line": "Silence. Only rain.",
+   "visual": "Тишина: вся поляна под ливнем, одни капли, никто не двигается.",
+   "motion": "пауза, капли",
+   "camera": "дальний, неподвижная камера, только дождь",
+   "assets": "лагерь; GIRLS; дождь",
+   "texts": [
+    {
+     "t": 401.233,
+     "s": "...",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S118",
+   "start": 403.092,
+   "end": 408.3,
+   "place": "CAMP_N",
+   "line": "Then Ivy steps out of her tent with her boots already on. \"Move. Now.\"",
+   "visual": "Ivy выходит из палатки в уже надетых сапогах и командует; Leon смотрит с надеждой.",
+   "motion": "Ivy выходит, жест рукой",
+   "camera": "средний, наезд на Ivy",
+   "assets": "IVY; палатка; LEON",
+   "texts": [
+    {
+     "t": 406.783,
+     "s": "Move. Now.",
+     "k": "say",
+     "who": "IVY"
+    }
+   ]
+  },
+  {
+   "id": "S119",
+   "start": 408.3,
+   "end": 415.092,
+   "place": "CAMP_N",
+   "line": "Poppy is second. Then six girls, then all of them, carrying bags and beds and food up the rocks.",
+   "visual": "Poppy вылезает с коробкой крекеров, потом шесть девочек, потом все, несут сумки, кровати и еду вверх по скалам цепочкой.",
+   "motion": "цепочка девочек в гору",
+   "camera": "дальний, панорама по цепочке вверх",
+   "assets": "POPPY; GIRLS; сумки; кровати",
+   "texts": [
+    {
+     "t": 409.983,
+     "s": "6",
+     "k": "cap"
+    },
+    {
+     "t": 411.15,
+     "s": "ALL OF THEM",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S120",
+   "start": 415.092,
+   "end": 420.908,
+   "place": "CAMP_N",
+   "line": "Hazel comes out last, with one shoe on, and a wave rolls through her tent right behind her.",
+   "visual": "Hazel выбегает последней в одном башмаке; позади волна катится сквозь её палатку.",
+   "motion": "волна смывает палатку",
+   "camera": "средний, пролёт за Hazel, тряска на волне",
+   "assets": "HAZEL; волна; палатка",
+   "texts": [
+    {
+     "t": 418.417,
+     "s": "WHOOSH",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S121",
+   "start": 420.908,
+   "end": 424.933,
+   "place": "CAMP_N",
+   "line": "The spot where her pillow was now belongs to the ocean.",
+   "visual": "Крупно: место, где была подушка, залито водой; подушка плывёт; Hazel смотрит с камня.",
+   "motion": "подушка плывёт",
+   "camera": "ближний, наезд на подушку, отъезд на Hazel",
+   "assets": "подушка; вода; HAZEL",
+   "texts": []
+  },
+  {
+   "id": "S122",
+   "start": 424.933,
+   "end": 429.067,
+   "place": "ROCKS_N",
+   "line": "Four hours. Three. Two.",
+   "visual": "Таймер: 04:00:00, 03:00:00, 02:00:00, цифры скачут; Leon со всеми на скале.",
+   "motion": "цифры скачут",
+   "camera": "дальний, отъезд, скала с девочками",
+   "assets": "таймер; GIRLS; LEON",
+   "texts": [
+    {
+     "t": 425.533,
+     "s": "04:00:00",
+     "k": "hud"
+    },
+    {
+     "t": 427.017,
+     "s": "03:00:00",
+     "k": "hud"
+    },
+    {
+     "t": 428.0,
+     "s": "02:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S123",
+   "start": 429.067,
+   "end": 434.058,
+   "place": "DAWN",
+   "line": "Dawn is close, and the fog is so thick that Poppy hugs a rock, thinking it's you.",
+   "visual": "Рассвет, густой туман; Poppy обнимает скалу и думает, что это Leon; Leon стоит рядом.",
+   "motion": "Poppy обнимает скалу",
+   "camera": "средний, медленный наезд в туман",
+   "assets": "POPPY; скала; LEON; туман",
+   "texts": []
+  },
+  {
+   "id": "S124",
+   "start": 434.058,
+   "end": 436.842,
+   "place": "DAWN",
+   "line": "Somewhere out there, a boat engine is growling.",
+   "visual": "Туман, где-то вдали рычание мотора; звуковые волны в тумане; все поворачивают головы.",
+   "motion": "девочки поворачивают головы",
+   "camera": "дальний, панорама на звук",
+   "assets": "GIRLS; туман; звук",
+   "texts": []
+  },
+  {
+   "id": "S125",
+   "start": 436.842,
+   "end": 440.458,
+   "place": "DAWN",
+   "line": "There's no flare, and every stick on this island is soaked.",
+   "visual": "Руки перебирают мокрые палочки: палки раскисли, ракет нет; плашка NO FLARE.",
+   "motion": "руки перебирают мокрое",
+   "camera": "ближний, пролёт по рукам",
+   "assets": "GIRLS; сумки; палочки",
+   "texts": [
+    {
+     "t": 437.383,
+     "s": "NO FLARE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S126",
+   "start": 440.458,
+   "end": 444.092,
+   "place": "DAWN",
+   "line": "But glow sticks are sealed, and your bag is still dry.",
+   "visual": "Leon поднимает сухой пакет палочек; крупно: герметичный; лицо Leon светится надеждой.",
+   "motion": "пакет поднимается, лучики",
+   "camera": "ближний, наезд на пакет",
+   "assets": "LEON; пакет",
+   "texts": [
+    {
+     "t": 441.85,
+     "s": "SEALED = DRY",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S127",
+   "start": 444.092,
+   "end": 447.433,
+   "place": "DAWN",
+   "line": "\"Everybody grab a handful! Crack them now, not a second earlier!\"",
+   "visual": "Leon раздаёт палочки: девочки берут по горсти; Leon командует.",
+   "motion": "Leon раздаёт, девочки берут",
+   "camera": "средний, пролёт по руке с палочками",
+   "assets": "LEON; GIRLS; палочки",
+   "texts": [
+    {
+     "t": 444.217,
+     "s": "Everybody grab a handful! Crack them now, not a second earlier!",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S128",
+   "start": 447.433,
+   "end": 449.283,
+   "place": "DAWN",
+   "line": "Twenty pairs of hands.",
+   "visual": "Крупно: двадцать пар рук тянутся к палочкам; счёт.",
+   "motion": "руки тянутся",
+   "camera": "ближний, наезд на ладони, быстрые резы",
+   "assets": "GIRLS; LEON; руки",
+   "texts": [
+    {
+     "t": 447.883,
+     "s": "20 PAIRS OF HANDS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S129",
+   "start": 449.283,
+   "end": 454.8,
+   "place": "DAWN",
+   "line": "Hundreds of green lines click into place on the black rock, three giant letters.",
+   "visual": "Палочки щёлкают: зелёные линии зажигаются на чёрной скале, складываясь в буквы; щелчки.",
+   "motion": "палочки зажигаются",
+   "camera": "средний, пролёт вдоль зажигающихся линий",
+   "assets": "палочки; скала; GIRLS",
+   "texts": [
+    {
+     "t": 450.617,
+     "s": "CLICK CLICK",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S130",
+   "start": 454.8,
+   "end": 457.683,
+   "place": "DAWN",
+   "line": "S. O. S.",
+   "visual": "Вид сверху на скалу: три гигантские буквы S O S светятся зелёным; вокруг девочки мелкие.",
+   "motion": "буквы зажигаются по одной",
+   "camera": "дальний, подъём камеры вверх, вид сверху",
+   "assets": "буквы SOS; скала; GIRLS",
+   "texts": [
+    {
+     "t": 455.233,
+     "s": "S",
+     "k": "boom"
+    },
+    {
+     "t": 455.283,
+     "s": "O",
+     "k": "boom"
+    },
+    {
+     "t": 456.267,
+     "s": "S",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S131",
+   "start": 457.683,
+   "end": 460.283,
+   "place": "DAWN",
+   "line": "The engine turns toward the light.",
+   "visual": "Из тумана появляется катер, поворачивает нос влево к светящимся буквам.",
+   "motion": "катер выходит из тумана, поворот",
+   "camera": "дальний, пролёт слева направо, катер большой",
+   "assets": "катер; туман; буквы SOS",
+   "texts": []
+  },
+  {
+   "id": "S132",
+   "start": 460.283,
+   "end": 464.108,
+   "place": "DAWN",
+   "line": "\"I saw it from a mile away!\" shouts Coach Dunn from the deck.",
+   "visual": "Coach Dunn на палубе машет, кричит; девочки на скале машут в ответ.",
+   "motion": "Dunn машет",
+   "camera": "средний, наезд на Dunn, затем на девочек",
+   "assets": "DUNN; катер; GIRLS",
+   "texts": [
+    {
+     "t": 460.667,
+     "s": "I saw it from a mile away!",
+     "k": "say",
+     "who": "DUNN"
+    }
+   ]
+  },
+  {
+   "id": "S133",
+   "start": 464.108,
+   "end": 468.958,
+   "place": "DAWN",
+   "line": "Before anyone climbs aboard, Hazel turns to her team. \"Who wants to keep the boy?\"",
+   "visual": "Hazel на камне поворачивается к команде; Leon сзади; девочки замирают.",
+   "motion": "Hazel поворачивается",
+   "camera": "средний, наезд на Hazel",
+   "assets": "HAZEL; GIRLS; LEON",
+   "texts": [
+    {
+     "t": 467.567,
+     "s": "Who wants to keep the boy?",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S134",
+   "start": 468.958,
+   "end": 472.592,
+   "place": "DAWN",
+   "line": "Nineteen hands go up, and Hazel's is the last.",
+   "visual": "Все руки вверх; рука Hazel последняя; Leon сзади, таймер остановился.",
+   "motion": "руки вверх волной, Hazel последняя",
+   "camera": "дальний, отъезд, лес рук",
+   "assets": "GIRLS; HAZEL; LEON",
+   "texts": [
+    {
+     "t": 469.383,
+     "s": "19 HANDS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S135",
+   "start": 472.592,
+   "end": 476.0,
+   "place": "DAWN",
+   "line": "\"Fine. You're one of us. Barely.\"",
+   "visual": "Hazel протягивает руку Leon: «Fine. You're one of us. Barely.»; Leon пожимает; Hazel отводит взгляд.",
+   "motion": "рукопожатие",
+   "camera": "ближний, наезд на рукопожатие",
+   "assets": "HAZEL; LEON",
+   "texts": [
+    {
+     "t": 472.983,
+     "s": "Fine. You're one of us. Barely.",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S136",
+   "start": 476.0,
+   "end": 478.733,
+   "place": "DAWN",
+   "line": "Approval, one hundred percent.",
+   "visual": "Табло одобрения заполняется до 100 %, конфетти из палочек.",
+   "motion": "полоска полная, конфетти",
+   "camera": "ближний на табло, отъезд на Leon",
+   "assets": "табло; конфетти",
+   "texts": [
+    {
+     "t": 477.5,
+     "s": "APPROVAL 100 %",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S137",
+   "start": 478.733,
+   "end": 483.058,
+   "place": "DAWN",
+   "line": "Ivy walks over, and for the first time, she looks you straight in the eye.",
+   "visual": "Ivy подходит к Leon и впервые смотрит ему прямо в глаза; остальные девочки за ней.",
+   "motion": "Ivy смотрит в глаза",
+   "camera": "ближний, наезд на лица двоих",
+   "assets": "IVY; LEON",
+   "texts": []
+  },
+  {
+   "id": "S138",
+   "start": 483.058,
+   "end": 485.45,
+   "place": "DAWN",
+   "line": "She puts the cap back on your head.",
+   "visual": "Ivy надевает кепку на голову Leon козырьком назад; Leon слегка нагибается.",
+   "motion": "Ivy надевает кепку",
+   "camera": "ближний, наезд на кепку, лёгкий крен",
+   "assets": "IVY; LEON; кепка",
+   "texts": []
+  },
+  {
+   "id": "S139",
+   "start": 485.45,
+   "end": 490.025,
+   "place": "DAWN",
+   "line": "\"Next time you want to prove something,\" she says, \"ask me first.\"",
+   "visual": "Ivy улыбается: «ask me first»; Leon смотрит.",
+   "motion": "Ivy говорит",
+   "camera": "ближний, наезд на Ivy",
+   "assets": "IVY; LEON",
+   "texts": [
+    {
+     "t": 485.833,
+     "s": "Next time you want to prove something, ask me first.",
+     "k": "say",
+     "who": "IVY"
+    }
+   ]
+  },
+  {
+   "id": "S140",
+   "start": 490.025,
+   "end": 493.967,
+   "place": "DAWN",
+   "line": "You nod, because your voice has left the island.",
+   "visual": "Leon молча кивает; из его головы улетает «голос» — маленькое облачко с надписью «VOICE» улетает на остров.",
+   "motion": "кивок, голос улетает",
+   "camera": "средний, отъезд",
+   "assets": "LEON; облачко",
+   "texts": [
+    {
+     "t": 491.983,
+     "s": "VOICE: GONE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S141",
+   "start": 493.967,
+   "end": 500.083,
+   "place": "DAWN",
+   "line": "It's the longest conversation you've ever had with her, and it was exactly ten words.",
+   "visual": "Leon и Ivy рядом, над ними десять слов-кубиков: Next time you want to prove something, ask me first; счёт 10.",
+   "motion": "слова-кубики выскакивают, счёт",
+   "camera": "средний, наезд, кубики по очереди",
+   "assets": "LEON; IVY; plate",
+   "texts": [
+    {
+     "t": 498.55,
+     "s": "10 WORDS",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S142",
+   "start": 500.083,
+   "end": 503.683,
+   "place": "BOAT",
+   "line": "On the boat, Poppy asks who has the snacks.",
+   "visual": "Катер плывёт, на палубе Poppy спрашивает про снеки, девочки смеются; таймер 00:00:00.",
+   "motion": "катер плывёт, Poppy жуёт",
+   "camera": "дальний, пролёт сбоку вдоль катера",
+   "assets": "катер; POPPY; GIRLS",
+   "texts": [
+    {
+     "t": 501.033,
+     "s": "00:00:00",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S143",
+   "start": 503.683,
+   "end": 507.192,
+   "place": "BOAT",
+   "line": "Ivy sits next to you, holding the last green glow stick.",
+   "visual": "Ivy сидит рядом с Leon, в руках последняя зелёная палочка, свет на лицах.",
+   "motion": "палочка светится, их лица зелёные",
+   "camera": "ближний, медленный наезд на палочку",
+   "assets": "IVY; LEON; палочка",
+   "texts": []
+  },
+  {
+   "id": "S144",
+   "start": 507.192,
+   "end": 508.683,
+   "place": "BOAT",
+   "line": "It's still glowing.",
+   "visual": "Крупно палочка, ещё светится; лёгкая тень волн.",
+   "motion": "палочка мерцает",
+   "camera": "ближний, наезд на палочку",
+   "assets": "палочка",
+   "texts": []
+  },
+  {
+   "id": "S145",
+   "start": 508.683,
+   "end": 510.233,
+   "place": "BOAT",
+   "line": "Coach Dunn grins.",
+   "visual": "Dunn у штурвала ухмыляется, оборачивается.",
+   "motion": "Dunn ухмыляется",
+   "camera": "средний, наезд на Dunn",
+   "assets": "DUNN; штурвал",
+   "texts": []
+  },
+  {
+   "id": "S146",
+   "start": 510.233,
+   "end": 513.6,
+   "place": "BOAT",
+   "line": "\"Good news. The boys' team is back from the flu.",
+   "visual": "Dunn: «Good news. The boys' team is back from the flu»; на экране телефона значок температуры 36.6.",
+   "motion": "Dunn говорит",
+   "camera": "средний, пролёт к Dunn",
+   "assets": "DUNN; катер",
+   "texts": [
+    {
+     "t": 510.5,
+     "s": "Good news. The boys' team is back from the flu.",
+     "k": "say",
+     "who": "DUNN"
+    }
+   ]
+  },
+  {
+   "id": "S147",
+   "start": 513.6,
+   "end": 516.85,
+   "place": "BOAT",
+   "line": "Monday, they'll be waiting at the dock, and they've heard all about you.\"",
+   "visual": "Силуэты двенадцати мальчиков на причале вдали ждут; плашка MONDAY.",
+   "motion": "силуэты мальчиков на причале",
+   "camera": "дальний, наезд на причал",
+   "assets": "причал; BOYS; катер",
+   "texts": [
+    {
+     "t": 513.833,
+     "s": "MONDAY · THE DOCK",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S148",
+   "start": 516.85,
+   "end": 518.325,
+   "place": "BOAT",
+   "line": "You swallow.",
+   "visual": "Leon сглатывает, пот на лбу; кадык; глаза широкие.",
+   "motion": "Leon сглатывает",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON",
+   "texts": []
+  },
+  {
+   "id": "S149",
+   "start": 518.325,
+   "end": 523.833,
+   "place": "BOAT",
+   "line": "Nineteen girls turn around at the same time and look at the dock like it owes them money.",
+   "visual": "Девятнадцать девочек одновременно разворачиваются и смотрят на причал, как на должника; глаза узкие.",
+   "motion": "синхронный поворот голов",
+   "camera": "дальний, отъезд, спины девочек",
+   "assets": "GIRLS; причал; LEON",
+   "texts": [
+    {
+     "t": 518.783,
+     "s": "19 vs 12",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S150",
+   "start": 523.833,
+   "end": 525.3,
+   "place": "BOAT",
+   "line": "\"He's ours.\"",
+   "visual": "Hazel выступает вперёд, обнимает Leon за плечи: «He's ours.»; Ivy улыбается.",
+   "motion": "Hazel обнимает Leon",
+   "camera": "средний, наезд, звуковая волна",
+   "assets": "HAZEL; LEON; IVY",
+   "texts": [
+    {
+     "t": 524.267,
+     "s": "He's ours.",
+     "k": "say",
+     "who": "HAZEL"
+    }
+   ]
+  },
+  {
+   "id": "S151",
+   "start": 525.3,
+   "end": 528.217,
+   "place": "VOID",
+   "line": "So, would you have asked for help sooner?",
+   "visual": "Leon с кепкой и вопросительный знак: что бы вы сделали; плашка WOULD YOU HAVE ASKED FOR HELP SOONER?",
+   "motion": "плашка",
+   "camera": "средний, наезд",
+   "assets": "LEON; plate",
+   "texts": [
+    {
+     "t": 525.633,
+     "s": "WOULD YOU HAVE ASKED FOR HELP SOONER?",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S152",
+   "start": 528.217,
+   "end": 535.529,
+   "place": "VOID",
+   "line": "Tell me in the comments, and subscribe, because Monday is going to be loud.",
+   "visual": "Иконка комментариев, кнопка Subscribe, MONDAY IS GOING TO BE LOUD.",
+   "motion": "иконка, кнопка нажимается",
+   "camera": "ближний, пролёт к кнопке",
+   "assets": "comment icon; subscribe button",
+   "texts": [
+    {
+     "t": 528.9,
+     "s": "COMMENT BELOW",
+     "k": "cap"
+    },
+    {
+     "t": 529.667,
+     "s": "SUBSCRIBE · MONDAY",
+     "k": "plate"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "word": "The",
+   "start": 0.0,
+   "end": 0.2
+  },
+  {
+   "word": "ferry's",
+   "start": 0.2,
+   "end": 0.533
+  },
+  {
+   "word": "engine",
+   "start": 0.533,
+   "end": 0.717
+  },
+  {
+   "word": "coughs",
+   "start": 0.717,
+   "end": 1.2
+  },
+  {
+   "word": "twice",
+   "start": 1.2,
+   "end": 1.367
+  },
+  {
+   "word": "and",
+   "start": 1.367,
+   "end": 1.783
+  },
+  {
+   "word": "dies",
+   "start": 1.783,
+   "end": 2.067
+  },
+  {
+   "word": "in",
+   "start": 2.067,
+   "end": 2.267
+  },
+  {
+   "word": "the",
+   "start": 2.267,
+   "end": 2.35
+  },
+  {
+   "word": "fog.",
+   "start": 2.35,
+   "end": 2.65
+  },
+  {
+   "word": "Then",
+   "start": 3.2,
+   "end": 3.35
+  },
+  {
+   "word": "a",
+   "start": 3.35,
+   "end": 3.45
+  },
+  {
+   "word": "reef",
+   "start": 3.45,
+   "end": 3.7
+  },
+  {
+   "word": "slides",
+   "start": 3.7,
+   "end": 4.067
+  },
+  {
+   "word": "under",
+   "start": 4.067,
+   "end": 4.317
+  },
+  {
+   "word": "the",
+   "start": 4.317,
+   "end": 4.433
+  },
+  {
+   "word": "hull,",
+   "start": 4.433,
+   "end": 4.65
+  },
+  {
+   "word": "and",
+   "start": 4.867,
+   "end": 4.983
+  },
+  {
+   "word": "the",
+   "start": 4.983,
+   "end": 5.067
+  },
+  {
+   "word": "whole",
+   "start": 5.067,
+   "end": 5.333
+  },
+  {
+   "word": "boat",
+   "start": 5.333,
+   "end": 5.667
+  },
+  {
+   "word": "tips",
+   "start": 5.667,
+   "end": 6.05
+  },
+  {
+   "word": "sideways.",
+   "start": 6.05,
+   "end": 6.567
+  },
+  {
+   "word": "Nineteen",
+   "start": 7.467,
+   "end": 7.833
+  },
+  {
+   "word": "girls",
+   "start": 7.833,
+   "end": 8.067
+  },
+  {
+   "word": "from",
+   "start": 8.067,
+   "end": 8.35
+  },
+  {
+   "word": "the",
+   "start": 8.35,
+   "end": 8.483
+  },
+  {
+   "word": "school",
+   "start": 8.483,
+   "end": 8.75
+  },
+  {
+   "word": "sailing",
+   "start": 8.75,
+   "end": 9.033
+  },
+  {
+   "word": "team",
+   "start": 9.033,
+   "end": 9.4
+  },
+  {
+   "word": "are",
+   "start": 9.4,
+   "end": 9.567
+  },
+  {
+   "word": "hanging",
+   "start": 9.567,
+   "end": 9.8
+  },
+  {
+   "word": "off",
+   "start": 9.8,
+   "end": 10.017
+  },
+  {
+   "word": "the",
+   "start": 10.017,
+   "end": 10.183
+  },
+  {
+   "word": "rail.",
+   "start": 10.183,
+   "end": 10.417
+  },
+  {
+   "word": "And",
+   "start": 10.817,
+   "end": 11.033
+  },
+  {
+   "word": "you,",
+   "start": 11.033,
+   "end": 11.283
+  },
+  {
+   "word": "the",
+   "start": 11.567,
+   "end": 11.65
+  },
+  {
+   "word": "only",
+   "start": 11.65,
+   "end": 11.867
+  },
+  {
+   "word": "boy,",
+   "start": 11.867,
+   "end": 12.133
+  },
+  {
+   "word": "who",
+   "start": 12.367,
+   "end": 12.533
+  },
+  {
+   "word": "took",
+   "start": 12.533,
+   "end": 12.683
+  },
+  {
+   "word": "the",
+   "start": 12.683,
+   "end": 12.9
+  },
+  {
+   "word": "last",
+   "start": 12.9,
+   "end": 13.217
+  },
+  {
+   "word": "seat",
+   "start": 13.217,
+   "end": 13.617
+  },
+  {
+   "word": "because",
+   "start": 13.617,
+   "end": 14.083
+  },
+  {
+   "word": "the",
+   "start": 14.083,
+   "end": 14.233
+  },
+  {
+   "word": "boys'",
+   "start": 14.233,
+   "end": 14.467
+  },
+  {
+   "word": "team",
+   "start": 14.55,
+   "end": 14.733
+  },
+  {
+   "word": "got",
+   "start": 14.733,
+   "end": 14.967
+  },
+  {
+   "word": "cancelled.",
+   "start": 14.967,
+   "end": 16.317
+  },
+  {
+   "word": "Coach",
+   "start": 16.317,
+   "end": 16.5
+  },
+  {
+   "word": "Dunn",
+   "start": 16.5,
+   "end": 16.767
+  },
+  {
+   "word": "drops",
+   "start": 16.767,
+   "end": 17.083
+  },
+  {
+   "word": "into",
+   "start": 17.083,
+   "end": 17.35
+  },
+  {
+   "word": "the",
+   "start": 17.35,
+   "end": 17.483
+  },
+  {
+   "word": "lifeboat.",
+   "start": 17.483,
+   "end": 17.867
+  },
+  {
+   "word": "\"I'm",
+   "start": 18.283,
+   "end": 18.417
+  },
+  {
+   "word": "rowing",
+   "start": 18.417,
+   "end": 18.65
+  },
+  {
+   "word": "for",
+   "start": 18.65,
+   "end": 18.817
+  },
+  {
+   "word": "help!",
+   "start": 18.817,
+   "end": 19.05
+  },
+  {
+   "word": "Back",
+   "start": 19.25,
+   "end": 19.4
+  },
+  {
+   "word": "in",
+   "start": 19.4,
+   "end": 19.567
+  },
+  {
+   "word": "three",
+   "start": 19.567,
+   "end": 19.733
+  },
+  {
+   "word": "days!",
+   "start": 19.733,
+   "end": 20.017
+  },
+  {
+   "word": "Keep",
+   "start": 20.367,
+   "end": 20.483
+  },
+  {
+   "word": "everybody",
+   "start": 20.483,
+   "end": 20.917
+  },
+  {
+   "word": "alive!\"",
+   "start": 20.917,
+   "end": 21.367
+  },
+  {
+   "word": "You",
+   "start": 22.067,
+   "end": 22.533
+  },
+  {
+   "word": "grab",
+   "start": 22.533,
+   "end": 22.733
+  },
+  {
+   "word": "the",
+   "start": 22.733,
+   "end": 22.917
+  },
+  {
+   "word": "one",
+   "start": 22.917,
+   "end": 23.15
+  },
+  {
+   "word": "thing",
+   "start": 23.15,
+   "end": 23.433
+  },
+  {
+   "word": "within",
+   "start": 23.433,
+   "end": 23.683
+  },
+  {
+   "word": "reach,",
+   "start": 23.683,
+   "end": 23.983
+  },
+  {
+   "word": "a",
+   "start": 24.4,
+   "end": 24.517
+  },
+  {
+   "word": "bag",
+   "start": 24.517,
+   "end": 24.75
+  },
+  {
+   "word": "of",
+   "start": 24.75,
+   "end": 24.967
+  },
+  {
+   "word": "party",
+   "start": 24.967,
+   "end": 25.333
+  },
+  {
+   "word": "glow",
+   "start": 25.333,
+   "end": 25.617
+  },
+  {
+   "word": "sticks.",
+   "start": 25.617,
+   "end": 25.883
+  },
+  {
+   "word": "Your",
+   "start": 26.567,
+   "end": 26.7
+  },
+  {
+   "word": "cap",
+   "start": 26.7,
+   "end": 26.967
+  },
+  {
+   "word": "flies",
+   "start": 26.967,
+   "end": 27.267
+  },
+  {
+   "word": "off",
+   "start": 27.267,
+   "end": 27.6
+  },
+  {
+   "word": "and",
+   "start": 27.6,
+   "end": 27.75
+  },
+  {
+   "word": "floats",
+   "start": 27.75,
+   "end": 27.95
+  },
+  {
+   "word": "away.",
+   "start": 27.95,
+   "end": 28.267
+  },
+  {
+   "word": "Somebody",
+   "start": 28.917,
+   "end": 29.117
+  },
+  {
+   "word": "fishes",
+   "start": 29.117,
+   "end": 29.35
+  },
+  {
+   "word": "it",
+   "start": 29.35,
+   "end": 29.583
+  },
+  {
+   "word": "out",
+   "start": 29.583,
+   "end": 29.683
+  },
+  {
+   "word": "of",
+   "start": 29.683,
+   "end": 29.783
+  },
+  {
+   "word": "the",
+   "start": 29.783,
+   "end": 29.883
+  },
+  {
+   "word": "water",
+   "start": 29.883,
+   "end": 30.067
+  },
+  {
+   "word": "with",
+   "start": 30.067,
+   "end": 30.217
+  },
+  {
+   "word": "a",
+   "start": 30.217,
+   "end": 30.3
+  },
+  {
+   "word": "paddle.",
+   "start": 30.3,
+   "end": 30.533
+  },
+  {
+   "word": "It's",
+   "start": 31.183,
+   "end": 31.517
+  },
+  {
+   "word": "Ivy,",
+   "start": 31.517,
+   "end": 31.8
+  },
+  {
+   "word": "who",
+   "start": 32.15,
+   "end": 32.317
+  },
+  {
+   "word": "sits",
+   "start": 32.317,
+   "end": 32.467
+  },
+  {
+   "word": "in",
+   "start": 32.467,
+   "end": 32.617
+  },
+  {
+   "word": "front",
+   "start": 32.617,
+   "end": 32.75
+  },
+  {
+   "word": "of",
+   "start": 32.75,
+   "end": 32.867
+  },
+  {
+   "word": "you",
+   "start": 32.867,
+   "end": 32.95
+  },
+  {
+   "word": "in",
+   "start": 32.95,
+   "end": 33.083
+  },
+  {
+   "word": "science",
+   "start": 33.083,
+   "end": 33.4
+  },
+  {
+   "word": "and",
+   "start": 33.733,
+   "end": 33.933
+  },
+  {
+   "word": "has",
+   "start": 33.933,
+   "end": 34.05
+  },
+  {
+   "word": "never",
+   "start": 34.05,
+   "end": 34.317
+  },
+  {
+   "word": "heard",
+   "start": 34.317,
+   "end": 34.533
+  },
+  {
+   "word": "you",
+   "start": 34.533,
+   "end": 34.717
+  },
+  {
+   "word": "say",
+   "start": 34.717,
+   "end": 34.9
+  },
+  {
+   "word": "one",
+   "start": 34.9,
+   "end": 35.333
+  },
+  {
+   "word": "single",
+   "start": 35.333,
+   "end": 35.7
+  },
+  {
+   "word": "word.",
+   "start": 35.7,
+   "end": 36.133
+  },
+  {
+   "word": "She",
+   "start": 36.883,
+   "end": 37.133
+  },
+  {
+   "word": "holds",
+   "start": 37.133,
+   "end": 37.35
+  },
+  {
+   "word": "your",
+   "start": 37.35,
+   "end": 37.533
+  },
+  {
+   "word": "cap",
+   "start": 37.533,
+   "end": 37.85
+  },
+  {
+   "word": "and",
+   "start": 37.85,
+   "end": 38.05
+  },
+  {
+   "word": "says",
+   "start": 38.05,
+   "end": 38.217
+  },
+  {
+   "word": "nothing.",
+   "start": 38.217,
+   "end": 38.6
+  },
+  {
+   "word": "So,",
+   "start": 40.0,
+   "end": 40.15
+  },
+  {
+   "word": "what",
+   "start": 40.5,
+   "end": 40.683
+  },
+  {
+   "word": "if",
+   "start": 40.683,
+   "end": 40.817
+  },
+  {
+   "word": "you",
+   "start": 40.817,
+   "end": 40.95
+  },
+  {
+   "word": "were",
+   "start": 40.95,
+   "end": 41.067
+  },
+  {
+   "word": "the",
+   "start": 41.067,
+   "end": 41.2
+  },
+  {
+   "word": "only",
+   "start": 41.2,
+   "end": 41.5
+  },
+  {
+   "word": "boy",
+   "start": 41.5,
+   "end": 41.95
+  },
+  {
+   "word": "on",
+   "start": 41.95,
+   "end": 42.317
+  },
+  {
+   "word": "an",
+   "start": 42.317,
+   "end": 42.467
+  },
+  {
+   "word": "island",
+   "start": 42.467,
+   "end": 42.833
+  },
+  {
+   "word": "full",
+   "start": 42.833,
+   "end": 43.117
+  },
+  {
+   "word": "of",
+   "start": 43.117,
+   "end": 43.317
+  },
+  {
+   "word": "girls?",
+   "start": 43.317,
+   "end": 43.583
+  },
+  {
+   "word": "Day",
+   "start": 44.417,
+   "end": 44.95
+  },
+  {
+   "word": "one.",
+   "start": 44.95,
+   "end": 45.575
+  },
+  {
+   "word": "Seventy-two",
+   "start": 45.575,
+   "end": 46.2
+  },
+  {
+   "word": "hours",
+   "start": 46.2,
+   "end": 46.45
+  },
+  {
+   "word": "to",
+   "start": 46.45,
+   "end": 46.667
+  },
+  {
+   "word": "go.",
+   "start": 46.667,
+   "end": 46.883
+  },
+  {
+   "word": "Here's",
+   "start": 47.583,
+   "end": 48.117
+  },
+  {
+   "word": "how",
+   "start": 48.117,
+   "end": 48.217
+  },
+  {
+   "word": "it",
+   "start": 48.217,
+   "end": 48.333
+  },
+  {
+   "word": "works.",
+   "start": 48.333,
+   "end": 48.6
+  },
+  {
+   "word": "Rule",
+   "start": 49.083,
+   "end": 49.167
+  },
+  {
+   "word": "one.",
+   "start": 49.167,
+   "end": 50.033
+  },
+  {
+   "word": "Nobody",
+   "start": 50.033,
+   "end": 50.267
+  },
+  {
+   "word": "is",
+   "start": 50.267,
+   "end": 50.683
+  },
+  {
+   "word": "coming",
+   "start": 50.683,
+   "end": 50.933
+  },
+  {
+   "word": "for",
+   "start": 50.933,
+   "end": 51.233
+  },
+  {
+   "word": "seventy-two",
+   "start": 51.233,
+   "end": 51.85
+  },
+  {
+   "word": "hours.",
+   "start": 51.85,
+   "end": 52.25
+  },
+  {
+   "word": "The",
+   "start": 52.883,
+   "end": 53.017
+  },
+  {
+   "word": "radio",
+   "start": 53.017,
+   "end": 53.317
+  },
+  {
+   "word": "sank",
+   "start": 53.317,
+   "end": 53.617
+  },
+  {
+   "word": "with",
+   "start": 53.617,
+   "end": 53.8
+  },
+  {
+   "word": "the",
+   "start": 53.8,
+   "end": 53.95
+  },
+  {
+   "word": "ferry,",
+   "start": 53.95,
+   "end": 54.2
+  },
+  {
+   "word": "and",
+   "start": 54.467,
+   "end": 54.567
+  },
+  {
+   "word": "the",
+   "start": 54.567,
+   "end": 54.65
+  },
+  {
+   "word": "nearest",
+   "start": 54.65,
+   "end": 54.833
+  },
+  {
+   "word": "phone",
+   "start": 54.833,
+   "end": 55.133
+  },
+  {
+   "word": "signal",
+   "start": 55.133,
+   "end": 55.45
+  },
+  {
+   "word": "is",
+   "start": 55.45,
+   "end": 55.667
+  },
+  {
+   "word": "somewhere",
+   "start": 55.667,
+   "end": 55.917
+  },
+  {
+   "word": "in",
+   "start": 55.917,
+   "end": 56.117
+  },
+  {
+   "word": "the",
+   "start": 56.117,
+   "end": 56.2
+  },
+  {
+   "word": "next",
+   "start": 56.2,
+   "end": 56.417
+  },
+  {
+   "word": "century.",
+   "start": 56.417,
+   "end": 56.85
+  },
+  {
+   "word": "So",
+   "start": 57.433,
+   "end": 57.633
+  },
+  {
+   "word": "you",
+   "start": 57.767,
+   "end": 57.883
+  },
+  {
+   "word": "survive",
+   "start": 57.883,
+   "end": 58.3
+  },
+  {
+   "word": "on",
+   "start": 58.3,
+   "end": 58.667
+  },
+  {
+   "word": "your",
+   "start": 58.667,
+   "end": 58.817
+  },
+  {
+   "word": "own.",
+   "start": 58.817,
+   "end": 59.033
+  },
+  {
+   "word": "Rule",
+   "start": 59.267,
+   "end": 59.4
+  },
+  {
+   "word": "two.",
+   "start": 59.4,
+   "end": 60.55
+  },
+  {
+   "word": "Survival",
+   "start": 60.55,
+   "end": 60.55
+  },
+  {
+   "word": "has",
+   "start": 60.55,
+   "end": 60.833
+  },
+  {
+   "word": "an",
+   "start": 60.833,
+   "end": 61.017
+  },
+  {
+   "word": "order,",
+   "start": 61.017,
+   "end": 61.233
+  },
+  {
+   "word": "and",
+   "start": 61.5,
+   "end": 61.583
+  },
+  {
+   "word": "it's",
+   "start": 61.583,
+   "end": 61.733
+  },
+  {
+   "word": "called",
+   "start": 61.733,
+   "end": 62.0
+  },
+  {
+   "word": "the",
+   "start": 62.0,
+   "end": 62.3
+  },
+  {
+   "word": "rule",
+   "start": 62.3,
+   "end": 62.517
+  },
+  {
+   "word": "of",
+   "start": 62.517,
+   "end": 62.783
+  },
+  {
+   "word": "threes.",
+   "start": 62.783,
+   "end": 63.233
+  },
+  {
+   "word": "About",
+   "start": 63.867,
+   "end": 64.083
+  },
+  {
+   "word": "three",
+   "start": 64.083,
+   "end": 64.4
+  },
+  {
+   "word": "minutes",
+   "start": 64.4,
+   "end": 64.65
+  },
+  {
+   "word": "without",
+   "start": 64.65,
+   "end": 64.95
+  },
+  {
+   "word": "air.",
+   "start": 64.95,
+   "end": 65.217
+  },
+  {
+   "word": "Three",
+   "start": 65.65,
+   "end": 65.883
+  },
+  {
+   "word": "days",
+   "start": 65.883,
+   "end": 66.2
+  },
+  {
+   "word": "without",
+   "start": 66.2,
+   "end": 66.583
+  },
+  {
+   "word": "water.",
+   "start": 66.583,
+   "end": 66.917
+  },
+  {
+   "word": "Three",
+   "start": 66.917,
+   "end": 67.583
+  },
+  {
+   "word": "weeks",
+   "start": 67.583,
+   "end": 67.95
+  },
+  {
+   "word": "without",
+   "start": 67.95,
+   "end": 68.417
+  },
+  {
+   "word": "food.",
+   "start": 68.417,
+   "end": 68.783
+  },
+  {
+   "word": "And",
+   "start": 69.4,
+   "end": 69.45
+  },
+  {
+   "word": "in",
+   "start": 69.45,
+   "end": 69.633
+  },
+  {
+   "word": "harsh",
+   "start": 69.633,
+   "end": 69.867
+  },
+  {
+   "word": "weather,",
+   "start": 69.867,
+   "end": 70.2
+  },
+  {
+   "word": "about",
+   "start": 70.6,
+   "end": 70.717
+  },
+  {
+   "word": "three",
+   "start": 70.717,
+   "end": 71.05
+  },
+  {
+   "word": "hours",
+   "start": 71.05,
+   "end": 71.417
+  },
+  {
+   "word": "without",
+   "start": 71.417,
+   "end": 71.85
+  },
+  {
+   "word": "shelter.",
+   "start": 71.85,
+   "end": 72.217
+  },
+  {
+   "word": "It's",
+   "start": 73.1,
+   "end": 73.3
+  },
+  {
+   "word": "a",
+   "start": 73.3,
+   "end": 73.4
+  },
+  {
+   "word": "rule",
+   "start": 73.4,
+   "end": 73.517
+  },
+  {
+   "word": "of",
+   "start": 73.517,
+   "end": 73.65
+  },
+  {
+   "word": "thumb,",
+   "start": 73.65,
+   "end": 73.933
+  },
+  {
+   "word": "not",
+   "start": 74.05,
+   "end": 74.2
+  },
+  {
+   "word": "a",
+   "start": 74.2,
+   "end": 74.317
+  },
+  {
+   "word": "law,",
+   "start": 74.317,
+   "end": 74.533
+  },
+  {
+   "word": "but",
+   "start": 74.867,
+   "end": 75.017
+  },
+  {
+   "word": "it",
+   "start": 75.017,
+   "end": 75.117
+  },
+  {
+   "word": "tells",
+   "start": 75.117,
+   "end": 75.267
+  },
+  {
+   "word": "you",
+   "start": 75.267,
+   "end": 75.483
+  },
+  {
+   "word": "what",
+   "start": 75.483,
+   "end": 75.75
+  },
+  {
+   "word": "comes",
+   "start": 75.75,
+   "end": 76.033
+  },
+  {
+   "word": "first.",
+   "start": 76.033,
+   "end": 76.333
+  },
+  {
+   "word": "Shelter,",
+   "start": 76.9,
+   "end": 77.0
+  },
+  {
+   "word": "then",
+   "start": 77.567,
+   "end": 77.833
+  },
+  {
+   "word": "water.",
+   "start": 77.833,
+   "end": 78.25
+  },
+  {
+   "word": "So",
+   "start": 78.967,
+   "end": 79.133
+  },
+  {
+   "word": "while",
+   "start": 79.15,
+   "end": 79.383
+  },
+  {
+   "word": "the",
+   "start": 79.383,
+   "end": 79.517
+  },
+  {
+   "word": "girls",
+   "start": 79.517,
+   "end": 79.733
+  },
+  {
+   "word": "drag",
+   "start": 79.733,
+   "end": 80.033
+  },
+  {
+   "word": "branches",
+   "start": 80.033,
+   "end": 80.467
+  },
+  {
+   "word": "into",
+   "start": 80.467,
+   "end": 80.7
+  },
+  {
+   "word": "a",
+   "start": 80.7,
+   "end": 80.85
+  },
+  {
+   "word": "shelter,",
+   "start": 80.85,
+   "end": 81.1
+  },
+  {
+   "word": "you",
+   "start": 81.333,
+   "end": 81.517
+  },
+  {
+   "word": "stand",
+   "start": 81.517,
+   "end": 81.767
+  },
+  {
+   "word": "there",
+   "start": 81.767,
+   "end": 82.067
+  },
+  {
+   "word": "holding",
+   "start": 82.067,
+   "end": 82.283
+  },
+  {
+   "word": "a",
+   "start": 82.283,
+   "end": 82.467
+  },
+  {
+   "word": "bag",
+   "start": 82.467,
+   "end": 82.667
+  },
+  {
+   "word": "of",
+   "start": 82.667,
+   "end": 82.883
+  },
+  {
+   "word": "party",
+   "start": 82.883,
+   "end": 83.2
+  },
+  {
+   "word": "supplies.",
+   "start": 83.2,
+   "end": 83.583
+  },
+  {
+   "word": "Rule",
+   "start": 84.95,
+   "end": 85.05
+  },
+  {
+   "word": "three.",
+   "start": 85.05,
+   "end": 86.2
+  },
+  {
+   "word": "Hazel's",
+   "start": 86.2,
+   "end": 86.55
+  },
+  {
+   "word": "rules.",
+   "start": 86.55,
+   "end": 86.717
+  },
+  {
+   "word": "She's",
+   "start": 87.3,
+   "end": 87.833
+  },
+  {
+   "word": "the",
+   "start": 87.833,
+   "end": 87.967
+  },
+  {
+   "word": "team",
+   "start": 87.967,
+   "end": 88.15
+  },
+  {
+   "word": "captain,",
+   "start": 88.15,
+   "end": 88.5
+  },
+  {
+   "word": "with",
+   "start": 88.733,
+   "end": 88.867
+  },
+  {
+   "word": "big",
+   "start": 88.867,
+   "end": 89.15
+  },
+  {
+   "word": "curly",
+   "start": 89.15,
+   "end": 89.467
+  },
+  {
+   "word": "hair",
+   "start": 89.467,
+   "end": 89.8
+  },
+  {
+   "word": "and",
+   "start": 89.8,
+   "end": 90.2
+  },
+  {
+   "word": "an",
+   "start": 90.2,
+   "end": 90.4
+  },
+  {
+   "word": "even",
+   "start": 90.4,
+   "end": 90.7
+  },
+  {
+   "word": "bigger",
+   "start": 90.7,
+   "end": 91.033
+  },
+  {
+   "word": "voice.",
+   "start": 91.033,
+   "end": 91.367
+  },
+  {
+   "word": "Nobody",
+   "start": 91.917,
+   "end": 92.433
+  },
+  {
+   "word": "leaves",
+   "start": 92.433,
+   "end": 92.783
+  },
+  {
+   "word": "camp",
+   "start": 92.783,
+   "end": 93.05
+  },
+  {
+   "word": "alone.",
+   "start": 93.05,
+   "end": 93.4
+  },
+  {
+   "word": "Everybody",
+   "start": 93.917,
+   "end": 94.217
+  },
+  {
+   "word": "builds",
+   "start": 94.217,
+   "end": 94.683
+  },
+  {
+   "word": "above",
+   "start": 94.683,
+   "end": 95.183
+  },
+  {
+   "word": "the",
+   "start": 95.183,
+   "end": 95.45
+  },
+  {
+   "word": "tide.",
+   "start": 95.45,
+   "end": 95.717
+  },
+  {
+   "word": "She",
+   "start": 96.483,
+   "end": 96.55
+  },
+  {
+   "word": "says",
+   "start": 96.55,
+   "end": 96.7
+  },
+  {
+   "word": "it",
+   "start": 96.7,
+   "end": 96.883
+  },
+  {
+   "word": "twice,",
+   "start": 96.883,
+   "end": 97.117
+  },
+  {
+   "word": "the",
+   "start": 97.433,
+   "end": 97.5
+  },
+  {
+   "word": "way",
+   "start": 97.5,
+   "end": 97.633
+  },
+  {
+   "word": "captains",
+   "start": 97.633,
+   "end": 97.967
+  },
+  {
+   "word": "do.",
+   "start": 97.967,
+   "end": 98.333
+  },
+  {
+   "word": "Then",
+   "start": 98.9,
+   "end": 99.1
+  },
+  {
+   "word": "she",
+   "start": 99.133,
+   "end": 99.333
+  },
+  {
+   "word": "looks",
+   "start": 99.333,
+   "end": 99.45
+  },
+  {
+   "word": "at",
+   "start": 99.45,
+   "end": 99.583
+  },
+  {
+   "word": "your",
+   "start": 99.583,
+   "end": 99.683
+  },
+  {
+   "word": "bag.",
+   "start": 99.683,
+   "end": 99.983
+  },
+  {
+   "word": "\"Glow",
+   "start": 100.833,
+   "end": 100.883
+  },
+  {
+   "word": "sticks?",
+   "start": 100.883,
+   "end": 101.167
+  },
+  {
+   "word": "Extra",
+   "start": 101.75,
+   "end": 102.05
+  },
+  {
+   "word": "weight.",
+   "start": 102.05,
+   "end": 102.4
+  },
+  {
+   "word": "Just",
+   "start": 102.817,
+   "end": 103.033
+  },
+  {
+   "word": "like",
+   "start": 103.033,
+   "end": 103.317
+  },
+  {
+   "word": "the",
+   "start": 103.317,
+   "end": 103.5
+  },
+  {
+   "word": "boy.\"",
+   "start": 103.5,
+   "end": 103.8
+  },
+  {
+   "word": "And",
+   "start": 104.633,
+   "end": 104.8
+  },
+  {
+   "word": "at",
+   "start": 104.8,
+   "end": 104.9
+  },
+  {
+   "word": "noon,",
+   "start": 104.9,
+   "end": 105.133
+  },
+  {
+   "word": "she's",
+   "start": 105.45,
+   "end": 105.65
+  },
+  {
+   "word": "holding",
+   "start": 105.65,
+   "end": 105.8
+  },
+  {
+   "word": "a",
+   "start": 105.8,
+   "end": 106.0
+  },
+  {
+   "word": "vote",
+   "start": 106.0,
+   "end": 106.183
+  },
+  {
+   "word": "about",
+   "start": 106.183,
+   "end": 106.517
+  },
+  {
+   "word": "you.",
+   "start": 106.517,
+   "end": 106.867
+  },
+  {
+   "word": "Noon,",
+   "start": 107.617,
+   "end": 107.767
+  },
+  {
+   "word": "the",
+   "start": 108.033,
+   "end": 108.15
+  },
+  {
+   "word": "beach.",
+   "start": 108.15,
+   "end": 108.383
+  },
+  {
+   "word": "Hazel",
+   "start": 108.983,
+   "end": 109.083
+  },
+  {
+   "word": "climbs",
+   "start": 109.083,
+   "end": 109.417
+  },
+  {
+   "word": "onto",
+   "start": 109.417,
+   "end": 109.683
+  },
+  {
+   "word": "a",
+   "start": 109.683,
+   "end": 109.8
+  },
+  {
+   "word": "log",
+   "start": 109.8,
+   "end": 110.05
+  },
+  {
+   "word": "like",
+   "start": 110.05,
+   "end": 110.317
+  },
+  {
+   "word": "it's",
+   "start": 110.317,
+   "end": 110.5
+  },
+  {
+   "word": "a",
+   "start": 110.5,
+   "end": 110.6
+  },
+  {
+   "word": "stage.",
+   "start": 110.6,
+   "end": 110.917
+  },
+  {
+   "word": "\"All",
+   "start": 111.65,
+   "end": 111.85
+  },
+  {
+   "word": "in",
+   "start": 111.85,
+   "end": 112.05
+  },
+  {
+   "word": "favor",
+   "start": 112.05,
+   "end": 112.2
+  },
+  {
+   "word": "of",
+   "start": 112.2,
+   "end": 112.417
+  },
+  {
+   "word": "the",
+   "start": 112.417,
+   "end": 112.517
+  },
+  {
+   "word": "boy",
+   "start": 112.517,
+   "end": 112.767
+  },
+  {
+   "word": "getting",
+   "start": 112.767,
+   "end": 112.983
+  },
+  {
+   "word": "his",
+   "start": 112.983,
+   "end": 113.217
+  },
+  {
+   "word": "own",
+   "start": 113.217,
+   "end": 113.483
+  },
+  {
+   "word": "camp?\"",
+   "start": 113.483,
+   "end": 113.883
+  },
+  {
+   "word": "Seventeen",
+   "start": 114.6,
+   "end": 115.1
+  },
+  {
+   "word": "hands",
+   "start": 115.1,
+   "end": 115.5
+  },
+  {
+   "word": "shoot",
+   "start": 115.5,
+   "end": 115.733
+  },
+  {
+   "word": "up.",
+   "start": 115.733,
+   "end": 115.983
+  },
+  {
+   "word": "Poppy",
+   "start": 116.517,
+   "end": 116.917
+  },
+  {
+   "word": "doesn't",
+   "start": 116.917,
+   "end": 117.267
+  },
+  {
+   "word": "vote,",
+   "start": 117.267,
+   "end": 117.45
+  },
+  {
+   "word": "because",
+   "start": 117.583,
+   "end": 117.867
+  },
+  {
+   "word": "her",
+   "start": 117.867,
+   "end": 118.017
+  },
+  {
+   "word": "mouth",
+   "start": 118.017,
+   "end": 118.233
+  },
+  {
+   "word": "is",
+   "start": 118.233,
+   "end": 118.467
+  },
+  {
+   "word": "full",
+   "start": 118.467,
+   "end": 118.633
+  },
+  {
+   "word": "of",
+   "start": 118.633,
+   "end": 118.85
+  },
+  {
+   "word": "crackers.",
+   "start": 118.85,
+   "end": 119.183
+  },
+  {
+   "word": "Ivy's",
+   "start": 119.517,
+   "end": 119.767
+  },
+  {
+   "word": "hand",
+   "start": 119.767,
+   "end": 119.967
+  },
+  {
+   "word": "goes",
+   "start": 119.967,
+   "end": 120.183
+  },
+  {
+   "word": "up",
+   "start": 120.183,
+   "end": 120.383
+  },
+  {
+   "word": "last,",
+   "start": 120.383,
+   "end": 120.817
+  },
+  {
+   "word": "slowly,",
+   "start": 121.017,
+   "end": 121.383
+  },
+  {
+   "word": "while",
+   "start": 121.617,
+   "end": 121.867
+  },
+  {
+   "word": "she",
+   "start": 121.867,
+   "end": 122.033
+  },
+  {
+   "word": "studies",
+   "start": 122.033,
+   "end": 122.333
+  },
+  {
+   "word": "her",
+   "start": 122.333,
+   "end": 122.6
+  },
+  {
+   "word": "shoes.",
+   "start": 122.6,
+   "end": 122.9
+  },
+  {
+   "word": "The",
+   "start": 123.717,
+   "end": 123.9
+  },
+  {
+   "word": "camp's",
+   "start": 123.9,
+   "end": 124.233
+  },
+  {
+   "word": "approval",
+   "start": 124.233,
+   "end": 124.567
+  },
+  {
+   "word": "of",
+   "start": 124.567,
+   "end": 124.767
+  },
+  {
+   "word": "you,",
+   "start": 124.767,
+   "end": 125.0
+  },
+  {
+   "word": "zero",
+   "start": 125.633,
+   "end": 125.933
+  },
+  {
+   "word": "percent.",
+   "start": 125.933,
+   "end": 126.383
+  },
+  {
+   "word": "So",
+   "start": 127.217,
+   "end": 127.517
+  },
+  {
+   "word": "you",
+   "start": 127.617,
+   "end": 127.667
+  },
+  {
+   "word": "move",
+   "start": 127.667,
+   "end": 127.817
+  },
+  {
+   "word": "behind",
+   "start": 127.817,
+   "end": 128.133
+  },
+  {
+   "word": "a",
+   "start": 128.133,
+   "end": 128.267
+  },
+  {
+   "word": "big",
+   "start": 128.267,
+   "end": 128.433
+  },
+  {
+   "word": "rock",
+   "start": 128.433,
+   "end": 128.733
+  },
+  {
+   "word": "to",
+   "start": 128.733,
+   "end": 128.983
+  },
+  {
+   "word": "boy",
+   "start": 128.983,
+   "end": 129.2
+  },
+  {
+   "word": "camp.",
+   "start": 129.2,
+   "end": 129.483
+  },
+  {
+   "word": "And",
+   "start": 130.067,
+   "end": 130.333
+  },
+  {
+   "word": "honestly,",
+   "start": 130.333,
+   "end": 130.667
+  },
+  {
+   "word": "there",
+   "start": 130.867,
+   "end": 131.0
+  },
+  {
+   "word": "are",
+   "start": 131.0,
+   "end": 131.2
+  },
+  {
+   "word": "perks.",
+   "start": 131.2,
+   "end": 131.45
+  },
+  {
+   "word": "One",
+   "start": 132.05,
+   "end": 132.317
+  },
+  {
+   "word": "bed,",
+   "start": 132.317,
+   "end": 132.6
+  },
+  {
+   "word": "entirely",
+   "start": 133.017,
+   "end": 133.45
+  },
+  {
+   "word": "yours.",
+   "start": 133.45,
+   "end": 133.883
+  },
+  {
+   "word": "Nobody",
+   "start": 134.483,
+   "end": 134.667
+  },
+  {
+   "word": "asks",
+   "start": 134.667,
+   "end": 134.95
+  },
+  {
+   "word": "you",
+   "start": 134.95,
+   "end": 135.15
+  },
+  {
+   "word": "to",
+   "start": 135.15,
+   "end": 135.25
+  },
+  {
+   "word": "clean",
+   "start": 135.25,
+   "end": 135.417
+  },
+  {
+   "word": "up.",
+   "start": 135.417,
+   "end": 135.633
+  },
+  {
+   "word": "Nobody",
+   "start": 136.083,
+   "end": 136.317
+  },
+  {
+   "word": "asks",
+   "start": 136.317,
+   "end": 136.6
+  },
+  {
+   "word": "you",
+   "start": 136.6,
+   "end": 136.817
+  },
+  {
+   "word": "to",
+   "start": 136.817,
+   "end": 136.95
+  },
+  {
+   "word": "share",
+   "start": 136.95,
+   "end": 137.15
+  },
+  {
+   "word": "the",
+   "start": 137.15,
+   "end": 137.35
+  },
+  {
+   "word": "crackers",
+   "start": 137.35,
+   "end": 137.817
+  },
+  {
+   "word": "either,",
+   "start": 137.817,
+   "end": 138.033
+  },
+  {
+   "word": "which",
+   "start": 138.5,
+   "end": 138.617
+  },
+  {
+   "word": "is",
+   "start": 138.617,
+   "end": 138.733
+  },
+  {
+   "word": "fine,",
+   "start": 138.733,
+   "end": 139.067
+  },
+  {
+   "word": "because",
+   "start": 139.083,
+   "end": 139.417
+  },
+  {
+   "word": "Poppy",
+   "start": 139.417,
+   "end": 139.933
+  },
+  {
+   "word": "has",
+   "start": 139.933,
+   "end": 140.183
+  },
+  {
+   "word": "them",
+   "start": 140.183,
+   "end": 140.333
+  },
+  {
+   "word": "all.",
+   "start": 140.333,
+   "end": 140.55
+  },
+  {
+   "word": "And",
+   "start": 140.983,
+   "end": 141.517
+  },
+  {
+   "word": "you",
+   "start": 141.517,
+   "end": 141.917
+  },
+  {
+   "word": "own",
+   "start": 141.917,
+   "end": 142.167
+  },
+  {
+   "word": "a",
+   "start": 142.167,
+   "end": 142.383
+  },
+  {
+   "word": "whole",
+   "start": 142.383,
+   "end": 142.683
+  },
+  {
+   "word": "palm",
+   "start": 142.683,
+   "end": 143.033
+  },
+  {
+   "word": "tree,",
+   "start": 143.033,
+   "end": 143.383
+  },
+  {
+   "word": "with",
+   "start": 143.917,
+   "end": 144.033
+  },
+  {
+   "word": "a",
+   "start": 144.033,
+   "end": 144.183
+  },
+  {
+   "word": "view.",
+   "start": 144.183,
+   "end": 144.517
+  },
+  {
+   "word": "Then",
+   "start": 145.317,
+   "end": 145.65
+  },
+  {
+   "word": "the",
+   "start": 145.917,
+   "end": 146.033
+  },
+  {
+   "word": "palm",
+   "start": 146.033,
+   "end": 146.267
+  },
+  {
+   "word": "tree",
+   "start": 146.267,
+   "end": 146.55
+  },
+  {
+   "word": "drops",
+   "start": 146.55,
+   "end": 146.85
+  },
+  {
+   "word": "a",
+   "start": 146.85,
+   "end": 147.067
+  },
+  {
+   "word": "coconut",
+   "start": 147.067,
+   "end": 147.333
+  },
+  {
+   "word": "on",
+   "start": 147.333,
+   "end": 147.6
+  },
+  {
+   "word": "your",
+   "start": 147.6,
+   "end": 147.717
+  },
+  {
+   "word": "head.",
+   "start": 147.717,
+   "end": 147.967
+  },
+  {
+   "word": "That",
+   "start": 149.117,
+   "end": 149.333
+  },
+  {
+   "word": "night,",
+   "start": 149.333,
+   "end": 149.633
+  },
+  {
+   "word": "something",
+   "start": 149.817,
+   "end": 150.067
+  },
+  {
+   "word": "wakes",
+   "start": 150.067,
+   "end": 150.317
+  },
+  {
+   "word": "you",
+   "start": 150.317,
+   "end": 150.533
+  },
+  {
+   "word": "up.",
+   "start": 150.533,
+   "end": 150.767
+  },
+  {
+   "word": "Your",
+   "start": 151.35,
+   "end": 151.517
+  },
+  {
+   "word": "bed",
+   "start": 151.517,
+   "end": 151.95
+  },
+  {
+   "word": "is",
+   "start": 151.95,
+   "end": 152.4
+  },
+  {
+   "word": "floating.",
+   "start": 152.4,
+   "end": 152.817
+  },
+  {
+   "word": "Problem",
+   "start": 154.1,
+   "end": 154.217
+  },
+  {
+   "word": "one,",
+   "start": 154.217,
+   "end": 154.583
+  },
+  {
+   "word": "the",
+   "start": 154.883,
+   "end": 155.067
+  },
+  {
+   "word": "tide.",
+   "start": 155.067,
+   "end": 155.4
+  },
+  {
+   "word": "You",
+   "start": 155.933,
+   "end": 156.15
+  },
+  {
+   "word": "built",
+   "start": 156.15,
+   "end": 156.383
+  },
+  {
+   "word": "right",
+   "start": 156.383,
+   "end": 156.7
+  },
+  {
+   "word": "next",
+   "start": 156.7,
+   "end": 156.917
+  },
+  {
+   "word": "to",
+   "start": 156.917,
+   "end": 157.1
+  },
+  {
+   "word": "the",
+   "start": 157.1,
+   "end": 157.2
+  },
+  {
+   "word": "water,",
+   "start": 157.2,
+   "end": 157.45
+  },
+  {
+   "word": "and",
+   "start": 157.817,
+   "end": 157.95
+  },
+  {
+   "word": "the",
+   "start": 157.95,
+   "end": 158.05
+  },
+  {
+   "word": "water",
+   "start": 158.05,
+   "end": 158.367
+  },
+  {
+   "word": "noticed.",
+   "start": 158.367,
+   "end": 158.867
+  },
+  {
+   "word": "Here's",
+   "start": 159.817,
+   "end": 160.133
+  },
+  {
+   "word": "the",
+   "start": 160.133,
+   "end": 160.233
+  },
+  {
+   "word": "real",
+   "start": 160.233,
+   "end": 160.367
+  },
+  {
+   "word": "part.",
+   "start": 160.367,
+   "end": 160.683
+  },
+  {
+   "word": "Every",
+   "start": 161.3,
+   "end": 161.583
+  },
+  {
+   "word": "beach",
+   "start": 161.583,
+   "end": 161.933
+  },
+  {
+   "word": "has",
+   "start": 161.933,
+   "end": 162.167
+  },
+  {
+   "word": "a",
+   "start": 162.167,
+   "end": 162.283
+  },
+  {
+   "word": "line",
+   "start": 162.283,
+   "end": 162.467
+  },
+  {
+   "word": "of",
+   "start": 162.467,
+   "end": 162.617
+  },
+  {
+   "word": "dried",
+   "start": 162.617,
+   "end": 162.883
+  },
+  {
+   "word": "seaweed",
+   "start": 162.883,
+   "end": 163.417
+  },
+  {
+   "word": "and",
+   "start": 163.417,
+   "end": 163.567
+  },
+  {
+   "word": "driftwood,",
+   "start": 163.567,
+   "end": 164.033
+  },
+  {
+   "word": "called",
+   "start": 164.2,
+   "end": 164.517
+  },
+  {
+   "word": "the",
+   "start": 164.517,
+   "end": 164.85
+  },
+  {
+   "word": "wrack",
+   "start": 164.85,
+   "end": 165.167
+  },
+  {
+   "word": "line,",
+   "start": 165.167,
+   "end": 165.483
+  },
+  {
+   "word": "and",
+   "start": 165.483,
+   "end": 165.967
+  },
+  {
+   "word": "it",
+   "start": 165.967,
+   "end": 166.05
+  },
+  {
+   "word": "shows",
+   "start": 166.05,
+   "end": 166.267
+  },
+  {
+   "word": "how",
+   "start": 166.267,
+   "end": 166.533
+  },
+  {
+   "word": "high",
+   "start": 166.533,
+   "end": 166.833
+  },
+  {
+   "word": "a",
+   "start": 166.833,
+   "end": 166.967
+  },
+  {
+   "word": "recent",
+   "start": 166.967,
+   "end": 167.217
+  },
+  {
+   "word": "high",
+   "start": 167.217,
+   "end": 167.533
+  },
+  {
+   "word": "tide",
+   "start": 167.533,
+   "end": 167.817
+  },
+  {
+   "word": "reached.",
+   "start": 167.817,
+   "end": 168.233
+  },
+  {
+   "word": "You",
+   "start": 169.0,
+   "end": 169.017
+  },
+  {
+   "word": "drag",
+   "start": 169.017,
+   "end": 169.283
+  },
+  {
+   "word": "your",
+   "start": 169.283,
+   "end": 169.45
+  },
+  {
+   "word": "bed",
+   "start": 169.45,
+   "end": 169.683
+  },
+  {
+   "word": "up",
+   "start": 169.683,
+   "end": 169.9
+  },
+  {
+   "word": "the",
+   "start": 169.9,
+   "end": 170.067
+  },
+  {
+   "word": "rocks,",
+   "start": 170.067,
+   "end": 170.35
+  },
+  {
+   "word": "and",
+   "start": 170.867,
+   "end": 170.9
+  },
+  {
+   "word": "that's",
+   "start": 170.9,
+   "end": 171.167
+  },
+  {
+   "word": "when",
+   "start": 171.167,
+   "end": 171.25
+  },
+  {
+   "word": "you",
+   "start": 171.25,
+   "end": 171.417
+  },
+  {
+   "word": "spot",
+   "start": 171.417,
+   "end": 171.7
+  },
+  {
+   "word": "a",
+   "start": 171.7,
+   "end": 172.083
+  },
+  {
+   "word": "second",
+   "start": 172.083,
+   "end": 172.35
+  },
+  {
+   "word": "line.",
+   "start": 172.35,
+   "end": 172.767
+  },
+  {
+   "word": "Way",
+   "start": 173.567,
+   "end": 173.75
+  },
+  {
+   "word": "above",
+   "start": 173.75,
+   "end": 174.067
+  },
+  {
+   "word": "the",
+   "start": 174.067,
+   "end": 174.283
+  },
+  {
+   "word": "girls'",
+   "start": 174.283,
+   "end": 174.567
+  },
+  {
+   "word": "camp,",
+   "start": 174.767,
+   "end": 174.883
+  },
+  {
+   "word": "there's",
+   "start": 175.1,
+   "end": 175.25
+  },
+  {
+   "word": "a",
+   "start": 175.25,
+   "end": 175.367
+  },
+  {
+   "word": "row",
+   "start": 175.367,
+   "end": 175.533
+  },
+  {
+   "word": "of",
+   "start": 175.533,
+   "end": 175.75
+  },
+  {
+   "word": "whole",
+   "start": 175.75,
+   "end": 176.117
+  },
+  {
+   "word": "logs.",
+   "start": 176.117,
+   "end": 176.533
+  },
+  {
+   "word": "Those",
+   "start": 177.1,
+   "end": 177.3
+  },
+  {
+   "word": "are",
+   "start": 177.3,
+   "end": 177.467
+  },
+  {
+   "word": "leftovers",
+   "start": 177.467,
+   "end": 177.9
+  },
+  {
+   "word": "from",
+   "start": 177.9,
+   "end": 178.117
+  },
+  {
+   "word": "an",
+   "start": 178.117,
+   "end": 178.217
+  },
+  {
+   "word": "old",
+   "start": 178.217,
+   "end": 178.367
+  },
+  {
+   "word": "storm,",
+   "start": 178.367,
+   "end": 178.75
+  },
+  {
+   "word": "and",
+   "start": 179.033,
+   "end": 179.133
+  },
+  {
+   "word": "they",
+   "start": 179.133,
+   "end": 179.3
+  },
+  {
+   "word": "show",
+   "start": 179.3,
+   "end": 179.517
+  },
+  {
+   "word": "how",
+   "start": 179.517,
+   "end": 179.8
+  },
+  {
+   "word": "high",
+   "start": 179.8,
+   "end": 180.083
+  },
+  {
+   "word": "the",
+   "start": 180.083,
+   "end": 180.233
+  },
+  {
+   "word": "sea",
+   "start": 180.233,
+   "end": 180.45
+  },
+  {
+   "word": "can",
+   "start": 180.45,
+   "end": 180.7
+  },
+  {
+   "word": "really",
+   "start": 180.7,
+   "end": 181.05
+  },
+  {
+   "word": "climb.",
+   "start": 181.05,
+   "end": 181.483
+  },
+  {
+   "word": "You",
+   "start": 182.15,
+   "end": 182.333
+  },
+  {
+   "word": "run",
+   "start": 182.333,
+   "end": 182.5
+  },
+  {
+   "word": "over,",
+   "start": 182.5,
+   "end": 182.8
+  },
+  {
+   "word": "soaking",
+   "start": 182.95,
+   "end": 183.283
+  },
+  {
+   "word": "wet",
+   "start": 183.283,
+   "end": 183.6
+  },
+  {
+   "word": "and",
+   "start": 183.6,
+   "end": 183.75
+  },
+  {
+   "word": "out",
+   "start": 183.75,
+   "end": 183.867
+  },
+  {
+   "word": "of",
+   "start": 183.867,
+   "end": 183.983
+  },
+  {
+   "word": "breath.",
+   "start": 183.983,
+   "end": 184.233
+  },
+  {
+   "word": "\"Hazel,",
+   "start": 184.633,
+   "end": 184.7
+  },
+  {
+   "word": "your",
+   "start": 184.867,
+   "end": 185.017
+  },
+  {
+   "word": "tents",
+   "start": 185.017,
+   "end": 185.217
+  },
+  {
+   "word": "are",
+   "start": 185.217,
+   "end": 185.383
+  },
+  {
+   "word": "too",
+   "start": 185.383,
+   "end": 185.567
+  },
+  {
+   "word": "low.",
+   "start": 185.567,
+   "end": 185.85
+  },
+  {
+   "word": "The",
+   "start": 186.183,
+   "end": 186.3
+  },
+  {
+   "word": "ocean",
+   "start": 186.3,
+   "end": 186.483
+  },
+  {
+   "word": "has",
+   "start": 186.483,
+   "end": 186.683
+  },
+  {
+   "word": "been",
+   "start": 186.683,
+   "end": 186.8
+  },
+  {
+   "word": "up",
+   "start": 186.8,
+   "end": 186.933
+  },
+  {
+   "word": "here",
+   "start": 186.933,
+   "end": 187.067
+  },
+  {
+   "word": "before.\"",
+   "start": 187.067,
+   "end": 187.4
+  },
+  {
+   "word": "Hazel",
+   "start": 187.933,
+   "end": 188.433
+  },
+  {
+   "word": "is",
+   "start": 188.433,
+   "end": 188.683
+  },
+  {
+   "word": "busy",
+   "start": 188.683,
+   "end": 188.9
+  },
+  {
+   "word": "drawing",
+   "start": 188.9,
+   "end": 189.15
+  },
+  {
+   "word": "a",
+   "start": 189.15,
+   "end": 189.317
+  },
+  {
+   "word": "map",
+   "start": 189.317,
+   "end": 189.467
+  },
+  {
+   "word": "of",
+   "start": 189.467,
+   "end": 189.633
+  },
+  {
+   "word": "the",
+   "start": 189.633,
+   "end": 189.767
+  },
+  {
+   "word": "camp",
+   "start": 189.767,
+   "end": 189.983
+  },
+  {
+   "word": "on",
+   "start": 189.983,
+   "end": 190.183
+  },
+  {
+   "word": "a",
+   "start": 190.183,
+   "end": 190.317
+  },
+  {
+   "word": "flat",
+   "start": 190.317,
+   "end": 190.5
+  },
+  {
+   "word": "stone,",
+   "start": 190.5,
+   "end": 190.8
+  },
+  {
+   "word": "and",
+   "start": 190.967,
+   "end": 191.267
+  },
+  {
+   "word": "she",
+   "start": 191.267,
+   "end": 191.4
+  },
+  {
+   "word": "doesn't",
+   "start": 191.4,
+   "end": 191.617
+  },
+  {
+   "word": "even",
+   "start": 191.617,
+   "end": 191.783
+  },
+  {
+   "word": "look",
+   "start": 191.783,
+   "end": 191.983
+  },
+  {
+   "word": "up.",
+   "start": 191.983,
+   "end": 192.383
+  },
+  {
+   "word": "\"Boy",
+   "start": 193.167,
+   "end": 193.233
+  },
+  {
+   "word": "camp",
+   "start": 193.233,
+   "end": 193.533
+  },
+  {
+   "word": "isn't",
+   "start": 193.533,
+   "end": 194.0
+  },
+  {
+   "word": "on",
+   "start": 194.0,
+   "end": 194.283
+  },
+  {
+   "word": "the",
+   "start": 194.283,
+   "end": 194.467
+  },
+  {
+   "word": "map.\"",
+   "start": 194.467,
+   "end": 194.817
+  },
+  {
+   "word": "Approval,",
+   "start": 195.867,
+   "end": 196.05
+  },
+  {
+   "word": "five",
+   "start": 196.233,
+   "end": 196.517
+  },
+  {
+   "word": "percent.",
+   "start": 196.517,
+   "end": 196.933
+  },
+  {
+   "word": "You",
+   "start": 197.617,
+   "end": 197.8
+  },
+  {
+   "word": "look",
+   "start": 197.8,
+   "end": 197.933
+  },
+  {
+   "word": "at",
+   "start": 197.933,
+   "end": 198.05
+  },
+  {
+   "word": "the",
+   "start": 198.05,
+   "end": 198.15
+  },
+  {
+   "word": "horizon,",
+   "start": 198.15,
+   "end": 198.567
+  },
+  {
+   "word": "and",
+   "start": 198.767,
+   "end": 198.933
+  },
+  {
+   "word": "the",
+   "start": 198.933,
+   "end": 199.017
+  },
+  {
+   "word": "horizon",
+   "start": 199.017,
+   "end": 199.483
+  },
+  {
+   "word": "looks",
+   "start": 199.483,
+   "end": 199.767
+  },
+  {
+   "word": "back",
+   "start": 199.767,
+   "end": 200.05
+  },
+  {
+   "word": "at",
+   "start": 200.05,
+   "end": 200.233
+  },
+  {
+   "word": "you,",
+   "start": 200.233,
+   "end": 200.483
+  },
+  {
+   "word": "slightly",
+   "start": 200.683,
+   "end": 200.967
+  },
+  {
+   "word": "darker",
+   "start": 200.967,
+   "end": 201.35
+  },
+  {
+   "word": "than",
+   "start": 201.35,
+   "end": 201.6
+  },
+  {
+   "word": "before.",
+   "start": 201.6,
+   "end": 201.933
+  },
+  {
+   "word": "Nobody",
+   "start": 202.667,
+   "end": 202.983
+  },
+  {
+   "word": "believes",
+   "start": 202.983,
+   "end": 203.45
+  },
+  {
+   "word": "the",
+   "start": 203.45,
+   "end": 203.65
+  },
+  {
+   "word": "weather",
+   "start": 203.65,
+   "end": 203.95
+  },
+  {
+   "word": "until",
+   "start": 203.95,
+   "end": 204.483
+  },
+  {
+   "word": "it's",
+   "start": 204.483,
+   "end": 204.7
+  },
+  {
+   "word": "wet.",
+   "start": 204.7,
+   "end": 204.95
+  },
+  {
+   "word": "By",
+   "start": 205.917,
+   "end": 206.117
+  },
+  {
+   "word": "night",
+   "start": 206.117,
+   "end": 206.333
+  },
+  {
+   "word": "three,",
+   "start": 206.333,
+   "end": 206.7
+  },
+  {
+   "word": "the",
+   "start": 206.95,
+   "end": 207.033
+  },
+  {
+   "word": "ocean",
+   "start": 207.033,
+   "end": 207.383
+  },
+  {
+   "word": "will",
+   "start": 207.383,
+   "end": 207.583
+  },
+  {
+   "word": "be",
+   "start": 207.583,
+   "end": 207.8
+  },
+  {
+   "word": "exactly",
+   "start": 207.8,
+   "end": 208.25
+  },
+  {
+   "word": "where",
+   "start": 208.25,
+   "end": 208.65
+  },
+  {
+   "word": "you",
+   "start": 208.65,
+   "end": 208.85
+  },
+  {
+   "word": "pointed.",
+   "start": 208.85,
+   "end": 209.15
+  },
+  {
+   "word": "Problem",
+   "start": 210.267,
+   "end": 210.433
+  },
+  {
+   "word": "two,",
+   "start": 210.433,
+   "end": 210.767
+  },
+  {
+   "word": "water.",
+   "start": 211.317,
+   "end": 211.483
+  },
+  {
+   "word": "Poppy",
+   "start": 212.2,
+   "end": 212.7
+  },
+  {
+   "word": "proudly",
+   "start": 212.7,
+   "end": 213.083
+  },
+  {
+   "word": "holds",
+   "start": 213.083,
+   "end": 213.467
+  },
+  {
+   "word": "up",
+   "start": 213.467,
+   "end": 213.633
+  },
+  {
+   "word": "a",
+   "start": 213.633,
+   "end": 213.767
+  },
+  {
+   "word": "bottle.",
+   "start": 213.767,
+   "end": 213.983
+  },
+  {
+   "word": "\"Look!",
+   "start": 214.367,
+   "end": 214.483
+  },
+  {
+   "word": "The",
+   "start": 214.75,
+   "end": 214.867
+  },
+  {
+   "word": "ocean",
+   "start": 214.867,
+   "end": 215.217
+  },
+  {
+   "word": "is",
+   "start": 215.217,
+   "end": 215.55
+  },
+  {
+   "word": "full",
+   "start": 215.55,
+   "end": 215.817
+  },
+  {
+   "word": "of",
+   "start": 215.817,
+   "end": 215.967
+  },
+  {
+   "word": "it!\"",
+   "start": 215.967,
+   "end": 216.167
+  },
+  {
+   "word": "She",
+   "start": 216.75,
+   "end": 216.933
+  },
+  {
+   "word": "lifts",
+   "start": 216.933,
+   "end": 217.117
+  },
+  {
+   "word": "it",
+   "start": 217.117,
+   "end": 217.317
+  },
+  {
+   "word": "to",
+   "start": 217.317,
+   "end": 217.433
+  },
+  {
+   "word": "her",
+   "start": 217.433,
+   "end": 217.55
+  },
+  {
+   "word": "mouth,",
+   "start": 217.55,
+   "end": 217.8
+  },
+  {
+   "word": "and",
+   "start": 218.067,
+   "end": 218.15
+  },
+  {
+   "word": "you",
+   "start": 218.15,
+   "end": 218.283
+  },
+  {
+   "word": "smack",
+   "start": 218.283,
+   "end": 218.7
+  },
+  {
+   "word": "it",
+   "start": 218.7,
+   "end": 218.9
+  },
+  {
+   "word": "out",
+   "start": 218.9,
+   "end": 219.017
+  },
+  {
+   "word": "of",
+   "start": 219.017,
+   "end": 219.083
+  },
+  {
+   "word": "her",
+   "start": 219.083,
+   "end": 219.183
+  },
+  {
+   "word": "hand.",
+   "start": 219.183,
+   "end": 219.467
+  },
+  {
+   "word": "Here's",
+   "start": 220.033,
+   "end": 220.233
+  },
+  {
+   "word": "why.",
+   "start": 220.233,
+   "end": 220.517
+  },
+  {
+   "word": "Human",
+   "start": 221.383,
+   "end": 221.383
+  },
+  {
+   "word": "kidneys",
+   "start": 221.383,
+   "end": 221.75
+  },
+  {
+   "word": "can",
+   "start": 221.75,
+   "end": 221.983
+  },
+  {
+   "word": "only",
+   "start": 221.983,
+   "end": 222.283
+  },
+  {
+   "word": "make",
+   "start": 222.283,
+   "end": 222.517
+  },
+  {
+   "word": "urine",
+   "start": 222.517,
+   "end": 222.833
+  },
+  {
+   "word": "that",
+   "start": 222.833,
+   "end": 223.0
+  },
+  {
+   "word": "is",
+   "start": 223.0,
+   "end": 223.167
+  },
+  {
+   "word": "less",
+   "start": 223.167,
+   "end": 223.467
+  },
+  {
+   "word": "salty",
+   "start": 223.467,
+   "end": 223.95
+  },
+  {
+   "word": "than",
+   "start": 223.95,
+   "end": 224.183
+  },
+  {
+   "word": "seawater.",
+   "start": 224.183,
+   "end": 224.667
+  },
+  {
+   "word": "To",
+   "start": 225.233,
+   "end": 225.383
+  },
+  {
+   "word": "flush",
+   "start": 225.383,
+   "end": 225.65
+  },
+  {
+   "word": "the",
+   "start": 225.65,
+   "end": 225.867
+  },
+  {
+   "word": "salt,",
+   "start": 225.867,
+   "end": 226.167
+  },
+  {
+   "word": "you'd",
+   "start": 226.5,
+   "end": 226.75
+  },
+  {
+   "word": "lose",
+   "start": 226.75,
+   "end": 226.983
+  },
+  {
+   "word": "more",
+   "start": 226.983,
+   "end": 227.35
+  },
+  {
+   "word": "water",
+   "start": 227.35,
+   "end": 227.667
+  },
+  {
+   "word": "than",
+   "start": 227.667,
+   "end": 227.817
+  },
+  {
+   "word": "you",
+   "start": 227.817,
+   "end": 227.95
+  },
+  {
+   "word": "drank.",
+   "start": 227.95,
+   "end": 228.217
+  },
+  {
+   "word": "Seawater",
+   "start": 228.767,
+   "end": 229.15
+  },
+  {
+   "word": "makes",
+   "start": 229.15,
+   "end": 229.4
+  },
+  {
+   "word": "you",
+   "start": 229.4,
+   "end": 229.6
+  },
+  {
+   "word": "thirstier,",
+   "start": 229.6,
+   "end": 230.2
+  },
+  {
+   "word": "not",
+   "start": 230.383,
+   "end": 230.517
+  },
+  {
+   "word": "less.",
+   "start": 230.517,
+   "end": 230.867
+  },
+  {
+   "word": "\"Who",
+   "start": 231.683,
+   "end": 231.783
+  },
+  {
+   "word": "made",
+   "start": 231.783,
+   "end": 232.0
+  },
+  {
+   "word": "you",
+   "start": 232.0,
+   "end": 232.283
+  },
+  {
+   "word": "the",
+   "start": 232.283,
+   "end": 232.433
+  },
+  {
+   "word": "expert?\"",
+   "start": 232.433,
+   "end": 232.883
+  },
+  {
+   "word": "says",
+   "start": 233.133,
+   "end": 233.383
+  },
+  {
+   "word": "Hazel.",
+   "start": 233.383,
+   "end": 233.65
+  },
+  {
+   "word": "That",
+   "start": 234.25,
+   "end": 234.55
+  },
+  {
+   "word": "night",
+   "start": 234.55,
+   "end": 234.817
+  },
+  {
+   "word": "you",
+   "start": 234.867,
+   "end": 235.033
+  },
+  {
+   "word": "stretch",
+   "start": 235.033,
+   "end": 235.267
+  },
+  {
+   "word": "a",
+   "start": 235.267,
+   "end": 235.467
+  },
+  {
+   "word": "tarp",
+   "start": 235.467,
+   "end": 235.817
+  },
+  {
+   "word": "into",
+   "start": 235.817,
+   "end": 236.1
+  },
+  {
+   "word": "a",
+   "start": 236.1,
+   "end": 236.267
+  },
+  {
+   "word": "funnel",
+   "start": 236.267,
+   "end": 236.5
+  },
+  {
+   "word": "and",
+   "start": 236.5,
+   "end": 236.883
+  },
+  {
+   "word": "let",
+   "start": 236.883,
+   "end": 237.0
+  },
+  {
+   "word": "the",
+   "start": 237.0,
+   "end": 237.15
+  },
+  {
+   "word": "rain",
+   "start": 237.15,
+   "end": 237.45
+  },
+  {
+   "word": "do",
+   "start": 237.45,
+   "end": 237.7
+  },
+  {
+   "word": "the",
+   "start": 237.7,
+   "end": 237.833
+  },
+  {
+   "word": "work.",
+   "start": 237.833,
+   "end": 238.1
+  },
+  {
+   "word": "By",
+   "start": 238.517,
+   "end": 238.717
+  },
+  {
+   "word": "morning,",
+   "start": 238.717,
+   "end": 238.983
+  },
+  {
+   "word": "six",
+   "start": 239.417,
+   "end": 239.567
+  },
+  {
+   "word": "bottles",
+   "start": 239.567,
+   "end": 239.933
+  },
+  {
+   "word": "of",
+   "start": 239.933,
+   "end": 240.283
+  },
+  {
+   "word": "fresh",
+   "start": 240.283,
+   "end": 240.55
+  },
+  {
+   "word": "water.",
+   "start": 240.55,
+   "end": 240.967
+  },
+  {
+   "word": "Hazel",
+   "start": 241.767,
+   "end": 241.917
+  },
+  {
+   "word": "drinks",
+   "start": 241.917,
+   "end": 242.267
+  },
+  {
+   "word": "first",
+   "start": 242.267,
+   "end": 242.617
+  },
+  {
+   "word": "and",
+   "start": 242.617,
+   "end": 243.017
+  },
+  {
+   "word": "says",
+   "start": 243.017,
+   "end": 243.2
+  },
+  {
+   "word": "nothing.",
+   "start": 243.2,
+   "end": 243.567
+  },
+  {
+   "word": "Poppy",
+   "start": 243.917,
+   "end": 244.033
+  },
+  {
+   "word": "drinks",
+   "start": 244.033,
+   "end": 244.233
+  },
+  {
+   "word": "second",
+   "start": 244.233,
+   "end": 244.617
+  },
+  {
+   "word": "and",
+   "start": 244.617,
+   "end": 244.8
+  },
+  {
+   "word": "says,",
+   "start": 244.8,
+   "end": 245.0
+  },
+  {
+   "word": "\"This",
+   "start": 245.433,
+   "end": 245.867
+  },
+  {
+   "word": "tastes",
+   "start": 245.867,
+   "end": 246.267
+  },
+  {
+   "word": "like",
+   "start": 246.267,
+   "end": 246.583
+  },
+  {
+   "word": "victory.\"",
+   "start": 246.583,
+   "end": 247.067
+  },
+  {
+   "word": "Ivy",
+   "start": 248.167,
+   "end": 248.183
+  },
+  {
+   "word": "drinks",
+   "start": 248.183,
+   "end": 248.483
+  },
+  {
+   "word": "third",
+   "start": 248.483,
+   "end": 248.767
+  },
+  {
+   "word": "and",
+   "start": 248.767,
+   "end": 249.0
+  },
+  {
+   "word": "gives",
+   "start": 249.0,
+   "end": 249.2
+  },
+  {
+   "word": "you",
+   "start": 249.2,
+   "end": 249.4
+  },
+  {
+   "word": "the",
+   "start": 249.4,
+   "end": 249.55
+  },
+  {
+   "word": "smallest",
+   "start": 249.55,
+   "end": 250.133
+  },
+  {
+   "word": "smile",
+   "start": 250.133,
+   "end": 250.7
+  },
+  {
+   "word": "in",
+   "start": 250.7,
+   "end": 251.083
+  },
+  {
+   "word": "the",
+   "start": 251.083,
+   "end": 251.25
+  },
+  {
+   "word": "history",
+   "start": 251.25,
+   "end": 251.65
+  },
+  {
+   "word": "of",
+   "start": 251.65,
+   "end": 251.95
+  },
+  {
+   "word": "smiles.",
+   "start": 251.95,
+   "end": 252.333
+  },
+  {
+   "word": "Approval,",
+   "start": 253.317,
+   "end": 253.733
+  },
+  {
+   "word": "fifteen",
+   "start": 253.733,
+   "end": 254.517
+  },
+  {
+   "word": "percent,",
+   "start": 254.517,
+   "end": 254.85
+  },
+  {
+   "word": "and",
+   "start": 255.6,
+   "end": 255.7
+  },
+  {
+   "word": "you",
+   "start": 255.7,
+   "end": 255.883
+  },
+  {
+   "word": "can't",
+   "start": 255.883,
+   "end": 256.333
+  },
+  {
+   "word": "stop",
+   "start": 256.333,
+   "end": 256.467
+  },
+  {
+   "word": "thinking",
+   "start": 256.467,
+   "end": 256.85
+  },
+  {
+   "word": "about",
+   "start": 256.85,
+   "end": 257.133
+  },
+  {
+   "word": "that",
+   "start": 257.133,
+   "end": 257.367
+  },
+  {
+   "word": "smile.",
+   "start": 257.367,
+   "end": 257.767
+  },
+  {
+   "word": "Problem",
+   "start": 258.917,
+   "end": 259.45
+  },
+  {
+   "word": "three,",
+   "start": 259.45,
+   "end": 259.733
+  },
+  {
+   "word": "and",
+   "start": 260.233,
+   "end": 260.283
+  },
+  {
+   "word": "this",
+   "start": 260.283,
+   "end": 260.433
+  },
+  {
+   "word": "one",
+   "start": 260.433,
+   "end": 260.65
+  },
+  {
+   "word": "is",
+   "start": 260.65,
+   "end": 260.917
+  },
+  {
+   "word": "all",
+   "start": 260.917,
+   "end": 261.2
+  },
+  {
+   "word": "yours.",
+   "start": 261.2,
+   "end": 261.533
+  },
+  {
+   "word": "On",
+   "start": 262.45,
+   "end": 262.583
+  },
+  {
+   "word": "day",
+   "start": 262.583,
+   "end": 262.75
+  },
+  {
+   "word": "two,",
+   "start": 262.75,
+   "end": 263.033
+  },
+  {
+   "word": "you",
+   "start": 263.217,
+   "end": 263.25
+  },
+  {
+   "word": "spot",
+   "start": 263.25,
+   "end": 263.517
+  },
+  {
+   "word": "a",
+   "start": 263.517,
+   "end": 263.717
+  },
+  {
+   "word": "waterfall",
+   "start": 263.717,
+   "end": 264.217
+  },
+  {
+   "word": "on",
+   "start": 264.217,
+   "end": 264.517
+  },
+  {
+   "word": "the",
+   "start": 264.517,
+   "end": 264.633
+  },
+  {
+   "word": "little",
+   "start": 264.633,
+   "end": 264.8
+  },
+  {
+   "word": "island",
+   "start": 264.8,
+   "end": 265.067
+  },
+  {
+   "word": "across",
+   "start": 265.067,
+   "end": 265.35
+  },
+  {
+   "word": "the",
+   "start": 265.35,
+   "end": 265.55
+  },
+  {
+   "word": "channel.",
+   "start": 265.55,
+   "end": 265.767
+  },
+  {
+   "word": "You",
+   "start": 266.25,
+   "end": 266.367
+  },
+  {
+   "word": "don't",
+   "start": 266.367,
+   "end": 266.567
+  },
+  {
+   "word": "ask.",
+   "start": 266.567,
+   "end": 266.867
+  },
+  {
+   "word": "You'll",
+   "start": 267.267,
+   "end": 267.55
+  },
+  {
+   "word": "prove",
+   "start": 267.55,
+   "end": 267.8
+  },
+  {
+   "word": "it.",
+   "start": 267.8,
+   "end": 268.067
+  },
+  {
+   "word": "You",
+   "start": 268.583,
+   "end": 268.783
+  },
+  {
+   "word": "tie",
+   "start": 268.783,
+   "end": 268.967
+  },
+  {
+   "word": "three",
+   "start": 268.967,
+   "end": 269.25
+  },
+  {
+   "word": "barrels,",
+   "start": 269.25,
+   "end": 269.6
+  },
+  {
+   "word": "two",
+   "start": 269.833,
+   "end": 269.95
+  },
+  {
+   "word": "ropes",
+   "start": 269.95,
+   "end": 270.217
+  },
+  {
+   "word": "and",
+   "start": 270.4,
+   "end": 270.533
+  },
+  {
+   "word": "one",
+   "start": 270.533,
+   "end": 270.817
+  },
+  {
+   "word": "very",
+   "start": 270.817,
+   "end": 271.35
+  },
+  {
+   "word": "optimistic",
+   "start": 271.35,
+   "end": 271.967
+  },
+  {
+   "word": "plank",
+   "start": 271.967,
+   "end": 272.367
+  },
+  {
+   "word": "into",
+   "start": 272.367,
+   "end": 272.783
+  },
+  {
+   "word": "a",
+   "start": 272.783,
+   "end": 272.967
+  },
+  {
+   "word": "raft,",
+   "start": 272.967,
+   "end": 273.233
+  },
+  {
+   "word": "and",
+   "start": 273.7,
+   "end": 273.8
+  },
+  {
+   "word": "you",
+   "start": 273.8,
+   "end": 273.883
+  },
+  {
+   "word": "push",
+   "start": 273.883,
+   "end": 274.133
+  },
+  {
+   "word": "off",
+   "start": 274.133,
+   "end": 274.35
+  },
+  {
+   "word": "alone,",
+   "start": 274.35,
+   "end": 274.65
+  },
+  {
+   "word": "breaking",
+   "start": 275.05,
+   "end": 275.4
+  },
+  {
+   "word": "Hazel's",
+   "start": 275.4,
+   "end": 275.933
+  },
+  {
+   "word": "first",
+   "start": 275.933,
+   "end": 276.117
+  },
+  {
+   "word": "rule",
+   "start": 276.117,
+   "end": 276.433
+  },
+  {
+   "word": "in",
+   "start": 276.433,
+   "end": 276.65
+  },
+  {
+   "word": "about",
+   "start": 276.65,
+   "end": 276.9
+  },
+  {
+   "word": "nine",
+   "start": 276.9,
+   "end": 277.3
+  },
+  {
+   "word": "seconds.",
+   "start": 277.3,
+   "end": 277.767
+  },
+  {
+   "word": "Halfway",
+   "start": 278.733,
+   "end": 279.05
+  },
+  {
+   "word": "across,",
+   "start": 279.05,
+   "end": 279.367
+  },
+  {
+   "word": "the",
+   "start": 279.633,
+   "end": 279.783
+  },
+  {
+   "word": "raft",
+   "start": 279.783,
+   "end": 280.067
+  },
+  {
+   "word": "turns",
+   "start": 280.067,
+   "end": 280.433
+  },
+  {
+   "word": "sideways.",
+   "start": 280.433,
+   "end": 280.9
+  },
+  {
+   "word": "Then",
+   "start": 281.283,
+   "end": 281.55
+  },
+  {
+   "word": "it",
+   "start": 281.65,
+   "end": 281.883
+  },
+  {
+   "word": "starts",
+   "start": 281.883,
+   "end": 282.083
+  },
+  {
+   "word": "sliding",
+   "start": 282.083,
+   "end": 282.533
+  },
+  {
+   "word": "out",
+   "start": 282.533,
+   "end": 282.8
+  },
+  {
+   "word": "to",
+   "start": 282.8,
+   "end": 282.95
+  },
+  {
+   "word": "sea.",
+   "start": 282.95,
+   "end": 283.233
+  },
+  {
+   "word": "A",
+   "start": 283.817,
+   "end": 284.35
+  },
+  {
+   "word": "rip",
+   "start": 284.35,
+   "end": 284.6
+  },
+  {
+   "word": "current.",
+   "start": 284.6,
+   "end": 284.917
+  },
+  {
+   "word": "Here's",
+   "start": 285.933,
+   "end": 286.05
+  },
+  {
+   "word": "the",
+   "start": 286.05,
+   "end": 286.2
+  },
+  {
+   "word": "real",
+   "start": 286.2,
+   "end": 286.4
+  },
+  {
+   "word": "part.",
+   "start": 286.4,
+   "end": 286.75
+  },
+  {
+   "word": "Rip",
+   "start": 287.45,
+   "end": 287.483
+  },
+  {
+   "word": "currents",
+   "start": 287.483,
+   "end": 287.783
+  },
+  {
+   "word": "cause",
+   "start": 287.783,
+   "end": 288.117
+  },
+  {
+   "word": "more",
+   "start": 288.117,
+   "end": 288.4
+  },
+  {
+   "word": "than",
+   "start": 288.4,
+   "end": 288.617
+  },
+  {
+   "word": "eighty",
+   "start": 288.617,
+   "end": 288.917
+  },
+  {
+   "word": "percent",
+   "start": 288.917,
+   "end": 289.267
+  },
+  {
+   "word": "of",
+   "start": 289.267,
+   "end": 289.417
+  },
+  {
+   "word": "the",
+   "start": 289.417,
+   "end": 289.517
+  },
+  {
+   "word": "rescues",
+   "start": 289.517,
+   "end": 289.9
+  },
+  {
+   "word": "made",
+   "start": 289.9,
+   "end": 290.167
+  },
+  {
+   "word": "by",
+   "start": 290.167,
+   "end": 290.417
+  },
+  {
+   "word": "beach",
+   "start": 290.417,
+   "end": 290.65
+  },
+  {
+   "word": "lifeguards.",
+   "start": 290.65,
+   "end": 291.117
+  },
+  {
+   "word": "They",
+   "start": 291.717,
+   "end": 291.817
+  },
+  {
+   "word": "don't",
+   "start": 291.817,
+   "end": 292.05
+  },
+  {
+   "word": "pull",
+   "start": 292.05,
+   "end": 292.217
+  },
+  {
+   "word": "you",
+   "start": 292.217,
+   "end": 292.433
+  },
+  {
+   "word": "under.",
+   "start": 292.433,
+   "end": 292.75
+  },
+  {
+   "word": "They",
+   "start": 293.217,
+   "end": 293.3
+  },
+  {
+   "word": "pull",
+   "start": 293.3,
+   "end": 293.517
+  },
+  {
+   "word": "you",
+   "start": 293.517,
+   "end": 293.767
+  },
+  {
+   "word": "away",
+   "start": 293.767,
+   "end": 294.183
+  },
+  {
+   "word": "from",
+   "start": 294.183,
+   "end": 294.467
+  },
+  {
+   "word": "shore.",
+   "start": 294.467,
+   "end": 294.783
+  },
+  {
+   "word": "So",
+   "start": 295.483,
+   "end": 295.717
+  },
+  {
+   "word": "you",
+   "start": 295.817,
+   "end": 295.867
+  },
+  {
+   "word": "paddle",
+   "start": 295.867,
+   "end": 296.133
+  },
+  {
+   "word": "against",
+   "start": 296.133,
+   "end": 296.483
+  },
+  {
+   "word": "it,",
+   "start": 296.483,
+   "end": 296.717
+  },
+  {
+   "word": "harder",
+   "start": 296.717,
+   "end": 297.117
+  },
+  {
+   "word": "and",
+   "start": 297.117,
+   "end": 297.4
+  },
+  {
+   "word": "harder,",
+   "start": 297.4,
+   "end": 297.717
+  },
+  {
+   "word": "and",
+   "start": 297.917,
+   "end": 298.05
+  },
+  {
+   "word": "the",
+   "start": 298.05,
+   "end": 298.167
+  },
+  {
+   "word": "raft",
+   "start": 298.167,
+   "end": 298.467
+  },
+  {
+   "word": "only",
+   "start": 298.467,
+   "end": 298.833
+  },
+  {
+   "word": "goes",
+   "start": 298.833,
+   "end": 299.117
+  },
+  {
+   "word": "faster.",
+   "start": 299.117,
+   "end": 299.567
+  },
+  {
+   "word": "Then",
+   "start": 300.467,
+   "end": 300.65
+  },
+  {
+   "word": "you",
+   "start": 300.717,
+   "end": 300.783
+  },
+  {
+   "word": "remember",
+   "start": 300.783,
+   "end": 301.067
+  },
+  {
+   "word": "something.",
+   "start": 301.067,
+   "end": 301.45
+  },
+  {
+   "word": "Don't",
+   "start": 302.183,
+   "end": 302.55
+  },
+  {
+   "word": "fight",
+   "start": 302.55,
+   "end": 302.817
+  },
+  {
+   "word": "it.",
+   "start": 302.817,
+   "end": 303.033
+  },
+  {
+   "word": "Swim",
+   "start": 303.683,
+   "end": 303.683
+  },
+  {
+   "word": "sideways.",
+   "start": 303.683,
+   "end": 304.133
+  },
+  {
+   "word": "You",
+   "start": 305.0,
+   "end": 305.217
+  },
+  {
+   "word": "slide",
+   "start": 305.217,
+   "end": 305.483
+  },
+  {
+   "word": "off",
+   "start": 305.483,
+   "end": 305.65
+  },
+  {
+   "word": "the",
+   "start": 305.65,
+   "end": 305.8
+  },
+  {
+   "word": "raft,",
+   "start": 305.8,
+   "end": 306.067
+  },
+  {
+   "word": "swim",
+   "start": 306.367,
+   "end": 306.5
+  },
+  {
+   "word": "along",
+   "start": 306.5,
+   "end": 306.717
+  },
+  {
+   "word": "the",
+   "start": 306.717,
+   "end": 306.9
+  },
+  {
+   "word": "shore,",
+   "start": 306.9,
+   "end": 307.133
+  },
+  {
+   "word": "and",
+   "start": 307.133,
+   "end": 307.55
+  },
+  {
+   "word": "the",
+   "start": 307.55,
+   "end": 307.65
+  },
+  {
+   "word": "current",
+   "start": 307.65,
+   "end": 307.983
+  },
+  {
+   "word": "finally",
+   "start": 307.983,
+   "end": 308.633
+  },
+  {
+   "word": "lets",
+   "start": 308.633,
+   "end": 308.867
+  },
+  {
+   "word": "go.",
+   "start": 308.867,
+   "end": 309.233
+  },
+  {
+   "word": "The",
+   "start": 309.5,
+   "end": 309.567
+  },
+  {
+   "word": "raft",
+   "start": 309.567,
+   "end": 309.833
+  },
+  {
+   "word": "keeps",
+   "start": 309.833,
+   "end": 310.317
+  },
+  {
+   "word": "drifting",
+   "start": 310.317,
+   "end": 310.683
+  },
+  {
+   "word": "without",
+   "start": 310.683,
+   "end": 310.967
+  },
+  {
+   "word": "you,",
+   "start": 310.967,
+   "end": 311.267
+  },
+  {
+   "word": "and",
+   "start": 311.467,
+   "end": 311.65
+  },
+  {
+   "word": "honestly,",
+   "start": 311.65,
+   "end": 312.15
+  },
+  {
+   "word": "it",
+   "start": 312.3,
+   "end": 312.367
+  },
+  {
+   "word": "was",
+   "start": 312.367,
+   "end": 312.55
+  },
+  {
+   "word": "a",
+   "start": 312.55,
+   "end": 312.767
+  },
+  {
+   "word": "terrible",
+   "start": 312.767,
+   "end": 313.217
+  },
+  {
+   "word": "raft.",
+   "start": 313.217,
+   "end": 313.65
+  },
+  {
+   "word": "Four",
+   "start": 314.65,
+   "end": 314.967
+  },
+  {
+   "word": "hours",
+   "start": 314.967,
+   "end": 315.217
+  },
+  {
+   "word": "later,",
+   "start": 315.217,
+   "end": 315.583
+  },
+  {
+   "word": "you",
+   "start": 315.783,
+   "end": 315.867
+  },
+  {
+   "word": "crawl",
+   "start": 315.867,
+   "end": 316.183
+  },
+  {
+   "word": "onto",
+   "start": 316.183,
+   "end": 316.45
+  },
+  {
+   "word": "the",
+   "start": 316.45,
+   "end": 316.583
+  },
+  {
+   "word": "beach,",
+   "start": 316.583,
+   "end": 316.8
+  },
+  {
+   "word": "and",
+   "start": 317.15,
+   "end": 317.35
+  },
+  {
+   "word": "Ivy",
+   "start": 317.35,
+   "end": 317.467
+  },
+  {
+   "word": "is",
+   "start": 317.467,
+   "end": 317.7
+  },
+  {
+   "word": "sitting",
+   "start": 317.7,
+   "end": 317.9
+  },
+  {
+   "word": "there",
+   "start": 317.9,
+   "end": 318.2
+  },
+  {
+   "word": "holding",
+   "start": 318.2,
+   "end": 318.417
+  },
+  {
+   "word": "your",
+   "start": 318.417,
+   "end": 318.65
+  },
+  {
+   "word": "cap.",
+   "start": 318.65,
+   "end": 318.917
+  },
+  {
+   "word": "\"You",
+   "start": 319.883,
+   "end": 320.067
+  },
+  {
+   "word": "were",
+   "start": 320.067,
+   "end": 320.2
+  },
+  {
+   "word": "gone",
+   "start": 320.2,
+   "end": 320.417
+  },
+  {
+   "word": "for",
+   "start": 320.417,
+   "end": 320.617
+  },
+  {
+   "word": "hours.",
+   "start": 320.617,
+   "end": 321.017
+  },
+  {
+   "word": "We",
+   "start": 321.4,
+   "end": 321.567
+  },
+  {
+   "word": "thought...\"",
+   "start": 321.567,
+   "end": 321.8
+  },
+  {
+   "word": "She",
+   "start": 322.25,
+   "end": 322.483
+  },
+  {
+   "word": "stops.",
+   "start": 322.483,
+   "end": 322.783
+  },
+  {
+   "word": "Then",
+   "start": 323.367,
+   "end": 323.467
+  },
+  {
+   "word": "Hazel",
+   "start": 323.467,
+   "end": 323.85
+  },
+  {
+   "word": "marches",
+   "start": 323.85,
+   "end": 324.2
+  },
+  {
+   "word": "up.",
+   "start": 324.2,
+   "end": 324.483
+  },
+  {
+   "word": "\"You",
+   "start": 325.1,
+   "end": 325.317
+  },
+  {
+   "word": "broke",
+   "start": 325.317,
+   "end": 325.583
+  },
+  {
+   "word": "the",
+   "start": 325.583,
+   "end": 325.8
+  },
+  {
+   "word": "first",
+   "start": 325.8,
+   "end": 326.067
+  },
+  {
+   "word": "rule.\"",
+   "start": 326.067,
+   "end": 326.45
+  },
+  {
+   "word": "Ivy",
+   "start": 327.183,
+   "end": 327.55
+  },
+  {
+   "word": "quietly",
+   "start": 327.55,
+   "end": 327.967
+  },
+  {
+   "word": "hands",
+   "start": 327.967,
+   "end": 328.317
+  },
+  {
+   "word": "you",
+   "start": 328.317,
+   "end": 328.467
+  },
+  {
+   "word": "her",
+   "start": 328.467,
+   "end": 328.6
+  },
+  {
+   "word": "water",
+   "start": 328.6,
+   "end": 328.85
+  },
+  {
+   "word": "bottle,",
+   "start": 328.85,
+   "end": 329.083
+  },
+  {
+   "word": "then",
+   "start": 329.4,
+   "end": 329.6
+  },
+  {
+   "word": "remembers",
+   "start": 329.6,
+   "end": 329.967
+  },
+  {
+   "word": "she's",
+   "start": 329.967,
+   "end": 330.383
+  },
+  {
+   "word": "not",
+   "start": 330.383,
+   "end": 330.517
+  },
+  {
+   "word": "supposed",
+   "start": 330.517,
+   "end": 330.75
+  },
+  {
+   "word": "to",
+   "start": 330.75,
+   "end": 330.95
+  },
+  {
+   "word": "talk",
+   "start": 330.95,
+   "end": 331.1
+  },
+  {
+   "word": "to",
+   "start": 331.1,
+   "end": 331.25
+  },
+  {
+   "word": "the",
+   "start": 331.25,
+   "end": 331.333
+  },
+  {
+   "word": "boy,",
+   "start": 331.333,
+   "end": 331.567
+  },
+  {
+   "word": "and",
+   "start": 331.567,
+   "end": 332.017
+  },
+  {
+   "word": "takes",
+   "start": 332.017,
+   "end": 332.2
+  },
+  {
+   "word": "it",
+   "start": 332.2,
+   "end": 332.35
+  },
+  {
+   "word": "back.",
+   "start": 332.35,
+   "end": 332.65
+  },
+  {
+   "word": "Zero",
+   "start": 333.483,
+   "end": 333.717
+  },
+  {
+   "word": "percent.",
+   "start": 333.717,
+   "end": 334.15
+  },
+  {
+   "word": "Thirty",
+   "start": 334.767,
+   "end": 334.967
+  },
+  {
+   "word": "hours",
+   "start": 334.967,
+   "end": 335.283
+  },
+  {
+   "word": "left.",
+   "start": 335.283,
+   "end": 335.567
+  },
+  {
+   "word": "You've",
+   "start": 336.683,
+   "end": 336.833
+  },
+  {
+   "word": "tried",
+   "start": 336.833,
+   "end": 337.017
+  },
+  {
+   "word": "to",
+   "start": 337.017,
+   "end": 337.133
+  },
+  {
+   "word": "be",
+   "start": 337.133,
+   "end": 337.267
+  },
+  {
+   "word": "a",
+   "start": 337.267,
+   "end": 337.667
+  },
+  {
+   "word": "hero",
+   "start": 337.667,
+   "end": 337.667
+  },
+  {
+   "word": "three",
+   "start": 337.667,
+   "end": 338.05
+  },
+  {
+   "word": "times,",
+   "start": 338.05,
+   "end": 338.55
+  },
+  {
+   "word": "and",
+   "start": 338.883,
+   "end": 338.95
+  },
+  {
+   "word": "every",
+   "start": 338.95,
+   "end": 339.267
+  },
+  {
+   "word": "time",
+   "start": 339.267,
+   "end": 339.633
+  },
+  {
+   "word": "you",
+   "start": 339.967,
+   "end": 340.15
+  },
+  {
+   "word": "did",
+   "start": 340.15,
+   "end": 340.367
+  },
+  {
+   "word": "it",
+   "start": 340.367,
+   "end": 340.567
+  },
+  {
+   "word": "alone.",
+   "start": 340.567,
+   "end": 340.917
+  },
+  {
+   "word": "That",
+   "start": 341.833,
+   "end": 342.05
+  },
+  {
+   "word": "night",
+   "start": 342.05,
+   "end": 342.283
+  },
+  {
+   "word": "the",
+   "start": 342.583,
+   "end": 342.633
+  },
+  {
+   "word": "wind",
+   "start": 342.633,
+   "end": 342.967
+  },
+  {
+   "word": "changes",
+   "start": 342.967,
+   "end": 343.45
+  },
+  {
+   "word": "direction.",
+   "start": 343.45,
+   "end": 343.95
+  },
+  {
+   "word": "Night",
+   "start": 344.9,
+   "end": 344.95
+  },
+  {
+   "word": "three.",
+   "start": 344.95,
+   "end": 345.367
+  },
+  {
+   "word": "Three",
+   "start": 346.167,
+   "end": 346.55
+  },
+  {
+   "word": "in",
+   "start": 346.55,
+   "end": 346.667
+  },
+  {
+   "word": "the",
+   "start": 346.667,
+   "end": 346.767
+  },
+  {
+   "word": "morning,",
+   "start": 346.767,
+   "end": 347.0
+  },
+  {
+   "word": "four",
+   "start": 347.45,
+   "end": 347.65
+  },
+  {
+   "word": "hours",
+   "start": 347.65,
+   "end": 347.917
+  },
+  {
+   "word": "to",
+   "start": 347.917,
+   "end": 348.117
+  },
+  {
+   "word": "go.",
+   "start": 348.117,
+   "end": 348.35
+  },
+  {
+   "word": "Rain",
+   "start": 349.283,
+   "end": 349.433
+  },
+  {
+   "word": "hits",
+   "start": 349.433,
+   "end": 349.8
+  },
+  {
+   "word": "the",
+   "start": 349.8,
+   "end": 350.0
+  },
+  {
+   "word": "tarp",
+   "start": 350.0,
+   "end": 350.3
+  },
+  {
+   "word": "like",
+   "start": 350.3,
+   "end": 350.55
+  },
+  {
+   "word": "gravel.",
+   "start": 350.55,
+   "end": 350.917
+  },
+  {
+   "word": "You're",
+   "start": 351.4,
+   "end": 351.533
+  },
+  {
+   "word": "dragging",
+   "start": 351.533,
+   "end": 351.833
+  },
+  {
+   "word": "the",
+   "start": 351.833,
+   "end": 352.067
+  },
+  {
+   "word": "glow",
+   "start": 352.067,
+   "end": 352.267
+  },
+  {
+   "word": "sticks",
+   "start": 352.267,
+   "end": 352.483
+  },
+  {
+   "word": "up",
+   "start": 352.483,
+   "end": 352.7
+  },
+  {
+   "word": "to",
+   "start": 352.7,
+   "end": 352.833
+  },
+  {
+   "word": "the",
+   "start": 352.833,
+   "end": 352.933
+  },
+  {
+   "word": "high",
+   "start": 352.933,
+   "end": 353.15
+  },
+  {
+   "word": "rocks,",
+   "start": 353.15,
+   "end": 353.5
+  },
+  {
+   "word": "because",
+   "start": 353.5,
+   "end": 353.917
+  },
+  {
+   "word": "that's",
+   "start": 353.917,
+   "end": 354.45
+  },
+  {
+   "word": "the",
+   "start": 354.45,
+   "end": 354.583
+  },
+  {
+   "word": "plan.",
+   "start": 354.583,
+   "end": 354.883
+  },
+  {
+   "word": "A",
+   "start": 355.283,
+   "end": 355.55
+  },
+  {
+   "word": "giant",
+   "start": 355.55,
+   "end": 355.983
+  },
+  {
+   "word": "message",
+   "start": 355.983,
+   "end": 356.483
+  },
+  {
+   "word": "in",
+   "start": 356.483,
+   "end": 356.75
+  },
+  {
+   "word": "light,",
+   "start": 356.75,
+   "end": 357.0
+  },
+  {
+   "word": "a",
+   "start": 357.267,
+   "end": 357.367
+  },
+  {
+   "word": "signal",
+   "start": 357.367,
+   "end": 357.683
+  },
+  {
+   "word": "no",
+   "start": 357.683,
+   "end": 358.083
+  },
+  {
+   "word": "rescue",
+   "start": 358.083,
+   "end": 358.45
+  },
+  {
+   "word": "boat",
+   "start": 358.45,
+   "end": 358.667
+  },
+  {
+   "word": "can",
+   "start": 358.667,
+   "end": 358.883
+  },
+  {
+   "word": "miss.",
+   "start": 358.883,
+   "end": 359.133
+  },
+  {
+   "word": "They",
+   "start": 359.883,
+   "end": 360.033
+  },
+  {
+   "word": "shine",
+   "start": 360.033,
+   "end": 360.25
+  },
+  {
+   "word": "brightest",
+   "start": 360.25,
+   "end": 360.6
+  },
+  {
+   "word": "in",
+   "start": 360.6,
+   "end": 360.867
+  },
+  {
+   "word": "their",
+   "start": 360.867,
+   "end": 361.017
+  },
+  {
+   "word": "first",
+   "start": 361.017,
+   "end": 361.233
+  },
+  {
+   "word": "hours,",
+   "start": 361.233,
+   "end": 361.55
+  },
+  {
+   "word": "so",
+   "start": 361.767,
+   "end": 361.983
+  },
+  {
+   "word": "you",
+   "start": 361.983,
+   "end": 362.167
+  },
+  {
+   "word": "can't",
+   "start": 362.167,
+   "end": 362.483
+  },
+  {
+   "word": "crack",
+   "start": 362.483,
+   "end": 362.733
+  },
+  {
+   "word": "them",
+   "start": 362.733,
+   "end": 362.983
+  },
+  {
+   "word": "early.",
+   "start": 362.983,
+   "end": 363.25
+  },
+  {
+   "word": "You",
+   "start": 363.783,
+   "end": 363.917
+  },
+  {
+   "word": "have",
+   "start": 363.917,
+   "end": 364.083
+  },
+  {
+   "word": "to",
+   "start": 364.083,
+   "end": 364.25
+  },
+  {
+   "word": "wait",
+   "start": 364.25,
+   "end": 364.433
+  },
+  {
+   "word": "until",
+   "start": 364.433,
+   "end": 364.75
+  },
+  {
+   "word": "the",
+   "start": 364.75,
+   "end": 364.883
+  },
+  {
+   "word": "last",
+   "start": 364.883,
+   "end": 365.133
+  },
+  {
+   "word": "minute.",
+   "start": 365.133,
+   "end": 365.4
+  },
+  {
+   "word": "You",
+   "start": 366.167,
+   "end": 366.333
+  },
+  {
+   "word": "lift",
+   "start": 366.333,
+   "end": 366.5
+  },
+  {
+   "word": "the",
+   "start": 366.5,
+   "end": 366.65
+  },
+  {
+   "word": "bag,",
+   "start": 366.65,
+   "end": 366.967
+  },
+  {
+   "word": "glance",
+   "start": 367.367,
+   "end": 367.45
+  },
+  {
+   "word": "back",
+   "start": 367.45,
+   "end": 367.733
+  },
+  {
+   "word": "at",
+   "start": 367.733,
+   "end": 367.9
+  },
+  {
+   "word": "the",
+   "start": 367.9,
+   "end": 367.967
+  },
+  {
+   "word": "beach,",
+   "start": 367.967,
+   "end": 368.2
+  },
+  {
+   "word": "and",
+   "start": 368.6,
+   "end": 368.733
+  },
+  {
+   "word": "freeze.",
+   "start": 368.733,
+   "end": 369.167
+  },
+  {
+   "word": "White",
+   "start": 370.05,
+   "end": 370.367
+  },
+  {
+   "word": "foam",
+   "start": 370.367,
+   "end": 370.75
+  },
+  {
+   "word": "is",
+   "start": 370.75,
+   "end": 370.933
+  },
+  {
+   "word": "already",
+   "start": 370.933,
+   "end": 371.4
+  },
+  {
+   "word": "past",
+   "start": 371.4,
+   "end": 371.783
+  },
+  {
+   "word": "the",
+   "start": 371.783,
+   "end": 372.1
+  },
+  {
+   "word": "seaweed",
+   "start": 372.1,
+   "end": 372.483
+  },
+  {
+   "word": "line.",
+   "start": 372.483,
+   "end": 372.767
+  },
+  {
+   "word": "It's",
+   "start": 373.15,
+   "end": 373.317
+  },
+  {
+   "word": "rolling",
+   "start": 373.317,
+   "end": 373.6
+  },
+  {
+   "word": "toward",
+   "start": 373.6,
+   "end": 373.867
+  },
+  {
+   "word": "the",
+   "start": 373.867,
+   "end": 374.05
+  },
+  {
+   "word": "logs.",
+   "start": 374.05,
+   "end": 374.367
+  },
+  {
+   "word": "And",
+   "start": 374.75,
+   "end": 375.3
+  },
+  {
+   "word": "right",
+   "start": 375.3,
+   "end": 375.517
+  },
+  {
+   "word": "in",
+   "start": 375.517,
+   "end": 375.683
+  },
+  {
+   "word": "front",
+   "start": 375.683,
+   "end": 375.833
+  },
+  {
+   "word": "of",
+   "start": 375.833,
+   "end": 375.933
+  },
+  {
+   "word": "it,",
+   "start": 375.933,
+   "end": 376.133
+  },
+  {
+   "word": "nineteen",
+   "start": 376.45,
+   "end": 376.6
+  },
+  {
+   "word": "girls",
+   "start": 376.6,
+   "end": 377.217
+  },
+  {
+   "word": "are",
+   "start": 377.217,
+   "end": 377.5
+  },
+  {
+   "word": "asleep",
+   "start": 377.5,
+   "end": 377.817
+  },
+  {
+   "word": "in",
+   "start": 377.817,
+   "end": 378.017
+  },
+  {
+   "word": "their",
+   "start": 378.017,
+   "end": 378.15
+  },
+  {
+   "word": "tents.",
+   "start": 378.15,
+   "end": 378.383
+  },
+  {
+   "word": "If",
+   "start": 379.05,
+   "end": 379.317
+  },
+  {
+   "word": "you",
+   "start": 379.317,
+   "end": 379.433
+  },
+  {
+   "word": "stop,",
+   "start": 379.433,
+   "end": 379.783
+  },
+  {
+   "word": "you",
+   "start": 380.25,
+   "end": 380.317
+  },
+  {
+   "word": "lose",
+   "start": 380.317,
+   "end": 380.467
+  },
+  {
+   "word": "your",
+   "start": 380.467,
+   "end": 380.633
+  },
+  {
+   "word": "signal.",
+   "start": 380.633,
+   "end": 380.917
+  },
+  {
+   "word": "If",
+   "start": 381.4,
+   "end": 381.567
+  },
+  {
+   "word": "you",
+   "start": 381.567,
+   "end": 381.7
+  },
+  {
+   "word": "don't,",
+   "start": 381.7,
+   "end": 381.983
+  },
+  {
+   "word": "the",
+   "start": 382.483,
+   "end": 382.6
+  },
+  {
+   "word": "ocean",
+   "start": 382.6,
+   "end": 382.983
+  },
+  {
+   "word": "takes",
+   "start": 382.983,
+   "end": 383.267
+  },
+  {
+   "word": "the",
+   "start": 383.267,
+   "end": 383.5
+  },
+  {
+   "word": "camp.",
+   "start": 383.5,
+   "end": 383.767
+  },
+  {
+   "word": "You",
+   "start": 384.5,
+   "end": 384.767
+  },
+  {
+   "word": "run.",
+   "start": 384.767,
+   "end": 385.017
+  },
+  {
+   "word": "You",
+   "start": 385.617,
+   "end": 385.717
+  },
+  {
+   "word": "pound",
+   "start": 385.717,
+   "end": 385.95
+  },
+  {
+   "word": "on",
+   "start": 385.95,
+   "end": 386.2
+  },
+  {
+   "word": "Hazel's",
+   "start": 386.2,
+   "end": 386.517
+  },
+  {
+   "word": "tent.",
+   "start": 386.517,
+   "end": 386.7
+  },
+  {
+   "word": "Nothing,",
+   "start": 387.333,
+   "end": 387.583
+  },
+  {
+   "word": "because",
+   "start": 387.867,
+   "end": 388.117
+  },
+  {
+   "word": "she",
+   "start": 388.117,
+   "end": 388.317
+  },
+  {
+   "word": "sleeps",
+   "start": 388.317,
+   "end": 388.533
+  },
+  {
+   "word": "with",
+   "start": 388.533,
+   "end": 388.75
+  },
+  {
+   "word": "earplugs.",
+   "start": 388.75,
+   "end": 389.183
+  },
+  {
+   "word": "\"Hazel!",
+   "start": 389.867,
+   "end": 390.1
+  },
+  {
+   "word": "The",
+   "start": 390.367,
+   "end": 390.567
+  },
+  {
+   "word": "water's",
+   "start": 390.567,
+   "end": 390.95
+  },
+  {
+   "word": "coming!\"",
+   "start": 390.95,
+   "end": 391.217
+  },
+  {
+   "word": "\"Go",
+   "start": 391.767,
+   "end": 392.017
+  },
+  {
+   "word": "back",
+   "start": 392.017,
+   "end": 392.217
+  },
+  {
+   "word": "to",
+   "start": 392.217,
+   "end": 392.45
+  },
+  {
+   "word": "boy",
+   "start": 392.45,
+   "end": 392.733
+  },
+  {
+   "word": "camp!\"",
+   "start": 392.733,
+   "end": 393.15
+  },
+  {
+   "word": "And",
+   "start": 394.167,
+   "end": 394.533
+  },
+  {
+   "word": "then",
+   "start": 394.533,
+   "end": 394.667
+  },
+  {
+   "word": "you",
+   "start": 394.667,
+   "end": 394.833
+  },
+  {
+   "word": "say",
+   "start": 394.833,
+   "end": 395.033
+  },
+  {
+   "word": "the",
+   "start": 395.033,
+   "end": 395.2
+  },
+  {
+   "word": "thing",
+   "start": 395.2,
+   "end": 395.45
+  },
+  {
+   "word": "you've",
+   "start": 395.45,
+   "end": 395.883
+  },
+  {
+   "word": "never",
+   "start": 395.883,
+   "end": 396.167
+  },
+  {
+   "word": "said",
+   "start": 396.167,
+   "end": 396.417
+  },
+  {
+   "word": "on",
+   "start": 396.417,
+   "end": 396.567
+  },
+  {
+   "word": "this",
+   "start": 396.567,
+   "end": 396.7
+  },
+  {
+   "word": "island.",
+   "start": 396.7,
+   "end": 396.983
+  },
+  {
+   "word": "\"I",
+   "start": 397.85,
+   "end": 398.2
+  },
+  {
+   "word": "can't",
+   "start": 398.2,
+   "end": 398.483
+  },
+  {
+   "word": "do",
+   "start": 398.483,
+   "end": 398.583
+  },
+  {
+   "word": "this",
+   "start": 398.583,
+   "end": 398.733
+  },
+  {
+   "word": "alone.",
+   "start": 398.733,
+   "end": 399.033
+  },
+  {
+   "word": "Please.\"",
+   "start": 399.717,
+   "end": 400.0
+  },
+  {
+   "word": "Silence.",
+   "start": 401.233,
+   "end": 401.467
+  },
+  {
+   "word": "Only",
+   "start": 402.15,
+   "end": 402.467
+  },
+  {
+   "word": "rain.",
+   "start": 402.467,
+   "end": 402.8
+  },
+  {
+   "word": "Then",
+   "start": 403.383,
+   "end": 403.8
+  },
+  {
+   "word": "Ivy",
+   "start": 403.8,
+   "end": 404.167
+  },
+  {
+   "word": "steps",
+   "start": 404.167,
+   "end": 404.483
+  },
+  {
+   "word": "out",
+   "start": 404.483,
+   "end": 404.7
+  },
+  {
+   "word": "of",
+   "start": 404.7,
+   "end": 404.75
+  },
+  {
+   "word": "her",
+   "start": 404.75,
+   "end": 404.85
+  },
+  {
+   "word": "tent",
+   "start": 404.85,
+   "end": 405.067
+  },
+  {
+   "word": "with",
+   "start": 405.067,
+   "end": 405.233
+  },
+  {
+   "word": "her",
+   "start": 405.233,
+   "end": 405.333
+  },
+  {
+   "word": "boots",
+   "start": 405.333,
+   "end": 405.517
+  },
+  {
+   "word": "already",
+   "start": 405.517,
+   "end": 405.9
+  },
+  {
+   "word": "on.",
+   "start": 405.9,
+   "end": 406.25
+  },
+  {
+   "word": "\"Move.",
+   "start": 406.783,
+   "end": 407.117
+  },
+  {
+   "word": "Now.\"",
+   "start": 407.533,
+   "end": 407.883
+  },
+  {
+   "word": "Poppy",
+   "start": 408.717,
+   "end": 409.017
+  },
+  {
+   "word": "is",
+   "start": 409.017,
+   "end": 409.2
+  },
+  {
+   "word": "second.",
+   "start": 409.2,
+   "end": 409.483
+  },
+  {
+   "word": "Then",
+   "start": 409.783,
+   "end": 409.983
+  },
+  {
+   "word": "six",
+   "start": 409.983,
+   "end": 410.283
+  },
+  {
+   "word": "girls,",
+   "start": 410.283,
+   "end": 410.617
+  },
+  {
+   "word": "then",
+   "start": 410.95,
+   "end": 411.15
+  },
+  {
+   "word": "all",
+   "start": 411.15,
+   "end": 411.45
+  },
+  {
+   "word": "of",
+   "start": 411.45,
+   "end": 411.583
+  },
+  {
+   "word": "them,",
+   "start": 411.583,
+   "end": 411.733
+  },
+  {
+   "word": "carrying",
+   "start": 411.983,
+   "end": 412.25
+  },
+  {
+   "word": "bags",
+   "start": 412.25,
+   "end": 412.717
+  },
+  {
+   "word": "and",
+   "start": 412.717,
+   "end": 413.017
+  },
+  {
+   "word": "beds",
+   "start": 413.017,
+   "end": 413.333
+  },
+  {
+   "word": "and",
+   "start": 413.333,
+   "end": 413.6
+  },
+  {
+   "word": "food",
+   "start": 413.6,
+   "end": 413.883
+  },
+  {
+   "word": "up",
+   "start": 413.883,
+   "end": 414.15
+  },
+  {
+   "word": "the",
+   "start": 414.15,
+   "end": 414.3
+  },
+  {
+   "word": "rocks.",
+   "start": 414.3,
+   "end": 414.567
+  },
+  {
+   "word": "Hazel",
+   "start": 415.617,
+   "end": 415.617
+  },
+  {
+   "word": "comes",
+   "start": 415.617,
+   "end": 415.933
+  },
+  {
+   "word": "out",
+   "start": 415.933,
+   "end": 416.133
+  },
+  {
+   "word": "last,",
+   "start": 416.133,
+   "end": 416.5
+  },
+  {
+   "word": "with",
+   "start": 416.833,
+   "end": 417.0
+  },
+  {
+   "word": "one",
+   "start": 417.0,
+   "end": 417.3
+  },
+  {
+   "word": "shoe",
+   "start": 417.3,
+   "end": 417.583
+  },
+  {
+   "word": "on,",
+   "start": 417.583,
+   "end": 417.883
+  },
+  {
+   "word": "and",
+   "start": 418.183,
+   "end": 418.317
+  },
+  {
+   "word": "a",
+   "start": 418.317,
+   "end": 418.417
+  },
+  {
+   "word": "wave",
+   "start": 418.417,
+   "end": 418.7
+  },
+  {
+   "word": "rolls",
+   "start": 418.7,
+   "end": 419.033
+  },
+  {
+   "word": "through",
+   "start": 419.033,
+   "end": 419.3
+  },
+  {
+   "word": "her",
+   "start": 419.3,
+   "end": 419.467
+  },
+  {
+   "word": "tent",
+   "start": 419.467,
+   "end": 419.733
+  },
+  {
+   "word": "right",
+   "start": 419.733,
+   "end": 419.983
+  },
+  {
+   "word": "behind",
+   "start": 419.983,
+   "end": 420.3
+  },
+  {
+   "word": "her.",
+   "start": 420.3,
+   "end": 420.667
+  },
+  {
+   "word": "The",
+   "start": 421.15,
+   "end": 421.367
+  },
+  {
+   "word": "spot",
+   "start": 421.367,
+   "end": 421.6
+  },
+  {
+   "word": "where",
+   "start": 421.6,
+   "end": 421.833
+  },
+  {
+   "word": "her",
+   "start": 421.833,
+   "end": 422.033
+  },
+  {
+   "word": "pillow",
+   "start": 422.033,
+   "end": 422.267
+  },
+  {
+   "word": "was",
+   "start": 422.267,
+   "end": 422.683
+  },
+  {
+   "word": "now",
+   "start": 422.683,
+   "end": 423.15
+  },
+  {
+   "word": "belongs",
+   "start": 423.15,
+   "end": 423.5
+  },
+  {
+   "word": "to",
+   "start": 423.5,
+   "end": 423.917
+  },
+  {
+   "word": "the",
+   "start": 423.917,
+   "end": 424.05
+  },
+  {
+   "word": "ocean.",
+   "start": 424.05,
+   "end": 424.333
+  },
+  {
+   "word": "Four",
+   "start": 425.533,
+   "end": 425.85
+  },
+  {
+   "word": "hours.",
+   "start": 425.85,
+   "end": 426.167
+  },
+  {
+   "word": "Three.",
+   "start": 427.017,
+   "end": 427.317
+  },
+  {
+   "word": "Two.",
+   "start": 428.0,
+   "end": 428.5
+  },
+  {
+   "word": "Dawn",
+   "start": 429.633,
+   "end": 429.633
+  },
+  {
+   "word": "is",
+   "start": 429.633,
+   "end": 429.817
+  },
+  {
+   "word": "close,",
+   "start": 429.817,
+   "end": 430.1
+  },
+  {
+   "word": "and",
+   "start": 430.433,
+   "end": 430.5
+  },
+  {
+   "word": "the",
+   "start": 430.5,
+   "end": 430.617
+  },
+  {
+   "word": "fog",
+   "start": 430.617,
+   "end": 430.817
+  },
+  {
+   "word": "is",
+   "start": 430.817,
+   "end": 430.983
+  },
+  {
+   "word": "so",
+   "start": 430.983,
+   "end": 431.217
+  },
+  {
+   "word": "thick",
+   "start": 431.217,
+   "end": 431.533
+  },
+  {
+   "word": "that",
+   "start": 431.533,
+   "end": 431.783
+  },
+  {
+   "word": "Poppy",
+   "start": 431.783,
+   "end": 432.05
+  },
+  {
+   "word": "hugs",
+   "start": 432.05,
+   "end": 432.317
+  },
+  {
+   "word": "a",
+   "start": 432.317,
+   "end": 432.5
+  },
+  {
+   "word": "rock,",
+   "start": 432.5,
+   "end": 432.767
+  },
+  {
+   "word": "thinking",
+   "start": 432.983,
+   "end": 433.183
+  },
+  {
+   "word": "it's",
+   "start": 433.183,
+   "end": 433.417
+  },
+  {
+   "word": "you.",
+   "start": 433.417,
+   "end": 433.633
+  },
+  {
+   "word": "Somewhere",
+   "start": 434.483,
+   "end": 434.75
+  },
+  {
+   "word": "out",
+   "start": 434.75,
+   "end": 434.983
+  },
+  {
+   "word": "there,",
+   "start": 434.983,
+   "end": 435.217
+  },
+  {
+   "word": "a",
+   "start": 435.383,
+   "end": 435.45
+  },
+  {
+   "word": "boat",
+   "start": 435.45,
+   "end": 435.667
+  },
+  {
+   "word": "engine",
+   "start": 435.667,
+   "end": 435.95
+  },
+  {
+   "word": "is",
+   "start": 435.95,
+   "end": 436.183
+  },
+  {
+   "word": "growling.",
+   "start": 436.183,
+   "end": 436.6
+  },
+  {
+   "word": "There's",
+   "start": 437.083,
+   "end": 437.233
+  },
+  {
+   "word": "no",
+   "start": 437.233,
+   "end": 437.383
+  },
+  {
+   "word": "flare,",
+   "start": 437.383,
+   "end": 437.717
+  },
+  {
+   "word": "and",
+   "start": 437.983,
+   "end": 438.15
+  },
+  {
+   "word": "every",
+   "start": 438.15,
+   "end": 438.5
+  },
+  {
+   "word": "stick",
+   "start": 438.5,
+   "end": 438.767
+  },
+  {
+   "word": "on",
+   "start": 438.767,
+   "end": 438.95
+  },
+  {
+   "word": "this",
+   "start": 438.95,
+   "end": 439.1
+  },
+  {
+   "word": "island",
+   "start": 439.1,
+   "end": 439.417
+  },
+  {
+   "word": "is",
+   "start": 439.417,
+   "end": 439.717
+  },
+  {
+   "word": "soaked.",
+   "start": 439.717,
+   "end": 440.083
+  },
+  {
+   "word": "But",
+   "start": 440.833,
+   "end": 441.0
+  },
+  {
+   "word": "glow",
+   "start": 441.0,
+   "end": 441.217
+  },
+  {
+   "word": "sticks",
+   "start": 441.217,
+   "end": 441.483
+  },
+  {
+   "word": "are",
+   "start": 441.483,
+   "end": 441.85
+  },
+  {
+   "word": "sealed,",
+   "start": 441.85,
+   "end": 442.183
+  },
+  {
+   "word": "and",
+   "start": 442.617,
+   "end": 442.817
+  },
+  {
+   "word": "your",
+   "start": 442.817,
+   "end": 442.917
+  },
+  {
+   "word": "bag",
+   "start": 442.917,
+   "end": 443.217
+  },
+  {
+   "word": "is",
+   "start": 443.217,
+   "end": 443.4
+  },
+  {
+   "word": "still",
+   "start": 443.4,
+   "end": 443.633
+  },
+  {
+   "word": "dry.",
+   "start": 443.633,
+   "end": 443.967
+  },
+  {
+   "word": "\"Everybody",
+   "start": 444.217,
+   "end": 444.517
+  },
+  {
+   "word": "grab",
+   "start": 444.517,
+   "end": 444.85
+  },
+  {
+   "word": "a",
+   "start": 444.85,
+   "end": 445.033
+  },
+  {
+   "word": "handful!",
+   "start": 445.033,
+   "end": 445.333
+  },
+  {
+   "word": "Crack",
+   "start": 445.65,
+   "end": 445.717
+  },
+  {
+   "word": "them",
+   "start": 445.717,
+   "end": 445.85
+  },
+  {
+   "word": "now,",
+   "start": 445.85,
+   "end": 446.1
+  },
+  {
+   "word": "not",
+   "start": 446.233,
+   "end": 446.3
+  },
+  {
+   "word": "a",
+   "start": 446.3,
+   "end": 446.467
+  },
+  {
+   "word": "second",
+   "start": 446.467,
+   "end": 446.7
+  },
+  {
+   "word": "earlier!\"",
+   "start": 446.7,
+   "end": 446.983
+  },
+  {
+   "word": "Twenty",
+   "start": 447.883,
+   "end": 448.1
+  },
+  {
+   "word": "pairs",
+   "start": 448.1,
+   "end": 448.367
+  },
+  {
+   "word": "of",
+   "start": 448.367,
+   "end": 448.55
+  },
+  {
+   "word": "hands.",
+   "start": 448.55,
+   "end": 448.85
+  },
+  {
+   "word": "Hundreds",
+   "start": 449.717,
+   "end": 449.717
+  },
+  {
+   "word": "of",
+   "start": 449.717,
+   "end": 449.95
+  },
+  {
+   "word": "green",
+   "start": 449.95,
+   "end": 450.2
+  },
+  {
+   "word": "lines",
+   "start": 450.2,
+   "end": 450.617
+  },
+  {
+   "word": "click",
+   "start": 450.617,
+   "end": 450.883
+  },
+  {
+   "word": "into",
+   "start": 450.883,
+   "end": 451.083
+  },
+  {
+   "word": "place",
+   "start": 451.083,
+   "end": 451.367
+  },
+  {
+   "word": "on",
+   "start": 451.367,
+   "end": 451.633
+  },
+  {
+   "word": "the",
+   "start": 451.633,
+   "end": 451.767
+  },
+  {
+   "word": "black",
+   "start": 451.767,
+   "end": 452.0
+  },
+  {
+   "word": "rock,",
+   "start": 452.0,
+   "end": 452.3
+  },
+  {
+   "word": "three",
+   "start": 452.783,
+   "end": 453.15
+  },
+  {
+   "word": "giant",
+   "start": 453.15,
+   "end": 453.933
+  },
+  {
+   "word": "letters.",
+   "start": 453.933,
+   "end": 454.367
+  },
+  {
+   "word": "S.",
+   "start": 455.233,
+   "end": 455.283
+  },
+  {
+   "word": "O.",
+   "start": 455.283,
+   "end": 456.267
+  },
+  {
+   "word": "S.",
+   "start": 456.267,
+   "end": 457.233
+  },
+  {
+   "word": "The",
+   "start": 458.133,
+   "end": 458.233
+  },
+  {
+   "word": "engine",
+   "start": 458.233,
+   "end": 458.617
+  },
+  {
+   "word": "turns",
+   "start": 458.617,
+   "end": 459.167
+  },
+  {
+   "word": "toward",
+   "start": 459.167,
+   "end": 459.483
+  },
+  {
+   "word": "the",
+   "start": 459.483,
+   "end": 459.683
+  },
+  {
+   "word": "light.",
+   "start": 459.683,
+   "end": 459.9
+  },
+  {
+   "word": "\"I",
+   "start": 460.667,
+   "end": 460.883
+  },
+  {
+   "word": "saw",
+   "start": 460.883,
+   "end": 461.15
+  },
+  {
+   "word": "it",
+   "start": 461.15,
+   "end": 461.267
+  },
+  {
+   "word": "from",
+   "start": 461.267,
+   "end": 461.4
+  },
+  {
+   "word": "a",
+   "start": 461.4,
+   "end": 461.6
+  },
+  {
+   "word": "mile",
+   "start": 461.6,
+   "end": 461.833
+  },
+  {
+   "word": "away!\"",
+   "start": 461.833,
+   "end": 462.267
+  },
+  {
+   "word": "shouts",
+   "start": 462.633,
+   "end": 462.7
+  },
+  {
+   "word": "Coach",
+   "start": 462.7,
+   "end": 463.017
+  },
+  {
+   "word": "Dunn",
+   "start": 463.017,
+   "end": 463.25
+  },
+  {
+   "word": "from",
+   "start": 463.25,
+   "end": 463.467
+  },
+  {
+   "word": "the",
+   "start": 463.467,
+   "end": 463.583
+  },
+  {
+   "word": "deck.",
+   "start": 463.583,
+   "end": 463.783
+  },
+  {
+   "word": "Before",
+   "start": 464.433,
+   "end": 464.683
+  },
+  {
+   "word": "anyone",
+   "start": 464.683,
+   "end": 464.983
+  },
+  {
+   "word": "climbs",
+   "start": 464.983,
+   "end": 465.333
+  },
+  {
+   "word": "aboard,",
+   "start": 465.333,
+   "end": 465.683
+  },
+  {
+   "word": "Hazel",
+   "start": 466.033,
+   "end": 466.167
+  },
+  {
+   "word": "turns",
+   "start": 466.167,
+   "end": 466.467
+  },
+  {
+   "word": "to",
+   "start": 466.467,
+   "end": 466.683
+  },
+  {
+   "word": "her",
+   "start": 466.683,
+   "end": 466.783
+  },
+  {
+   "word": "team.",
+   "start": 466.783,
+   "end": 467.033
+  },
+  {
+   "word": "\"Who",
+   "start": 467.567,
+   "end": 467.7
+  },
+  {
+   "word": "wants",
+   "start": 467.7,
+   "end": 467.883
+  },
+  {
+   "word": "to",
+   "start": 467.883,
+   "end": 468.05
+  },
+  {
+   "word": "keep",
+   "start": 468.05,
+   "end": 468.15
+  },
+  {
+   "word": "the",
+   "start": 468.15,
+   "end": 468.317
+  },
+  {
+   "word": "boy?\"",
+   "start": 468.317,
+   "end": 468.533
+  },
+  {
+   "word": "Nineteen",
+   "start": 469.383,
+   "end": 469.767
+  },
+  {
+   "word": "hands",
+   "start": 469.767,
+   "end": 470.2
+  },
+  {
+   "word": "go",
+   "start": 470.2,
+   "end": 470.4
+  },
+  {
+   "word": "up,",
+   "start": 470.4,
+   "end": 470.65
+  },
+  {
+   "word": "and",
+   "start": 470.933,
+   "end": 471.017
+  },
+  {
+   "word": "Hazel's",
+   "start": 471.017,
+   "end": 471.567
+  },
+  {
+   "word": "is",
+   "start": 471.567,
+   "end": 471.75
+  },
+  {
+   "word": "the",
+   "start": 471.75,
+   "end": 471.883
+  },
+  {
+   "word": "last.",
+   "start": 471.883,
+   "end": 472.2
+  },
+  {
+   "word": "\"Fine.",
+   "start": 472.983,
+   "end": 473.383
+  },
+  {
+   "word": "You're",
+   "start": 473.733,
+   "end": 473.917
+  },
+  {
+   "word": "one",
+   "start": 473.917,
+   "end": 474.05
+  },
+  {
+   "word": "of",
+   "start": 474.05,
+   "end": 474.183
+  },
+  {
+   "word": "us.",
+   "start": 474.183,
+   "end": 474.4
+  },
+  {
+   "word": "Barely.\"",
+   "start": 475.2,
+   "end": 475.65
+  },
+  {
+   "word": "Approval,",
+   "start": 476.35,
+   "end": 476.867
+  },
+  {
+   "word": "one",
+   "start": 477.333,
+   "end": 477.5
+  },
+  {
+   "word": "hundred",
+   "start": 477.5,
+   "end": 477.833
+  },
+  {
+   "word": "percent.",
+   "start": 477.833,
+   "end": 478.3
+  },
+  {
+   "word": "Ivy",
+   "start": 479.167,
+   "end": 479.233
+  },
+  {
+   "word": "walks",
+   "start": 479.233,
+   "end": 479.55
+  },
+  {
+   "word": "over,",
+   "start": 479.55,
+   "end": 479.95
+  },
+  {
+   "word": "and",
+   "start": 480.3,
+   "end": 480.417
+  },
+  {
+   "word": "for",
+   "start": 480.417,
+   "end": 480.55
+  },
+  {
+   "word": "the",
+   "start": 480.55,
+   "end": 480.65
+  },
+  {
+   "word": "first",
+   "start": 480.65,
+   "end": 480.8
+  },
+  {
+   "word": "time,",
+   "start": 480.8,
+   "end": 481.183
+  },
+  {
+   "word": "she",
+   "start": 481.3,
+   "end": 481.517
+  },
+  {
+   "word": "looks",
+   "start": 481.517,
+   "end": 481.667
+  },
+  {
+   "word": "you",
+   "start": 481.667,
+   "end": 481.867
+  },
+  {
+   "word": "straight",
+   "start": 481.867,
+   "end": 482.217
+  },
+  {
+   "word": "in",
+   "start": 482.217,
+   "end": 482.367
+  },
+  {
+   "word": "the",
+   "start": 482.367,
+   "end": 482.467
+  },
+  {
+   "word": "eye.",
+   "start": 482.467,
+   "end": 482.7
+  },
+  {
+   "word": "She",
+   "start": 483.417,
+   "end": 483.533
+  },
+  {
+   "word": "puts",
+   "start": 483.533,
+   "end": 483.667
+  },
+  {
+   "word": "the",
+   "start": 483.667,
+   "end": 483.867
+  },
+  {
+   "word": "cap",
+   "start": 483.867,
+   "end": 484.133
+  },
+  {
+   "word": "back",
+   "start": 484.133,
+   "end": 484.433
+  },
+  {
+   "word": "on",
+   "start": 484.433,
+   "end": 484.633
+  },
+  {
+   "word": "your",
+   "start": 484.633,
+   "end": 484.75
+  },
+  {
+   "word": "head.",
+   "start": 484.75,
+   "end": 485.067
+  },
+  {
+   "word": "\"Next",
+   "start": 485.833,
+   "end": 486.083
+  },
+  {
+   "word": "time",
+   "start": 486.083,
+   "end": 486.333
+  },
+  {
+   "word": "you",
+   "start": 486.333,
+   "end": 486.517
+  },
+  {
+   "word": "want",
+   "start": 486.517,
+   "end": 486.633
+  },
+  {
+   "word": "to",
+   "start": 486.633,
+   "end": 486.717
+  },
+  {
+   "word": "prove",
+   "start": 486.717,
+   "end": 486.983
+  },
+  {
+   "word": "something,\"",
+   "start": 486.983,
+   "end": 487.45
+  },
+  {
+   "word": "she",
+   "start": 487.65,
+   "end": 487.783
+  },
+  {
+   "word": "says,",
+   "start": 487.783,
+   "end": 488.033
+  },
+  {
+   "word": "\"ask",
+   "start": 488.667,
+   "end": 488.9
+  },
+  {
+   "word": "me",
+   "start": 488.9,
+   "end": 489.167
+  },
+  {
+   "word": "first.\"",
+   "start": 489.167,
+   "end": 489.55
+  },
+  {
+   "word": "You",
+   "start": 490.5,
+   "end": 490.717
+  },
+  {
+   "word": "nod,",
+   "start": 490.717,
+   "end": 491.033
+  },
+  {
+   "word": "because",
+   "start": 491.583,
+   "end": 491.8
+  },
+  {
+   "word": "your",
+   "start": 491.8,
+   "end": 491.983
+  },
+  {
+   "word": "voice",
+   "start": 491.983,
+   "end": 492.383
+  },
+  {
+   "word": "has",
+   "start": 492.383,
+   "end": 492.717
+  },
+  {
+   "word": "left",
+   "start": 492.717,
+   "end": 493.067
+  },
+  {
+   "word": "the",
+   "start": 493.067,
+   "end": 493.3
+  },
+  {
+   "word": "island.",
+   "start": 493.3,
+   "end": 493.617
+  },
+  {
+   "word": "It's",
+   "start": 494.317,
+   "end": 494.55
+  },
+  {
+   "word": "the",
+   "start": 494.55,
+   "end": 494.717
+  },
+  {
+   "word": "longest",
+   "start": 494.717,
+   "end": 495.067
+  },
+  {
+   "word": "conversation",
+   "start": 495.067,
+   "end": 495.683
+  },
+  {
+   "word": "you've",
+   "start": 495.683,
+   "end": 496.117
+  },
+  {
+   "word": "ever",
+   "start": 496.117,
+   "end": 496.35
+  },
+  {
+   "word": "had",
+   "start": 496.35,
+   "end": 496.617
+  },
+  {
+   "word": "with",
+   "start": 496.617,
+   "end": 496.767
+  },
+  {
+   "word": "her,",
+   "start": 496.767,
+   "end": 496.967
+  },
+  {
+   "word": "and",
+   "start": 497.267,
+   "end": 497.8
+  },
+  {
+   "word": "it",
+   "start": 497.8,
+   "end": 497.883
+  },
+  {
+   "word": "was",
+   "start": 497.883,
+   "end": 498.0
+  },
+  {
+   "word": "exactly",
+   "start": 498.0,
+   "end": 498.55
+  },
+  {
+   "word": "ten",
+   "start": 498.55,
+   "end": 499.15
+  },
+  {
+   "word": "words.",
+   "start": 499.15,
+   "end": 499.517
+  },
+  {
+   "word": "On",
+   "start": 500.65,
+   "end": 500.933
+  },
+  {
+   "word": "the",
+   "start": 500.933,
+   "end": 501.033
+  },
+  {
+   "word": "boat,",
+   "start": 501.033,
+   "end": 501.35
+  },
+  {
+   "word": "Poppy",
+   "start": 501.717,
+   "end": 501.933
+  },
+  {
+   "word": "asks",
+   "start": 501.933,
+   "end": 502.3
+  },
+  {
+   "word": "who",
+   "start": 502.3,
+   "end": 502.583
+  },
+  {
+   "word": "has",
+   "start": 502.583,
+   "end": 502.783
+  },
+  {
+   "word": "the",
+   "start": 502.783,
+   "end": 502.967
+  },
+  {
+   "word": "snacks.",
+   "start": 502.967,
+   "end": 503.3
+  },
+  {
+   "word": "Ivy",
+   "start": 504.067,
+   "end": 504.15
+  },
+  {
+   "word": "sits",
+   "start": 504.15,
+   "end": 504.417
+  },
+  {
+   "word": "next",
+   "start": 504.417,
+   "end": 504.7
+  },
+  {
+   "word": "to",
+   "start": 504.7,
+   "end": 504.9
+  },
+  {
+   "word": "you,",
+   "start": 504.9,
+   "end": 505.05
+  },
+  {
+   "word": "holding",
+   "start": 505.083,
+   "end": 505.317
+  },
+  {
+   "word": "the",
+   "start": 505.317,
+   "end": 505.533
+  },
+  {
+   "word": "last",
+   "start": 505.533,
+   "end": 505.85
+  },
+  {
+   "word": "green",
+   "start": 505.85,
+   "end": 506.333
+  },
+  {
+   "word": "glow",
+   "start": 506.333,
+   "end": 506.633
+  },
+  {
+   "word": "stick.",
+   "start": 506.633,
+   "end": 506.867
+  },
+  {
+   "word": "It's",
+   "start": 507.517,
+   "end": 507.733
+  },
+  {
+   "word": "still",
+   "start": 507.733,
+   "end": 507.9
+  },
+  {
+   "word": "glowing.",
+   "start": 507.9,
+   "end": 508.283
+  },
+  {
+   "word": "Coach",
+   "start": 509.083,
+   "end": 509.25
+  },
+  {
+   "word": "Dunn",
+   "start": 509.25,
+   "end": 509.483
+  },
+  {
+   "word": "grins.",
+   "start": 509.483,
+   "end": 509.967
+  },
+  {
+   "word": "\"Good",
+   "start": 510.5,
+   "end": 510.633
+  },
+  {
+   "word": "news.",
+   "start": 510.633,
+   "end": 510.867
+  },
+  {
+   "word": "The",
+   "start": 511.467,
+   "end": 511.617
+  },
+  {
+   "word": "boys'",
+   "start": 511.617,
+   "end": 511.817
+  },
+  {
+   "word": "team",
+   "start": 511.95,
+   "end": 512.133
+  },
+  {
+   "word": "is",
+   "start": 512.133,
+   "end": 512.5
+  },
+  {
+   "word": "back",
+   "start": 512.5,
+   "end": 512.867
+  },
+  {
+   "word": "from",
+   "start": 512.867,
+   "end": 513.05
+  },
+  {
+   "word": "the",
+   "start": 513.05,
+   "end": 513.2
+  },
+  {
+   "word": "flu.",
+   "start": 513.2,
+   "end": 513.367
+  },
+  {
+   "word": "Monday,",
+   "start": 513.833,
+   "end": 514.033
+  },
+  {
+   "word": "they'll",
+   "start": 514.083,
+   "end": 514.267
+  },
+  {
+   "word": "be",
+   "start": 514.267,
+   "end": 514.383
+  },
+  {
+   "word": "waiting",
+   "start": 514.383,
+   "end": 514.567
+  },
+  {
+   "word": "at",
+   "start": 514.567,
+   "end": 514.733
+  },
+  {
+   "word": "the",
+   "start": 514.733,
+   "end": 514.967
+  },
+  {
+   "word": "dock,",
+   "start": 514.967,
+   "end": 515.017
+  },
+  {
+   "word": "and",
+   "start": 515.283,
+   "end": 515.383
+  },
+  {
+   "word": "they've",
+   "start": 515.383,
+   "end": 515.567
+  },
+  {
+   "word": "heard",
+   "start": 515.567,
+   "end": 515.717
+  },
+  {
+   "word": "all",
+   "start": 515.717,
+   "end": 516.033
+  },
+  {
+   "word": "about",
+   "start": 516.033,
+   "end": 516.25
+  },
+  {
+   "word": "you.\"",
+   "start": 516.25,
+   "end": 516.483
+  },
+  {
+   "word": "You",
+   "start": 517.217,
+   "end": 517.55
+  },
+  {
+   "word": "swallow.",
+   "start": 517.55,
+   "end": 517.867
+  },
+  {
+   "word": "Nineteen",
+   "start": 518.783,
+   "end": 519.183
+  },
+  {
+   "word": "girls",
+   "start": 519.183,
+   "end": 519.567
+  },
+  {
+   "word": "turn",
+   "start": 519.567,
+   "end": 519.833
+  },
+  {
+   "word": "around",
+   "start": 519.833,
+   "end": 520.1
+  },
+  {
+   "word": "at",
+   "start": 520.1,
+   "end": 520.25
+  },
+  {
+   "word": "the",
+   "start": 520.25,
+   "end": 520.383
+  },
+  {
+   "word": "same",
+   "start": 520.383,
+   "end": 520.683
+  },
+  {
+   "word": "time",
+   "start": 520.683,
+   "end": 521.133
+  },
+  {
+   "word": "and",
+   "start": 521.133,
+   "end": 521.4
+  },
+  {
+   "word": "look",
+   "start": 521.4,
+   "end": 521.583
+  },
+  {
+   "word": "at",
+   "start": 521.583,
+   "end": 521.717
+  },
+  {
+   "word": "the",
+   "start": 521.717,
+   "end": 521.833
+  },
+  {
+   "word": "dock",
+   "start": 521.833,
+   "end": 522.167
+  },
+  {
+   "word": "like",
+   "start": 522.167,
+   "end": 522.417
+  },
+  {
+   "word": "it",
+   "start": 522.417,
+   "end": 522.567
+  },
+  {
+   "word": "owes",
+   "start": 522.567,
+   "end": 522.8
+  },
+  {
+   "word": "them",
+   "start": 522.8,
+   "end": 523.067
+  },
+  {
+   "word": "money.",
+   "start": 523.067,
+   "end": 523.4
+  },
+  {
+   "word": "\"He's",
+   "start": 524.267,
+   "end": 524.55
+  },
+  {
+   "word": "ours.\"",
+   "start": 524.55,
+   "end": 524.967
+  },
+  {
+   "word": "So,",
+   "start": 525.633,
+   "end": 526.183
+  },
+  {
+   "word": "would",
+   "start": 526.633,
+   "end": 526.817
+  },
+  {
+   "word": "you",
+   "start": 526.817,
+   "end": 526.95
+  },
+  {
+   "word": "have",
+   "start": 526.95,
+   "end": 527.05
+  },
+  {
+   "word": "asked",
+   "start": 527.05,
+   "end": 527.25
+  },
+  {
+   "word": "for",
+   "start": 527.25,
+   "end": 527.417
+  },
+  {
+   "word": "help",
+   "start": 527.417,
+   "end": 527.583
+  },
+  {
+   "word": "sooner?",
+   "start": 527.583,
+   "end": 527.883
+  },
+  {
+   "word": "Tell",
+   "start": 528.55,
+   "end": 528.65
+  },
+  {
+   "word": "me",
+   "start": 528.65,
+   "end": 528.75
+  },
+  {
+   "word": "in",
+   "start": 528.75,
+   "end": 528.817
+  },
+  {
+   "word": "the",
+   "start": 528.817,
+   "end": 528.9
+  },
+  {
+   "word": "comments,",
+   "start": 528.9,
+   "end": 529.183
+  },
+  {
+   "word": "and",
+   "start": 529.183,
+   "end": 529.667
+  },
+  {
+   "word": "subscribe,",
+   "start": 529.667,
+   "end": 530.067
+  },
+  {
+   "word": "because",
+   "start": 530.433,
+   "end": 530.75
+  },
+  {
+   "word": "Monday",
+   "start": 530.75,
+   "end": 531.067
+  },
+  {
+   "word": "is",
+   "start": 531.067,
+   "end": 531.533
+  },
+  {
+   "word": "going",
+   "start": 531.533,
+   "end": 531.8
+  },
+  {
+   "word": "to",
+   "start": 531.8,
+   "end": 532.083
+  },
+  {
+   "word": "be",
+   "start": 532.083,
+   "end": 532.35
+  },
+  {
+   "word": "loud.",
+   "start": 532.35,
+   "end": 532.733
+  }
+ ]
+}
