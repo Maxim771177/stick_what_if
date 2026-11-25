@@ -49,6 +49,8 @@ function renderScene(t) {
   sx.setTransform(1, 0, 0, 1, 0, 0); sx.fillStyle = T.sky[1]; sx.fillRect(0, 0, W, H); sx.filter = 'blur(3px)'; sx.drawImage(layerF, 0, 0); sx.filter = 'none';
   wt(sx, 1); const c = sx;
   const props = (S.pr || []).flat().filter(p => p && (p.a0 === undefined || u >= p.a0) && (p.a1 === undefined || u < p.a1)); const ST = {};
+  const acts = (S.act || []).flat().filter(a => a && (a.a0 === undefined || u >= a.a0) && (a.a1 === undefined || u < a.a1));
+  const sts = acts.map((a, k) => ({ a, st: actState(a, u, t, k), k })); sts.forEach(o => ST[o.a.oid] = o.st);
   const dpU = (fr, glow, under) => props.forEach(p => { if (!!p.under !== !!under) return; });
   if (props.some(p => p.under)) { const sv = props; props.forEach(p => { if (p.under) { const q = evalProp(p, u); PR[p.k] && PR[p.k](c, q, u); } }); }
   if (S.pl === 'TIDEL' || sd.place === 'TIDEL') { planView(c, u, S, T); } else PL.mid && PL.mid(c, u);
@@ -60,13 +62,11 @@ function renderScene(t) {
   drawProps(false, false);
   if (bt) { boat(c, bt, u); }
   // актёры
-  const acts = (S.act || []).flat().filter(a => a && (a.a0 === undefined || u >= a.a0) && (a.a1 === undefined || u < a.a1));
-  const sts = acts.map((a, k) => ({ a, st: actState(a, u, t, k), k })); sts.forEach(o => ST[o.a.oid] = o.st);
   sts.sort((p, q) => (!!p.a.ob - !!q.a.ob) || ((p.a.z ?? K(p.a.y, u, 0)) - (q.a.z ?? K(q.a.y, u, 0))) || p.k - q.k).forEach(({ a, st, k }) => {
     const draw = () => { const look = a.lk ? K(a.lk, u, [0, 0]) : [st.face * .6, 0]; drawFig(c, { oid: a.oid, x: st.x, y: st.y, s: st.scale, face: st.face, pose: st.pose, expr: ({ happy: 'smile', joy: 'smile', cry: 'sad' })[K(a.e, u, 'neutral')] || K(a.e, u, 'neutral'), blink: blinkAt(t, k * 1.3 + 1), look, rot: K(a.rot, u, 0), alpha: K(a.al, u, 1), prop: a.pr, ol: a.ol, talk: (a.tk && u >= a.tk[0] && u <= a.tk[1]) ? (Math.sin(t * 14) * .5 + .5) : 0 });
       const hd = st.pose.head, h = scr(c, st.x + st.face * hd[0] * st.scale, st.y + hd[1] * st.scale), ft = scr(c, st.x, st.y); HEADS.push({ oid: a.oid, hx: h[0], hy: h[1], r: 40 * st.scale * h[2], fx: ft[0], fy: ft[1], z: h[2], lying: /lie|sleep/.test(String(a.p)) || !!a.rot, ob: !!a.ob }); };
     if (a.ob && bt) { c.save(); c.translate(bt.x, bt.y); c.scale(bt.s, bt.s); c.rotate(bt.tilt); draw(); c.restore(); } else draw(); });
-  if (((n >= 25 && n <= 81) || (n >= 94 && n <= 126)) && !S.nobag && !props.some(p => p.k === 'bag') && (ST.LEON_NC || ST.LEON_NCW) && (S.pl || sd.place) !== 'VOID') props.push({ k: 'bag', att: (ST.LEON_NC ? 'LEON_NC' : 'LEON_NCW') + '.hB', fr: true, glow: false, s: 1.1, dx: -10 });
+  if (((n >= 25 && n <= 81) || (n >= 94 && n <= 126)) && !S.nobag && !props.some(p => p.k === 'bag') && (ST.LEON_NC || ST.LEON_NCW) && !sts.some(o => /^LEON/.test(o.a.oid) && (o.a.rot || /lie|crawl|sit|sleep|fall|hug|jump/.test(JSON.stringify(o.a.p)))) && (S.pl || sd.place) !== 'VOID') props.push({ k: 'bag', att: (ST.LEON_NC ? 'LEON_NC' : 'LEON_NCW') + '.hB', fr: true, glow: false, s: 1.1, dx: -10 });
   drawProps(true, false);
   if (S.fgx) S.fgx(c, u, ST);
   // стикеры мира (вода у кормы и т. п.)

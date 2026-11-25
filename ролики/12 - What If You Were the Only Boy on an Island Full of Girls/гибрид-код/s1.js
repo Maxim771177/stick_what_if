@@ -43,7 +43,7 @@ const camp = (o = {}) => GS(10, 380, 980, { f: -1, ...o });
 S(25, { pl: 'BEACH', c: [250, -260, 1.0], pr: [{ k: 'shelter', x: 1150, y: 0, build: [[0, .15], [5.5, 1]], s: .9 }, ...[1, 2, 3, 4].map(i => ({ k: 'branch', att: 'G' + i + '.hF', fr: true, dy: -10 })), { k: 'bag', att: 'LEON_NC.hF', glow: .3, fr: true, dy: -20, dx: [[0, 0], [1, 10], [2, -8], [3, 10]], s: 1.3 }],
   act: [L(-300, { f: 1, p: 'holdFront', e: 'worried' }), ...[1, 2, 3, 4].map(i => G(i, 420 + i * 70, { f: 1, p: 'holdFront', go: [[0, 2.5, 1060], [2.5, 3.2, 1060], [3.2, 5.6, 460 + i * 70]], e: 'smile' })), ...GS(4, 500, 800, { from: 5, f: -1, p: 'sitG' })] });
 S(26, V('#ffd0d0', 'cards1', [], [0, -300, 1.0]));
-S(27, { pl: 'BEACH', c: [330, -330, 1.0], pr: [{ k: 'sonic', att: 'H.head', dx: 80, dy: 20, u0: 0.1 }], act: [Hz(350, { f: -1, s: 1.5, p: 'talk', e: 'shocked', tk: [0, 4.2] }), L(-250, { s: .8, f: 1, e: 'worried', p: 'stand' })] });
+S(27, { pl: 'BEACH', c: [110, -270, 1.25], pr: [{ k: 'sonic', att: 'H.head', dx: 80, dy: 20, u0: 0.1 }], act: [Hz(300, { f: -1, s: 1.1, p: 'talk', e: 'shocked', tk: [0, 4.2] }), L(-120, { s: 1.0, f: 1, e: 'worried', p: 'stand' })] });
 S(28, { pl: 'BEACH', c: [250, -250, 1.2], act: [Hz(450, { f: -1, p: 'point', e: 'angry', tk: [0, 2], lk: [-.6, .3] }), L(-120, { f: 1, p: 'stand', e: [[0, 'neutral'], [1.2, 'worried']] }), ...GS(6, 650, 950, { f: -1 })] });
 S(29, { pl: 'BEACH', c: [[100, -250, 1.1], [500, -250, 1.1]], act: [Hz(300, { f: 1, p: 'point', e: 'determined', tk: [0, 2.3] }), ...GS(8, 600, 1000, { f: -1 })] });
 S(30, { pl: 'BEACH', c: [450, -270, 1.1], act: [Hz(400, { f: -1, p: 'pointUpF', e: 'angry', tk: [0, 2.3] }), ...GS(8, 620, 1050, { f: -1, each: (i, a) => i < 2 ? { p: [[0, 'stand'], [1 + i * .3, 'wave']] } : {} })] });

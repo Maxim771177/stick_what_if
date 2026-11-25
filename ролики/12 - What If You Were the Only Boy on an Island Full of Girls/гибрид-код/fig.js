@@ -20,7 +20,7 @@ POSES.knock = { ...POSES.stand, eF: [34, -168], hF: [60, -170], eB: [30, -160], 
 POSES.crawl = { head: [60, -80], sh: [44, -70], hip: [-30, -62], eF: [64, -40], hF: [74, 0], eB: [30, -38], hB: [38, 0], kF: [-4, -36], fF: [8, 0], kB: [-44, -34], fB: [-60, 0] };
 POSES.tow = { ...POSES.pull };
 POSES.pointUpF = { ...POSES.stand, eF: [46, -172], hF: [88, -246] };
-POSES.sitG = { head: [5, -128], sh: [4, -94], hip: [0, -22], eF: [20, -60], hF: [44, -32], eB: [10, -60], hB: [30, -30], kF: [52, -36], fF: [100, 0], kB: [44, -30], fB: [90, 0] };
+POSES.sitG = { head: [5, -112], sh: [4, -78], hip: [0, -6], eF: [20, -44], hF: [44, -18], eB: [10, -44], hB: [30, -16], kF: [52, -24], fF: [100, 0], kB: [44, -20], fB: [90, 0] };
 export { POSES };
 export const OUT = { LEON, LEON_NC, LEON_W: wetOf(LEON), LEON_NCW: wetOf(LEON_NC), H: HAZEL, I: IVY, P: POPPY, D: DUNN };
 GIRLS.forEach((g, i) => OUT['G' + (i + 1)] = g);

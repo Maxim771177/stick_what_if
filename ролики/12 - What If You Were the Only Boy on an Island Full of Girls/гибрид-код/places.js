@@ -3,8 +3,8 @@ import { W, H, FONT, clamp, lerp, sm, rnd, rr, outline, dots, stext } from "/hyb
 import { PR, poly, circ, ell, line, boat, wob, INK } from "/hybrid12/kit.js";
 export const TONES = {
   day: { sky: ['#46b9ee', '#bfeaff'], sea: '#3fa8dc', seaFar: '#5ab8e8', sand: '#f2d9a0', tint: null },
-  fog: { sky: ['#a9b9c6', '#e3e9ee'], sea: '#7fa0b8', seaFar: '#a9bfce', sand: '#e2d2b0', tint: null, fogK: .55 },
-  dawn: { sky: ['#e9b3a6', '#f7e9d2'], sea: '#7c9db5', seaFar: '#a9bccb', sand: '#d8cdb8', tint: null, fogK: .6 },
+  fog: { sky: ['#6fb4e4', '#d6ecf8'], sea: '#2f86c0', seaFar: '#5aa8d8', sand: '#f2d9a0', tint: null, fogK: .22 },
+  dawn: { sky: ['#f2a58c', '#ffe6c4'], sea: '#4a86b0', seaFar: '#7aa6c4', sand: '#e0d0b0', tint: null, fogK: .2 },
   night: { sky: ['#101a3c', '#2c4274'], sea: '#1d3a6b', seaFar: '#25467c', sand: '#e0c890', tint: '#6f80c0' },
   storm: { sky: ['#141a2e', '#33405c'], sea: '#1b3463', seaFar: '#243f6e', sand: '#d8c088', tint: '#6877b3', rain: 1 },
   dusk: { sky: ['#6a5aa8', '#f7b07a'], sea: '#4a78a8', seaFar: '#8a88b8', sand: '#f2d9a0', tint: '#f0c4a8' },
@@ -23,7 +23,7 @@ const beachWorld = (S, T) => ({
   mid(c, u) { const edge = K_(S.tide, u, -900); sandG(c, -4200, 4200, T); waterG(c, u, -4200, edge, T, -4); PR.foam(c, { x: edge + 30, y: 4, w: 220 }, u);
     jungle(c, u, 1900, 4000, T); if (!S.nowrack) PR.seaweed(c, { x: -560, y: 0 }); if (!S.nologs) { PR.log(c, { x: 1350, y: 0 }); PR.log(c, { x: 1700, y: 6, len: 380 }); PR.log(c, { x: 1000, y: 4, len: 300 }); }
     if (!S.notents) { PR.tent(c, { x: 120, y: 0, s: 1.25, col: '#e8a23a' }); PR.tent(c, { x: 400, y: 0, s: 1.25, col: '#4aa6d8', flag: '#ffd23f' }); PR.tent(c, { x: 680, y: 0, s: 1.25, col: '#e87aa8' }); PR.tent(c, { x: 960, y: 0, s: 1.25, col: '#7ac85a' }); } },
-  near(c, u) { for (let i = 0; i < 4; i++) { const x = -1500 + i * 1100 + wob(u, 20, .2, i); c.save(); c.translate(x, 0); for (let k = 0; k < 5; k++) { c.save(); c.rotate(-1.35 + k * .35 + wob(u, .04, .3, k)); c.beginPath(); c.moveTo(0, 0); c.quadraticCurveTo(80, -50, 210, 10); c.quadraticCurveTo(100, -10, 0, 12); c.closePath(); outline(c, '#2f8a45', 8); c.restore(); } c.restore(); } },
+  near(c, u) { },
 });
 import { K } from "/hybrid12/kit.js"; const K_ = (v, u, d) => K(v, u, d);
 const boyCamp = (S, T) => ({
@@ -35,7 +35,7 @@ const boyCamp = (S, T) => ({
 const seaWorld = (S, T, far) => ({
   far(c, u) { sky(c, T, -300); clouds(c, u, T, -900); far && far(c, u); },
   mid(c, u) { const y0 = S.wy ?? 20; waterG(c, u, -4200, 4200, T, y0); },
-  near(c, u) { if (T.fogK) { for (let i = 0; i < 4; i++) { c.fillStyle = `rgba(235,240,245,${.28})`; c.beginPath(); c.ellipse(-1500 + i * 1100 + wob(u, 80, .08, i), -60, 600, 120, 0, 0, 7); c.fill(); } } },
+  near(c, u) { if (T.fogK) { for (let i = 0; i < 4; i++) { c.fillStyle = `rgba(235,240,245,${.1})`; c.beginPath(); c.ellipse(-1500 + i * 1100 + wob(u, 80, .08, i), -60, 600, 120, 0, 0, 7); c.fill(); } } },
 });
 const voidWorld = (S) => ({
   far(c, u) { const col = S.col || '#ffe08a'; c.fillStyle = col; c.fillRect(-4600, -3000, 9200, 6000); c.save(); c.translate(0, -200); c.rotate(u * .04); c.fillStyle = 'rgba(255,255,255,.28)'; for (let i = 0; i < 16; i++) { c.rotate(Math.PI * 2 / 16); c.beginPath(); c.moveTo(0, 0); c.lineTo(2400, -170); c.lineTo(2400, 170); c.closePath(); if (i % 2) c.fill(); } c.restore(); dots(c, -4600, -1500, 9200, 3000, 'rgba(0,0,0,.07)', 36, 7, () => 1); },
@@ -53,9 +53,9 @@ const rocksN = (S, T) => ({
 const dawnWorld = (S, T) => ({
   far(c, u) { sky(c, T, -300); clouds(c, u, T, -900); },
   mid(c, u) { waterG(c, u, 760, 4600, T, 14); c.beginPath(); c.moveTo(-4600, 0); c.lineTo(700, 0); c.lineTo(790, 40); c.lineTo(790, 1400); c.lineTo(-4600, 1400); c.closePath(); outline(c, '#2a2a33', 10); dots(c, -4000, 0, 4700, 700, 'rgba(120,140,190,.25)', 26, 5, () => 1);
-    c.beginPath(); c.rect(-1400, -800, 1700, 800); c.fillStyle = '#23232c'; c.fill(); dots(c, -1400, -800, 1700, 800, 'rgba(120,140,190,.18)', 30, 5, () => 1); line(c, [[-1400, -800], [-1400, 0]], 9); line(c, [[300, -800], [300, 0]], 9);
+    if (S.sos) { c.beginPath(); c.rect(-1400, -800, 1700, 800); c.fillStyle = '#2a2a36'; c.fill(); dots(c, -1400, -800, 1700, 800, 'rgba(120,140,190,.18)', 30, 5, () => 1); line(c, [[-1400, -800], [-1400, 0]], 9); line(c, [[300, -800], [300, 0]], 9); }
     S.sos && S.sos(c, u); },
-  near(c, u) { for (let i = 0; i < 4; i++) { c.fillStyle = 'rgba(235,240,245,.34)'; c.beginPath(); c.ellipse(-1500 + i * 1100 + wob(u, 100, .06, i), -80, 700, 140, 0, 0, 7); c.fill(); } },
+  near(c, u) { for (let i = 0; i < 4; i++) { c.fillStyle = 'rgba(235,240,245,.12)'; c.beginPath(); c.ellipse(-1500 + i * 1100 + wob(u, 100, .06, i), -80, 700, 140, 0, 0, 7); c.fill(); } },
 });
 const chanWorld = (S, T) => ({
   far(c, u) { sky(c, T, -300); clouds(c, u, T, -900); // островок с водопадом справа

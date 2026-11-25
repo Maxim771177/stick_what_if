@@ -58,7 +58,7 @@ PR.bottles = (c, p, u) => { const n = p.n || 6; for (let i = 0; i < n; i++) PR.b
 PR.tarp = (c, p, u) => { c.save(); c.translate(p.x, p.y); const sw = p.sag ?? 40; poly(c, [[-260, -330], [260, -330], [190, -300 + sw], [-190, -300 + sw]], '#3a7ca5', 8); line(c, [[-250, -330], [-250, 0]], 12, '#5e3b1c'); line(c, [[250, -330], [250, 0]], 12, '#5e3b1c');
   if (p.drips) for (let i = 0; i < 6; i++) { const d = (u * 1.4 + i * .37) % 1; circ(c, -120 + i * 50, -300 + sw + d * 250, 6, '#8fd0ff', 3); } c.restore(); };
 PR.stick = (c, p) => { c.save(); c.translate(p.x, p.y); c.rotate(p.rot || 0); c.scale(p.s || 1, p.s || 1); c.shadowColor = '#5dff8a'; c.shadowBlur = 24 * (p.g ?? 1); line(c, [[-30, 0], [30, 0]], 14, '#1c6b3a'); line(c, [[-30, 0], [30, 0]], 8, `rgb(120,255,150)`); c.restore(); };
-PR.crackers = (c, p) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); c.beginPath(); rr(c, -50, -70, 100, 70, 8); outline(c, '#d8a43a', 8); stext(c, 'CRACKERS', 0, -34, 22, '#fff', 0, 1, INK, false); c.restore(); };
+PR.crackers = (c, p) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); c.beginPath(); rr(c, -50, -70, 100, 70, 8); outline(c, '#d8a43a', 8); for (const [x, y] of [[-24, -48], [20, -46], [-2, -24]]) circ(c, x, y, 7, '#a8721e', 3); c.restore(); };
 PR.bubble = (c, p, u) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); const k = back(prog(u, p.a || 0, (p.a || 0) + .3)); c.scale(k, k);
   circ(c, -70, 120, 12, '#fff', 5); circ(c, -40, 80, 20, '#fff', 5); ell(c, 0, 0, p.w || 190, p.h || 110, '#fff', 8); c.restore(); };
 PR.lamp = (c, p, u) => { c.save(); c.translate(p.x, p.y); c.scale(p.s || 1, p.s || 1); const k = back(prog(u, p.a || 0, (p.a || 0) + .25)); c.scale(k, k);
