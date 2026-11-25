@@ -95,6 +95,7 @@ function overlays(c, t) {
   if (hv && !S.nohud && t < 525.3) { const w = 380, x = W - 40 - w, y = 36, d = t - hv.t, pk = d < .5 ? 1 + .12 * Math.sin(d / .5 * Math.PI) : 1; c.save(); c.translate(x + w / 2, y + 48); c.scale(pk, pk); c.beginPath(); rr(c, -w / 2, -48, w, 96, 18); c.lineWidth = 16; c.strokeStyle = '#fff'; c.stroke(); outline(c, '#0d1b17', 8);
     c.font = FNT(62); c.textAlign = 'center'; c.textBaseline = 'middle'; c.shadowColor = '#38ff9c'; c.shadowBlur = 12; c.fillStyle = '#6bffb4'; c.fillText(hv.s, 22, 4); c.shadowBlur = 0; // песочные часы
     c.fillStyle = '#ffd23f'; c.beginPath(); c.moveTo(-w / 2 + 26, -26); c.lineTo(-w / 2 + 62, -26); c.lineTo(-w / 2 + 44, 0); c.lineTo(-w / 2 + 62, 26); c.lineTo(-w / 2 + 26, 26); c.lineTo(-w / 2 + 44, 0); c.closePath(); c.fill(); c.lineWidth = 4; c.strokeStyle = '#fff'; c.stroke(); c.restore(); hudR = { x0: x - 10, x1: x + w + 10, y0: y - 10, y1: y + 110 }; avoid.push(hudR); }
+  if (S.apr !== undefined) { c.save(); approval(c, { s: 'APPROVAL ' + S.apr + ' %', t: 0 }, 99, -9, null, null); c.restore(); c.setTransform(1, 0, 0, 1, 0, 0); }
   const placed = [];
   const place = (w, h, cand) => { for (const [cx, cy] of cand) { const r = { x0: cx - w / 2, x1: cx + w / 2, y0: cy - h / 2, y1: cy + h / 2 }; if (r.x0 < 24 || r.x1 > W - 24 || r.y0 < 20 || r.y1 > H - 20) continue; if ([...avoid, ...placed].some(a => hit(a, r))) continue; placed.push(r); return [cx, cy]; }
     const [cx, cy] = cand[cand.length - 1]; placed.push({ x0: cx - w / 2, x1: cx + w / 2, y0: cy - h / 2, y1: cy + h / 2 }); return [cx, cy]; };
@@ -120,7 +121,7 @@ function approval(c, x, u, tt, place, avoid) {
 // ---------- сборка ----------
 window.sceneAt = t => sceneIdx(t) + 1; window.SCN = SCN; window.END = END;
 window.draw = function (tOut, nsub = NSUB) { const SH = .5 / 30; E.t = tOut; C.setTransform(1, 0, 0, 1, 0, 0); C.globalAlpha = 1;
-  for (let i = 0; i < nsub; i++) { const tt = Math.min(END - .01, Math.max(0, tOut + (nsub > 1 ? (i / (nsub - 1) - .5) * SH : 0))); renderScene(tt); if (i === nsub - 1) overlays(sx, tOut > END - .01 ? END - .01 : tOut); C.globalAlpha = 1 / (i + 1); C.drawImage(sc, 0, 0); } C.globalAlpha = 1; return true; };
+  for (let i = 0; i < nsub; i++) { const tt = Math.min(END - .01, Math.max(0, tOut + (nsub > 1 ? (i / (nsub - 1) - .5) * SH : 0))); renderScene(tt); C.globalAlpha = 1 / (i + 1); C.drawImage(sc, 0, 0); } C.globalAlpha = 1; overlays(C, tOut > END - .01 ? END - .01 : tOut); return true; };
 // проверка героя в кадре
 window.check = function (tOut) { renderScene(tOut); const { sd, S, n } = CURSC, errs = []; if (S.cut) return errs;
   for (const h of HEADS) { if (!/^LEON/.test(h.oid) || h.lying) continue; const top = h.hy - h.r * 1.55, feet = h.fy; if (top < 8) errs.push(`S${String(n).padStart(3, '0')} t=${tOut.toFixed(1)} голова/кепка за верхом кадра (${top | 0})`); if (feet > H - 6) errs.push(`S${String(n).padStart(3, '0')} t=${tOut.toFixed(1)} ступни за низом кадра (${feet | 0})`); if (h.hx < 30 || h.hx > W - 30) errs.push(`S${String(n).padStart(3, '0')} t=${tOut.toFixed(1)} герой у края по x (${h.hx | 0})`); }

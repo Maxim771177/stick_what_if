@@ -53,9 +53,9 @@ S(32, { pl: 'BEACH', c: [130, -250, 1.3], pr: [{ k: 'bag', att: 'LEON_NC.hF', gl
   act: [L(-190, { f: 1, p: 'holdFront', e: 'sad' }), Hz(100, { f: -1, p: 'point', e: 'angry', tk: [0, 3.8] }), Pp(420, { f: -1, p: 'stand', pr: 'cracker', e: 'happy' })] });
 S(33, { pl: 'BEACH', c: [250, -330, 1.0], pr: [{ k: 'sun', x: 520, y: -760 }], act: [Hz(350, { f: 1, p: 'pointUpF', e: 'determined', tk: [0, 2], lk: [.4, -.9] }), L(-150, { f: 1, p: 'stand', e: [[0, 'neutral'], [1.6, 'nervous']] })] });
 const log = { k: 'log', x: 260, y: 0, len: 340 };
-S(34, { pl: 'BEACH', c: [550, -250, 1.1], pr: [log], act: [Hz(260, { f: 1, y: -64, p: [[0, 'crouch'], [.4, 'jump'], [.7, 'stand']], e: 'determined' }), ...GS(14, 480, 980, { f: -1 }), L(1120, { f: -1, e: 'worried' })] });
-S(35, { pl: 'BEACH', c: [550, -250, 1.1], pr: [log], act: [Hz(260, { f: 1, y: -64, p: 'reach', e: 'determined', tk: [0, 2.5] }), ...GS(14, 480, 980, { f: -1 }), L(1120, { f: -1, e: 'worried' })] });
-S(36, { pl: 'BEACH', c: [500, -270, 0.98], pr: [log], act: [Hz(260, { f: 1, y: -64, p: [[0, 'reach'], [.4, 'vote']], e: 'joy' }), ...GS(16, 430, 1000, { f: -1, rx: .4 }), Pp(1060, { f: -1, e: 'happy', pr: 'cracker' }), L(1250, { f: -1, p: 'sad', e: 'sad' })] });
-S(37, { pl: 'BEACH', c: [300, -240, 1.35], pr: [{ k: 'crackers', x: 420, y: 0, a0: 0 }], act: [Pp(300, { f: 1, s: 1.4, p: 'holdFront', pr: 'cracker', e: 'happy', tk: [0, 3] })] });
-S(38, { pl: 'BEACH', c: [100, -250, 1.4], act: [Iv(330, { f: -1, p: [[0, 'stand'], [2.4, 'vote']], e: 'worried', lk: [-.1, .9], z: 0 }), L(-50, { f: 1, p: 'stand', e: 'worried', lk: [.9, 0] })] });
+S(34, { apr: 0, pl: 'BEACH', c: [550, -250, 1.1], pr: [log], act: [Hz(260, { f: 1, y: -64, p: [[0, 'crouch'], [.4, 'jump'], [.7, 'stand']], e: 'determined' }), ...GS(14, 480, 980, { f: -1 }), L(1120, { f: -1, e: 'worried' })] });
+S(35, { apr: 0, pl: 'BEACH', c: [550, -250, 1.1], pr: [log], act: [Hz(260, { f: 1, y: -64, p: 'reach', e: 'determined', tk: [0, 2.5] }), ...GS(14, 480, 980, { f: -1 }), L(1120, { f: -1, e: 'worried' })] });
+S(36, { apr: 0, pl: 'BEACH', c: [500, -270, 0.98], pr: [log], act: [Hz(260, { f: 1, y: -64, p: [[0, 'reach'], [.4, 'vote']], e: 'joy' }), ...GS(16, 430, 1000, { f: -1, rx: .4 }), Pp(1060, { f: -1, e: 'happy', pr: 'cracker' }), L(1250, { f: -1, p: 'sad', e: 'sad' })] });
+S(37, { apr: 0, pl: 'BEACH', c: [300, -240, 1.35], pr: [{ k: 'crackers', x: 420, y: 0, a0: 0 }], act: [Pp(300, { f: 1, s: 1.4, p: 'holdFront', pr: 'cracker', e: 'happy', tk: [0, 3] })] });
+S(38, { apr: 0, pl: 'BEACH', c: [100, -250, 1.4], act: [Iv(330, { f: -1, p: [[0, 'stand'], [2.4, 'vote']], e: 'worried', lk: [-.1, .9], z: 0 }), L(-50, { f: 1, p: 'stand', e: 'worried', lk: [.9, 0] })] });
 S(39, { pl: 'BEACH', c: [-150, -250, 1.4], pr: [{ k: 'cloud', x: -330, y: -560, s: 1.1, col: '#6a7488' }], act: [L(-150, { f: 1, p: 'sad', e: 'sad' })] });
