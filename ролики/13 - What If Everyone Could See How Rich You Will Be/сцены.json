@@ -1,0 +1,10022 @@
+{
+ "title": "What If Everyone Could See How Rich You Will Be?",
+ "speed": 1.2,
+ "duration": 539.055,
+ "scenes": [
+  {
+   "id": "S001",
+   "start": 0.0,
+   "end": 2.05,
+   "place": "CLASS",
+   "line": "Tuesday, eight twelve in the morning, homeroom.",
+   "visual": "Класс, утро: окно слева, три ряда парт, Ms. Park у доски; над кадром плашка дня; чисел над головами пока нет.",
+   "motion": "дети входят и садятся",
+   "camera": "дальний, медленный наезд на класс слева направо",
+   "assets": "BG class; PARK; LEON; OWEN; TESS; NIA; JUNE; парты",
+   "texts": [
+    {
+     "t": 0.0,
+     "s": "TUESDAY · 8:12 AM",
+     "k": "hud"
+    },
+    {
+     "t": 1.683,
+     "s": "HOMEROOM",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S002",
+   "start": 2.05,
+   "end": 3.983,
+   "place": "CLASS",
+   "line": "Ms. Park is taking attendance,",
+   "visual": "Ms. Park с журналом у доски, ведёт пальцем по списку, дети отвечают «here».",
+   "motion": "Park водит пальцем по журналу",
+   "camera": "средний, пролёт вдоль рядов к Leon",
+   "assets": "PARK; журнал; дети",
+   "texts": []
+  },
+  {
+   "id": "S003",
+   "start": 3.983,
+   "end": 7.358,
+   "place": "CLASS",
+   "line": "and Leon is drawing a rocket in the margin of his math homework.",
+   "visual": "Leon за партой, в поле тетради с домашкой рисует ракету; Owen рядом листает учебник.",
+   "motion": "карандаш рисует ракету",
+   "camera": "ближний, наезд на тетрадь, потом отъезд на Leon",
+   "assets": "LEON; OWEN; тетрадь; ракета",
+   "texts": [
+    {
+     "t": 5.45,
+     "s": "MATH HOMEWORK",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S004",
+   "start": 7.358,
+   "end": 11.35,
+   "place": "CLASS",
+   "line": "Then his scalp tingles, and a number lights up above his head.",
+   "visual": "Leon чешет макушку, по волосам пробегают золотые искры; над головой загорается золотая точка.",
+   "motion": "искры по волосам, дёрг",
+   "camera": "ближний, наезд на макушку, тряска",
+   "assets": "LEON; искры",
+   "texts": [
+    {
+     "t": 8.5,
+     "s": "TINGLE",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S005",
+   "start": 11.35,
+   "end": 15.233,
+   "place": "CLASS",
+   "line": "Gold. Glowing. Twenty-seven billion dollars.",
+   "visual": "Над головой Leon выезжает золотое число $27,000,000,000, светится и пульсирует; Leon не видит его, глаза смотрят вверх.",
+   "motion": "число вылетает с отскоком, пульсирует",
+   "camera": "средний, резкий наезд на число, лучи",
+   "assets": "LEON; число",
+   "texts": [
+    {
+     "t": 11.867,
+     "s": "$27,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S006",
+   "start": 15.233,
+   "end": 17.508,
+   "place": "CLASS",
+   "line": "Ms. Park drops her chalk.",
+   "visual": "Ms. Park у доски роняет мел, рот открыт, глаза вверх на число; мел падает и ломается.",
+   "motion": "мел падает, ломается пополам",
+   "camera": "средний, пролёт от доски к Park, тряска на падении",
+   "assets": "PARK; мел; число",
+   "texts": []
+  },
+  {
+   "id": "S007",
+   "start": 17.508,
+   "end": 21.308,
+   "place": "CLASS",
+   "line": "Three girls in the second row turn around at the exact same time,",
+   "visual": "Три девочки во втором ряду разворачиваются на стульях к Leon одновременно, глаза вверх на число.",
+   "motion": "три разворота в одну секунду",
+   "camera": "средний, пролёт по ряду, синхронный разворот",
+   "assets": "TESS; NIA; JUNE; парты",
+   "texts": []
+  },
+  {
+   "id": "S008",
+   "start": 21.308,
+   "end": 25.45,
+   "place": "CLASS",
+   "line": "Tess, Nia, and June, and their eyes turn into hearts.",
+   "visual": "Крупно: у Tess, Nia, June глаза превращаются в сердечки (глаза видны внутри); плашки с именами.",
+   "motion": "сердца пульсируют",
+   "camera": "ближний, наезд на трёх, сердца вылетают",
+   "assets": "TESS; NIA; JUNE; сердца",
+   "texts": [
+    {
+     "t": 21.617,
+     "s": "TESS",
+     "k": "cap"
+    },
+    {
+     "t": 22.217,
+     "s": "NIA",
+     "k": "cap"
+    },
+    {
+     "t": 22.7,
+     "s": "JUNE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S009",
+   "start": 25.45,
+   "end": 26.617,
+   "place": "CLASS",
+   "line": "Owen leans over.",
+   "visual": "Owen наклоняется к Leon через проход, шёпотом; Leon смотрит на него.",
+   "motion": "Owen наклоняется",
+   "camera": "средний, наезд на двоих",
+   "assets": "OWEN; LEON",
+   "texts": []
+  },
+  {
+   "id": "S010",
+   "start": 26.617,
+   "end": 30.342,
+   "place": "CLASS",
+   "line": "\"Twenty-seven billion? You can't afford lunch.\"",
+   "visual": "Owen ухмыляется, показывает на число над Leon и на пустой кошелёк Leon; Leon выворачивает пустой карман.",
+   "motion": "Leon выворачивает карман, пусто",
+   "camera": "ближний, наезд на карман",
+   "assets": "OWEN; LEON; число; кошелёк",
+   "texts": [
+    {
+     "t": 26.617,
+     "s": "Twenty-seven billion? You can't afford lunch.",
+     "k": "say",
+     "who": "OWEN"
+    }
+   ]
+  },
+  {
+   "id": "S011",
+   "start": 30.342,
+   "end": 33.892,
+   "place": "CLASS",
+   "line": "Leon looks up at the ceiling, as if he could read it himself.",
+   "visual": "Leon задирает голову к потолку, пытается увидеть число над собой, косит глазами вверх; ничего.",
+   "motion": "Leon вытягивает шею, косит",
+   "camera": "средний, крен камеры вверх",
+   "assets": "LEON; число",
+   "texts": []
+  },
+  {
+   "id": "S012",
+   "start": 33.892,
+   "end": 36.875,
+   "place": "CLASS",
+   "line": "He can't. Everybody else can.",
+   "visual": "Весь класс смотрит вверх на число над Leon: 14 лиц, рты открыты; Leon один смотрит в потолок.",
+   "motion": "головы поворачиваются вверх по цепочке",
+   "camera": "дальний, отъезд, волна поворотов голов",
+   "assets": "LEON; KIDS×14; число",
+   "texts": [
+    {
+     "t": 35.417,
+     "s": "EVERYBODY ELSE CAN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S013",
+   "start": 36.875,
+   "end": 41.067,
+   "place": "CLASS",
+   "line": "So, what if everyone could see how rich you will be?",
+   "visual": "Leon в центре, вокруг класс; над ним золотое число; на экране плашка-название.",
+   "motion": "плашка вылетает по словам",
+   "camera": "средний, быстрый наезд, плашка по словам",
+   "assets": "LEON; число; плашка",
+   "texts": [
+    {
+     "t": 37.317,
+     "s": "WHAT IF EVERYONE COULD SEE HOW RICH YOU WILL BE?",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S014",
+   "start": 41.067,
+   "end": 44.067,
+   "place": "CLASS",
+   "line": "And what would that number do to the people around you?",
+   "visual": "Число над Leon, вокруг него девочки с сердцами и Chase у двери смотрит; знак вопроса над классом.",
+   "motion": "вопрос-стикер повисает",
+   "camera": "средний, пролёт по лицам",
+   "assets": "LEON; TESS; NIA; JUNE; CHASE; число",
+   "texts": [
+    {
+     "t": 42.1,
+     "s": "?",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S015",
+   "start": 44.067,
+   "end": 49.133,
+   "place": "CLASS",
+   "line": "By Friday at four, it will be the only thing anyone sees about you. [matter-of-fact]",
+   "visual": "Часы на стене класса, стрелки показывают 4:00; плашка FRIDAY 4:00 PM; Leon и число под ними.",
+   "motion": "часы тикают, плашка пульсирует",
+   "camera": "ближний, наезд на часы, отъезд на Leon",
+   "assets": "часы; LEON; число",
+   "texts": [
+    {
+     "t": 44.683,
+     "s": "FRIDAY · 4:00 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S016",
+   "start": 49.133,
+   "end": 52.033,
+   "place": "VOID",
+   "line": "Here's how it works. Rule one.",
+   "visual": "Тёмная плашка HOW IT WORKS, на ней золотая цифра 1 и подпись RULE 1.",
+   "motion": "плашка выскакивает, цифра падает",
+   "camera": "ближний, пролёт по плашке",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 49.133,
+     "s": "HOW IT WORKS",
+     "k": "plate"
+    },
+    {
+     "t": 50.983,
+     "s": "RULE 1",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S017",
+   "start": 52.033,
+   "end": 53.708,
+   "place": "VOID",
+   "line": "The number isn't what you have.",
+   "visual": "Слева кошелёк с купюрами (перечёркнут), справа золотая звезда; число объясняет: не то, что есть.",
+   "motion": "кошелёк перечёркивается",
+   "camera": "средний, наезд на кошелёк",
+   "assets": "кошелёк; звезда; plate",
+   "texts": [
+    {
+     "t": 53.133,
+     "s": "NOT WHAT YOU HAVE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S018",
+   "start": 53.708,
+   "end": 58.017,
+   "place": "VOID",
+   "line": "It's the most money you will ever have, in your whole life.",
+   "visual": "Шкала жизни от рождения до старости, на пике стрелка MAX; золотая точка на пике.",
+   "motion": "стрелка ползёт к пику",
+   "camera": "средний, пролёт вдоль шкалы",
+   "assets": "шкала жизни; точка",
+   "texts": [
+    {
+     "t": 54.317,
+     "s": "THE MOST YOU WILL EVER HAVE",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S019",
+   "start": 58.017,
+   "end": 61.625,
+   "place": "VOID",
+   "line": "Rule two. It changes every time you make a choice.",
+   "visual": "Плашка RULE 2; число прыгает вверх-вниз, на каждом прыжке вылетает звук-стикер.",
+   "motion": "число прыгает",
+   "camera": "средний, тряска на прыжках",
+   "assets": "plate; число",
+   "texts": [
+    {
+     "t": 58.583,
+     "s": "RULE 2: IT CHANGES",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S020",
+   "start": 61.625,
+   "end": 67.025,
+   "place": "VOID",
+   "line": "Good ones push it up, lazy ones pull it down, and nobody tells you which is which.",
+   "visual": "Слева стрелка вверх с зелёной галочкой, справа вниз с красным ленивым диваном; знак «?» посередине.",
+   "motion": "стрелки дёргаются",
+   "camera": "средний, пролёт слева направо, тряска на вопросе",
+   "assets": "стрелки; диван; галочка",
+   "texts": [
+    {
+     "t": 61.75,
+     "s": "GOOD ↑",
+     "k": "cap"
+    },
+    {
+     "t": 63.267,
+     "s": "LAZY ↓",
+     "k": "cap"
+    },
+    {
+     "t": 65.183,
+     "s": "?",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S021",
+   "start": 67.025,
+   "end": 70.183,
+   "place": "VOID",
+   "line": "Rule three. You can't hide it.",
+   "visual": "Плашка RULE 3: на ней замочек и глаз; плашка YOU CAN'T HIDE IT.",
+   "motion": "замок и глаз",
+   "camera": "ближний, наезд",
+   "assets": "plate; замок; глаз",
+   "texts": [
+    {
+     "t": 67.75,
+     "s": "RULE 3: CAN'T HIDE IT",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S022",
+   "start": 70.183,
+   "end": 75.308,
+   "place": "CLASS",
+   "line": "Leon pulls up his hood, puts a bucket on his head, and the number just floats above the bucket.",
+   "visual": "Leon натягивает капюшон и надевает на макушку ведро (до бровей, глаза видны); золотое число парит над ведром.",
+   "motion": "ведро звякает, капюшон",
+   "camera": "средний, наезд на ведро, отъезд на класс",
+   "assets": "LEON; ведро; число",
+   "texts": [
+    {
+     "t": 72.0,
+     "s": "NOPE",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S023",
+   "start": 75.308,
+   "end": 78.433,
+   "place": "BACKYARD",
+   "line": "He's already planning a pizza fountain for the backyard.",
+   "visual": "Мысленное облачко Leon: фонтан из пиццы в заднем дворе, кусочки летят вверх; Leon под ведром мечтательно улыбается.",
+   "motion": "облако, кусочки пиццы вверх",
+   "camera": "средний, наезд на облако",
+   "assets": "LEON; ведро; облако; фонтан",
+   "texts": [
+    {
+     "t": 76.583,
+     "s": "PIZZA FOUNTAIN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S024",
+   "start": 78.433,
+   "end": 83.967,
+   "place": "CLASS",
+   "line": "Owen squints. \"Twenty-seven billion. Still.\"",
+   "visual": "Owen щурится, смотрит на число над ведром; Leon сидит с ведром, число видно.",
+   "motion": "Owen щурится",
+   "camera": "ближний, наезд на лицо Owen",
+   "assets": "OWEN; LEON; ведро; число",
+   "texts": [
+    {
+     "t": 82.983,
+     "s": "$27,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S025",
+   "start": 83.967,
+   "end": 88.183,
+   "place": "CLASS",
+   "line": "At lunch, Leon is about to find out what a number does to people.",
+   "visual": "Leon оглядывается: дети идут к двери, с каждого взгляд на число; звонок.",
+   "motion": "звонок, толпа вываливает",
+   "camera": "средний, пролёт за толпой к двери",
+   "assets": "LEON; OWEN; KIDS; дверь",
+   "texts": [
+    {
+     "t": 84.55,
+     "s": "AT LUNCH",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S026",
+   "start": 88.183,
+   "end": 89.942,
+   "place": "CAFE",
+   "line": "Lunch, ten past twelve.",
+   "visual": "Столовая, вид сбоку: стойка раздачи справа, столы; плашка дня; Leon входит слева.",
+   "motion": "Leon входит, дети в очереди",
+   "camera": "дальний, въезд в столовую слева направо",
+   "assets": "BG cafeteria; LEON; KIDS×12; стойка",
+   "texts": [
+    {
+     "t": 88.633,
+     "s": "TUESDAY · 12:10 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S027",
+   "start": 89.942,
+   "end": 93.683,
+   "place": "CAFE",
+   "line": "The cafeteria line opens up like Leon is carrying a fire hose.",
+   "visual": "Очередь расступается веером от Leon, как от пожарного шланга; дети отпрыгивают, глаза вверх.",
+   "motion": "очередь расступается волной",
+   "camera": "средний, пролёт за Leon сквозь очередь",
+   "assets": "LEON; KIDS×12; число",
+   "texts": [
+    {
+     "t": 93.167,
+     "s": "WHOOSH",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S028",
+   "start": 93.683,
+   "end": 97.325,
+   "place": "CAFE",
+   "line": "Tess hands him her cookie. Nia hands him her chips.",
+   "visual": "Tess протягивает печенье, Nia протягивает чипсы; Leon берёт обеими руками.",
+   "motion": "руки передают, Leon берёт",
+   "camera": "ближний, пролёт по рукам",
+   "assets": "TESS; NIA; LEON; печенье; чипсы",
+   "texts": []
+  },
+  {
+   "id": "S029",
+   "start": 97.325,
+   "end": 100.592,
+   "place": "CAFE",
+   "line": "June hands him a napkin folded into a swan.",
+   "visual": "June протягивает салфетку, сложенную в лебедя; лебедь на ладони.",
+   "motion": "лебедь покачивается",
+   "camera": "ближний, наезд на лебедя",
+   "assets": "JUNE; салфетка-лебедь; LEON",
+   "texts": [
+    {
+     "t": 99.783,
+     "s": "SWAN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S030",
+   "start": 100.592,
+   "end": 103.725,
+   "place": "CAFE",
+   "line": "Chase, who has never said a word to Leon in his life,",
+   "visual": "Chase (синяя форма №7, рюкзак) подходит к Leon сбоку, робко смотрит на число; плашка CHASE.",
+   "motion": "Chase подходит, переминается",
+   "camera": "средний, наезд на Chase",
+   "assets": "CHASE; LEON; рюкзак",
+   "texts": [
+    {
+     "t": 101.017,
+     "s": "CHASE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S031",
+   "start": 103.725,
+   "end": 108.092,
+   "place": "CAFE",
+   "line": "carries his tray and his backpack and says, \"I got you, champ.\"",
+   "visual": "Chase несёт поднос Leon и свой рюкзак, кивает как слуга; Leon идёт впереди довольный.",
+   "motion": "Chase несёт поднос, идёт рядом",
+   "camera": "средний, пролёт за Chase",
+   "assets": "CHASE; LEON; поднос; рюкзак",
+   "texts": [
+    {
+     "t": 107.317,
+     "s": "I got you, champ.",
+     "k": "say",
+     "who": "CHASE"
+    }
+   ]
+  },
+  {
+   "id": "S032",
+   "start": 108.092,
+   "end": 114.183,
+   "place": "CAFE",
+   "line": "An eighth grader Leon has never met asks for an autograph, and Leon signs it on a napkin.",
+   "visual": "Старшеклассник протягивает листок, Leon расписывается на салфетке; Leon слегка смущён.",
+   "motion": "Leon пишет, салфетка",
+   "camera": "ближний, наезд на салфетку",
+   "assets": "EIGHTHGRADER; LEON; салфетка",
+   "texts": [
+    {
+     "t": 111.283,
+     "s": "AUTOGRAPH",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S033",
+   "start": 114.183,
+   "end": 116.567,
+   "place": "CAFE",
+   "line": "The lunch lady gives him two puddings.",
+   "visual": "Повариха за стойкой кладёт на поднос Leon два пудинга, ухмыляется; рядом очередь с одним пудингом.",
+   "motion": "поварёшка, два пудинга",
+   "camera": "средний, наезд на два пудинга",
+   "assets": "LUNCHLADY; LEON; пудинги",
+   "texts": [
+    {
+     "t": 115.483,
+     "s": "×2",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S034",
+   "start": 116.567,
+   "end": 120.242,
+   "place": "CAFE",
+   "line": "Then Tess leans in. \"I already did your homework.\"",
+   "visual": "Tess склоняется к Leon, шепчет; в руках стопка исписанных листов.",
+   "motion": "Tess наклоняется, подаёт листы",
+   "camera": "ближний, наезд, тихо",
+   "assets": "TESS; LEON; листы",
+   "texts": [
+    {
+     "t": 118.95,
+     "s": "I already did your homework.",
+     "k": "say",
+     "who": "TESS"
+    }
+   ]
+  },
+  {
+   "id": "S035",
+   "start": 120.242,
+   "end": 125.492,
+   "place": "CAFE",
+   "line": "Leon takes it. Above his head, the number drops by one billion.",
+   "visual": "Leon берёт листы; число над его головой падает: $27,000,000,000 → $26,000,000,000, красная стрелка вниз.",
+   "motion": "число падает, красный отскок",
+   "camera": "средний, наезд на число, тряска на падении",
+   "assets": "LEON; число; листы",
+   "texts": [
+    {
+     "t": 123.367,
+     "s": "−$1B → $26,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S036",
+   "start": 125.492,
+   "end": 127.442,
+   "place": "CAFE",
+   "line": "Owen puts down his fork.",
+   "visual": "Owen кладёт вилку, смотрит на Leon поверх очков.",
+   "motion": "вилка звякает",
+   "camera": "ближний, наезд на Owen",
+   "assets": "OWEN; LEON; тарелка",
+   "texts": []
+  },
+  {
+   "id": "S037",
+   "start": 127.442,
+   "end": 130.65,
+   "place": "CAFE",
+   "line": "\"You just paid a billion dollars for a worksheet.\" [matter-of-fact]",
+   "visual": "Owen показывает на листок: «WORKSHEET»; над ним значок $1,000,000,000; Leon с листками в руке.",
+   "motion": "Owen тычет в лист",
+   "camera": "средний, пролёт между Owen и листком",
+   "assets": "OWEN; LEON; листок",
+   "texts": [
+    {
+     "t": 127.983,
+     "s": "You just paid a billion dollars for a worksheet.",
+     "k": "say",
+     "who": "OWEN"
+    }
+   ]
+  },
+  {
+   "id": "S038",
+   "start": 130.65,
+   "end": 132.333,
+   "place": "VOID",
+   "line": "Here's the part nobody says out loud.",
+   "visual": "Тёмная плашка THE PART NOBODY SAYS OUT LOUD; значок лупы.",
+   "motion": "плашка с лупой",
+   "camera": "ближний, наезд на плашку",
+   "assets": "plate; лупа",
+   "texts": [
+    {
+     "t": 130.65,
+     "s": "THE HALO EFFECT",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S039",
+   "start": 132.333,
+   "end": 135.017,
+   "place": "VOID",
+   "line": "In 1920, the psychologist Edward Thorndike",
+   "visual": "Стикмен-психолог в очках у доски; подпись EDWARD THORNDIKE · 1920.",
+   "motion": "психолог чертит на доске",
+   "camera": "средний, наезд на психолога",
+   "assets": "THORNDIKE; доска",
+   "texts": [
+    {
+     "t": 132.717,
+     "s": "EDWARD THORNDIKE · 1920",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S040",
+   "start": 135.017,
+   "end": 140.025,
+   "place": "VOID",
+   "line": "noticed that when we like one thing about a person, we judge everything else about them more kindly.",
+   "visual": "На доске схема: человек с золотым нимбом, вокруг слова smart, kind, funny; стрелки от нимба к словам.",
+   "motion": "слова вылетают из нимба",
+   "camera": "средний, пролёт по доске",
+   "assets": "схема; нимб; THORNDIKE",
+   "texts": [
+    {
+     "t": 136.2,
+     "s": "ONE GOOD THING → EVERYTHING",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S041",
+   "start": 140.025,
+   "end": 142.75,
+   "place": "VOID",
+   "line": "Scientists call it the halo effect.",
+   "visual": "Золотой нимб над головой стикмена; плашка HALO EFFECT с тремя пунктами.",
+   "motion": "нимб сияет",
+   "camera": "ближний, наезд на нимб",
+   "assets": "plate; нимб; стикмен",
+   "texts": [
+    {
+     "t": 141.533,
+     "s": "HALO EFFECT",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S042",
+   "start": 142.75,
+   "end": 146.475,
+   "place": "CAFE",
+   "line": "The girls aren't looking at Leon. They're looking at the number.",
+   "visual": "Крупный план: Tess, Nia, June смотрят вверх на число, не на лицо Leon; Leon с краю в кадре; стрелки-взгляды к числу.",
+   "motion": "три взгляда вверх, лицо Leon обмякает",
+   "camera": "средний, пролёт по взглядам вверх, остановка на числе",
+   "assets": "TESS; NIA; JUNE; LEON; число",
+   "texts": [
+    {
+     "t": 143.883,
+     "s": "NOT AT LEON",
+     "k": "cap"
+    },
+    {
+     "t": 145.1,
+     "s": "AT THE NUMBER",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S043",
+   "start": 146.475,
+   "end": 149.742,
+   "place": "CAFE",
+   "line": "And after school, that number starts getting visitors.",
+   "visual": "Окно столовой: за ним у ворот школы тормозит фургон новостей; Leon смотрит в окно.",
+   "motion": "фургон заруливает",
+   "camera": "дальний, отъезд из столовой к окну",
+   "assets": "LEON; окно; фургон вдали",
+   "texts": [
+    {
+     "t": 148.817,
+     "s": "VISITORS",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S044",
+   "start": 149.742,
+   "end": 153.45,
+   "place": "STREET",
+   "line": "Five o'clock, Leon's street. A news van is parked across the driveway,",
+   "visual": "Улица перед домом Leon, вид сбоку: дом справа, подъездная дорожка, фургон новостей у бордюра, тарелка на крыше; плашка дня.",
+   "motion": "фургон припаркован, антенна крутится",
+   "camera": "дальний, въезд по улице к фургону",
+   "assets": "BG street; ДОМ; фургон; LEON",
+   "texts": [
+    {
+     "t": 150.283,
+     "s": "TUESDAY · 5:00 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S045",
+   "start": 153.45,
+   "end": 158.392,
+   "place": "STREET",
+   "line": "and a reporter with perfect hair shoves a microphone in his face. \"Any advice for your fans?\"",
+   "visual": "Репортёр с идеальной причёской тычет микрофоном в лицо Leon; оператор снимает.",
+   "motion": "микрофон к лицу, камера снимает",
+   "camera": "средний, наезд на микрофон",
+   "assets": "REPORTER; CAMERAMAN; LEON; микрофон",
+   "texts": [
+    {
+     "t": 153.95,
+     "s": "LIVE",
+     "k": "boom"
+    },
+    {
+     "t": 157.783,
+     "s": "Any advice for your fans?",
+     "k": "say",
+     "who": "REPORTER"
+    }
+   ]
+  },
+  {
+   "id": "S046",
+   "start": 158.392,
+   "end": 161.05,
+   "place": "STREET",
+   "line": "Leon panics. \"Eat your vegetables.\"",
+   "visual": "Leon паникует, глаза бегают, потом выпаливает; репортёр кивает серьёзно.",
+   "motion": "Leon дёргается, руки вверх",
+   "camera": "ближний, тряска на панике",
+   "assets": "LEON; REPORTER; микрофон",
+   "texts": [
+    {
+     "t": 160.467,
+     "s": "Eat your vegetables.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S047",
+   "start": 161.05,
+   "end": 166.492,
+   "place": "STREET",
+   "line": "The number climbs by two hundred million. Grown-ups love that kind of thing.",
+   "visual": "Число над Leon растёт: $26B → $26.2B, зелёная стрелка вверх; в окне соседней двери взрослые одобрительно показывают большие пальцы.",
+   "motion": "число прыгает вверх, взрослые кивают",
+   "camera": "средний, пролёт по взрослым и по числу",
+   "assets": "LEON; число; ADULTS×3",
+   "texts": [
+    {
+     "t": 162.017,
+     "s": "+$200M → $26,200,000,000",
+     "k": "num"
+    },
+    {
+     "t": 163.75,
+     "s": "GROWN-UPS LOVE IT",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S048",
+   "start": 166.492,
+   "end": 170.858,
+   "place": "KITCHEN",
+   "line": "Then the doorbell rings, and a man in a gray suit walks into the kitchen holding a folder.",
+   "visual": "Кухня: звонок в дверь слева, Mom открывает; входит Mr. Hale с папкой.",
+   "motion": "Hale входит, дверь хлопает",
+   "camera": "средний, пролёт за Hale с порога",
+   "assets": "MOM; HALE; папка; LEON",
+   "texts": [
+    {
+     "t": 167.1,
+     "s": "DING DONG",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S049",
+   "start": 170.858,
+   "end": 171.75,
+   "place": "KITCHEN",
+   "line": "Mr. Hale.",
+   "visual": "Mr. Hale кладёт папку на стол кухни, плашка HALE; Mom у стола, Leon смотрит.",
+   "motion": "Hale кладёт папку, щёлкает замок",
+   "camera": "средний, наезд на Hale",
+   "assets": "HALE; MOM; LEON; папка",
+   "texts": [
+    {
+     "t": 171.733,
+     "s": "MR. HALE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S050",
+   "start": 171.75,
+   "end": 178.35,
+   "place": "KITCHEN",
+   "line": "\"Ten percent of whatever is above your head,\" he says, \"and I'll pay you forty thousand dollars today.\"",
+   "visual": "Hale достаёт договор и пачку денег; над бумагой стикер 10%; Leon смотрит на договор.",
+   "motion": "Hale раскладывает листы и деньги",
+   "camera": "ближний, наезд на договор",
+   "assets": "HALE; LEON; договор; деньги",
+   "texts": [
+    {
+     "t": 172.508,
+     "s": "10% OF THE NUMBER",
+     "k": "card"
+    },
+    {
+     "t": 176.133,
+     "s": "$40,000 TODAY",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S051",
+   "start": 178.35,
+   "end": 183.983,
+   "place": "KITCHEN",
+   "line": "Mom reads the contract with her glasses on the tip of her nose. \"Page three says he gets your lunch for life.\"",
+   "visual": "Mom в очках на кончике носа читает договор; палец идёт по строке; Leon и Hale смотрят.",
+   "motion": "палец по строке, очки сползают",
+   "camera": "ближний, пролёт по строке",
+   "assets": "MOM; договор; LEON; HALE",
+   "texts": [
+    {
+     "t": 181.4,
+     "s": "Page three says he gets your lunch for life.",
+     "k": "say",
+     "who": "MOM"
+    }
+   ]
+  },
+  {
+   "id": "S052",
+   "start": 183.983,
+   "end": 187.4,
+   "place": "KITCHEN",
+   "line": "Biscuit grabs the whole thing and bolts out the back door.",
+   "visual": "Biscuit хватает зубами договор со стола и убегает через заднюю дверь справа; Hale тянет руки вслед.",
+   "motion": "пёс прыгает, схватил, бежит вправо",
+   "camera": "средний, быстрая панорама за псом вправо",
+   "assets": "BISCUIT; договор; HALE; MOM; LEON",
+   "texts": [
+    {
+     "t": 185.75,
+     "s": "BISCUIT!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S053",
+   "start": 187.4,
+   "end": 193.408,
+   "place": "BACKYARD",
+   "line": "Leon gives his dog a treat, and the number goes up by fifty million, for being kind to a dog.",
+   "visual": "Двор: Leon даёт Biscuit печенье, пёс жуёт; число над Leon поднимается: $26.2B → $26.25B, подпись FOR BEING KIND TO A DOG.",
+   "motion": "печенье в зубы, число вверх",
+   "camera": "средний, наезд на пса и число",
+   "assets": "LEON; BISCUIT; печенье; число",
+   "texts": [
+    {
+     "t": 188.783,
+     "s": "+$50M → $26,250,000,000",
+     "k": "num"
+    },
+    {
+     "t": 191.9,
+     "s": "KIND TO A DOG",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S054",
+   "start": 193.408,
+   "end": 197.658,
+   "place": "BACKYARD",
+   "line": "He doesn't know it yet, but the number just told him something.",
+   "visual": "Leon чешет пса, задумчиво смотрит на число; над числом лампочка-вопрос.",
+   "motion": "Leon чешет пса, смотрит вверх",
+   "camera": "средний, медленный наезд",
+   "assets": "LEON; BISCUIT; число",
+   "texts": [
+    {
+     "t": 196.817,
+     "s": "THE NUMBER TOLD HIM SOMETHING",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S055",
+   "start": 197.658,
+   "end": 201.933,
+   "place": "BACKYARD",
+   "line": "Tomorrow, he'll notice the pattern. Chase already has.",
+   "visual": "За забором силуэт Chase: прячется, выглядывает с блокнотом; Leon его не видит.",
+   "motion": "Chase выглядывает из-за забора",
+   "camera": "средний, наезд на силуэт Chase",
+   "assets": "CHASE; блокнот; LEON вдали",
+   "texts": [
+    {
+     "t": 198.183,
+     "s": "TOMORROW",
+     "k": "cap"
+    },
+    {
+     "t": 200.467,
+     "s": "CHASE ALREADY HAS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S056",
+   "start": 201.933,
+   "end": 205.325,
+   "place": "GARAGE",
+   "line": "Wednesday, seven forty in the morning, Owen's garage.",
+   "visual": "Гараж Owen: на полу ржавый тандем, верстак с инструментами, Owen рядом; плашка дня; Leon входит слева.",
+   "motion": "Leon заходит, Owen не оглядывается",
+   "camera": "дальний, въезд в гараж слева направо",
+   "assets": "BG garage; OWEN; LEON; тандем; верстак",
+   "texts": [
+    {
+     "t": 202.233,
+     "s": "WEDNESDAY · 7:40 AM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S057",
+   "start": 205.325,
+   "end": 212.158,
+   "place": "GARAGE",
+   "line": "Owen is bolting a strange metal box onto a rusty old bicycle, and for once, Leon doesn't say anything funny.",
+   "visual": "Owen прикручивает ключом странную металлическую коробку на раму между седлами; провод идёт к заднему колесу.",
+   "motion": "ключ вращается, Owen пыхтит",
+   "camera": "средний, пролёт вдоль тандема",
+   "assets": "OWEN; тандем; коробка; ключ",
+   "texts": []
+  },
+  {
+   "id": "S058",
+   "start": 212.158,
+   "end": 213.667,
+   "place": "GARAGE",
+   "line": "He just holds the wrench.",
+   "visual": "Leon молча держит второй ключ, смотрит на коробку, не шутит; Owen косится на него.",
+   "motion": "Leon держит ключ, Owen косится",
+   "camera": "ближний, наезд на руки с ключами",
+   "assets": "LEON; OWEN; ключ; коробка",
+   "texts": [
+    {
+     "t": 213.083,
+     "s": "NO JOKES",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S059",
+   "start": 213.667,
+   "end": 216.375,
+   "place": "GARAGE",
+   "line": "The number jumps up by a billion.",
+   "visual": "Число над Leon прыгает: $26.25B → $27.25B, золотой взрыв-стикер, зелёная стрелка.",
+   "motion": "число подпрыгивает, лучи",
+   "camera": "средний, наезд на число, тряска",
+   "assets": "LEON; число",
+   "texts": [
+    {
+     "t": 214.467,
+     "s": "+$1B → $27,250,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S060",
+   "start": 216.375,
+   "end": 220.692,
+   "place": "ROAD",
+   "line": "On the way to school, Tess hands Leon a coffee, and he lets her pay.",
+   "visual": "Дорога в школу: Leon и Owen идут вправо, Tess догоняет слева с двумя стаканчиками и отдаёт один Leon; Leon достаёт мелочь и даёт ей оплатить.",
+   "motion": "Tess догоняет, Leon не платит",
+   "camera": "средний, пролёт за троицей вправо",
+   "assets": "LEON; OWEN; TESS; стаканчики",
+   "texts": [
+    {
+     "t": 218.983,
+     "s": "TESS PAYS",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S061",
+   "start": 220.692,
+   "end": 221.925,
+   "place": "ROAD",
+   "line": "Down it goes.",
+   "visual": "Число над Leon падает: $27.25B → $26.75B, красная стрелка вниз.",
+   "motion": "число падает",
+   "camera": "средний, наезд на число",
+   "assets": "LEON; число",
+   "texts": [
+    {
+     "t": 221.017,
+     "s": "−$500M → $26,750,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S062",
+   "start": 221.925,
+   "end": 224.242,
+   "place": "ROAD",
+   "line": "Then he stops to tie Owen's shoe.",
+   "visual": "Leon наклоняется и завязывает Owen шнурок на ботинке; Owen удивлён.",
+   "motion": "Leon завязывает шнурок",
+   "camera": "ближний, наезд на шнурок",
+   "assets": "LEON; OWEN; ботинок",
+   "texts": [
+    {
+     "t": 223.667,
+     "s": "TIES OWEN'S SHOE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S063",
+   "start": 224.242,
+   "end": 225.508,
+   "place": "ROAD",
+   "line": "Up.",
+   "visual": "Число взлетает: $26.75B → $27.25B, зелёная стрелка вверх.",
+   "motion": "число подпрыгивает",
+   "camera": "средний, наезд на число",
+   "assets": "LEON; число",
+   "texts": [
+    {
+     "t": 224.6,
+     "s": "+$500M → $27,250,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S064",
+   "start": 225.508,
+   "end": 230.75,
+   "place": "ROAD",
+   "line": "Leon stares at the number, then at Owen, then at the number again.",
+   "visual": "Leon переводит взгляд: число, Owen, число; три быстрые панорамы; над ним мигающая лампочка идеи.",
+   "motion": "взгляд число-Owen-число",
+   "camera": "средний, три быстрые панорамы в такт взгляду",
+   "assets": "LEON; OWEN; число",
+   "texts": []
+  },
+  {
+   "id": "S065",
+   "start": 230.75,
+   "end": 234.592,
+   "place": "VOID",
+   "line": "It isn't what he has. It isn't even what he does.",
+   "visual": "Три зачёркнутые карточки: HAS, DOES; Leon-силуэт зачёркивает их.",
+   "motion": "карточки зачёркиваются",
+   "camera": "средний, пролёт по карточкам",
+   "assets": "карточки; LEON",
+   "texts": [
+    {
+     "t": 231.933,
+     "s": "NOT WHAT HE HAS",
+     "k": "cap"
+    },
+    {
+     "t": 233.867,
+     "s": "NOT WHAT HE DOES",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S066",
+   "start": 234.592,
+   "end": 237.875,
+   "place": "VOID",
+   "line": "It's what he chooses, again and again,",
+   "visual": "Развилка из двух стрелок CHOICE → CHOICE → CHOICE; над одной Owen, над другой диван.",
+   "motion": "стрелки выбирают путь",
+   "camera": "средний, пролёт по развилкам",
+   "assets": "развилка; OWEN; диван",
+   "texts": [
+    {
+     "t": 235.633,
+     "s": "WHAT HE CHOOSES",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S067",
+   "start": 237.875,
+   "end": 241.917,
+   "place": "VOID",
+   "line": "and it rises every time he does something real with Owen.",
+   "visual": "Выбор Owen: стрелка вверх, число растёт зелёным; выбор дивана: вниз красным.",
+   "motion": "число растёт у выбравшего Owen",
+   "camera": "ближний, наезд на растущее число",
+   "assets": "развилка; OWEN; число",
+   "texts": [
+    {
+     "t": 241.067,
+     "s": "OWEN ↑",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S068",
+   "start": 241.917,
+   "end": 245.875,
+   "place": "ROAD",
+   "line": "Behind him, Chase flips open a small notebook and writes something down.",
+   "visual": "За Leon на заднем плане Chase раскрывает небольшой блокнот и что-то пишет; Leon его не замечает.",
+   "motion": "Chase пишет, карандаш быстро",
+   "camera": "средний, наезд на Chase за плечом Leon",
+   "assets": "CHASE; блокнот; LEON вдали",
+   "texts": [
+    {
+     "t": 244.217,
+     "s": "NOTEBOOK",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S069",
+   "start": 245.875,
+   "end": 249.842,
+   "place": "ROAD",
+   "line": "Leon checks the number once more. It hasn't moved. Yet.",
+   "visual": "Leon смотрит на число: оно застыло $27,250,000,000, рамка «…»; Leon смотрит на часы.",
+   "motion": "число замерло",
+   "camera": "ближний, наезд на число",
+   "assets": "LEON; число",
+   "texts": [
+    {
+     "t": 249.033,
+     "s": "YET",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S070",
+   "start": 249.842,
+   "end": 253.35,
+   "place": "ROAD",
+   "line": "Because Thursday morning, he has to pick a partner.",
+   "visual": "Календарь: четверг обведён красным, внутри слово PARTNER; Leon, Owen и девочки в силуэтах на горизонте.",
+   "motion": "календарь шлёпается на экран",
+   "camera": "средний, наезд на обведённый четверг",
+   "assets": "календарь; LEON; OWEN; TESS; NIA; JUNE",
+   "texts": [
+    {
+     "t": 250.467,
+     "s": "THURSDAY: PICK A PARTNER",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S071",
+   "start": 253.35,
+   "end": 257.492,
+   "place": "GYM",
+   "line": "Thursday, ten fifteen, the gym. Ms. Park holds up a clipboard.",
+   "visual": "Спортзал: сцена слева, трибуны справа; дети кучками у сцены; Ms. Park с планшетом; плашка дня.",
+   "motion": "дети собираются, Park поднимает планшет",
+   "camera": "дальний, въезд в зал слева направо",
+   "assets": "BG gym; PARK; KIDS×16; LEON; OWEN",
+   "texts": [
+    {
+     "t": 253.9,
+     "s": "THURSDAY · 10:15 AM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S072",
+   "start": 257.492,
+   "end": 261.617,
+   "place": "GYM",
+   "line": "\"Science fair partners. Friday at four, the whole town comes to watch.\"",
+   "visual": "Ms. Park держит планшет, читает; над ней стикер SCIENCE FAIR; дети слушают.",
+   "motion": "Park поднимает планшет",
+   "camera": "средний, наезд на Park",
+   "assets": "PARK; планшет; KIDS",
+   "texts": [
+    {
+     "t": 258.183,
+     "s": "SCIENCE FAIR · PARTNERS OF TWO",
+     "k": "card"
+    },
+    {
+     "t": 258.967,
+     "s": "FRIDAY 4 PM · THE WHOLE TOWN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S073",
+   "start": 261.617,
+   "end": 266.517,
+   "place": "GYM",
+   "line": "Before she even finishes, Tess, Nia, and June say it together. \"Pick me.\"",
+   "visual": "Tess, Nia, June выскакивают вперёд, руки вверх, говорят хором «Pick me».",
+   "motion": "три девочки прыгают вперёд",
+   "camera": "средний, пролёт по трём, тряска на «Pick me»",
+   "assets": "TESS; NIA; JUNE; LEON",
+   "texts": [
+    {
+     "t": 264.967,
+     "s": "Pick me.",
+     "k": "say",
+     "who": "TESS, NIA, JUNE"
+    }
+   ]
+  },
+  {
+   "id": "S074",
+   "start": 266.517,
+   "end": 268.808,
+   "place": "GYM",
+   "line": "The whole class goes quiet.",
+   "visual": "Весь класс замирает; дети смотрят то на Leon, то на девочек; тишина; пылинки.",
+   "motion": "все замирают",
+   "camera": "дальний, неподвижная камера, пауза",
+   "assets": "KIDS×16; LEON; TESS; NIA; JUNE",
+   "texts": [
+    {
+     "t": 268.033,
+     "s": "...",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S075",
+   "start": 268.808,
+   "end": 274.267,
+   "place": "GYM",
+   "line": "Over by the wall, Owen stands next to his bicycle and says nothing. He doesn't have to.",
+   "visual": "Owen у стены стоит рядом с тандемом, руки в карманах, смотрит в пол; сбоку Leon смотрит на него.",
+   "motion": "Owen стоит, тандем накреняется",
+   "camera": "средний, медленный наезд на Owen",
+   "assets": "OWEN; тандем; LEON",
+   "texts": [
+    {
+     "t": 271.883,
+     "s": "...",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S076",
+   "start": 274.267,
+   "end": 278.308,
+   "place": "GYM",
+   "line": "Leon looks at the girls, looks at Owen, and picks the girls.",
+   "visual": "Leon смотрит влево на девочек, вправо на Owen, снова на девочек; показывает пальцем на девочек.",
+   "motion": "Leon поворачивает голову, пальцем показывает",
+   "camera": "средний, быстрые панорамы вправо-влево, стоп на девочках",
+   "assets": "LEON; TESS; NIA; JUNE; OWEN",
+   "texts": []
+  },
+  {
+   "id": "S077",
+   "start": 278.308,
+   "end": 281.042,
+   "place": "GYM",
+   "line": "Ms. Park lets the extra person slide.",
+   "visual": "Ms. Park записывает на планшет четверых, пожимает плечами: третья девочка лишняя, но можно.",
+   "motion": "Park пишет, пожимает плечами",
+   "camera": "ближний, наезд на планшет",
+   "assets": "PARK; планшет; LEON; девочки",
+   "texts": [
+    {
+     "t": 279.6,
+     "s": "+1",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S078",
+   "start": 281.042,
+   "end": 287.083,
+   "place": "GYM",
+   "line": "The number drops by four billion, and the whole gym says \"ooh\" like it's a magic trick.",
+   "visual": "Число над Leon падает: $27.25B → $23.25B, красная лавина; зал в форме «О» с глазами вверх.",
+   "motion": "число сыплется вниз, зал «ооо»",
+   "camera": "средний, резкий наезд и тряска на падении",
+   "assets": "LEON; число; KIDS×20",
+   "texts": [
+    {
+     "t": 281.667,
+     "s": "−$4B → $23,250,000,000",
+     "k": "num"
+    },
+    {
+     "t": 284.95,
+     "s": "OOOH",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S079",
+   "start": 287.083,
+   "end": 291.667,
+   "place": "GYM",
+   "line": "Owen nods, folds up his cardboard sign, and rolls the bike toward the door.",
+   "visual": "Owen кивает, складывает картонную табличку, выкатывает тандем к двери справа; Leon смотрит вслед.",
+   "motion": "Owen складывает, катит вправо",
+   "camera": "средний, панорама за Owen к двери",
+   "assets": "OWEN; тандем; плакат; LEON",
+   "texts": []
+  },
+  {
+   "id": "S080",
+   "start": 291.667,
+   "end": 295.267,
+   "place": "GYM",
+   "line": "Leon opens his mouth. Nothing comes out.",
+   "visual": "Leon открывает рот, поднимает руку, ничего не выходит; дверь за Owen закрывается.",
+   "motion": "рот открыт, дверь закрывается",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON; дверь",
+   "texts": [
+    {
+     "t": 294.1,
+     "s": "...",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S081",
+   "start": 295.267,
+   "end": 297.917,
+   "place": "HALL",
+   "line": "All afternoon, the number keeps sliding.",
+   "visual": "Коридор школы, Leon идёт один, число над ним уменьшается, цифры падают вниз.",
+   "motion": "число падает ступенями",
+   "camera": "средний, пролёт за Leon по коридору",
+   "assets": "LEON; число; шкафчики",
+   "texts": [
+    {
+     "t": 296.133,
+     "s": "THURSDAY · AFTERNOON",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S082",
+   "start": 297.917,
+   "end": 301.567,
+   "place": "HALL",
+   "line": "Three billion at the bus stop. Two billion at his locker.",
+   "visual": "Остановка: Leon сидит на скамейке, число: $23.25B → $20.25B; затем шкафчики: Leon у дверцы, число → $18.25B.",
+   "motion": "число падает дважды",
+   "camera": "средний, две быстрые склейки остановка/шкафчик",
+   "assets": "LEON; число; скамейка; шкафчик",
+   "texts": [
+    {
+     "t": 297.917,
+     "s": "−$3B → $20,250,000,000",
+     "k": "num"
+    },
+    {
+     "t": 299.717,
+     "s": "−$2B → $18,250,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S083",
+   "start": 301.567,
+   "end": 305.333,
+   "place": "HALL",
+   "line": "One more in the hallway, when he sees Owen eating alone. [matter-of-fact]",
+   "visual": "Коридор, вид через окно столовой: Owen один за столом с бутербродом; Leon смотрит сквозь стекло; число → $17,250,000,000.",
+   "motion": "Leon смотрит сквозь стекло",
+   "camera": "дальний, медленный наезд на одинокого Owen",
+   "assets": "LEON; OWEN; число; стекло",
+   "texts": [
+    {
+     "t": 302.467,
+     "s": "−$1B → $17,250,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S084",
+   "start": 305.333,
+   "end": 306.892,
+   "place": "VOID",
+   "line": "And here's what makes it worse.",
+   "visual": "Тёмная плашка WORSE; рядом значок лотерейного билета.",
+   "motion": "плашка с билетом",
+   "camera": "ближний, наезд",
+   "assets": "plate; билет",
+   "texts": [
+    {
+     "t": 306.183,
+     "s": "WORSE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S085",
+   "start": 306.892,
+   "end": 313.725,
+   "place": "VOID",
+   "line": "In 1978, three psychologists, Brickman, Coates, and Janoff-Bulman, studied people who had just won the lottery.",
+   "visual": "Три стикмена-психолога с лотерейным билетом; плашка BRICKMAN · COATES · JANOFF-BULMAN · 1978.",
+   "motion": "билет вспыхивает золотом",
+   "camera": "средний, пролёт по трём",
+   "assets": "три психолога; билет",
+   "texts": [
+    {
+     "t": 307.45,
+     "s": "BRICKMAN · COATES · JANOFF-BULMAN · 1978",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S086",
+   "start": 313.725,
+   "end": 318.183,
+   "place": "VOID",
+   "line": "The winners enjoyed everyday little things less than people who had won nothing.",
+   "visual": "Две колонки: победители в лотерею (грустные, на куче денег) и тихие люди (счастливые с мороженым); подпись EVERYDAY JOYS.",
+   "motion": "победители грустные, другие радуются",
+   "camera": "средний, пролёт слева направо",
+   "assets": "две колонки; мороженое; деньги",
+   "texts": [
+    {
+     "t": 314.217,
+     "s": "WON",
+     "k": "cap"
+    },
+    {
+     "t": 317.55,
+     "s": "WON NOTHING",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S087",
+   "start": 318.183,
+   "end": 323.425,
+   "place": "VOID",
+   "line": "Big money doesn't make ordinary good moments bigger. It makes them smaller.",
+   "visual": "Крупный график: «ordinary moments» большой круг сжимается до маленькой точки, пока рядом растёт гора денег.",
+   "motion": "круг сжимается",
+   "camera": "ближний, наезд на сжимающийся круг",
+   "assets": "круг; гора денег",
+   "texts": [
+    {
+     "t": 322.167,
+     "s": "SMALLER",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S088",
+   "start": 323.425,
+   "end": 328.875,
+   "place": "CAFE",
+   "line": "Leon stares at the empty seat across from him and understands it better than any study.",
+   "visual": "Столовая, Leon один за столом, напротив пустой стул; поднос нетронут; число над ним малое, свет приглушён.",
+   "motion": "Leon смотрит на пустой стул",
+   "camera": "ближний, медленный наезд, виньетка",
+   "assets": "LEON; пустой стул; поднос; число",
+   "texts": [
+    {
+     "t": 324.967,
+     "s": "EMPTY SEAT",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S089",
+   "start": 328.875,
+   "end": 331.933,
+   "place": "CAFE",
+   "line": "And that's when Chase opens his notebook.",
+   "visual": "В дальнем углу Chase открывает блокнот и смотрит на Leon поверх страниц; глаза видны.",
+   "motion": "Chase открывает блокнот",
+   "camera": "средний, наезд из-за Leon на Chase",
+   "assets": "CHASE; блокнот; LEON",
+   "texts": [
+    {
+     "t": 331.117,
+     "s": "CHASE OPENS THE NOTEBOOK",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S090",
+   "start": 331.933,
+   "end": 334.383,
+   "place": "YARD",
+   "line": "Thursday, ten at night, the backyard.",
+   "visual": "Ночной двор, лунный свет; качели справа; Chase сидит на качелях с раскрытым блокнотом; плашка дня.",
+   "motion": "качели скрипят, Chase качается",
+   "camera": "дальний, въезд во двор слева",
+   "assets": "BG yard night; CHASE; качели; LEON; блокнот",
+   "texts": [
+    {
+     "t": 332.417,
+     "s": "THURSDAY · 10:00 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S091",
+   "start": 334.383,
+   "end": 337.258,
+   "place": "YARD",
+   "line": "Chase is sitting on the swing set with his notebook open.",
+   "visual": "Chase держит блокнот на коленях; Leon стоит перед ним, руки в карманах.",
+   "motion": "Chase листает",
+   "camera": "средний, наезд на блокнот",
+   "assets": "CHASE; блокнот; LEON",
+   "texts": []
+  },
+  {
+   "id": "S092",
+   "start": 337.258,
+   "end": 341.058,
+   "place": "YARD",
+   "line": "\"I wrote down every choice you made today. Twenty-nine pages.\"",
+   "visual": "Chase показывает толстую стопку исписанных страниц: «29 PAGES».",
+   "motion": "Chase листает, страницы мелькают",
+   "camera": "ближний, пролёт по страницам",
+   "assets": "CHASE; блокнот; LEON",
+   "texts": [
+    {
+     "t": 338.45,
+     "s": "I wrote down every choice you made today.",
+     "k": "say",
+     "who": "CHASE"
+    },
+    {
+     "t": 339.383,
+     "s": "29 PAGES",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S093",
+   "start": 341.058,
+   "end": 343.117,
+   "place": "YARD",
+   "line": "He flips to the last one.",
+   "visual": "Chase переворачивает на последнюю страницу: там график, зелёные точки при выборе Owen, красные при других.",
+   "motion": "страница переворачивается",
+   "camera": "ближний, наезд на график",
+   "assets": "CHASE; блокнот; график",
+   "texts": [
+    {
+     "t": 342.15,
+     "s": "LAST PAGE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S094",
+   "start": 343.117,
+   "end": 348.408,
+   "place": "YARD",
+   "line": "\"Every time you pick Owen, the number goes up. Every time you don't, it falls.",
+   "visual": "Крупно график: красные и зелёные столбики; рядом рисунок Owen с золотой стрелкой «↑».",
+   "motion": "столбики растут и падают",
+   "camera": "ближний, пролёт по столбикам",
+   "assets": "график; OWEN рис; CHASE; LEON",
+   "texts": [
+    {
+     "t": 344.3,
+     "s": "PICK OWEN ↑",
+     "k": "cap"
+    },
+    {
+     "t": 346.75,
+     "s": "DON'T ↓",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S095",
+   "start": 348.408,
+   "end": 350.85,
+   "place": "YARD",
+   "line": "Owen is what moves your number.\"",
+   "visual": "Chase поднимает глаза на Leon и тычет карандашом в число над его головой; Leon ошеломлён.",
+   "motion": "карандаш тычет вверх",
+   "camera": "средний, наезд на двоих",
+   "assets": "CHASE; LEON; число",
+   "texts": [
+    {
+     "t": 348.917,
+     "s": "OWEN MOVES YOUR NUMBER",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S096",
+   "start": 350.85,
+   "end": 355.35,
+   "place": "YARD",
+   "line": "Behind the fence, a gray suit steps out of the dark. Mr. Hale.",
+   "visual": "За забором слева из темноты выходит Mr. Hale в сером костюме; Leon и Chase поворачиваются.",
+   "motion": "тень Hale вырастает, он выходит",
+   "camera": "средний, пролёт к забору слева, свет от окна",
+   "assets": "HALE; LEON; CHASE; забор",
+   "texts": [
+    {
+     "t": 354.917,
+     "s": "MR. HALE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S097",
+   "start": 355.35,
+   "end": 361.35,
+   "place": "YARD",
+   "line": "\"I pay Chase to watch you,\" he says. \"Now I'd like to pay you to stop.\"",
+   "visual": "Hale показывает пальцем на Chase, потом на Leon; Chase опускает глаза; Leon смотрит на Chase.",
+   "motion": "Hale тычет пальцем",
+   "camera": "средний, пролёты Hale-Chase-Leon",
+   "assets": "HALE; CHASE; LEON",
+   "texts": [
+    {
+     "t": 356.233,
+     "s": "I pay Chase to watch you.",
+     "k": "say",
+     "who": "HALE"
+    },
+    {
+     "t": 360.517,
+     "s": "Now I'd like to pay you to stop.",
+     "k": "say",
+     "who": "HALE"
+    }
+   ]
+  },
+  {
+   "id": "S098",
+   "start": 361.35,
+   "end": 362.867,
+   "place": "YARD",
+   "line": "He holds out a pen.",
+   "visual": "Hale протягивает ручку и новый договор; на листе слова NO OWEN.",
+   "motion": "рука с ручкой выдвигается",
+   "camera": "ближний, наезд на ручку",
+   "assets": "HALE; ручка; договор; LEON",
+   "texts": [
+    {
+     "t": 362.383,
+     "s": "PEN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S099",
+   "start": 362.867,
+   "end": 366.725,
+   "place": "YARD",
+   "line": "\"Tomorrow, on that stage, you announce you're going solo.",
+   "visual": "Hale показывает вверх; над ним облачко: сцена, Leon один под прожектором; Hale подмигивает.",
+   "motion": "облако с Leon на сцене",
+   "camera": "средний, наезд на облако",
+   "assets": "HALE; облако; LEON",
+   "texts": [
+    {
+     "t": 366.183,
+     "s": "GOING SOLO",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S100",
+   "start": 366.725,
+   "end": 370.925,
+   "place": "YARD",
+   "line": "No Owen. Sign, and the number goes to forty billion.\"",
+   "visual": "В облаке Owen стирает огромный ластик; сверху число растёт до $40,000,000,000.",
+   "motion": "ластик стирает Owen, число растёт",
+   "camera": "ближний, наезд на ластик и число",
+   "assets": "HALE; облако; LEON; число",
+   "texts": [
+    {
+     "t": 369.367,
+     "s": "$40,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S101",
+   "start": 370.925,
+   "end": 374.117,
+   "place": "YARD",
+   "line": "Leon looks at the page. \"And what's your cut?\"",
+   "visual": "Leon читает договор при свете окна; число над ним светится; тревожная музыка.",
+   "motion": "Leon читает, брови дугой",
+   "camera": "ближний, наезд на лицо Leon",
+   "assets": "LEON; договор; число",
+   "texts": []
+  },
+  {
+   "id": "S102",
+   "start": 374.117,
+   "end": 378.067,
+   "place": "YARD",
+   "line": "Chase shrugs. \"Ten percent. I'm your manager now.\"",
+   "visual": "Chase пожимает плечами с блокнотом под мышкой; над ним стикер CHASE · MANAGER.",
+   "motion": "Chase пожимает плечами",
+   "camera": "средний, пролёт Leon-Chase",
+   "assets": "CHASE; блокнот",
+   "texts": [
+    {
+     "t": 375.775,
+     "s": "10% · MANAGER",
+     "k": "card"
+    },
+    {
+     "t": 377.05,
+     "s": "I'm your manager now.",
+     "k": "say",
+     "who": "CHASE"
+    }
+   ]
+  },
+  {
+   "id": "S103",
+   "start": 378.067,
+   "end": 384.55,
+   "place": "YARD",
+   "line": "Leon doesn't sign. He folds the contract into his pocket and says only, \"I'll think about it.\"",
+   "visual": "Leon складывает договор и кладёт в карман шорт, смотрит на Hale исподлобья.",
+   "motion": "Leon складывает, прячет",
+   "camera": "ближний, наезд на руку с договором",
+   "assets": "LEON; договор; HALE; CHASE",
+   "texts": [
+    {
+     "t": 383.233,
+     "s": "I'll think about it.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S104",
+   "start": 384.55,
+   "end": 388.133,
+   "place": "GYM",
+   "line": "Friday, three forty. The gym is full.",
+   "visual": "Спортзал полон: сцена слева, трибуны справа забиты, мигание фотоаппаратов; плашка дня.",
+   "motion": "зал гудит, вспышки",
+   "camera": "дальний, отъезд на весь зал",
+   "assets": "BG gym; KIDS×30; сцена; трибуны",
+   "texts": [
+    {
+     "t": 385.067,
+     "s": "FRIDAY · 3:40 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S105",
+   "start": 388.133,
+   "end": 392.575,
+   "place": "GYM",
+   "line": "The whole town is on the bleachers, and they can read the number from the last row.",
+   "visual": "Трибуны: весь город с телефонами, все смотрят вверх на огромное число над сценой; число Leon читается с последнего ряда.",
+   "motion": "зал смотрит вверх, телефоны",
+   "camera": "дальний, панорама слева направо по трибунам",
+   "assets": "TOWN×30; число; трибуны",
+   "texts": [
+    {
+     "t": 390.983,
+     "s": "$17,250,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S106",
+   "start": 392.575,
+   "end": 396.8,
+   "place": "GYM",
+   "line": "At the far end of the hall, Owen's table holds a rusty bicycle and a metal box,",
+   "visual": "У дальней стены справа стол Owen: тандем с коробкой и табличка; Owen один; рядом с ним проходит смеющаяся пара.",
+   "motion": "Owen стоит у тандема, пара хихикает",
+   "camera": "средний, пролёт по столам к столу Owen",
+   "assets": "OWEN; тандем; коробка; стол; пара",
+   "texts": [
+    {
+     "t": 396.267,
+     "s": "OWEN · TABLE 14",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S107",
+   "start": 396.8,
+   "end": 399.892,
+   "place": "GYM",
+   "line": "and people are laughing before they've even looked at it.",
+   "visual": "Крупно смеющиеся лица у стола Owen; Owen поправляет коробку, не поднимая глаз.",
+   "motion": "зрители смеются, Owen молчит",
+   "camera": "ближний, пролёт по смеющимся лицам",
+   "assets": "TOWN; OWEN; коробка",
+   "texts": [
+    {
+     "t": 397.517,
+     "s": "HA HA",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S108",
+   "start": 399.892,
+   "end": 404.4,
+   "place": "GYM",
+   "line": "Leon walks onto the stage. Mr. Hale is in the front row, smiling.",
+   "visual": "Leon поднимается по ступенькам слева на сцену, зал затихает; в первом ряду справа улыбается Mr. Hale.",
+   "motion": "Leon поднимается по ступенькам",
+   "camera": "средний, наезд за Leon вверх по ступеням",
+   "assets": "LEON; сцена; HALE; зал",
+   "texts": []
+  },
+  {
+   "id": "S109",
+   "start": 404.4,
+   "end": 406.508,
+   "place": "GYM",
+   "line": "Leon pulls out the contract.",
+   "visual": "Leon достаёт из кармана договор; Hale кивает со своего места; рука с ручкой.",
+   "motion": "Leon достаёт лист",
+   "camera": "ближний, наезд на лист",
+   "assets": "LEON; договор; HALE",
+   "texts": []
+  },
+  {
+   "id": "S110",
+   "start": 406.508,
+   "end": 408.458,
+   "place": "GYM",
+   "line": "\"Sign it,\" says Mr. Hale.",
+   "visual": "Hale поднимается и показывает пальцем на строку; тишина.",
+   "motion": "Hale тычет в строку",
+   "camera": "средний, пролёт Hale-Leon",
+   "assets": "HALE; LEON; договор",
+   "texts": [
+    {
+     "t": 406.867,
+     "s": "Sign it.",
+     "k": "say",
+     "who": "HALE"
+    }
+   ]
+  },
+  {
+   "id": "S111",
+   "start": 408.458,
+   "end": 412.483,
+   "place": "GYM",
+   "line": "The pen touches the page, and the number starts to climb.",
+   "visual": "Ручка касается бумаги, Leon замер; число над ним дрогнуло и начинает расти.",
+   "motion": "ручка касается, число дрожит",
+   "camera": "ближний, наезд на ручку",
+   "assets": "LEON; ручка; договор; число",
+   "texts": [
+    {
+     "t": 412.083,
+     "s": "CLIMBING",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S112",
+   "start": 412.483,
+   "end": 417.667,
+   "place": "GYM",
+   "line": "Thirty billion. Thirty-five. Forty.",
+   "visual": "Число над Leon взлетает ступенями $17.25B → $30B → $35B → $40B; лучи; зал замер.",
+   "motion": "число взлетает ступенями, лучи",
+   "camera": "средний, наезд и тряска на каждой ступени",
+   "assets": "LEON; число; зал",
+   "texts": [
+    {
+     "t": 412.483,
+     "s": "$30,000,000,000",
+     "k": "num"
+    },
+    {
+     "t": 413.917,
+     "s": "$35,000,000,000",
+     "k": "num"
+    },
+    {
+     "t": 415.792,
+     "s": "$40,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S113",
+   "start": 417.667,
+   "end": 419.342,
+   "place": "GYM",
+   "line": "The room applauds.",
+   "visual": "Зал аплодирует стоя; вспышки; Hale улыбается; Mom, Dad, Biscuit аплодируют на трибуне.",
+   "motion": "зал хлопает",
+   "camera": "дальний, отъезд на овации",
+   "assets": "TOWN; HALE; MOM; DAD; BISCUIT",
+   "texts": [
+    {
+     "t": 418.167,
+     "s": "APPLAUSE",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S114",
+   "start": 419.342,
+   "end": 423.325,
+   "place": "GYM",
+   "line": "Leon looks at the paper. Then at Owen, alone at his table.",
+   "visual": "Leon смотрит на бумагу; крупное лицо; потом поворот головы к столу Owen вдали справа.",
+   "motion": "взгляд бумага-Owen",
+   "camera": "ближний, медленная панорама на Owen",
+   "assets": "LEON; бумага; OWEN вдали",
+   "texts": []
+  },
+  {
+   "id": "S115",
+   "start": 423.325,
+   "end": 426.775,
+   "place": "GYM",
+   "line": "Then he tears the contract in half.",
+   "visual": "Leon обеими руками рвёт договор пополам; половинки летят вниз; одна к трибунам; Biscuit ловит её на лету.",
+   "motion": "рывок, две половины летят",
+   "camera": "ближний, тряска на разрыве, пролёт за половинкой к трибунам",
+   "assets": "LEON; договор; BISCUIT",
+   "texts": [
+    {
+     "t": 424.717,
+     "s": "RIP!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S116",
+   "start": 426.775,
+   "end": 430.458,
+   "place": "GYM",
+   "line": "The number falls. Twenty-seven billion.",
+   "visual": "Число над Leon летит вниз: $40B → $27B, красная стрелка; Leon держит половинки договора.",
+   "motion": "число падает",
+   "camera": "средний, быстрый отъезд, тряска",
+   "assets": "LEON; число; половинки",
+   "texts": [
+    {
+     "t": 427.967,
+     "s": "$27,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S117",
+   "start": 430.458,
+   "end": 433.9,
+   "place": "GYM",
+   "line": "Nine. Three thousand dollars.",
+   "visual": "Число продолжает падать: $9B → $3,000; зал в тишине; цифры крошатся.",
+   "motion": "число крошится до малой цифры",
+   "camera": "ближний, наезд на число",
+   "assets": "LEON; число; зал",
+   "texts": [
+    {
+     "t": 430.867,
+     "s": "$9,000,000,000",
+     "k": "num"
+    },
+    {
+     "t": 432.15,
+     "s": "$3,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S118",
+   "start": 433.9,
+   "end": 436.9,
+   "place": "GYM",
+   "line": "A woman in the third row actually gasps.",
+   "visual": "Женщина в третьем ряду ахает, рука у рта, глаза вверх на число; соседи шарахаются.",
+   "motion": "женщина ахает",
+   "camera": "средний, наезд на женщину",
+   "assets": "TOWN; WOMAN; число",
+   "texts": [
+    {
+     "t": 435.967,
+     "s": "GASP",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S119",
+   "start": 436.9,
+   "end": 440.55,
+   "place": "GYM",
+   "line": "Leon jumps off the stage, climbs onto the bike seat, and says, \"Pedal.\"",
+   "visual": "Leon спрыгивает со сцены, бежит к столу Owen, запрыгивает на переднее седло тандема; Owen изумлён.",
+   "motion": "Leon прыгает, бежит, залезает",
+   "camera": "средний, панорама за Leon к тандему, наезд на «Pedal»",
+   "assets": "LEON; OWEN; тандем",
+   "texts": [
+    {
+     "t": 440.067,
+     "s": "Pedal.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S120",
+   "start": 440.55,
+   "end": 446.6,
+   "place": "GYM",
+   "line": "Owen grins. They both pedal. The metal box hums, and a little green light comes on. [matter-of-fact]",
+   "visual": "Owen ухмыляется и садится на заднее седло; оба крутят педали, заднее колесо крутится, коробка гудит, загорается зелёный огонёк.",
+   "motion": "педали вращаются, огонёк",
+   "camera": "средний, пролёт вдоль тандема, огонёк крупно",
+   "assets": "LEON; OWEN; тандем; коробка",
+   "texts": [
+    {
+     "t": 444.85,
+     "s": "GREEN LIGHT",
+     "k": "cap"
+    },
+    {
+     "t": 443.883,
+     "s": "HMMM",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S121",
+   "start": 446.6,
+   "end": 448.333,
+   "place": "VOID",
+   "line": "And this part is real.",
+   "visual": "Тёмная плашка THIS PART IS REAL.",
+   "motion": "плашка",
+   "camera": "ближний, наезд",
+   "assets": "plate",
+   "texts": [
+    {
+     "t": 447.633,
+     "s": "THIS PART IS REAL",
+     "k": "plate"
+    }
+   ]
+  },
+  {
+   "id": "S122",
+   "start": 448.333,
+   "end": 454.75,
+   "place": "VOID",
+   "line": "A normal person can keep up about a hundred watts on a bicycle, and a phone needs only about five to charge.",
+   "visual": "Слева стикмен на велосипеде со шкалой 100 W, справа телефон с зарядкой 5 W; стрелка между ними.",
+   "motion": "шкала растёт, телефон заряжается",
+   "camera": "средний, пролёт слева направо",
+   "assets": "стикмен; велосипед; телефон; шкала",
+   "texts": [
+    {
+     "t": 450.55,
+     "s": "≈ 100 W",
+     "k": "card"
+    },
+    {
+     "t": 453.467,
+     "s": "≈ 5 W",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S123",
+   "start": 454.75,
+   "end": 459.725,
+   "place": "GYM",
+   "line": "The gym is full of phones at one percent. Cords come out of every pocket.",
+   "visual": "Зал: телефоны в руках с красными «1%», у всех в карманах шнуры, люди тянутся к коробке; провода-разветвитель.",
+   "motion": "руки с телефонами, шнуры",
+   "camera": "дальний, отъезд, шнуры тянутся к тандему",
+   "assets": "TOWN; телефоны; коробка; провода",
+   "texts": [
+    {
+     "t": 456.783,
+     "s": "1%",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S124",
+   "start": 459.725,
+   "end": 465.917,
+   "place": "GYM",
+   "line": "The number over Leon starts to climb, and this time, it doesn't stop at forty.",
+   "visual": "Число над Leon снова растёт: $3,000 → … → $41,000,000,000 и дальше; зал замирает; золотые лучи.",
+   "motion": "число взлетает выше сорока, лучи",
+   "camera": "средний, наезд на число, потом отъезд на тандем",
+   "assets": "LEON; OWEN; число; зал",
+   "texts": [
+    {
+     "t": 461.55,
+     "s": "$41,000,000,000 ↑",
+     "k": "num"
+    },
+    {
+     "t": 463.417,
+     "s": "DOESN'T STOP",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S125",
+   "start": 465.917,
+   "end": 467.483,
+   "place": "GYM",
+   "line": "Friday, four o'clock.",
+   "visual": "Спортзал, всё то же, часы на стене: 4:00; над Leon и над Owen одинаковые золотые числа.",
+   "motion": "числа пульсируют",
+   "camera": "средний, пролёт между числами",
+   "assets": "LEON; OWEN; числа; часы",
+   "texts": [
+    {
+     "t": 465.917,
+     "s": "FRIDAY · 4:00 PM",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S126",
+   "start": 467.483,
+   "end": 473.1,
+   "place": "GYM",
+   "line": "The number over Leon and the number over Owen are exactly the same, and they're still climbing.",
+   "visual": "Два числа над двумя головами растут вместе, синхронно; стрелки вверх у обоих.",
+   "motion": "числа растут вместе",
+   "camera": "средний, наезд на два числа",
+   "assets": "LEON; OWEN; числа",
+   "texts": [
+    {
+     "t": 470.667,
+     "s": "SAME NUMBER",
+     "k": "cap"
+    },
+    {
+     "t": 472.217,
+     "s": "STILL CLIMBING",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S127",
+   "start": 473.1,
+   "end": 476.542,
+   "place": "VOID",
+   "line": "Because the number was never counting what Leon takes.",
+   "visual": "Карточка: крупное зачёркнутое слово TAKES; Leon-силуэт с пустыми руками.",
+   "motion": "карточка зачёркивается",
+   "camera": "ближний, наезд",
+   "assets": "карточка; LEON",
+   "texts": [
+    {
+     "t": 475.883,
+     "s": "NOT WHAT HE TAKES",
+     "k": "card"
+    }
+   ]
+  },
+  {
+   "id": "S128",
+   "start": 476.542,
+   "end": 483.017,
+   "place": "VOID",
+   "line": "It was counting what he builds, with the person who was next to him before there was a number at all.",
+   "visual": "Leon и Owen рядом строят тандем-генератор; над ними слово BUILDS; золотая лента соединяет их.",
+   "motion": "лента соединяет двоих",
+   "camera": "средний, пролёт между двумя",
+   "assets": "LEON; OWEN; тандем; лента",
+   "texts": [
+    {
+     "t": 477.85,
+     "s": "WHAT HE BUILDS",
+     "k": "card"
+    },
+    {
+     "t": 480.233,
+     "s": "BEFORE THERE WAS A NUMBER",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S129",
+   "start": 483.017,
+   "end": 487.75,
+   "place": "GYM",
+   "line": "Chase walks up and holds out the notebook. \"I'm sorry. Am I still on the team?\"",
+   "visual": "Chase подходит с блокнотом, протягивает его Leon; лицо виноватое.",
+   "motion": "Chase протягивает блокнот",
+   "camera": "ближний, наезд на блокнот",
+   "assets": "CHASE; блокнот; LEON; OWEN",
+   "texts": [
+    {
+     "t": 486.1,
+     "s": "I'm sorry. Am I still on the team?",
+     "k": "say",
+     "who": "CHASE"
+    }
+   ]
+  },
+  {
+   "id": "S130",
+   "start": 487.75,
+   "end": 492.45,
+   "place": "GYM",
+   "line": "Ms. Park puts a sign on table twelve with both names on it.",
+   "visual": "Ms. Park ставит на стол у стены табличку TABLE 12 · LEON & OWEN; оба имени видны.",
+   "motion": "Park ставит табличку",
+   "camera": "ближний, наезд на табличку",
+   "assets": "PARK; табличка; LEON; OWEN",
+   "texts": [
+    {
+     "t": 490.2,
+     "s": "TABLE 12 · LEON & OWEN",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S131",
+   "start": 492.45,
+   "end": 496.425,
+   "place": "GYM",
+   "line": "Owen leans over. \"So, about my share?\"",
+   "visual": "Owen наклоняется к Leon с хитрой улыбкой, жестом «а моя доля?».",
+   "motion": "Owen наклоняется, ухмыляется",
+   "camera": "ближний, наезд",
+   "assets": "OWEN; LEON; числа",
+   "texts": [
+    {
+     "t": 495.483,
+     "s": "So, about my share?",
+     "k": "say",
+     "who": "OWEN"
+    }
+   ]
+  },
+  {
+   "id": "S132",
+   "start": 496.425,
+   "end": 499.575,
+   "place": "GYM",
+   "line": "Leon doesn't even blink. \"Half.\"",
+   "visual": "Leon не моргает, отвечает мгновенно; золотые числа над обоими синхронно подпрыгивают.",
+   "motion": "Leon отвечает мгновенно",
+   "camera": "ближний, быстрый наезд",
+   "assets": "LEON; OWEN; числа",
+   "texts": [
+    {
+     "t": 498.8,
+     "s": "Half.",
+     "k": "say",
+     "who": "LEON"
+    }
+   ]
+  },
+  {
+   "id": "S133",
+   "start": 499.575,
+   "end": 501.408,
+   "place": "GYM",
+   "line": "Mr. Hale is long gone.",
+   "visual": "Пустое кресло в первом ряду, на нём забытая папка; Hale нет; дверь за ним медленно закрывается.",
+   "motion": "дверь закрывается, папка",
+   "camera": "средний, медленная панорама на пустое кресло",
+   "assets": "пустое кресло; папка",
+   "texts": [
+    {
+     "t": 500.75,
+     "s": "GONE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S134",
+   "start": 501.408,
+   "end": 507.0,
+   "place": "GYM",
+   "line": "The girls are still waving, but this time, Leon waves back like a normal person.",
+   "visual": "Tess, Nia, June всё ещё машут рукой, Leon машет в ответ спокойно, как обычный человек; сердца у девочек остались.",
+   "motion": "Leon машет в ответ спокойно",
+   "camera": "средний, пролёт по девочкам к Leon",
+   "assets": "LEON; TESS; NIA; JUNE",
+   "texts": [
+    {
+     "t": 505.5,
+     "s": "LIKE A NORMAL PERSON",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S135",
+   "start": 507.0,
+   "end": 509.417,
+   "place": "KITCHEN",
+   "line": "Saturday morning, Leon's kitchen.",
+   "visual": "Кухня утром: окно слева на улицу, Leon у окна; плашка дня.",
+   "motion": "Leon подходит к окну",
+   "camera": "средний, наезд за спиной Leon к окну",
+   "assets": "BG kitchen day; LEON; окно",
+   "texts": [
+    {
+     "t": 507.75,
+     "s": "SATURDAY · MORNING",
+     "k": "hud"
+    }
+   ]
+  },
+  {
+   "id": "S136",
+   "start": 509.417,
+   "end": 511.633,
+   "place": "KITCHEN",
+   "line": "He looks out the window and freezes.",
+   "visual": "Leon замирает у окна; лицо в стекле; за стеклом много людей.",
+   "motion": "Leon замирает",
+   "camera": "ближний, наезд на лицо Leon, тряска",
+   "assets": "LEON; окно",
+   "texts": [
+    {
+     "t": 510.883,
+     "s": "!!",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S137",
+   "start": 511.633,
+   "end": 518.058,
+   "place": "KITCHEN",
+   "line": "There's a number over every person on the street. Over Mom. Over Dad. Over the mailman.",
+   "visual": "Вид из окна: прохожие на улице, над каждым число; над Mom и Dad в кухне тоже числа.",
+   "motion": "числа над всеми, прыгают",
+   "camera": "дальний, пролёт по числам над улицей",
+   "assets": "MOM; DAD; MAILMAN; прохожие; числа",
+   "texts": [
+    {
+     "t": 515.067,
+     "s": "$12,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S138",
+   "start": 518.058,
+   "end": 521.258,
+   "place": "KITCHEN",
+   "line": "And the biggest one of all isn't over a person.",
+   "visual": "Самое большое число над пустым местом около двери: рамка с тенью; зрители не понимают.",
+   "motion": "число выезжает, пустое место под ним",
+   "camera": "средний, наезд на число над дверью",
+   "assets": "число; дверь",
+   "texts": [
+    {
+     "t": 518.633,
+     "s": "THE BIGGEST ONE",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S139",
+   "start": 521.258,
+   "end": 526.908,
+   "place": "KITCHEN",
+   "line": "It's over Biscuit, who just trotted in the back door with half a contract in his mouth.",
+   "visual": "Biscuit заходит через заднюю дверь справа с половиной договора в зубах; над ним золотое самое большое число $999,000,000,000.",
+   "motion": "Biscuit входит, число пульсирует",
+   "camera": "средний, пролёт за псом, взрыв чисел",
+   "assets": "BISCUIT; полдоговора; число",
+   "texts": [
+    {
+     "t": 522.35,
+     "s": "$999,000,000,000",
+     "k": "num"
+    }
+   ]
+  },
+  {
+   "id": "S140",
+   "start": 526.908,
+   "end": 529.358,
+   "place": "KITCHEN",
+   "line": "The mailman takes a photo of him.",
+   "visual": "В окне почтальон щёлкает пса телефоном, вспышка; Biscuit гордо стоит.",
+   "motion": "вспышка, пёс позирует",
+   "camera": "средний, кадр в окне, вспышка",
+   "assets": "MAILMAN; BISCUIT; телефон",
+   "texts": [
+    {
+     "t": 528.267,
+     "s": "CLICK",
+     "k": "boom"
+    }
+   ]
+  },
+  {
+   "id": "S141",
+   "start": 529.358,
+   "end": 532.3,
+   "place": "VOID",
+   "line": "Would you have torn up the contract? Tell me in the comments,",
+   "visual": "Вопрос на плашке WOULD YOU HAVE TORN UP THE CONTRACT? с двумя кнопками YES / NO; Leon и Owen рядом.",
+   "motion": "плашка с кнопками",
+   "camera": "средний, наезд на плашку, пальцы вниз",
+   "assets": "plate; LEON; OWEN",
+   "texts": [
+    {
+     "t": 529.7,
+     "s": "WOULD YOU HAVE TORN UP THE CONTRACT?",
+     "k": "plate"
+    },
+    {
+     "t": 532.017,
+     "s": "COMMENTS ↓",
+     "k": "cap"
+    }
+   ]
+  },
+  {
+   "id": "S142",
+   "start": 532.3,
+   "end": 539.055,
+   "place": "KITCHEN",
+   "line": "and subscribe, because Biscuit has a lot of money to spend.",
+   "visual": "Biscuit сидит, золотое число над головой, в лапе монета; кнопка SUBSCRIBE мигает.",
+   "motion": "пёс с монетой, кнопка мигает",
+   "camera": "средний, медленный отъезд, финальный кадр",
+   "assets": "BISCUIT; LEON; число; кнопка",
+   "texts": [
+    {
+     "t": 532.883,
+     "s": "SUBSCRIBE",
+     "k": "boom"
+    },
+    {
+     "t": 534.05,
+     "s": "BISCUIT HAS MONEY TO SPEND",
+     "k": "cap"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "word": "Tuesday,",
+   "start": 0.0,
+   "end": 0.467
+  },
+  {
+   "word": "eight",
+   "start": 0.467,
+   "end": 0.75
+  },
+  {
+   "word": "twelve",
+   "start": 0.75,
+   "end": 1.033
+  },
+  {
+   "word": "in",
+   "start": 1.033,
+   "end": 1.167
+  },
+  {
+   "word": "the",
+   "start": 1.167,
+   "end": 1.25
+  },
+  {
+   "word": "morning,",
+   "start": 1.25,
+   "end": 1.467
+  },
+  {
+   "word": "homeroom.",
+   "start": 1.683,
+   "end": 2.05
+  },
+  {
+   "word": "Ms.",
+   "start": 2.05,
+   "end": 2.633
+  },
+  {
+   "word": "Park",
+   "start": 2.633,
+   "end": 2.833
+  },
+  {
+   "word": "is",
+   "start": 2.833,
+   "end": 3.1
+  },
+  {
+   "word": "taking",
+   "start": 3.1,
+   "end": 3.383
+  },
+  {
+   "word": "attendance,",
+   "start": 3.383,
+   "end": 3.783
+  },
+  {
+   "word": "and",
+   "start": 4.183,
+   "end": 4.317
+  },
+  {
+   "word": "Leon",
+   "start": 4.317,
+   "end": 4.583
+  },
+  {
+   "word": "is",
+   "start": 4.583,
+   "end": 4.933
+  },
+  {
+   "word": "drawing",
+   "start": 4.933,
+   "end": 5.2
+  },
+  {
+   "word": "a",
+   "start": 5.2,
+   "end": 5.45
+  },
+  {
+   "word": "rocket",
+   "start": 5.45,
+   "end": 5.717
+  },
+  {
+   "word": "in",
+   "start": 5.717,
+   "end": 5.95
+  },
+  {
+   "word": "the",
+   "start": 5.95,
+   "end": 6.017
+  },
+  {
+   "word": "margin",
+   "start": 6.017,
+   "end": 6.25
+  },
+  {
+   "word": "of",
+   "start": 6.25,
+   "end": 6.417
+  },
+  {
+   "word": "his",
+   "start": 6.417,
+   "end": 6.517
+  },
+  {
+   "word": "math",
+   "start": 6.517,
+   "end": 6.717
+  },
+  {
+   "word": "homework.",
+   "start": 6.717,
+   "end": 7.033
+  },
+  {
+   "word": "Then",
+   "start": 7.683,
+   "end": 7.917
+  },
+  {
+   "word": "his",
+   "start": 7.917,
+   "end": 8.117
+  },
+  {
+   "word": "scalp",
+   "start": 8.117,
+   "end": 8.5
+  },
+  {
+   "word": "tingles,",
+   "start": 8.5,
+   "end": 9.033
+  },
+  {
+   "word": "and",
+   "start": 9.283,
+   "end": 9.533
+  },
+  {
+   "word": "a",
+   "start": 9.533,
+   "end": 9.667
+  },
+  {
+   "word": "number",
+   "start": 9.667,
+   "end": 9.867
+  },
+  {
+   "word": "lights",
+   "start": 9.867,
+   "end": 10.117
+  },
+  {
+   "word": "up",
+   "start": 10.117,
+   "end": 10.283
+  },
+  {
+   "word": "above",
+   "start": 10.283,
+   "end": 10.467
+  },
+  {
+   "word": "his",
+   "start": 10.467,
+   "end": 10.583
+  },
+  {
+   "word": "head.",
+   "start": 10.583,
+   "end": 10.833
+  },
+  {
+   "word": "Gold.",
+   "start": 11.867,
+   "end": 11.867
+  },
+  {
+   "word": "Glowing.",
+   "start": 12.333,
+   "end": 12.733
+  },
+  {
+   "word": "Twenty-seven",
+   "start": 12.733,
+   "end": 14.217
+  },
+  {
+   "word": "billion",
+   "start": 14.217,
+   "end": 14.717
+  },
+  {
+   "word": "dollars.",
+   "start": 14.717,
+   "end": 15.233
+  },
+  {
+   "word": "Ms.",
+   "start": 15.233,
+   "end": 16.25
+  },
+  {
+   "word": "Park",
+   "start": 16.25,
+   "end": 16.483
+  },
+  {
+   "word": "drops",
+   "start": 16.483,
+   "end": 16.75
+  },
+  {
+   "word": "her",
+   "start": 16.75,
+   "end": 16.917
+  },
+  {
+   "word": "chalk.",
+   "start": 16.917,
+   "end": 17.2
+  },
+  {
+   "word": "Three",
+   "start": 17.817,
+   "end": 18.033
+  },
+  {
+   "word": "girls",
+   "start": 18.033,
+   "end": 18.25
+  },
+  {
+   "word": "in",
+   "start": 18.25,
+   "end": 18.45
+  },
+  {
+   "word": "the",
+   "start": 18.45,
+   "end": 18.55
+  },
+  {
+   "word": "second",
+   "start": 18.55,
+   "end": 18.733
+  },
+  {
+   "word": "row",
+   "start": 18.733,
+   "end": 18.967
+  },
+  {
+   "word": "turn",
+   "start": 18.967,
+   "end": 19.2
+  },
+  {
+   "word": "around",
+   "start": 19.2,
+   "end": 19.467
+  },
+  {
+   "word": "at",
+   "start": 19.467,
+   "end": 19.683
+  },
+  {
+   "word": "the",
+   "start": 19.683,
+   "end": 19.833
+  },
+  {
+   "word": "exact",
+   "start": 19.833,
+   "end": 20.2
+  },
+  {
+   "word": "same",
+   "start": 20.2,
+   "end": 20.567
+  },
+  {
+   "word": "time,",
+   "start": 20.567,
+   "end": 21.0
+  },
+  {
+   "word": "Tess,",
+   "start": 21.617,
+   "end": 21.633
+  },
+  {
+   "word": "Nia,",
+   "start": 22.217,
+   "end": 22.317
+  },
+  {
+   "word": "and",
+   "start": 22.467,
+   "end": 22.7
+  },
+  {
+   "word": "June,",
+   "start": 22.7,
+   "end": 22.933
+  },
+  {
+   "word": "and",
+   "start": 23.5,
+   "end": 23.617
+  },
+  {
+   "word": "their",
+   "start": 23.617,
+   "end": 23.7
+  },
+  {
+   "word": "eyes",
+   "start": 23.7,
+   "end": 24.133
+  },
+  {
+   "word": "turn",
+   "start": 24.133,
+   "end": 24.417
+  },
+  {
+   "word": "into",
+   "start": 24.417,
+   "end": 24.633
+  },
+  {
+   "word": "hearts.",
+   "start": 24.633,
+   "end": 24.917
+  },
+  {
+   "word": "Owen",
+   "start": 25.983,
+   "end": 26.05
+  },
+  {
+   "word": "leans",
+   "start": 26.05,
+   "end": 26.283
+  },
+  {
+   "word": "over.",
+   "start": 26.283,
+   "end": 26.617
+  },
+  {
+   "word": "\"Twenty-seven",
+   "start": 26.617,
+   "end": 27.833
+  },
+  {
+   "word": "billion?",
+   "start": 27.833,
+   "end": 28.2
+  },
+  {
+   "word": "You",
+   "start": 28.8,
+   "end": 28.983
+  },
+  {
+   "word": "can't",
+   "start": 28.983,
+   "end": 29.333
+  },
+  {
+   "word": "afford",
+   "start": 29.333,
+   "end": 29.45
+  },
+  {
+   "word": "lunch.\"",
+   "start": 29.45,
+   "end": 29.85
+  },
+  {
+   "word": "Leon",
+   "start": 30.833,
+   "end": 31.117
+  },
+  {
+   "word": "looks",
+   "start": 31.117,
+   "end": 31.35
+  },
+  {
+   "word": "up",
+   "start": 31.35,
+   "end": 31.5
+  },
+  {
+   "word": "at",
+   "start": 31.5,
+   "end": 31.633
+  },
+  {
+   "word": "the",
+   "start": 31.633,
+   "end": 31.733
+  },
+  {
+   "word": "ceiling,",
+   "start": 31.733,
+   "end": 32.017
+  },
+  {
+   "word": "as",
+   "start": 32.167,
+   "end": 32.45
+  },
+  {
+   "word": "if",
+   "start": 32.45,
+   "end": 32.567
+  },
+  {
+   "word": "he",
+   "start": 32.567,
+   "end": 32.7
+  },
+  {
+   "word": "could",
+   "start": 32.7,
+   "end": 32.833
+  },
+  {
+   "word": "read",
+   "start": 32.833,
+   "end": 33.083
+  },
+  {
+   "word": "it",
+   "start": 33.083,
+   "end": 33.217
+  },
+  {
+   "word": "himself.",
+   "start": 33.217,
+   "end": 33.583
+  },
+  {
+   "word": "He",
+   "start": 34.2,
+   "end": 34.433
+  },
+  {
+   "word": "can't.",
+   "start": 34.433,
+   "end": 34.883
+  },
+  {
+   "word": "Everybody",
+   "start": 35.417,
+   "end": 35.733
+  },
+  {
+   "word": "else",
+   "start": 35.733,
+   "end": 36.117
+  },
+  {
+   "word": "can.",
+   "start": 36.117,
+   "end": 36.433
+  },
+  {
+   "word": "So,",
+   "start": 37.317,
+   "end": 37.867
+  },
+  {
+   "word": "what",
+   "start": 37.967,
+   "end": 38.25
+  },
+  {
+   "word": "if",
+   "start": 38.25,
+   "end": 38.383
+  },
+  {
+   "word": "everyone",
+   "start": 38.383,
+   "end": 38.9
+  },
+  {
+   "word": "could",
+   "start": 38.9,
+   "end": 39.083
+  },
+  {
+   "word": "see",
+   "start": 39.083,
+   "end": 39.3
+  },
+  {
+   "word": "how",
+   "start": 39.3,
+   "end": 39.517
+  },
+  {
+   "word": "rich",
+   "start": 39.517,
+   "end": 39.733
+  },
+  {
+   "word": "you",
+   "start": 39.733,
+   "end": 40.017
+  },
+  {
+   "word": "will",
+   "start": 40.017,
+   "end": 40.367
+  },
+  {
+   "word": "be?",
+   "start": 40.367,
+   "end": 40.717
+  },
+  {
+   "word": "And",
+   "start": 41.417,
+   "end": 41.7
+  },
+  {
+   "word": "what",
+   "start": 41.7,
+   "end": 41.817
+  },
+  {
+   "word": "would",
+   "start": 41.817,
+   "end": 41.933
+  },
+  {
+   "word": "that",
+   "start": 41.933,
+   "end": 42.1
+  },
+  {
+   "word": "number",
+   "start": 42.1,
+   "end": 42.317
+  },
+  {
+   "word": "do",
+   "start": 42.317,
+   "end": 42.633
+  },
+  {
+   "word": "to",
+   "start": 42.633,
+   "end": 42.817
+  },
+  {
+   "word": "the",
+   "start": 42.817,
+   "end": 42.917
+  },
+  {
+   "word": "people",
+   "start": 42.917,
+   "end": 43.117
+  },
+  {
+   "word": "around",
+   "start": 43.117,
+   "end": 43.4
+  },
+  {
+   "word": "you?",
+   "start": 43.4,
+   "end": 43.7
+  },
+  {
+   "word": "By",
+   "start": 44.433,
+   "end": 44.683
+  },
+  {
+   "word": "Friday",
+   "start": 44.683,
+   "end": 45.1
+  },
+  {
+   "word": "at",
+   "start": 45.1,
+   "end": 45.367
+  },
+  {
+   "word": "four,",
+   "start": 45.367,
+   "end": 45.95
+  },
+  {
+   "word": "it",
+   "start": 45.95,
+   "end": 46.15
+  },
+  {
+   "word": "will",
+   "start": 46.15,
+   "end": 46.3
+  },
+  {
+   "word": "be",
+   "start": 46.3,
+   "end": 46.45
+  },
+  {
+   "word": "the",
+   "start": 46.45,
+   "end": 46.583
+  },
+  {
+   "word": "only",
+   "start": 46.583,
+   "end": 46.933
+  },
+  {
+   "word": "thing",
+   "start": 46.933,
+   "end": 47.383
+  },
+  {
+   "word": "anyone",
+   "start": 47.383,
+   "end": 47.767
+  },
+  {
+   "word": "sees",
+   "start": 47.767,
+   "end": 48.2
+  },
+  {
+   "word": "about",
+   "start": 48.2,
+   "end": 48.483
+  },
+  {
+   "word": "you.",
+   "start": 48.483,
+   "end": 48.75
+  },
+  {
+   "word": "[matter-of-fact]",
+   "start": 48.75,
+   "end": 49.133
+  },
+  {
+   "word": "Here's",
+   "start": 49.133,
+   "end": 49.75
+  },
+  {
+   "word": "how",
+   "start": 49.75,
+   "end": 49.85
+  },
+  {
+   "word": "it",
+   "start": 49.85,
+   "end": 49.95
+  },
+  {
+   "word": "works.",
+   "start": 49.95,
+   "end": 50.267
+  },
+  {
+   "word": "Rule",
+   "start": 50.967,
+   "end": 50.983
+  },
+  {
+   "word": "one.",
+   "start": 50.983,
+   "end": 52.033
+  },
+  {
+   "word": "The",
+   "start": 52.033,
+   "end": 52.05
+  },
+  {
+   "word": "number",
+   "start": 52.05,
+   "end": 52.317
+  },
+  {
+   "word": "isn't",
+   "start": 52.317,
+   "end": 52.783
+  },
+  {
+   "word": "what",
+   "start": 52.783,
+   "end": 52.95
+  },
+  {
+   "word": "you",
+   "start": 52.95,
+   "end": 53.133
+  },
+  {
+   "word": "have.",
+   "start": 53.133,
+   "end": 53.483
+  },
+  {
+   "word": "It's",
+   "start": 53.933,
+   "end": 54.167
+  },
+  {
+   "word": "the",
+   "start": 54.167,
+   "end": 54.317
+  },
+  {
+   "word": "most",
+   "start": 54.317,
+   "end": 54.6
+  },
+  {
+   "word": "money",
+   "start": 54.6,
+   "end": 54.9
+  },
+  {
+   "word": "you",
+   "start": 54.9,
+   "end": 55.167
+  },
+  {
+   "word": "will",
+   "start": 55.167,
+   "end": 55.367
+  },
+  {
+   "word": "ever",
+   "start": 55.367,
+   "end": 55.717
+  },
+  {
+   "word": "have,",
+   "start": 55.717,
+   "end": 56.167
+  },
+  {
+   "word": "in",
+   "start": 56.167,
+   "end": 56.55
+  },
+  {
+   "word": "your",
+   "start": 56.55,
+   "end": 56.717
+  },
+  {
+   "word": "whole",
+   "start": 56.717,
+   "end": 57.083
+  },
+  {
+   "word": "life.",
+   "start": 57.083,
+   "end": 57.483
+  },
+  {
+   "word": "Rule",
+   "start": 58.55,
+   "end": 58.583
+  },
+  {
+   "word": "two.",
+   "start": 58.583,
+   "end": 59.633
+  },
+  {
+   "word": "It",
+   "start": 59.633,
+   "end": 59.717
+  },
+  {
+   "word": "changes",
+   "start": 59.717,
+   "end": 60.067
+  },
+  {
+   "word": "every",
+   "start": 60.067,
+   "end": 60.533
+  },
+  {
+   "word": "time",
+   "start": 60.533,
+   "end": 60.783
+  },
+  {
+   "word": "you",
+   "start": 60.783,
+   "end": 60.95
+  },
+  {
+   "word": "make",
+   "start": 60.95,
+   "end": 61.083
+  },
+  {
+   "word": "a",
+   "start": 61.083,
+   "end": 61.2
+  },
+  {
+   "word": "choice.",
+   "start": 61.2,
+   "end": 61.5
+  },
+  {
+   "word": "Good",
+   "start": 61.75,
+   "end": 61.867
+  },
+  {
+   "word": "ones",
+   "start": 61.867,
+   "end": 62.133
+  },
+  {
+   "word": "push",
+   "start": 62.133,
+   "end": 62.433
+  },
+  {
+   "word": "it",
+   "start": 62.433,
+   "end": 62.567
+  },
+  {
+   "word": "up,",
+   "start": 62.567,
+   "end": 62.8
+  },
+  {
+   "word": "lazy",
+   "start": 63.267,
+   "end": 63.417
+  },
+  {
+   "word": "ones",
+   "start": 63.417,
+   "end": 63.733
+  },
+  {
+   "word": "pull",
+   "start": 63.733,
+   "end": 64.117
+  },
+  {
+   "word": "it",
+   "start": 64.117,
+   "end": 64.283
+  },
+  {
+   "word": "down,",
+   "start": 64.283,
+   "end": 64.55
+  },
+  {
+   "word": "and",
+   "start": 65.1,
+   "end": 65.183
+  },
+  {
+   "word": "nobody",
+   "start": 65.183,
+   "end": 65.467
+  },
+  {
+   "word": "tells",
+   "start": 65.467,
+   "end": 65.783
+  },
+  {
+   "word": "you",
+   "start": 65.783,
+   "end": 65.983
+  },
+  {
+   "word": "which",
+   "start": 65.983,
+   "end": 66.117
+  },
+  {
+   "word": "is",
+   "start": 66.117,
+   "end": 66.267
+  },
+  {
+   "word": "which.",
+   "start": 66.267,
+   "end": 66.5
+  },
+  {
+   "word": "Rule",
+   "start": 67.55,
+   "end": 67.75
+  },
+  {
+   "word": "three.",
+   "start": 67.75,
+   "end": 68.767
+  },
+  {
+   "word": "You",
+   "start": 68.767,
+   "end": 68.85
+  },
+  {
+   "word": "can't",
+   "start": 68.85,
+   "end": 69.183
+  },
+  {
+   "word": "hide",
+   "start": 69.183,
+   "end": 69.35
+  },
+  {
+   "word": "it.",
+   "start": 69.35,
+   "end": 69.883
+  },
+  {
+   "word": "Leon",
+   "start": 70.483,
+   "end": 70.633
+  },
+  {
+   "word": "pulls",
+   "start": 70.633,
+   "end": 71.0
+  },
+  {
+   "word": "up",
+   "start": 71.0,
+   "end": 71.167
+  },
+  {
+   "word": "his",
+   "start": 71.167,
+   "end": 71.3
+  },
+  {
+   "word": "hood,",
+   "start": 71.3,
+   "end": 71.533
+  },
+  {
+   "word": "puts",
+   "start": 71.683,
+   "end": 71.833
+  },
+  {
+   "word": "a",
+   "start": 71.833,
+   "end": 72.0
+  },
+  {
+   "word": "bucket",
+   "start": 72.0,
+   "end": 72.183
+  },
+  {
+   "word": "on",
+   "start": 72.183,
+   "end": 72.4
+  },
+  {
+   "word": "his",
+   "start": 72.4,
+   "end": 72.533
+  },
+  {
+   "word": "head,",
+   "start": 72.533,
+   "end": 72.733
+  },
+  {
+   "word": "and",
+   "start": 72.733,
+   "end": 73.217
+  },
+  {
+   "word": "the",
+   "start": 73.217,
+   "end": 73.317
+  },
+  {
+   "word": "number",
+   "start": 73.317,
+   "end": 73.5
+  },
+  {
+   "word": "just",
+   "start": 73.5,
+   "end": 73.767
+  },
+  {
+   "word": "floats",
+   "start": 73.767,
+   "end": 74.15
+  },
+  {
+   "word": "above",
+   "start": 74.15,
+   "end": 74.55
+  },
+  {
+   "word": "the",
+   "start": 74.55,
+   "end": 74.733
+  },
+  {
+   "word": "bucket.",
+   "start": 74.733,
+   "end": 74.95
+  },
+  {
+   "word": "He's",
+   "start": 75.667,
+   "end": 75.8
+  },
+  {
+   "word": "already",
+   "start": 75.8,
+   "end": 76.033
+  },
+  {
+   "word": "planning",
+   "start": 76.033,
+   "end": 76.383
+  },
+  {
+   "word": "a",
+   "start": 76.383,
+   "end": 76.583
+  },
+  {
+   "word": "pizza",
+   "start": 76.583,
+   "end": 76.9
+  },
+  {
+   "word": "fountain",
+   "start": 76.9,
+   "end": 77.217
+  },
+  {
+   "word": "for",
+   "start": 77.217,
+   "end": 77.4
+  },
+  {
+   "word": "the",
+   "start": 77.4,
+   "end": 77.483
+  },
+  {
+   "word": "backyard.",
+   "start": 77.483,
+   "end": 77.917
+  },
+  {
+   "word": "Owen",
+   "start": 78.95,
+   "end": 79.15
+  },
+  {
+   "word": "squints.",
+   "start": 79.15,
+   "end": 79.7
+  },
+  {
+   "word": "\"Twenty-seven",
+   "start": 79.7,
+   "end": 81.567
+  },
+  {
+   "word": "billion.",
+   "start": 81.567,
+   "end": 82.117
+  },
+  {
+   "word": "Still.\"",
+   "start": 82.983,
+   "end": 83.483
+  },
+  {
+   "word": "At",
+   "start": 84.45,
+   "end": 84.55
+  },
+  {
+   "word": "lunch,",
+   "start": 84.55,
+   "end": 84.867
+  },
+  {
+   "word": "Leon",
+   "start": 85.217,
+   "end": 85.35
+  },
+  {
+   "word": "is",
+   "start": 85.35,
+   "end": 85.55
+  },
+  {
+   "word": "about",
+   "start": 85.55,
+   "end": 85.717
+  },
+  {
+   "word": "to",
+   "start": 85.717,
+   "end": 85.85
+  },
+  {
+   "word": "find",
+   "start": 85.85,
+   "end": 86.033
+  },
+  {
+   "word": "out",
+   "start": 86.033,
+   "end": 86.217
+  },
+  {
+   "word": "what",
+   "start": 86.217,
+   "end": 86.433
+  },
+  {
+   "word": "a",
+   "start": 86.433,
+   "end": 86.583
+  },
+  {
+   "word": "number",
+   "start": 86.583,
+   "end": 86.833
+  },
+  {
+   "word": "does",
+   "start": 86.833,
+   "end": 87.25
+  },
+  {
+   "word": "to",
+   "start": 87.25,
+   "end": 87.483
+  },
+  {
+   "word": "people.",
+   "start": 87.483,
+   "end": 87.733
+  },
+  {
+   "word": "Lunch,",
+   "start": 88.633,
+   "end": 88.633
+  },
+  {
+   "word": "ten",
+   "start": 88.967,
+   "end": 89.167
+  },
+  {
+   "word": "past",
+   "start": 89.167,
+   "end": 89.433
+  },
+  {
+   "word": "twelve.",
+   "start": 89.433,
+   "end": 89.7
+  },
+  {
+   "word": "The",
+   "start": 90.183,
+   "end": 90.35
+  },
+  {
+   "word": "cafeteria",
+   "start": 90.35,
+   "end": 90.717
+  },
+  {
+   "word": "line",
+   "start": 90.717,
+   "end": 91.117
+  },
+  {
+   "word": "opens",
+   "start": 91.117,
+   "end": 91.4
+  },
+  {
+   "word": "up",
+   "start": 91.4,
+   "end": 91.617
+  },
+  {
+   "word": "like",
+   "start": 91.617,
+   "end": 91.817
+  },
+  {
+   "word": "Leon",
+   "start": 91.817,
+   "end": 92.15
+  },
+  {
+   "word": "is",
+   "start": 92.15,
+   "end": 92.333
+  },
+  {
+   "word": "carrying",
+   "start": 92.333,
+   "end": 92.6
+  },
+  {
+   "word": "a",
+   "start": 92.6,
+   "end": 92.817
+  },
+  {
+   "word": "fire",
+   "start": 92.817,
+   "end": 93.167
+  },
+  {
+   "word": "hose.",
+   "start": 93.167,
+   "end": 93.417
+  },
+  {
+   "word": "Tess",
+   "start": 93.95,
+   "end": 94.283
+  },
+  {
+   "word": "hands",
+   "start": 94.283,
+   "end": 94.633
+  },
+  {
+   "word": "him",
+   "start": 94.633,
+   "end": 94.817
+  },
+  {
+   "word": "her",
+   "start": 94.817,
+   "end": 94.983
+  },
+  {
+   "word": "cookie.",
+   "start": 94.983,
+   "end": 95.283
+  },
+  {
+   "word": "Nia",
+   "start": 95.917,
+   "end": 96.033
+  },
+  {
+   "word": "hands",
+   "start": 96.033,
+   "end": 96.3
+  },
+  {
+   "word": "him",
+   "start": 96.3,
+   "end": 96.5
+  },
+  {
+   "word": "her",
+   "start": 96.5,
+   "end": 96.65
+  },
+  {
+   "word": "chips.",
+   "start": 96.65,
+   "end": 96.917
+  },
+  {
+   "word": "June",
+   "start": 97.733,
+   "end": 97.817
+  },
+  {
+   "word": "hands",
+   "start": 97.817,
+   "end": 98.217
+  },
+  {
+   "word": "him",
+   "start": 98.217,
+   "end": 98.483
+  },
+  {
+   "word": "a",
+   "start": 98.483,
+   "end": 98.667
+  },
+  {
+   "word": "napkin",
+   "start": 98.667,
+   "end": 99.067
+  },
+  {
+   "word": "folded",
+   "start": 99.067,
+   "end": 99.367
+  },
+  {
+   "word": "into",
+   "start": 99.367,
+   "end": 99.633
+  },
+  {
+   "word": "a",
+   "start": 99.633,
+   "end": 99.783
+  },
+  {
+   "word": "swan.",
+   "start": 99.783,
+   "end": 100.167
+  },
+  {
+   "word": "Chase,",
+   "start": 101.017,
+   "end": 101.067
+  },
+  {
+   "word": "who",
+   "start": 101.3,
+   "end": 101.467
+  },
+  {
+   "word": "has",
+   "start": 101.467,
+   "end": 101.6
+  },
+  {
+   "word": "never",
+   "start": 101.6,
+   "end": 101.883
+  },
+  {
+   "word": "said",
+   "start": 101.883,
+   "end": 102.083
+  },
+  {
+   "word": "a",
+   "start": 102.083,
+   "end": 102.2
+  },
+  {
+   "word": "word",
+   "start": 102.2,
+   "end": 102.333
+  },
+  {
+   "word": "to",
+   "start": 102.333,
+   "end": 102.55
+  },
+  {
+   "word": "Leon",
+   "start": 102.55,
+   "end": 102.75
+  },
+  {
+   "word": "in",
+   "start": 102.75,
+   "end": 103.017
+  },
+  {
+   "word": "his",
+   "start": 103.017,
+   "end": 103.217
+  },
+  {
+   "word": "life,",
+   "start": 103.217,
+   "end": 103.567
+  },
+  {
+   "word": "carries",
+   "start": 103.883,
+   "end": 104.3
+  },
+  {
+   "word": "his",
+   "start": 104.3,
+   "end": 104.55
+  },
+  {
+   "word": "tray",
+   "start": 104.55,
+   "end": 104.817
+  },
+  {
+   "word": "and",
+   "start": 104.817,
+   "end": 105.15
+  },
+  {
+   "word": "his",
+   "start": 105.15,
+   "end": 105.3
+  },
+  {
+   "word": "backpack",
+   "start": 105.3,
+   "end": 105.617
+  },
+  {
+   "word": "and",
+   "start": 105.617,
+   "end": 105.983
+  },
+  {
+   "word": "says,",
+   "start": 105.983,
+   "end": 106.217
+  },
+  {
+   "word": "\"I",
+   "start": 106.85,
+   "end": 106.983
+  },
+  {
+   "word": "got",
+   "start": 106.983,
+   "end": 107.133
+  },
+  {
+   "word": "you,",
+   "start": 107.133,
+   "end": 107.317
+  },
+  {
+   "word": "champ.\"",
+   "start": 107.317,
+   "end": 107.517
+  },
+  {
+   "word": "An",
+   "start": 108.667,
+   "end": 108.833
+  },
+  {
+   "word": "eighth",
+   "start": 108.833,
+   "end": 109.05
+  },
+  {
+   "word": "grader",
+   "start": 109.05,
+   "end": 109.417
+  },
+  {
+   "word": "Leon",
+   "start": 109.417,
+   "end": 109.683
+  },
+  {
+   "word": "has",
+   "start": 109.683,
+   "end": 109.9
+  },
+  {
+   "word": "never",
+   "start": 109.9,
+   "end": 110.2
+  },
+  {
+   "word": "met",
+   "start": 110.2,
+   "end": 110.483
+  },
+  {
+   "word": "asks",
+   "start": 110.483,
+   "end": 110.867
+  },
+  {
+   "word": "for",
+   "start": 110.867,
+   "end": 111.167
+  },
+  {
+   "word": "an",
+   "start": 111.167,
+   "end": 111.283
+  },
+  {
+   "word": "autograph,",
+   "start": 111.283,
+   "end": 111.7
+  },
+  {
+   "word": "and",
+   "start": 112.1,
+   "end": 112.3
+  },
+  {
+   "word": "Leon",
+   "start": 112.3,
+   "end": 112.617
+  },
+  {
+   "word": "signs",
+   "start": 112.617,
+   "end": 112.967
+  },
+  {
+   "word": "it",
+   "start": 112.967,
+   "end": 113.167
+  },
+  {
+   "word": "on",
+   "start": 113.167,
+   "end": 113.333
+  },
+  {
+   "word": "a",
+   "start": 113.333,
+   "end": 113.467
+  },
+  {
+   "word": "napkin.",
+   "start": 113.467,
+   "end": 113.833
+  },
+  {
+   "word": "The",
+   "start": 114.533,
+   "end": 114.65
+  },
+  {
+   "word": "lunch",
+   "start": 114.65,
+   "end": 114.833
+  },
+  {
+   "word": "lady",
+   "start": 114.833,
+   "end": 115.033
+  },
+  {
+   "word": "gives",
+   "start": 115.033,
+   "end": 115.283
+  },
+  {
+   "word": "him",
+   "start": 115.283,
+   "end": 115.483
+  },
+  {
+   "word": "two",
+   "start": 115.483,
+   "end": 115.8
+  },
+  {
+   "word": "puddings.",
+   "start": 115.8,
+   "end": 116.3
+  },
+  {
+   "word": "Then",
+   "start": 116.833,
+   "end": 117.05
+  },
+  {
+   "word": "Tess",
+   "start": 117.05,
+   "end": 117.367
+  },
+  {
+   "word": "leans",
+   "start": 117.367,
+   "end": 117.583
+  },
+  {
+   "word": "in.",
+   "start": 117.583,
+   "end": 117.9
+  },
+  {
+   "word": "\"I",
+   "start": 118.417,
+   "end": 118.683
+  },
+  {
+   "word": "already",
+   "start": 118.683,
+   "end": 118.95
+  },
+  {
+   "word": "did",
+   "start": 118.95,
+   "end": 119.167
+  },
+  {
+   "word": "your",
+   "start": 119.167,
+   "end": 119.317
+  },
+  {
+   "word": "homework.\"",
+   "start": 119.317,
+   "end": 119.667
+  },
+  {
+   "word": "Leon",
+   "start": 120.817,
+   "end": 120.817
+  },
+  {
+   "word": "takes",
+   "start": 120.817,
+   "end": 121.117
+  },
+  {
+   "word": "it.",
+   "start": 121.117,
+   "end": 121.617
+  },
+  {
+   "word": "Above",
+   "start": 122.05,
+   "end": 122.217
+  },
+  {
+   "word": "his",
+   "start": 122.217,
+   "end": 122.383
+  },
+  {
+   "word": "head,",
+   "start": 122.383,
+   "end": 122.65
+  },
+  {
+   "word": "the",
+   "start": 123.033,
+   "end": 123.117
+  },
+  {
+   "word": "number",
+   "start": 123.117,
+   "end": 123.367
+  },
+  {
+   "word": "drops",
+   "start": 123.367,
+   "end": 123.717
+  },
+  {
+   "word": "by",
+   "start": 123.717,
+   "end": 124.117
+  },
+  {
+   "word": "one",
+   "start": 124.117,
+   "end": 124.517
+  },
+  {
+   "word": "billion.",
+   "start": 124.517,
+   "end": 125.033
+  },
+  {
+   "word": "Owen",
+   "start": 125.95,
+   "end": 126.3
+  },
+  {
+   "word": "puts",
+   "start": 126.3,
+   "end": 126.583
+  },
+  {
+   "word": "down",
+   "start": 126.583,
+   "end": 126.817
+  },
+  {
+   "word": "his",
+   "start": 126.817,
+   "end": 127.0
+  },
+  {
+   "word": "fork.",
+   "start": 127.0,
+   "end": 127.25
+  },
+  {
+   "word": "\"You",
+   "start": 127.633,
+   "end": 127.783
+  },
+  {
+   "word": "just",
+   "start": 127.783,
+   "end": 127.983
+  },
+  {
+   "word": "paid",
+   "start": 127.983,
+   "end": 128.2
+  },
+  {
+   "word": "a",
+   "start": 128.2,
+   "end": 128.35
+  },
+  {
+   "word": "billion",
+   "start": 128.35,
+   "end": 128.717
+  },
+  {
+   "word": "dollars",
+   "start": 128.717,
+   "end": 129.167
+  },
+  {
+   "word": "for",
+   "start": 129.167,
+   "end": 129.4
+  },
+  {
+   "word": "a",
+   "start": 129.4,
+   "end": 129.517
+  },
+  {
+   "word": "worksheet.\"",
+   "start": 129.517,
+   "end": 129.967
+  },
+  {
+   "word": "[matter-of-fact]",
+   "start": 129.967,
+   "end": 130.65
+  },
+  {
+   "word": "Here's",
+   "start": 130.65,
+   "end": 130.867
+  },
+  {
+   "word": "the",
+   "start": 130.867,
+   "end": 130.967
+  },
+  {
+   "word": "part",
+   "start": 130.967,
+   "end": 131.117
+  },
+  {
+   "word": "nobody",
+   "start": 131.117,
+   "end": 131.367
+  },
+  {
+   "word": "says",
+   "start": 131.367,
+   "end": 131.617
+  },
+  {
+   "word": "out",
+   "start": 131.617,
+   "end": 131.817
+  },
+  {
+   "word": "loud.",
+   "start": 131.817,
+   "end": 132.017
+  },
+  {
+   "word": "In",
+   "start": 132.65,
+   "end": 132.717
+  },
+  {
+   "word": "1920,",
+   "start": 132.717,
+   "end": 133.267
+  },
+  {
+   "word": "the",
+   "start": 133.55,
+   "end": 133.6
+  },
+  {
+   "word": "psychologist",
+   "start": 133.6,
+   "end": 134.017
+  },
+  {
+   "word": "Edward",
+   "start": 134.017,
+   "end": 134.483
+  },
+  {
+   "word": "Thorndike",
+   "start": 134.483,
+   "end": 135.017
+  },
+  {
+   "word": "noticed",
+   "start": 135.017,
+   "end": 135.317
+  },
+  {
+   "word": "that",
+   "start": 135.317,
+   "end": 135.667
+  },
+  {
+   "word": "when",
+   "start": 135.667,
+   "end": 135.783
+  },
+  {
+   "word": "we",
+   "start": 135.783,
+   "end": 135.933
+  },
+  {
+   "word": "like",
+   "start": 135.933,
+   "end": 136.2
+  },
+  {
+   "word": "one",
+   "start": 136.2,
+   "end": 136.517
+  },
+  {
+   "word": "thing",
+   "start": 136.517,
+   "end": 136.767
+  },
+  {
+   "word": "about",
+   "start": 136.767,
+   "end": 136.967
+  },
+  {
+   "word": "a",
+   "start": 136.967,
+   "end": 137.1
+  },
+  {
+   "word": "person,",
+   "start": 137.1,
+   "end": 137.317
+  },
+  {
+   "word": "we",
+   "start": 137.633,
+   "end": 137.8
+  },
+  {
+   "word": "judge",
+   "start": 137.8,
+   "end": 138.0
+  },
+  {
+   "word": "everything",
+   "start": 138.0,
+   "end": 138.45
+  },
+  {
+   "word": "else",
+   "start": 138.45,
+   "end": 138.75
+  },
+  {
+   "word": "about",
+   "start": 138.75,
+   "end": 138.983
+  },
+  {
+   "word": "them",
+   "start": 138.983,
+   "end": 139.183
+  },
+  {
+   "word": "more",
+   "start": 139.183,
+   "end": 139.383
+  },
+  {
+   "word": "kindly.",
+   "start": 139.383,
+   "end": 139.767
+  },
+  {
+   "word": "Scientists",
+   "start": 140.283,
+   "end": 140.783
+  },
+  {
+   "word": "call",
+   "start": 140.783,
+   "end": 141.167
+  },
+  {
+   "word": "it",
+   "start": 141.167,
+   "end": 141.333
+  },
+  {
+   "word": "the",
+   "start": 141.333,
+   "end": 141.533
+  },
+  {
+   "word": "halo",
+   "start": 141.533,
+   "end": 141.933
+  },
+  {
+   "word": "effect.",
+   "start": 141.933,
+   "end": 142.317
+  },
+  {
+   "word": "The",
+   "start": 143.183,
+   "end": 143.2
+  },
+  {
+   "word": "girls",
+   "start": 143.2,
+   "end": 143.433
+  },
+  {
+   "word": "aren't",
+   "start": 143.433,
+   "end": 143.883
+  },
+  {
+   "word": "looking",
+   "start": 143.883,
+   "end": 144.117
+  },
+  {
+   "word": "at",
+   "start": 144.117,
+   "end": 144.333
+  },
+  {
+   "word": "Leon.",
+   "start": 144.333,
+   "end": 144.533
+  },
+  {
+   "word": "They're",
+   "start": 145.1,
+   "end": 145.35
+  },
+  {
+   "word": "looking",
+   "start": 145.35,
+   "end": 145.55
+  },
+  {
+   "word": "at",
+   "start": 145.55,
+   "end": 145.817
+  },
+  {
+   "word": "the",
+   "start": 145.817,
+   "end": 145.983
+  },
+  {
+   "word": "number.",
+   "start": 145.983,
+   "end": 146.25
+  },
+  {
+   "word": "And",
+   "start": 146.7,
+   "end": 146.933
+  },
+  {
+   "word": "after",
+   "start": 146.933,
+   "end": 147.167
+  },
+  {
+   "word": "school,",
+   "start": 147.167,
+   "end": 147.483
+  },
+  {
+   "word": "that",
+   "start": 147.817,
+   "end": 147.967
+  },
+  {
+   "word": "number",
+   "start": 147.967,
+   "end": 148.25
+  },
+  {
+   "word": "starts",
+   "start": 148.25,
+   "end": 148.533
+  },
+  {
+   "word": "getting",
+   "start": 148.533,
+   "end": 148.817
+  },
+  {
+   "word": "visitors.",
+   "start": 148.817,
+   "end": 149.2
+  },
+  {
+   "word": "Five",
+   "start": 150.283,
+   "end": 150.3
+  },
+  {
+   "word": "o'clock,",
+   "start": 150.3,
+   "end": 150.95
+  },
+  {
+   "word": "Leon's",
+   "start": 150.95,
+   "end": 151.25
+  },
+  {
+   "word": "street.",
+   "start": 151.25,
+   "end": 151.433
+  },
+  {
+   "word": "A",
+   "start": 151.867,
+   "end": 152.0
+  },
+  {
+   "word": "news",
+   "start": 152.0,
+   "end": 152.167
+  },
+  {
+   "word": "van",
+   "start": 152.167,
+   "end": 152.383
+  },
+  {
+   "word": "is",
+   "start": 152.383,
+   "end": 152.517
+  },
+  {
+   "word": "parked",
+   "start": 152.517,
+   "end": 152.683
+  },
+  {
+   "word": "across",
+   "start": 152.683,
+   "end": 152.933
+  },
+  {
+   "word": "the",
+   "start": 152.933,
+   "end": 153.117
+  },
+  {
+   "word": "driveway,",
+   "start": 153.117,
+   "end": 153.45
+  },
+  {
+   "word": "and",
+   "start": 153.45,
+   "end": 153.867
+  },
+  {
+   "word": "a",
+   "start": 153.867,
+   "end": 153.95
+  },
+  {
+   "word": "reporter",
+   "start": 153.95,
+   "end": 154.233
+  },
+  {
+   "word": "with",
+   "start": 154.233,
+   "end": 154.517
+  },
+  {
+   "word": "perfect",
+   "start": 154.517,
+   "end": 154.867
+  },
+  {
+   "word": "hair",
+   "start": 154.867,
+   "end": 155.167
+  },
+  {
+   "word": "shoves",
+   "start": 155.167,
+   "end": 155.383
+  },
+  {
+   "word": "a",
+   "start": 155.383,
+   "end": 155.533
+  },
+  {
+   "word": "microphone",
+   "start": 155.533,
+   "end": 155.867
+  },
+  {
+   "word": "in",
+   "start": 155.867,
+   "end": 156.05
+  },
+  {
+   "word": "his",
+   "start": 156.05,
+   "end": 156.167
+  },
+  {
+   "word": "face.",
+   "start": 156.167,
+   "end": 156.383
+  },
+  {
+   "word": "\"Any",
+   "start": 157.167,
+   "end": 157.25
+  },
+  {
+   "word": "advice",
+   "start": 157.25,
+   "end": 157.5
+  },
+  {
+   "word": "for",
+   "start": 157.5,
+   "end": 157.683
+  },
+  {
+   "word": "your",
+   "start": 157.683,
+   "end": 157.783
+  },
+  {
+   "word": "fans?\"",
+   "start": 157.783,
+   "end": 158.05
+  },
+  {
+   "word": "Leon",
+   "start": 158.733,
+   "end": 158.967
+  },
+  {
+   "word": "panics.",
+   "start": 158.967,
+   "end": 159.4
+  },
+  {
+   "word": "\"Eat",
+   "start": 160.05,
+   "end": 160.3
+  },
+  {
+   "word": "your",
+   "start": 160.3,
+   "end": 160.467
+  },
+  {
+   "word": "vegetables.\"",
+   "start": 160.467,
+   "end": 160.783
+  },
+  {
+   "word": "The",
+   "start": 161.317,
+   "end": 161.75
+  },
+  {
+   "word": "number",
+   "start": 161.75,
+   "end": 162.017
+  },
+  {
+   "word": "climbs",
+   "start": 162.017,
+   "end": 162.417
+  },
+  {
+   "word": "by",
+   "start": 162.417,
+   "end": 162.733
+  },
+  {
+   "word": "two",
+   "start": 162.733,
+   "end": 163.008
+  },
+  {
+   "word": "hundred",
+   "start": 163.008,
+   "end": 163.283
+  },
+  {
+   "word": "million.",
+   "start": 163.283,
+   "end": 163.75
+  },
+  {
+   "word": "Grown-ups",
+   "start": 163.75,
+   "end": 164.817
+  },
+  {
+   "word": "love",
+   "start": 164.817,
+   "end": 165.267
+  },
+  {
+   "word": "that",
+   "start": 165.267,
+   "end": 165.533
+  },
+  {
+   "word": "kind",
+   "start": 165.533,
+   "end": 165.683
+  },
+  {
+   "word": "of",
+   "start": 165.683,
+   "end": 165.8
+  },
+  {
+   "word": "thing.",
+   "start": 165.8,
+   "end": 166.05
+  },
+  {
+   "word": "Then",
+   "start": 166.933,
+   "end": 166.933
+  },
+  {
+   "word": "the",
+   "start": 166.933,
+   "end": 167.1
+  },
+  {
+   "word": "doorbell",
+   "start": 167.1,
+   "end": 167.4
+  },
+  {
+   "word": "rings,",
+   "start": 167.4,
+   "end": 167.717
+  },
+  {
+   "word": "and",
+   "start": 167.95,
+   "end": 168.033
+  },
+  {
+   "word": "a",
+   "start": 168.033,
+   "end": 168.1
+  },
+  {
+   "word": "man",
+   "start": 168.1,
+   "end": 168.3
+  },
+  {
+   "word": "in",
+   "start": 168.3,
+   "end": 168.45
+  },
+  {
+   "word": "a",
+   "start": 168.45,
+   "end": 168.533
+  },
+  {
+   "word": "gray",
+   "start": 168.533,
+   "end": 168.7
+  },
+  {
+   "word": "suit",
+   "start": 168.7,
+   "end": 168.983
+  },
+  {
+   "word": "walks",
+   "start": 168.983,
+   "end": 169.217
+  },
+  {
+   "word": "into",
+   "start": 169.217,
+   "end": 169.45
+  },
+  {
+   "word": "the",
+   "start": 169.45,
+   "end": 169.567
+  },
+  {
+   "word": "kitchen",
+   "start": 169.567,
+   "end": 169.817
+  },
+  {
+   "word": "holding",
+   "start": 169.817,
+   "end": 170.067
+  },
+  {
+   "word": "a",
+   "start": 170.067,
+   "end": 170.217
+  },
+  {
+   "word": "folder.",
+   "start": 170.217,
+   "end": 170.45
+  },
+  {
+   "word": "Mr.",
+   "start": 171.267,
+   "end": 171.45
+  },
+  {
+   "word": "Hale.",
+   "start": 171.733,
+   "end": 171.75
+  },
+  {
+   "word": "\"Ten",
+   "start": 171.75,
+   "end": 172.508
+  },
+  {
+   "word": "percent",
+   "start": 172.508,
+   "end": 173.267
+  },
+  {
+   "word": "of",
+   "start": 173.267,
+   "end": 173.45
+  },
+  {
+   "word": "whatever",
+   "start": 173.45,
+   "end": 173.633
+  },
+  {
+   "word": "is",
+   "start": 173.633,
+   "end": 173.917
+  },
+  {
+   "word": "above",
+   "start": 173.917,
+   "end": 174.133
+  },
+  {
+   "word": "your",
+   "start": 174.133,
+   "end": 174.3
+  },
+  {
+   "word": "head,\"",
+   "start": 174.3,
+   "end": 174.583
+  },
+  {
+   "word": "he",
+   "start": 174.767,
+   "end": 174.85
+  },
+  {
+   "word": "says,",
+   "start": 174.85,
+   "end": 175.067
+  },
+  {
+   "word": "\"and",
+   "start": 175.533,
+   "end": 175.633
+  },
+  {
+   "word": "I'll",
+   "start": 175.633,
+   "end": 175.8
+  },
+  {
+   "word": "pay",
+   "start": 175.8,
+   "end": 175.95
+  },
+  {
+   "word": "you",
+   "start": 175.95,
+   "end": 176.133
+  },
+  {
+   "word": "forty",
+   "start": 176.133,
+   "end": 176.456
+  },
+  {
+   "word": "thousand",
+   "start": 176.456,
+   "end": 176.778
+  },
+  {
+   "word": "dollars",
+   "start": 176.778,
+   "end": 177.1
+  },
+  {
+   "word": "today.\"",
+   "start": 177.1,
+   "end": 177.8
+  },
+  {
+   "word": "Mom",
+   "start": 178.9,
+   "end": 179.117
+  },
+  {
+   "word": "reads",
+   "start": 179.117,
+   "end": 179.333
+  },
+  {
+   "word": "the",
+   "start": 179.333,
+   "end": 179.55
+  },
+  {
+   "word": "contract",
+   "start": 179.55,
+   "end": 179.95
+  },
+  {
+   "word": "with",
+   "start": 179.95,
+   "end": 180.133
+  },
+  {
+   "word": "her",
+   "start": 180.133,
+   "end": 180.267
+  },
+  {
+   "word": "glasses",
+   "start": 180.267,
+   "end": 180.55
+  },
+  {
+   "word": "on",
+   "start": 180.55,
+   "end": 180.783
+  },
+  {
+   "word": "the",
+   "start": 180.783,
+   "end": 180.883
+  },
+  {
+   "word": "tip",
+   "start": 180.883,
+   "end": 181.0
+  },
+  {
+   "word": "of",
+   "start": 181.0,
+   "end": 181.117
+  },
+  {
+   "word": "her",
+   "start": 181.117,
+   "end": 181.2
+  },
+  {
+   "word": "nose.",
+   "start": 181.2,
+   "end": 181.4
+  },
+  {
+   "word": "\"Page",
+   "start": 181.4,
+   "end": 181.85
+  },
+  {
+   "word": "three",
+   "start": 181.85,
+   "end": 182.167
+  },
+  {
+   "word": "says",
+   "start": 182.167,
+   "end": 182.383
+  },
+  {
+   "word": "he",
+   "start": 182.383,
+   "end": 182.55
+  },
+  {
+   "word": "gets",
+   "start": 182.55,
+   "end": 182.683
+  },
+  {
+   "word": "your",
+   "start": 182.683,
+   "end": 182.85
+  },
+  {
+   "word": "lunch",
+   "start": 182.85,
+   "end": 183.017
+  },
+  {
+   "word": "for",
+   "start": 183.017,
+   "end": 183.233
+  },
+  {
+   "word": "life.\"",
+   "start": 183.233,
+   "end": 183.533
+  },
+  {
+   "word": "Biscuit",
+   "start": 184.433,
+   "end": 184.65
+  },
+  {
+   "word": "grabs",
+   "start": 184.65,
+   "end": 184.917
+  },
+  {
+   "word": "the",
+   "start": 184.917,
+   "end": 185.117
+  },
+  {
+   "word": "whole",
+   "start": 185.117,
+   "end": 185.3
+  },
+  {
+   "word": "thing",
+   "start": 185.3,
+   "end": 185.567
+  },
+  {
+   "word": "and",
+   "start": 185.567,
+   "end": 185.75
+  },
+  {
+   "word": "bolts",
+   "start": 185.75,
+   "end": 186.05
+  },
+  {
+   "word": "out",
+   "start": 186.05,
+   "end": 186.267
+  },
+  {
+   "word": "the",
+   "start": 186.267,
+   "end": 186.383
+  },
+  {
+   "word": "back",
+   "start": 186.383,
+   "end": 186.567
+  },
+  {
+   "word": "door.",
+   "start": 186.567,
+   "end": 186.833
+  },
+  {
+   "word": "Leon",
+   "start": 187.967,
+   "end": 187.967
+  },
+  {
+   "word": "gives",
+   "start": 187.967,
+   "end": 188.217
+  },
+  {
+   "word": "his",
+   "start": 188.217,
+   "end": 188.45
+  },
+  {
+   "word": "dog",
+   "start": 188.45,
+   "end": 188.633
+  },
+  {
+   "word": "a",
+   "start": 188.633,
+   "end": 188.783
+  },
+  {
+   "word": "treat,",
+   "start": 188.783,
+   "end": 189.033
+  },
+  {
+   "word": "and",
+   "start": 189.45,
+   "end": 189.533
+  },
+  {
+   "word": "the",
+   "start": 189.533,
+   "end": 189.633
+  },
+  {
+   "word": "number",
+   "start": 189.633,
+   "end": 189.767
+  },
+  {
+   "word": "goes",
+   "start": 189.767,
+   "end": 189.967
+  },
+  {
+   "word": "up",
+   "start": 189.967,
+   "end": 190.133
+  },
+  {
+   "word": "by",
+   "start": 190.133,
+   "end": 190.35
+  },
+  {
+   "word": "fifty",
+   "start": 190.35,
+   "end": 190.783
+  },
+  {
+   "word": "million,",
+   "start": 190.783,
+   "end": 191.117
+  },
+  {
+   "word": "for",
+   "start": 191.117,
+   "end": 191.683
+  },
+  {
+   "word": "being",
+   "start": 191.683,
+   "end": 191.9
+  },
+  {
+   "word": "kind",
+   "start": 191.9,
+   "end": 192.25
+  },
+  {
+   "word": "to",
+   "start": 192.25,
+   "end": 192.533
+  },
+  {
+   "word": "a",
+   "start": 192.533,
+   "end": 192.633
+  },
+  {
+   "word": "dog.",
+   "start": 192.633,
+   "end": 192.9
+  },
+  {
+   "word": "He",
+   "start": 193.917,
+   "end": 194.033
+  },
+  {
+   "word": "doesn't",
+   "start": 194.033,
+   "end": 194.317
+  },
+  {
+   "word": "know",
+   "start": 194.317,
+   "end": 194.467
+  },
+  {
+   "word": "it",
+   "start": 194.467,
+   "end": 194.6
+  },
+  {
+   "word": "yet,",
+   "start": 194.6,
+   "end": 194.8
+  },
+  {
+   "word": "but",
+   "start": 195.167,
+   "end": 195.333
+  },
+  {
+   "word": "the",
+   "start": 195.333,
+   "end": 195.483
+  },
+  {
+   "word": "number",
+   "start": 195.483,
+   "end": 195.75
+  },
+  {
+   "word": "just",
+   "start": 195.75,
+   "end": 196.267
+  },
+  {
+   "word": "told",
+   "start": 196.267,
+   "end": 196.633
+  },
+  {
+   "word": "him",
+   "start": 196.633,
+   "end": 196.817
+  },
+  {
+   "word": "something.",
+   "start": 196.817,
+   "end": 197.133
+  },
+  {
+   "word": "Tomorrow,",
+   "start": 198.183,
+   "end": 198.183
+  },
+  {
+   "word": "he'll",
+   "start": 198.183,
+   "end": 198.583
+  },
+  {
+   "word": "notice",
+   "start": 198.583,
+   "end": 198.817
+  },
+  {
+   "word": "the",
+   "start": 198.817,
+   "end": 199.0
+  },
+  {
+   "word": "pattern.",
+   "start": 199.0,
+   "end": 199.333
+  },
+  {
+   "word": "Chase",
+   "start": 200.467,
+   "end": 200.6
+  },
+  {
+   "word": "already",
+   "start": 200.6,
+   "end": 201.117
+  },
+  {
+   "word": "has.",
+   "start": 201.117,
+   "end": 201.633
+  },
+  {
+   "word": "Wednesday,",
+   "start": 202.233,
+   "end": 202.733
+  },
+  {
+   "word": "seven",
+   "start": 202.733,
+   "end": 203.067
+  },
+  {
+   "word": "forty",
+   "start": 203.067,
+   "end": 203.4
+  },
+  {
+   "word": "in",
+   "start": 203.4,
+   "end": 203.55
+  },
+  {
+   "word": "the",
+   "start": 203.55,
+   "end": 203.617
+  },
+  {
+   "word": "morning,",
+   "start": 203.617,
+   "end": 203.867
+  },
+  {
+   "word": "Owen's",
+   "start": 204.267,
+   "end": 204.5
+  },
+  {
+   "word": "garage.",
+   "start": 204.5,
+   "end": 204.8
+  },
+  {
+   "word": "Owen",
+   "start": 205.85,
+   "end": 206.05
+  },
+  {
+   "word": "is",
+   "start": 206.05,
+   "end": 206.3
+  },
+  {
+   "word": "bolting",
+   "start": 206.3,
+   "end": 206.6
+  },
+  {
+   "word": "a",
+   "start": 206.6,
+   "end": 206.717
+  },
+  {
+   "word": "strange",
+   "start": 206.717,
+   "end": 207.1
+  },
+  {
+   "word": "metal",
+   "start": 207.1,
+   "end": 207.383
+  },
+  {
+   "word": "box",
+   "start": 207.383,
+   "end": 207.717
+  },
+  {
+   "word": "onto",
+   "start": 207.717,
+   "end": 208.0
+  },
+  {
+   "word": "a",
+   "start": 208.0,
+   "end": 208.25
+  },
+  {
+   "word": "rusty",
+   "start": 208.25,
+   "end": 208.517
+  },
+  {
+   "word": "old",
+   "start": 208.517,
+   "end": 208.783
+  },
+  {
+   "word": "bicycle,",
+   "start": 208.783,
+   "end": 209.217
+  },
+  {
+   "word": "and",
+   "start": 209.617,
+   "end": 209.733
+  },
+  {
+   "word": "for",
+   "start": 209.733,
+   "end": 209.85
+  },
+  {
+   "word": "once,",
+   "start": 209.85,
+   "end": 210.183
+  },
+  {
+   "word": "Leon",
+   "start": 210.567,
+   "end": 210.7
+  },
+  {
+   "word": "doesn't",
+   "start": 210.7,
+   "end": 211.067
+  },
+  {
+   "word": "say",
+   "start": 211.067,
+   "end": 211.267
+  },
+  {
+   "word": "anything",
+   "start": 211.267,
+   "end": 211.617
+  },
+  {
+   "word": "funny.",
+   "start": 211.617,
+   "end": 211.95
+  },
+  {
+   "word": "He",
+   "start": 212.367,
+   "end": 212.5
+  },
+  {
+   "word": "just",
+   "start": 212.5,
+   "end": 212.65
+  },
+  {
+   "word": "holds",
+   "start": 212.65,
+   "end": 212.9
+  },
+  {
+   "word": "the",
+   "start": 212.9,
+   "end": 213.083
+  },
+  {
+   "word": "wrench.",
+   "start": 213.083,
+   "end": 213.3
+  },
+  {
+   "word": "The",
+   "start": 214.033,
+   "end": 214.183
+  },
+  {
+   "word": "number",
+   "start": 214.183,
+   "end": 214.467
+  },
+  {
+   "word": "jumps",
+   "start": 214.467,
+   "end": 214.817
+  },
+  {
+   "word": "up",
+   "start": 214.817,
+   "end": 215.05
+  },
+  {
+   "word": "by",
+   "start": 215.05,
+   "end": 215.333
+  },
+  {
+   "word": "a",
+   "start": 215.333,
+   "end": 215.517
+  },
+  {
+   "word": "billion.",
+   "start": 215.517,
+   "end": 215.867
+  },
+  {
+   "word": "On",
+   "start": 216.883,
+   "end": 217.217
+  },
+  {
+   "word": "the",
+   "start": 217.217,
+   "end": 217.283
+  },
+  {
+   "word": "way",
+   "start": 217.283,
+   "end": 217.367
+  },
+  {
+   "word": "to",
+   "start": 217.367,
+   "end": 217.483
+  },
+  {
+   "word": "school,",
+   "start": 217.483,
+   "end": 217.8
+  },
+  {
+   "word": "Tess",
+   "start": 218.033,
+   "end": 218.1
+  },
+  {
+   "word": "hands",
+   "start": 218.1,
+   "end": 218.467
+  },
+  {
+   "word": "Leon",
+   "start": 218.467,
+   "end": 218.733
+  },
+  {
+   "word": "a",
+   "start": 218.733,
+   "end": 218.983
+  },
+  {
+   "word": "coffee,",
+   "start": 218.983,
+   "end": 219.2
+  },
+  {
+   "word": "and",
+   "start": 219.467,
+   "end": 219.583
+  },
+  {
+   "word": "he",
+   "start": 219.583,
+   "end": 219.717
+  },
+  {
+   "word": "lets",
+   "start": 219.717,
+   "end": 219.883
+  },
+  {
+   "word": "her",
+   "start": 219.883,
+   "end": 220.1
+  },
+  {
+   "word": "pay.",
+   "start": 220.1,
+   "end": 220.367
+  },
+  {
+   "word": "Down",
+   "start": 221.017,
+   "end": 221.167
+  },
+  {
+   "word": "it",
+   "start": 221.167,
+   "end": 221.3
+  },
+  {
+   "word": "goes.",
+   "start": 221.3,
+   "end": 221.55
+  },
+  {
+   "word": "Then",
+   "start": 222.3,
+   "end": 222.45
+  },
+  {
+   "word": "he",
+   "start": 222.45,
+   "end": 222.6
+  },
+  {
+   "word": "stops",
+   "start": 222.6,
+   "end": 222.8
+  },
+  {
+   "word": "to",
+   "start": 222.8,
+   "end": 223.017
+  },
+  {
+   "word": "tie",
+   "start": 223.017,
+   "end": 223.233
+  },
+  {
+   "word": "Owen's",
+   "start": 223.233,
+   "end": 223.667
+  },
+  {
+   "word": "shoe.",
+   "start": 223.667,
+   "end": 223.883
+  },
+  {
+   "word": "Up.",
+   "start": 224.6,
+   "end": 224.883
+  },
+  {
+   "word": "Leon",
+   "start": 226.133,
+   "end": 226.133
+  },
+  {
+   "word": "stares",
+   "start": 226.133,
+   "end": 226.517
+  },
+  {
+   "word": "at",
+   "start": 226.517,
+   "end": 226.783
+  },
+  {
+   "word": "the",
+   "start": 226.783,
+   "end": 226.883
+  },
+  {
+   "word": "number,",
+   "start": 226.883,
+   "end": 227.1
+  },
+  {
+   "word": "then",
+   "start": 227.65,
+   "end": 227.967
+  },
+  {
+   "word": "at",
+   "start": 227.967,
+   "end": 228.25
+  },
+  {
+   "word": "Owen,",
+   "start": 228.25,
+   "end": 228.5
+  },
+  {
+   "word": "then",
+   "start": 229.183,
+   "end": 229.483
+  },
+  {
+   "word": "at",
+   "start": 229.483,
+   "end": 229.75
+  },
+  {
+   "word": "the",
+   "start": 229.75,
+   "end": 229.85
+  },
+  {
+   "word": "number",
+   "start": 229.85,
+   "end": 230.033
+  },
+  {
+   "word": "again.",
+   "start": 230.033,
+   "end": 230.333
+  },
+  {
+   "word": "It",
+   "start": 231.167,
+   "end": 231.367
+  },
+  {
+   "word": "isn't",
+   "start": 231.367,
+   "end": 231.567
+  },
+  {
+   "word": "what",
+   "start": 231.567,
+   "end": 231.767
+  },
+  {
+   "word": "he",
+   "start": 231.767,
+   "end": 231.933
+  },
+  {
+   "word": "has.",
+   "start": 231.933,
+   "end": 232.3
+  },
+  {
+   "word": "It",
+   "start": 232.933,
+   "end": 233.133
+  },
+  {
+   "word": "isn't",
+   "start": 233.133,
+   "end": 233.333
+  },
+  {
+   "word": "even",
+   "start": 233.333,
+   "end": 233.517
+  },
+  {
+   "word": "what",
+   "start": 233.517,
+   "end": 233.7
+  },
+  {
+   "word": "he",
+   "start": 233.7,
+   "end": 233.867
+  },
+  {
+   "word": "does.",
+   "start": 233.867,
+   "end": 234.15
+  },
+  {
+   "word": "It's",
+   "start": 235.033,
+   "end": 235.283
+  },
+  {
+   "word": "what",
+   "start": 235.283,
+   "end": 235.433
+  },
+  {
+   "word": "he",
+   "start": 235.433,
+   "end": 235.633
+  },
+  {
+   "word": "chooses,",
+   "start": 235.633,
+   "end": 236.083
+  },
+  {
+   "word": "again",
+   "start": 236.417,
+   "end": 236.883
+  },
+  {
+   "word": "and",
+   "start": 236.883,
+   "end": 237.217
+  },
+  {
+   "word": "again,",
+   "start": 237.217,
+   "end": 237.567
+  },
+  {
+   "word": "and",
+   "start": 238.183,
+   "end": 238.3
+  },
+  {
+   "word": "it",
+   "start": 238.3,
+   "end": 238.383
+  },
+  {
+   "word": "rises",
+   "start": 238.383,
+   "end": 238.733
+  },
+  {
+   "word": "every",
+   "start": 238.733,
+   "end": 239.267
+  },
+  {
+   "word": "time",
+   "start": 239.267,
+   "end": 239.6
+  },
+  {
+   "word": "he",
+   "start": 239.6,
+   "end": 239.8
+  },
+  {
+   "word": "does",
+   "start": 239.8,
+   "end": 239.983
+  },
+  {
+   "word": "something",
+   "start": 239.983,
+   "end": 240.35
+  },
+  {
+   "word": "real",
+   "start": 240.35,
+   "end": 240.667
+  },
+  {
+   "word": "with",
+   "start": 240.667,
+   "end": 241.067
+  },
+  {
+   "word": "Owen.",
+   "start": 241.067,
+   "end": 241.4
+  },
+  {
+   "word": "Behind",
+   "start": 242.433,
+   "end": 242.717
+  },
+  {
+   "word": "him,",
+   "start": 242.717,
+   "end": 242.95
+  },
+  {
+   "word": "Chase",
+   "start": 243.1,
+   "end": 243.25
+  },
+  {
+   "word": "flips",
+   "start": 243.25,
+   "end": 243.567
+  },
+  {
+   "word": "open",
+   "start": 243.567,
+   "end": 243.85
+  },
+  {
+   "word": "a",
+   "start": 243.85,
+   "end": 243.983
+  },
+  {
+   "word": "small",
+   "start": 243.983,
+   "end": 244.217
+  },
+  {
+   "word": "notebook",
+   "start": 244.217,
+   "end": 244.583
+  },
+  {
+   "word": "and",
+   "start": 244.583,
+   "end": 244.883
+  },
+  {
+   "word": "writes",
+   "start": 244.883,
+   "end": 245.05
+  },
+  {
+   "word": "something",
+   "start": 245.05,
+   "end": 245.367
+  },
+  {
+   "word": "down.",
+   "start": 245.367,
+   "end": 245.683
+  },
+  {
+   "word": "Leon",
+   "start": 246.067,
+   "end": 246.25
+  },
+  {
+   "word": "checks",
+   "start": 246.25,
+   "end": 246.483
+  },
+  {
+   "word": "the",
+   "start": 246.483,
+   "end": 246.683
+  },
+  {
+   "word": "number",
+   "start": 246.683,
+   "end": 246.833
+  },
+  {
+   "word": "once",
+   "start": 246.833,
+   "end": 247.05
+  },
+  {
+   "word": "more.",
+   "start": 247.05,
+   "end": 247.367
+  },
+  {
+   "word": "It",
+   "start": 247.733,
+   "end": 247.933
+  },
+  {
+   "word": "hasn't",
+   "start": 247.933,
+   "end": 248.2
+  },
+  {
+   "word": "moved.",
+   "start": 248.2,
+   "end": 248.417
+  },
+  {
+   "word": "Yet.",
+   "start": 249.033,
+   "end": 249.533
+  },
+  {
+   "word": "Because",
+   "start": 250.15,
+   "end": 250.467
+  },
+  {
+   "word": "Thursday",
+   "start": 250.467,
+   "end": 250.933
+  },
+  {
+   "word": "morning,",
+   "start": 250.933,
+   "end": 251.267
+  },
+  {
+   "word": "he",
+   "start": 251.683,
+   "end": 251.8
+  },
+  {
+   "word": "has",
+   "start": 251.8,
+   "end": 251.967
+  },
+  {
+   "word": "to",
+   "start": 251.967,
+   "end": 252.167
+  },
+  {
+   "word": "pick",
+   "start": 252.167,
+   "end": 252.283
+  },
+  {
+   "word": "a",
+   "start": 252.283,
+   "end": 252.533
+  },
+  {
+   "word": "partner.",
+   "start": 252.533,
+   "end": 252.8
+  },
+  {
+   "word": "Thursday,",
+   "start": 253.9,
+   "end": 254.1
+  },
+  {
+   "word": "ten",
+   "start": 254.1,
+   "end": 254.608
+  },
+  {
+   "word": "fifteen,",
+   "start": 254.608,
+   "end": 255.117
+  },
+  {
+   "word": "the",
+   "start": 255.117,
+   "end": 255.3
+  },
+  {
+   "word": "gym.",
+   "start": 255.3,
+   "end": 255.55
+  },
+  {
+   "word": "Ms.",
+   "start": 256.083,
+   "end": 256.15
+  },
+  {
+   "word": "Park",
+   "start": 256.367,
+   "end": 256.383
+  },
+  {
+   "word": "holds",
+   "start": 256.383,
+   "end": 256.633
+  },
+  {
+   "word": "up",
+   "start": 256.633,
+   "end": 256.783
+  },
+  {
+   "word": "a",
+   "start": 256.783,
+   "end": 256.95
+  },
+  {
+   "word": "clipboard.",
+   "start": 256.95,
+   "end": 257.167
+  },
+  {
+   "word": "\"Science",
+   "start": 257.817,
+   "end": 258.017
+  },
+  {
+   "word": "fair",
+   "start": 258.017,
+   "end": 258.183
+  },
+  {
+   "word": "partners.",
+   "start": 258.183,
+   "end": 258.617
+  },
+  {
+   "word": "Friday",
+   "start": 258.967,
+   "end": 259.117
+  },
+  {
+   "word": "at",
+   "start": 259.117,
+   "end": 259.333
+  },
+  {
+   "word": "four,",
+   "start": 259.333,
+   "end": 259.8
+  },
+  {
+   "word": "the",
+   "start": 259.8,
+   "end": 259.967
+  },
+  {
+   "word": "whole",
+   "start": 259.967,
+   "end": 260.25
+  },
+  {
+   "word": "town",
+   "start": 260.25,
+   "end": 260.567
+  },
+  {
+   "word": "comes",
+   "start": 260.567,
+   "end": 260.8
+  },
+  {
+   "word": "to",
+   "start": 260.8,
+   "end": 260.967
+  },
+  {
+   "word": "watch.\"",
+   "start": 260.967,
+   "end": 261.217
+  },
+  {
+   "word": "Before",
+   "start": 262.017,
+   "end": 262.267
+  },
+  {
+   "word": "she",
+   "start": 262.267,
+   "end": 262.433
+  },
+  {
+   "word": "even",
+   "start": 262.433,
+   "end": 262.65
+  },
+  {
+   "word": "finishes,",
+   "start": 262.65,
+   "end": 263.0
+  },
+  {
+   "word": "Tess,",
+   "start": 263.433,
+   "end": 263.517
+  },
+  {
+   "word": "Nia,",
+   "start": 263.933,
+   "end": 264.017
+  },
+  {
+   "word": "and",
+   "start": 264.183,
+   "end": 264.367
+  },
+  {
+   "word": "June",
+   "start": 264.367,
+   "end": 264.533
+  },
+  {
+   "word": "say",
+   "start": 264.533,
+   "end": 264.833
+  },
+  {
+   "word": "it",
+   "start": 264.833,
+   "end": 264.967
+  },
+  {
+   "word": "together.",
+   "start": 264.967,
+   "end": 265.233
+  },
+  {
+   "word": "\"Pick",
+   "start": 265.85,
+   "end": 265.967
+  },
+  {
+   "word": "me.\"",
+   "start": 265.967,
+   "end": 266.233
+  },
+  {
+   "word": "The",
+   "start": 266.8,
+   "end": 267.133
+  },
+  {
+   "word": "whole",
+   "start": 267.133,
+   "end": 267.417
+  },
+  {
+   "word": "class",
+   "start": 267.417,
+   "end": 267.783
+  },
+  {
+   "word": "goes",
+   "start": 267.783,
+   "end": 268.033
+  },
+  {
+   "word": "quiet.",
+   "start": 268.033,
+   "end": 268.45
+  },
+  {
+   "word": "Over",
+   "start": 269.167,
+   "end": 269.35
+  },
+  {
+   "word": "by",
+   "start": 269.35,
+   "end": 269.5
+  },
+  {
+   "word": "the",
+   "start": 269.5,
+   "end": 269.617
+  },
+  {
+   "word": "wall,",
+   "start": 269.617,
+   "end": 269.867
+  },
+  {
+   "word": "Owen",
+   "start": 270.2,
+   "end": 270.283
+  },
+  {
+   "word": "stands",
+   "start": 270.283,
+   "end": 270.6
+  },
+  {
+   "word": "next",
+   "start": 270.6,
+   "end": 270.867
+  },
+  {
+   "word": "to",
+   "start": 270.867,
+   "end": 271.017
+  },
+  {
+   "word": "his",
+   "start": 271.017,
+   "end": 271.133
+  },
+  {
+   "word": "bicycle",
+   "start": 271.133,
+   "end": 271.483
+  },
+  {
+   "word": "and",
+   "start": 271.483,
+   "end": 271.717
+  },
+  {
+   "word": "says",
+   "start": 271.717,
+   "end": 271.883
+  },
+  {
+   "word": "nothing.",
+   "start": 271.883,
+   "end": 272.217
+  },
+  {
+   "word": "He",
+   "start": 272.217,
+   "end": 272.733
+  },
+  {
+   "word": "doesn't",
+   "start": 272.733,
+   "end": 273.283
+  },
+  {
+   "word": "have",
+   "start": 273.283,
+   "end": 273.45
+  },
+  {
+   "word": "to.",
+   "start": 273.45,
+   "end": 274.017
+  },
+  {
+   "word": "Leon",
+   "start": 274.517,
+   "end": 274.667
+  },
+  {
+   "word": "looks",
+   "start": 274.667,
+   "end": 274.917
+  },
+  {
+   "word": "at",
+   "start": 274.917,
+   "end": 275.05
+  },
+  {
+   "word": "the",
+   "start": 275.05,
+   "end": 275.15
+  },
+  {
+   "word": "girls,",
+   "start": 275.15,
+   "end": 275.417
+  },
+  {
+   "word": "looks",
+   "start": 275.967,
+   "end": 276.033
+  },
+  {
+   "word": "at",
+   "start": 276.033,
+   "end": 276.217
+  },
+  {
+   "word": "Owen,",
+   "start": 276.217,
+   "end": 276.45
+  },
+  {
+   "word": "and",
+   "start": 276.95,
+   "end": 277.167
+  },
+  {
+   "word": "picks",
+   "start": 277.167,
+   "end": 277.333
+  },
+  {
+   "word": "the",
+   "start": 277.333,
+   "end": 277.533
+  },
+  {
+   "word": "girls.",
+   "start": 277.533,
+   "end": 277.867
+  },
+  {
+   "word": "Ms.",
+   "start": 278.75,
+   "end": 278.867
+  },
+  {
+   "word": "Park",
+   "start": 279.083,
+   "end": 279.1
+  },
+  {
+   "word": "lets",
+   "start": 279.1,
+   "end": 279.367
+  },
+  {
+   "word": "the",
+   "start": 279.367,
+   "end": 279.6
+  },
+  {
+   "word": "extra",
+   "start": 279.6,
+   "end": 279.983
+  },
+  {
+   "word": "person",
+   "start": 279.983,
+   "end": 280.283
+  },
+  {
+   "word": "slide.",
+   "start": 280.283,
+   "end": 280.717
+  },
+  {
+   "word": "The",
+   "start": 281.367,
+   "end": 281.483
+  },
+  {
+   "word": "number",
+   "start": 281.483,
+   "end": 281.667
+  },
+  {
+   "word": "drops",
+   "start": 281.667,
+   "end": 282.0
+  },
+  {
+   "word": "by",
+   "start": 282.0,
+   "end": 282.267
+  },
+  {
+   "word": "four",
+   "start": 282.267,
+   "end": 282.65
+  },
+  {
+   "word": "billion,",
+   "start": 282.65,
+   "end": 283.067
+  },
+  {
+   "word": "and",
+   "start": 283.533,
+   "end": 283.667
+  },
+  {
+   "word": "the",
+   "start": 283.667,
+   "end": 283.767
+  },
+  {
+   "word": "whole",
+   "start": 283.767,
+   "end": 284.05
+  },
+  {
+   "word": "gym",
+   "start": 284.05,
+   "end": 284.35
+  },
+  {
+   "word": "says",
+   "start": 284.35,
+   "end": 284.667
+  },
+  {
+   "word": "\"ooh\"",
+   "start": 284.95,
+   "end": 285.3
+  },
+  {
+   "word": "like",
+   "start": 285.6,
+   "end": 285.783
+  },
+  {
+   "word": "it's",
+   "start": 285.783,
+   "end": 285.95
+  },
+  {
+   "word": "a",
+   "start": 285.95,
+   "end": 286.033
+  },
+  {
+   "word": "magic",
+   "start": 286.033,
+   "end": 286.383
+  },
+  {
+   "word": "trick.",
+   "start": 286.383,
+   "end": 286.667
+  },
+  {
+   "word": "Owen",
+   "start": 287.5,
+   "end": 287.7
+  },
+  {
+   "word": "nods,",
+   "start": 287.7,
+   "end": 288.05
+  },
+  {
+   "word": "folds",
+   "start": 288.433,
+   "end": 288.617
+  },
+  {
+   "word": "up",
+   "start": 288.617,
+   "end": 288.767
+  },
+  {
+   "word": "his",
+   "start": 288.767,
+   "end": 288.917
+  },
+  {
+   "word": "cardboard",
+   "start": 288.917,
+   "end": 289.233
+  },
+  {
+   "word": "sign,",
+   "start": 289.233,
+   "end": 289.65
+  },
+  {
+   "word": "and",
+   "start": 289.833,
+   "end": 289.983
+  },
+  {
+   "word": "rolls",
+   "start": 289.983,
+   "end": 290.233
+  },
+  {
+   "word": "the",
+   "start": 290.233,
+   "end": 290.4
+  },
+  {
+   "word": "bike",
+   "start": 290.4,
+   "end": 290.617
+  },
+  {
+   "word": "toward",
+   "start": 290.617,
+   "end": 290.817
+  },
+  {
+   "word": "the",
+   "start": 290.817,
+   "end": 290.967
+  },
+  {
+   "word": "door.",
+   "start": 290.967,
+   "end": 291.183
+  },
+  {
+   "word": "Leon",
+   "start": 292.15,
+   "end": 292.417
+  },
+  {
+   "word": "opens",
+   "start": 292.417,
+   "end": 292.767
+  },
+  {
+   "word": "his",
+   "start": 292.767,
+   "end": 292.95
+  },
+  {
+   "word": "mouth.",
+   "start": 292.95,
+   "end": 293.2
+  },
+  {
+   "word": "Nothing",
+   "start": 294.1,
+   "end": 294.317
+  },
+  {
+   "word": "comes",
+   "start": 294.317,
+   "end": 294.583
+  },
+  {
+   "word": "out.",
+   "start": 294.583,
+   "end": 294.9
+  },
+  {
+   "word": "All",
+   "start": 295.633,
+   "end": 296.133
+  },
+  {
+   "word": "afternoon,",
+   "start": 296.133,
+   "end": 296.633
+  },
+  {
+   "word": "the",
+   "start": 296.833,
+   "end": 296.867
+  },
+  {
+   "word": "number",
+   "start": 296.867,
+   "end": 297.1
+  },
+  {
+   "word": "keeps",
+   "start": 297.1,
+   "end": 297.433
+  },
+  {
+   "word": "sliding.",
+   "start": 297.433,
+   "end": 297.917
+  },
+  {
+   "word": "Three",
+   "start": 297.917,
+   "end": 298.783
+  },
+  {
+   "word": "billion",
+   "start": 298.783,
+   "end": 298.983
+  },
+  {
+   "word": "at",
+   "start": 298.983,
+   "end": 299.25
+  },
+  {
+   "word": "the",
+   "start": 299.25,
+   "end": 299.333
+  },
+  {
+   "word": "bus",
+   "start": 299.333,
+   "end": 299.467
+  },
+  {
+   "word": "stop.",
+   "start": 299.467,
+   "end": 299.717
+  },
+  {
+   "word": "Two",
+   "start": 299.717,
+   "end": 300.35
+  },
+  {
+   "word": "billion",
+   "start": 300.35,
+   "end": 300.65
+  },
+  {
+   "word": "at",
+   "start": 300.65,
+   "end": 300.9
+  },
+  {
+   "word": "his",
+   "start": 300.9,
+   "end": 301.017
+  },
+  {
+   "word": "locker.",
+   "start": 301.017,
+   "end": 301.267
+  },
+  {
+   "word": "One",
+   "start": 301.867,
+   "end": 302.05
+  },
+  {
+   "word": "more",
+   "start": 302.05,
+   "end": 302.217
+  },
+  {
+   "word": "in",
+   "start": 302.217,
+   "end": 302.367
+  },
+  {
+   "word": "the",
+   "start": 302.367,
+   "end": 302.467
+  },
+  {
+   "word": "hallway,",
+   "start": 302.467,
+   "end": 302.817
+  },
+  {
+   "word": "when",
+   "start": 302.817,
+   "end": 303.067
+  },
+  {
+   "word": "he",
+   "start": 303.067,
+   "end": 303.167
+  },
+  {
+   "word": "sees",
+   "start": 303.167,
+   "end": 303.4
+  },
+  {
+   "word": "Owen",
+   "start": 303.4,
+   "end": 303.75
+  },
+  {
+   "word": "eating",
+   "start": 303.75,
+   "end": 304.033
+  },
+  {
+   "word": "alone.",
+   "start": 304.033,
+   "end": 304.4
+  },
+  {
+   "word": "[matter-of-fact]",
+   "start": 304.4,
+   "end": 305.333
+  },
+  {
+   "word": "And",
+   "start": 305.333,
+   "end": 305.417
+  },
+  {
+   "word": "here's",
+   "start": 305.417,
+   "end": 305.717
+  },
+  {
+   "word": "what",
+   "start": 305.717,
+   "end": 305.833
+  },
+  {
+   "word": "makes",
+   "start": 305.833,
+   "end": 306.017
+  },
+  {
+   "word": "it",
+   "start": 306.017,
+   "end": 306.183
+  },
+  {
+   "word": "worse.",
+   "start": 306.183,
+   "end": 306.4
+  },
+  {
+   "word": "In",
+   "start": 307.383,
+   "end": 307.45
+  },
+  {
+   "word": "1978,",
+   "start": 307.45,
+   "end": 308.167
+  },
+  {
+   "word": "three",
+   "start": 308.517,
+   "end": 308.667
+  },
+  {
+   "word": "psychologists,",
+   "start": 308.667,
+   "end": 309.217
+  },
+  {
+   "word": "Brickman,",
+   "start": 309.65,
+   "end": 309.85
+  },
+  {
+   "word": "Coates,",
+   "start": 310.167,
+   "end": 310.3
+  },
+  {
+   "word": "and",
+   "start": 310.5,
+   "end": 310.6
+  },
+  {
+   "word": "Janoff-Bulman,",
+   "start": 310.6,
+   "end": 311.75
+  },
+  {
+   "word": "studied",
+   "start": 311.75,
+   "end": 311.867
+  },
+  {
+   "word": "people",
+   "start": 311.867,
+   "end": 312.2
+  },
+  {
+   "word": "who",
+   "start": 312.2,
+   "end": 312.367
+  },
+  {
+   "word": "had",
+   "start": 312.367,
+   "end": 312.483
+  },
+  {
+   "word": "just",
+   "start": 312.483,
+   "end": 312.7
+  },
+  {
+   "word": "won",
+   "start": 312.7,
+   "end": 312.933
+  },
+  {
+   "word": "the",
+   "start": 312.933,
+   "end": 313.083
+  },
+  {
+   "word": "lottery.",
+   "start": 313.083,
+   "end": 313.333
+  },
+  {
+   "word": "The",
+   "start": 314.117,
+   "end": 314.217
+  },
+  {
+   "word": "winners",
+   "start": 314.217,
+   "end": 314.45
+  },
+  {
+   "word": "enjoyed",
+   "start": 314.45,
+   "end": 314.917
+  },
+  {
+   "word": "everyday",
+   "start": 314.917,
+   "end": 315.317
+  },
+  {
+   "word": "little",
+   "start": 315.317,
+   "end": 315.617
+  },
+  {
+   "word": "things",
+   "start": 315.617,
+   "end": 316.05
+  },
+  {
+   "word": "less",
+   "start": 316.05,
+   "end": 316.4
+  },
+  {
+   "word": "than",
+   "start": 316.4,
+   "end": 316.817
+  },
+  {
+   "word": "people",
+   "start": 316.817,
+   "end": 317.067
+  },
+  {
+   "word": "who",
+   "start": 317.067,
+   "end": 317.283
+  },
+  {
+   "word": "had",
+   "start": 317.283,
+   "end": 317.367
+  },
+  {
+   "word": "won",
+   "start": 317.367,
+   "end": 317.55
+  },
+  {
+   "word": "nothing.",
+   "start": 317.55,
+   "end": 317.833
+  },
+  {
+   "word": "Big",
+   "start": 318.533,
+   "end": 318.8
+  },
+  {
+   "word": "money",
+   "start": 318.8,
+   "end": 319.1
+  },
+  {
+   "word": "doesn't",
+   "start": 319.1,
+   "end": 319.483
+  },
+  {
+   "word": "make",
+   "start": 319.483,
+   "end": 319.717
+  },
+  {
+   "word": "ordinary",
+   "start": 319.717,
+   "end": 320.15
+  },
+  {
+   "word": "good",
+   "start": 320.15,
+   "end": 320.45
+  },
+  {
+   "word": "moments",
+   "start": 320.45,
+   "end": 320.867
+  },
+  {
+   "word": "bigger.",
+   "start": 320.867,
+   "end": 321.15
+  },
+  {
+   "word": "It",
+   "start": 321.667,
+   "end": 321.75
+  },
+  {
+   "word": "makes",
+   "start": 321.75,
+   "end": 321.917
+  },
+  {
+   "word": "them",
+   "start": 321.917,
+   "end": 322.167
+  },
+  {
+   "word": "smaller.",
+   "start": 322.167,
+   "end": 322.617
+  },
+  {
+   "word": "Leon",
+   "start": 324.233,
+   "end": 324.233
+  },
+  {
+   "word": "stares",
+   "start": 324.233,
+   "end": 324.617
+  },
+  {
+   "word": "at",
+   "start": 324.617,
+   "end": 324.85
+  },
+  {
+   "word": "the",
+   "start": 324.85,
+   "end": 324.967
+  },
+  {
+   "word": "empty",
+   "start": 324.967,
+   "end": 325.183
+  },
+  {
+   "word": "seat",
+   "start": 325.183,
+   "end": 325.4
+  },
+  {
+   "word": "across",
+   "start": 325.4,
+   "end": 325.667
+  },
+  {
+   "word": "from",
+   "start": 325.667,
+   "end": 325.883
+  },
+  {
+   "word": "him",
+   "start": 325.883,
+   "end": 326.067
+  },
+  {
+   "word": "and",
+   "start": 326.067,
+   "end": 326.417
+  },
+  {
+   "word": "understands",
+   "start": 326.417,
+   "end": 326.967
+  },
+  {
+   "word": "it",
+   "start": 326.967,
+   "end": 327.2
+  },
+  {
+   "word": "better",
+   "start": 327.2,
+   "end": 327.35
+  },
+  {
+   "word": "than",
+   "start": 327.35,
+   "end": 327.583
+  },
+  {
+   "word": "any",
+   "start": 327.583,
+   "end": 327.933
+  },
+  {
+   "word": "study.",
+   "start": 327.933,
+   "end": 328.3
+  },
+  {
+   "word": "And",
+   "start": 329.45,
+   "end": 329.55
+  },
+  {
+   "word": "that's",
+   "start": 329.55,
+   "end": 329.9
+  },
+  {
+   "word": "when",
+   "start": 329.9,
+   "end": 330.1
+  },
+  {
+   "word": "Chase",
+   "start": 330.1,
+   "end": 330.383
+  },
+  {
+   "word": "opens",
+   "start": 330.383,
+   "end": 330.9
+  },
+  {
+   "word": "his",
+   "start": 330.9,
+   "end": 331.117
+  },
+  {
+   "word": "notebook.",
+   "start": 331.117,
+   "end": 331.45
+  },
+  {
+   "word": "Thursday,",
+   "start": 332.417,
+   "end": 332.633
+  },
+  {
+   "word": "ten",
+   "start": 332.633,
+   "end": 333.033
+  },
+  {
+   "word": "at",
+   "start": 333.033,
+   "end": 333.133
+  },
+  {
+   "word": "night,",
+   "start": 333.133,
+   "end": 333.317
+  },
+  {
+   "word": "the",
+   "start": 333.6,
+   "end": 333.667
+  },
+  {
+   "word": "backyard.",
+   "start": 333.667,
+   "end": 334.05
+  },
+  {
+   "word": "Chase",
+   "start": 334.717,
+   "end": 334.883
+  },
+  {
+   "word": "is",
+   "start": 334.883,
+   "end": 335.1
+  },
+  {
+   "word": "sitting",
+   "start": 335.1,
+   "end": 335.283
+  },
+  {
+   "word": "on",
+   "start": 335.283,
+   "end": 335.483
+  },
+  {
+   "word": "the",
+   "start": 335.483,
+   "end": 335.6
+  },
+  {
+   "word": "swing",
+   "start": 335.6,
+   "end": 335.783
+  },
+  {
+   "word": "set",
+   "start": 335.783,
+   "end": 336.017
+  },
+  {
+   "word": "with",
+   "start": 336.017,
+   "end": 336.2
+  },
+  {
+   "word": "his",
+   "start": 336.2,
+   "end": 336.35
+  },
+  {
+   "word": "notebook",
+   "start": 336.35,
+   "end": 336.617
+  },
+  {
+   "word": "open.",
+   "start": 336.617,
+   "end": 336.917
+  },
+  {
+   "word": "\"I",
+   "start": 337.6,
+   "end": 337.8
+  },
+  {
+   "word": "wrote",
+   "start": 337.8,
+   "end": 337.95
+  },
+  {
+   "word": "down",
+   "start": 337.95,
+   "end": 338.15
+  },
+  {
+   "word": "every",
+   "start": 338.15,
+   "end": 338.45
+  },
+  {
+   "word": "choice",
+   "start": 338.45,
+   "end": 338.717
+  },
+  {
+   "word": "you",
+   "start": 338.717,
+   "end": 338.883
+  },
+  {
+   "word": "made",
+   "start": 338.883,
+   "end": 339.067
+  },
+  {
+   "word": "today.",
+   "start": 339.067,
+   "end": 339.383
+  },
+  {
+   "word": "Twenty-nine",
+   "start": 339.383,
+   "end": 340.283
+  },
+  {
+   "word": "pages.\"",
+   "start": 340.283,
+   "end": 340.75
+  },
+  {
+   "word": "He",
+   "start": 341.367,
+   "end": 341.6
+  },
+  {
+   "word": "flips",
+   "start": 341.6,
+   "end": 341.8
+  },
+  {
+   "word": "to",
+   "start": 341.8,
+   "end": 342.05
+  },
+  {
+   "word": "the",
+   "start": 342.05,
+   "end": 342.15
+  },
+  {
+   "word": "last",
+   "start": 342.15,
+   "end": 342.333
+  },
+  {
+   "word": "one.",
+   "start": 342.333,
+   "end": 342.817
+  },
+  {
+   "word": "\"Every",
+   "start": 343.417,
+   "end": 343.633
+  },
+  {
+   "word": "time",
+   "start": 343.633,
+   "end": 343.867
+  },
+  {
+   "word": "you",
+   "start": 343.867,
+   "end": 344.083
+  },
+  {
+   "word": "pick",
+   "start": 344.083,
+   "end": 344.3
+  },
+  {
+   "word": "Owen,",
+   "start": 344.3,
+   "end": 344.617
+  },
+  {
+   "word": "the",
+   "start": 344.8,
+   "end": 344.917
+  },
+  {
+   "word": "number",
+   "start": 344.917,
+   "end": 345.083
+  },
+  {
+   "word": "goes",
+   "start": 345.083,
+   "end": 345.3
+  },
+  {
+   "word": "up.",
+   "start": 345.3,
+   "end": 345.6
+  },
+  {
+   "word": "Every",
+   "start": 346.217,
+   "end": 346.4
+  },
+  {
+   "word": "time",
+   "start": 346.4,
+   "end": 346.583
+  },
+  {
+   "word": "you",
+   "start": 346.583,
+   "end": 346.75
+  },
+  {
+   "word": "don't,",
+   "start": 346.75,
+   "end": 347.133
+  },
+  {
+   "word": "it",
+   "start": 347.367,
+   "end": 347.533
+  },
+  {
+   "word": "falls.",
+   "start": 347.533,
+   "end": 347.9
+  },
+  {
+   "word": "Owen",
+   "start": 348.917,
+   "end": 349.1
+  },
+  {
+   "word": "is",
+   "start": 349.1,
+   "end": 349.433
+  },
+  {
+   "word": "what",
+   "start": 349.433,
+   "end": 349.583
+  },
+  {
+   "word": "moves",
+   "start": 349.583,
+   "end": 349.85
+  },
+  {
+   "word": "your",
+   "start": 349.85,
+   "end": 350.033
+  },
+  {
+   "word": "number.\"",
+   "start": 350.033,
+   "end": 350.317
+  },
+  {
+   "word": "Behind",
+   "start": 351.383,
+   "end": 351.617
+  },
+  {
+   "word": "the",
+   "start": 351.617,
+   "end": 351.783
+  },
+  {
+   "word": "fence,",
+   "start": 351.783,
+   "end": 352.05
+  },
+  {
+   "word": "a",
+   "start": 352.25,
+   "end": 352.333
+  },
+  {
+   "word": "gray",
+   "start": 352.333,
+   "end": 352.55
+  },
+  {
+   "word": "suit",
+   "start": 352.55,
+   "end": 352.917
+  },
+  {
+   "word": "steps",
+   "start": 352.917,
+   "end": 353.233
+  },
+  {
+   "word": "out",
+   "start": 353.233,
+   "end": 353.467
+  },
+  {
+   "word": "of",
+   "start": 353.467,
+   "end": 353.55
+  },
+  {
+   "word": "the",
+   "start": 353.55,
+   "end": 353.633
+  },
+  {
+   "word": "dark.",
+   "start": 353.633,
+   "end": 353.883
+  },
+  {
+   "word": "Mr.",
+   "start": 354.45,
+   "end": 354.65
+  },
+  {
+   "word": "Hale.",
+   "start": 354.917,
+   "end": 354.933
+  },
+  {
+   "word": "\"I",
+   "start": 355.767,
+   "end": 356.233
+  },
+  {
+   "word": "pay",
+   "start": 356.233,
+   "end": 356.5
+  },
+  {
+   "word": "Chase",
+   "start": 356.5,
+   "end": 356.817
+  },
+  {
+   "word": "to",
+   "start": 356.817,
+   "end": 357.05
+  },
+  {
+   "word": "watch",
+   "start": 357.05,
+   "end": 357.25
+  },
+  {
+   "word": "you,\"",
+   "start": 357.25,
+   "end": 357.55
+  },
+  {
+   "word": "he",
+   "start": 357.65,
+   "end": 357.817
+  },
+  {
+   "word": "says.",
+   "start": 357.817,
+   "end": 358.033
+  },
+  {
+   "word": "\"Now",
+   "start": 358.483,
+   "end": 358.767
+  },
+  {
+   "word": "I'd",
+   "start": 358.767,
+   "end": 359.033
+  },
+  {
+   "word": "like",
+   "start": 359.033,
+   "end": 359.2
+  },
+  {
+   "word": "to",
+   "start": 359.2,
+   "end": 359.383
+  },
+  {
+   "word": "pay",
+   "start": 359.383,
+   "end": 359.633
+  },
+  {
+   "word": "you",
+   "start": 359.633,
+   "end": 360.0
+  },
+  {
+   "word": "to",
+   "start": 360.0,
+   "end": 360.517
+  },
+  {
+   "word": "stop.\"",
+   "start": 360.517,
+   "end": 360.95
+  },
+  {
+   "word": "He",
+   "start": 361.75,
+   "end": 361.917
+  },
+  {
+   "word": "holds",
+   "start": 361.917,
+   "end": 362.083
+  },
+  {
+   "word": "out",
+   "start": 362.083,
+   "end": 362.267
+  },
+  {
+   "word": "a",
+   "start": 362.267,
+   "end": 362.383
+  },
+  {
+   "word": "pen.",
+   "start": 362.383,
+   "end": 362.583
+  },
+  {
+   "word": "\"Tomorrow,",
+   "start": 363.15,
+   "end": 363.65
+  },
+  {
+   "word": "on",
+   "start": 363.983,
+   "end": 364.1
+  },
+  {
+   "word": "that",
+   "start": 364.1,
+   "end": 364.317
+  },
+  {
+   "word": "stage,",
+   "start": 364.317,
+   "end": 364.717
+  },
+  {
+   "word": "you",
+   "start": 365.167,
+   "end": 365.267
+  },
+  {
+   "word": "announce",
+   "start": 365.267,
+   "end": 365.617
+  },
+  {
+   "word": "you're",
+   "start": 365.617,
+   "end": 365.95
+  },
+  {
+   "word": "going",
+   "start": 365.95,
+   "end": 366.183
+  },
+  {
+   "word": "solo.",
+   "start": 366.183,
+   "end": 366.5
+  },
+  {
+   "word": "No",
+   "start": 366.95,
+   "end": 367.183
+  },
+  {
+   "word": "Owen.",
+   "start": 367.283,
+   "end": 367.483
+  },
+  {
+   "word": "Sign,",
+   "start": 367.917,
+   "end": 368.133
+  },
+  {
+   "word": "and",
+   "start": 368.55,
+   "end": 368.583
+  },
+  {
+   "word": "the",
+   "start": 368.583,
+   "end": 368.683
+  },
+  {
+   "word": "number",
+   "start": 368.683,
+   "end": 368.85
+  },
+  {
+   "word": "goes",
+   "start": 368.85,
+   "end": 369.1
+  },
+  {
+   "word": "to",
+   "start": 369.1,
+   "end": 369.367
+  },
+  {
+   "word": "forty",
+   "start": 369.367,
+   "end": 369.8
+  },
+  {
+   "word": "billion.\"",
+   "start": 369.8,
+   "end": 370.417
+  },
+  {
+   "word": "Leon",
+   "start": 371.433,
+   "end": 371.6
+  },
+  {
+   "word": "looks",
+   "start": 371.6,
+   "end": 371.8
+  },
+  {
+   "word": "at",
+   "start": 371.8,
+   "end": 371.95
+  },
+  {
+   "word": "the",
+   "start": 371.95,
+   "end": 372.033
+  },
+  {
+   "word": "page.",
+   "start": 372.033,
+   "end": 372.283
+  },
+  {
+   "word": "\"And",
+   "start": 373.05,
+   "end": 373.15
+  },
+  {
+   "word": "what's",
+   "start": 373.15,
+   "end": 373.383
+  },
+  {
+   "word": "your",
+   "start": 373.383,
+   "end": 373.483
+  },
+  {
+   "word": "cut?\"",
+   "start": 373.483,
+   "end": 373.733
+  },
+  {
+   "word": "Chase",
+   "start": 374.5,
+   "end": 374.617
+  },
+  {
+   "word": "shrugs.",
+   "start": 374.617,
+   "end": 375.367
+  },
+  {
+   "word": "\"Ten",
+   "start": 375.367,
+   "end": 375.775
+  },
+  {
+   "word": "percent.",
+   "start": 375.775,
+   "end": 376.183
+  },
+  {
+   "word": "I'm",
+   "start": 376.183,
+   "end": 376.933
+  },
+  {
+   "word": "your",
+   "start": 376.933,
+   "end": 377.05
+  },
+  {
+   "word": "manager",
+   "start": 377.05,
+   "end": 377.333
+  },
+  {
+   "word": "now.\"",
+   "start": 377.333,
+   "end": 377.65
+  },
+  {
+   "word": "Leon",
+   "start": 378.483,
+   "end": 378.85
+  },
+  {
+   "word": "doesn't",
+   "start": 378.85,
+   "end": 379.333
+  },
+  {
+   "word": "sign.",
+   "start": 379.333,
+   "end": 379.583
+  },
+  {
+   "word": "He",
+   "start": 380.117,
+   "end": 380.267
+  },
+  {
+   "word": "folds",
+   "start": 380.267,
+   "end": 380.483
+  },
+  {
+   "word": "the",
+   "start": 380.483,
+   "end": 380.667
+  },
+  {
+   "word": "contract",
+   "start": 380.667,
+   "end": 381.033
+  },
+  {
+   "word": "into",
+   "start": 381.033,
+   "end": 381.233
+  },
+  {
+   "word": "his",
+   "start": 381.233,
+   "end": 381.383
+  },
+  {
+   "word": "pocket",
+   "start": 381.383,
+   "end": 381.667
+  },
+  {
+   "word": "and",
+   "start": 381.667,
+   "end": 381.9
+  },
+  {
+   "word": "says",
+   "start": 381.9,
+   "end": 382.1
+  },
+  {
+   "word": "only,",
+   "start": 382.1,
+   "end": 382.45
+  },
+  {
+   "word": "\"I'll",
+   "start": 382.967,
+   "end": 383.233
+  },
+  {
+   "word": "think",
+   "start": 383.233,
+   "end": 383.383
+  },
+  {
+   "word": "about",
+   "start": 383.383,
+   "end": 383.633
+  },
+  {
+   "word": "it.\"",
+   "start": 383.633,
+   "end": 384.033
+  },
+  {
+   "word": "Friday,",
+   "start": 385.067,
+   "end": 385.533
+  },
+  {
+   "word": "three",
+   "start": 385.533,
+   "end": 386.133
+  },
+  {
+   "word": "forty.",
+   "start": 386.133,
+   "end": 386.733
+  },
+  {
+   "word": "The",
+   "start": 386.733,
+   "end": 386.85
+  },
+  {
+   "word": "gym",
+   "start": 386.85,
+   "end": 387.117
+  },
+  {
+   "word": "is",
+   "start": 387.117,
+   "end": 387.533
+  },
+  {
+   "word": "full.",
+   "start": 387.533,
+   "end": 387.833
+  },
+  {
+   "word": "The",
+   "start": 388.433,
+   "end": 388.517
+  },
+  {
+   "word": "whole",
+   "start": 388.517,
+   "end": 388.717
+  },
+  {
+   "word": "town",
+   "start": 388.717,
+   "end": 388.983
+  },
+  {
+   "word": "is",
+   "start": 388.983,
+   "end": 389.15
+  },
+  {
+   "word": "on",
+   "start": 389.15,
+   "end": 389.267
+  },
+  {
+   "word": "the",
+   "start": 389.267,
+   "end": 389.383
+  },
+  {
+   "word": "bleachers,",
+   "start": 389.383,
+   "end": 389.7
+  },
+  {
+   "word": "and",
+   "start": 390.067,
+   "end": 390.167
+  },
+  {
+   "word": "they",
+   "start": 390.167,
+   "end": 390.333
+  },
+  {
+   "word": "can",
+   "start": 390.333,
+   "end": 390.517
+  },
+  {
+   "word": "read",
+   "start": 390.517,
+   "end": 390.783
+  },
+  {
+   "word": "the",
+   "start": 390.783,
+   "end": 390.983
+  },
+  {
+   "word": "number",
+   "start": 390.983,
+   "end": 391.217
+  },
+  {
+   "word": "from",
+   "start": 391.217,
+   "end": 391.467
+  },
+  {
+   "word": "the",
+   "start": 391.467,
+   "end": 391.617
+  },
+  {
+   "word": "last",
+   "start": 391.617,
+   "end": 391.917
+  },
+  {
+   "word": "row.",
+   "start": 391.917,
+   "end": 392.233
+  },
+  {
+   "word": "At",
+   "start": 392.917,
+   "end": 393.067
+  },
+  {
+   "word": "the",
+   "start": 393.067,
+   "end": 393.167
+  },
+  {
+   "word": "far",
+   "start": 393.167,
+   "end": 393.333
+  },
+  {
+   "word": "end",
+   "start": 393.333,
+   "end": 393.5
+  },
+  {
+   "word": "of",
+   "start": 393.5,
+   "end": 393.583
+  },
+  {
+   "word": "the",
+   "start": 393.583,
+   "end": 393.667
+  },
+  {
+   "word": "hall,",
+   "start": 393.667,
+   "end": 393.9
+  },
+  {
+   "word": "Owen's",
+   "start": 394.133,
+   "end": 394.35
+  },
+  {
+   "word": "table",
+   "start": 394.35,
+   "end": 394.55
+  },
+  {
+   "word": "holds",
+   "start": 394.55,
+   "end": 394.833
+  },
+  {
+   "word": "a",
+   "start": 394.833,
+   "end": 394.967
+  },
+  {
+   "word": "rusty",
+   "start": 394.967,
+   "end": 395.25
+  },
+  {
+   "word": "bicycle",
+   "start": 395.25,
+   "end": 395.733
+  },
+  {
+   "word": "and",
+   "start": 395.733,
+   "end": 395.983
+  },
+  {
+   "word": "a",
+   "start": 395.983,
+   "end": 396.1
+  },
+  {
+   "word": "metal",
+   "start": 396.1,
+   "end": 396.267
+  },
+  {
+   "word": "box,",
+   "start": 396.267,
+   "end": 396.583
+  },
+  {
+   "word": "and",
+   "start": 397.017,
+   "end": 397.15
+  },
+  {
+   "word": "people",
+   "start": 397.15,
+   "end": 397.35
+  },
+  {
+   "word": "are",
+   "start": 397.35,
+   "end": 397.517
+  },
+  {
+   "word": "laughing",
+   "start": 397.517,
+   "end": 397.917
+  },
+  {
+   "word": "before",
+   "start": 397.917,
+   "end": 398.217
+  },
+  {
+   "word": "they've",
+   "start": 398.217,
+   "end": 398.5
+  },
+  {
+   "word": "even",
+   "start": 398.5,
+   "end": 398.783
+  },
+  {
+   "word": "looked",
+   "start": 398.783,
+   "end": 399.033
+  },
+  {
+   "word": "at",
+   "start": 399.033,
+   "end": 399.267
+  },
+  {
+   "word": "it.",
+   "start": 399.267,
+   "end": 399.533
+  },
+  {
+   "word": "Leon",
+   "start": 400.25,
+   "end": 400.4
+  },
+  {
+   "word": "walks",
+   "start": 400.4,
+   "end": 400.717
+  },
+  {
+   "word": "onto",
+   "start": 400.717,
+   "end": 400.95
+  },
+  {
+   "word": "the",
+   "start": 400.95,
+   "end": 401.133
+  },
+  {
+   "word": "stage.",
+   "start": 401.133,
+   "end": 401.433
+  },
+  {
+   "word": "Mr.",
+   "start": 402.217,
+   "end": 402.4
+  },
+  {
+   "word": "Hale",
+   "start": 402.617,
+   "end": 402.617
+  },
+  {
+   "word": "is",
+   "start": 402.617,
+   "end": 402.817
+  },
+  {
+   "word": "in",
+   "start": 402.817,
+   "end": 402.917
+  },
+  {
+   "word": "the",
+   "start": 402.917,
+   "end": 403.017
+  },
+  {
+   "word": "front",
+   "start": 403.017,
+   "end": 403.15
+  },
+  {
+   "word": "row,",
+   "start": 403.15,
+   "end": 403.483
+  },
+  {
+   "word": "smiling.",
+   "start": 403.633,
+   "end": 403.983
+  },
+  {
+   "word": "Leon",
+   "start": 404.817,
+   "end": 405.167
+  },
+  {
+   "word": "pulls",
+   "start": 405.167,
+   "end": 405.433
+  },
+  {
+   "word": "out",
+   "start": 405.433,
+   "end": 405.617
+  },
+  {
+   "word": "the",
+   "start": 405.617,
+   "end": 405.767
+  },
+  {
+   "word": "contract.",
+   "start": 405.767,
+   "end": 406.15
+  },
+  {
+   "word": "\"Sign",
+   "start": 406.867,
+   "end": 407.183
+  },
+  {
+   "word": "it,\"",
+   "start": 407.183,
+   "end": 407.433
+  },
+  {
+   "word": "says",
+   "start": 407.633,
+   "end": 407.75
+  },
+  {
+   "word": "Mr.",
+   "start": 407.75,
+   "end": 408.017
+  },
+  {
+   "word": "Hale.",
+   "start": 408.2,
+   "end": 408.217
+  },
+  {
+   "word": "The",
+   "start": 408.7,
+   "end": 409.017
+  },
+  {
+   "word": "pen",
+   "start": 409.017,
+   "end": 409.317
+  },
+  {
+   "word": "touches",
+   "start": 409.317,
+   "end": 409.733
+  },
+  {
+   "word": "the",
+   "start": 409.733,
+   "end": 409.917
+  },
+  {
+   "word": "page,",
+   "start": 409.917,
+   "end": 410.217
+  },
+  {
+   "word": "and",
+   "start": 410.717,
+   "end": 410.8
+  },
+  {
+   "word": "the",
+   "start": 410.8,
+   "end": 410.95
+  },
+  {
+   "word": "number",
+   "start": 410.95,
+   "end": 411.3
+  },
+  {
+   "word": "starts",
+   "start": 411.3,
+   "end": 411.8
+  },
+  {
+   "word": "to",
+   "start": 411.8,
+   "end": 412.083
+  },
+  {
+   "word": "climb.",
+   "start": 412.083,
+   "end": 412.483
+  },
+  {
+   "word": "Thirty",
+   "start": 412.483,
+   "end": 413.667
+  },
+  {
+   "word": "billion.",
+   "start": 413.667,
+   "end": 413.917
+  },
+  {
+   "word": "Thirty-five.",
+   "start": 413.917,
+   "end": 415.792
+  },
+  {
+   "word": "Forty.",
+   "start": 415.792,
+   "end": 417.667
+  },
+  {
+   "word": "The",
+   "start": 417.667,
+   "end": 417.833
+  },
+  {
+   "word": "room",
+   "start": 417.833,
+   "end": 418.167
+  },
+  {
+   "word": "applauds.",
+   "start": 418.167,
+   "end": 419.05
+  },
+  {
+   "word": "Leon",
+   "start": 419.633,
+   "end": 419.833
+  },
+  {
+   "word": "looks",
+   "start": 419.833,
+   "end": 420.05
+  },
+  {
+   "word": "at",
+   "start": 420.05,
+   "end": 420.2
+  },
+  {
+   "word": "the",
+   "start": 420.2,
+   "end": 420.3
+  },
+  {
+   "word": "paper.",
+   "start": 420.3,
+   "end": 420.55
+  },
+  {
+   "word": "Then",
+   "start": 421.033,
+   "end": 421.3
+  },
+  {
+   "word": "at",
+   "start": 421.3,
+   "end": 421.583
+  },
+  {
+   "word": "Owen,",
+   "start": 421.583,
+   "end": 421.9
+  },
+  {
+   "word": "alone",
+   "start": 422.067,
+   "end": 422.333
+  },
+  {
+   "word": "at",
+   "start": 422.333,
+   "end": 422.517
+  },
+  {
+   "word": "his",
+   "start": 422.517,
+   "end": 422.65
+  },
+  {
+   "word": "table.",
+   "start": 422.65,
+   "end": 422.933
+  },
+  {
+   "word": "Then",
+   "start": 423.717,
+   "end": 424.0
+  },
+  {
+   "word": "he",
+   "start": 424.4,
+   "end": 424.717
+  },
+  {
+   "word": "tears",
+   "start": 424.717,
+   "end": 425.033
+  },
+  {
+   "word": "the",
+   "start": 425.033,
+   "end": 425.333
+  },
+  {
+   "word": "contract",
+   "start": 425.333,
+   "end": 425.817
+  },
+  {
+   "word": "in",
+   "start": 425.817,
+   "end": 426.15
+  },
+  {
+   "word": "half.",
+   "start": 426.15,
+   "end": 426.433
+  },
+  {
+   "word": "The",
+   "start": 427.117,
+   "end": 427.383
+  },
+  {
+   "word": "number",
+   "start": 427.383,
+   "end": 427.583
+  },
+  {
+   "word": "falls.",
+   "start": 427.583,
+   "end": 427.967
+  },
+  {
+   "word": "Twenty-seven",
+   "start": 427.967,
+   "end": 429.533
+  },
+  {
+   "word": "billion.",
+   "start": 429.533,
+   "end": 430.05
+  },
+  {
+   "word": "Nine.",
+   "start": 430.867,
+   "end": 431.25
+  },
+  {
+   "word": "Three",
+   "start": 432.15,
+   "end": 432.417
+  },
+  {
+   "word": "thousand",
+   "start": 432.417,
+   "end": 432.917
+  },
+  {
+   "word": "dollars.",
+   "start": 432.917,
+   "end": 433.483
+  },
+  {
+   "word": "A",
+   "start": 434.317,
+   "end": 434.4
+  },
+  {
+   "word": "woman",
+   "start": 434.4,
+   "end": 434.567
+  },
+  {
+   "word": "in",
+   "start": 434.567,
+   "end": 434.767
+  },
+  {
+   "word": "the",
+   "start": 434.767,
+   "end": 434.883
+  },
+  {
+   "word": "third",
+   "start": 434.883,
+   "end": 435.083
+  },
+  {
+   "word": "row",
+   "start": 435.083,
+   "end": 435.45
+  },
+  {
+   "word": "actually",
+   "start": 435.45,
+   "end": 435.967
+  },
+  {
+   "word": "gasps.",
+   "start": 435.967,
+   "end": 436.75
+  },
+  {
+   "word": "Leon",
+   "start": 437.05,
+   "end": 437.167
+  },
+  {
+   "word": "jumps",
+   "start": 437.167,
+   "end": 437.483
+  },
+  {
+   "word": "off",
+   "start": 437.483,
+   "end": 437.683
+  },
+  {
+   "word": "the",
+   "start": 437.683,
+   "end": 437.833
+  },
+  {
+   "word": "stage,",
+   "start": 437.833,
+   "end": 438.133
+  },
+  {
+   "word": "climbs",
+   "start": 438.25,
+   "end": 438.467
+  },
+  {
+   "word": "onto",
+   "start": 438.467,
+   "end": 438.683
+  },
+  {
+   "word": "the",
+   "start": 438.683,
+   "end": 438.817
+  },
+  {
+   "word": "bike",
+   "start": 438.817,
+   "end": 438.967
+  },
+  {
+   "word": "seat,",
+   "start": 438.967,
+   "end": 439.183
+  },
+  {
+   "word": "and",
+   "start": 439.333,
+   "end": 439.367
+  },
+  {
+   "word": "says,",
+   "start": 439.367,
+   "end": 439.583
+  },
+  {
+   "word": "\"Pedal.\"",
+   "start": 440.067,
+   "end": 440.15
+  },
+  {
+   "word": "Owen",
+   "start": 440.95,
+   "end": 441.267
+  },
+  {
+   "word": "grins.",
+   "start": 441.267,
+   "end": 441.667
+  },
+  {
+   "word": "They",
+   "start": 442.183,
+   "end": 442.267
+  },
+  {
+   "word": "both",
+   "start": 442.267,
+   "end": 442.45
+  },
+  {
+   "word": "pedal.",
+   "start": 442.45,
+   "end": 442.7
+  },
+  {
+   "word": "The",
+   "start": 443.233,
+   "end": 443.4
+  },
+  {
+   "word": "metal",
+   "start": 443.4,
+   "end": 443.6
+  },
+  {
+   "word": "box",
+   "start": 443.6,
+   "end": 443.883
+  },
+  {
+   "word": "hums,",
+   "start": 443.883,
+   "end": 444.383
+  },
+  {
+   "word": "and",
+   "start": 444.417,
+   "end": 444.567
+  },
+  {
+   "word": "a",
+   "start": 444.567,
+   "end": 444.667
+  },
+  {
+   "word": "little",
+   "start": 444.667,
+   "end": 444.85
+  },
+  {
+   "word": "green",
+   "start": 444.85,
+   "end": 445.117
+  },
+  {
+   "word": "light",
+   "start": 445.117,
+   "end": 445.383
+  },
+  {
+   "word": "comes",
+   "start": 445.383,
+   "end": 445.6
+  },
+  {
+   "word": "on.",
+   "start": 445.6,
+   "end": 445.933
+  },
+  {
+   "word": "[matter-of-fact]",
+   "start": 445.933,
+   "end": 446.6
+  },
+  {
+   "word": "And",
+   "start": 446.6,
+   "end": 446.783
+  },
+  {
+   "word": "this",
+   "start": 446.783,
+   "end": 447.0
+  },
+  {
+   "word": "part",
+   "start": 447.0,
+   "end": 447.283
+  },
+  {
+   "word": "is",
+   "start": 447.283,
+   "end": 447.633
+  },
+  {
+   "word": "real.",
+   "start": 447.633,
+   "end": 448.0
+  },
+  {
+   "word": "A",
+   "start": 448.667,
+   "end": 448.917
+  },
+  {
+   "word": "normal",
+   "start": 448.917,
+   "end": 449.183
+  },
+  {
+   "word": "person",
+   "start": 449.183,
+   "end": 449.5
+  },
+  {
+   "word": "can",
+   "start": 449.5,
+   "end": 449.733
+  },
+  {
+   "word": "keep",
+   "start": 449.733,
+   "end": 449.917
+  },
+  {
+   "word": "up",
+   "start": 449.917,
+   "end": 450.1
+  },
+  {
+   "word": "about",
+   "start": 450.1,
+   "end": 450.35
+  },
+  {
+   "word": "a",
+   "start": 450.35,
+   "end": 450.55
+  },
+  {
+   "word": "hundred",
+   "start": 450.55,
+   "end": 450.75
+  },
+  {
+   "word": "watts",
+   "start": 450.75,
+   "end": 451.05
+  },
+  {
+   "word": "on",
+   "start": 451.05,
+   "end": 451.25
+  },
+  {
+   "word": "a",
+   "start": 451.25,
+   "end": 451.35
+  },
+  {
+   "word": "bicycle,",
+   "start": 451.35,
+   "end": 451.683
+  },
+  {
+   "word": "and",
+   "start": 451.683,
+   "end": 452.217
+  },
+  {
+   "word": "a",
+   "start": 452.217,
+   "end": 452.317
+  },
+  {
+   "word": "phone",
+   "start": 452.317,
+   "end": 452.65
+  },
+  {
+   "word": "needs",
+   "start": 452.65,
+   "end": 452.983
+  },
+  {
+   "word": "only",
+   "start": 452.983,
+   "end": 453.217
+  },
+  {
+   "word": "about",
+   "start": 453.217,
+   "end": 453.467
+  },
+  {
+   "word": "five",
+   "start": 453.467,
+   "end": 453.8
+  },
+  {
+   "word": "to",
+   "start": 453.8,
+   "end": 454.033
+  },
+  {
+   "word": "charge.",
+   "start": 454.033,
+   "end": 454.383
+  },
+  {
+   "word": "The",
+   "start": 455.117,
+   "end": 455.317
+  },
+  {
+   "word": "gym",
+   "start": 455.317,
+   "end": 455.583
+  },
+  {
+   "word": "is",
+   "start": 455.583,
+   "end": 455.85
+  },
+  {
+   "word": "full",
+   "start": 455.85,
+   "end": 456.133
+  },
+  {
+   "word": "of",
+   "start": 456.133,
+   "end": 456.317
+  },
+  {
+   "word": "phones",
+   "start": 456.317,
+   "end": 456.617
+  },
+  {
+   "word": "at",
+   "start": 456.617,
+   "end": 456.783
+  },
+  {
+   "word": "one",
+   "start": 456.783,
+   "end": 457.017
+  },
+  {
+   "word": "percent.",
+   "start": 457.017,
+   "end": 457.433
+  },
+  {
+   "word": "Cords",
+   "start": 457.433,
+   "end": 458.283
+  },
+  {
+   "word": "come",
+   "start": 458.283,
+   "end": 458.45
+  },
+  {
+   "word": "out",
+   "start": 458.45,
+   "end": 458.583
+  },
+  {
+   "word": "of",
+   "start": 458.583,
+   "end": 458.683
+  },
+  {
+   "word": "every",
+   "start": 458.683,
+   "end": 459.017
+  },
+  {
+   "word": "pocket.",
+   "start": 459.017,
+   "end": 459.4
+  },
+  {
+   "word": "The",
+   "start": 460.05,
+   "end": 460.217
+  },
+  {
+   "word": "number",
+   "start": 460.217,
+   "end": 460.433
+  },
+  {
+   "word": "over",
+   "start": 460.433,
+   "end": 460.717
+  },
+  {
+   "word": "Leon",
+   "start": 460.717,
+   "end": 460.967
+  },
+  {
+   "word": "starts",
+   "start": 460.967,
+   "end": 461.317
+  },
+  {
+   "word": "to",
+   "start": 461.317,
+   "end": 461.55
+  },
+  {
+   "word": "climb,",
+   "start": 461.55,
+   "end": 461.85
+  },
+  {
+   "word": "and",
+   "start": 461.983,
+   "end": 462.417
+  },
+  {
+   "word": "this",
+   "start": 462.417,
+   "end": 462.6
+  },
+  {
+   "word": "time,",
+   "start": 462.6,
+   "end": 462.917
+  },
+  {
+   "word": "it",
+   "start": 463.2,
+   "end": 463.417
+  },
+  {
+   "word": "doesn't",
+   "start": 463.417,
+   "end": 463.7
+  },
+  {
+   "word": "stop",
+   "start": 463.7,
+   "end": 464.033
+  },
+  {
+   "word": "at",
+   "start": 464.033,
+   "end": 464.333
+  },
+  {
+   "word": "forty.",
+   "start": 464.333,
+   "end": 465.917
+  },
+  {
+   "word": "Friday,",
+   "start": 465.917,
+   "end": 466.167
+  },
+  {
+   "word": "four",
+   "start": 466.5,
+   "end": 466.583
+  },
+  {
+   "word": "o'clock.",
+   "start": 466.583,
+   "end": 467.483
+  },
+  {
+   "word": "The",
+   "start": 467.483,
+   "end": 467.617
+  },
+  {
+   "word": "number",
+   "start": 467.617,
+   "end": 467.833
+  },
+  {
+   "word": "over",
+   "start": 467.833,
+   "end": 468.083
+  },
+  {
+   "word": "Leon",
+   "start": 468.083,
+   "end": 468.433
+  },
+  {
+   "word": "and",
+   "start": 468.433,
+   "end": 468.683
+  },
+  {
+   "word": "the",
+   "start": 468.683,
+   "end": 468.783
+  },
+  {
+   "word": "number",
+   "start": 468.783,
+   "end": 468.983
+  },
+  {
+   "word": "over",
+   "start": 468.983,
+   "end": 469.25
+  },
+  {
+   "word": "Owen",
+   "start": 469.25,
+   "end": 469.583
+  },
+  {
+   "word": "are",
+   "start": 469.583,
+   "end": 469.983
+  },
+  {
+   "word": "exactly",
+   "start": 469.983,
+   "end": 470.4
+  },
+  {
+   "word": "the",
+   "start": 470.4,
+   "end": 470.667
+  },
+  {
+   "word": "same,",
+   "start": 470.667,
+   "end": 471.017
+  },
+  {
+   "word": "and",
+   "start": 471.267,
+   "end": 471.733
+  },
+  {
+   "word": "they're",
+   "start": 471.733,
+   "end": 472.0
+  },
+  {
+   "word": "still",
+   "start": 472.0,
+   "end": 472.217
+  },
+  {
+   "word": "climbing.",
+   "start": 472.217,
+   "end": 472.65
+  },
+  {
+   "word": "Because",
+   "start": 473.55,
+   "end": 473.883
+  },
+  {
+   "word": "the",
+   "start": 473.883,
+   "end": 474.1
+  },
+  {
+   "word": "number",
+   "start": 474.1,
+   "end": 474.3
+  },
+  {
+   "word": "was",
+   "start": 474.3,
+   "end": 474.583
+  },
+  {
+   "word": "never",
+   "start": 474.583,
+   "end": 474.85
+  },
+  {
+   "word": "counting",
+   "start": 474.85,
+   "end": 475.183
+  },
+  {
+   "word": "what",
+   "start": 475.183,
+   "end": 475.467
+  },
+  {
+   "word": "Leon",
+   "start": 475.467,
+   "end": 475.883
+  },
+  {
+   "word": "takes.",
+   "start": 475.883,
+   "end": 476.35
+  },
+  {
+   "word": "It",
+   "start": 476.733,
+   "end": 476.983
+  },
+  {
+   "word": "was",
+   "start": 476.983,
+   "end": 477.133
+  },
+  {
+   "word": "counting",
+   "start": 477.133,
+   "end": 477.417
+  },
+  {
+   "word": "what",
+   "start": 477.417,
+   "end": 477.667
+  },
+  {
+   "word": "he",
+   "start": 477.667,
+   "end": 477.85
+  },
+  {
+   "word": "builds,",
+   "start": 477.85,
+   "end": 478.333
+  },
+  {
+   "word": "with",
+   "start": 478.333,
+   "end": 478.867
+  },
+  {
+   "word": "the",
+   "start": 478.867,
+   "end": 479.0
+  },
+  {
+   "word": "person",
+   "start": 479.0,
+   "end": 479.3
+  },
+  {
+   "word": "who",
+   "start": 479.3,
+   "end": 479.467
+  },
+  {
+   "word": "was",
+   "start": 479.467,
+   "end": 479.583
+  },
+  {
+   "word": "next",
+   "start": 479.583,
+   "end": 479.817
+  },
+  {
+   "word": "to",
+   "start": 479.817,
+   "end": 480.033
+  },
+  {
+   "word": "him",
+   "start": 480.033,
+   "end": 480.233
+  },
+  {
+   "word": "before",
+   "start": 480.233,
+   "end": 480.85
+  },
+  {
+   "word": "there",
+   "start": 480.85,
+   "end": 481.083
+  },
+  {
+   "word": "was",
+   "start": 481.083,
+   "end": 481.2
+  },
+  {
+   "word": "a",
+   "start": 481.2,
+   "end": 481.367
+  },
+  {
+   "word": "number",
+   "start": 481.367,
+   "end": 481.617
+  },
+  {
+   "word": "at",
+   "start": 481.617,
+   "end": 481.967
+  },
+  {
+   "word": "all.",
+   "start": 481.967,
+   "end": 482.467
+  },
+  {
+   "word": "Chase",
+   "start": 483.567,
+   "end": 483.633
+  },
+  {
+   "word": "walks",
+   "start": 483.633,
+   "end": 483.917
+  },
+  {
+   "word": "up",
+   "start": 483.917,
+   "end": 484.2
+  },
+  {
+   "word": "and",
+   "start": 484.2,
+   "end": 484.367
+  },
+  {
+   "word": "holds",
+   "start": 484.367,
+   "end": 484.533
+  },
+  {
+   "word": "out",
+   "start": 484.533,
+   "end": 484.717
+  },
+  {
+   "word": "the",
+   "start": 484.717,
+   "end": 484.833
+  },
+  {
+   "word": "notebook.",
+   "start": 484.833,
+   "end": 485.117
+  },
+  {
+   "word": "\"I'm",
+   "start": 485.833,
+   "end": 486.1
+  },
+  {
+   "word": "sorry.",
+   "start": 486.1,
+   "end": 486.333
+  },
+  {
+   "word": "Am",
+   "start": 486.783,
+   "end": 486.917
+  },
+  {
+   "word": "I",
+   "start": 486.917,
+   "end": 487.067
+  },
+  {
+   "word": "still",
+   "start": 487.067,
+   "end": 487.25
+  },
+  {
+   "word": "on",
+   "start": 487.25,
+   "end": 487.4
+  },
+  {
+   "word": "the",
+   "start": 487.4,
+   "end": 487.517
+  },
+  {
+   "word": "team?\"",
+   "start": 487.517,
+   "end": 487.75
+  },
+  {
+   "word": "Ms.",
+   "start": 487.75,
+   "end": 488.85
+  },
+  {
+   "word": "Park",
+   "start": 488.85,
+   "end": 489.083
+  },
+  {
+   "word": "puts",
+   "start": 489.083,
+   "end": 489.333
+  },
+  {
+   "word": "a",
+   "start": 489.333,
+   "end": 489.5
+  },
+  {
+   "word": "sign",
+   "start": 489.5,
+   "end": 489.75
+  },
+  {
+   "word": "on",
+   "start": 489.75,
+   "end": 489.983
+  },
+  {
+   "word": "table",
+   "start": 489.983,
+   "end": 490.2
+  },
+  {
+   "word": "twelve",
+   "start": 490.2,
+   "end": 490.583
+  },
+  {
+   "word": "with",
+   "start": 490.583,
+   "end": 490.95
+  },
+  {
+   "word": "both",
+   "start": 490.95,
+   "end": 491.283
+  },
+  {
+   "word": "names",
+   "start": 491.283,
+   "end": 491.583
+  },
+  {
+   "word": "on",
+   "start": 491.583,
+   "end": 491.8
+  },
+  {
+   "word": "it.",
+   "start": 491.8,
+   "end": 492.183
+  },
+  {
+   "word": "Owen",
+   "start": 492.717,
+   "end": 492.833
+  },
+  {
+   "word": "leans",
+   "start": 492.833,
+   "end": 493.067
+  },
+  {
+   "word": "over.",
+   "start": 493.067,
+   "end": 493.433
+  },
+  {
+   "word": "\"So,",
+   "start": 494.167,
+   "end": 494.667
+  },
+  {
+   "word": "about",
+   "start": 494.933,
+   "end": 495.233
+  },
+  {
+   "word": "my",
+   "start": 495.233,
+   "end": 495.483
+  },
+  {
+   "word": "share?\"",
+   "start": 495.483,
+   "end": 495.8
+  },
+  {
+   "word": "Leon",
+   "start": 497.05,
+   "end": 497.05
+  },
+  {
+   "word": "doesn't",
+   "start": 497.05,
+   "end": 497.5
+  },
+  {
+   "word": "even",
+   "start": 497.5,
+   "end": 497.717
+  },
+  {
+   "word": "blink.",
+   "start": 497.717,
+   "end": 498.033
+  },
+  {
+   "word": "\"Half.\"",
+   "start": 498.8,
+   "end": 499.367
+  },
+  {
+   "word": "Mr.",
+   "start": 499.783,
+   "end": 499.967
+  },
+  {
+   "word": "Hale",
+   "start": 500.167,
+   "end": 500.217
+  },
+  {
+   "word": "is",
+   "start": 500.217,
+   "end": 500.467
+  },
+  {
+   "word": "long",
+   "start": 500.467,
+   "end": 500.75
+  },
+  {
+   "word": "gone.",
+   "start": 500.75,
+   "end": 501.1
+  },
+  {
+   "word": "The",
+   "start": 501.717,
+   "end": 501.817
+  },
+  {
+   "word": "girls",
+   "start": 501.817,
+   "end": 502.033
+  },
+  {
+   "word": "are",
+   "start": 502.033,
+   "end": 502.283
+  },
+  {
+   "word": "still",
+   "start": 502.283,
+   "end": 502.517
+  },
+  {
+   "word": "waving,",
+   "start": 502.517,
+   "end": 502.85
+  },
+  {
+   "word": "but",
+   "start": 503.183,
+   "end": 503.25
+  },
+  {
+   "word": "this",
+   "start": 503.25,
+   "end": 503.417
+  },
+  {
+   "word": "time,",
+   "start": 503.417,
+   "end": 503.733
+  },
+  {
+   "word": "Leon",
+   "start": 503.967,
+   "end": 504.2
+  },
+  {
+   "word": "waves",
+   "start": 504.2,
+   "end": 504.533
+  },
+  {
+   "word": "back",
+   "start": 504.533,
+   "end": 504.867
+  },
+  {
+   "word": "like",
+   "start": 504.867,
+   "end": 505.317
+  },
+  {
+   "word": "a",
+   "start": 505.317,
+   "end": 505.5
+  },
+  {
+   "word": "normal",
+   "start": 505.5,
+   "end": 505.833
+  },
+  {
+   "word": "person.",
+   "start": 505.833,
+   "end": 506.25
+  },
+  {
+   "word": "Saturday",
+   "start": 507.75,
+   "end": 507.983
+  },
+  {
+   "word": "morning,",
+   "start": 507.983,
+   "end": 508.3
+  },
+  {
+   "word": "Leon's",
+   "start": 508.633,
+   "end": 508.95
+  },
+  {
+   "word": "kitchen.",
+   "start": 508.95,
+   "end": 509.083
+  },
+  {
+   "word": "He",
+   "start": 509.75,
+   "end": 509.883
+  },
+  {
+   "word": "looks",
+   "start": 509.883,
+   "end": 510.0
+  },
+  {
+   "word": "out",
+   "start": 510.0,
+   "end": 510.183
+  },
+  {
+   "word": "the",
+   "start": 510.183,
+   "end": 510.3
+  },
+  {
+   "word": "window",
+   "start": 510.3,
+   "end": 510.55
+  },
+  {
+   "word": "and",
+   "start": 510.55,
+   "end": 510.883
+  },
+  {
+   "word": "freezes.",
+   "start": 510.883,
+   "end": 511.317
+  },
+  {
+   "word": "There's",
+   "start": 511.95,
+   "end": 512.117
+  },
+  {
+   "word": "a",
+   "start": 512.117,
+   "end": 512.367
+  },
+  {
+   "word": "number",
+   "start": 512.367,
+   "end": 512.567
+  },
+  {
+   "word": "over",
+   "start": 512.567,
+   "end": 512.9
+  },
+  {
+   "word": "every",
+   "start": 512.9,
+   "end": 513.367
+  },
+  {
+   "word": "person",
+   "start": 513.367,
+   "end": 513.65
+  },
+  {
+   "word": "on",
+   "start": 513.65,
+   "end": 513.867
+  },
+  {
+   "word": "the",
+   "start": 513.867,
+   "end": 513.983
+  },
+  {
+   "word": "street.",
+   "start": 513.983,
+   "end": 514.25
+  },
+  {
+   "word": "Over",
+   "start": 514.9,
+   "end": 515.067
+  },
+  {
+   "word": "Mom.",
+   "start": 515.067,
+   "end": 515.367
+  },
+  {
+   "word": "Over",
+   "start": 515.8,
+   "end": 515.883
+  },
+  {
+   "word": "Dad.",
+   "start": 515.883,
+   "end": 516.233
+  },
+  {
+   "word": "Over",
+   "start": 516.717,
+   "end": 516.883
+  },
+  {
+   "word": "the",
+   "start": 516.883,
+   "end": 517.117
+  },
+  {
+   "word": "mailman.",
+   "start": 517.117,
+   "end": 517.7
+  },
+  {
+   "word": "And",
+   "start": 518.417,
+   "end": 518.55
+  },
+  {
+   "word": "the",
+   "start": 518.55,
+   "end": 518.633
+  },
+  {
+   "word": "biggest",
+   "start": 518.633,
+   "end": 518.933
+  },
+  {
+   "word": "one",
+   "start": 518.933,
+   "end": 519.15
+  },
+  {
+   "word": "of",
+   "start": 519.15,
+   "end": 519.25
+  },
+  {
+   "word": "all",
+   "start": 519.25,
+   "end": 519.583
+  },
+  {
+   "word": "isn't",
+   "start": 519.583,
+   "end": 520.033
+  },
+  {
+   "word": "over",
+   "start": 520.033,
+   "end": 520.333
+  },
+  {
+   "word": "a",
+   "start": 520.333,
+   "end": 520.6
+  },
+  {
+   "word": "person.",
+   "start": 520.6,
+   "end": 520.95
+  },
+  {
+   "word": "It's",
+   "start": 521.567,
+   "end": 522.133
+  },
+  {
+   "word": "over",
+   "start": 522.133,
+   "end": 522.35
+  },
+  {
+   "word": "Biscuit,",
+   "start": 522.35,
+   "end": 522.883
+  },
+  {
+   "word": "who",
+   "start": 523.033,
+   "end": 523.517
+  },
+  {
+   "word": "just",
+   "start": 523.517,
+   "end": 523.733
+  },
+  {
+   "word": "trotted",
+   "start": 523.733,
+   "end": 524.1
+  },
+  {
+   "word": "in",
+   "start": 524.1,
+   "end": 524.25
+  },
+  {
+   "word": "the",
+   "start": 524.25,
+   "end": 524.333
+  },
+  {
+   "word": "back",
+   "start": 524.333,
+   "end": 524.517
+  },
+  {
+   "word": "door",
+   "start": 524.517,
+   "end": 524.733
+  },
+  {
+   "word": "with",
+   "start": 524.733,
+   "end": 524.983
+  },
+  {
+   "word": "half",
+   "start": 524.983,
+   "end": 525.267
+  },
+  {
+   "word": "a",
+   "start": 525.267,
+   "end": 525.433
+  },
+  {
+   "word": "contract",
+   "start": 525.433,
+   "end": 525.9
+  },
+  {
+   "word": "in",
+   "start": 525.9,
+   "end": 526.067
+  },
+  {
+   "word": "his",
+   "start": 526.067,
+   "end": 526.2
+  },
+  {
+   "word": "mouth.",
+   "start": 526.2,
+   "end": 526.55
+  },
+  {
+   "word": "The",
+   "start": 527.267,
+   "end": 527.483
+  },
+  {
+   "word": "mailman",
+   "start": 527.483,
+   "end": 527.867
+  },
+  {
+   "word": "takes",
+   "start": 527.867,
+   "end": 528.083
+  },
+  {
+   "word": "a",
+   "start": 528.083,
+   "end": 528.267
+  },
+  {
+   "word": "photo",
+   "start": 528.267,
+   "end": 528.45
+  },
+  {
+   "word": "of",
+   "start": 528.45,
+   "end": 528.683
+  },
+  {
+   "word": "him.",
+   "start": 528.683,
+   "end": 529.017
+  },
+  {
+   "word": "Would",
+   "start": 529.7,
+   "end": 529.8
+  },
+  {
+   "word": "you",
+   "start": 529.8,
+   "end": 530.067
+  },
+  {
+   "word": "have",
+   "start": 530.067,
+   "end": 530.283
+  },
+  {
+   "word": "torn",
+   "start": 530.283,
+   "end": 530.467
+  },
+  {
+   "word": "up",
+   "start": 530.467,
+   "end": 530.617
+  },
+  {
+   "word": "the",
+   "start": 530.617,
+   "end": 530.733
+  },
+  {
+   "word": "contract?",
+   "start": 530.733,
+   "end": 531.1
+  },
+  {
+   "word": "Tell",
+   "start": 531.65,
+   "end": 531.7
+  },
+  {
+   "word": "me",
+   "start": 531.7,
+   "end": 531.817
+  },
+  {
+   "word": "in",
+   "start": 531.817,
+   "end": 531.917
+  },
+  {
+   "word": "the",
+   "start": 531.917,
+   "end": 532.017
+  },
+  {
+   "word": "comments,",
+   "start": 532.017,
+   "end": 532.3
+  },
+  {
+   "word": "and",
+   "start": 532.3,
+   "end": 532.883
+  },
+  {
+   "word": "subscribe,",
+   "start": 532.883,
+   "end": 533.417
+  },
+  {
+   "word": "because",
+   "start": 533.417,
+   "end": 534.05
+  },
+  {
+   "word": "Biscuit",
+   "start": 534.05,
+   "end": 534.683
+  },
+  {
+   "word": "has",
+   "start": 534.683,
+   "end": 535.05
+  },
+  {
+   "word": "a",
+   "start": 535.05,
+   "end": 535.2
+  },
+  {
+   "word": "lot",
+   "start": 535.2,
+   "end": 535.517
+  },
+  {
+   "word": "of",
+   "start": 535.517,
+   "end": 535.667
+  },
+  {
+   "word": "money",
+   "start": 535.667,
+   "end": 535.883
+  },
+  {
+   "word": "to",
+   "start": 535.883,
+   "end": 536.117
+  },
+  {
+   "word": "spend.",
+   "start": 536.117,
+   "end": 536.383
+  }
+ ]
+}
