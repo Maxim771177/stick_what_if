@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import {drawCharacter,POSES} from "/engine/characters.js";
+import {E,setStyle} from "/engine/core.js";
+import {loadPack} from "/engine/stylepack.js";
+import * as H from "/hybrid13/heroes.js";
+let _r;window.ready=new Promise(r=>_r=r);
+Object.assign(E,{W:1920,H:1080,PX:1,fps:60,cfg:{},words:[],shots:[]});await loadPack("doodle");setStyle("clean");
+const c=document.getElementById('c').getContext('2d');
+const FONT='Impact,"Arial Black",sans-serif';
+function label(t,x,y,sz=30,col='#ffd23f'){c.save();c.font=`${sz}px ${FONT}`;c.textAlign='center';c.textBaseline='middle';c.lineJoin='round';c.lineWidth=sz*.3;c.strokeStyle='#111';c.strokeText(t,x,y);c.fillStyle=col;c.fillText(t,x,y);c.restore()}
+// фон: стена класса и пол, три полосы пола
+c.fillStyle='#e9e0c8';c.fillRect(0,0,1920,1080);
+for(const y of [285,650,1000]){c.fillStyle='#c9a66b';c.fillRect(0,y,1920,16);}
+const S=POSES, K=0.78;
+const draw=(o,x,y,k,pose,expr,face=1,prop)=>drawCharacter(c,{x,y,s:K*k,facing:face,pose,outfit:o,expr,blink:false,talk:0,look:[0.5*face,0],...(prop?{prop}:{})});
+
+const known=[['LEON',H.LEON,H.SM.LEON],['OWEN',H.OWEN,H.SM.OWEN],['CHASE',H.CHASE,H.SM.CHASE],['MS. PARK',H.PARK,H.SM.PARK],['MOM',H.MOM,H.SM.MOM],['DAD',H.DAD,H.SM.DAD],['MAILMAN',H.MAILMAN,H.SM.MAILMAN]];
+known.forEach(([n,o,k],i)=>{const x=170+i*270;draw(o,x,285,k,S.stand,'neutral');label(n,x,314,24)});
+label('↑ ПРОШЛЫЕ РОЛИКИ (для масштаба)      НОВЫЕ НА «УТВЕРЖДЁН» ↓',960,350,26,'#fff');
+const UP={...S.stand,eB:[-24,-204],hB:[-28,-298]};
+const nw=[['TESS',H.TESS,H.SM.TESS,'smile'],['NIA',H.NIA,H.SM.NIA,'happy'],['JUNE',H.JUNE,H.SM.JUNE,'smile'],['MR. HALE',H.HALE,H.SM.HALE,'neutral','folder'],['REPORTER',H.REPORTER,H.SM.REPORTER,'smile','mic'],['CAMERAMAN',H.CAMERAMAN,H.SM.CAMERAMAN,'neutral','camera'],['LUNCH LADY',H.LUNCHLADY,H.SM.LUNCHLADY,'happy'],['8TH GRADER',H.EIGHTH,H.SM.EIGHTH,'smile']];
+nw.forEach(([n,o,k,ex,pr],i)=>{const x=130+i*240,y=650;draw(o,x,y,k,S.stand,ex,1,pr);label(n,x,y+30,24)});
+label('↑ НОВЫЕ      МАССОВКА КЛАССА И ГОРОДА x12 (удивлены, глаза вверх на число) ↓',960,715,26,'#fff');
+H.KIDS.forEach((o,i)=>{const x=110+i*150,y=1000;const ex=['surprised','shocked','surprised','happy'][i%4];const pz=[S.stand,UP,S.stand,UP][i%4];drawCharacter(c,{x,y,s:K*H.SM.KID*0.95,facing:i%2?-1:1,pose:pz,outfit:o,expr:ex,blink:false,talk:0,look:[0.1,-1.6]})});
+window.done=true;_r();
+</script></body></html>

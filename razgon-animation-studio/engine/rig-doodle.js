@@ -169,6 +169,9 @@ function prop(g, pr, p, t) {
     case 'book': inkShape(g, [[h[0] - 4, h[1] - 30], [h[0] + 30, h[1] - 34], [h[0] + 30, h[1] + 4], [h[0] - 4, h[1] + 8]], { fill: o.color || '#d9483b', w }); break;
     case 'cup': inkShape(g, [[h[0] - 2, h[1] - 20], [h[0] + 14, h[1] - 20], [h[0] + 12, h[1] + 2], [h[0], h[1] + 2]], { fill: '#f4f3ee', w }); break;
     case 'pointer': inkLine(g, [h, [h[0] + 80, h[1] - 54]], { w, stroke: '#7a5230' }); break;
+    case 'mic': inkLine(g, [[h[0] - 2, h[1] + 4], [h[0] + 26, h[1] - 18]], { w: w * 1.5, stroke: '#2b2b33' }); inkCircle(g, h[0] + 32, h[1] - 23, 11, { fill: o.color || '#d8232a', seed: 92, w }); break;   // микрофон репортёра: ручка и красная головка
+    case 'camera': inkRect(g, h[0] - 14, h[1] - 40, 46, 30, { fill: '#2b2b33', r: 4, seed: 93, w }); inkRect(g, h[0] + 30, h[1] - 34, 18, 18, { fill: '#9aa3ad', r: 2, seed: 94, w }); circle(g, h[0] + 48, h[1] - 25, 4, '#111'); break;   // камера оператора: корпус и объектив вперёд
+    case 'folder': inkRect(g, h[0] - 10, h[1] - 34, 34, 42, { fill: o.color || '#c9c3b4', r: 3, seed: 95, w }); inkLine(g, [[h[0] - 4, h[1] - 24], [h[0] + 18, h[1] - 24]], { w: w * 0.6 }); inkLine(g, [[h[0] - 4, h[1] - 16], [h[0] + 14, h[1] - 16]], { w: w * 0.6 }); break;   // папка Mr. Hale
     case 'cracker': inkRect(g, h[0] - 2, h[1] - 14, 22, 22, { fill: '#e0a64a', r: 3, seed: 91, w }); for (const [dx, dy] of [[5, -6], [13, -6], [5, 2], [13, 2]]) circle(g, h[0] + dx, h[1] + dy, 1.6, '#8a5a1e'); break;
     case 'sign': inkLine(g, [h, [h[0] + 4, h[1] - 90]], { w: w * 1.3, stroke: '#7a5230' }); inkShape(g, [[h[0] - 46, h[1] - 150], [h[0] + 54, h[1] - 150], [h[0] + 54, h[1] - 86], [h[0] - 46, h[1] - 86]], { fill: o.color || '#f4f3ee', w }); break;
   }
