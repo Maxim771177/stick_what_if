@@ -158,7 +158,7 @@ def('S064', { cam: [[200, 1.2, 890], [380, 1.3, 890], [200, 1.2, 890]], fn(k) {
 } });
 def('S068', { cam: [[100, .95, 884], [260, 1.0, 884]], fn(k) {
   k.a('LEON', [[0, -200], [3.6, 460]], { face: 1, expr: 'neutral' });
-  const C = k.a('CHASE', 760, { y: -80, s: .8, face: -1, pose: 'holdFront', expr: 'smirk', look: [-.6, .3], prop: 'book', z: 4, noCheck: true });
+  const C = k.a('CHASE', 760, { y: 6, s: .8, face: -1, pose: 'holdFront', expr: 'smirk', look: [-.6, .3], prop: 'book', z: 4, noCheck: true });
   k.p('pencil', C.hand[0] - 20, C.hand[1] - 10, { z: 70, rot: -.4 + Math.sin(k.t * 20) * .2 });
 } });
 def('S069', { cam: [[300, 1.25, 890], [330, 1.32, 890]], fn(k) {
@@ -166,6 +166,6 @@ def('S069', { cam: [[300, 1.25, 890], [330, 1.32, 890]], fn(k) {
 } });
 def('S070', { cam: [[300, 1.0, 884], [320, 1.0, 884]], fn(k) {
   k.p('calendar', 300, -600, { z: 70, s: 1.45 * back(prog(k.lt, .1, .8)), hi: true, rot: -.04 });
-  const sil = (id, x) => k.a(id, x, { y: -30, s: .6, face: 1, pose: 'stand', sil: true, z: 5, noCheck: true });
+  const sil = (id, x) => k.a(id, x, { y: 14, s: .6, face: 1, pose: 'stand', sil: true, z: 5, noCheck: true });
   sil('LEON', -500); sil('OWEN', -380); sil('TESS', -260); sil('NIA', -160); sil('JUNE', -60);
 } });

@@ -16,7 +16,7 @@ def('S027', { cam: [[150, .98, 884], [650, 1.0, 884]], fn(k) {
   ['K0', 'K1', 'K2', 'K3', 'K4', 'K5', 'K6', 'K7', 'K8', 'K9', 'K10', 'K11'].forEach((id, i) => {
     const base = 260 + i * 82, d = base - Lx, dir = Math.sign(d) || 1, off = dir * 230 * sm(prog(k.lt, 0, 1.4)) * Math.exp(-Math.abs(d) / 300) * (d < 0 && k.lt < .5 ? 0 : 1);
     const near = Math.abs(d) < 330;
-    k.a(id, base + off, { y: -36 + (i % 2) * 8, s: .92, face: dir > 0 ? 1 : -1, pose: near ? 'handsOnHead' : 'stand', expr: 'surprised', look: 'up', bob: near ? 11 : 0, z: 6 + i * .01 });
+    k.a(id, base + off, { y: -6 + (i % 2) * 10, s: .92, face: dir > 0 ? 1 : -1, pose: near ? 'handsOnHead' : 'stand', expr: 'surprised', look: 'up', bob: near ? 11 : 0, z: 6 + i * .01 });
   });
   k.a('LEON', [[0, -250], [3.4, 720]], { face: 1 });
 } });
@@ -104,14 +104,14 @@ def('S043', { van: true, numUp: 130, boom: [1640, 250], cam: [[-120, 1.0, 890], 
   k.a('K0', 220, { face: -1, expr: 'surprised', look: [-.6, 0] }); k.a('K1', 330, { face: -1, expr: 'surprised', look: [-.6, 0] });
 } });
 def('S088', { dim: .3, cam: [[60, 1.2, 890], [90, 1.26, 890]], fn(k) {
-  k.p('table', 90, 0, { w: 400, h: 150, z: 8 }); k.p('chair', -160, 0, { f: 1, z: 6 }); k.p('chair', 340, 0, { f: -1, z: 6 });
+  k.p('table', 90, 0, { w: 400, h: 150, z: 8 }); k.p('chair', -130, 0, { f: 1, z: 6 }); k.p('chair', 340, 0, { f: -1, z: 6 });
   k.a('LEON', -130, { face: 1, pose: 'sitHand', expr: 'sad', look: [.7, .4], z: 7 });
   k.p('tray', 100, -150, { z: 9, s: 1 });
 } });
 def('S089', { dim: .25, cam: [[420, 1.0, 890], [520, 1.1, 890]], fn(k) {
-  k.p('table', 1000, 0, { w: 320, h: 150, z: 4 }); k.p('chair', 780, 0, { f: 1, z: 3 });
+  k.p('table', 650, 0, { w: 320, h: 150, z: 4 }); k.p('chair', 860, 0, { f: -1, z: 3 });
   const C = k.a('CHASE', 860, { y: -30, s: .86, face: -1, pose: 'sit', expr: 'smirk', look: [-.8, -.2], z: 5, noCheck: true });
-  k.p('notebookOpen', 1000, -150, { z: 6, p: 1, s: .8 });
+  k.p('notebookOpen', 650, -150, { z: 6, p: 1, s: .8 });
   k.p('table', 90, 0, { w: 400, h: 150, z: 8 }); k.a('LEON', -130, { face: 1, pose: 'sitHand', expr: 'sad', look: [.7, .4], z: 7 });
   k.p('tray', 100, -150, { z: 9 });
 } });

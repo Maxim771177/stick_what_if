@@ -24,9 +24,21 @@ export const circ = (c, x, y, r, fill, lw = 8) => { c.beginPath(); c.arc(x, y, r
 export const poly = (c, pts, fill, lw = 8) => { c.beginPath(); pts.forEach((p, i) => i ? c.lineTo(p[0], p[1]) : c.moveTo(p[0], p[1])); c.closePath(); outline(c, fill, lw); };
 export const line = (c, pts, lw = 8, col = '#111') => { c.beginPath(); pts.forEach((p, i) => i ? c.lineTo(p[0], p[1]) : c.moveTo(p[0], p[1])); c.lineWidth = lw; c.strokeStyle = col; c.lineCap = 'round'; c.lineJoin = 'round'; c.stroke(); };
 export function dots(c, x, y, w, h, col, step, rad, fade) { c.save(); c.beginPath(); c.rect(x, y, w, h); c.clip(); c.fillStyle = col; for (let j = 0, yy = y; yy < y + h; yy += step, j++) for (let xx = x + (j % 2 ? step / 2 : 0); xx < x + w; xx += step) { const f = fade ? clamp(fade(xx, yy)) : 1; if (f <= 0) continue; c.beginPath(); c.arc(xx, yy, rad * f, 0, 7); c.fill(); } c.restore(); }
+// ---- АВТО-ЧИТАЕМОСТЬ (правило с 27.11.2026): цвет текста подбирается под фон под ним, обводка контрастная ----
+const hex2l = (h) => { let m = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(h || ''); if (!m) return .8; let x = m[1]; if (x.length === 3) x = x.split('').map((q) => q + q).join(''); const v = [0, 2, 4].map((i) => parseInt(x.slice(i, i + 2), 16) / 255).map((u) => (u <= .03928 ? u / 12.92 : Math.pow((u + .055) / 1.055, 2.4))); return .2126 * v[0] + .7152 * v[1] + .0722 * v[2]; };
+const contrast = (a, b) => (Math.max(a, b) + .05) / (Math.min(a, b) + .05);
+export const READ_LOG = (typeof window !== 'undefined' ? (window.__readLog = window.__readLog || []) : []);
+function bgLum(c, w, h) { try { const m = c.getTransform(); const cw = c.canvas.width, ch = c.canvas.height; const bw = Math.abs(w * m.a), bh = Math.abs(h * m.d); const x0 = Math.max(0, Math.floor(m.e - bw / 2)), y0 = Math.max(0, Math.floor(m.f - bh / 2)), x1 = Math.min(cw, Math.ceil(m.e + bw / 2)), y1 = Math.min(ch, Math.ceil(m.f + bh / 2)); if (x1 - x0 < 4 || y1 - y0 < 4) return null; const d = c.getImageData(x0, y0, x1 - x0, y1 - y0).data; let sum = 0, n = 0; const step = Math.max(1, Math.floor(d.length / 4 / 200)); for (let i = 0; i < d.length; i += 4 * step) { const u = [d[i], d[i + 1], d[i + 2]].map((q) => { q /= 255; return q <= .03928 ? q / 12.92 : Math.pow((q + .055) / 1.055, 2.4); }); sum += .2126 * u[0] + .7152 * u[1] + .0722 * u[2]; n++; } return n ? sum / n : null; } catch (e) { return null; } }
 export function stext(c, txt, x, y, size, fill, rot = 0, sc_ = 1, stroke = '#111', white = true, align = 'center') {
   c.save(); c.translate(x, y); c.rotate(rot); c.scale(sc_, sc_); c.font = `${size}px ${FONT}`; c.textAlign = align; c.textBaseline = 'middle'; c.lineJoin = 'round';
-  if (white) { c.lineWidth = size * .34; c.strokeStyle = '#fff'; c.strokeText(txt, 0, 0); } c.lineWidth = size * .17; c.strokeStyle = stroke; c.strokeText(txt, 0, 0); c.fillStyle = fill; c.fillText(txt, 0, 0); c.restore();
+  let f = fill; let fl = hex2l(f); const tw = c.measureText(txt).width; const bl = bgLum(c, tw * (align === 'center' ? 1 : 2), size);
+  // фон под текстом: если контраст с ним мал, берём противоположный цвет
+  if (bl != null && !white && contrast(fl, bl) < 3) { f = bl > .35 ? '#0b1630' : '#ffffff'; fl = hex2l(f); if (!READ_LOG.includes(txt)) { READ_LOG.push(txt); console.warn('WARN readable-swap: ' + txt); } }
+  const dark = fl < .3;
+  if (dark) { // тёмный текст: белое гало, без чёрной обводки (иначе буквы заливает чёрным)
+    c.lineWidth = size * .26; c.strokeStyle = '#fff'; c.strokeText(txt, 0, 0);
+  } else { if (white) { c.lineWidth = size * .34; c.strokeStyle = '#fff'; c.strokeText(txt, 0, 0); } c.lineWidth = size * .17; c.strokeStyle = stroke; c.strokeText(txt, 0, 0); }
+  c.fillStyle = f; c.fillText(txt, 0, 0); c.restore();
 }
 export function burst(c, x, y, r, n, fill, rot = 0, sc_ = 1) {
   c.save(); c.translate(x, y); c.rotate(rot); c.scale(sc_, sc_); c.beginPath(); for (let i = 0; i < n * 2; i++) { const a = i / (n * 2) * Math.PI * 2, r_ = i % 2 ? r * .62 : r * (0.95 + 0.1 * rnd(i)); c.lineTo(Math.cos(a) * r_, Math.sin(a) * r_); } c.closePath();

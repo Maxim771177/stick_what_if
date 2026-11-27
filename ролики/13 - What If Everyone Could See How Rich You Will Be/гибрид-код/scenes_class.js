@@ -20,7 +20,7 @@ def('S003', { cam: [[260, 1.4, 905], [340, 1.52, 905]], fn(k) {
   k.p('notebookOpen', 40, 24 - 128, { p, z: 20, s: 1.05 }); k.p('notebookOpen', 400, 24 - 128, { p: 0, z: 20, s: 1.05 });
 } });
 def('S004', { cam: [[200, 1.42, 905], [220, 1.55, 905]], fn(k) {
-  const itch = k.lt > 1.2;
+  const itch = k.lt > 1.2; k.p('desk', 150, 24, { f: -1, z: 10.0 }); k.p('chair', 150, 24, { f: -1, z: 9.9 });
   const L = k.a('LEON', 150, { y: 24, face: -1, pose: itch ? 'sitScratch' : 'sitWrite', expr: k.lt > 1.6 ? 'surprised' : 'neutral', look: itch ? 'up' : [-.3, .8] });
   cls(k, { skip: ['LEON'], noPark: true, who: { OWEN: { pose: 'sitWrite', look: [.3, .5] }, K5: { hide: true }, K6: { hide: true }, K3: { hide: true }, K4: { hide: true } } });
   if (k.lt > 1.2) k.p('sparks', L.head[0], L.head[1] - 40 * L.se, { z: 70, r: 100 });

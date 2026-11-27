@@ -2,7 +2,7 @@
 import { def } from "/hybrid13/reg13.js";
 import { clamp, lerp, sm, eo, back, prog, rnd, rect, circ, line, poly, rr, outline, stext, ptext, POSES, burst } from "/hybrid13/engine13.js";
 
-const swingX = (k) => 810 + Math.sin(k.t * 1.6) * .05 * 440;
+const swingX = (k) => 810 - Math.sin(Math.sin(k.t * 1.6) * .05) * 451;  // сиденье качелей: подвес (810,-535), длина 451, поворот sw
 const glow = (k, L) => k.push(5, (c) => { c.save(); c.globalAlpha = .45; const g = c.createRadialGradient(L.head[0], L.head[1], 20, L.head[0], L.head[1], 520); g.addColorStop(0, 'rgba(255,215,90,.9)'); g.addColorStop(1, 'rgba(255,215,90,0)'); c.fillStyle = g; c.fillRect(L.head[0] - 560, L.head[1] - 560, 1120, 1120); c.restore(); });
 const chase = (k, o = {}) => { const x = swingX(k); const C = k.a('CHASE', x, { face: -1, pose: 'sit', expr: 'neutral', look: [-.7, .2], z: 7, ...o }); return C; };
 const leon = (k, o = {}) => { const L = k.a('LEON', 420, { face: 1, ...o }); glow(k, L); return L; };
