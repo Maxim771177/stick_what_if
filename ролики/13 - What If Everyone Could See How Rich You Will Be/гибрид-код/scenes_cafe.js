@@ -99,7 +99,7 @@ def('S042', { cam: [[170, 1.4, 890], [200, 1.5, 890]], fn(k) {
   const L = k.a('LEON', 520, { face: -1, pose: [[0, 'stand'], [1.6, 'sad']], expr: k.lt > 1.8 ? 'sad' : 'smile', look: [-.4, .3] });
   for (const r of [r1, r2, r3]) k.heartEyes(r);
 } });
-def('S043', { van: true, cam: [[-120, 1.0, 890], [-60, 1.06, 890]], fn(k) {
+def('S043', { van: true, numUp: 130, boom: [1640, 250], cam: [[-120, 1.0, 890], [-60, 1.06, 890]], fn(k) {
   k.a('LEON', -40, { face: -1, pose: 'point', expr: 'surprised', look: [-.8, -.1] });
   k.a('K0', 220, { face: -1, expr: 'surprised', look: [-.6, 0] }); k.a('K1', 330, { face: -1, expr: 'surprised', look: [-.6, 0] });
 } });

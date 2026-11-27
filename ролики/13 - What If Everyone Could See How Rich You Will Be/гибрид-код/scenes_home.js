@@ -96,10 +96,10 @@ def('S023', { cam: [[-100, 1.0, 886], [-60, 1.04, 886]], fn(k) {
   });
 } });
 def('S053', { cam: [[-60, 1.3, 890], [-30, 1.38, 890]], fn(k) {
-  const L = k.a('LEON', -260, { face: 1, pose: [[0, 'stand'], [.4, 'reach']], expr: 'smile', look: [.6, .3] });
+  const L = k.a('LEON', -40, { face: 1, pose: [[0, 'stand'], [.4, 'reach']], expr: 'smile', look: [.6, .3] });
   const eat = k.lt > 1.2; const dx = 120;
   k.push(20, (c) => { dog(c, 120, 0, { pose: 'sit', f: -1, t: k.t, k: 1 }); });
-  if (!eat) k.p('cookie', lerp(L.hand[0], 40, eo(prog(k.lt, .4, 1.2))), lerp(L.hand[1], -140, eo(prog(k.lt, .4, 1.2))), { z: 70, r: 20 });
+  if (!eat) k.p('cookie', lerp(L.hand[0], 100, eo(prog(k.lt, .4, 1.2))), lerp(L.hand[1], -105, eo(prog(k.lt, .4, 1.2))), { z: 70, r: 20 });
 } });
 def('S054', { cam: [[0, 1.3, 890], [30, 1.38, 890]], fn(k) {
   const L = k.a('LEON', -190, { face: 1, pose: 'lean', expr: 'neutral', look: 'up' });
@@ -146,9 +146,9 @@ def('S061', { cam: [[500, 1.15, 890], [700, 1.15, 890]], fn(k) {
   const lx = [[0, 380], [1.2, 760]]; k.a('LEON', lx, { face: 1, expr: 'sad' }); k.a('OWEN', [[0, 600], [1.2, 980]], { face: 1, expr: 'smile' });
 } });
 def('S062', { cam: [[260, 1.25, 890], [290, 1.35, 890]], fn(k) {
-  const O = k.a('OWEN', 300, { face: 1, pose: 'stand', expr: k.lt > 1 ? 'surprised' : 'smile', look: [.1, .9] });
+  const O = k.a('OWEN', 340, { face: 1, pose: 'stand', expr: k.lt > 1 ? 'surprised' : 'smile', look: [.1, .9] });
   k.p('shoelace', O.x + 12, 0, { z: 71 });
-  k.a('LEON', 240, { face: 1, pose: 'tie', expr: 'smile', look: [.4, .9] });
+  k.a('LEON', 190, { face: 1, pose: 'tie', expr: 'smile', look: [.4, .9] });
 } });
 def('S063', { cam: [[300, 1.2, 890], [330, 1.25, 890]], fn(k) { k.a('LEON', 200, { face: 1, expr: 'happy', look: 'up' }); k.a('OWEN', 440, { face: 1, expr: 'smile', look: [.6, .0] }); } });
 def('S064', { cam: [[200, 1.2, 890], [380, 1.3, 890], [200, 1.2, 890]], fn(k) {
