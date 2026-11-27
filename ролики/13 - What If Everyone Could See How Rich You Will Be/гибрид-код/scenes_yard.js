@@ -1,0 +1,42 @@
+// Ночной двор S090–S103
+import { def } from "/hybrid13/reg13.js";
+import { clamp, lerp, sm, eo, back, prog, rnd, rect, circ, line, poly, rr, outline, stext, ptext, POSES, burst } from "/hybrid13/engine13.js";
+
+const swingX = (k) => 810 + Math.sin(k.t * 1.6) * .05 * 440;
+const glow = (k, L) => k.push(5, (c) => { c.save(); c.globalAlpha = .45; const g = c.createRadialGradient(L.head[0], L.head[1], 20, L.head[0], L.head[1], 520); g.addColorStop(0, 'rgba(255,215,90,.9)'); g.addColorStop(1, 'rgba(255,215,90,0)'); c.fillStyle = g; c.fillRect(L.head[0] - 560, L.head[1] - 560, 1120, 1120); c.restore(); });
+const chase = (k, o = {}) => { const x = swingX(k); const C = k.a('CHASE', x, { face: -1, pose: 'sit', expr: 'neutral', look: [-.7, .2], z: 7, ...o }); return C; };
+const leon = (k, o = {}) => { const L = k.a('LEON', 420, { face: 1, ...o }); glow(k, L); return L; };
+const CAM = [[640, 1.05, 884], [680, 1.1, 884]];
+const Y = (cam, fn, extra = {}) => ({ dim: .32, cam, fn, ...extra });
+const cloud = (c, x, y, s, k, clipFn) => { c.save(); c.translate(x, y); c.scale(s, s); for (const [px, py, r] of [[-260, 40, 120], [-130, -90, 150], [60, -130, 170], [230, -40, 150], [320, 80, 110], [60, 110, 170], [-110, 110, 130]]) circ(c, px, py, r, '#fff', 9); c.restore(); };
+
+def('S090', Y(CAM, (k) => { chase(k); const C = k.heads.CHASE; k.p('notebookOpen', C.x - 50, -96, { z: 20, p: 1, s: .8 }); leon(k, { pose: 'stand', expr: 'neutral', look: [.7, 0] }); }));
+def('S091', Y(CAM, (k) => { const C = chase(k, { pose: 'sit', expr: 'smirk' }); k.p('notebookOpen', C.x - 50, -96, { z: 20, p: 1, s: .8 }); leon(k, { pose: 'stand', expr: 'neutral', look: [.7, .1] }); }));
+def('S092', Y([[620, 1.2, 890], [650, 1.28, 890]], (k) => { const C = chase(k, { pose: 'sitHand', expr: 'neutral', talk: k.lt > .1 && k.lt < 2.6 }); k.p('notebookOpen', C.x - 50, -96, { z: 20, p: 1, s: .8 }); leon(k, { pose: 'stand', expr: 'surprised', look: [.7, 0] });
+  const p = k.at([[1.8, 0], [2.6, 1]]); if (p > 0) k.push(70, (c) => { for (let i = 0; i < 9; i++) { const u = (k.lt * 3 + i / 9) % 1; c.save(); c.translate(C.x - 50 - u * 40, -180 - u * 60); c.rotate(u * 3 + i); c.globalAlpha = 1 - u; rect(c, -30, -22, 60, 44, '#fffdf2', 4, 5); c.restore(); } }); }));
+def('S093', Y([[620, 1.2, 890], [650, 1.28, 890]], (k) => { const C = chase(k, { pose: 'sitHand', expr: 'smirk' }); const flip = sm(prog(k.lt, .4, 1.4)); k.p('notebookOpen', C.x - 50, -96, { z: 20, p: 1, s: .8 }); k.push(70, (c) => { c.save(); c.translate(C.x - 50, -112); c.scale(1 - flip * 1.8 + (flip > .5 ? 0 : 0), 1); rect(c, -70, -12, 140, 10, '#fffdf2', 3, 4); c.restore(); }); leon(k, { pose: 'stand', expr: 'neutral', look: [.7, .1] }); }));
+const graph = (c, x, y, s, t, grow = 1) => { c.save(); c.translate(x, y); c.scale(s, s); rect(c, -330, -230, 660, 460, '#fffdf2', 18, 10); ptext(c, 'CHOICES vs NUMBER', 0, -190, 30, '#12213d'); line(c, [[-270, 160], [270, 160]], 6); line(c, [[-270, 160], [-270, -150]], 6); const bars = [[1, 1], [0, 1], [1, 1], [0, 1], [1, 1], [0, 1], [1, 1]];
+  bars.forEach(([g, _], i) => { const hh = (g ? 150 : 110) * grow * (0.7 + .3 * Math.sin(t * 2 + i)); rect(c, -230 + i * 76, 160 - hh, 52, hh, g ? '#3fdc55' : '#e0242b', 4, 6); }); c.restore(); };
+def('S094', Y([[560, 1.0, 884], [560, 1.0, 884]], (k) => { const C = chase(k, { pose: 'sit', expr: 'neutral' }); leon(k, { pose: 'stand', expr: 'neutral', look: [.7, 0] });
+  const u = back(prog(k.lt, .1, .7)); k.push(75, (c) => { graph(c, 460, -560, 1.0 * u, k.t, sm(prog(k.lt, .5, 2.5))); c.save(); c.translate(900, -560); c.scale(u, u); rect(c, -170, -170, 340, 340, '#fffdf2', 14, 8); const O = { x: 0, y: 60 }; circ(c, 0, -60, 40, '#fff', 6); line(c, [[0, -20], [0, 70]], 7); line(c, [[0, 70], [-30, 130]], 7); line(c, [[0, 70], [30, 130]], 7); line(c, [[0, 10], [-40, 40]], 7); line(c, [[0, 10], [40, 40]], 7); circ(c, -14, -64, 3, '#111', 0); circ(c, 14, -64, 3, '#111', 0); poly(c, [[110, 130], [110, 20], [86, 20], [124, -40], [162, 20], [138, 20], [138, 130]], '#ffd23f', 6); c.restore(); }); }));
+def('S095', Y([[620, 1.2, 890], [640, 1.28, 890]], (k) => { const C = chase(k, { pose: [[0, 'sit'], [.6, 'sitPoint']], expr: 'neutral', look: [-.4, -1.2] }); k.p('pencil', C.hand[0] - 10, C.hand[1] - 20, { z: 70, rot: .3 }); k.p('notebookOpen', C.x - 50, -96, { z: 20, p: 1, s: .8 }); leon(k, { pose: 'stand', expr: 'shocked', look: [.4, -1.2] }); }));
+def('S096', Y([[300, .98, 884], [380, 1.0, 884]], (k) => {
+  const H = k.a('HALE', [[0, -950], [4.4, -150]], { face: 1, expr: 'neutral', look: [.7, 0], prop: 'folder', sil: k.lt < 1.2, z: 6 }); k.p('fenceFront', 0, 0, { z: 12, x0: -1100, x1: -420 });
+  chase(k, { pose: 'sit', expr: 'surprised', look: [-.8, 0] }); leon(k, { face: -1, pose: 'stand', expr: 'surprised', look: [-.8, 0] });
+}));
+const hale97 = (k, o = {}) => k.a('HALE', -100, { face: 1, ...o });
+def('S097', Y([[300, 1.0, 886], [340, 1.05, 886]], (k) => { hale97(k, { pose: [[0, 'stand'], [.5, 'point'], [2.6, 'point']], expr: 'smirk', look: [.8, 0], talk: (k.lt > .3 && k.lt < 2.2) || (k.lt > 4.5 && k.lt < 6), prop: undefined }); chase(k, { pose: 'sad', expr: 'sad', look: [-.2, .9] }); leon(k, { face: -1, pose: 'stand', expr: 'worried', look: [-.8, 0] }); }));
+def('S098', Y([[230, 1.2, 890], [260, 1.3, 890]], (k) => { const H = hale97(k, { pose: 'reach', expr: 'smirk', look: [.8, 0] }); k.p('pen', H.hand[0] + 12, H.hand[1] - 24, { z: 70, rot: -.2 }); k.p('contract', H.hand[0] + 16, H.hand[1] + 34, { z: 69, s: .75, rot: .12, title: 'NO OWEN' }); leon(k, { face: -1, pose: 'stand', expr: 'neutral', look: [-.8, 0] }); }));
+def('S099', Y([[300, 1.0, 886], [330, 1.04, 886]], (k) => { const H = hale97(k, { pose: 'pointUp', expr: 'smirk', look: 'up', prop: undefined }); leon(k, { face: -1, pose: 'stand', expr: 'neutral', look: [-.8, 0] });
+  const u = back(prog(k.lt, .4, 1.1)); k.push(55, (c) => { c.save(); c.translate(200, -760); c.scale(u * .62, u * .62); cloud(c, 0, 0, 1, k); c.restore(); }); const sx = 200, sy = -700;
+  k.push(56, (c) => { c.save(); c.translate(sx, sy); c.scale(u, u); c.fillStyle = 'rgba(255,246,196,.55)'; c.beginPath(); c.moveTo(-20, -180); c.lineTo(20, -180); c.lineTo(110, 100); c.lineTo(-110, 100); c.closePath(); c.fill(); rect(c, -150, 90, 300, 30, '#a4693a', 6, 6); c.restore(); });
+  k.a('LEON', sx + 6, { y: sy + 90 - 7, s: .56, face: 1, pose: 'stand', expr: 'smile', look: [.6, 0], z: 58, noCheck: true, alpha: u }); k.push(59, (c) => { c.save(); c.translate(sx + 6, sy + 90); c.scale(1, .3); c.restore(); }); }));
+def('S100', Y([[300, 1.0, 886], [330, 1.04, 886]], (k) => { const H = hale97(k, { pose: 'pointUp', expr: 'smirk', look: 'up' }); leon(k, { face: -1, pose: 'stand', expr: 'surprised', look: [-.8, -.5] });
+  k.push(55, (c) => { c.save(); c.translate(200, -760); c.scale(.62, .62); cloud(c, 0, 0, 1, k); c.restore(); });
+  const sw = k.at([[.3, 0], [3.0, 1]]); k.a('OWEN', 190, { y: -690, s: .56, face: 1, pose: 'stand', expr: 'surprised', look: [.6, 0], z: 58, alpha: 1 - sw, noCheck: true });
+  k.push(59, (c) => { c.save(); c.translate(lerp(60, 330, sw), -720 + Math.sin(k.t * 8) * 12); c.rotate(-.3); rect(c, -60, -34, 120, 68, '#ff9ec8', 14, 8); rect(c, -60, 4, 120, 30, '#4a78c9', 10, 7); c.restore(); }); }));
+def('S101', Y([[420, 1.3, 890], [440, 1.4, 890]], (k) => { const L = leon(k, { pose: 'holdFront', expr: 'worried', look: [.5, .8] }); k.p('contract', L.hand[0] + 6, L.hand[1] - 6, { z: 70, s: .85, rot: -.05, title: 'NO OWEN' }); chase(k, { pose: 'sit', expr: 'neutral', look: [-.8, 0] }); }));
+def('S102', Y([[760, 1.2, 890], [790, 1.28, 890]], (k) => { const x = 760; const C = k.a('CHASE', x, { face: -1, pose: 'shrug', expr: 'smirk', look: [-.7, .1], talk: k.lt > 2.7 }); k.p('folderW', C.x + 20, -60, { z: 11, s: .6 }); leon(k, { face: 1, pose: 'stand', expr: 'neutral', look: [.8, 0] }); }));
+def('S103', Y([[300, 1.15, 890], [330, 1.22, 890]], (k) => { const L = leon(k, { face: -1, pose: [[0, 'holdFront'], [1.6, 'stand']], expr: k.lt > 4.8 ? 'smirk' : 'neutral', look: [-.8, .2], talk: k.lt > 4.8 && k.lt < 5.8 });
+  if (k.lt < 1.6) k.p('contract', L.hand[0] - 6, L.hand[1] - 6, { z: 70, s: .85 * (1 - .5 * k.ph(.6, 1.5)), rot: -.05 }); else if (k.lt < 2.4) k.p('contract', lerp(L.hand[0], L.x - 20, k.ph(1.6, 2.4)), lerp(L.hand[1], -110, k.ph(1.6, 2.4)), { z: 70, s: .42, rot: 0 });
+  hale97(k, { x: undefined, pose: 'stand', expr: 'neutral', look: [.8, 0] }); chase(k, { pose: 'sit', expr: 'neutral', look: [-.8, 0] }); }));

@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import * as G from "/hybrid13/engine13.js";
+import { drawOverlays } from "/hybrid13/overlays13.js";
+import "/hybrid13/places13.js"; import "/hybrid13/props13.js";
+import { SC } from "/hybrid13/reg13.js";
+import "/hybrid13/scenes_class.js"; import "/hybrid13/scenes_cafe.js"; import "/hybrid13/scenes_home.js"; import "/hybrid13/scenes_gym.js"; import "/hybrid13/scenes_yard.js"; import "/hybrid13/scenes_void.js";
+const { W, HT, K, PLACES, camAt, worldTransform, drawNum, deltaLabel, fmtVal, buildNumTimeline, numAt, mk, clamp, lerp, sm, prog, SPEED } = G;
+let _r; window.ready = new Promise(r => _r = r);
+await G.boot();
+const data = await (await fetch('/data/scenes.json')).json(); const scenes = data.scenes; const NUMEV = buildNumTimeline(scenes);
+window.DUR = data.duration; window.SCENES = scenes.map(s => s.id); window.ERRS = [];
+const cv = document.getElementById('c'), C = cv.getContext('2d'); const sc = mk(W, HT), sx = sc.getContext('2d'), layerF = mk(W, HT), layerN = mk(W, HT);
+const findScene = (t) => { for (const s of scenes) if (t >= s.start && t < s.end) return s; return scenes[scenes.length - 1]; };
+function renderScene(t, sceneObj) {
+  const base = sceneObj || findScene(t); const meta = SC[base.id] || {}; const sc_ = { ...base, ...meta, texts: base.texts }; const lt = t - base.start, D = base.end - base.start;
+  if (meta.camFn) sc_.cam = [meta.camFn(lt, D)]; const cm = camAt(sc_, lt, D); const k = new K(sc_, t, cm); const place = PLACES[sc_.place] || PLACES.VOID;
+  if (meta.fn) meta.fn(k, G); else k.errs.push('ERROR no-scene ' + base.id);
+  // число Leon
+  const L = k.heads.LEON; if (L && meta.noNum !== true && meta.numOwner !== false) { const n = numAt(NUMEV, t); if (n && base.id >= 'S005' && base.id <= 'S134') {
+    const txt = meta.numText ? meta.numText(t, n) : fmtVal(n.d < .7 && n.change ? Math.round(n.v / 1e7) * 1e7 : n.v); const flash = n.change && n.d < 1 ? 1 : 0; const fs = meta.numFs || 66; const nx = L.head[0] + (meta.numDx || 0), ny = L.top[1] - 70 * L.se - fs * .5 - (meta.numUp || 0);
+    const kk0 = n.first ? G.back(prog(n.d, 0, .55)) : 1; k.push(60, (c) => { drawNum(c, nx, ny, txt, { t, fs, flash, up: n.up, k: kk0 }); if (n.change && n.d < 2) deltaLabel(c, nx + (meta.deltaDx ?? 330 * fs / 66), ny - 20 + (meta.deltaDy || 0), n.label || '', n.up, sm(prog(n.d, 0, .3)) * (1 - sm(prog(n.d, 1.5, 2)))); }); } }
+  // слои
+  const f = layerF.getContext('2d'); f.setTransform(1, 0, 0, 1, 0, 0); f.clearRect(0, 0, W, HT); worldTransform(f, cm, .35); f.translate(0, -120); place.far && place.far(f, t, k);
+  sx.setTransform(1, 0, 0, 1, 0, 0); sx.fillStyle = place.bg || '#000'; sx.fillRect(0, 0, W, HT); sx.filter = 'blur(3px)'; sx.drawImage(layerF, 0, 0); sx.filter = 'none';
+  worldTransform(sx, cm, 1); place.mid && place.mid(sx, t, k); if (meta.mid) meta.mid(sx, t, k);
+  k.items.sort((a, b) => a.z - b.z); for (const it of k.items) { sx.save(); it.fn(sx); sx.restore(); }
+  const n2 = layerN.getContext('2d'); n2.setTransform(1, 0, 0, 1, 0, 0); n2.clearRect(0, 0, W, HT); worldTransform(n2, cm, 1.45); place.near && place.near(n2, t, k);
+  sx.setTransform(1, 0, 0, 1, 0, 0); sx.filter = 'blur(6px)'; sx.drawImage(layerN, 0, 0); sx.filter = 'none';
+  const g = sx.createRadialGradient(W / 2, HT / 2, HT * .45, W / 2, HT / 2, HT * .95); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,.26)'); sx.fillStyle = g; sx.fillRect(0, 0, W, HT);
+  if (meta.dim) { sx.fillStyle = `rgba(8,16,48,${meta.dim})`; sx.fillRect(0, 0, W, HT); }
+  drawOverlays(sx, k, sc_, t);
+  for (const e of k.errs) if (!window.ERRS.includes(e)) window.ERRS.push(e);
+}
+// tOut — секунды выходного видео (после ускорения ×1,2), как в шаблоне
+const N = 3, SHUT = .5 / 60 * SPEED;
+window.draw = function (tOut) { const t0 = tOut * SPEED; G.E.t = tOut; C.setTransform(1, 0, 0, 1, 0, 0); C.globalAlpha = 1; for (let i = 0; i < N; i++) { const tt = t0 + (i / (N - 1) - .5) * SHUT * 2; renderScene(Math.max(0, tt)); C.globalAlpha = 1 / (i + 1); C.drawImage(sc, 0, 0); } C.globalAlpha = 1; return true; };
+// стоп-кадр сцены по id и фазе 0..1 (без размытия)
+window.still = function (id, ph) { const s = scenes.find(x => x.id === id); const t = s.start + (s.end - s.start) * ph; G.E.t = t / SPEED; C.setTransform(1, 0, 0, 1, 0, 0); C.globalAlpha = 1; renderScene(t, s); C.drawImage(sc, 0, 0); return true; };
+document.fonts.ready.then(() => _r(true));
+</script></body></html>
