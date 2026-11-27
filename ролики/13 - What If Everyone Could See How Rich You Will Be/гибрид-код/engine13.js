@@ -115,7 +115,7 @@ export function drawFigure(c, o) {
 export const blinkAt = (t, k) => ((t + k) % (2.8 + (k % 1.3))) > 2.7;
 
 // ---------- собака Biscuit (картинки канала) ----------
-const DOGIMG = {}; export async function loadDog() { for (const n of ['sit', 'lie', 'stand', 'tilt', 'wag', 'beg', 'sniff', 'tired']) { const im = new Image(); im.src = `/hybrid13/assets/dog_${n}.png`; await new Promise((r) => { im.onload = r; im.onerror = r; }); DOGIMG[n] = im; } }
+export const TANDEM_IMG = new Image(); const DOGIMG = {}; export async function loadDog() { TANDEM_IMG.src = '/hybrid13/assets/tandem.png'; await new Promise((r) => { TANDEM_IMG.onload = r; TANDEM_IMG.onerror = r; }); for (const n of ['sit', 'lie', 'stand', 'tilt', 'wag', 'beg', 'sniff', 'tired']) { const im = new Image(); im.src = `/hybrid13/assets/dog_${n}.png`; await new Promise((r) => { im.onload = r; im.onerror = r; }); DOGIMG[n] = im; } }
 const DOGH = { sit: 170, lie: 100, stand: 165, tilt: 175, wag: 165, beg: 210, sniff: 140, tired: 100 };
 export function dog(c, x, y, o = {}) {
   const t = o.t || 0, f = o.f ?? 1, p = o.pose || 'stand', key = p === 'stand' && (o.wag ?? 0) > 0 && Math.sin(t * o.wag) > 0 ? 'wag' : p; const im = DOGIMG[key] || DOGIMG.stand; if (!im || !im.width) return null;

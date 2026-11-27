@@ -113,7 +113,7 @@ def('S055', { cam: [[100, .95, 884], [180, 1.0, 884]], fn(k) {
 } });
 
 // ---------- гараж ----------
-const garage = (k, o = {}) => { k.p('tandem', 140, 0, { f: -1, z: 5, L: 230, rot: o.rot || 0, on: o.on, t: k.t }); };
+const garage = (k, o = {}) => { k.p('tandem', 140, 0, { f: -1, z: 5, rot: o.rot || 0, on: o.on, t: k.t }); };
 def('S056', { cam: [[-100, .95, 884], [60, 1.0, 884]], fn(k) {
   garage(k); k.a('OWEN', 40, { face: 1, pose: 'reach', expr: 'neutral', look: [.5, -.4], prop: 'wrench' });
   k.a('LEON', [[0, -900], [2.0, -330]], { face: 1, expr: 'smile', look: [.6, 0] });

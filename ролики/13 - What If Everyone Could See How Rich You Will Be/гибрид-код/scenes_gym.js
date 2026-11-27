@@ -1,23 +1,23 @@
 // Спортзал S071–S080, S104–S120, S123–S126, S129–S134
 import { def } from "/hybrid13/reg13.js";
+import { tandemPts } from "/hybrid13/props13.js";
 import { clamp, lerp, sm, eo, back, prog, rnd, rect, circ, line, poly, rr, outline, stext, ptext, POSES, dog, burst, drawNum, fmtVal } from "/hybrid13/engine13.js";
 
 const STAGE_Y = -190;
 const gyS = (z) => 880 + 190 * z;                // камера, у которой пол сцены на y=880
 const ik = (a, b, L1, L2, dir) => { const dx = b[0] - a[0], dy = b[1] - a[1]; const d = Math.min(Math.hypot(dx, dy), L1 + L2 - .5); const ang = Math.atan2(dy, dx) - dir * Math.acos(clamp((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1)); return [a[0] + Math.cos(ang) * L1, a[1] + Math.sin(ang) * L1]; };
 // тандем в спортзале: стол Owen у дальней стены справа, передним колесом влево
-const BIKE = { x: 1400, L: 230, R: 108 };
-const owenTable = (k, o = {}) => { k.p('table', 1400, 0, { w: 760, h: 200, z: 3 }); k.p('tandem', BIKE.x, 0, { f: -1, z: 5, L: BIKE.L, rot: o.rot || 0, on: o.on, t: k.t }); if (o.sign !== false) k.p('sign', 1650, -200, { z: 6, text: o.signText || 'OWEN · TABLE 14', w: 190, h: 120, rot: .04 }); };
+const BIKE = { x: 1400 };
+const owenTable = (k, o = {}) => { k.p('table', 1400, 0, { w: 760, h: 200, z: 3 }); k.p('tandem', BIKE.x, 0, { f: -1, z: 5, ph: o.ph || 0, on: o.on, t: k.t }); if (o.sign !== false) k.p('sign', 1650, -200, { z: 6, text: o.signText || 'OWEN · TABLE 14', w: 190, h: 120, rot: .04 }); };
 // велопоза: rider на седле (front: переднее, f=-1 едем влево), фаза педалей
 function ride(k, id, front, phase, o = {}) {
-  const se = (id === 'LEON' ? 1.55 * .86 : 1.55 * 1.12 * .72), saddle = front ? BIKE.x - BIKE.L * .42 : BIKE.x + BIKE.L * .42, top = -BIKE.R * 1.78 - 20, X = saddle, Y = top + 72 * se, f = -1;
-  const base = { ...POSES.ride }; const bb = [BIKE.x, -BIKE.R * .9], loc = (w) => [(w[0] - X) / (f * se), (w[1] - Y) / se];
-  const a = phase + (front ? 0 : Math.PI), r = 30; const pf = loc([bb[0] + Math.cos(a) * r, bb[1] + Math.sin(a) * r]), pb = loc([bb[0] + Math.cos(a + Math.PI) * r, bb[1] + Math.sin(a + Math.PI) * r]);
-  const hip = [0, -72], clampF = (p) => { const d = Math.hypot(p[0] - hip[0], p[1] - hip[1]); const m = 98 / Math.max(98, d); return d > 98 ? [hip[0] + (p[0] - hip[0]) * m, hip[1] + (p[1] - hip[1]) * m] : p; };
-  const fF = clampF(pf), fB = clampF(pb); const kF = ik(hip, fF, 50, 50, 1), kB = ik(hip, fB, 50, 50, 1);
-  const bar = loc([BIKE.x - BIKE.L * .86, -BIKE.R * 2.05]); const sh = [8, -146]; const hF = front ? bar : [sh[0] + 54, sh[1] + 40], hB = front ? [bar[0] - 4, bar[1] + 4] : [sh[0] + 46, sh[1] + 44];
-  const eF = ik(sh, hF, 38, 38, -1), eB = ik(sh, hB, 38, 38, -1);
-  return { pose: { ...base, head: [14, -180], sh, hip, eF, hF, eB, hB, kF, fF, kB, fB }, X, Y: Y };
+  const se = (id === 'LEON' ? 1.55 * .86 : 1.55 * 1.12 * .72), f = -1, B = tandemPts(BIKE.x, f, phase), sad = front ? B.sadF : B.sadR, X = sad[0], Y = sad[1] + 72 * se;
+  const base = { ...POSES.ride }, loc = (w) => [(w[0] - X) / (f * se), (w[1] - Y) / se];
+  const hip = [0, -72], SEG = 80, pa = loc(front ? B.pedF : B.pedR), pb = loc(front ? B.pedF2 : B.pedR2);
+  const kF = ik(hip, pa, SEG, SEG, 1), kB = ik(hip, pb, SEG, SEG, 1);
+  const grip = loc(front ? B.gripF : B.gripR), sh = [34, -136], hF = grip, hB = [grip[0] + 5, grip[1] - 2];
+  const eF = ik(sh, hF, 44, 44, -1), eB = ik(sh, hB, 44, 44, -1);
+  return { pose: { ...base, head: [42, -171], sh, hip, eF, hF, eB, hB, kF, fF: pa, kB, fB: pb }, X, Y };
 }
 const crowd = (k, o = {}) => { // зрители на трибунах: sit/standing
   const rows = o.rows || [8, 8, 8, 8]; let n = 0; const res = [];
@@ -76,8 +76,8 @@ def('S078', { cam: [[200, .98, 884], [260, 1.02, 884]], fn(k) {
 def('S079', { cam: [[1100, .9, 884], [1500, .92, 884]], fn(k) {
   const u = eo(prog(k.lt, 1.5, 3.9)), px = lerp(1420, 2150, u), flipped = k.lt >= 1.5;
   k.p('table', 1400, 0, { w: 760, h: 200, z: 3 });
-  k.p('tandem', px, 0, { f: flipped ? 1 : -1, z: 5, L: BIKE.L, rot: (px - 1420) / 108, on: flipped, t: k.t });
-  k.a('OWEN', [[0, 1000], [.8, 1000], [1.5, 1420 + 126], [3.9, 2150 + 126]], { pose: 'pushBike', carry: 'pushBike', expr: 'neutral', look: [.7, 0] });
+  k.p('tandem', px, 0, { f: flipped ? 1 : -1, z: 5, rot: (px - 1420) / 108, on: flipped, t: k.t });
+  k.a('OWEN', [[0, 1000], [.8, 1000], [1.5, 1420 - 228], [3.9, 2150 - 228]], { pose: 'pushBike', carry: 'pushBike', expr: 'neutral', look: [.7, 0] });
   k.a('LEON', 520, { face: 1, expr: 'sad', look: [.7, .1] });
   k.p('door', 2090, 0, { z: 3 });
 } });
@@ -167,20 +167,20 @@ def('S119', { camFn: (lt) => [lerp(-1200, 1150, sm(prog(lt, .3, 2.4))), .9, 884,
   crowd(k, { def: () => ({ look: [-.7, 0] }) });
 } });
 def('S120', { cam: [[1160, 1.15, 884], [1180, 1.25, 884]], fn(k) {
-  const ph = k.lt * 7; owenTable(k, { on: k.lt > 3.2, rot: ph * 2 });
+  const ph = k.lt * 7; owenTable(k, { on: k.lt > 3.2, ph: ph });
   const r = ride(k, 'LEON', true, ph); k.a('LEON', r.X, { y: r.Y, face: -1, pose: r.pose, expr: 'happy', look: [-.8, 0], still: true });
   const owenIn = k.lt > 1.0; const r2 = ride(k, 'OWEN', false, ph); if (owenIn) k.a('OWEN', r2.X, { y: r2.Y, face: -1, pose: r2.pose, expr: 'smirk', look: [-.8, 0], still: true }); else k.a('OWEN', 1560, { face: -1, expr: 'smirk', look: [-.8, 0] });
   crowd(k, { def: () => ({ look: [-.6, 0] }) });
 } });
 def('S123', { cam: [[1000, .95, 884], [1100, 1.0, 884]], fn(k) {
-  owenTable(k, { on: true, rot: k.t * 10 });
+  owenTable(k, { on: true, ph: k.lt * 7 });
   const rs = crowd(k, { stand: (r, i, n) => n % 2 === 0, def: (r, i, n) => ({ pose: n % 2 === 0 ? 'reach' : 'phone', expr: 'worried', look: [-.5, 0] }) });
   k.push(80, (c) => { rs.forEach((r, i) => { c.save(); c.beginPath(); c.moveTo(r.hand[0], r.hand[1]); c.quadraticCurveTo((r.hand[0] + BIKE.x) / 2, r.hand[1] + 220 + rnd(i) * 80, BIKE.x, -170); c.lineWidth = 6; c.strokeStyle = '#111'; c.stroke(); c.lineWidth = 2.5; c.strokeStyle = '#ffd23f'; c.stroke(); c.restore(); }); });
   rs.forEach((r, i) => { if (i % 3 === 0) k.p('phone', r.hand[0], r.hand[1] - 30, { z: 75, pct: '1%', s: 1 }); });
   const ph = k.lt * 7, r = ride(k, 'LEON', true, ph); k.a('LEON', r.X, { y: r.Y, face: -1, pose: r.pose, expr: 'happy', look: [-.8, 0], still: true }); const r2 = ride(k, 'OWEN', false, ph); k.a('OWEN', r2.X, { y: r2.Y, face: -1, pose: r2.pose, expr: 'smirk', look: [-.8, 0], still: true });
 } });
 def('S124', { cam: [[1180, 1.1, 884], [1160, 1.2, 884]], fn(k) {
-  const ph = k.lt * 8; owenTable(k, { on: true, rot: ph * 2 });
+  const ph = k.lt * 8; owenTable(k, { on: true, ph: ph });
   const r = ride(k, 'LEON', true, ph); const L = k.a('LEON', r.X, { y: r.Y, face: -1, pose: r.pose, expr: 'happy', look: 'up', still: true }); const r2 = ride(k, 'OWEN', false, ph); k.a('OWEN', r2.X, { y: r2.Y, face: -1, pose: r2.pose, expr: 'happy', look: 'up', still: true });
   k.push(40, (c) => { for (let i = 0; i < 12; i++) { const a = i / 12 * 6.283 + k.t * .5; line(c, [[L.head[0] + Math.cos(a) * 200, -620 + Math.sin(a) * 200], [L.head[0] + Math.cos(a) * 520, -620 + Math.sin(a) * 520]], 10, 'rgba(255,215,60,.55)'); } });
   crowd(k, { def: () => ({ expr: 'surprised', look: 'up' }) });

@@ -1,6 +1,12 @@
 // Предметы ролика 13. Сигнатура: (c, x, y, o) — x,y опорная точка (чаще низ по центру), o.f направление, o.s масштаб, o.t время.
-import { registerProps, rect, circ, poly, line, rr, outline, stext, ptext, wrapText, dots, clamp, lerp, sm, eo, back, prog, rnd, FONT, burst, dog } from "/hybrid13/engine13.js";
+import { registerProps, rect, circ, poly, line, rr, outline, stext, ptext, wrapText, dots, clamp, lerp, sm, eo, back, prog, rnd, FONT, burst, dog, TANDEM_IMG } from "/hybrid13/engine13.js";
 import { clock } from "/hybrid13/places13.js";
+
+// геометрия тандема в пикселях спрайта (нос влево)
+export const TD = { S: .42, cx: 768, gy: 840, hubF: [590, 642], hubR: [1010, 642], crank: 75, sadF: [680, 248], sadR: [1140, 253], gripF: [455, 183], gripR: [985, 205] };
+// мировые точки тандема: bx — середина, f — направление (-1 нос влево), ph — угол кривошипов
+export function tandemPts(bx, f, ph) { const g = -f, W = (p) => [bx + g * (p[0] - TD.cx) * TD.S, (p[1] - TD.gy) * TD.S], ped = (h, s) => { const w = W(h); return [w[0] + g * Math.cos(ph) * TD.crank * TD.S * s, w[1] + Math.sin(ph) * TD.crank * TD.S * s]; };
+  return { sadF: W(TD.sadF), sadR: W(TD.sadR), gripF: W(TD.gripF), gripR: W(TD.gripR), pedF: ped(TD.hubF, 1), pedF2: ped(TD.hubF, -1), pedR: ped(TD.hubR, 1), pedR2: ped(TD.hubR, -1) }; }
 
 const heartPath = (c, x, y, r) => { c.beginPath(); c.moveTo(x, y + r * .9); c.bezierCurveTo(x - r * 1.6, y - r * .1, x - r * .9, y - r * 1.3, x, y - r * .5); c.bezierCurveTo(x + r * .9, y - r * 1.3, x + r * 1.6, y - r * .1, x, y + r * .9); c.closePath(); };
 export const heart = (c, x, y, r, fill = '#ff3b6b', lw = 6) => { heartPath(c, x, y, r); outline(c, fill, lw); };
@@ -48,17 +54,15 @@ registerProps({
   calendar(c, x, y, o) { c.save(); c.translate(x, y); c.rotate(o.rot || 0); const s = o.s || 1; c.scale(s, s); rect(c, -220, -200, 440, 400, '#fffdf2', 18, 10); rect(c, -220, -200, 440, 80, '#e0242b', 18, 10); ptext(c, 'WEEK', 0, -160, 44, '#fff'); const d = ['MON', 'TUE', 'WED', 'THU', 'FRI']; d.forEach((n, i) => { const cx = -170 + i * 85; ptext(c, n, cx, -80, 22, '#12213d'); rect(c, cx - 36, -50, 72, 190, '#f1ece0', 6, 5); }); if (o.hi) { const cx = -170 + 3 * 85; circ(c, cx, 40, 54, 'rgba(0,0,0,0)', 0); c.beginPath(); c.ellipse(cx, 45, 52, 112, 0, 0, 7); c.lineWidth = 12; c.strokeStyle = '#e0242b'; c.stroke(); ptext(c, 'PARTNER', cx, 45, 17, '#e0242b'); } c.restore(); },
   box(c, x, y, o) { c.save(); c.translate(x, y); const s = o.s || 1; c.scale(s, s); rect(c, -64, -84, 128, 84, '#9aa6b5', 8, 9); rect(c, -64, -84, 128, 22, '#7b8696', 8, 8); for (let i = 0; i < 4; i++) line(c, [[-44 + i * 28, -48], [-44 + i * 28, -14]], 4, '#4a5260'); circ(c, 44, -44, 10, o.on ? ((Math.sin((o.t || 0) * 9) > 0) ? '#4cff7a' : '#27a85a') : '#7a1018', 5); if (o.on) { c.save(); c.globalAlpha = .4; circ(c, 44, -44, 26, '#4cff7a', 0); c.restore(); } c.restore(); },
   wrench(c, x, y, o) { c.save(); c.translate(x, y); c.rotate(o.rot ?? -.8); rect(c, -7, -66, 14, 76, '#9aa6b5', 4, 6); c.beginPath(); c.arc(0, -72, 20, .6, 5.7); c.lineWidth = 15; c.strokeStyle = '#111'; c.stroke(); c.lineWidth = 8; c.strokeStyle = '#9aa6b5'; c.stroke(); c.restore(); },
-  tandem(c, x, y, o) { // ржавый тандем, нос влево/вправо по o.f; x,y — земля под серединой; длина ≈ 2 роста Leon
-    const f = o.f ?? -1, rot = o.rot || 0, L = o.L || 270; c.save(); c.translate(x, y); c.scale(f, 1); const R = 108;
-    const wheel = (wx) => { c.save(); c.translate(wx, -R); c.beginPath(); c.arc(0, 0, R, 0, 7); c.lineWidth = 16; c.strokeStyle = '#111'; c.stroke(); c.lineWidth = 8; c.strokeStyle = '#8a5a3a'; c.stroke(); c.rotate(rot); for (let i = 0; i < 12; i++) { c.rotate(Math.PI / 6); line(c, [[0, 0], [R - 6, 0]], 3, '#7b8696'); } circ(c, 0, 0, 14, '#8a5a3a', 6); c.restore(); };
-    wheel(L); wheel(-L); const pts = { rear: [-L, -R], front: [L, -R], bb: [0, -R * .9], seatF: [L * .42, -R * 1.78], seatB: [-L * .42, -R * 1.78], barF: [L * .86, -R * 2.05] };
-    line(c, [pts.rear, pts.bb, pts.front], 18, '#111'); line(c, [pts.rear, pts.bb, pts.front], 9, '#a44a2a'); line(c, [pts.seatB, pts.bb, pts.seatF], 14, '#111'); line(c, [pts.seatB, pts.bb, pts.seatF], 6, '#a44a2a'); line(c, [pts.seatB, pts.seatF], 14, '#111'); line(c, [pts.seatB, pts.seatF], 6, '#a44a2a'); line(c, [pts.front, pts.barF], 14, '#111'); line(c, [pts.front, pts.barF], 6, '#7b8696'); line(c, [[pts.barF[0] - 22, pts.barF[1] - 6], [pts.barF[0] + 22, pts.barF[1] + 6]], 12);
-    rect(c, pts.seatF[0] - 38, pts.seatF[1] - 20, 76, 22, '#3a2a1e', 9, 7); rect(c, pts.seatB[0] - 38, pts.seatB[1] - 20, 76, 22, '#3a2a1e', 9, 7);
-    // педали
-    const ang = rot; for (const k2 of [1, -1]) { const px = Math.cos(ang) * 40 * k2, py = Math.sin(ang) * 40 * k2; line(c, [[0, -R * .9], [px, -R * .9 + py]], 8); rect(c, px - 20, -R * .9 + py - 7, 40, 14, '#111', 4, 5); }
-    // коробка между седлами + провод к заднему колесу
-    c.save(); c.translate(-L * .02, -R * 1.62); rect(c, -62, -66, 124, 62, '#9aa6b5', 8, 8); rect(c, -62, -66, 124, 16, '#7b8696', 6, 7); for (let i = 0; i < 4; i++) line(c, [[-42 + i * 28, -36], [-42 + i * 28, -12]], 4, '#4a5260'); const on = o.on; circ(c, 36, -38, 9, on ? (Math.sin((o.t || 0) * 9) > 0 ? '#4cff7a' : '#27a85a') : '#7a1018', 5); if (on) { c.save(); c.globalAlpha = .45; circ(c, 36, -38, 24, '#4cff7a', 0); c.restore(); } c.restore();
-    c.beginPath(); c.moveTo(-L * .02 - 50, -R * 1.62 - 6); c.bezierCurveTo(-L * .5, -R * 1.4, -L * .7, -R * 1.1, -L, -R); c.lineWidth = 8; c.strokeStyle = '#111'; c.stroke(); c.lineWidth = 3; c.strokeStyle = '#ffd23f'; c.stroke();
+  tandem(c, x, y, o) { // тандем-картинка (OpenAI) + кодовые педали/цепные звёзды/лампочка; нос влево при f=-1; x — середина между колёсами, y — земля
+    const f = o.f ?? -1, a = o.ph ?? o.rot ?? 0, S = TD.S; c.save(); c.translate(x, y); c.scale(-f, 1);
+    const P = (sx, sy) => [(sx - TD.cx) * S, (sy - TD.gy) * S];
+    c.drawImage(TANDEM_IMG, P(0, 0)[0], P(0, 0)[1], 1536 * S, 1024 * S);
+    for (const h of [TD.hubF, TD.hubR]) { const [hx, hy] = P(h[0], h[1]); const R0 = TD.crank * S;
+      c.beginPath(); c.arc(hx, hy, 64 * S, 0, 7); c.fillStyle = '#9aa1ab'; c.fill(); c.lineWidth = 4; c.strokeStyle = '#111'; c.stroke(); c.beginPath(); c.arc(hx, hy, 40 * S, 0, 7); c.lineWidth = 3; c.stroke();
+      for (const q of [1, -1]) { const px = hx + Math.cos(a) * R0 * q, py = hy + Math.sin(a) * R0 * q; line(c, [[hx, hy], [px, py]], 9 * S + 4, '#111'); line(c, [[hx, hy], [px, py]], 9 * S, '#b9c0c9'); rect(c, px - 17 * S * 1.3, py - 5.5 * S * 1.3, 34 * S * 1.3, 11 * S * 1.3, '#111', 3, 4); }
+      circ(c, hx, hy, 9 * S + 2, '#6b7380', 3); }
+    if (o.on) { const [lx, ly] = P(820, 375); const g = Math.sin((o.t || 0) * 9) > 0; circ(c, lx, ly, 15 * S * 1.6, g ? '#4cff7a' : '#27a85a', 3); c.save(); c.globalAlpha = .4; circ(c, lx, ly, 26, '#4cff7a', 0); c.restore(); }
     c.restore();
   },
   van(c, x, y, o) { c.save(); c.translate(x, y); c.scale(o.f ?? 1, 1); const L = 520; rect(c, -L / 2, -230, L, 230, '#f5f7fa', 22, 10); rect(c, L / 2 - 160, -230, 160, 150, '#bfe6ff', 18, 9); rect(c, -L / 2 + 30, -190, 240, 100, '#e0242b', 10, 8); stext(c, 'NEWS', -L / 2 + 150, -140, 70, '#fff', 0, 1, '#111', false); circ(c, -L / 2 + 110, 0, 52, '#2b2b33', 9); circ(c, L / 2 - 110, 0, 52, '#2b2b33', 9); circ(c, -L / 2 + 110, 0, 20, '#9aa6b5', 5); circ(c, L / 2 - 110, 0, 20, '#9aa6b5', 5); line(c, [[0, -230], [0, -290]], 8); c.save(); c.translate(0, -300); c.rotate(.2); c.scale(1, .5); c.beginPath(); c.arc(0, 0, 80, 0, 7); c.restore(); c.save(); c.translate(0, -300); c.rotate((o.t || 0) * 2); c.beginPath(); c.ellipse(0, 0, 90, 28, 0, 0, 7); outline(c, '#d8dee6', 7); c.restore(); circ(c, L / 2 - 8, -30, 14, '#ffd23f', 5); c.restore(); },
