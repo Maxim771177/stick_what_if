@@ -78,7 +78,7 @@ def('S140', { cam: [[-100, 1.0, 884], [100, 1.05, 884]], fn(k) {
 def('S142', { cam: [[300, 1.15, 892], [330, 1.25, 892]], fn(k) {
   kitchen(k); k.push(20, (c) => { dog(c, 300, 0, { pose: 'sit', f: -1, t: k.t, k: 1.3 }); c.save(); c.translate(236, -74); circ(c, 0, 0, 22, '#ffd23f', 6); ptext(c, '$', 0, 2, 26, '#9a6a00'); c.restore(); });
   k.num({ head: [300, -220], top: [300, -260], se: 1 }, '$999,000,000,000', { fs: 64, up: 10 });
-  const pulse = 1 + .05 * Math.sin(k.t * 9); k.push(70, (c) => { c.save(); c.translate(760, -330); c.scale(pulse, pulse); rect(c, -190, -50, 380, 100, '#e0242b', 22, 10); c.beginPath(); c.moveTo(-130, -20); c.lineTo(-130, 20); c.lineTo(-100, 0); c.closePath(); outline(c, '#fff', 4); stext(c, 'SUBSCRIBE', 28, 4, 46, '#fff', 0, 1, '#111', false); c.restore(); });
+  const pulse = 1 + .05 * Math.sin(k.t * 9); k.push(70, (c) => { c.save(); c.translate(900, -470); c.scale(pulse, pulse); rect(c, -190, -50, 380, 100, '#e0242b', 22, 10); c.beginPath(); c.moveTo(-130, -20); c.lineTo(-130, 20); c.lineTo(-100, 0); c.closePath(); outline(c, '#fff', 4); stext(c, 'SUBSCRIBE', 28, 4, 46, '#fff', 0, 1, '#111', false); c.restore(); });
   k.a('LEON', 560, { face: -1, expr: 'smile', look: [-.6, .1] });
 } });
 
