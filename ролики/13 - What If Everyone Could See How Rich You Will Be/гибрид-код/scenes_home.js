@@ -124,9 +124,9 @@ def('S057', { cam: [[80, 1.2, 890], [100, 1.3, 890]], fn(k) {
   k.a('LEON', -280, { face: 1, expr: 'smile', look: [.6, -.2] });
 } });
 def('S058', { cam: [[40, 1.25, 890], [60, 1.34, 890]], fn(k) {
-  garage(k); k.a('OWEN', 24, { face: 1, pose: 'stand', expr: 'neutral', look: [[0, [.5, -.4]], [1, [-.8, .1]]] });
+  garage(k); k.a('OWEN', 90, { face: 1, pose: 'stand', expr: 'neutral', look: [[0, [.5, -.4]], [1, [-.8, .1]]] });
   const L = k.a('LEON', -210, { face: 1, pose: 'holdFront', expr: 'neutral', look: [.7, -.2] });
-  k.p('wrench', L.hand[0] + 4, L.hand[1] + 4, { z: 70, rot: -.8 });
+  k.p('wrench', L.hand[0] + 6, L.hand[1] + 100, { z: 70, rot: -.05, s: 1.3 });
 } });
 def('S059', { cam: [[40, 1.2, 890], [60, 1.3, 890]], fn(k) {
   garage(k); k.a('OWEN', 24, { face: 1, pose: 'stand', expr: 'surprised', look: [-.8, -.8] }); k.a('LEON', -210, { face: 1, pose: 'cheer', expr: 'surprised', look: 'up', bob: 6 });
