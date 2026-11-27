@@ -55,7 +55,7 @@ def('S137', { cam: [[-420, 1.0, 884], [-280, 1.05, 884]], fn(k) {
 } });
 def('S138', { cam: [[560, 1.0, 884], [720, 1.04, 884]], fn(k) {
   kitchen(k); k.p('doorFrame', 1390, 0, { z: 3, col: '#7aa0c8', open: 1 });
-  const pu = back(prog(k.lt, .5, 1.1)); k.push(60, (c) => { c.save(); c.translate(1390, -700); c.scale(pu, pu); c.save(); c.globalAlpha = .6; const g = c.createRadialGradient(0, 0, 10, 0, 0, 380); g.addColorStop(0, 'rgba(255,225,90,.9)'); g.addColorStop(1, 'rgba(255,225,90,0)'); c.fillStyle = g; c.fillRect(-420, -200, 840, 400); c.restore(); stext(c, '$999,000,000,000', 0, 0, 92, '#ffd23f', 0, 1); c.restore(); });
+  const pu = back(prog(k.lt, .5, 1.1)); k.push(60, (c) => { c.save(); c.translate(1180, -700); c.scale(pu * .8, pu * .8); c.save(); c.globalAlpha = .6; const g = c.createRadialGradient(0, 0, 10, 0, 0, 380); g.addColorStop(0, 'rgba(255,225,90,.9)'); g.addColorStop(1, 'rgba(255,225,90,0)'); c.fillStyle = g; c.fillRect(-420, -200, 840, 400); c.restore(); stext(c, '$999,000,000,000', 0, 0, 92, '#ffd23f', 0, 1); c.restore(); });
   k.push(30, (c) => { c.save(); c.globalAlpha = .55; c.fillStyle = '#000'; c.beginPath(); c.ellipse(1390, -4, 90, 14, 0, 0, 7); c.fill(); c.restore(); ptext(c, '?', 1390, -150, 150, 'rgba(255,255,255,.8)'); });
   k.a('MOM', 140, { face: 1, expr: 'neutral', look: [.7, -.5] }); k.a('DAD', 380, { face: 1, expr: 'neutral', look: [.7, -.5] });
 } });

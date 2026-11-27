@@ -8,7 +8,7 @@ const gyS = (z) => 880 + 190 * z;                // камера, у котор�
 const ik = (a, b, L1, L2, dir) => { const dx = b[0] - a[0], dy = b[1] - a[1]; const d = Math.min(Math.hypot(dx, dy), L1 + L2 - .5); const ang = Math.atan2(dy, dx) - dir * Math.acos(clamp((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1)); return [a[0] + Math.cos(ang) * L1, a[1] + Math.sin(ang) * L1]; };
 // тандем в спортзале: стол Owen у дальней стены справа, передним колесом влево
 const BIKE = { x: 1400 };
-const owenTable = (k, o = {}) => { k.p('table', 1400, 0, { w: 760, h: 200, z: 3 }); k.p('tandem', BIKE.x, 0, { f: -1, z: 5, ph: o.ph || 0, on: o.on, t: k.t }); if (o.sign !== false) k.p('sign', 1650, -200, { z: 6, text: o.signText || 'OWEN · TABLE 14', w: 190, h: 120, rot: .04 }); };
+const owenTable = (k, o = {}) => { k.p('table', 1400, 0, { w: 760, h: 200, z: 3 }); k.p('tandem', BIKE.x, 0, { f: -1, z: 5, ph: o.ph || 0, on: o.on, t: k.t }); if (o.sign !== false) k.p('sign', 1650, -200, { z: 6, text: o.signText || 'OWEN · TABLE 12', w: 190, h: 120, rot: .04 }); };
 // велопоза: rider на седле (front: переднее, f=-1 едем влево), фаза педалей
 function ride(k, id, front, phase, o = {}) {
   const se = (id === 'LEON' ? 1.55 * .86 : 1.55 * 1.12 * .72), f = -1, B = tandemPts(BIKE.x, f, phase), sad = front ? B.sadF : B.sadR, X = sad[0], Y = sad[1] + 72 * se;
@@ -99,7 +99,7 @@ def('S105', { cam: [[620, .85, 884], [700, .9, 884]], fn(k) {
   for (let i = 0; i < 5; i++) k.p('flash', 700 + rnd(i) * 900, -200 - rnd(i + 3) * 400, { z: 90, i });
 } });
 def('S106', { cam: [[1250, 1.05, 884], [1230, 1.12, 884]], fn(k) {
-  owenTable(k, { signText: 'OWEN · TABLE 14' }); k.a('OWEN', 1130, { face: -1, pose: 'stand', expr: 'sad', look: [-.5, .5] });
+  owenTable(k, { signText: 'OWEN · TABLE 12' }); k.a('OWEN', 1130, { face: -1, pose: 'stand', expr: 'sad', look: [-.5, .5] });
   k.a('A0', [[0, 600], [4, 1000]], { face: 1, expr: 'joy', look: [.8, 0], pose: 'stand' }); k.a('A1', [[0, 480], [4, 880]], { face: 1, expr: 'joy', look: [.8, 0] });
 } });
 def('S107', { cam: [[1000, 1.25, 884], [980, 1.32, 884]], fn(k) {
@@ -187,17 +187,14 @@ def('S124', { cam: [[1180, 1.1, 884], [1160, 1.2, 884]], fn(k) {
 } , numUp: 40 });
 def('S125', { clock: [4, 0], cam: [[1000, 1.0, 884], [1040, 1.05, 884]], fn(k) {
   owenTable(k, { signText: 'TABLE 12' });
-  const L = k.a('LEON', 880, { face: 1, expr: 'smile', look: 'up' }), O = k.a('OWEN', 1040, { face: -1, expr: 'smile', look: 'up' });
+  const L = k.a('LEON', 760, { face: 1, expr: 'smile', look: 'up' }), O = k.a('OWEN', 1060, { face: -1, expr: 'smile', look: 'up' });
   const nv = (t) => fmtVal(61e9);
-  k.sc.owenNum = true; const N = (r, dx) => k.push(60, (c) => drawNum(c, r.head[0] + dx, r.top[1] - 70 * r.se - 33, fmtVal(Math.round(41e9)), { t: k.t, fs: 54, k: sm(prog(k.lt, .2, .8)) }));
-  N(O, 0);
-}, numFs: 54 });
+}, mirror: true, numFs: 50, numDx: -40, deltaDx: -330 });
 def('S126', { cam: [[960, 1.0, 884], [980, 1.05, 884]], fn(k) {
   owenTable(k, { signText: 'TABLE 12' });
-  const L = k.a('LEON', 860, { face: 1, expr: 'happy', look: 'up' }), O = k.a('OWEN', 1060, { face: -1, expr: 'happy', look: 'up' });
-  const v = lerp(48e9, 118e9, sm(prog(k.lt, 0, 5.4))); k.push(60, (c) => drawNum(c, O.head[0], O.top[1] - 70 * O.se - 33, fmtVal(v), { t: k.t, fs: 54 }));
-  k.push(61, (c) => { for (const r of [L, O]) { c.save(); c.translate(r.head[0] + 180, r.top[1] - 90); const s = 1 + .1 * Math.sin(k.t * 8); c.scale(s, s); poly(c, [[0, -34], [28, 4], [10, 4], [10, 34], [-10, 34], [-10, 4], [-28, 4]], '#3fdc55', 6); c.restore(); } });
-}, numFs: 54 });
+  const L = k.a('LEON', 760, { face: 1, expr: 'happy', look: 'up' }), O = k.a('OWEN', 1060, { face: -1, expr: 'happy', look: 'up' });
+  k.push(61, (c) => { for (const r of [O]) { c.save(); c.translate(r.head[0] + 330, r.top[1] - 100); const s = 1 + .1 * Math.sin(k.t * 8); c.scale(s, s); poly(c, [[0, -34], [28, 4], [10, 4], [10, 34], [-10, 34], [-10, 4], [-28, 4]], '#3fdc55', 6); c.restore(); } });
+}, mirror: true, numFs: 50, numDx: -40, deltaDx: -330 });
 def('S129', { cam: [[620, 1.1, 884], [660, 1.18, 884]], fn(k) {
   const C = k.a('CHASE', 460, { face: 1, pose: [[0, 'stand'], [.7, 'reach']], expr: 'sad', look: [.6, .3], talk: k.lt > 1.2 && k.lt < 3.8 }); k.p('notebookOpen', C.hand[0] + 6, C.hand[1] + 6, { z: 70, p: 1, s: .8 });
   k.a('LEON', 780, { face: -1, expr: 'neutral', look: [-.5, 0] }); k.a('OWEN', 960, { face: -1, expr: 'neutral', look: [-.5, 0] });

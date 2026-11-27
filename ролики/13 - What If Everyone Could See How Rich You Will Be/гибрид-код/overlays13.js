@@ -5,6 +5,15 @@ const CAPCOL = ['#ffd23f', '#19c8b3', '#ff7eb6', '#ff9c3a', '#9be15d', '#8ab6ff'
 const pop = (t, a, d = .3) => back(prog(t, a, a + d));
 const LIFE = { cap: 2.9, card: 3.6, boom: 1.15, say: 3.4, plate: 4.6 };
 
+
+// зоны, которые стикеры не должны закрывать: число над Leon и головы (экранные прямоугольники)
+function zones(k, cm) { const z = []; if (k.numRect) z.push(k.numRect); for (const id in k.heads) { if (/^[KA]\d/.test(id)) continue; const h = k.heads[id]; if (!h || !h.head) continue; const [hx, hy] = toScreen(cm, h.head[0], h.head[1]); const r = (h.hr || 50) * cm.z * 1.05; if (hx > -r && hx < W + r) z.push({ x0: hx - r, x1: hx + r, y0: hy - r, y1: hy + r }); } return z; }
+const hit = (z, cx, cy, w, h) => z.some((q) => cx + w / 2 > q.x0 && cx - w / 2 < q.x1 && cy + h / 2 > q.y0 && cy - h / 2 < q.y1);
+// подвинуть стикер (центр cx,cy, размер w,h) в ближайшее место, где он не закрывает зоны; dx — можно ли двигать по горизонтали
+function fit(Z, cx, cy, w, h, dx = false) { if (!hit(Z, cx, cy, w, h)) return [cx, cy]; let best = null, bd = 1e9; const xs = dx ? [0, -80, 80, -160, 160, -260, 260, -380, 380] : [0];
+  for (const ox of xs) for (let y = h / 2 + 20; y <= HT - h / 2 - 20; y += 16) { const x = clamp(cx + ox, w / 2 + 20, W - w / 2 - 20); if (hit(Z, x, y, w, h)) continue; const d = Math.hypot(x - cx, (y - cy) * 1.0) + Math.abs(ox) * .3; if (d < bd) { bd = d; best = [x, y]; } }
+  return best || [cx, cy]; }
+
 export function textState(sc, t) {
   // живые тексты сцены: [{tx, age, k(0..1 появление), out(0..1 исчезновение)}]
   const live = []; const txs = sc.texts.filter((x) => x.k !== 'num');
@@ -16,7 +25,7 @@ export function textState(sc, t) {
 }
 
 export function drawOverlays(c, k, sc, t) {
-  const live = textState(sc, t), cm = k.cam; const hud = live.find((l) => l.tx.k === 'hud');
+  const live = textState(sc, t), cm = k.cam; const Z = zones(k, cm); const hud = live.find((l) => l.tx.k === 'hud');
   const slotY = hud ? 285 : 150; let slotUsed = 0;
   c.setTransform(1, 0, 0, 1, 0, 0);
   // hud
@@ -26,7 +35,7 @@ export function drawOverlays(c, k, sc, t) {
   for (const l of live) if (l.tx.k === 'plate') {
     const s = l.tx.s, ws = s.split(' '), n = Math.max(1, Math.round(prog(l.age, 0, .7) * ws.length + .49)); const shown = ws.slice(0, n).join(' ');
     c.save(); const big = s.length > 30; let fs = big ? 96 : 84; c.font = `${fs}px ${FONT}`; const maxW = big ? 1450 : 1500; const lines = wrapText(c, s, maxW, fs, FONT); while (lines.length > 1 && !big) { fs -= 6; lines.splice(0, lines.length, ...wrapText(c, s, maxW, fs, FONT)); if (fs < 56) break; }
-    c.font = `${fs}px ${FONT}`; const lw = Math.max(...lines.map((x) => c.measureText(x).width)), ph = lines.length * fs * 1.12 + 44, pw = lw + 110; const cy = big ? 330 : slotY + slotUsed * 0; const kk = l.k * l.out; c.translate(960, cy + ph / 2 - 40); c.rotate(-.012); c.scale(kk, kk);
+    c.font = `${fs}px ${FONT}`; const lw = Math.max(...lines.map((x) => c.measureText(x).width)), ph = lines.length * fs * 1.12 + 44, pw = lw + 110; const cy = big ? 330 : slotY + slotUsed * 0; const kk = l.k * l.out; { const [fx, fy] = fit(Z, 960, cy + ph / 2 - 40, pw, ph); c.translate(fx, fy); } c.rotate(-.012); c.scale(kk, kk);
     rr(c, -pw / 2, -ph / 2, pw, ph, 28); c.lineWidth = 20; c.strokeStyle = '#fff'; c.stroke(); outline(c, '#12213d', 10);
     // золотая полоска
     c.beginPath(); c.roundRect(-pw / 2 + 14, -ph / 2 + 12, pw - 28, 8, 4); c.fillStyle = '#ffd23f'; c.fill();
@@ -37,20 +46,20 @@ export function drawOverlays(c, k, sc, t) {
   // card
   for (const l of live) if (l.tx.k === 'card') {
     const s = l.tx.s; c.save(); const fs = 58; c.font = `${fs}px ${FONT}`; const lines = wrapText(c, s, 1250, fs, FONT); c.font = `${fs}px ${FONT}`; const lw = Math.max(...lines.map((x) => c.measureText(x).width)); const ph = lines.length * fs * 1.1 + 40, pw = lw + 100;
-    const y0 = slotUsed ? slotY + 150 : slotY + 10; const kk = l.k * l.out; c.translate(960, y0 + ph / 2); c.rotate(.01); c.scale(kk, kk);
+    const y0 = slotUsed ? slotY + 150 : slotY + 10; const kk = l.k * l.out; { const [fx, fy] = fit(Z, 960, y0 + ph / 2, pw, ph); c.translate(fx, fy); } c.rotate(.01); c.scale(kk, kk);
     rr(c, -pw / 2, -ph / 2, pw, ph, 20); c.lineWidth = 18; c.strokeStyle = '#fff'; c.stroke(); outline(c, '#fff8e0', 9); c.beginPath(); c.roundRect(-pw / 2 + 10, -ph / 2 + 10, 14, ph - 20, 6); c.fillStyle = '#e0242b'; c.fill();
     lines.forEach((ln, i) => stext(c, ln, 12, (i - (lines.length - 1) / 2) * fs * 1.1 + 3, fs, '#12213d', 0, 1, '#111', false)); c.restore(); slotUsed++;
   }
   // cap
   const caps = live.filter((l) => l.tx.k === 'cap'); caps.forEach((l, j) => {
     const s = l.tx.s, top = sc.capTop ?? (cm.z > 1.35); const kk = l.k * l.out; const col = CAPCOL[(l.i + sc.id.length) % CAPCOL.length]; c.save(); const fs = s.length > 22 ? 60 : 68; c.font = `${fs}px ${FONT}`; const w = Math.min(1700, c.measureText(s).width + 110);
-    const cy = top ? (slotUsed ? slotY + 170 : slotY + 40) + (caps.length - 1 - j) * 0 : 992 - (caps.length - 1 - j) * 96; const cx = (sc.capX ?? 960); c.translate(cx, cy); c.rotate((rnd(l.i + 3) - .5) * .06); c.scale(kk, kk);
+    const cy = top ? (slotUsed ? slotY + 170 : slotY + 40) + (caps.length - 1 - j) * 0 : 992 - (caps.length - 1 - j) * 96; const cx0 = (sc.capX ?? 960); const [cx, cy2] = fit(Z, cx0, cy, w, 100); c.translate(cx, cy2); c.rotate((rnd(l.i + 3) - .5) * .06); c.scale(kk, kk);
     rr(c, -w / 2, -48, w, 96, 26); c.lineWidth = 18; c.strokeStyle = '#fff'; c.stroke(); outline(c, col, 9); c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = '#111'; c.font = `${fs}px ${FONT}`; c.fillText(s, 0, 4); c.restore();
   });
   // boom
   for (const l of live) if (l.tx.k === 'boom') {
     const [bx, by] = sc.boom || [1450, 360]; const kk = l.k * l.out; const s = l.tx.s; const cols = ['#ffd23f', '#ff6b3d', '#ff5fa2', '#3fdc9d']; const col = cols[l.i % 4]; const fs = s.length > 8 ? 70 : 92; const r = Math.max(170, s.length * 18 + 110);
-    burst(c, bx, by, r, 10, col, -.15 + l.age * .12, kk); stext(c, s, bx, by, fs, '#fff', -.12, kk);
+    const [bx2, by2] = fit(Z, bx, by, r * 1.3, r * 1.3, true); burst(c, bx2, by2, r, 10, col, -.15 + l.age * .12, kk); stext(c, s, bx2, by2, fs, '#fff', -.12, kk);
   }
   // say: облачко сбоку от головы говорящего
   for (const l of live) if (l.tx.k === 'say') {
