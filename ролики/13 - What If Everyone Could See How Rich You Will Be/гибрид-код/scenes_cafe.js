@@ -52,9 +52,9 @@ def('S031', { cam: [[200, 1.1, 886], [380, 1.12, 886]], fn(k) {
 } });
 def('S032', { cam: [[160, 1.32, 890], [190, 1.4, 890]], fn(k) {
   const E8 = k.a('EIGHTH', 400, { face: -1, pose: 'reach', expr: 'smile', look: [-.5, -.2] });
-  const L = k.a('LEON', 90, { face: 1, pose: 'writeAir', expr: k.lt > 2 ? 'worried' : 'smile', look: [.4, .3] });
+  const L = k.a('LEON', 90, { face: 1, pose: 'reach', expr: k.lt > 2 ? 'worried' : 'smile', look: [.4, .3] });
   k.p('paper', E8.hand[0] - 16, E8.hand[1] - 30, { z: 70, w: 100, h: 130, s: .75, rot: -.1, lines: 3 });
-  k.p('pen', L.hand[0] - 6, L.hand[1] + 6, { z: 71, rot: -.5 });
+  k.p('pen', L.hand[0] + 14, L.hand[1] - 10, { z: 71, rot: .6 });
   bgKids(k, ['K0', 'K1'], 640, 110);
 } });
 def('S033', { cam: [[520, 1.2, 890], [560, 1.28, 890]], fn(k) {

@@ -123,8 +123,8 @@ def('S110', { cam: [[-450, .72, 884], [-430, .73, 884]], fn(k) {
   k.a('HALE', 560, { y: 0, face: -1, pose: 'point', expr: 'smirk', look: [-.8, 0], talk: k.lt > .4 && k.lt < 1.7 });
 } });
 def('S111', { camFn: (lt) => [-1300, 1.55, gyS(1.55)], fn(k) {
-  const L = k.a('LEON', -1300, { y: STAGE_Y, face: 1, pose: 'holdFront', expr: 'worried', look: [.5, .9] }); k.p('contract', L.hand[0] + 8, L.hand[1] - 10, { z: 70, s: .85, rot: -.05 });
-  const dip = k.at([[0, 40], [1.6, 40], [2.6, 0]]); k.p('pen', L.hand[0] + 70 - dip * .5, L.hand[1] - 40 + dip * .6, { z: 72, rot: -.5 });
+  const L = k.a('LEON', -1300, { y: STAGE_Y, face: 1, pose: 'holdFront', expr: 'worried', look: [.5, .9] }); k.p('contract', L.hand[0] + 8, L.hand[1] + 50, { z: 70, s: .85, rot: -.05 });
+  const dip = k.at([[0, 40], [1.6, 40], [2.6, 0]]); k.p('pen', L.hand[0] + 95 - dip * .5, L.hand[1] + 40 + dip * .6, { z: 72, rot: -.5 });
 } });
 def('S112', { cam: [[-1100, 1.05, gyS(1.05)], [-1000, 1.1, gyS(1.1)]], fn(k) {
   const L = k.a('LEON', -1300, { y: STAGE_Y, face: 1, pose: 'cheer', expr: 'surprised', look: 'up', bob: 5 }); k.p('contract', L.hand[0], L.hand[1] - 20, { z: 70, s: .75 });
